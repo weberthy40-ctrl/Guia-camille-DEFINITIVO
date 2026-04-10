@@ -1,0 +1,225 @@
+{% extends 'base.html' %}
+{% block content %}
+{% macro render_localized(value) -%}
+  {% if value is mapping %}
+    {{ loc(value) }}
+  {% else %}
+    {{ term(value) }}
+  {% endif %}
+{%- endmacro %}
+
+{% macro render_value(value) -%}
+  {% if value is mapping and ('pt-BR' in value or 'en' in value or 'pt' in value) %}
+    {{ render_localized(value) }}
+  {% elif value is mapping %}
+    <div class="stack-list">
+      {% for sub_key, sub_value in value.items() %}
+        <div class="stack-item">
+          <span class="stack-label">{{ matchup_label(sub_key) }}</span>
+          <div class="stack-value">{{ render_value(sub_value) }}</div>
+        </div>
+      {% endfor %}
+    </div>
+  {% elif value is sequence and value is not string %}
+    <ul class="compact-list compact-list-strong">
+      {% for item in value %}
+        <li>{{ render_value(item) }}</li>
+      {% endfor %}
+    </ul>
+  {% else %}
+    {{ term(value) }}
+  {% endif %}
+{%- endmacro %}
+
+{% macro render_section_cards(section_data) -%}
+  <div class="detail-grid">
+    {% for key, value in section_data.items() %}
+      <article class="detail-card premium-surface-alt">
+        <span class="detail-card-label">{{ matchup_label(key) }}</span>
+        <div class="detail-card-value">{{ render_value(value) }}</div>
+      </article>
+    {% endfor %}
+  </div>
+{%- endmacro %}
+
+{% set difficulty_key = difficulty_label_keys.get(matchup.identity.difficulty, 'matchups.medium') %}
+{% set hero_icon = champion_icon(matchup.identity.champion_slug) %}
+<section class="matchup-hero panel premium-surface">
+  <div class="matchup-hero-main">
+    <a class="back-link" href="{{ url_for('matchups_overview', lang=current_lang) }}">← {{ t('matchup.back') }}</a>
+
+    <div class="matchup-hero-title-row">
+      <div class="matchup-hero-icon-wrap">
+        <img class="matchup-hero-icon" src="{{ hero_icon.src }}" data-fallback-src="{{ hero_icon.fallback }}" alt="{{ matchup.identity.champion_name }}" loading="lazy" decoding="async">
+      </div>
+      <div class="matchup-hero-copy">
+        <p class="section-kicker">{{ t('matchup.context_line') }}</p>
+        <h1>{{ t('matchup.title', champion=matchup.identity.champion_name) }}</h1>
+        <p class="matchup-quick-summary">{{ loc(matchup.identity.quick_summary) }}</p>
+        <div class="matchup-identity-row">
+          <span class="chip">{{ render_localized(matchup.identity.matchup_type) }}</span>
+          <span class="chip">{{ render_localized(matchup.identity.enemy_identity) }}</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <aside class="matchup-hero-side">
+    <div class="hero-metric hero-metric-score">
+      <span>{{ t('common.score') }}</span>
+      <strong>{{ matchup.identity.score }}</strong>
+    </div>
+    <div class="hero-metric hero-metric-difficulty difficulty-{{ matchup.identity.difficulty }}">
+      <span>{{ t('common.difficulty') }}</span>
+      <strong>{{ t(difficulty_key) }}</strong>
+    </div>
+    <div class="hero-metric">
+      <span>{{ t('common.confidence') }}</span>
+      <strong>{{ term(matchup.identity.confidence) }}</strong>
+    </div>
+    <div class="hero-metric">
+      <span>{{ t('common.role') }}</span>
+      <strong>{{ t(role_label_keys.get(role, 'matchups.role_top')) }}</strong>
+    </div>
+    <div class="hero-threat">
+      <span>{{ t('matchup.threat_level') }}</span>
+      <strong>{{ term(matchup.identity.threat_level) }}</strong>
+    </div>
+  </aside>
+</section>
+
+<section class="matchup-toolbar">
+  <div class="action-row">
+    <button class="btn" type="button" data-open-all>{{ t('matchup.open_all') }}</button>
+    <button class="btn" type="button" data-close-all>{{ t('matchup.close_all') }}</button>
+  </div>
+</section>
+
+<div class="matchup-accordion-stack">
+  <details class="accordion matchup-accordion" open>
+    <summary><span>{{ t('section.lane') }}</span><span class="accordion-indicator">+</span></summary>
+    <div class="accordion-body matchup-accordion-body">{{ render_section_cards(matchup.lane_phase) }}</div>
+  </details>
+
+  <details class="accordion matchup-accordion">
+    <summary><span>{{ t('section.runes') }}</span><span class="accordion-indicator">+</span></summary>
+    <div class="accordion-body matchup-accordion-body">
+      {% if matchup.runes.recommended_pages is defined %}
+        <div class="rune-page-grid matchup-rune-grid">
+          {% for page in matchup.runes.recommended_pages %}
+            <article class="rune-page-card premium-surface-alt matchup-rune-card">
+              <div class="rune-page-head">
+                <h3>{{ loc(page.page_name) }}</h3>
+                <span class="chip">{{ loc(page.keystone) }}</span>
+              </div>
+              <div class="rune-lines">
+                <div class="rune-line"><span class="stack-label">{{ loc(page.primary_tree) }}</span><span>{% for rune in page.primary_slots %}{{ render_localized(rune) }}{% if not loop.last %} • {% endif %}{% endfor %}</span></div>
+                <div class="rune-line"><span class="stack-label">{{ loc(page.secondary_tree) }}</span><span>{% for rune in page.secondary_slots %}{{ render_localized(rune) }}{% if not loop.last %} • {% endif %}{% endfor %}</span></div>
+                <div class="rune-line"><span class="stack-label">Shards</span><span>{% for shard in page.shards %}{{ render_localized(shard) }}{% if not loop.last %} • {% endif %}{% endfor %}</span></div>
+              </div>
+              <p class="detail-card-value">{{ loc(page.reason) }}</p>
+              <p class="muted rune-page-note">{{ loc(page.when) }}</p>
+            </article>
+          {% endfor %}
+        </div>
+      {% endif %}
+      <div class="detail-grid matchup-support-grid">
+        {% for key, value in matchup.runes.items() if key != 'recommended_pages' %}
+          <article class="detail-card premium-surface-alt">
+            <span class="detail-card-label">{{ matchup_label(key) }}</span>
+            <div class="detail-card-value">{{ render_value(value) }}</div>
+          </article>
+        {% endfor %}
+      </div>
+    </div>
+  </details>
+
+  <details class="accordion matchup-accordion">
+    <summary><span>{{ t('section.build') }}</span><span class="accordion-indicator">+</span></summary>
+    <div class="accordion-body matchup-accordion-body">
+      <div class="detail-grid matchup-build-grid">
+        {% for key, value in matchup.build.items() %}
+          <article class="detail-card premium-surface-alt">
+            <span class="detail-card-label">{{ matchup_label(key) }}</span>
+            <div class="detail-card-value">{{ render_value(value) }}</div>
+          </article>
+        {% endfor %}
+      </div>
+    </div>
+  </details>
+
+  <details class="accordion matchup-accordion">
+    <summary><span>{{ t('section.spikes') }}</span><span class="accordion-indicator">+</span></summary>
+    <div class="accordion-body matchup-accordion-body">{{ render_section_cards(matchup.power_spikes) }}</div>
+  </details>
+
+  <details class="accordion matchup-accordion">
+    <summary><span>{{ t('section.gameplan') }}</span><span class="accordion-indicator">+</span></summary>
+    <div class="accordion-body matchup-accordion-body">{{ render_section_cards(matchup.gameplan_complete) }}</div>
+  </details>
+
+  <details class="accordion matchup-accordion">
+    <summary><span>{{ t('section.macro') }}</span><span class="accordion-indicator">+</span></summary>
+    <div class="accordion-body matchup-accordion-body">{{ render_section_cards(matchup.macro_view) }}</div>
+  </details>
+
+  <details class="accordion matchup-accordion">
+    <summary><span>{{ t('section.abilities') }}</span><span class="accordion-indicator">+</span></summary>
+    <div class="accordion-body matchup-accordion-body">{{ render_section_cards(matchup.abilities_interaction) }}</div>
+  </details>
+
+  <details class="accordion matchup-accordion">
+    <summary><span>{{ t('section.priority') }}</span><span class="accordion-indicator">+</span></summary>
+    <div class="accordion-body matchup-accordion-body">
+      <div class="detail-list-shell premium-surface-alt">
+        <ul class="compact-list compact-list-strong">
+          {% for item in matchup.practical_priority %}
+            <li>{{ render_value(item) }}</li>
+          {% endfor %}
+        </ul>
+      </div>
+    </div>
+  </details>
+
+  <details class="accordion matchup-accordion">
+    <summary><span>{{ t('section.mistakes') }}</span><span class="accordion-indicator">+</span></summary>
+    <div class="accordion-body matchup-accordion-body">
+      <div class="detail-list-shell premium-surface-alt">
+        <ul class="compact-list compact-list-strong">
+          {% for item in matchup.common_mistakes %}
+            <li>{{ render_value(item) }}</li>
+          {% endfor %}
+        </ul>
+      </div>
+    </div>
+  </details>
+
+  <details class="accordion matchup-accordion">
+    <summary><span>{{ t('section.situations') }}</span><span class="accordion-indicator">+</span></summary>
+    <div class="accordion-body matchup-accordion-body">
+      <div class="detail-list-shell premium-surface-alt">
+        <ul class="compact-list compact-list-strong">
+          {% for item in matchup.practical_situations %}
+            <li>{{ render_value(item) }}</li>
+          {% endfor %}
+        </ul>
+      </div>
+    </div>
+  </details>
+
+  <details class="accordion matchup-accordion">
+    <summary><span>{{ t('section.camille_identity') }}</span><span class="accordion-indicator">+</span></summary>
+    <div class="accordion-body matchup-accordion-body">{{ render_section_cards(matchup.camille_identity_in_matchup) }}</div>
+  </details>
+
+  <details class="accordion matchup-accordion">
+    <summary><span>{{ t('section.real_difficulty') }}</span><span class="accordion-indicator">+</span></summary>
+    <div class="accordion-body matchup-accordion-body">{{ render_section_cards(matchup.real_difficulty) }}</div>
+  </details>
+
+  <details class="accordion matchup-accordion">
+    <summary><span>{{ t('section.metadata') }}</span><span class="accordion-indicator">+</span></summary>
+    <div class="accordion-body matchup-accordion-body">{{ render_section_cards(matchup.scoring) }}</div>
+  </details>
+</div>
+{% endblock %}

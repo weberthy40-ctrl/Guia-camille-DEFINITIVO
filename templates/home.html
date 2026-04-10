@@ -1,0 +1,103 @@
+{% extends 'base.html' %}
+{% block content %}
+<section class="hero-card home-hero-shell premium-surface">
+  <div class="hero-copy home-hero-copy">
+    <p class="eyebrow">{{ t('home.kicker') }}</p>
+    <h1>{{ t('home.title') }}</h1>
+    <p class="lead home-lead">{{ t('home.subtitle') }}</p>
+
+    <div class="home-quick-strip" aria-label="{{ t('home.quick_strip_label') }}">
+      <span class="chip">{{ loc(camille.identity.title) }}</span>
+      <span class="chip">{{ loc(camille.playstyle) }}</span>
+      <span class="chip">{{ loc(camille.macro_identity) }}</span>
+    </div>
+
+    <div class="home-hero-stats">
+      <article class="home-stat-card premium-surface-alt">
+        <span class="stack-label">{{ t('nav.guide') }}</span>
+        <strong>{{ loc(camille.runes_general.keystone) }}</strong>
+        <p>{{ loc(camille.guide_notes.identity) }}</p>
+      </article>
+      <article class="home-stat-card premium-surface-alt">
+        <span class="stack-label">Core</span>
+        <strong>{{ loc(camille.core_items[0].name) }} + {{ loc(camille.core_items[1].name) }}</strong>
+        <p>{{ loc(camille.core_items[1].reason) }}</p>
+      </article>
+    </div>
+
+    <div class="cta-row home-primary-actions">
+      <a class="btn btn-primary" href="{{ url_for('champion_guide', lang=current_lang) }}">{{ t('home.understand') }}</a>
+      <a class="btn" href="{{ url_for('matchups_overview', lang=current_lang) }}">{{ t('home.matchups_cta') }}</a>
+      <a class="btn" href="{{ url_for('learning', lang=current_lang) }}">{{ t('home.learning_cta') }}</a>
+    </div>
+
+    <section class="home-lore-block premium-surface-alt" aria-labelledby="home-lore-title">
+      <div class="section-heading home-lore-head">
+        <div>
+          <p class="section-kicker">{{ t('home.lore_kicker') }}</p>
+          <h2 id="home-lore-title">{{ t('home.lore') }}</h2>
+        </div>
+      </div>
+      <p class="home-lore-text">{{ loc(camille.lore_short) }}</p>
+    </section>
+
+    <div class="home-external-links">
+      <a class="btn" href="{{ links.biography }}" target="_blank" rel="noopener noreferrer">
+        {{ t('home.biography') }}
+        <span class="external-badge" aria-hidden="true">↗</span>
+        <span class="sr-only">{{ t('home.external_notice') }}</span>
+      </a>
+      <a class="btn" href="{{ links.story }}" target="_blank" rel="noopener noreferrer">
+        {{ t('home.story') }}
+        <span class="external-badge" aria-hidden="true">↗</span>
+        <span class="sr-only">{{ t('home.external_notice') }}</span>
+      </a>
+    </div>
+    <p class="muted home-external-note">{{ t('home.external_notice') }}</p>
+  </div>
+
+  <div class="hero-visual home-hero-visual">
+    <div class="home-hero-image-frame premium-surface-alt">
+      <div class="home-hero-visual-copy">
+        <span class="chip home-visual-chip">Camille</span>
+        <h2>{{ loc(camille.identity.title) }}</h2>
+        <p>{{ loc(camille.summary) }}</p>
+      </div>
+      <img src="{{ url_for('static', filename='img/camille/camille-hero.svg') }}" alt="{{ t('home.hero_image_alt') }}">
+    </div>
+  </div>
+</section>
+
+<section class="panel home-nav-panel premium-surface">
+  <div class="section-heading section-heading-split">
+    <div>
+      <p class="section-kicker">{{ t('home.navigation_kicker') }}</p>
+      <h2>{{ t('home.navigation_title') }}</h2>
+    </div>
+    <p class="muted overview-intro">{{ t('home.navigation_intro') }}</p>
+  </div>
+
+  <div class="home-feature-grid">
+    <a class="home-feature-card premium-surface-alt" href="{{ url_for('champion_guide', lang=current_lang) }}">
+      <span class="home-feature-kicker">{{ t('home.feature_guide_kicker') }}</span>
+      <h3>{{ t('home.understand') }}</h3>
+      <p>{{ t('home.feature_guide_text') }}</p>
+      <span class="home-feature-link">{{ t('home.open_section') }}</span>
+    </a>
+
+    <a class="home-feature-card premium-surface-alt" href="{{ url_for('matchups_overview', lang=current_lang) }}">
+      <span class="home-feature-kicker">{{ t('home.feature_matchups_kicker') }}</span>
+      <h3>{{ t('home.matchups_cta') }}</h3>
+      <p>{{ t('home.feature_matchups_text') }}</p>
+      <span class="home-feature-link">{{ t('home.open_section') }}</span>
+    </a>
+
+    <a class="home-feature-card premium-surface-alt" href="{{ url_for('learning', lang=current_lang) }}">
+      <span class="home-feature-kicker">{{ t('home.feature_learning_kicker') }}</span>
+      <h3>{{ t('home.learning_cta') }}</h3>
+      <p>{{ t('home.feature_learning_text') }}</p>
+      <span class="home-feature-link">{{ t('home.open_section') }}</span>
+    </a>
+  </div>
+</section>
+{% endblock %}

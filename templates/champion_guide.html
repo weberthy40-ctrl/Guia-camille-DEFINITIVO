@@ -1,0 +1,221 @@
+{% extends 'base.html' %}
+{% block content %}
+<section class="page-head guide-page-head">
+  <p class="section-kicker">{{ t('guide.kicker') }}</p>
+  <div class="guide-hero panel premium-surface">
+    <div class="guide-hero-main">
+      <div class="guide-title-row">
+        <div>
+          <h1>{{ t('guide.title') }}</h1>
+          <p class="guide-subtitle">{{ loc(camille.identity.title) }}</p>
+        </div>
+        <div class="guide-tag-row">
+          {% for tag in camille.identity.tags %}
+            <span class="chip">{{ loc(tag) or t('common.missing') }}</span>
+          {% endfor %}
+        </div>
+      </div>
+      <p class="guide-lead">{{ loc(camille.guide_notes.identity) or loc(camille.summary) }}</p>
+      <div class="guide-mini-metrics">
+        <div class="metric">
+          <span>{{ t('guide.metric_class') }}</span>
+          <strong>{{ loc(camille.playstyle) }}</strong>
+        </div>
+        <div class="metric">
+          <span>{{ t('guide.metric_runes') }}</span>
+          <strong>{{ loc(camille.runes_general.keystone) }}</strong>
+        </div>
+        <div class="metric">
+          <span>{{ t('guide.metric_macro') }}</span>
+          <strong>{{ loc(camille.macro_identity) }}</strong>
+        </div>
+      </div>
+    </div>
+    <div class="guide-hero-side guide-spotlight-side">
+      <div class="guide-side-card premium-surface-alt">
+        <span class="detail-card-label">{{ t('guide.core_snapshot') }}</span>
+        <div class="chip-row">
+          {% for item in camille.core_items[:3] %}
+            <span class="chip">{{ loc(item.name) }}</span>
+          {% endfor %}
+        </div>
+      </div>
+      <div class="guide-side-card premium-surface-alt">
+        <span class="detail-card-label">{{ t('guide.spikes_title') }}</span>
+        <ul class="compact-list compact-list-strong">
+          {% for spike in loc(camille.spikes) %}
+            <li>{{ spike }}</li>
+          {% endfor %}
+        </ul>
+      </div>
+      <div class="guide-side-card premium-surface-alt">
+        <span class="detail-card-label">{{ t('guide.passive_note') }}</span>
+        <p class="guide-side-copy">{{ loc(camille.abilities.passive.cooldown_window) }}</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="matchup-toolbar guide-toolbar">
+  <button type="button" class="btn" data-open-all>{{ t('matchup.open_all') }}</button>
+  <button type="button" class="btn" data-close-all>{{ t('matchup.close_all') }}</button>
+</div>
+
+<section class="matchup-accordion-stack guide-accordion-stack">
+  <details class="accordion matchup-accordion" open>
+    <summary>
+      <span>{{ t('guide.section_abilities') }}</span>
+      <span class="accordion-indicator">+</span>
+    </summary>
+    <div class="accordion-body matchup-accordion-body">
+      <div class="guide-ability-grid">
+        {% for key, ability in camille.abilities.items() %}
+          <article class="guide-ability-card detail-card premium-surface-alt">
+            <div class="guide-ability-head">
+              <span class="guide-ability-key">{{ 'P' if key == 'passive' else key|upper }}</span>
+              <div>
+                <h3>{{ ability.name_pt if current_lang == 'pt-BR' and ability.name_pt else ability.name }}</h3>
+                <p class="muted guide-ability-label">{{ t('guide.ability_label_' ~ ('passive' if key == 'passive' else key)) }}</p>
+              </div>
+            </div>
+            <p class="detail-card-value">{{ loc(ability.summary) }}</p>
+            {% if key == 'passive' %}
+              <div class="guide-inline-cd">
+                <span class="stack-label">{{ t('guide.cooldown_inline') }}</span>
+                <div class="stack-item"><span class="stack-value">{{ loc(ability.cooldown_window) }}</span></div>
+              </div>
+            {% elif ability.cooldown_by_rank %}
+              <div class="guide-inline-cd">
+                <span class="stack-label">{{ t('guide.cooldown_inline') }}</span>
+                <div class="chip-row">
+                  {% for value in ability.cooldown_by_rank %}
+                    <span class="chip">{{ value }}</span>
+                  {% endfor %}
+                </div>
+              </div>
+            {% endif %}
+          </article>
+        {% endfor %}
+      </div>
+    </div>
+  </details>
+
+  <details class="accordion matchup-accordion">
+    <summary>
+      <span>Runas padrão</span>
+      <span class="accordion-indicator">+</span>
+    </summary>
+    <div class="accordion-body matchup-accordion-body">
+      <div class="rune-page-grid">
+        {% for page in camille.rune_pages %}
+          <article class="rune-page-card premium-surface-alt">
+            <div class="rune-page-head">
+              <h3>{{ loc(page.title) }}</h3>
+              <span class="chip">{{ loc(page.primary_tree) }}</span>
+            </div>
+            <div class="rune-lines">
+              <div class="rune-line"><span class="stack-label">Keystone</span><strong>{{ loc(page.keystone) }}</strong></div>
+              <div class="rune-line"><span class="stack-label">{{ loc(page.primary_tree) }}</span><span>{% for rune in page.primary_slots %}{{ loc(rune) }}{% if not loop.last %} • {% endif %}{% endfor %}</span></div>
+              <div class="rune-line"><span class="stack-label">{{ loc(page.secondary_tree) }}</span><span>{% for rune in page.secondary_slots %}{{ loc(rune) }}{% if not loop.last %} • {% endif %}{% endfor %}</span></div>
+              <div class="rune-line"><span class="stack-label">Shards</span><span>{% for shard in page.shards %}{{ loc(shard) }}{% if not loop.last %} • {% endif %}{% endfor %}</span></div>
+            </div>
+            <p class="muted rune-page-note">{{ loc(page.when) }}</p>
+          </article>
+        {% endfor %}
+      </div>
+    </div>
+  </details>
+
+  <details class="accordion matchup-accordion">
+    <summary>
+      <span>Builds</span>
+      <span class="accordion-indicator">+</span>
+    </summary>
+    <div class="accordion-body matchup-accordion-body">
+      <div class="build-showcase-grid">
+        {% for build in camille.build_variations %}
+          <article class="detail-card premium-surface-alt">
+            <span class="detail-card-label">{{ loc(build.title) }}</span>
+            <div class="chip-row build-chip-row">
+              {% for item in build['items'] %}
+                <span class="chip">{{ loc(item) }}</span>
+              {% endfor %}
+            </div>
+            <p class="detail-card-value">{{ loc(build.note) }}</p>
+          </article>
+        {% endfor %}
+      </div>
+    </div>
+  </details>
+
+  <details class="accordion matchup-accordion">
+    <summary>
+      <span>{{ t('guide.general_read_title') }}</span>
+      <span class="accordion-indicator">+</span>
+    </summary>
+    <div class="accordion-body matchup-accordion-body">
+      <div class="detail-grid">
+        {% for row in camille.guide_notes.practical_sections %}
+          <article class="detail-card premium-surface-alt">
+            <span class="detail-card-label">{{ loc(row.title) }}</span>
+            <div class="detail-card-value">{{ loc(row.body) }}</div>
+          </article>
+        {% endfor %}
+      </div>
+      <div class="detail-list-shell premium-surface-alt guide-lane-truths">
+        <span class="detail-card-label">{{ t('guide.section_skill_order') }}</span>
+        <ul class="compact-list compact-list-strong">
+          {% for point in loc(camille.guide_notes.lane_truths) %}
+            <li>{{ point }}</li>
+          {% endfor %}
+        </ul>
+      </div>
+    </div>
+  </details>
+
+  <details class="accordion matchup-accordion">
+    <summary>
+      <span>{{ t('guide.section_cooldowns') }}</span>
+      <span class="accordion-indicator">+</span>
+    </summary>
+    <div class="accordion-body matchup-accordion-body">
+      <div class="table-wrap guide-table-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th>{{ t('guide.table_skill') }}</th>
+              <th>{{ t('guide.table_rank_1') }}</th>
+              <th>{{ t('guide.table_rank_2') }}</th>
+              <th>{{ t('guide.table_rank_3') }}</th>
+              <th>{{ t('guide.table_rank_4') }}</th>
+              <th>{{ t('guide.table_rank_5') }}</th>
+            </tr>
+          </thead>
+          <tbody>
+            {% for key, ability in camille.abilities.items() if key not in ['r', 'passive'] %}
+              <tr>
+                <td>{{ key|upper }} — {{ ability.name_pt if current_lang == 'pt-BR' and ability.name_pt else ability.name }}</td>
+                {% for value in ability.cooldown_by_rank %}
+                  <td>{{ value }}</td>
+                {% endfor %}
+              </tr>
+            {% endfor %}
+            <tr>
+              <td>R — {{ camille.abilities.r.name_pt if current_lang == 'pt-BR' else camille.abilities.r.name }}</td>
+              {% for value in camille.abilities.r.cooldown_by_rank %}
+                <td>{{ value }}</td>
+              {% endfor %}
+              <td>—</td>
+              <td>—</td>
+            </tr>
+            <tr>
+              <td>P — {{ camille.abilities.passive.name_pt if current_lang == 'pt-BR' else camille.abilities.passive.name }}</td>
+              <td colspan="5">{{ loc(camille.abilities.passive.cooldown_window) }}</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </details>
+</section>
+{% endblock %}

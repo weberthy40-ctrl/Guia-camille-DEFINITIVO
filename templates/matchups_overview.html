@@ -1,0 +1,125 @@
+{% extends 'base.html' %}
+
+{% macro difficulty_column(items, difficulty, panel_role) -%}
+  <article class="difficulty-column difficulty-{{ difficulty }}">
+    <header class="difficulty-column-head">
+      <div>
+        <h3>{{ t(difficulty_label_keys[difficulty]) }}</h3>
+        <p class="muted">{{ t('matchups.only_icons') }}</p>
+      </div>
+      <span class="difficulty-count">{{ items|length }}</span>
+    </header>
+
+    <div class="icon-grid icon-grid-clean">
+      {% for item in items %}
+        {% set item_role = item.route_role if item.route_role is defined else panel_role %}
+        {% set icon = champion_icon(item.champion_slug) %}
+        <a
+          class="champ-icon champ-icon-clean"
+          href="{{ url_for('matchup_detail', role=item_role, champion_slug=item.champion_slug, lang=current_lang) }}"
+          title="{{ item.champion_name }} • {{ t(difficulty_label_keys[difficulty]) }} • {{ t('common.score') }} {{ item.score }}"
+          aria-label="{{ item.champion_name }} - {{ t(difficulty_label_keys[difficulty]) }} - {{ t('common.score') }} {{ item.score }}"
+        >
+          <img
+            src="{{ icon.src }}"
+            data-fallback-src="{{ icon.fallback }}"
+            alt="{{ item.champion_name }}"
+            loading="lazy"
+            decoding="async"
+          >
+        </a>
+      {% endfor %}
+    </div>
+  </article>
+{%- endmacro %}
+
+{% block content %}
+<section class="page-head page-head-matchups">
+  <div>
+    <p class="eyebrow">{{ t('nav.matchups') }}</p>
+    <h1>{{ t('matchups.title') }}</h1>
+    <p class="muted overview-intro">{{ t('matchups.single_board_intro') }}</p>
+  </div>
+</section>
+
+<section class="panel matchup-overview-panel matchup-overview-unified">
+  <div class="section-heading matchup-overview-topbar">
+    <div>
+      <p class="section-kicker">{{ t('matchups.section_primary') }}</p>
+      <h2>{{ t('matchups.unified_board_title') }}</h2>
+      <p class="muted">{{ t('matchups.role_switch_hint') }}</p>
+    </div>
+
+    <div class="role-tabs" role="tablist" aria-label="{{ t('matchups.unified_board_title') }}">
+      {% for role in overview_roles %}
+        <button
+          type="button"
+          class="role-tab {{ 'is-active' if active_role == role else '' }}"
+          role="tab"
+          aria-selected="{{ 'true' if active_role == role else 'false' }}"
+          aria-controls="role-panel-{{ role }}"
+          id="role-tab-{{ role }}"
+          data-role-tab="{{ role }}"
+        >
+          {{ t(role_label_keys[role]) }}
+        </button>
+      {% endfor %}
+    </div>
+  </div>
+
+  <div class="overview-stage">
+    <button
+      type="button"
+      class="role-arrow role-arrow-left"
+      data-role-nav="prev"
+      aria-label="{{ t('matchups.prev_role') }}"
+      title="{{ t('matchups.prev_role') }}"
+    >
+      <span aria-hidden="true">&#8249;</span>
+    </button>
+
+    <div class="overview-board" data-role-order='{{ overview_roles|tojson }}'>
+      {% for role in overview_roles %}
+        <section
+          class="role-panel role-panel-unified {{ 'is-active' if active_role == role else '' }}"
+          id="role-panel-{{ role }}"
+          role="tabpanel"
+          aria-labelledby="role-tab-{{ role }}"
+          {{ '' if active_role == role else 'hidden' }}
+          data-role-panel="{{ role }}"
+        >
+          <header class="role-panel-head role-panel-head-unified">
+            <div>
+              <h3>{{ t(role_label_keys[role]) }}</h3>
+              <p class="muted">
+                {% if role == 'all' %}
+                  {{ t('matchups.all_description') }}
+                {% else %}
+                  {{ t('matchups.role_panel_description', role=t(role_label_keys[role])) }}
+                {% endif %}
+              </p>
+            </div>
+            <span class="panel-total">{{ overview[role]['suggest_ban']|length + overview[role]['hard']|length + overview[role]['medium']|length + overview[role]['easy']|length }}</span>
+          </header>
+
+          <div class="difficulty-board unified-difficulty-board">
+            {% for difficulty in ['suggest_ban', 'hard', 'medium', 'easy'] %}
+              {{ difficulty_column(overview[role][difficulty], difficulty, role) }}
+            {% endfor %}
+          </div>
+        </section>
+      {% endfor %}
+    </div>
+
+    <button
+      type="button"
+      class="role-arrow role-arrow-right"
+      data-role-nav="next"
+      aria-label="{{ t('matchups.next_role') }}"
+      title="{{ t('matchups.next_role') }}"
+    >
+      <span aria-hidden="true">&#8250;</span>
+    </button>
+  </div>
+</section>
+{% endblock %}

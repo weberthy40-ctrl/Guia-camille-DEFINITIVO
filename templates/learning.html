@@ -1,0 +1,154 @@
+{% extends 'base.html' %}
+{% block content %}
+<section class="page-head learning-page-head">
+  <p class="section-kicker">{{ t('learning.kicker') }}</p>
+  <div class="learning-hero panel">
+    <div>
+      <h1>{{ t('learning.title') }}</h1>
+      <p class="learning-lead">{{ loc(learning.overview) }}</p>
+    </div>
+    <div class="learning-hero-side">
+      <div class="guide-side-card">
+        <span class="detail-card-label">{{ t('learning.system_ready_title') }}</span>
+        <p class="muted guide-side-copy">{{ t('learning.system_ready_text') }}</p>
+      </div>
+      <div class="guide-side-card">
+        <span class="detail-card-label">{{ t('learning.streamers') }}</span>
+        <p class="muted guide-side-copy">{{ loc(learning.streamers_note) }}</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+  <div class="learning-status-bar">
+    <article class="learning-status-card premium-surface-alt">
+      <span class="stack-label">Bundle</span>
+      <strong>{{ 'OK' if learning.integrity.bundle_runtime_ready else 'Check' }}</strong>
+      <p class="muted">{{ t('learning.system_ready_text') }}</p>
+    </article>
+    <article class="learning-status-card premium-surface-alt">
+      <span class="stack-label">Coverage</span>
+      <strong>{{ learning.sections|length }} módulos</strong>
+      <p class="muted">{{ t('learning.section_gameplay_desc') }}</p>
+    </article>
+    <article class="learning-status-card premium-surface-alt">
+      <span class="stack-label">Premium</span>
+      <strong>{{ learning.integrity.optional_files_usable|length }} arquivos úteis</strong>
+      <p class="muted">{{ loc(learning.streamers_note) }}</p>
+    </article>
+  </div>
+
+<div class="matchup-toolbar guide-toolbar">
+  <button type="button" class="btn" data-open-all>{{ t('matchup.open_all') }}</button>
+  <button type="button" class="btn" data-close-all>{{ t('matchup.close_all') }}</button>
+</div>
+
+<section class="matchup-accordion-stack learning-accordion-stack">
+  {% for section in learning.sections %}
+    <details class="accordion matchup-accordion" {% if loop.index == 1 %}open{% endif %}>
+      <summary>
+        <span>{{ t(section.title_key) if section.title_key is defined else loc(section.title) }}</span>
+        <span class="accordion-indicator">+</span>
+      </summary>
+      <div class="accordion-body matchup-accordion-body">
+        <div class="learning-section-head">
+          <p class="muted">{{ t(section.description_key) if section.description_key is defined else loc(section.description) }}</p>
+        </div>
+
+        <div class="learning-block-stack">
+          {% for block in section.blocks %}
+            <article class="panel learning-block-panel">
+              <div class="section-heading section-heading-split learning-block-head">
+                <div>
+                  <p class="section-kicker">{{ t('learning.block_kicker') }}</p>
+                  <h3>{{ t(block.title_key) if block.title_key is defined else loc(block.title) }}</h3>
+                </div>
+              </div>
+
+              {% if block.type == 'text' %}
+                <p class="detail-card-value learning-text-block">
+                  {{ loc(block.content) if block.content else t('common.missing') }}
+                </p>
+
+              {% elif block.type == 'topic_list' %}
+                <div class="kv-grid learning-card-grid">
+                  {% for item in block['items'] %}
+                    <article class="kv-card learning-card">
+                      <h4>{{ t(item.title_key) if item.title_key is defined else loc(item.topic) }}</h4>
+                      <p>{{ loc(item.content) if item.content is defined else t('common.missing') }}</p>
+                    </article>
+                  {% else %}
+                    <article class="kv-card learning-card">
+                      <p>{{ t('common.missing') }}</p>
+                    </article>
+                  {% endfor %}
+                </div>
+
+              {% elif block.type == 'combo_list' %}
+                <div class="kv-grid learning-card-grid">
+                  {% for item in block['items'] %}
+                    <article class="kv-card learning-card learning-combo-card">
+                      <div class="learning-card-topline">
+                        <h4>{{ loc(item.name) or item.name }}</h4>
+                        <span class="chip">
+                          {% if item.difficulty == 'basic' %}{{ t('learning.combo_basic') }}
+                          {% elif item.difficulty == 'intermediate' %}{{ t('learning.combo_intermediate') }}
+                          {% elif item.difficulty == 'advanced' %}{{ t('learning.combo_advanced') }}
+                          {% else %}{{ item.difficulty }}{% endif %}
+                        </span>
+                      </div>
+                      <p>{{ loc(item.notes) if item.notes is defined else t('common.missing') }}</p>
+                    </article>
+                  {% else %}
+                    <article class="kv-card learning-card">
+                      <p>{{ t('common.missing') }}</p>
+                    </article>
+                  {% endfor %}
+                </div>
+
+              {% elif block.type == 'localized_list' %}
+                {% set localized_items = (loc(block['items']) or []) if block['items'] else [] %}
+                <div class="detail-list-shell">
+                  <ul class="compact-list compact-list-strong">
+                    {% for item in localized_items %}
+                      <li>{{ item }}</li>
+                    {% else %}
+                      <li>{{ t('common.missing') }}</li>
+                    {% endfor %}
+                  </ul>
+                </div>
+
+              {% elif block.type == 'decision_list' %}
+                <div class="stack-list">
+                  {% for item in block['items'] %}
+                    <div class="stack-item">
+                      <span class="stack-value">{{ loc(item) }}</span>
+                    </div>
+                  {% else %}
+                    <div class="stack-item">{{ t('common.missing') }}</div>
+                  {% endfor %}
+                </div>
+
+              {% elif block.type == 'creators' %}
+                <div class="list-grid learning-creators-grid">
+                  {% for entry in block['items'] %}
+                    <article class="mini-card learning-creator-card">
+                      <h4>{{ loc(entry.name) or entry.name }}</h4>
+                      <p>{{ t('learning.creator_platform') }}: {{ loc(entry.platform) or t('common.missing') }} • {{ t('learning.creator_language') }}: {{ loc(entry.language) or t('common.missing') }}</p>
+                      <small>{{ t('learning.creator_focus') }}: {{ loc(entry.focus) or t('common.missing') }}</small>
+                    </article>
+                  {% else %}
+                    <article class="mini-card learning-creator-card">
+                      <p>{{ t('common.missing') }}</p>
+                    </article>
+                  {% endfor %}
+                </div>
+              {% endif %}
+            </article>
+          {% endfor %}
+        </div>
+      </div>
+    </details>
+  {% endfor %}
+</section>
+{% endblock %}

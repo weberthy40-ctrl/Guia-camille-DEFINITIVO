@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 820" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="120" y1="40" x2="760" y2="760" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#171220"/>
+      <stop offset="0.55" stop-color="#101926"/>
+      <stop offset="1" stop-color="#0A1017"/>
+    </linearGradient>
+    <linearGradient id="steel" x1="244" y1="122" x2="625" y2="676" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#DFF8FF"/>
+      <stop offset="0.45" stop-color="#83D6FF"/>
+      <stop offset="1" stop-color="#4D8CB7"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="216" y1="190" x2="505" y2="440" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F4D7A7"/>
+      <stop offset="1" stop-color="#B58951"/>
+    </linearGradient>
+    <radialGradient id="glowA" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(260 162) rotate(45) scale(252)">
+      <stop stop-color="#D27BB5" stop-opacity="0.42"/>
+      <stop offset="1" stop-color="#D27BB5" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowB" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(650 168) rotate(45) scale(280)">
+      <stop stop-color="#D3B06F" stop-opacity="0.36"/>
+      <stop offset="1" stop-color="#D3B06F" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="900" height="820" rx="36" fill="url(#bg)"/>
+  <circle cx="265" cy="168" r="220" fill="url(#glowA)"/>
+  <circle cx="655" cy="172" r="248" fill="url(#glowB)"/>
+  <path d="M650 716C586 744 502 758 426 750C295 737 209 670 174 574C149 505 163 440 219 390C269 345 350 316 423 284C495 253 559 210 594 143" stroke="#27384C" stroke-width="2" stroke-dasharray="7 12"/>
+  <path d="M468 115L535 168L522 225L612 308L554 332L620 498L553 528L588 674H516L475 551L450 551L409 674H337L374 528L309 498L375 332L317 308L404 225L392 168L468 115Z" fill="url(#steel)" fill-opacity="0.18" stroke="#7DD6FF" stroke-opacity="0.28"/>
+  <path d="M450 124C494 124 526 152 540 205L566 308L618 435L554 474L584 674H524L483 495H417L376 674H317L348 474L284 435L335 308L362 205C376 153 408 124 450 124Z" fill="#111C29" stroke="#2C4A63" stroke-width="3"/>
+  <path d="M374 206L334 310L275 435L340 468L314 674H369L414 504H486L531 674H586L559 468L624 435L564 310L523 206" fill="url(#steel)" fill-opacity="0.93"/>
+  <path d="M405 182C422 164 438 157 450 157C462 157 478 164 495 182L509 225H391L405 182Z" fill="url(#gold)"/>
+  <path d="M391 225H509L493 322H407L391 225Z" fill="#EDF7FC"/>
+  <path d="M431 201L450 186L469 201L463 225H437L431 201Z" fill="#0E1620"/>
+  <path d="M406 322H494L486 504H414L406 322Z" fill="#DAEEF9"/>
+  <path d="M352 248L329 320L276 434L338 462L405 350L394 293L352 248Z" fill="#D8EEF9"/>
+  <path d="M548 248L571 320L624 434L562 462L495 350L506 293L548 248Z" fill="#D8EEF9"/>
+  <path d="M338 462L317 675H368L405 524L402 403L338 462Z" fill="#BCD9EB"/>
+  <path d="M562 462L583 675H532L495 524L498 403L562 462Z" fill="#BCD9EB"/>
+  <path d="M258 478L355 540" stroke="#83D6FF" stroke-width="22" stroke-linecap="round"/>
+  <path d="M642 478L545 540" stroke="#83D6FF" stroke-width="22" stroke-linecap="round"/>
+  <path d="M191 687L292 560" stroke="url(#steel)" stroke-width="24" stroke-linecap="round"/>
+  <path d="M709 687L608 560" stroke="url(#steel)" stroke-width="24" stroke-linecap="round"/>
+  <circle cx="450" cy="188" r="10" fill="#0E1620"/>
+  <path d="M413 350H487" stroke="#6F9DC0" stroke-width="6" stroke-linecap="round"/>
+  <text x="58" y="88" fill="#F4D7A7" font-size="34" font-family="Inter, Arial, sans-serif" font-weight="700">Camille</text>
+  <text x="58" y="124" fill="#C8D8E6" font-size="18" font-family="Inter, Arial, sans-serif">precision diver · side lane pressure · matchup guide</text>
+</svg>

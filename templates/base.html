@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="{{ current_lang }}">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{% if page_title_key %}{{ t(page_title_key) }} · {% endif %}{{ t('site.title') }}</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
+  <script defer src="{{ url_for('static', filename='js/main.js') }}"></script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="{{ url_for('home', lang=current_lang) }}" class="brand">{{ t('site.title') }}</a>
+      <nav class="nav" aria-label="{{ t('nav.primary_navigation') }}">
+        <a href="{{ url_for('home', lang=current_lang) }}">{{ t('nav.home') }}</a>
+        <a href="{{ url_for('champion_guide', lang=current_lang) }}">{{ t('nav.guide') }}</a>
+        <a href="{{ url_for('matchups_overview', lang=current_lang) }}">{{ t('nav.matchups') }}</a>
+        <a href="{{ url_for('learning', lang=current_lang) }}">{{ t('nav.learning') }}</a>
+      </nav>
+      <div class="lang-switch" aria-label="{{ t('nav.language') }}">
+        {% for language in available_languages %}
+          <a
+            href="{{ lang_url(lang=language.code) }}"
+            class="{{ 'active' if current_lang == language.code else '' }}"
+            hreflang="{{ language.code }}"
+            lang="{{ language.code }}"
+            title="{{ t(language.label_key) }}"
+            aria-label="{{ t('nav.switch_language_to', language=t(language.label_key)) }}"
+          >
+            {{ 'PT' if language.code == 'pt-BR' else language.code|upper }}
+          </a>
+        {% endfor %}
+      </div>
+    </div>
+  </header>
+  <main class="container main-shell">
+    {% block content %}{% endblock %}
+  </main>
+  <footer class="site-footer">
+    <div class="container">{{ t('footer.note') }}</div>
+  </footer>
+</body>
+</html>
