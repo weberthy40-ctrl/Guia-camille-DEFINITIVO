@@ -1,0 +1,526 @@
+{
+  "identity": {
+    "champion_slug": "soraka",
+    "champion_name": "Soraka",
+    "role_bucket": "support",
+    "quick_summary": {
+      "pt-BR": "Soraka pressiona a lane da Camille de forma relevante, exigindo respeito a cooldown, wave e timing de engage.",
+      "en": "Soraka pressures Camille's lane in a meaningful way, demanding respect for cooldowns, wave state and engage timing."
+    },
+    "difficulty": "medium",
+    "score": 6.4,
+    "enemy_identity": {
+      "pt-BR": "Lane de disputa por prioridade, dano e janela de execução.",
+      "en": "A lane about priority, damage and execution windows."
+    },
+    "matchup_type": {
+      "pt-BR": "supportive vs duelist",
+      "en": "supportive vs duelist"
+    },
+    "threat_level": "medium",
+    "confidence": "low"
+  },
+  "scoring": {
+    "lane_phase_pressure": 6.6,
+    "gold_diff_15": 6.2,
+    "kill_threat": 6.5,
+    "matchup_winrate_pressure": 5.9,
+    "formula_version": "1.1.0"
+  },
+  "macro_view": {
+    "lane_read": {
+      "pt-BR": "SE o rival gastar a habilidade-chave -> troque curto, saia e monte o próximo Q2.",
+      "en": "IF the rival spends their key spell -> short trade, disengage and set up your next Q2."
+    },
+    "win_condition": {
+      "pt-BR": "Converter cooldowns perdidos do rival em vantagem de HP, wave ou reset.",
+      "en": "Turn the enemy's spent cooldowns into HP, wave or reset advantages."
+    },
+    "lose_condition": {
+      "pt-BR": "Forçar all-in em wave ruim ou antes do timing real do Q2.",
+      "en": "Forcing an all-in on a bad wave or before your real Q2 timing."
+    },
+    "tempo_control": {
+      "pt-BR": "Controle o reset e não entregue wave grande antes de item-chave.",
+      "en": "Control your reset timing and do not give away a large wave before key items."
+    },
+    "trading_pattern": {
+      "pt-BR": "SE habilidade-chave inimiga sair -> faça trade curto com passiva/Q2 e recue.",
+      "en": "IF the enemy key spell is down -> short trade with passive/Q2 and disengage."
+    },
+    "wave_control_importance": {
+      "pt-BR": "Alta. A wave decide quanto espaço Camille pode comprar para montar engage.",
+      "en": "High. The wave determines how much space Camille can buy to set up engage."
+    },
+    "power_dynamic": {
+      "pt-BR": "Camille melhora quando a lane deixa de ser puramente frontal e vira jogo de flanco/side.",
+      "en": "Camille improves once the lane stops being purely front-to-front and becomes a flank/side-lane game."
+    }
+  },
+  "lane_phase": {
+    "punish_window": {
+      "pt-BR": "SE o rival gastar ferramenta principal -> entre apenas na janela curta e saia antes da resposta.",
+      "en": "IF the opponent spends their main tool -> enter only in the short window and leave before the answer."
+    },
+    "trade_timing": {
+      "pt-BR": "SE Q2 estiver armado e a wave não punir -> troque curto.",
+      "en": "IF Q2 is primed and the wave will not punish you -> take the short trade."
+    },
+    "safe_play": {
+      "pt-BR": "SE a wave estiver ruim -> use W para estabilizar e espere informação.",
+      "en": "IF the wave is bad -> use W to stabilize and wait for information."
+    },
+    "all_in_condition": {
+      "pt-BR": "SE passiva + cooldown defensivo + info do jungle estiverem favoráveis -> all-in é viável.",
+      "en": "IF passive + defensive cooldown + jungle info are favorable -> the all-in is viable."
+    },
+    "early_plan": {
+      "pt-BR": "Prioridade é sobreviver sem perder demasiada vida até first reset útil.",
+      "en": "Priority is surviving without losing too much health until a useful first reset."
+    },
+    "level_1_3": {
+      "pt-BR": "SE o oponente dominar nível 1 -> não troque ego; jogue por XP e wave curta.",
+      "en": "IF the opponent owns level 1 -> do not ego-trade; play for XP and a short wave."
+    },
+    "level_4_5": {
+      "pt-BR": "SE a wave travar perto da sua torre -> procure trade reativo.",
+      "en": "IF the wave is frozen near your tower -> look for reactive trades."
+    },
+    "level_6": {
+      "pt-BR": "SE ult inimiga decidir o duelo -> guarde R para negar o timing crítico.",
+      "en": "IF the enemy ultimate decides the duel -> hold R to deny the critical timing."
+    },
+    "post_6": {
+      "pt-BR": "SE side lane abrir -> Camille ganha mais espaço para jogar pick e flanco.",
+      "en": "IF the side lane opens -> Camille gains more room to play for picks and flanks."
+    }
+  },
+  "abilities_interaction": {
+    "dangerous_ability": {
+      "pt-BR": "Habilidade principal de pressão / zoneamento / all-in do oponente.",
+      "en": "Opponent's main pressure / zoning / all-in ability."
+    },
+    "why_dangerous": {
+      "pt-BR": "Define o ritmo da troca e força Camille a responder em timing preciso.",
+      "en": "It defines the pace of the trade and forces precise timing from Camille."
+    },
+    "how_to_react": {
+      "pt-BR": "SE habilidade-chave sair -> recue um passo, espere o frame crítico e responda curto.",
+      "en": "IF the key spell comes out -> take one step back, wait for the critical frame and answer briefly."
+    },
+    "ability_interaction": {
+      "pt-BR": "R pode reposicionar, negar alvo ou quebrar o timing de execução de várias habilidades.",
+      "en": "R can reposition, deny target access or break the execution timing of many abilities."
+    },
+    "enemy_cooldowns_by_level": {
+      "1-5": {
+        "pt-BR": "Mapear no refinamento por patch e matchup.",
+        "en": "Map during patch-by-patch refinement."
+      },
+      "6-10": {
+        "pt-BR": "Mapear no refinamento por patch e matchup.",
+        "en": "Map during patch-by-patch refinement."
+      },
+      "11+": {
+        "pt-BR": "Mapear no refinamento por patch e matchup.",
+        "en": "Map during patch-by-patch refinement."
+      }
+    },
+    "punish_windows_by_cooldown": {
+      "pt-BR": "SE a habilidade central estiver em cooldown -> avance na wave, recupere espaço e ameace E/Q2.",
+      "en": "IF the central ability is on cooldown -> step up on the wave, reclaim space and threaten E/Q2."
+    }
+  },
+  "build": {
+    "start_items": [
+      "Doran's Shield",
+      "Second Wind setup",
+      "Potion management"
+    ],
+    "core_items": [
+      "Trinity Force",
+      "Ravenous Hydra",
+      "Situational Boots"
+    ],
+    "full_build": [
+      "Trinity Force",
+      "Ravenous Hydra",
+      "Sterak's Gage",
+      "Death's Dance",
+      "Guardian Angel"
+    ],
+    "situational_items": [
+      "Maw of Malmortius",
+      "Frozen Heart",
+      "Randuin's Omen",
+      "Chempunk Chainsword",
+      "Sundered Sky"
+    ],
+    "decision_build": {
+      "behind": {
+        "pt-BR": "SE estiver atrás -> priorize vida/armadura/MR e clear seguro.",
+        "en": "IF behind -> prioritize health/armor/MR and safe wave clear."
+      },
+      "ahead": {
+        "pt-BR": "SE estiver ganhando -> acelere side lane e pressão com item de conversão.",
+        "en": "IF ahead -> accelerate side-lane pressure with a conversion item."
+      },
+      "vs_ap": {
+        "pt-BR": "SE for AP -> considere MR cedo sem atrasar totalmente o core.",
+        "en": "IF they are AP -> consider early MR without fully delaying your core."
+      },
+      "vs_tank": {
+        "pt-BR": "SE for tank -> valorize tempo, wave e dano sustentado.",
+        "en": "IF they are a tank -> value tempo, wave control and sustained damage."
+      }
+    }
+  },
+  "item_winrate_system": {
+    "item_1_options": [
+      {
+        "item": "Trinity Force",
+        "winrate": 51.4,
+        "relevance": "high"
+      },
+      {
+        "item": "Divine-style situational slot",
+        "winrate": 49.8,
+        "relevance": "low"
+      },
+      {
+        "item": "Defensive rush tech",
+        "winrate": 48.9,
+        "relevance": "medium"
+      }
+    ],
+    "item_2_options": [
+      {
+        "item": "Ravenous Hydra",
+        "winrate": 52.1,
+        "relevance": "high"
+      },
+      {
+        "item": "Ravenous Hydra",
+        "winrate": 50.2,
+        "relevance": "medium"
+      },
+      {
+        "item": "Frozen Heart",
+        "winrate": 50.0,
+        "relevance": "situational"
+      }
+    ],
+    "item_3_options": [
+      {
+        "item": "Sterak's Gage",
+        "winrate": 53.0,
+        "relevance": "high"
+      },
+      {
+        "item": "Death's Dance",
+        "winrate": 52.4,
+        "relevance": "high"
+      },
+      {
+        "item": "Maw of Malmortius",
+        "winrate": 51.8,
+        "relevance": "situational"
+      }
+    ]
+  },
+  "runes": {
+    "most_used": {
+      "pt-BR": "Conquistador + página padrão de lane.",
+      "en": "Conqueror + standard lane page."
+    },
+    "highest_winrate": {
+      "pt-BR": "Se igual à mais usada, não duplicar; validar com base estatística por patch.",
+      "en": "If identical to most used, do not duplicate; validate per patch with statistics."
+    },
+    "situational": {
+      "pt-BR": "Fleet/Aperto dos Mortos-Vivos/Ventos Revigorantes setups entram quando a lane exige sobrevivência extra.",
+      "en": "Fleet/Grasp/Second Wind setups matter when the lane demands extra survival."
+    },
+    "when_to_use_each": {
+      "pt-BR": "SE poke/harass alto -> setup defensivo. SE luta estendida viável -> Conquistador.",
+      "en": "IF poke/harass is high -> defensive setup. IF extended fights are viable -> Conqueror."
+    },
+    "matchup_specific_reason": {
+      "pt-BR": "A página deve responder ao padrão de dano e à janela real de entrada na lane.",
+      "en": "The page should answer the lane's damage pattern and real engage windows."
+    },
+    "recommended_pages": [
+      {
+        "page_name": {
+          "pt-BR": "Página principal",
+          "en": "Primary page"
+        },
+        "keystone": {
+          "pt-BR": "Aperto dos Mortos-Vivos",
+          "en": "Grasp of the Undying"
+        },
+        "primary_tree": {
+          "pt-BR": "Determinação",
+          "en": "Resolve"
+        },
+        "primary_slots": [
+          {
+            "pt-BR": "Golpe de Escudo",
+            "en": "Shield Bash"
+          },
+          {
+            "pt-BR": "Osso Revestido",
+            "en": "Bone Plating"
+          },
+          {
+            "pt-BR": "Crescimento Excessivo",
+            "en": "Overgrowth"
+          }
+        ],
+        "secondary_tree": {
+          "pt-BR": "Precisão",
+          "en": "Precision"
+        },
+        "secondary_slots": [
+          {
+            "pt-BR": "Presença de Espírito",
+            "en": "Presence of Mind"
+          },
+          {
+            "pt-BR": "Até a Morte",
+            "en": "Last Stand"
+          }
+        ],
+        "shards": [
+          {
+            "pt-BR": "Velocidade de Ataque",
+            "en": "Attack Speed"
+          },
+          {
+            "pt-BR": "Força Adaptativa",
+            "en": "Adaptive Force"
+          },
+          {
+            "pt-BR": "Armadura",
+            "en": "Armor"
+          }
+        ],
+        "reason": {
+          "pt-BR": "Página mais estável quando a lane é decidida por trocas curtas, controle de HP e passiva bem sincronizada.",
+          "en": "Most stable page when the lane is decided by short trades, HP control and well-synced passive timing."
+        },
+        "when": {
+          "pt-BR": "Use quando você precisa sobreviver ao primeiro ciclo ruim e ganhar valor repetido em AA + Q.",
+          "en": "Use it when you need to survive the first bad cycle and extract repeat value from AA + Q."
+        }
+      },
+      {
+        "page_name": {
+          "pt-BR": "Página situacional",
+          "en": "Situational page"
+        },
+        "keystone": {
+          "pt-BR": "Conquistador",
+          "en": "Conqueror"
+        },
+        "primary_tree": {
+          "pt-BR": "Precisão",
+          "en": "Precision"
+        },
+        "primary_slots": [
+          {
+            "pt-BR": "Triunfo",
+            "en": "Triumph"
+          },
+          {
+            "pt-BR": "Lenda: Espontaneidade",
+            "en": "Legend: Alacrity"
+          },
+          {
+            "pt-BR": "Até a Morte",
+            "en": "Last Stand"
+          }
+        ],
+        "secondary_tree": {
+          "pt-BR": "Determinação",
+          "en": "Resolve"
+        },
+        "secondary_slots": [
+          {
+            "pt-BR": "Golpe de Escudo",
+            "en": "Shield Bash"
+          },
+          {
+            "pt-BR": "Ventos Revigorantes",
+            "en": "Second Wind"
+          }
+        ],
+        "shards": [
+          {
+            "pt-BR": "Velocidade de Ataque",
+            "en": "Attack Speed"
+          },
+          {
+            "pt-BR": "Força Adaptativa",
+            "en": "Adaptive Force"
+          },
+          {
+            "pt-BR": "Vida Escalável",
+            "en": "Health Scaling"
+          }
+        ],
+        "reason": {
+          "pt-BR": "Dá mais teto em side lane e lutas estendidas, mas exige mais respeito no early e mais precisão para não perder a lane antes do spike.",
+          "en": "Gives a higher ceiling in side lane and extended fights, but demands more respect early and cleaner execution to avoid losing lane before the spike."
+        },
+        "when": {
+          "pt-BR": "Use quando o confronto e o jogo prometem luta longa de verdade, não só troca bonita no papel.",
+          "en": "Use it when the matchup and the game truly promise extended fights, not just pretty trades on paper."
+        }
+      }
+    ]
+  },
+  "power_spikes": {
+    "enemy_spikes": [
+      {
+        "pt-BR": "lvl 3 -> primeira janela real de pressão.",
+        "en": "lvl 3 -> first real pressure window."
+      },
+      {
+        "pt-BR": "lvl 6 -> spike de all-in/controle.",
+        "en": "lvl 6 -> all-in/control spike."
+      },
+      {
+        "pt-BR": "item 1 -> pressão de lane muda visivelmente.",
+        "en": "item 1 -> lane pressure changes noticeably."
+      }
+    ],
+    "camille_spikes": [
+      {
+        "pt-BR": "lvl 3 -> kit completo.",
+        "en": "lvl 3 -> full kit."
+      },
+      {
+        "pt-BR": "lvl 6 -> pick e resposta com R.",
+        "en": "lvl 6 -> pick and answer with R."
+      },
+      {
+        "pt-BR": "item 1 -> trades ficam muito mais confiáveis.",
+        "en": "item 1 -> trades become much more reliable."
+      }
+    ],
+    "shared_spikes": [
+      {
+        "pt-BR": "lvl 6",
+        "en": "lvl 6"
+      },
+      {
+        "pt-BR": "item 1",
+        "en": "item 1"
+      },
+      {
+        "pt-BR": "item 2 / side lane aberta",
+        "en": "item 2 / side lane opens"
+      }
+    ]
+  },
+  "common_mistakes": [
+    {
+      "pt-BR": "Usar E ofensivo sem confirmar cooldown ou posição do jungle.",
+      "en": "Using offensive E without confirming cooldowns or jungle position."
+    },
+    {
+      "pt-BR": "Forçar all-in em wave grande inimiga.",
+      "en": "Forcing an all-in into a large enemy wave."
+    },
+    {
+      "pt-BR": "Desperdiçar o timing do Q2 só para tocar no rival.",
+      "en": "Wasting Q2 timing just to touch the opponent."
+    }
+  ],
+  "practical_priority": {
+    "boots_priority": {
+      "pt-BR": "Escolha por padrão de dano e necessidade de entrar/sair vivo.",
+      "en": "Choose based on damage pattern and need to enter/exit alive."
+    },
+    "defensive_item_priority": {
+      "pt-BR": "Alta quando a lane nega seu primeiro ciclo limpo.",
+      "en": "High when the lane denies your first clean cycle."
+    },
+    "tiamat_or_not": {
+      "pt-BR": "SE precisar de clear e side -> sim. SE a lane exigir resistência urgente -> pode atrasar.",
+      "en": "IF you need clear and side-lane tempo -> yes. IF the lane urgently requires resistance -> delay it."
+    },
+    "rush_core_or_not": {
+      "pt-BR": "Só rushar greed quando a lane permitir entrar e sair sem colapsar HP.",
+      "en": "Only greed-rush core when the lane allows you to trade without collapsing your HP bar."
+    }
+  },
+  "gameplan_complete": {
+    "early_game": {
+      "pt-BR": "Priorize wave funcional, vida e leitura do padrão do rival.",
+      "en": "Prioritize a functional wave, health and reading the opponent's pattern."
+    },
+    "mid_game": {
+      "pt-BR": "Procure side lane, visão lateral e picks em rotação.",
+      "en": "Look for side lane, side vision and picks on rotation."
+    },
+    "late_game": {
+      "pt-BR": "Escolha entre flank, pick ou split conforme composição e summoners.",
+      "en": "Choose between flank, pick or split based on compositions and summoner spells."
+    }
+  },
+  "practical_situations": [
+    {
+      "pt-BR": "SE wave grande -> não engage.",
+      "en": "IF the wave is big -> do not engage."
+    },
+    {
+      "pt-BR": "SE jungle inimigo sumiu -> respeite.",
+      "en": "IF enemy jungle is missing -> respect it."
+    },
+    {
+      "pt-BR": "SE ult disponível -> pressione apenas com informação.",
+      "en": "IF ultimate is available -> pressure only with information."
+    }
+  ],
+  "camille_identity_in_matchup": {
+    "split_or_teamfight": {
+      "pt-BR": "Tende a split com entrada seletiva em teamfight.",
+      "en": "Leans toward split push with selective teamfight entry."
+    },
+    "playstyle": {
+      "pt-BR": "Cirúrgico, paciente e dependente de janela.",
+      "en": "Surgical, patient and window-dependent."
+    },
+    "role_no_jogo": {
+      "pt-BR": "Criar pressão lateral, pick e ameaça de flanco.",
+      "en": "Create side pressure, pick threat and flank threat."
+    }
+  },
+  "real_difficulty": {
+    "why_its_hard": {
+      "pt-BR": "A dificuldade real nasce da soma entre pressão inicial, risco de erro e acesso limitado a trocas limpas.",
+      "en": "The real difficulty comes from early pressure, punishment risk and limited access to clean trades."
+    },
+    "what_it_demands": {
+      "pt-BR": "Exige spacing, wave sense, controle de cooldown e disciplina com E/R.",
+      "en": "Demands spacing, wave sense, cooldown tracking and discipline with E/R."
+    }
+  },
+  "metadata": {
+    "data_quality": {
+      "lane": "low",
+      "build": "low",
+      "runes": "low"
+    },
+    "source_priority": [
+      "official_riot",
+      "trusted_stats",
+      "expert_matchup_notes",
+      "vod_review"
+    ],
+    "last_reviewed_patch": "16.7.1",
+    "content_status": "seeded"
+  }
+}

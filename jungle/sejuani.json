@@ -1,0 +1,526 @@
+{
+  "identity": {
+    "champion_slug": "sejuani",
+    "champion_name": "Sejuani",
+    "role_bucket": "jungle",
+    "quick_summary": {
+      "pt-BR": "Sejuani vs Camille topo fica ruim quando Camille entra em corpo a corpo longo sem quebrar a passiva e sem respeitar a contagem do E; fica jogável quando passiva já foi tirada, o E não fecha e ela sai antes de a Sejuani transformar a troca em CC total.",
+      "en": "Sejuani vs Camille top gets bad when Camille enters a long melee fight without breaking passive and without respecting the E stack count; it becomes playable when passive is already broken, E does not complete and she leaves before Sejuani turns the trade into full CC."
+    },
+    "difficulty": "medium",
+    "score": 5.8,
+    "enemy_identity": {
+      "pt-BR": "Sejuani funciona como tank de melee com boa resposta a all-in frontal; Sejuani topo não te ganha por pressa, te ganha quando você deixa o E fechar com passiva inteira.",
+      "en": "Sejuani functions as a melee tank with a good answer to frontal all-ins; top Sejuani does not beat you through haste, she beats you when you let E finish with passive intact."
+    },
+    "matchup_type": {
+      "pt-BR": "tank melee lockdown vs Camille topo",
+      "en": "tank melee lockdown vs Camille top"
+    },
+    "threat_level": "medium",
+    "confidence": "medium"
+  },
+  "scoring": {
+    "lane_phase_pressure": 5.9,
+    "gold_diff_15": 5.7,
+    "kill_threat": 6.0,
+    "matchup_winrate_pressure": 5.5,
+    "formula_version": "1.1.0"
+  },
+  "macro_view": {
+    "lane_read": {
+      "pt-BR": "A lane parece lenta, mas tem armadilhas claras: passiva alta, E acumulando e R no 6. Camille precisa escolher lutas em que o primeiro burst realmente quebra a armadura da troca.",
+      "en": "The lane feels slow, but it has clear traps: high passive, E stacking and R at 6. Camille must choose fights where the first burst truly breaks the trade armor."
+    },
+    "win_condition": {
+      "pt-BR": "SE passiva quebrada ou Permafrost (E) sem poder fechar na troca seguinte -> cobre espaço, vida e wave antes que a matchup volte ao padrão ruim. Camille vence quando a janela curta realmente rende algo.",
+      "en": "IF passive broken or Permafrost (E) unable to complete in the next trade -> claim space, HP and the wave before the matchup returns to its bad pattern. Camille wins when the short window actually pays out."
+    },
+    "lose_condition": {
+      "pt-BR": "SE Camille entra em corpo a corpo longo sem quebrar a passiva e sem respeitar a contagem do E -> a troca normalmente sai do tamanho que a Camille quer e entra exatamente no cenário favorito do rival.",
+      "en": "IF Camille enters a long melee fight without breaking passive and without respecting the E stack count -> the trade usually leaves the size Camille wants and enters the enemy’s favorite scenario."
+    },
+    "tempo_control": {
+      "pt-BR": "O ritmo correto é ditado por não extender corpo a corpo com stacks de E subindo e não usar sua ult cedo se a dela ainda pode reabrir a jogada. Quando a Camille acelera fora disso, ela costuma pagar caro.",
+      "en": "The correct tempo is dictated by do not extend melee while E stacks are rising and do not use your ult early if hers can still reopen the play. When Camille accelerates outside that rule, she usually pays dearly."
+    },
+    "trading_pattern": {
+      "pt-BR": "O padrão vencedor é troca curta para tirar passiva e recuar; a segunda entrada melhora muito quando ela já perdeu a camada defensiva. Camille só deve alongar quando a principal ferramenta de resposta já saiu.",
+      "en": "The winning pattern is short trade to strip passive and back off; the second entry improves a lot once she has lost that defensive layer. Camille should only extend once the main answer tool is already down."
+    },
+    "wave_control_importance": {
+      "pt-BR": "Alta. O tamanho da lane decide se Camille troca no próprio ritmo ou no ritmo do rival.",
+      "en": "High. Lane length decides whether Camille trades on her own rhythm or on the enemy rhythm."
+    },
+    "power_dynamic": {
+      "pt-BR": "Camille cresce quando a lane deixa de ser teste de negação e vira troca de janelas repetíveis.",
+      "en": "Camille grows once lane stops being a denial test and becomes an exchange of repeatable windows."
+    }
+  },
+  "lane_phase": {
+    "punish_window": {
+      "pt-BR": "A melhor janela da lane nasce quando passiva quebrada ou Permafrost (E) sem poder fechar na troca seguinte. Mesmo sem kill, isso já deve render push, reset melhor ou espaço para o próximo Q2.",
+      "en": "The best lane window appears when passive broken or Permafrost (E) unable to complete in the next trade. Even without a kill, that should already buy push, a better reset or space for the next Q2."
+    },
+    "trade_timing": {
+      "pt-BR": "A melhor troca aqui é curta para tirar passiva e recuar; a segunda entrada melhora muito quando ela já perdeu a camada defensiva. Se a luta estiver pedindo permanência além disso, normalmente não é mais a sua troca.",
+      "en": "The best trade here is a short trade to strip passive and back off; the second entry improves a lot once she has lost that defensive layer. If the fight is asking you to stay beyond that, it usually is no longer your trade."
+    },
+    "safe_play": {
+      "pt-BR": "Jogo seguro aqui significa não extender corpo a corpo com stacks de E subindo e não usar sua ult cedo se a dela ainda pode reabrir a jogada. Às vezes ceder um minion vale menos do que ceder o ritmo inteiro da lane.",
+      "en": "Safe play here means do not extend melee while E stacks are rising and do not use your ult early if hers can still reopen the play. Sometimes giving up one minion costs less than donating the entire lane rhythm."
+    },
+    "all_in_condition": {
+      "pt-BR": "O all-in só é realmente bom quando all-in só com passiva quebrada ou quando a wave está tão curta que o E não fecha do jeito que ela quer. Sem isso, Camille normalmente entra num duelo maior do que o necessário.",
+      "en": "The all-in is only truly good when only all-in with passive broken or when the wave is so short that E cannot complete the way she wants. Without that, Camille usually enters a duel bigger than necessary."
+    },
+    "early_plan": {
+      "pt-BR": "A prioridade do early é construir uma wave jogável e forçar a primeira ferramenta central do rival a sair de forma ruim. Só depois disso a Camille deve discutir all-in sério.",
+      "en": "The early priority is to build a playable wave and force the enemy’s first central tool out badly. Only after that should Camille argue for a serious all-in."
+    },
+    "level_1_3": {
+      "pt-BR": "Nos níveis 1-3, respeite o ponto mais forte do rival e não teste a matchup em wave longa. O objetivo é sobreviver bem ao primeiro padrão e responder quando passiva quebrada ou Permafrost (E) sem poder fechar na troca seguinte.",
+      "en": "At levels 1-3, respect the enemy’s strongest point and do not test the matchup on a long wave. The goal is to survive the first pattern well and answer when passive broken or Permafrost (E) unable to complete in the next trade."
+    },
+    "level_4_5": {
+      "pt-BR": "No 4-5, a lane já pede leitura mais precisa de cooldown. É aqui que Permafrost (E) + Glacial Prison (R) passa a separar troca boa de troca que desanda.",
+      "en": "At levels 4-5, lane already asks for more precise cooldown tracking. This is where Permafrost (E) + Glacial Prison (R) starts separating good trades from ones that spiral."
+    },
+    "level_6": {
+      "pt-BR": "No 6, trate a ult do rival como parte central da matchup. Se ela amplifica Permafrost (E) + Glacial Prison (R) ou nega sua saída, o respeito precisa subir imediatamente.",
+      "en": "At level 6, treat the enemy ultimate as a central part of the matchup. If it amplifies Permafrost (E) + Glacial Prison (R) or denies your exit, your respect level must rise immediately."
+    },
+    "post_6": {
+      "pt-BR": "Depois do 6, Camille vale mais quando entra no frame correto e menos quando tenta resolver a lane na marra. Informação e ordem de cooldown importam mais do que coragem.",
+      "en": "After level 6, Camille is worth more when she enters on the correct frame and less when she tries to force lane by brute force. Information and cooldown order matter more than bravery."
+    }
+  },
+  "abilities_interaction": {
+    "dangerous_ability": {
+      "pt-BR": "Permafrost (E) + Glacial Prison (R)",
+      "en": "Permafrost (E) + Glacial Prison (R)"
+    },
+    "why_dangerous": {
+      "pt-BR": "Sejuani te força a respeitar a segunda camada da luta. O primeiro contato pode até parecer bom, mas o E e a ult podem virar o que parecia controlado.",
+      "en": "Sejuani forces you to respect the second layer of the fight. First contact can even look good, but E and ult can flip what looked controlled."
+    },
+    "how_to_react": {
+      "pt-BR": "SE a passiva já quebrou -> aí sim pressione. SE o E está quase fechando -> corte a luta cedo e não entregue o stun “só por mais um auto”.",
+      "en": "IF passive is already broken -> then pressure. IF E is about to complete -> cut the fight early and do not donate the stun “for one more auto.”"
+    },
+    "ability_interaction": {
+      "pt-BR": "Camille costuma ganhar na limpeza da entrada; Sejuani melhora quando o duelo vira disputa de quem aguenta mais tempo no corpo a corpo.",
+      "en": "Camille usually wins in the cleanliness of the entry; Sejuani gets better when the duel becomes a test of who can stay in melee longer."
+    },
+    "enemy_cooldowns_by_level": {
+      "1-5": {
+        "pt-BR": "Antes do 6, trate Permafrost (E) + Glacial Prison (R) como o relógio da lane. Se a ferramenta central ainda existe, não se comprometa de graça.",
+        "en": "Before level 6, treat Permafrost (E) + Glacial Prison (R) as the lane clock. If the central tool still exists, do not commit for free."
+      },
+      "6-10": {
+        "pt-BR": "Com ult disponível, a punição por erro sobe bastante. Rastreie não só a spell principal, mas também se o rival ainda tem a segunda camada que converte Permafrost (E) + Glacial Prison (R).",
+        "en": "With ult available, punishment for mistakes rises a lot. Track not only the main spell, but also whether the enemy still has the second layer that converts Permafrost (E) + Glacial Prison (R)."
+      },
+      "11+": {
+        "pt-BR": "No jogo mais avançado, a janela de cooldown vale menos por “laning puro” e mais por pick, side lane e resposta a flank. Entre quando o rival não puder repetir a rotação inteira.",
+        "en": "Later in the game, cooldown windows matter less for pure laning and more for picks, side lane and flank answers. Enter when the enemy cannot repeat the full rotation."
+      }
+    },
+    "punish_windows_by_cooldown": {
+      "pt-BR": "SE passiva quebrada ou Permafrost (E) sem poder fechar na troca seguinte -> avance imediatamente, mesmo que a punição seja só espaço, reset melhor ou wave favorável. Contra Sejuani, janela atrasada costuma virar janela perdida.",
+      "en": "IF passive broken or Permafrost (E) unable to complete in the next trade -> step forward immediately, even if the punish is only space, a better reset or a favorable wave. Against Sejuani, a delayed window usually becomes a lost one."
+    }
+  },
+  "build": {
+    "start_items": [
+      "Doran's Blade or Shield depending on poke",
+      "Sheen timing matters",
+      "Health-first first recall if lane is sticky"
+    ],
+    "core_items": [
+      "Trinity Force",
+      "Ravenous Hydra",
+      "Sterak's Gage"
+    ],
+    "full_build": [
+      "Trinity Force",
+      "Ravenous Hydra",
+      "Sterak's Gage",
+      "Death's Dance",
+      "Sundered Sky"
+    ],
+    "situational_items": [
+      "Sundered Sky",
+      "Sterak's Gage",
+      "Ravenous Hydra",
+      "Frozen Heart",
+      "Maw of Malmortius"
+    ],
+    "decision_build": {
+      "ahead": {
+        "pt-BR": "SE estiver na frente -> abuse do push contra Sejuani e force respostas ruins antes do tanque estabilizar a lane.",
+        "en": "IF you are ahead -> abuse wave push against Sejuani and force bad answers before the tank stabilizes lane."
+      },
+      "behind": {
+        "pt-BR": "SE estiver atrás -> compre componente que te deixe continuar tocando a wave sem tomar engage fácil de Sejuani.",
+        "en": "IF you are behind -> buy a component that lets you keep touching the wave without giving Sejuani a free engage."
+      },
+      "vs_ap": {
+        "pt-BR": "SE houver bastante dano mágico no kit ou no time inimigo -> ajuste MR cedo e não espere a lane ficar impossível.",
+        "en": "IF there is significant magic damage in the kit or enemy team -> add MR early and do not wait until lane becomes impossible."
+      },
+      "vs_tank": {
+        "pt-BR": "SE o rival só quer travar a lane -> Tiamat/Hydra e ritmo de side costumam render mais do que item “bonito” mas lento.",
+        "en": "IF the enemy only wants to stall lane -> Tiamat/Hydra and side-lane tempo usually matter more than a prettier but slower item."
+      }
+    }
+  },
+  "item_winrate_system": {
+    "item_1_options": [
+      {
+        "item": "Trinity Force",
+        "relevance": "high",
+        "winrate": 51.6
+      },
+      {
+        "item": "Sundered Sky",
+        "relevance": "medium",
+        "winrate": 50.8
+      },
+      {
+        "item": "Early defensive component",
+        "relevance": "medium",
+        "winrate": 50.5
+      }
+    ],
+    "item_2_options": [
+      {
+        "item": "Ravenous Hydra",
+        "relevance": "high",
+        "winrate": 52.2
+      },
+      {
+        "item": "Ravenous Hydra",
+        "relevance": "medium",
+        "winrate": 51.3
+      },
+      {
+        "item": "Defensive pivot",
+        "relevance": "medium",
+        "winrate": 50.9
+      }
+    ],
+    "item_3_options": [
+      {
+        "item": "Sterak's Gage",
+        "relevance": "high",
+        "winrate": 52.9
+      },
+      {
+        "item": "Death's Dance",
+        "relevance": "high",
+        "winrate": 52.4
+      },
+      {
+        "item": "Flexible resistance slot",
+        "relevance": "medium",
+        "winrate": 51.7
+      }
+    ]
+  },
+  "runes": {
+    "most_used": {
+      "pt-BR": "Conquistador é forte quando Camille pode ditar o early ou pressionar antes do spike principal do rival.",
+      "en": "Conqueror is strong when Camille can dictate early lane or pressure before the enemy’s main spike."
+    },
+    "highest_winrate": {
+      "pt-BR": "A página de dano tende a render quando você realmente pode cobrar espaço cedo, em vez de só sobreviver.",
+      "en": "The damage page tends to perform when you can truly claim space early instead of only surviving."
+    },
+    "situational": {
+      "pt-BR": "Aperto dos Mortos-Vivos volta a ser melhor se o rival te taxa demais antes do contato; sustain secundário continua valioso.",
+      "en": "Grasp becomes better again if the enemy taxes you too much before contact; sustain secondaries still matter."
+    },
+    "when_to_use_each": {
+      "pt-BR": "SE a lane pede iniciativa -> Conquistador. SE a lane cobra entrada cara demais -> Aperto dos Mortos-Vivos ou setup de sustain.",
+      "en": "IF lane asks for initiative -> Conqueror. IF lane taxes the entry too heavily -> Grasp or a sustain setup."
+    },
+    "matchup_specific_reason": {
+      "pt-BR": "Contra Sejuani, a runa deve responder se Camille quer acelerar cedo ou só impedir que Permafrost (E) + Glacial Prison (R) compre a lane.",
+      "en": "Against Sejuani, the rune should answer whether Camille wants to accelerate early or just stop Permafrost (E) + Glacial Prison (R) from buying the lane."
+    },
+    "recommended_pages": [
+      {
+        "page_name": {
+          "pt-BR": "Página principal",
+          "en": "Primary page"
+        },
+        "keystone": {
+          "pt-BR": "Aperto dos Mortos-Vivos",
+          "en": "Grasp of the Undying"
+        },
+        "primary_tree": {
+          "pt-BR": "Determinação",
+          "en": "Resolve"
+        },
+        "primary_slots": [
+          {
+            "pt-BR": "Golpe de Escudo",
+            "en": "Shield Bash"
+          },
+          {
+            "pt-BR": "Osso Revestido",
+            "en": "Bone Plating"
+          },
+          {
+            "pt-BR": "Crescimento Excessivo",
+            "en": "Overgrowth"
+          }
+        ],
+        "secondary_tree": {
+          "pt-BR": "Precisão",
+          "en": "Precision"
+        },
+        "secondary_slots": [
+          {
+            "pt-BR": "Presença de Espírito",
+            "en": "Presence of Mind"
+          },
+          {
+            "pt-BR": "Até a Morte",
+            "en": "Last Stand"
+          }
+        ],
+        "shards": [
+          {
+            "pt-BR": "Velocidade de Ataque",
+            "en": "Attack Speed"
+          },
+          {
+            "pt-BR": "Força Adaptativa",
+            "en": "Adaptive Force"
+          },
+          {
+            "pt-BR": "Armadura",
+            "en": "Armor"
+          }
+        ],
+        "reason": {
+          "pt-BR": "Página mais estável quando a lane é decidida por trocas curtas, controle de HP e passiva bem sincronizada.",
+          "en": "Most stable page when the lane is decided by short trades, HP control and well-synced passive timing."
+        },
+        "when": {
+          "pt-BR": "Use quando você precisa sobreviver ao primeiro ciclo ruim e ganhar valor repetido em AA + Q.",
+          "en": "Use it when you need to survive the first bad cycle and extract repeat value from AA + Q."
+        }
+      },
+      {
+        "page_name": {
+          "pt-BR": "Página situacional",
+          "en": "Situational page"
+        },
+        "keystone": {
+          "pt-BR": "Conquistador",
+          "en": "Conqueror"
+        },
+        "primary_tree": {
+          "pt-BR": "Precisão",
+          "en": "Precision"
+        },
+        "primary_slots": [
+          {
+            "pt-BR": "Triunfo",
+            "en": "Triumph"
+          },
+          {
+            "pt-BR": "Lenda: Espontaneidade",
+            "en": "Legend: Alacrity"
+          },
+          {
+            "pt-BR": "Até a Morte",
+            "en": "Last Stand"
+          }
+        ],
+        "secondary_tree": {
+          "pt-BR": "Determinação",
+          "en": "Resolve"
+        },
+        "secondary_slots": [
+          {
+            "pt-BR": "Golpe de Escudo",
+            "en": "Shield Bash"
+          },
+          {
+            "pt-BR": "Ventos Revigorantes",
+            "en": "Second Wind"
+          }
+        ],
+        "shards": [
+          {
+            "pt-BR": "Velocidade de Ataque",
+            "en": "Attack Speed"
+          },
+          {
+            "pt-BR": "Força Adaptativa",
+            "en": "Adaptive Force"
+          },
+          {
+            "pt-BR": "Vida Escalável",
+            "en": "Health Scaling"
+          }
+        ],
+        "reason": {
+          "pt-BR": "Dá mais teto em side lane e lutas estendidas, mas exige mais respeito no early e mais precisão para não perder a lane antes do spike.",
+          "en": "Gives a higher ceiling in side lane and extended fights, but demands more respect early and cleaner execution to avoid losing lane before the spike."
+        },
+        "when": {
+          "pt-BR": "Use quando o confronto e o jogo prometem luta longa de verdade, não só troca bonita no papel.",
+          "en": "Use it when the matchup and the game truly promise extended fights, not just pretty trades on paper."
+        }
+      }
+    ]
+  },
+  "power_spikes": {
+    "enemy_spikes": [
+      {
+        "pt-BR": "primeira camada defensiva -> a lane fica mais lenta e punitiva para engage ruim.",
+        "en": "first defensive layer -> lane becomes slower and more punishing for bad engages."
+      },
+      {
+        "pt-BR": "lvl 6 -> a janela de lock real aparece.",
+        "en": "lvl 6 -> the real lockdown window appears."
+      },
+      {
+        "pt-BR": "item 1 -> o campeão fica muito melhor em alongar o round dois.",
+        "en": "item 1 -> the champion gets much better at stretching the second round."
+      }
+    ],
+    "camille_spikes": [
+      {
+        "pt-BR": "lvl 3 -> kit completo para entrada curta, passiva e saída.",
+        "en": "lvl 3 -> full kit for short entry, passive and exit."
+      },
+      {
+        "pt-BR": "primeiro reset útil -> sheen/vida mudam muito o peso do Q2.",
+        "en": "first useful reset -> sheen/HP heavily change the weight of Q2."
+      },
+      {
+        "pt-BR": "lvl 6 -> R pode apagar o melhor frame do rival e converter pick de verdade.",
+        "en": "lvl 6 -> R can erase the enemy’s best frame and convert into a true pick."
+      }
+    ],
+    "shared_spikes": [
+      {
+        "pt-BR": "lvl 6",
+        "en": "lvl 6"
+      },
+      {
+        "pt-BR": "primeiro reset útil",
+        "en": "first useful reset"
+      },
+      {
+        "pt-BR": "item 1",
+        "en": "item 1"
+      }
+    ]
+  },
+  "common_mistakes": [
+    {
+      "pt-BR": "Entrar com a passiva da Sejuani inteira como se o burst fosse atravessar tudo.",
+      "en": "Engaging while Sejuani passive is intact as if burst would cut through all of it."
+    },
+    {
+      "pt-BR": "Ficar perto quando o E está quase pronto.",
+      "en": "Staying close when E is about to be ready."
+    },
+    {
+      "pt-BR": "Desrespeitar o 6 numa wave longa.",
+      "en": "Disrespecting level 6 on a long wave."
+    }
+  ],
+  "practical_priority": {
+    "boots_priority": {
+      "pt-BR": "Escolha a bota pelo controle e pelo time inimigo, não só pelo 1x1 com Sejuani. Contra muito CC, tenacidade vale muito.",
+      "en": "Choose boots based on CC and the enemy team, not only the 1v1 with Sejuani. Against heavy CC, tenacity matters a lot."
+    },
+    "defensive_item_priority": {
+      "pt-BR": "Média. Mais importante do que resistência bruta é não entregar engage ruim de graça.",
+      "en": "Medium. More important than raw resistance is not donating bad engages for free."
+    },
+    "tiamat_or_not": {
+      "pt-BR": "SE a lane está estável e você quer acelerar side lane -> Tiamat/Hydra ajuda bastante. SE ainda precisa sobreviver ao primeiro pacote do rival -> atrase sem culpa.",
+      "en": "IF lane is stable and you want to accelerate side lane -> Tiamat/Hydra helps a lot. IF you still need to survive the enemy’s first packet -> delay it with no guilt."
+    },
+    "rush_core_or_not": {
+      "pt-BR": "Só rushar core puro quando a matchup não estiver cobrando resistência imediata. Camille precisa de spike utilizável, não de item bonito comprado morrendo.",
+      "en": "Only rush a pure core item when the matchup is not asking for immediate resistance. Camille needs a usable spike, not a pretty item bought while dying."
+    }
+  },
+  "gameplan_complete": {
+    "early_game": {
+      "pt-BR": "Jogue o early entendendo exatamente o que define a lane contra o rival. A prioridade é chegar no primeiro reset com vida e wave utilizável, não provar coragem em janela ruim.",
+      "en": "Play early lane by understanding exactly what defines this matchup. The priority is reaching first reset with HP and a usable wave, not proving bravery in a bad window."
+    },
+    "mid_game": {
+      "pt-BR": "Procure side lane com visão e picks curtos. Se o rival precisa de corredor, brush ou segundo tempo para ser forte, não entregue exatamente esse cenário.",
+      "en": "Look for a warded side lane and short picks. If the enemy needs a corridor, brush or a second act to become strong, do not donate exactly that scenario."
+    },
+    "late_game": {
+      "pt-BR": "No late, Camille vale mais quando escolhe alvo e frame. Evite entrar só porque “chegou”; entre quando o cooldown que realmente mudaria a luta já não pode responder limpo.",
+      "en": "In late game, Camille is worth more when she chooses the target and frame. Do not enter just because you reached them; enter once the cooldown that would truly swing the fight cannot answer cleanly anymore."
+    }
+  },
+  "practical_situations": [
+    {
+      "pt-BR": "SE passiva quebrada ou Permafrost (E) sem poder fechar na troca seguinte -> não espere confirmação perfeita; tome espaço na hora e transforme a janela em wave, HP ou reset melhor.",
+      "en": "IF passive broken or Permafrost (E) unable to complete in the next trade -> do not wait for perfect confirmation; take space immediately and turn the window into wave control, HP or a better reset."
+    },
+    {
+      "pt-BR": "SE a wave estiver ruim e a lane estiver pedindo exatamente o cenário em que Camille entra em corpo a corpo longo sem quebrar a passiva e sem respeitar a contagem do E -> recue um ciclo e não tente resolver tudo no mesmo minuto.",
+      "en": "IF the wave is bad and lane is asking for exactly the scenario where Camille enters a long melee fight without breaking passive and without respecting the E stack count -> back off for a cycle and do not try to solve everything in the same minute."
+    },
+    {
+      "pt-BR": "SE Camille não tiver janela real -> jogue por passiva, W, XP e informação até que passiva quebrada ou Permafrost (E) sem poder fechar na troca seguinte. Contra Sejuani, paciência também é dano.",
+      "en": "IF Camille has no real window -> play for passive, W, XP and information until passive broken or Permafrost (E) unable to complete in the next trade. Against Sejuani, patience is also damage."
+    }
+  ],
+  "camille_identity_in_matchup": {
+    "split_or_teamfight": {
+      "pt-BR": "Camille normalmente prefere side lane e picks, entrando em teamfight por flanco ou alvo específico, não por frente a frente longo.",
+      "en": "Camille usually prefers side lane and picks, entering teamfights through flanks or specific targets, not through long front-to-front fights."
+    },
+    "playstyle": {
+      "pt-BR": "Paciente, cirúrgica e guiada por informação. Nessa matchup, a pressa quase sempre melhora a fight do rival.",
+      "en": "Patient, surgical and information-driven. In this matchup, haste almost always improves the enemy’s fight."
+    },
+    "role_no_jogo": {
+      "pt-BR": "Criar pressão lateral, forçar resposta ruim e converter erro de posicionamento ou cooldown em pick, torre ou tempo de mapa.",
+      "en": "Create side pressure, force a bad answer and convert a positioning or cooldown mistake into a pick, tower or map tempo."
+    }
+  },
+  "real_difficulty": {
+    "why_its_hard": {
+      "pt-BR": "Sejuani te força a respeitar a segunda camada da luta. O primeiro contato pode até parecer bom, mas o E e a ult podem virar o que parecia controlado.",
+      "en": "Sejuani forces you to respect the second layer of the fight. First contact can even look good, but E and ult can flip what looked controlled."
+    },
+    "what_it_demands": {
+      "pt-BR": "Exige leitura de wave, disciplina com Hookshot e noção exata de quando Permafrost (E) + Glacial Prison (R) ainda decide a troca. O jogador de Camille precisa ganhar no timing, não no ego.",
+      "en": "It demands wave reading, Hookshot discipline and an exact sense for when Permafrost (E) + Glacial Prison (R) still decides the trade. The Camille player must win on timing, not on ego."
+    }
+  },
+  "metadata": {
+    "data_quality": {
+      "lane": "medium",
+      "build": "medium",
+      "runes": "medium"
+    },
+    "source_priority": [
+      "official_riot",
+      "trusted_stats",
+      "expert_matchup_notes",
+      "vod_review"
+    ],
+    "last_reviewed_patch": "16.7.1",
+    "content_status": "refined_jungle_round4"
+  }
+}

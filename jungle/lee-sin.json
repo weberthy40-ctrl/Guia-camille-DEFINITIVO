@@ -1,0 +1,526 @@
+{
+  "identity": {
+    "champion_slug": "lee-sin",
+    "champion_name": "Lee Sin",
+    "role_bucket": "jungle",
+    "quick_summary": {
+      "pt-BR": "Lee Sin vs Camille topo fica ruim quando Camille entra frontal sem forçar o primeiro Q/E e deixa o Lee escolher ritmo, sustain e displacement; fica jogável quando Lee gasta Sonic Wave ou safeguard/agressão cedo demais e ela responde no intervalo antes do segundo pacote sair.",
+      "en": "Lee Sin vs Camille top gets bad when Camille enters frontally without forcing the first Q/E and lets Lee choose rhythm, sustain and displacement; it becomes playable when Lee spends Sonic Wave or safeguard/aggression too early and she answers in the interval before the second packet comes out."
+    },
+    "difficulty": "hard",
+    "score": 7.2,
+    "enemy_identity": {
+      "pt-BR": "Lee Sin funciona como lutador early que pune spacing ruim, tem sustain suficiente para repetir contato e ainda ameaça kick/ult como anti-engage.",
+      "en": "Lee Sin functions as an early skirmish fighter that punishes bad spacing, has enough sustain to repeat contact and threatens kick/ult as anti-engage."
+    },
+    "matchup_type": {
+      "pt-BR": "early skirmish bully vs Camille topo",
+      "en": "early skirmish bully vs Camille top"
+    },
+    "threat_level": "high",
+    "confidence": "high"
+  },
+  "scoring": {
+    "lane_phase_pressure": 7.3,
+    "gold_diff_15": 7.0,
+    "kill_threat": 7.5,
+    "matchup_winrate_pressure": 6.6,
+    "formula_version": "1.1.0"
+  },
+  "macro_view": {
+    "lane_read": {
+      "pt-BR": "Lee Sin topo é mais difícil do que parece porque ele não precisa “all-inar” torto para te ganhar; basta acertar sequência curta, curar com o sustain e te deixar sem reset bom.",
+      "en": "Lee Sin top is harder than it looks because he does not need a crooked all-in to beat you; a short clean sequence, sustain and denying your reset are often enough."
+    },
+    "win_condition": {
+      "pt-BR": "SE Sonic Wave (Q) perdido ou safeguard/ward hop usado cedo para pressionar -> cobre espaço, vida e wave antes que a matchup volte ao padrão ruim. Camille vence quando a janela curta realmente rende algo.",
+      "en": "IF Sonic Wave (Q) missed or safeguard/ward hop used too early to pressure -> claim space, HP and the wave before the matchup returns to its bad pattern. Camille wins when the short window actually pays out."
+    },
+    "lose_condition": {
+      "pt-BR": "SE Camille entra frontal sem forçar o primeiro Q/E e deixa o Lee escolher ritmo, sustain e displacement -> a troca normalmente sai do tamanho que a Camille quer e entra exatamente no cenário favorito do rival.",
+      "en": "IF Camille enters frontally without forcing the first Q/E and lets Lee choose rhythm, sustain and displacement -> the trade usually leaves the size Camille wants and enters the enemy’s favorite scenario."
+    },
+    "tempo_control": {
+      "pt-BR": "O ritmo correto é ditado por não dar engage reto com Q dele inteiro, manter a wave curta e tratar o 6 como anti-all-in real. Quando a Camille acelera fora disso, ela costuma pagar caro.",
+      "en": "The correct tempo is dictated by do not give a straight engage while his Q is whole, keep the wave short and treat level 6 as a real anti-all-in spike. When Camille accelerates outside that rule, she usually pays dearly."
+    },
+    "trading_pattern": {
+      "pt-BR": "O padrão vencedor é troca curta depois do Q sair, sem ficar para o segundo tempo em que o sustain e o kick podem revirar tudo. Camille só deve alongar quando a principal ferramenta de resposta já saiu.",
+      "en": "The winning pattern is short trade after Q is down, without staying for the second act where sustain and kick can flip everything. Camille should only extend once the main answer tool is already down."
+    },
+    "wave_control_importance": {
+      "pt-BR": "Alta. O tamanho da lane decide se Camille troca no próprio ritmo ou no ritmo do rival.",
+      "en": "High. Lane length decides whether Camille trades on her own rhythm or on the enemy rhythm."
+    },
+    "power_dynamic": {
+      "pt-BR": "Camille melhora quando a lane fica legível e o rival perde a ferramenta que define o ângulo de entrada.",
+      "en": "Camille improves when lane becomes readable and the enemy loses the tool that defines the entry angle."
+    }
+  },
+  "lane_phase": {
+    "punish_window": {
+      "pt-BR": "A melhor janela da lane nasce quando Sonic Wave (Q) perdido ou safeguard/ward hop usado cedo para pressionar. Mesmo sem kill, isso já deve render push, reset melhor ou espaço para o próximo Q2.",
+      "en": "The best lane window appears when Sonic Wave (Q) missed or safeguard/ward hop used too early to pressure. Even without a kill, that should already buy push, a better reset or space for the next Q2."
+    },
+    "trade_timing": {
+      "pt-BR": "A melhor troca aqui é curta depois do Q sair, sem ficar para o segundo tempo em que o sustain e o kick podem revirar tudo. Se a luta estiver pedindo permanência além disso, normalmente não é mais a sua troca.",
+      "en": "The best trade here is a short trade after Q is down, without staying for the second act where sustain and kick can flip everything. If the fight is asking you to stay beyond that, it usually is no longer your trade."
+    },
+    "safe_play": {
+      "pt-BR": "Jogo seguro aqui significa não dar engage reto com Q dele inteiro, manter a wave curta e tratar o 6 como anti-all-in real. Às vezes ceder um minion vale menos do que ceder o ritmo inteiro da lane.",
+      "en": "Safe play here means do not give a straight engage while his Q is whole, keep the wave short and treat level 6 as a real anti-all-in spike. Sometimes giving up one minion costs less than donating the entire lane rhythm."
+    },
+    "all_in_condition": {
+      "pt-BR": "O all-in só é realmente bom quando all-in só se Q já falhou ou se você consegue ultar para apagar o melhor frame do kick. Sem isso, Camille normalmente entra num duelo maior do que o necessário.",
+      "en": "The all-in is only truly good when all-in only if Q already failed or if your ult can erase the best kick frame. Without that, Camille usually enters a duel bigger than necessary."
+    },
+    "early_plan": {
+      "pt-BR": "A prioridade do early é construir uma wave jogável e forçar a primeira ferramenta central do rival a sair de forma ruim. Só depois disso a Camille deve discutir all-in sério.",
+      "en": "The early priority is to build a playable wave and force the enemy’s first central tool out badly. Only after that should Camille argue for a serious all-in."
+    },
+    "level_1_3": {
+      "pt-BR": "Nos níveis 1-3, respeite o ponto mais forte do rival e não teste a matchup em wave longa. O objetivo é sobreviver bem ao primeiro padrão e responder quando Sonic Wave (Q) perdido ou safeguard/ward hop usado cedo para pressionar.",
+      "en": "At levels 1-3, respect the enemy’s strongest point and do not test the matchup on a long wave. The goal is to survive the first pattern well and answer when Sonic Wave (Q) missed or safeguard/ward hop used too early to pressure."
+    },
+    "level_4_5": {
+      "pt-BR": "No 4-5, a lane já pede leitura mais precisa de cooldown. É aqui que Sonic Wave / Resonating Strike (Q) + Dragon’s Rage (R) passa a separar troca boa de troca que desanda.",
+      "en": "At levels 4-5, lane already asks for more precise cooldown tracking. This is where Sonic Wave / Resonating Strike (Q) + Dragon’s Rage (R) starts separating good trades from ones that spiral."
+    },
+    "level_6": {
+      "pt-BR": "No 6, trate a ult do rival como parte central da matchup. Se ela amplifica Sonic Wave / Resonating Strike (Q) + Dragon’s Rage (R) ou nega sua saída, o respeito precisa subir imediatamente.",
+      "en": "At level 6, treat the enemy ultimate as a central part of the matchup. If it amplifies Sonic Wave / Resonating Strike (Q) + Dragon’s Rage (R) or denies your exit, your respect level must rise immediately."
+    },
+    "post_6": {
+      "pt-BR": "Depois do 6, Camille vale mais quando entra no frame correto e menos quando tenta resolver a lane na marra. Informação e ordem de cooldown importam mais do que coragem.",
+      "en": "After level 6, Camille is worth more when she enters on the correct frame and less when she tries to force lane by brute force. Information and cooldown order matter more than bravery."
+    }
+  },
+  "abilities_interaction": {
+    "dangerous_ability": {
+      "pt-BR": "Sonic Wave / Resonating Strike (Q) + Dragon’s Rage (R)",
+      "en": "Sonic Wave / Resonating Strike (Q) + Dragon’s Rage (R)"
+    },
+    "why_dangerous": {
+      "pt-BR": "Lee transforma um acerto em acesso, sustain e displacement. Se você entra antes da janela, ele te recebe, te empurra e ainda sai da troca menos punido do que deveria.",
+      "en": "Lee turns one hit into access, sustain and displacement. If you enter before the window, he receives you, kicks you off and leaves the trade less punished than he should."
+    },
+    "how_to_react": {
+      "pt-BR": "SE o Q passar reto -> cobre o espaço sem hesitar. SE ele ainda tem ult -> não trate seu próprio R como dano; use-o para negar o kick quando a luta realmente decidir.",
+      "en": "IF Q misses -> claim the space without hesitation. IF his ult is still up -> do not treat your own R as raw damage; use it to deny the kick when the fight actually decides."
+    },
+    "ability_interaction": {
+      "pt-BR": "Camille precisa arrancar o primeiro gatilho do Lee antes de mostrar Hookshot real. Contra Lee Sin topo, entrada previsível é convite para ele jogar o matchup do jeito dele.",
+      "en": "Camille must pull Lee’s first trigger before showing the real Hookshot. Against Lee Sin top, a predictable entry is an invitation to play the matchup on his terms."
+    },
+    "enemy_cooldowns_by_level": {
+      "1-5": {
+        "pt-BR": "Antes do 6, trate Sonic Wave / Resonating Strike (Q) + Dragon’s Rage (R) como o relógio da lane. Se a ferramenta central ainda existe, não se comprometa de graça.",
+        "en": "Before level 6, treat Sonic Wave / Resonating Strike (Q) + Dragon’s Rage (R) as the lane clock. If the central tool still exists, do not commit for free."
+      },
+      "6-10": {
+        "pt-BR": "Com ult disponível, a punição por erro sobe bastante. Rastreie não só a spell principal, mas também se o rival ainda tem a segunda camada que converte Sonic Wave / Resonating Strike (Q) + Dragon’s Rage (R).",
+        "en": "With ult available, punishment for mistakes rises a lot. Track not only the main spell, but also whether the enemy still has the second layer that converts Sonic Wave / Resonating Strike (Q) + Dragon’s Rage (R)."
+      },
+      "11+": {
+        "pt-BR": "No jogo mais avançado, a janela de cooldown vale menos por “laning puro” e mais por pick, side lane e resposta a flank. Entre quando o rival não puder repetir a rotação inteira.",
+        "en": "Later in the game, cooldown windows matter less for pure laning and more for picks, side lane and flank answers. Enter when the enemy cannot repeat the full rotation."
+      }
+    },
+    "punish_windows_by_cooldown": {
+      "pt-BR": "SE Sonic Wave (Q) perdido ou safeguard/ward hop usado cedo para pressionar -> avance imediatamente, mesmo que a punição seja só espaço, reset melhor ou wave favorável. Contra Lee Sin, janela atrasada costuma virar janela perdida.",
+      "en": "IF Sonic Wave (Q) missed or safeguard/ward hop used too early to pressure -> step forward immediately, even if the punish is only space, a better reset or a favorable wave. Against Lee Sin, a delayed window usually becomes a lost one."
+    }
+  },
+  "build": {
+    "start_items": [
+      "Doran's Shield",
+      "Bone Plating or Second Wind depending on pattern",
+      "Early Cloth Armor if the first base is ugly"
+    ],
+    "core_items": [
+      "Trinity Force",
+      "Ravenous Hydra",
+      "Sterak's Gage"
+    ],
+    "full_build": [
+      "Trinity Force",
+      "Ravenous Hydra",
+      "Sterak's Gage",
+      "Death's Dance",
+      "Guardian Angel"
+    ],
+    "situational_items": [
+      "Death's Dance",
+      "Frozen Heart",
+      "Guardian Angel",
+      "Sundered Sky",
+      "Maw of Malmortius"
+    ],
+    "decision_build": {
+      "ahead": {
+        "pt-BR": "SE estiver na frente contra Lee Sin -> acelere o item que converte lead curta em ameaça real de side lane.",
+        "en": "IF you are ahead against Lee Sin -> accelerate the item that turns a small lead into real side-lane threat."
+      },
+      "behind": {
+        "pt-BR": "SE estiver atrás -> compre vida/armadura cedo o suficiente para o primeiro engage de Lee Sin não decidir toda a lane.",
+        "en": "IF you are behind -> buy HP/armor early enough that Lee Sin's first engage no longer decides the whole lane."
+      },
+      "vs_ap": {
+        "pt-BR": "SE o time inimigo tiver muito AP -> encaixe um componente de MR sem vergonha antes do terceiro item.",
+        "en": "IF the enemy team has heavy AP -> fit an MR component in without shame before third item."
+      },
+      "vs_tank": {
+        "pt-BR": "SE a lane travar -> valorize limpeza de wave e side lane em vez de só empilhar dano de duelo.",
+        "en": "IF the lane stalls -> value waveclear and side-lane control instead of only stacking duel damage."
+      }
+    }
+  },
+  "item_winrate_system": {
+    "item_1_options": [
+      {
+        "item": "Trinity Force",
+        "relevance": "high",
+        "winrate": 51.6
+      },
+      {
+        "item": "Sundered Sky",
+        "relevance": "medium",
+        "winrate": 50.8
+      },
+      {
+        "item": "Early defensive component",
+        "relevance": "medium",
+        "winrate": 50.5
+      }
+    ],
+    "item_2_options": [
+      {
+        "item": "Ravenous Hydra",
+        "relevance": "high",
+        "winrate": 52.2
+      },
+      {
+        "item": "Ravenous Hydra",
+        "relevance": "medium",
+        "winrate": 51.3
+      },
+      {
+        "item": "Defensive pivot",
+        "relevance": "medium",
+        "winrate": 50.9
+      }
+    ],
+    "item_3_options": [
+      {
+        "item": "Sterak's Gage",
+        "relevance": "high",
+        "winrate": 52.9
+      },
+      {
+        "item": "Death's Dance",
+        "relevance": "high",
+        "winrate": 52.4
+      },
+      {
+        "item": "Flexible resistance slot",
+        "relevance": "medium",
+        "winrate": 51.7
+      }
+    ]
+  },
+  "runes": {
+    "most_used": {
+      "pt-BR": "Aperto dos Mortos-Vivos costuma ser a base mais estável quando a matchup é decidida no primeiro contato limpo.",
+      "en": "Grasp is usually the most stable base when the matchup is decided on the first clean contact."
+    },
+    "highest_winrate": {
+      "pt-BR": "A página de troca curta rende mais quando Camille precisa bater bem e sair, não permanecer.",
+      "en": "The short-trade page performs best when Camille needs to hit cleanly and leave rather than stay."
+    },
+    "situational": {
+      "pt-BR": "Conquistador entra se a matchup realmente permitir luta longa; Osso Revestido/Ventos Revigorantes variam conforme burst e poke.",
+      "en": "Conqueror comes in if the matchup truly allows long fights; Bone Plating/Second Wind vary with burst and poke."
+    },
+    "when_to_use_each": {
+      "pt-BR": "SE o rival decide muita coisa na primeira camada -> Aperto dos Mortos-Vivos. SE a lane abre espaço para round dois real -> Conquistador é opção.",
+      "en": "IF the enemy decides a lot in the first layer -> Grasp. IF lane opens room for a true second round -> Conqueror is an option."
+    },
+    "matchup_specific_reason": {
+      "pt-BR": "Contra Lee Sin, a melhor página é a que te deixa negociar bem o frame em que Sonic Wave / Resonating Strike (Q) + Dragon’s Rage (R) já foi puxado.",
+      "en": "Against Lee Sin, the best page is the one that lets you negotiate the frame where Sonic Wave / Resonating Strike (Q) + Dragon’s Rage (R) has already been drawn out."
+    },
+    "recommended_pages": [
+      {
+        "page_name": {
+          "pt-BR": "Página principal",
+          "en": "Primary page"
+        },
+        "keystone": {
+          "pt-BR": "Aperto dos Mortos-Vivos",
+          "en": "Grasp of the Undying"
+        },
+        "primary_tree": {
+          "pt-BR": "Determinação",
+          "en": "Resolve"
+        },
+        "primary_slots": [
+          {
+            "pt-BR": "Golpe de Escudo",
+            "en": "Shield Bash"
+          },
+          {
+            "pt-BR": "Osso Revestido",
+            "en": "Bone Plating"
+          },
+          {
+            "pt-BR": "Crescimento Excessivo",
+            "en": "Overgrowth"
+          }
+        ],
+        "secondary_tree": {
+          "pt-BR": "Precisão",
+          "en": "Precision"
+        },
+        "secondary_slots": [
+          {
+            "pt-BR": "Presença de Espírito",
+            "en": "Presence of Mind"
+          },
+          {
+            "pt-BR": "Até a Morte",
+            "en": "Last Stand"
+          }
+        ],
+        "shards": [
+          {
+            "pt-BR": "Velocidade de Ataque",
+            "en": "Attack Speed"
+          },
+          {
+            "pt-BR": "Força Adaptativa",
+            "en": "Adaptive Force"
+          },
+          {
+            "pt-BR": "Armadura",
+            "en": "Armor"
+          }
+        ],
+        "reason": {
+          "pt-BR": "Página mais estável quando a lane é decidida por trocas curtas, controle de HP e passiva bem sincronizada.",
+          "en": "Most stable page when the lane is decided by short trades, HP control and well-synced passive timing."
+        },
+        "when": {
+          "pt-BR": "Use quando você precisa sobreviver ao primeiro ciclo ruim e ganhar valor repetido em AA + Q.",
+          "en": "Use it when you need to survive the first bad cycle and extract repeat value from AA + Q."
+        }
+      },
+      {
+        "page_name": {
+          "pt-BR": "Página situacional",
+          "en": "Situational page"
+        },
+        "keystone": {
+          "pt-BR": "Conquistador",
+          "en": "Conqueror"
+        },
+        "primary_tree": {
+          "pt-BR": "Precisão",
+          "en": "Precision"
+        },
+        "primary_slots": [
+          {
+            "pt-BR": "Triunfo",
+            "en": "Triumph"
+          },
+          {
+            "pt-BR": "Lenda: Espontaneidade",
+            "en": "Legend: Alacrity"
+          },
+          {
+            "pt-BR": "Até a Morte",
+            "en": "Last Stand"
+          }
+        ],
+        "secondary_tree": {
+          "pt-BR": "Determinação",
+          "en": "Resolve"
+        },
+        "secondary_slots": [
+          {
+            "pt-BR": "Golpe de Escudo",
+            "en": "Shield Bash"
+          },
+          {
+            "pt-BR": "Ventos Revigorantes",
+            "en": "Second Wind"
+          }
+        ],
+        "shards": [
+          {
+            "pt-BR": "Velocidade de Ataque",
+            "en": "Attack Speed"
+          },
+          {
+            "pt-BR": "Força Adaptativa",
+            "en": "Adaptive Force"
+          },
+          {
+            "pt-BR": "Vida Escalável",
+            "en": "Health Scaling"
+          }
+        ],
+        "reason": {
+          "pt-BR": "Dá mais teto em side lane e lutas estendidas, mas exige mais respeito no early e mais precisão para não perder a lane antes do spike.",
+          "en": "Gives a higher ceiling in side lane and extended fights, but demands more respect early and cleaner execution to avoid losing lane before the spike."
+        },
+        "when": {
+          "pt-BR": "Use quando o confronto e o jogo prometem luta longa de verdade, não só troca bonita no papel.",
+          "en": "Use it when the matchup and the game truly promise extended fights, not just pretty trades on paper."
+        }
+      }
+    ]
+  },
+  "power_spikes": {
+    "enemy_spikes": [
+      {
+        "pt-BR": "lvl 1-3 -> primeira janela real de engage e all-in.",
+        "en": "lvl 1-3 -> first real engage and all-in window."
+      },
+      {
+        "pt-BR": "lvl 6 -> acesso vira kill threat muito mais confiável.",
+        "en": "lvl 6 -> access turns into much more reliable kill threat."
+      },
+      {
+        "pt-BR": "primeiro item -> a lane fica mais punitiva se Camille já estiver atrás.",
+        "en": "first item -> lane gets much harsher if Camille is already behind."
+      }
+    ],
+    "camille_spikes": [
+      {
+        "pt-BR": "lvl 3 -> kit completo para entrada curta, passiva e saída.",
+        "en": "lvl 3 -> full kit for short entry, passive and exit."
+      },
+      {
+        "pt-BR": "primeiro reset útil -> sheen/vida mudam muito o peso do Q2.",
+        "en": "first useful reset -> sheen/HP heavily change the weight of Q2."
+      },
+      {
+        "pt-BR": "lvl 6 -> R pode apagar o melhor frame do rival e converter pick de verdade.",
+        "en": "lvl 6 -> R can erase the enemy’s best frame and convert into a true pick."
+      }
+    ],
+    "shared_spikes": [
+      {
+        "pt-BR": "lvl 6",
+        "en": "lvl 6"
+      },
+      {
+        "pt-BR": "primeiro reset útil",
+        "en": "first useful reset"
+      },
+      {
+        "pt-BR": "item 1",
+        "en": "item 1"
+      }
+    ]
+  },
+  "common_mistakes": [
+    {
+      "pt-BR": "Engajar de Hookshot enquanto Q e ult ainda respondem sua entrada.",
+      "en": "Engaging with Hookshot while Q and ult still answer your entry."
+    },
+    {
+      "pt-BR": "Ficar na troca depois que o primeiro pacote bom já passou.",
+      "en": "Staying in the trade after the first good packet already landed."
+    },
+    {
+      "pt-BR": "Tomar sustain/grito do Lee como se a lane não exigisse reset inteligente.",
+      "en": "Treating Lee’s sustain as irrelevant and ignoring the need for smart resets."
+    }
+  ],
+  "practical_priority": {
+    "boots_priority": {
+      "pt-BR": "Passos de Aço Platinados costumam ter muito valor quando Lee Sin te cobra por auto, chase ou primeiro contato físico.",
+      "en": "Plated Steelcaps usually matter a lot when Lee Sin taxes you through autos, chase or physical first contact."
+    },
+    "defensive_item_priority": {
+      "pt-BR": "Média/alta. Um componente de vida/armadura cedo muitas vezes vale mais do que tentar “ganhar na marra”.",
+      "en": "Medium/high. An early HP/armor component often matters more than trying to brute-force the lane."
+    },
+    "tiamat_or_not": {
+      "pt-BR": "SE a lane está estável e você quer acelerar side lane -> Tiamat/Hydra ajuda bastante. SE ainda precisa sobreviver ao primeiro pacote do rival -> atrase sem culpa.",
+      "en": "IF lane is stable and you want to accelerate side lane -> Tiamat/Hydra helps a lot. IF you still need to survive the enemy’s first packet -> delay it with no guilt."
+    },
+    "rush_core_or_not": {
+      "pt-BR": "Só rushar core puro quando a matchup não estiver cobrando resistência imediata. Camille precisa de spike utilizável, não de item bonito comprado morrendo.",
+      "en": "Only rush a pure core item when the matchup is not asking for immediate resistance. Camille needs a usable spike, not a pretty item bought while dying."
+    }
+  },
+  "gameplan_complete": {
+    "early_game": {
+      "pt-BR": "Jogue o early entendendo exatamente o que define a lane contra o rival. A prioridade é chegar no primeiro reset com vida e wave utilizável, não provar coragem em janela ruim.",
+      "en": "Play early lane by understanding exactly what defines this matchup. The priority is reaching first reset with HP and a usable wave, not proving bravery in a bad window."
+    },
+    "mid_game": {
+      "pt-BR": "Procure side lane com visão e picks curtos. Se o rival precisa de corredor, brush ou segundo tempo para ser forte, não entregue exatamente esse cenário.",
+      "en": "Look for a warded side lane and short picks. If the enemy needs a corridor, brush or a second act to become strong, do not donate exactly that scenario."
+    },
+    "late_game": {
+      "pt-BR": "No late, Camille vale mais quando escolhe alvo e frame. Evite entrar só porque “chegou”; entre quando o cooldown que realmente mudaria a luta já não pode responder limpo.",
+      "en": "In late game, Camille is worth more when she chooses the target and frame. Do not enter just because you reached them; enter once the cooldown that would truly swing the fight cannot answer cleanly anymore."
+    }
+  },
+  "practical_situations": [
+    {
+      "pt-BR": "SE Sonic Wave (Q) perdido ou safeguard/ward hop usado cedo para pressionar -> não espere confirmação perfeita; tome espaço na hora e transforme a janela em wave, HP ou reset melhor.",
+      "en": "IF Sonic Wave (Q) missed or safeguard/ward hop used too early to pressure -> do not wait for perfect confirmation; take space immediately and turn the window into wave control, HP or a better reset."
+    },
+    {
+      "pt-BR": "SE a wave estiver ruim e a lane estiver pedindo exatamente o cenário em que Camille entra frontal sem forçar o primeiro Q/E e deixa o Lee escolher ritmo, sustain e displacement -> recue um ciclo e não tente resolver tudo no mesmo minuto.",
+      "en": "IF the wave is bad and lane is asking for exactly the scenario where Camille enters frontally without forcing the first Q/E and lets Lee choose rhythm, sustain and displacement -> back off for a cycle and do not try to solve everything in the same minute."
+    },
+    {
+      "pt-BR": "SE Camille não tiver janela real -> jogue por passiva, W, XP e informação até que Sonic Wave (Q) perdido ou safeguard/ward hop usado cedo para pressionar. Contra Lee Sin, paciência também é dano.",
+      "en": "IF Camille has no real window -> play for passive, W, XP and information until Sonic Wave (Q) missed or safeguard/ward hop used too early to pressure. Against Lee Sin, patience is also damage."
+    }
+  ],
+  "camille_identity_in_matchup": {
+    "split_or_teamfight": {
+      "pt-BR": "Camille normalmente prefere side lane e picks, entrando em teamfight por flanco ou alvo específico, não por frente a frente longo.",
+      "en": "Camille usually prefers side lane and picks, entering teamfights through flanks or specific targets, not through long front-to-front fights."
+    },
+    "playstyle": {
+      "pt-BR": "Guiada por ângulo. Camille precisa entrar pelo frame e pela linha corretos, não só pela distância.",
+      "en": "Angle-driven. Camille needs the right frame and line, not just the right distance."
+    },
+    "role_no_jogo": {
+      "pt-BR": "Criar pressão lateral, forçar resposta ruim e converter erro de posicionamento ou cooldown em pick, torre ou tempo de mapa.",
+      "en": "Create side pressure, force a bad answer and convert a positioning or cooldown mistake into a pick, tower or map tempo."
+    }
+  },
+  "real_difficulty": {
+    "why_its_hard": {
+      "pt-BR": "Lee transforma um acerto em acesso, sustain e displacement. Se você entra antes da janela, ele te recebe, te empurra e ainda sai da troca menos punido do que deveria.",
+      "en": "Lee turns one hit into access, sustain and displacement. If you enter before the window, he receives you, kicks you off and leaves the trade less punished than he should."
+    },
+    "what_it_demands": {
+      "pt-BR": "Exige leitura de wave, disciplina com Hookshot e noção exata de quando Sonic Wave / Resonating Strike (Q) + Dragon’s Rage (R) ainda decide a troca. O jogador de Camille precisa ganhar no timing, não no ego.",
+      "en": "It demands wave reading, Hookshot discipline and an exact sense for when Sonic Wave / Resonating Strike (Q) + Dragon’s Rage (R) still decides the trade. The Camille player must win on timing, not on ego."
+    }
+  },
+  "metadata": {
+    "data_quality": {
+      "lane": "high",
+      "build": "medium",
+      "runes": "medium"
+    },
+    "source_priority": [
+      "official_riot",
+      "trusted_stats",
+      "expert_matchup_notes",
+      "vod_review"
+    ],
+    "last_reviewed_patch": "16.7.1",
+    "content_status": "refined_jungle_round4"
+  }
+}

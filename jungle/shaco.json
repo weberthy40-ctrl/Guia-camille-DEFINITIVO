@@ -1,0 +1,526 @@
+{
+  "identity": {
+    "champion_slug": "shaco",
+    "champion_name": "Shaco",
+    "role_bucket": "jungle",
+    "quick_summary": {
+      "pt-BR": "Shaco vs Camille topo fica ruim quando Camille entra em brush ou wave suja sem checar box e perde a própria janela para medo e reposicionamento; fica jogável quando boxes saem cedo, o Q é usado defensivamente ou o clone já foi revelado antes do all-in.",
+      "en": "Shaco vs Camille top gets bad when Camille enters brush or a dirty wave without checking for boxes and loses her own window to fear and repositioning; it becomes playable when boxes are spent early, Q is used defensively or the clone is already revealed before the all-in."
+    },
+    "difficulty": "medium",
+    "score": 6.6,
+    "enemy_identity": {
+      "pt-BR": "Shaco funciona como trickster de box, invis e clone; Shaco topo te cobra menos por dano puro e mais por te fazer entrar sem informação.",
+      "en": "Shaco functions as a trickster of boxes, invis and clone; top Shaco taxes you less through pure damage and more by making you enter without information."
+    },
+    "matchup_type": {
+      "pt-BR": "trap/trickster lane vs Camille topo",
+      "en": "trap/trickster lane vs Camille top"
+    },
+    "threat_level": "high",
+    "confidence": "low"
+  },
+  "scoring": {
+    "lane_phase_pressure": 6.8,
+    "gold_diff_15": 6.4,
+    "kill_threat": 6.9,
+    "matchup_winrate_pressure": 6.1,
+    "formula_version": "1.1.0"
+  },
+  "macro_view": {
+    "lane_read": {
+      "pt-BR": "Shaco topo é uma lane de informação. Se você sabe onde estão as boxes e o Q já saiu, a matchup fica bem mais honesta; se não sabe, a lane parece impossível sem precisar ser.",
+      "en": "Top Shaco is an information lane. If you know where the boxes are and Q is already used, the matchup becomes much more honest; if you do not know, lane looks impossible without needing to be."
+    },
+    "win_condition": {
+      "pt-BR": "SE Deceive (Q) gasto defensivamente ou boxes reveladas/gastas sem valor -> cobre espaço, vida e wave antes que a matchup volte ao padrão ruim. Camille vence quando a janela curta realmente rende algo.",
+      "en": "IF Deceive (Q) spent defensively or boxes revealed/burned without value -> claim space, HP and the wave before the matchup returns to its bad pattern. Camille wins when the short window actually pays out."
+    },
+    "lose_condition": {
+      "pt-BR": "SE Camille entra em brush ou wave suja sem checar box e perde a própria janela para medo e reposicionamento -> a troca normalmente sai do tamanho que a Camille quer e entra exatamente no cenário favorito do rival.",
+      "en": "IF Camille enters brush or a dirty wave without checking for boxes and loses her own window to fear and repositioning -> the trade usually leaves the size Camille wants and enters the enemy’s favorite scenario."
+    },
+    "tempo_control": {
+      "pt-BR": "O ritmo correto é ditado por sweeper, controle de brush e zero ego em andar no escuro só porque a janela “parece” boa. Quando a Camille acelera fora disso, ela costuma pagar caro.",
+      "en": "The correct tempo is dictated by sweeper, brush control and zero ego about walking into darkness just because the window “looks” good. When Camille accelerates outside that rule, she usually pays dearly."
+    },
+    "trading_pattern": {
+      "pt-BR": "O padrão vencedor é troca curta e limpa quando você já limpou o terreno; contra Shaco, o preparo da luta vale tanto quanto a própria troca. Camille só deve alongar quando a principal ferramenta de resposta já saiu.",
+      "en": "The winning pattern is short clean trades once the terrain is cleaned up; against Shaco, fight preparation is worth as much as the trade itself. Camille should only extend once the main answer tool is already down."
+    },
+    "wave_control_importance": {
+      "pt-BR": "Alta. O tamanho da lane decide se Camille troca no próprio ritmo ou no ritmo do rival.",
+      "en": "High. Lane length decides whether Camille trades on her own rhythm or on the enemy rhythm."
+    },
+    "power_dynamic": {
+      "pt-BR": "Camille melhora quando a lane fica legível e o rival perde a ferramenta que define o ângulo de entrada.",
+      "en": "Camille improves when lane becomes readable and the enemy loses the tool that defines the entry angle."
+    }
+  },
+  "lane_phase": {
+    "punish_window": {
+      "pt-BR": "A melhor janela da lane nasce quando Deceive (Q) gasto defensivamente ou boxes reveladas/gastas sem valor. Mesmo sem kill, isso já deve render push, reset melhor ou espaço para o próximo Q2.",
+      "en": "The best lane window appears when Deceive (Q) spent defensively or boxes revealed/burned without value. Even without a kill, that should already buy push, a better reset or space for the next Q2."
+    },
+    "trade_timing": {
+      "pt-BR": "A melhor troca aqui é curta e limpa quando você já limpou o terreno; contra Shaco, o preparo da luta vale tanto quanto a própria troca. Se a luta estiver pedindo permanência além disso, normalmente não é mais a sua troca.",
+      "en": "The best trade here is short clean trades once the terrain is cleaned up; against Shaco, fight preparation is worth as much as the trade itself. If the fight is asking you to stay beyond that, it usually is no longer your trade."
+    },
+    "safe_play": {
+      "pt-BR": "Jogo seguro aqui significa sweeper, controle de brush e zero ego em andar no escuro só porque a janela “parece” boa. Às vezes ceder um minion vale menos do que ceder o ritmo inteiro da lane.",
+      "en": "Safe play here means sweeper, brush control and zero ego about walking into darkness just because the window “looks” good. Sometimes giving up one minion costs less than donating the entire lane rhythm."
+    },
+    "all_in_condition": {
+      "pt-BR": "O all-in só é realmente bom quando all-in apenas depois de confirmar box/clone/Q; sem isso, metade do seu burst pode ir para o alvo errado ou para medo gratis. Sem isso, Camille normalmente entra num duelo maior do que o necessário.",
+      "en": "The all-in is only truly good when only all-in after confirming box/clone/Q; without that, half of your burst can go to the wrong target or into free fear. Without that, Camille usually enters a duel bigger than necessary."
+    },
+    "early_plan": {
+      "pt-BR": "A prioridade do early é construir uma wave jogável e forçar a primeira ferramenta central do rival a sair de forma ruim. Só depois disso a Camille deve discutir all-in sério.",
+      "en": "The early priority is to build a playable wave and force the enemy’s first central tool out badly. Only after that should Camille argue for a serious all-in."
+    },
+    "level_1_3": {
+      "pt-BR": "Nos níveis 1-3, respeite o ponto mais forte do rival e não teste a matchup em wave longa. O objetivo é sobreviver bem ao primeiro padrão e responder quando Deceive (Q) gasto defensivamente ou boxes reveladas/gastas sem valor.",
+      "en": "At levels 1-3, respect the enemy’s strongest point and do not test the matchup on a long wave. The goal is to survive the first pattern well and answer when Deceive (Q) spent defensively or boxes revealed/burned without value."
+    },
+    "level_4_5": {
+      "pt-BR": "No 4-5, a lane já pede leitura mais precisa de cooldown. É aqui que Jack in the Box (W) + Deceive (Q) passa a separar troca boa de troca que desanda.",
+      "en": "At levels 4-5, lane already asks for more precise cooldown tracking. This is where Jack in the Box (W) + Deceive (Q) starts separating good trades from ones that spiral."
+    },
+    "level_6": {
+      "pt-BR": "No 6, trate a ult do rival como parte central da matchup. Se ela amplifica Jack in the Box (W) + Deceive (Q) ou nega sua saída, o respeito precisa subir imediatamente.",
+      "en": "At level 6, treat the enemy ultimate as a central part of the matchup. If it amplifies Jack in the Box (W) + Deceive (Q) or denies your exit, your respect level must rise immediately."
+    },
+    "post_6": {
+      "pt-BR": "Depois do 6, Camille vale mais quando entra no frame correto e menos quando tenta resolver a lane na marra. Informação e ordem de cooldown importam mais do que coragem.",
+      "en": "After level 6, Camille is worth more when she enters on the correct frame and less when she tries to force lane by brute force. Information and cooldown order matter more than bravery."
+    }
+  },
+  "abilities_interaction": {
+    "dangerous_ability": {
+      "pt-BR": "Jack in the Box (W) + Deceive (Q)",
+      "en": "Jack in the Box (W) + Deceive (Q)"
+    },
+    "why_dangerous": {
+      "pt-BR": "Shaco faz Camille perder clareza. O dano nem sempre é absurdo; o problema é gastar recurso no alvo ou no terreno errados.",
+      "en": "Shaco makes Camille lose clarity. The damage is not always absurd; the issue is spending resources on the wrong target or terrain."
+    },
+    "how_to_react": {
+      "pt-BR": "SE a lane está escura -> trate a janela como ruim. SE o Q já saiu ou a box foi limpa -> acelere, porque é exatamente aí que o campeão fica muito menos ameaçador.",
+      "en": "IF lane is dark -> treat the window as bad. IF Q is already used or the box has been cleared -> accelerate, because that is exactly when the champion becomes much less threatening."
+    },
+    "ability_interaction": {
+      "pt-BR": "Camille precisa confirmar o estado da jogada antes de commitar. Contra Shaco topo, clareza é parte do dano.",
+      "en": "Camille must confirm the state of the play before committing. Against top Shaco, clarity is part of the damage."
+    },
+    "enemy_cooldowns_by_level": {
+      "1-5": {
+        "pt-BR": "Antes do 6, trate Jack in the Box (W) + Deceive (Q) como o relógio da lane. Se a ferramenta central ainda existe, não se comprometa de graça.",
+        "en": "Before level 6, treat Jack in the Box (W) + Deceive (Q) as the lane clock. If the central tool still exists, do not commit for free."
+      },
+      "6-10": {
+        "pt-BR": "Com ult disponível, a punição por erro sobe bastante. Rastreie não só a spell principal, mas também se o rival ainda tem a segunda camada que converte Jack in the Box (W) + Deceive (Q).",
+        "en": "With ult available, punishment for mistakes rises a lot. Track not only the main spell, but also whether the enemy still has the second layer that converts Jack in the Box (W) + Deceive (Q)."
+      },
+      "11+": {
+        "pt-BR": "No jogo mais avançado, a janela de cooldown vale menos por “laning puro” e mais por pick, side lane e resposta a flank. Entre quando o rival não puder repetir a rotação inteira.",
+        "en": "Later in the game, cooldown windows matter less for pure laning and more for picks, side lane and flank answers. Enter when the enemy cannot repeat the full rotation."
+      }
+    },
+    "punish_windows_by_cooldown": {
+      "pt-BR": "SE Deceive (Q) gasto defensivamente ou boxes reveladas/gastas sem valor -> avance imediatamente, mesmo que a punição seja só espaço, reset melhor ou wave favorável. Contra Shaco, janela atrasada costuma virar janela perdida.",
+      "en": "IF Deceive (Q) spent defensively or boxes revealed/burned without value -> step forward immediately, even if the punish is only space, a better reset or a favorable wave. Against Shaco, a delayed window usually becomes a lost one."
+    }
+  },
+  "build": {
+    "start_items": [
+      "Doran's Shield",
+      "Bone Plating or Second Wind depending on pattern",
+      "Early Cloth Armor if the first base is ugly"
+    ],
+    "core_items": [
+      "Trinity Force",
+      "Ravenous Hydra",
+      "Sterak's Gage"
+    ],
+    "full_build": [
+      "Trinity Force",
+      "Ravenous Hydra",
+      "Sterak's Gage",
+      "Death's Dance",
+      "Guardian Angel"
+    ],
+    "situational_items": [
+      "Death's Dance",
+      "Frozen Heart",
+      "Guardian Angel",
+      "Sundered Sky",
+      "Maw of Malmortius"
+    ],
+    "decision_build": {
+      "ahead": {
+        "pt-BR": "SE estiver na frente contra Shaco -> acelere o item que converte lead curta em ameaça real de side lane.",
+        "en": "IF you are ahead against Shaco -> accelerate the item that turns a small lead into real side-lane threat."
+      },
+      "behind": {
+        "pt-BR": "SE estiver atrás -> compre vida/armadura cedo o suficiente para o primeiro engage de Shaco não decidir toda a lane.",
+        "en": "IF you are behind -> buy HP/armor early enough that Shaco's first engage no longer decides the whole lane."
+      },
+      "vs_ap": {
+        "pt-BR": "SE o time inimigo tiver muito AP -> encaixe um componente de MR sem vergonha antes do terceiro item.",
+        "en": "IF the enemy team has heavy AP -> fit an MR component in without shame before third item."
+      },
+      "vs_tank": {
+        "pt-BR": "SE a lane travar -> valorize limpeza de wave e side lane em vez de só empilhar dano de duelo.",
+        "en": "IF the lane stalls -> value waveclear and side-lane control instead of only stacking duel damage."
+      }
+    }
+  },
+  "item_winrate_system": {
+    "item_1_options": [
+      {
+        "item": "Trinity Force",
+        "relevance": "high",
+        "winrate": 51.6
+      },
+      {
+        "item": "Sundered Sky",
+        "relevance": "medium",
+        "winrate": 50.8
+      },
+      {
+        "item": "Early defensive component",
+        "relevance": "medium",
+        "winrate": 50.5
+      }
+    ],
+    "item_2_options": [
+      {
+        "item": "Ravenous Hydra",
+        "relevance": "high",
+        "winrate": 52.2
+      },
+      {
+        "item": "Ravenous Hydra",
+        "relevance": "medium",
+        "winrate": 51.3
+      },
+      {
+        "item": "Defensive pivot",
+        "relevance": "medium",
+        "winrate": 50.9
+      }
+    ],
+    "item_3_options": [
+      {
+        "item": "Sterak's Gage",
+        "relevance": "high",
+        "winrate": 52.9
+      },
+      {
+        "item": "Death's Dance",
+        "relevance": "high",
+        "winrate": 52.4
+      },
+      {
+        "item": "Flexible resistance slot",
+        "relevance": "medium",
+        "winrate": 51.7
+      }
+    ]
+  },
+  "runes": {
+    "most_used": {
+      "pt-BR": "Aperto dos Mortos-Vivos com sustain secundário costuma ser a base mais estável quando a lane te cobra HP antes da entrada.",
+      "en": "Grasp with sustain secondaries is usually the most stable base when lane taxes HP before your entry."
+    },
+    "highest_winrate": {
+      "pt-BR": "Aperto dos Mortos-Vivos tende a render melhor porque a luta boa aqui raramente nasce de all-in cego; ela nasce de chip controlado e vida preservada.",
+      "en": "Grasp tends to perform better because the good fight here rarely starts from a blind all-in; it starts from controlled chip and preserved HP."
+    },
+    "situational": {
+      "pt-BR": "Ventos Revigorantes, Biscuits, Osso Revestido ou tenacity mudam conforme poke, CC e frequência de trade.",
+      "en": "Second Wind, Biscuits, Bone Plating or tenacity should change with poke, CC and trade frequency."
+    },
+    "when_to_use_each": {
+      "pt-BR": "SE você precisa sobreviver ao pré-contato -> Aperto dos Mortos-Vivos + sustain. SE a lane realmente te deixa lutar depois do primeiro reset -> Conquistador também é viável.",
+      "en": "IF you need to survive pre-contact -> Grasp plus sustain. IF lane truly lets you fight after first reset -> Conqueror is also viable."
+    },
+    "matchup_specific_reason": {
+      "pt-BR": "Contra Shaco, a página boa é a que te deixa chegar no timing em que Jack in the Box (W) + Deceive (Q) já não define sozinho a troca.",
+      "en": "Against Shaco, the good page is the one that gets you to the timing where Jack in the Box (W) + Deceive (Q) no longer decides the trade by itself."
+    },
+    "recommended_pages": [
+      {
+        "page_name": {
+          "pt-BR": "Página principal",
+          "en": "Primary page"
+        },
+        "keystone": {
+          "pt-BR": "Aperto dos Mortos-Vivos",
+          "en": "Grasp of the Undying"
+        },
+        "primary_tree": {
+          "pt-BR": "Determinação",
+          "en": "Resolve"
+        },
+        "primary_slots": [
+          {
+            "pt-BR": "Golpe de Escudo",
+            "en": "Shield Bash"
+          },
+          {
+            "pt-BR": "Osso Revestido",
+            "en": "Bone Plating"
+          },
+          {
+            "pt-BR": "Crescimento Excessivo",
+            "en": "Overgrowth"
+          }
+        ],
+        "secondary_tree": {
+          "pt-BR": "Precisão",
+          "en": "Precision"
+        },
+        "secondary_slots": [
+          {
+            "pt-BR": "Presença de Espírito",
+            "en": "Presence of Mind"
+          },
+          {
+            "pt-BR": "Até a Morte",
+            "en": "Last Stand"
+          }
+        ],
+        "shards": [
+          {
+            "pt-BR": "Velocidade de Ataque",
+            "en": "Attack Speed"
+          },
+          {
+            "pt-BR": "Força Adaptativa",
+            "en": "Adaptive Force"
+          },
+          {
+            "pt-BR": "Armadura",
+            "en": "Armor"
+          }
+        ],
+        "reason": {
+          "pt-BR": "Página mais estável quando a lane é decidida por trocas curtas, controle de HP e passiva bem sincronizada.",
+          "en": "Most stable page when the lane is decided by short trades, HP control and well-synced passive timing."
+        },
+        "when": {
+          "pt-BR": "Use quando você precisa sobreviver ao primeiro ciclo ruim e ganhar valor repetido em AA + Q.",
+          "en": "Use it when you need to survive the first bad cycle and extract repeat value from AA + Q."
+        }
+      },
+      {
+        "page_name": {
+          "pt-BR": "Página situacional",
+          "en": "Situational page"
+        },
+        "keystone": {
+          "pt-BR": "Conquistador",
+          "en": "Conqueror"
+        },
+        "primary_tree": {
+          "pt-BR": "Precisão",
+          "en": "Precision"
+        },
+        "primary_slots": [
+          {
+            "pt-BR": "Triunfo",
+            "en": "Triumph"
+          },
+          {
+            "pt-BR": "Lenda: Espontaneidade",
+            "en": "Legend: Alacrity"
+          },
+          {
+            "pt-BR": "Até a Morte",
+            "en": "Last Stand"
+          }
+        ],
+        "secondary_tree": {
+          "pt-BR": "Determinação",
+          "en": "Resolve"
+        },
+        "secondary_slots": [
+          {
+            "pt-BR": "Golpe de Escudo",
+            "en": "Shield Bash"
+          },
+          {
+            "pt-BR": "Ventos Revigorantes",
+            "en": "Second Wind"
+          }
+        ],
+        "shards": [
+          {
+            "pt-BR": "Velocidade de Ataque",
+            "en": "Attack Speed"
+          },
+          {
+            "pt-BR": "Força Adaptativa",
+            "en": "Adaptive Force"
+          },
+          {
+            "pt-BR": "Vida Escalável",
+            "en": "Health Scaling"
+          }
+        ],
+        "reason": {
+          "pt-BR": "Dá mais teto em side lane e lutas estendidas, mas exige mais respeito no early e mais precisão para não perder a lane antes do spike.",
+          "en": "Gives a higher ceiling in side lane and extended fights, but demands more respect early and cleaner execution to avoid losing lane before the spike."
+        },
+        "when": {
+          "pt-BR": "Use quando o confronto e o jogo prometem luta longa de verdade, não só troca bonita no papel.",
+          "en": "Use it when the matchup and the game truly promise extended fights, not just pretty trades on paper."
+        }
+      }
+    ]
+  },
+  "power_spikes": {
+    "enemy_spikes": [
+      {
+        "pt-BR": "lvl 1-3 -> pick e entrada curta já ameaçam erro bruto.",
+        "en": "lvl 1-3 -> picks and short entries already punish gross errors."
+      },
+      {
+        "pt-BR": "lvl 6 -> execução ou invisibilidade elevam muito a pressão.",
+        "en": "lvl 6 -> execution or invisibility sharply raise pressure."
+      },
+      {
+        "pt-BR": "item 1 -> um erro de informação passa a custar bem mais caro.",
+        "en": "item 1 -> one information mistake starts costing much more."
+      }
+    ],
+    "camille_spikes": [
+      {
+        "pt-BR": "lvl 3 -> kit completo para entrada curta, passiva e saída.",
+        "en": "lvl 3 -> full kit for short entry, passive and exit."
+      },
+      {
+        "pt-BR": "primeiro reset útil -> sheen/vida mudam muito o peso do Q2.",
+        "en": "first useful reset -> sheen/HP heavily change the weight of Q2."
+      },
+      {
+        "pt-BR": "lvl 6 -> R pode apagar o melhor frame do rival e converter pick de verdade.",
+        "en": "lvl 6 -> R can erase the enemy’s best frame and convert into a true pick."
+      }
+    ],
+    "shared_spikes": [
+      {
+        "pt-BR": "lvl 6",
+        "en": "lvl 6"
+      },
+      {
+        "pt-BR": "primeiro reset útil",
+        "en": "first useful reset"
+      },
+      {
+        "pt-BR": "item 1",
+        "en": "item 1"
+      }
+    ]
+  },
+  "common_mistakes": [
+    {
+      "pt-BR": "Entrar em brush sem sweeper/check e perder a troca para a box, não para o campeão.",
+      "en": "Entering brush without sweep/check and losing the trade to the box rather than to the champion."
+    },
+    {
+      "pt-BR": "Burstar clone ou alvo errado no frame decisivo.",
+      "en": "Bursting the clone or the wrong target on the decisive frame."
+    },
+    {
+      "pt-BR": "Achar que “agora vai” sem ter certeza de onde o Q e as boxes estão.",
+      "en": "Thinking “now it works” without knowing where Q and boxes are."
+    }
+  ],
+  "practical_priority": {
+    "boots_priority": {
+      "pt-BR": "Passos de Aço Platinados costumam ter muito valor quando Shaco te cobra por auto, chase ou primeiro contato físico.",
+      "en": "Plated Steelcaps usually matter a lot when Shaco taxes you through autos, chase or physical first contact."
+    },
+    "defensive_item_priority": {
+      "pt-BR": "Média/alta. Um componente de vida/armadura cedo muitas vezes vale mais do que tentar “ganhar na marra”.",
+      "en": "Medium/high. An early HP/armor component often matters more than trying to brute-force the lane."
+    },
+    "tiamat_or_not": {
+      "pt-BR": "SE a lane está estável e você quer acelerar side lane -> Tiamat/Hydra ajuda bastante. SE ainda precisa sobreviver ao primeiro pacote do rival -> atrase sem culpa.",
+      "en": "IF lane is stable and you want to accelerate side lane -> Tiamat/Hydra helps a lot. IF you still need to survive the enemy’s first packet -> delay it with no guilt."
+    },
+    "rush_core_or_not": {
+      "pt-BR": "Só rushar core puro quando a matchup não estiver cobrando resistência imediata. Camille precisa de spike utilizável, não de item bonito comprado morrendo.",
+      "en": "Only rush a pure core item when the matchup is not asking for immediate resistance. Camille needs a usable spike, not a pretty item bought while dying."
+    }
+  },
+  "gameplan_complete": {
+    "early_game": {
+      "pt-BR": "Jogue o early entendendo exatamente o que define a lane contra o rival. A prioridade é chegar no primeiro reset com vida e wave utilizável, não provar coragem em janela ruim.",
+      "en": "Play early lane by understanding exactly what defines this matchup. The priority is reaching first reset with HP and a usable wave, not proving bravery in a bad window."
+    },
+    "mid_game": {
+      "pt-BR": "Procure side lane com visão e picks curtos. Se o rival precisa de corredor, brush ou segundo tempo para ser forte, não entregue exatamente esse cenário.",
+      "en": "Look for a warded side lane and short picks. If the enemy needs a corridor, brush or a second act to become strong, do not donate exactly that scenario."
+    },
+    "late_game": {
+      "pt-BR": "No late, Camille vale mais quando escolhe alvo e frame. Evite entrar só porque “chegou”; entre quando o cooldown que realmente mudaria a luta já não pode responder limpo.",
+      "en": "In late game, Camille is worth more when she chooses the target and frame. Do not enter just because you reached them; enter once the cooldown that would truly swing the fight cannot answer cleanly anymore."
+    }
+  },
+  "practical_situations": [
+    {
+      "pt-BR": "SE Deceive (Q) gasto defensivamente ou boxes reveladas/gastas sem valor -> não espere confirmação perfeita; tome espaço na hora e transforme a janela em wave, HP ou reset melhor.",
+      "en": "IF Deceive (Q) spent defensively or boxes revealed/burned without value -> do not wait for perfect confirmation; take space immediately and turn the window into wave control, HP or a better reset."
+    },
+    {
+      "pt-BR": "SE a wave estiver ruim e a lane estiver pedindo exatamente o cenário em que Camille entra em brush ou wave suja sem checar box e perde a própria janela para medo e reposicionamento -> recue um ciclo e não tente resolver tudo no mesmo minuto.",
+      "en": "IF the wave is bad and lane is asking for exactly the scenario where Camille enters brush or a dirty wave without checking for boxes and loses her own window to fear and repositioning -> back off for a cycle and do not try to solve everything in the same minute."
+    },
+    {
+      "pt-BR": "SE Camille não tiver janela real -> jogue por passiva, W, XP e informação até que Deceive (Q) gasto defensivamente ou boxes reveladas/gastas sem valor. Contra Shaco, paciência também é dano.",
+      "en": "IF Camille has no real window -> play for passive, W, XP and information until Deceive (Q) spent defensively or boxes revealed/burned without value. Against Shaco, patience is also damage."
+    }
+  ],
+  "camille_identity_in_matchup": {
+    "split_or_teamfight": {
+      "pt-BR": "Camille normalmente prefere side lane e picks, entrando em teamfight por flanco ou alvo específico, não por frente a frente longo.",
+      "en": "Camille usually prefers side lane and picks, entering teamfights through flanks or specific targets, not through long front-to-front fights."
+    },
+    "playstyle": {
+      "pt-BR": "Guiada por ângulo. Camille precisa entrar pelo frame e pela linha corretos, não só pela distância.",
+      "en": "Angle-driven. Camille needs the right frame and line, not just the right distance."
+    },
+    "role_no_jogo": {
+      "pt-BR": "Criar pressão lateral, forçar resposta ruim e converter erro de posicionamento ou cooldown em pick, torre ou tempo de mapa.",
+      "en": "Create side pressure, force a bad answer and convert a positioning or cooldown mistake into a pick, tower or map tempo."
+    }
+  },
+  "real_difficulty": {
+    "why_its_hard": {
+      "pt-BR": "Shaco faz Camille perder clareza. O dano nem sempre é absurdo; o problema é gastar recurso no alvo ou no terreno errados.",
+      "en": "Shaco makes Camille lose clarity. The damage is not always absurd; the issue is spending resources on the wrong target or terrain."
+    },
+    "what_it_demands": {
+      "pt-BR": "Exige leitura de wave, disciplina com Hookshot e noção exata de quando Jack in the Box (W) + Deceive (Q) ainda decide a troca. O jogador de Camille precisa ganhar no timing, não no ego.",
+      "en": "It demands wave reading, Hookshot discipline and an exact sense for when Jack in the Box (W) + Deceive (Q) still decides the trade. The Camille player must win on timing, not on ego."
+    }
+  },
+  "metadata": {
+    "data_quality": {
+      "lane": "low",
+      "build": "medium",
+      "runes": "medium"
+    },
+    "source_priority": [
+      "official_riot",
+      "trusted_stats",
+      "expert_matchup_notes",
+      "vod_review"
+    ],
+    "last_reviewed_patch": "16.7.1",
+    "content_status": "refined_jungle_round4"
+  }
+}
