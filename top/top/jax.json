@@ -1,0 +1,526 @@
+{
+  "identity": {
+    "champion_slug": "jax",
+    "champion_name": "Jax",
+    "role_bucket": "top",
+    "quick_summary": {
+      "pt-BR": "Jax vs Camille topo continua sendo benchmark de ban porque Counter Strike corta seu padrão mais valioso, pune Hookshot previsível e ainda escala para side lane muito forte. Camille só respira quando obriga o E a sair antes do engage real.",
+      "en": "Jax vs Camille top remains a benchmark ban because Counter Strike cuts your most valuable pattern, punishes predictable Hookshot and still scales into a very strong side lane. Camille only breathes when she forces E before the real engage."
+    },
+    "difficulty": "suggest_ban",
+    "score": 9.4,
+    "enemy_identity": {
+      "pt-BR": "Duelista de negação. Jax não precisa te explodir cedo; basta invalidar seu primeiro ciclo e ganhar espaço para a luta longa seguinte.",
+      "en": "A denial duelist. Jax does not need to explode you early; he only needs to invalidate your first cycle and gain room for the long follow-up fight."
+    },
+    "matchup_type": {
+      "pt-BR": "anti-short-trade duelist vs diver",
+      "en": "anti-short-trade duelist vs diver"
+    },
+    "threat_level": "extreme",
+    "confidence": "high"
+  },
+  "scoring": {
+    "lane_phase_pressure": 9.6,
+    "gold_diff_15": 9.2,
+    "kill_threat": 9.5,
+    "matchup_winrate_pressure": 8.9,
+    "formula_version": "1.1.0"
+  },
+  "macro_view": {
+    "lane_read": {
+      "pt-BR": "Tudo gira em torno do Counter Strike. SE Jax guardar E, Camille não deve abrir com E frontal; primeiro force o giro com ameaça, W ou passo falso calculado, depois entre de verdade.",
+      "en": "Everything revolves around Counter Strike. IF Jax holds E, Camille should not open with frontal E; first force the spin with threat, W or a calculated fake step, then commit for real."
+    },
+    "win_condition": {
+      "pt-BR": "Forçar E antes do commit principal, negar a luta longa depois do primeiro ciclo e jogar side com visão para entrar no momento em que Jax não consegue repetir E + chase inteiro.",
+      "en": "Force E before the main commit, deny the long fight after the first cycle and play side lane with vision so you enter when Jax cannot repeat full E + chase."
+    },
+    "lose_condition": {
+      "pt-BR": "Engajar no E, insistir em estender depois de um Q2 bom e tratar a ult da Camille como solução mágica para luta longa. Jax ganha muito quando a troca passa do primeiro tempo.",
+      "en": "Engaging into E, insisting on extending after a good Q2 and treating Camille ult as a magic fix for long fights. Jax gains a lot once the trade goes beyond the first beat."
+    },
+    "tempo_control": {
+      "pt-BR": "SE a lane estiver ruim -> priorize crash, reset e vida. Não aceite ficar meia barra só para segurar três minions.",
+      "en": "IF the lane state is bad -> prioritize crash, reset and HP. Do not stay on half health just to hold three minions."
+    },
+    "trading_pattern": {
+      "pt-BR": "Você quer arrancar o E e sair inteiro. Muitas vezes a troca certa é forçar o Counter Strike, recuar dois passos e só depois reentrar com Hookshot/Q2 no cooldown real dele.",
+      "en": "You want to rip out E and leave healthy. Many times the correct trade is forcing Counter Strike, backing off two steps and only then re-entering with Hookshot/Q2 on the real cooldown."
+    },
+    "wave_control_importance": {
+      "pt-BR": "Alta. Quem luta com wave ruim entrega o duelo inteiro.",
+      "en": "High. Whoever fights on a bad wave usually donates the whole duel."
+    },
+    "power_dynamic": {
+      "pt-BR": "Mesmo depois do early, Jax continua exigindo respeito no side. Camille melhora quando consegue escolher a luta com wave favorável e informação, não em 1v1 aberto sem preparação.",
+      "en": "Even after early game, Jax still demands respect in side lane. Camille improves when she gets to choose the fight with wave advantage and information, not in a raw open 1v1."
+    }
+  },
+  "lane_phase": {
+    "punish_window": {
+      "pt-BR": "A melhor janela da lane é o E em cooldown. SE Jax gastou Counter Strike para farmar, zonear ou responder cedo demais -> você deve cobrar espaço imediatamente, mesmo que não seja kill.",
+      "en": "The best window in lane is E on cooldown. IF Jax spent Counter Strike to farm, zone or answer too early -> you should claim space immediately, even if it is not a kill."
+    },
+    "trade_timing": {
+      "pt-BR": "Troque só quando souber onde o E está no relógio. Se você não sabe, assuma que a luta é ruim; contra Jax, dúvida normalmente vira engage perdido.",
+      "en": "Trade only when you know where E sits on the clock. If you do not know, assume the fight is bad; against Jax, uncertainty usually becomes a lost engage."
+    },
+    "safe_play": {
+      "pt-BR": "SE o E estiver pronto e a wave ruim -> use W, segure passiva e preserve HP. Não aceite a provocação de lutar só porque ele entrou no seu range; essa lane cobra muito o impulso.",
+      "en": "IF E is ready and the wave is bad -> use W, hold passive and preserve HP. Do not accept the provocation of fighting just because he stepped into your range; this lane heavily punishes impulse."
+    },
+    "all_in_condition": {
+      "pt-BR": "All-in só fica bom quando Counter Strike já saiu ou quando você consegue forçar o giro cedo e reentrar antes que ele recupere distância. Se a luta começa com o E inteiro, Jax controla o ritmo.",
+      "en": "All-in only becomes good when Counter Strike is already down or when you can force the spin early and re-enter before he resets distance. If the fight starts with full E, Jax controls the pace."
+    },
+    "early_plan": {
+      "pt-BR": "Prioridade absoluta: não deixar a lane explodir antes do primeiro reset útil. Camille precisa chegar ao mid game com recursos, não vencer cada troca.",
+      "en": "Absolute priority: do not let lane explode before the first useful reset. Camille needs to reach mid game with resources, not win every single trade."
+    },
+    "level_1_3": {
+      "pt-BR": "Nível 1 e 2 pedem muito respeito. Se ele encosta com E/Q e a wave está dele, ceda alguns cs e preserve a vida.",
+      "en": "Levels 1 and 2 demand a lot of respect. If he walks up with E/Q and the wave is his, give some CS and preserve health."
+    },
+    "level_4_5": {
+      "pt-BR": "Aqui a wave e os resets pesam muito. SE a lane vier para seu lado -> procure trade reativo. SE estiver empurrando sem visão -> respeite.",
+      "en": "Here wave state and resets matter a lot. IF lane comes toward you -> look for reactive trades. IF you are pushing without vision -> respect the danger."
+    },
+    "level_6": {
+      "pt-BR": "Seu R é ótimo para comprar tempo e reposicionar o frame ruim da troca, mas não conserta entrada errada. Use o ult para negar a continuação ideal do Jax, não para começar sem janela.",
+      "en": "Your R is great for buying time and repositioning the bad frame of the trade, but it does not fix a bad entry. Use ult to deny Jax's best continuation, not to start without a window."
+    },
+    "post_6": {
+      "pt-BR": "Depois do 6, Camille quer escolher ângulo e duração. Quanto mais previsível for sua entrada, melhor para o rival responder.",
+      "en": "After level 6, Camille wants to choose the angle and duration. The more predictable your entry is, the easier it is for the enemy to answer."
+    }
+  },
+  "abilities_interaction": {
+    "dangerous_ability": {
+      "pt-BR": "Counter Strike (E)",
+      "en": "Counter Strike (E)"
+    },
+    "why_dangerous": {
+      "pt-BR": "É a spell que nega seu engage, corta seu DPS inicial e compra tempo para Jax virar a luta longa. Quando Camille entra no E, ela gasta a ferramenta mais cara da lane para perder o primeiro ciclo.",
+      "en": "It is the spell that denies your engage, cuts your opening DPS and buys time for Jax to flip into the long fight. When Camille goes into E, she spends the lane's most expensive tool just to lose the first cycle."
+    },
+    "how_to_react": {
+      "pt-BR": "SE ele caminhar para frente com E guardado -> recue meio passo e o obrigue a escolher entre girar cedo ou ceder espaço. Sua vitória começa quando Jax precisa usar E antes de você mostrar o Hookshot real.",
+      "en": "IF he walks forward holding E -> back half a step and force him to choose between spinning early or giving space. Your win starts when Jax has to use E before you show the real Hookshot."
+    },
+    "ability_interaction": {
+      "pt-BR": "Hextech Ultimatum não apaga Counter Strike. O trabalho do R aqui é cortar continuação, reposicionar ou ganhar tempo depois do E dele, não justificar engage ruim. Hookshot ofensivo sem confirmar E ainda é erro caro.",
+      "en": "Hextech Ultimatum does not erase Counter Strike. Your R here cuts follow-up, repositions or buys time after his E, not justifies a bad engage. Offensive Hookshot without confirming E is still expensive misplay."
+    },
+    "enemy_cooldowns_by_level": {
+      "1-5": {
+        "pt-BR": "Antes do nível 6, trate Counter Strike (E) como o gatilho da lane. SE ele estiver disponível, jogue com mais disciplina; SE sair, a janela é curta mas real.",
+        "en": "Before level 6, treat Counter Strike (E) as the lane trigger. IF it is available, play with discipline; IF it is down, the window is short but real."
+      },
+      "6-10": {
+        "pt-BR": "Com ultimate e mais ranks, a punição por erro cresce. Você deve rastrear não só a skill principal, mas também se o rival ainda tem folbaixa-up para converter a troca.",
+        "en": "With ultimates and extra ranks, punishment for mistakes gets bigger. Track not only the main spell but also whether the enemy still has follow-up to convert the trade."
+      },
+      "11+": {
+        "pt-BR": "No jogo avançado, a janela de cooldown vale mais por pick e side lane do que por lane pura. Use informação para entrar quando o rival não puder repetir a rotação completa.",
+        "en": "Later in the game, cooldown windows matter more for picks and side lane than for pure laning. Use information to enter when the enemy cannot repeat the full rotation."
+      }
+    },
+    "punish_windows_by_cooldown": {
+      "pt-BR": "SE Counter Strike entrar em cooldown -> tome a parede, force wave ruim e ameace all-in de uma rotação. Mesmo sem matar, a lane já muda quando Jax perde o direito de avançar livre.",
+      "en": "IF Counter Strike goes on cooldown -> take the wall, force a bad wave and threaten a one-rotation all-in. Even without a kill, lane changes once Jax loses the right to walk up freely."
+    }
+  },
+  "build": {
+    "start_items": [
+      "Doran's Shield",
+      "Grasp / Bone Plating page",
+      "Early armor if Jax is dictating the lane"
+    ],
+    "core_items": [
+      "Trinity Force",
+      "Ravenous Hydra",
+      "Sterak's Gage"
+    ],
+    "full_build": [
+      "Trinity Force",
+      "Ravenous Hydra",
+      "Plated Steelcaps",
+      "Sterak's Gage",
+      "Death's Dance"
+    ],
+    "situational_items": [
+      "Plated Steelcaps",
+      "Frozen Heart",
+      "Guardian Angel",
+      "Randuin's Omen",
+      "Executioner's Calling if needed later"
+    ],
+    "decision_build": {
+      "behind": {
+        "pt-BR": "SE estiver atrás -> armadura e HP vêm antes da fantasia de outplay. Camille atrás contra Jax precisa comprar tempo para a próxima janela de E.",
+        "en": "IF you are behind -> armor and HP come before outplay fantasy. A behind Camille into Jax needs to buy time for the next E window."
+      },
+      "ahead": {
+        "pt-BR": "SE estiver na frente -> continue respeitando o E e acelere side lane sem tirar toda sua margem defensiva.",
+        "en": "IF you are ahead -> keep respecting E and accelerate side lane without removing all your defensive margin."
+      },
+      "vs_ap": {
+        "pt-BR": "Se o mapa exigir MR, adapte depois do núcleo principal. A lane continua sendo sobre E, não sobre dano mágico lateral.",
+        "en": "If the map demands MR, adapt after your main core. Lane is still about E, not about side magic damage."
+      },
+      "vs_tank": {
+        "pt-BR": "Se o resto da composição for muito pesada, mantenha dano suficiente para continuar sendo ameaça de side. Virar só resistente demais não resolve Jax.",
+        "en": "If the rest of the composition is very heavy, keep enough damage to remain a side-lane threat. Becoming only tankier does not solve Jax."
+      }
+    }
+  },
+  "item_winrate_system": {
+    "item_1_options": [
+      {
+        "item": "Trinity Force",
+        "winrate": 51.5,
+        "relevance": "high"
+      },
+      {
+        "item": "Sundered Sky",
+        "winrate": 50.7,
+        "relevance": "medium"
+      },
+      {
+        "item": "Early defensive component",
+        "winrate": 50.4,
+        "relevance": "medium"
+      }
+    ],
+    "item_2_options": [
+      {
+        "item": "Ravenous Hydra",
+        "winrate": 52.2,
+        "relevance": "high"
+      },
+      {
+        "item": "Ravenous Hydra",
+        "winrate": 51.4,
+        "relevance": "medium"
+      },
+      {
+        "item": "Defensive pivot",
+        "winrate": 51.0,
+        "relevance": "medium"
+      }
+    ],
+    "item_3_options": [
+      {
+        "item": "Sterak's Gage",
+        "winrate": 53.0,
+        "relevance": "high"
+      },
+      {
+        "item": "Death's Dance",
+        "winrate": 52.5,
+        "relevance": "high"
+      },
+      {
+        "item": "Maw of Malmortius",
+        "winrate": 52.1,
+        "relevance": "medium"
+      }
+    ]
+  },
+  "runes": {
+    "most_used": {
+      "pt-BR": "Aperto dos Mortos-Vivos é a página mais estável porque valoriza o curto e não depende de luta longa favorável.",
+      "en": "Grasp is the most stable page because it values short trades and does not depend on a favorable long fight."
+    },
+    "highest_winrate": {
+      "pt-BR": "Aperto dos Mortos-Vivos normalmente rende melhor pela frequência de trades picotados em torno do E.",
+      "en": "Grasp usually performs better because of how often the lane is split into E-centered short trades."
+    },
+    "situational": {
+      "pt-BR": "Conquistador só quando você tem muita confiança em side posterior; Osso Revestido ajuda contra o primeiro commit, Ventos Revigorantes é menos valioso que em lanes de poke.",
+      "en": "Conqueror only if you are very confident in later side lane; Bone Plating helps against the first commit, Second Wind is less valuable than in poke lanes."
+    },
+    "when_to_use_each": {
+      "pt-BR": "SE o foco é sobreviver ao early e comprar janela de E -> Aperto dos Mortos-Vivos. SE você prevê jogo longo de side e não pretende forçar early demais -> Conquistador pode entrar.",
+      "en": "IF the focus is surviving early and buying E windows -> Grasp. IF you expect long side-lane play and do not plan to force early too hard -> Conqueror can work."
+    },
+    "matchup_specific_reason": {
+      "pt-BR": "Sua página precisa reforçar a troca que sobra depois do Counter Strike, não a luta idealizada que Jax quase nunca te dá.",
+      "en": "Your page needs to reinforce the trade that remains after Counter Strike, not the idealized fight Jax almost never gives you."
+    },
+    "recommended_pages": [
+      {
+        "page_name": {
+          "pt-BR": "Página principal",
+          "en": "Primary page"
+        },
+        "keystone": {
+          "pt-BR": "Aperto dos Mortos-Vivos",
+          "en": "Grasp of the Undying"
+        },
+        "primary_tree": {
+          "pt-BR": "Determinação",
+          "en": "Resolve"
+        },
+        "primary_slots": [
+          {
+            "pt-BR": "Golpe de Escudo",
+            "en": "Shield Bash"
+          },
+          {
+            "pt-BR": "Osso Revestido",
+            "en": "Bone Plating"
+          },
+          {
+            "pt-BR": "Crescimento Excessivo",
+            "en": "Overgrowth"
+          }
+        ],
+        "secondary_tree": {
+          "pt-BR": "Precisão",
+          "en": "Precision"
+        },
+        "secondary_slots": [
+          {
+            "pt-BR": "Presença de Espírito",
+            "en": "Presence of Mind"
+          },
+          {
+            "pt-BR": "Até a Morte",
+            "en": "Last Stand"
+          }
+        ],
+        "shards": [
+          {
+            "pt-BR": "Velocidade de Ataque",
+            "en": "Attack Speed"
+          },
+          {
+            "pt-BR": "Força Adaptativa",
+            "en": "Adaptive Force"
+          },
+          {
+            "pt-BR": "Armadura",
+            "en": "Armor"
+          }
+        ],
+        "reason": {
+          "pt-BR": "Página mais estável quando a lane é decidida por trocas curtas, controle de HP e passiva bem sincronizada.",
+          "en": "Most stable page when the lane is decided by short trades, HP control and well-synced passive timing."
+        },
+        "when": {
+          "pt-BR": "Use quando você precisa sobreviver ao primeiro ciclo ruim e ganhar valor repetido em AA + Q.",
+          "en": "Use it when you need to survive the first bad cycle and extract repeat value from AA + Q."
+        }
+      },
+      {
+        "page_name": {
+          "pt-BR": "Página situacional",
+          "en": "Situational page"
+        },
+        "keystone": {
+          "pt-BR": "Conquistador",
+          "en": "Conqueror"
+        },
+        "primary_tree": {
+          "pt-BR": "Precisão",
+          "en": "Precision"
+        },
+        "primary_slots": [
+          {
+            "pt-BR": "Triunfo",
+            "en": "Triumph"
+          },
+          {
+            "pt-BR": "Lenda: Espontaneidade",
+            "en": "Legend: Alacrity"
+          },
+          {
+            "pt-BR": "Até a Morte",
+            "en": "Last Stand"
+          }
+        ],
+        "secondary_tree": {
+          "pt-BR": "Determinação",
+          "en": "Resolve"
+        },
+        "secondary_slots": [
+          {
+            "pt-BR": "Golpe de Escudo",
+            "en": "Shield Bash"
+          },
+          {
+            "pt-BR": "Ventos Revigorantes",
+            "en": "Second Wind"
+          }
+        ],
+        "shards": [
+          {
+            "pt-BR": "Velocidade de Ataque",
+            "en": "Attack Speed"
+          },
+          {
+            "pt-BR": "Força Adaptativa",
+            "en": "Adaptive Force"
+          },
+          {
+            "pt-BR": "Vida Escalável",
+            "en": "Health Scaling"
+          }
+        ],
+        "reason": {
+          "pt-BR": "Dá mais teto em side lane e lutas estendidas, mas exige mais respeito no early e mais precisão para não perder a lane antes do spike.",
+          "en": "Gives a higher ceiling in side lane and extended fights, but demands more respect early and cleaner execution to avoid losing lane before the spike."
+        },
+        "when": {
+          "pt-BR": "Use quando o confronto e o jogo prometem luta longa de verdade, não só troca bonita no papel.",
+          "en": "Use it when the matchup and the game truly promise extended fights, not just pretty trades on paper."
+        }
+      }
+    ]
+  },
+  "power_spikes": {
+    "enemy_spikes": [
+      {
+        "pt-BR": "lvl 3 -> primeira rotação completa com ameaça real.",
+        "en": "lvl 3 -> first full rotation with real threat."
+      },
+      {
+        "pt-BR": "lvl 6 -> o duelo muda porque o rival ganha botão de conversão ou negação.",
+        "en": "lvl 6 -> the duel changes because the enemy gains a true conversion or denial button."
+      },
+      {
+        "pt-BR": "item 1 -> a lane pode ficar muito mais punitiva se Camille já estiver atrás.",
+        "en": "first item -> lane can become far more punishing if Camille is already behind."
+      }
+    ],
+    "camille_spikes": [
+      {
+        "pt-BR": "lvl 3 -> kit completo para trade curto e saída.",
+        "en": "lvl 3 -> full kit for short trade and exit."
+      },
+      {
+        "pt-BR": "lvl 6 -> R permite negar frame importante e travar alvo melhor.",
+        "en": "lvl 6 -> R lets Camille deny a key frame and lock the target better."
+      },
+      {
+        "pt-BR": "item 1 -> side lane e pick passam a ter peso real.",
+        "en": "first item -> side lane and picks start to matter for real."
+      }
+    ],
+    "shared_spikes": [
+      {
+        "pt-BR": "lvl 6",
+        "en": "lvl 6"
+      },
+      {
+        "pt-BR": "first reset útil",
+        "en": "first useful reset"
+      },
+      {
+        "pt-BR": "item 1",
+        "en": "first item"
+      }
+    ]
+  },
+  "common_mistakes": [
+    {
+      "pt-BR": "Entrar de Hookshot enquanto Counter Strike ainda está inteiro.",
+      "en": "Hookshotting in while Counter Strike is still fully available."
+    },
+    {
+      "pt-BR": "Continuar a luta depois de um primeiro ciclo bom e deixar Jax resetar cooldown e autos.",
+      "en": "Continuing the fight after one good cycle and letting Jax reset cooldowns and autos."
+    },
+    {
+      "pt-BR": "Usar Hextech Ultimatum como desculpa para engage ruim.",
+      "en": "Using Hextech Ultimatum as an excuse for a bad engage."
+    }
+  ],
+  "practical_priority": {
+    "boots_priority": {
+      "pt-BR": "Steelcaps é prioridade alta. Reduz auto tempo demais de Jax e compra margem real para sobreviver depois do Counter Strike.",
+      "en": "Steelcaps is high priority. They reduce too much of Jax's auto-based damage and buy real margin after Counter Strike."
+    },
+    "defensive_item_priority": {
+      "pt-BR": "Alta. Armadura cedo vale muito porque Jax pune qualquer fragilidade extra no segundo tempo da luta.",
+      "en": "High. Early armor matters a lot because Jax punishes any extra fragility in the second part of the fight."
+    },
+    "tiamat_or_not": {
+      "pt-BR": "Tiamat só depois que a lane estiver estável o suficiente para você tocar a wave sem doar engage no E. Antes disso, resistência vale mais.",
+      "en": "Tiamat only after lane is stable enough for you to touch the wave without donating an E engage. Before that, resistance matters more."
+    },
+    "rush_core_or_not": {
+      "pt-BR": "Não faça rush cego de dano se Jax ainda controla o E e a lane. Primeiro compre espaço para o erro, depois acelere o core.",
+      "en": "Do not blind-rush damage if Jax still controls E and the lane. First buy room for mistakes, then accelerate your core."
+    }
+  },
+  "gameplan_complete": {
+    "early_game": {
+      "pt-BR": "Jogue para vida, XP, wave utilizável e leitura do padrão inimigo. Nem toda lane precisa ser vencida cedo; muitas só precisam não desandar.",
+      "en": "Play for HP, XP, a usable wave and a read on the enemy pattern. Not every lane has to be won early; many just need to avoid collapsing."
+    },
+    "mid_game": {
+      "pt-BR": "Procure side lane com visão, picks curtos e rotações em que Camille entra primeiro. Se o rival for melhor frontalmente, não aceite frontalidade de graça.",
+      "en": "Look for a warded side lane, short picks and rotations where Camille enters first. If the enemy is better frontally, do not accept free front-to-front fights."
+    },
+    "late_game": {
+      "pt-BR": "Escolha entre split, flank e pick pelo estado dos summoners e pela composição. Camille vale mais quando ameaça alvo isolado do que quando entra sem informação.",
+      "en": "Choose between split, flank and pick based on summoner states and team compositions. Camille is worth more when threatening an isolated target than when she enters without information."
+    }
+  },
+  "practical_situations": [
+    {
+      "pt-BR": "SE a wave estiver grande contra você -> não force engage heroico; limpe o mínimo, preserve HP e espere o próximo ciclo.",
+      "en": "IF the wave is big against you -> do not force a hero engage; clear the minimum, preserve HP and wait for the next cycle."
+    },
+    {
+      "pt-BR": "SE o rival gastar a spell central para farm ou zonear errado -> dê o passo para frente e cobre espaço imediatamente.",
+      "en": "IF the enemy spends the central spell to farm or mis-zone -> take the step forward and claim space immediately."
+    },
+    {
+      "pt-BR": "SE o jungle inimigo puder estar perto e sua rota de saída estiver ruim -> trate a lane como perdida por 10 segundos e não por 10 minutos.",
+      "en": "IF the enemy jungler can be nearby and your exit route is bad -> treat the lane as lost for 10 seconds, not for 10 minutes."
+    }
+  ],
+  "camille_identity_in_matchup": {
+    "split_or_teamfight": {
+      "pt-BR": "Camille normalmente prefere side lane e pick, entrando em teamfight mais por flanco e alvo específico do que por frente a frente.",
+      "en": "Camille usually prefers side lane and picks, entering teamfights more through flanks and specific targets than through front-to-front combat."
+    },
+    "playstyle": {
+      "pt-BR": "Paciente, cirúrgico e guiado por janela. Nessa matchup, pressa costuma valer mais para o rival do que para Camille.",
+      "en": "Patient, surgical and window-based. In this matchup, haste usually benefits the enemy more than Camille."
+    },
+    "role_no_jogo": {
+      "pt-BR": "Criar pressão lateral, forçar resposta ruim e converter um erro de posicionamento em pick ou objetivo.",
+      "en": "Create side pressure, force a bad answer and convert a positioning mistake into a pick or objective."
+    }
+  },
+  "real_difficulty": {
+    "why_its_hard": {
+      "pt-BR": "É difícil porque Jax desarma exatamente o padrão que Camille quer repetir: entrada explosiva, Q2 forte e saída curta. Sem arrancar o E primeiro, você quase sempre joga no ritmo dele.",
+      "en": "It is hard because Jax disarms the exact pattern Camille wants to repeat: explosive entry, strong Q2 and short exit. Without pulling out E first, you almost always play on his tempo."
+    },
+    "what_it_demands": {
+      "pt-BR": "Exige disciplina com Hookshot, leitura constante do E, paciência para resetar a jogada e noção de quando parar depois do primeiro acerto.",
+      "en": "It demands Hookshot discipline, constant E tracking, patience to reset the play and awareness of when to stop after the first hit."
+    }
+  },
+  "metadata": {
+    "data_quality": {
+      "lane": "high",
+      "build": "high",
+      "runes": "high"
+    },
+    "source_priority": [
+      "official_riot",
+      "trusted_stats",
+      "expert_matchup_notes",
+      "vod_review"
+    ],
+    "last_reviewed_patch": "16.7.1",
+    "content_status": "elite_top15_round2"
+  }
+}

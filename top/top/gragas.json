@@ -1,0 +1,526 @@
+{
+  "identity": {
+    "champion_slug": "gragas",
+    "champion_name": "Gragas",
+    "role_bucket": "top",
+    "quick_summary": {
+      "pt-BR": "Gragas vs Camille topo é lane de anti-engage, sustain de passiva e combo que desmonta entrada impaciente. Ele não precisa te esmagar; basta fazer seu Hookshot parecer pior do que deveria.",
+      "en": "Gragas vs Camille top is a lane of anti-engage, passive sustain and a combo that dismantles impatient entries. He does not need to crush you; he only needs to make your Hookshot look worse than it should."
+    },
+    "difficulty": "hard",
+    "score": 8.0,
+    "enemy_identity": {
+      "pt-BR": "Gragas força Camille a lutar dentro da zona de dano dele. Se Camille entra sem preparar passiva, wave e rota de saída, ela derrete rápido.",
+      "en": "Gragas forces Camille to fight inside his damage zone. If Camille enters without passive, wave prep and an exit route, she melts quickly."
+    },
+    "matchup_type": {
+      "pt-BR": "AP zone control vs diver",
+      "en": "AP zone control vs diver"
+    },
+    "threat_level": "high",
+    "confidence": "high"
+  },
+  "scoring": {
+    "lane_phase_pressure": 8.2,
+    "gold_diff_15": 7.8,
+    "kill_threat": 8.1,
+    "matchup_winrate_pressure": 7.5,
+    "formula_version": "1.1.0"
+  },
+  "macro_view": {
+    "lane_read": {
+      "pt-BR": "A lane gira em torno do Body Slam e do barril que atrasa seu timing. SE Gragas gastar E para wave, reposicionamento ruim ou poke sem sequência -> essa é a janela em que Camille precisa andar para frente; com E inteiro, a entrada frontal é muito menos confiável.",
+      "en": "Lane revolves around Body Slam and the barrel that delays your timing. IF Gragas spends E on the wave, for bad repositioning or poke without follow-up -> that is the window where Camille must step forward; with full E up, frontal entries are far less reliable."
+    },
+    "win_condition": {
+      "pt-BR": "Forçar o E antes do seu engage decisivo, negar a sustain gratuita da passiva com trocas bem escolhidas e não deixar Gragas controlar a lane no piloto automático. Camille vence quando a troca começa no cooldown dele, não no seu impulso.",
+      "en": "Force E before your decisive engage, deny free passive sustain with well-chosen trades and do not let Gragas autopilot the lane. Camille wins when the trade begins on his cooldown, not on your impulse."
+    },
+    "lose_condition": {
+      "pt-BR": "Abrir Hookshot sem checar E, tomar barril de graça repetidas vezes e insistir em combo completo quando ele ainda pode te deslocar ou resetar a luta. A lane afunda pelo valor perdido, não só pelo dano bruto.",
+      "en": "Opening Hookshot without checking E, eating free barrels repeatedly and insisting on full combo while he can still displace you or reset the fight. The lane sinks through lost value, not only through raw damage."
+    },
+    "tempo_control": {
+      "pt-BR": "SE a lane estiver ruim -> priorize crash, reset e vida. Não aceite ficar meia barra só para segurar três minions.",
+      "en": "IF the lane state is bad -> prioritize crash, reset and HP. Do not stay on half health just to hold three minions."
+    },
+    "trading_pattern": {
+      "pt-BR": "A melhor troca normalmente é curta e reativa: você entra depois do E ou em cima de barril ruim, bate Q2 e sai antes que a passiva dele recupere tudo e o CC reorganize a luta.",
+      "en": "The best trade is usually short and reactive: you go in after E or over a bad barrel, hit Q2 and leave before his passive heals everything back and his CC reorganizes the fight."
+    },
+    "wave_control_importance": {
+      "pt-BR": "Alta. Você precisa da wave certa para entrar e sair da zona de dano.",
+      "en": "High. You need the right wave to enter and leave the damage zone."
+    },
+    "power_dynamic": {
+      "pt-BR": "Camille cresce quando consegue escolher o ângulo. Luta reta dentro da zona do rival continua ruim.",
+      "en": "Camille scales up when she gets to choose the angle. Straight fights inside the enemy zone remain bad."
+    }
+  },
+  "lane_phase": {
+    "punish_window": {
+      "pt-BR": "Body Slam em cooldown é a janela principal. SE ele usar E só para manter distância ou para farmar -> cobre parede, brush e wave na hora. Sem E, o anti-engage dele cai bastante.",
+      "en": "Body Slam on cooldown is the main window. IF he uses E only to keep distance or to farm -> take wall, brush and wave control immediately. Without E, his anti-engage drops a lot."
+    },
+    "trade_timing": {
+      "pt-BR": "Troque quando o barril e o corpo dele já não controlarem o espaço da parede. Se ele ainda pode te deslocar para longe do Q2, espere mais um ciclo e preserve o E.",
+      "en": "Trade when his barrel and body no longer control wall space. If he can still displace you away from Q2, wait another cycle and preserve E."
+    },
+    "safe_play": {
+      "pt-BR": "SE E e barril estiverem prontos e a wave ruim -> jogue pelo mínimo, não pela fantasia de all-in. Gragas quer que você se frustre e entregue entrada previsível.",
+      "en": "IF E and barrel are ready and the wave is bad -> play for the minimum, not for the all-in fantasy. Gragas wants you frustrated and donating a predictable entry."
+    },
+    "all_in_condition": {
+      "pt-BR": "All-in real pede E fora da jogada, barril sem zonear sua rota e vida suficiente para atravessar a primeira rotação. Se ele ainda consegue te deslocar com qualidade, o risco é alto demais.",
+      "en": "A real all-in asks for E out of the play, barrel not zoning your route and enough HP to cross the first rotation. If he can still displace you cleanly, the risk is too high."
+    },
+    "early_plan": {
+      "pt-BR": "Prioridade absoluta: não deixar a lane explodir antes do primeiro reset útil. Camille precisa chegar ao mid game com recursos, não vencer cada troca.",
+      "en": "Absolute priority: do not let lane explode before the first useful reset. Camille needs to reach mid game with resources, not win every single trade."
+    },
+    "level_1_3": {
+      "pt-BR": "SE Gragas controlar nível 1 ou 2 -> ceda espaço inteligente, proteja XP e não entregue passiva de graça. O objetivo é não entrar no ritmo ruim cedo.",
+      "en": "IF Gragas controls level 1 or 2 -> give smart space, protect XP and do not donate passive for free. The goal is to avoid falling into a bad early tempo."
+    },
+    "level_4_5": {
+      "pt-BR": "Aqui a wave e os resets pesam muito. SE a lane vier para seu lado -> procure trade reativo. SE estiver empurrando sem visão -> respeite.",
+      "en": "Here wave state and resets matter a lot. IF lane comes toward you -> look for reactive trades. IF you are pushing without vision -> respect the danger."
+    },
+    "level_6": {
+      "pt-BR": "SE o nível 6 do rival muda a luta por completo -> jogue um pouco abaixo da sua vontade e guarde R para negar o frame mais importante da troca.",
+      "en": "IF the enemy level 6 completely changes the duel -> play slightly below your ego and hold R to deny the most important frame of the trade."
+    },
+    "post_6": {
+      "pt-BR": "Depois do 6, Camille quer escolher ângulo e duração. Quanto mais previsível for sua entrada, melhor para o rival responder.",
+      "en": "After level 6, Camille wants to choose the angle and duration. The more predictable your entry is, the easier it is for the enemy to answer."
+    }
+  },
+  "abilities_interaction": {
+    "dangerous_ability": {
+      "pt-BR": "Body Slam (E) + barrel timing",
+      "en": "Body Slam (E) + barrel timing"
+    },
+    "why_dangerous": {
+      "pt-BR": "O E corta sua entrada e reposiciona o duelo no ponto que favorece o Gragas. O barril atrasa ou divide sua janela, e a passiva apaga trocas medianas que contra outros topos já renderiam valor.",
+      "en": "E cuts your entry and repositions the duel to the point that favors Gragas. Barrel delays or splits your window, and passive erases mediocre trades that would already give value against other tops."
+    },
+    "how_to_react": {
+      "pt-BR": "SE ele usar E cedo -> ande para frente de imediato. SE o barril vier só para zonear e não para converter -> preserve calma, não dance em cima dele por orgulho; reposicione e entre no ciclo seguinte.",
+      "en": "IF he uses E early -> step forward immediately. IF the barrel is only there to zone and not convert -> stay calm, do not dance over it out of pride; reposition and enter on the next cycle."
+    },
+    "ability_interaction": {
+      "pt-BR": "Hookshot ofensivo precisa respeitar Body Slam. Seu R ganha muito valor depois que o E já saiu, porque impede Gragas de resetar a luta do jeito que ele quer. Antes disso, ult não corrige entrada mal escolhida.",
+      "en": "Offensive Hookshot must respect Body Slam. Your R gains a lot of value after E is already gone, because it stops Gragas from resetting the fight the way he wants. Before that, ult does not fix a badly chosen entry."
+    },
+    "enemy_cooldowns_by_level": {
+      "1-5": {
+        "pt-BR": "Antes do nível 6, trate E body slam como o gatilho da lane. SE ele estiver disponível, jogue com mais disciplina; SE sair, a janela é curta mas real.",
+        "en": "Before level 6, treat E body slam as the lane trigger. IF it is available, play with discipline; IF it is down, the window is short but real."
+      },
+      "6-10": {
+        "pt-BR": "Com ultimate e mais ranks, a punição por erro cresce. Você deve rastrear não só a skill principal, mas também se o rival ainda tem folbaixa-up para converter a troca.",
+        "en": "With ultimates and extra ranks, punishment for mistakes gets bigger. Track not only the main spell but also whether the enemy still has follow-up to convert the trade."
+      },
+      "11+": {
+        "pt-BR": "No jogo avançado, a janela de cooldown vale mais por pick e side lane do que por lane pura. Use informação para entrar quando o rival não puder repetir a rotação completa.",
+        "en": "Later in the game, cooldown windows matter more for picks and side lane than for pure laning. Use information to enter when the enemy cannot repeat the full rotation."
+      }
+    },
+    "punish_windows_by_cooldown": {
+      "pt-BR": "SE Body Slam entrar em cooldown -> tome wave, parede e o centro da lane. Mesmo sem kill, você precisa cobrar o fato de que Gragas perdeu o botão que desorganiza seu engage.",
+      "en": "IF Body Slam goes on cooldown -> take wave, wall and the center of lane. Even without a kill, you must cash in the fact Gragas lost the button that scrambles your engage."
+    }
+  },
+  "build": {
+    "start_items": [
+      "Doran's Shield",
+      "Second Wind / Grasp page",
+      "Early Null-Magic Mantle if AP chip is heavy"
+    ],
+    "core_items": [
+      "Trinity Force",
+      "Ravenous Hydra",
+      "Maw of Malmortius or Sterak's Gage"
+    ],
+    "full_build": [
+      "Trinity Force",
+      "Ravenous Hydra",
+      "Mercury's Treads",
+      "Maw of Malmortius",
+      "Sterak's Gage"
+    ],
+    "situational_items": [
+      "Mercury's Treads",
+      "Hexdrinker",
+      "Sterak's Gage",
+      "Spirit Visage",
+      "Sundered Sky"
+    ],
+    "decision_build": {
+      "behind": {
+        "pt-BR": "SE estiver atrás -> compre vida/resistência ou componente defensivo antes de greedar dano. O pior erro é continuar frágil tentando jogar side longa.",
+        "en": "IF you are behind -> buy health/resistance or a defensive component before greed-damaging. The worst mistake is staying fragile and trying to play a long side lane."
+      },
+      "ahead": {
+        "pt-BR": "SE estiver na frente -> acelere o item que converte pressão lateral e force o rival a responder wave ruim repetidas vezes.",
+        "en": "IF you are ahead -> accelerate the item that converts side-lane pressure and force the enemy to answer bad waves repeatedly."
+      },
+      "vs_ap": {
+        "pt-BR": "SE o padrão principal for AP ou poke mágico -> um Bebedor de Hexdrinque/Null-Magic Mantle cedo pode valer mais que insistir no rush limpo.",
+        "en": "IF the main damage pattern is AP or magic poke -> an early Hexdrinker or Null-Magic Mantle can be worth more than insisting on a pure rush."
+      },
+      "vs_tank": {
+        "pt-BR": "SE o rival só quer travar a lane -> valorize item que empurra wave e te deixa escolher side/pick depois.",
+        "en": "IF the enemy only wants to stall lane -> value the item that pushes waves and lets you choose side lane or picks later."
+      }
+    }
+  },
+  "item_winrate_system": {
+    "item_1_options": [
+      {
+        "item": "Trinity Force",
+        "winrate": 51.5,
+        "relevance": "high"
+      },
+      {
+        "item": "Sundered Sky",
+        "winrate": 50.7,
+        "relevance": "medium"
+      },
+      {
+        "item": "Early defensive component",
+        "winrate": 50.4,
+        "relevance": "medium"
+      }
+    ],
+    "item_2_options": [
+      {
+        "item": "Ravenous Hydra",
+        "winrate": 52.2,
+        "relevance": "high"
+      },
+      {
+        "item": "Ravenous Hydra",
+        "winrate": 51.4,
+        "relevance": "medium"
+      },
+      {
+        "item": "Defensive pivot",
+        "winrate": 51.0,
+        "relevance": "medium"
+      }
+    ],
+    "item_3_options": [
+      {
+        "item": "Sterak's Gage",
+        "winrate": 53.0,
+        "relevance": "high"
+      },
+      {
+        "item": "Death's Dance",
+        "winrate": 52.5,
+        "relevance": "high"
+      },
+      {
+        "item": "Maw of Malmortius",
+        "winrate": 52.1,
+        "relevance": "medium"
+      }
+    ]
+  },
+  "runes": {
+    "most_used": {
+      "pt-BR": "Aperto dos Mortos-Vivos é a opção mais estável para trocas curtas e controle de lane.",
+      "en": "Grasp is the most stable option for short trades and lane control."
+    },
+    "highest_winrate": {
+      "pt-BR": "Aperto dos Mortos-Vivos tende a render melhor porque a lane raramente te dá luta longa limpa cedo.",
+      "en": "Grasp tends to perform better because lane rarely gives you a clean long fight early."
+    },
+    "situational": {
+      "pt-BR": "Ventos Revigorantes pode ajudar contra poke constante; Conquistador só cresce se a partida realmente abrir side mais longa depois.",
+      "en": "Second Wind can help against repeated poke; Conqueror only grows if the game truly opens into longer side lane later."
+    },
+    "when_to_use_each": {
+      "pt-BR": "SE a lane está te cobrando paciência e chip -> Aperto dos Mortos-Vivos/Ventos Revigorantes. Se o early está surpreendentemente estável e você pensa mais no side futuro -> Conquistador é viável.",
+      "en": "IF lane is taxing patience and chip -> Grasp/Second Wind. If early game is surprisingly stable and you are thinking about future side lane -> Conqueror is viable."
+    },
+    "matchup_specific_reason": {
+      "pt-BR": "A runa precisa reforçar o valor da troca curta depois do E, porque é exatamente aí que Gragas fica mais vulnerável.",
+      "en": "The rune page needs to reinforce the value of the short trade after E, because that is exactly where Gragas is most vulnerable."
+    },
+    "recommended_pages": [
+      {
+        "page_name": {
+          "pt-BR": "Página principal",
+          "en": "Primary page"
+        },
+        "keystone": {
+          "pt-BR": "Aperto dos Mortos-Vivos",
+          "en": "Grasp of the Undying"
+        },
+        "primary_tree": {
+          "pt-BR": "Determinação",
+          "en": "Resolve"
+        },
+        "primary_slots": [
+          {
+            "pt-BR": "Golpe de Escudo",
+            "en": "Shield Bash"
+          },
+          {
+            "pt-BR": "Osso Revestido",
+            "en": "Bone Plating"
+          },
+          {
+            "pt-BR": "Crescimento Excessivo",
+            "en": "Overgrowth"
+          }
+        ],
+        "secondary_tree": {
+          "pt-BR": "Precisão",
+          "en": "Precision"
+        },
+        "secondary_slots": [
+          {
+            "pt-BR": "Presença de Espírito",
+            "en": "Presence of Mind"
+          },
+          {
+            "pt-BR": "Até a Morte",
+            "en": "Last Stand"
+          }
+        ],
+        "shards": [
+          {
+            "pt-BR": "Velocidade de Ataque",
+            "en": "Attack Speed"
+          },
+          {
+            "pt-BR": "Força Adaptativa",
+            "en": "Adaptive Force"
+          },
+          {
+            "pt-BR": "Armadura",
+            "en": "Armor"
+          }
+        ],
+        "reason": {
+          "pt-BR": "Página mais estável quando a lane é decidida por trocas curtas, controle de HP e passiva bem sincronizada.",
+          "en": "Most stable page when the lane is decided by short trades, HP control and well-synced passive timing."
+        },
+        "when": {
+          "pt-BR": "Use quando você precisa sobreviver ao primeiro ciclo ruim e ganhar valor repetido em AA + Q.",
+          "en": "Use it when you need to survive the first bad cycle and extract repeat value from AA + Q."
+        }
+      },
+      {
+        "page_name": {
+          "pt-BR": "Página situacional",
+          "en": "Situational page"
+        },
+        "keystone": {
+          "pt-BR": "Conquistador",
+          "en": "Conqueror"
+        },
+        "primary_tree": {
+          "pt-BR": "Precisão",
+          "en": "Precision"
+        },
+        "primary_slots": [
+          {
+            "pt-BR": "Triunfo",
+            "en": "Triumph"
+          },
+          {
+            "pt-BR": "Lenda: Espontaneidade",
+            "en": "Legend: Alacrity"
+          },
+          {
+            "pt-BR": "Até a Morte",
+            "en": "Last Stand"
+          }
+        ],
+        "secondary_tree": {
+          "pt-BR": "Determinação",
+          "en": "Resolve"
+        },
+        "secondary_slots": [
+          {
+            "pt-BR": "Golpe de Escudo",
+            "en": "Shield Bash"
+          },
+          {
+            "pt-BR": "Ventos Revigorantes",
+            "en": "Second Wind"
+          }
+        ],
+        "shards": [
+          {
+            "pt-BR": "Velocidade de Ataque",
+            "en": "Attack Speed"
+          },
+          {
+            "pt-BR": "Força Adaptativa",
+            "en": "Adaptive Force"
+          },
+          {
+            "pt-BR": "Vida Escalável",
+            "en": "Health Scaling"
+          }
+        ],
+        "reason": {
+          "pt-BR": "Dá mais teto em side lane e lutas estendidas, mas exige mais respeito no early e mais precisão para não perder a lane antes do spike.",
+          "en": "Gives a higher ceiling in side lane and extended fights, but demands more respect early and cleaner execution to avoid losing lane before the spike."
+        },
+        "when": {
+          "pt-BR": "Use quando o confronto e o jogo prometem luta longa de verdade, não só troca bonita no papel.",
+          "en": "Use it when the matchup and the game truly promise extended fights, not just pretty trades on paper."
+        }
+      }
+    ]
+  },
+  "power_spikes": {
+    "enemy_spikes": [
+      {
+        "pt-BR": "lvl 3 -> primeira rotação completa com ameaça real.",
+        "en": "lvl 3 -> first full rotation with real threat."
+      },
+      {
+        "pt-BR": "lvl 6 -> o duelo muda porque o rival ganha botão de conversão ou negação.",
+        "en": "lvl 6 -> the duel changes because the enemy gains a true conversion or denial button."
+      },
+      {
+        "pt-BR": "item 1 -> a lane pode ficar muito mais punitiva se Camille já estiver atrás.",
+        "en": "first item -> lane can become far more punishing if Camille is already behind."
+      }
+    ],
+    "camille_spikes": [
+      {
+        "pt-BR": "lvl 3 -> kit completo para trade curto e saída.",
+        "en": "lvl 3 -> full kit for short trade and exit."
+      },
+      {
+        "pt-BR": "lvl 6 -> R permite negar frame importante e travar alvo melhor.",
+        "en": "lvl 6 -> R lets Camille deny a key frame and lock the target better."
+      },
+      {
+        "pt-BR": "item 1 -> side lane e pick passam a ter peso real.",
+        "en": "first item -> side lane and picks start to matter for real."
+      }
+    ],
+    "shared_spikes": [
+      {
+        "pt-BR": "lvl 6",
+        "en": "lvl 6"
+      },
+      {
+        "pt-BR": "first reset útil",
+        "en": "first useful reset"
+      },
+      {
+        "pt-BR": "item 1",
+        "en": "first item"
+      }
+    ]
+  },
+  "common_mistakes": [
+    {
+      "pt-BR": "Abrir de Hookshot sem checar Body Slam.",
+      "en": "Opening with Hookshot without checking Body Slam."
+    },
+    {
+      "pt-BR": "Aceitar barril e passiva como se fossem dano 'leve' e acumulável.",
+      "en": "Treating barrel and passive as if they were 'light' and stackable damage."
+    },
+    {
+      "pt-BR": "Continuar insistindo na mesma entrada mesmo depois de ele já ter mostrado o anti-engage.",
+      "en": "Continuing to insist on the same entry even after he already showed the anti-engage."
+    }
+  ],
+  "practical_priority": {
+    "boots_priority": {
+      "pt-BR": "Passos de Mercúrio costuma valer muito pelo controle e pelo dano mágico repetido. Se o resto do time for AD pesado, ajuste, mas a lane em si pede bastante tenacidade/MR.",
+      "en": "Mercury's Treads are often very valuable because of control and repeated magic damage. If the rest of the enemy team is very AD-heavy, adjust, but the lane itself asks for tenacity/MR."
+    },
+    "defensive_item_priority": {
+      "pt-BR": "Alta. Um Bebedor de Hexdrinque ou MR cedo reduz muito o preço do poke e do anti-engage dele.",
+      "en": "High. An early Hexdrinker or MR piece greatly reduces the cost of his poke and anti-engage."
+    },
+    "tiamat_or_not": {
+      "pt-BR": "Tiamat só quando você já consegue tocar a wave sem ser desorganizado pelo E. Antes disso, defesa e sustain têm mais impacto.",
+      "en": "Tiamat only when you can already touch the wave without getting scrambled by E. Before that, defense and sustain have more impact."
+    },
+    "rush_core_or_not": {
+      "pt-BR": "Não force core puro se o Body Slam ainda estiver te desmontando. Fique funcional primeiro e só então acelere o dano.",
+      "en": "Do not force pure core if Body Slam is still dismantling you. Become functional first, then accelerate damage."
+    }
+  },
+  "gameplan_complete": {
+    "early_game": {
+      "pt-BR": "Jogue para vida, XP, wave utilizável e leitura do padrão inimigo. Nem toda lane precisa ser vencida cedo; muitas só precisam não desandar.",
+      "en": "Play for HP, XP, a usable wave and a read on the enemy pattern. Not every lane has to be won early; many just need to avoid collapsing."
+    },
+    "mid_game": {
+      "pt-BR": "Procure side lane com visão, picks curtos e rotações em que Camille entra primeiro. Se o rival for melhor frontalmente, não aceite frontalidade de graça.",
+      "en": "Look for a warded side lane, short picks and rotations where Camille enters first. If the enemy is better frontally, do not accept free front-to-front fights."
+    },
+    "late_game": {
+      "pt-BR": "Escolha entre split, flank e pick pelo estado dos summoners e pela composição. Camille vale mais quando ameaça alvo isolado do que quando entra sem informação.",
+      "en": "Choose between split, flank and pick based on summoner states and team compositions. Camille is worth more when threatening an isolated target than when she enters without information."
+    }
+  },
+  "practical_situations": [
+    {
+      "pt-BR": "SE a wave estiver grande contra você -> não force engage heroico; limpe o mínimo, preserve HP e espere o próximo ciclo.",
+      "en": "IF the wave is big against you -> do not force a hero engage; clear the minimum, preserve HP and wait for the next cycle."
+    },
+    {
+      "pt-BR": "SE o rival gastar a spell central para farm ou zonear errado -> dê o passo para frente e cobre espaço imediatamente.",
+      "en": "IF the enemy spends the central spell to farm or mis-zone -> take the step forward and claim space immediately."
+    },
+    {
+      "pt-BR": "SE o jungle inimigo puder estar perto e sua rota de saída estiver ruim -> trate a lane como perdida por 10 segundos e não por 10 minutos.",
+      "en": "IF the enemy jungler can be nearby and your exit route is bad -> treat the lane as lost for 10 seconds, not for 10 minutes."
+    }
+  ],
+  "camille_identity_in_matchup": {
+    "split_or_teamfight": {
+      "pt-BR": "Camille normalmente prefere side lane e pick, entrando em teamfight mais por flanco e alvo específico do que por frente a frente.",
+      "en": "Camille usually prefers side lane and picks, entering teamfights more through flanks and specific targets than through front-to-front combat."
+    },
+    "playstyle": {
+      "pt-BR": "Paciente, cirúrgico e guiado por janela. Nessa matchup, pressa costuma valer mais para o rival do que para Camille.",
+      "en": "Patient, surgical and window-based. In this matchup, haste usually benefits the enemy more than Camille."
+    },
+    "role_no_jogo": {
+      "pt-BR": "Criar pressão lateral, forçar resposta ruim e converter um erro de posicionamento em pick ou objetivo.",
+      "en": "Create side pressure, force a bad answer and convert a positioning mistake into a pick or objective."
+    }
+  },
+  "real_difficulty": {
+    "why_its_hard": {
+      "pt-BR": "A dificuldade real vem de Gragas conseguir punir entradas previsíveis e de Camille precisar de wave, passiva e cooldown correto ao mesmo tempo. Um erro cedo costuma custar muita lane.",
+      "en": "The real difficulty comes from Gragas punishing predictable entries while Camille needs wave, passive and the correct cooldown state at the same time. One early mistake often costs a lot of lane."
+    },
+    "what_it_demands": {
+      "pt-BR": "Exige spacing, leitura de jungle, disciplina com E e noção de quando transformar uma janela curta em HP/tempo, e não em all-in forçado.",
+      "en": "It demands spacing, jungle awareness, discipline with E and a feel for when to turn a short window into HP and tempo rather than a forced all-in."
+    }
+  },
+  "metadata": {
+    "data_quality": {
+      "lane": "high",
+      "build": "high",
+      "runes": "high"
+    },
+    "source_priority": [
+      "official_riot",
+      "trusted_stats",
+      "expert_matchup_notes",
+      "vod_review"
+    ],
+    "last_reviewed_patch": "16.7.1",
+    "content_status": "elite_top15_round2_preserved"
+  }
+}

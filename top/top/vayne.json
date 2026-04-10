@@ -1,0 +1,526 @@
+{
+  "identity": {
+    "champion_slug": "vayne",
+    "champion_name": "Vayne",
+    "role_bucket": "top",
+    "quick_summary": {
+      "pt-BR": "Vayne vs Camille topo é uma das lanes mais irritantes porque Condemn e kite transformam qualquer engage mal angulado em perda de vida e wave. Camille só ganha valor quando fecha distância sem entregar parede favorável para a Vayne.",
+      "en": "Vayne vs Camille top is one of the most frustrating lanes because Condemn and kiting turn any poorly angled engage into lost HP and lost wave. Camille only gains value when she closes distance without giving Vayne a favorable wall."
+    },
+    "difficulty": "hard",
+    "score": 8.9,
+    "enemy_identity": {
+      "pt-BR": "Vayne joga para range, chip damage e controle de espaço. Camille perde a lane quando toma poke grátis antes de conseguir uma entrada limpa.",
+      "en": "Vayne plays for range, chip damage and space control. Camille loses the lane when she takes free poke before getting a clean entry."
+    },
+    "matchup_type": {
+      "pt-BR": "ranged harass vs melee diver",
+      "en": "ranged harass vs melee diver"
+    },
+    "threat_level": "high",
+    "confidence": "high"
+  },
+  "scoring": {
+    "lane_phase_pressure": 9.1,
+    "gold_diff_15": 8.7,
+    "kill_threat": 9.0,
+    "matchup_winrate_pressure": 8.4,
+    "formula_version": "1.1.0"
+  },
+  "macro_view": {
+    "lane_read": {
+      "pt-BR": "A lane gira em torno de Condemn e do espaço atrás de você. SE Vayne gastar E cedo, para zonear ou se defender de forma exagerada -> você ganha a melhor janela da matchup; se o E estiver pronto, seu ângulo importa mais do que sua coragem.",
+      "en": "Lane revolves around Condemn and the space behind you. IF Vayne spends E early, to zone or over-defend -> you gain the best window of the matchup; if E is ready, your angle matters more than your courage."
+    },
+    "win_condition": {
+      "pt-BR": "Preservar HP, chegar na parede certa e forçar Condemn antes do engage decisivo. Camille vence quando transforma a troca em rotação curta sem deixar a Vayne kitear livre nem usar parede a favor.",
+      "en": "Preserve HP, reach the correct wall and force Condemn before the decisive engage. Camille wins when she turns the trade into a short rotation without letting Vayne free-kite or use the wall in her favor."
+    },
+    "lose_condition": {
+      "pt-BR": "Entrar de longe, dar parede boa para Condemn e tomar auto grátis em toda wave. Vayne fica insuportável quando você gasta vida para farmar e chega fraca à primeira chance real.",
+      "en": "Entering from too far away, giving a good Condemn wall and taking free autos on every wave. Vayne becomes unbearable when you spend HP to farm and reach your first real chance too weak."
+    },
+    "tempo_control": {
+      "pt-BR": "SE a lane estiver ruim -> priorize crash, reset e vida. Não aceite ficar meia barra só para segurar três minions.",
+      "en": "IF the lane state is bad -> prioritize crash, reset and HP. Do not stay on half health just to hold three minions."
+    },
+    "trading_pattern": {
+      "pt-BR": "A troca certa quase nunca é frontal. Você quer encurtar o espaço, forçar o E, e só então colar para Q2 ou ult; se ela ainda puder condenar sua entrada inteira, a jogada perde muito valor.",
+      "en": "The correct trade is almost never frontal. You want to shorten space, force E, and only then stick for Q2 or ult; if she can still Condemn the full entry, the play loses a lot of value."
+    },
+    "wave_control_importance": {
+      "pt-BR": "Muito alta. Sem wave favorável, Camille só toma poke antes de entrar.",
+      "en": "Very high. Without wave support, Camille only eats poke before entering."
+    },
+    "power_dynamic": {
+      "pt-BR": "Quanto mais terreno lateral e brush control existe, mais Camille transforma range em alvo isolado.",
+      "en": "The more side-lane room and brush control exist, the more Camille turns range into an isolated target."
+    }
+  },
+  "lane_phase": {
+    "punish_window": {
+      "pt-BR": "A maior janela é Condemn em cooldown. SE Vayne usar E cedo para respirar -> avance imediatamente e transforme a lane em problema físico para ela, não em exercício de kite.",
+      "en": "The biggest window is Condemn on cooldown. IF Vayne uses E early just to breathe -> step up immediately and turn lane into a physical problem for her, not a kiting exercise."
+    },
+    "trade_timing": {
+      "pt-BR": "Troque quando Condemn e o primeiro kite já não controlam a parede. Se ela ainda tem espaço para te empurrar ou ganhar o primeiro passo, sua entrada está prematura.",
+      "en": "Trade when Condemn and the first kite beat no longer control the wall. If she still has room to push you off or win the first step, your entry is premature."
+    },
+    "safe_play": {
+      "pt-BR": "SE Condemn e Tumble estiverem prontos e a wave ruim -> use W, preserve escudo e pegue XP. Não aceite trocas picadas perdendo 80 de vida para tentar pegar um caster.",
+      "en": "IF Condemn and Tumble are ready and the wave is bad -> use W, preserve your shield and take XP. Do not accept chip trades losing 80 HP just to take one caster."
+    },
+    "all_in_condition": {
+      "pt-BR": "All-in só é bom quando Condemn já saiu ou quando você tem certeza de que o ângulo não dá parede boa para ela. Se a entrada começa dando opção de empurrão perfeito, a luta já nasce torta.",
+      "en": "All-in is only good when Condemn is already down or when you are sure the angle gives her no good wall. If the entry starts by offering the perfect pushback, the fight is already crooked."
+    },
+    "early_plan": {
+      "pt-BR": "Prioridade absoluta: não deixar a lane explodir antes do primeiro reset útil. Camille precisa chegar ao mid game com recursos, não vencer cada troca.",
+      "en": "Absolute priority: do not let lane explode before the first useful reset. Camille needs to reach mid game with resources, not win every single trade."
+    },
+    "level_1_3": {
+      "pt-BR": "SE Vayne controlar nível 1 ou 2 -> ceda espaço inteligente, proteja XP e não entregue passiva de graça. O objetivo é não entrar no ritmo ruim cedo.",
+      "en": "IF Vayne controls level 1 or 2 -> give smart space, protect XP and do not donate passive for free. The goal is to avoid falling into a bad early tempo."
+    },
+    "level_4_5": {
+      "pt-BR": "Aqui a wave e os resets pesam muito. SE a lane vier para seu lado -> procure trade reativo. SE estiver empurrando sem visão -> respeite.",
+      "en": "Here wave state and resets matter a lot. IF lane comes toward you -> look for reactive trades. IF you are pushing without vision -> respect the danger."
+    },
+    "level_6": {
+      "pt-BR": "SE o nível 6 do rival muda a luta por completo -> jogue um pouco abaixo da sua vontade e guarde R para negar o frame mais importante da troca.",
+      "en": "IF the enemy level 6 completely changes the duel -> play slightly below your ego and hold R to deny the most important frame of the trade."
+    },
+    "post_6": {
+      "pt-BR": "Depois do 6, Camille quer escolher ângulo e duração. Quanto mais previsível for sua entrada, melhor para o rival responder.",
+      "en": "After level 6, Camille wants to choose the angle and duration. The more predictable your entry is, the easier it is for the enemy to answer."
+    }
+  },
+  "abilities_interaction": {
+    "dangerous_ability": {
+      "pt-BR": "Condemn (E) + Tumble spacing",
+      "en": "Condemn (E) + Tumble spacing"
+    },
+    "why_dangerous": {
+      "pt-BR": "Condemn não só afasta; ele redefine o terreno e pode te deixar sem sequência, sem parede e sem HP suficiente para a próxima tentativa. Tumble completa o kite e alonga a punição.",
+      "en": "Condemn does not only push away; it redefines terrain and can leave you with no sequence, no wall and not enough HP for the next attempt. Tumble completes the kite and extends the punishment."
+    },
+    "how_to_react": {
+      "pt-BR": "SE ela guardar E e andar recuando na diagonal -> respeite a parede e não dê engage reto. Force espaço primeiro; se o E sair cedo, entre antes que ela recupere o kite inteiro.",
+      "en": "IF she holds E and kites back diagonally -> respect the wall and do not engage straight. Force space first; if E is spent early, go in before she resets full kiting control."
+    },
+    "ability_interaction": {
+      "pt-BR": "Seu R é excelente para negar parte do kite depois que Condemn já saiu ou foi mal usado. O erro é tratá-lo como botão que resolve a entrada ruim; contra Vayne, o ângulo da entrada vem antes do botão final.",
+      "en": "Your R is excellent at denying part of the kite after Condemn is already down or misused. The mistake is treating it as a button that fixes a bad entry; against Vayne, entry angle matters before the final button."
+    },
+    "enemy_cooldowns_by_level": {
+      "1-5": {
+        "pt-BR": "Antes do nível 6, trate condemn + silver bolts como o gatilho da lane. SE ele estiver disponível, jogue com mais disciplina; SE sair, a janela é curta mas real.",
+        "en": "Before level 6, treat condemn + silver bolts as the lane trigger. IF it is available, play with discipline; IF it is down, the window is short but real."
+      },
+      "6-10": {
+        "pt-BR": "Com ultimate e mais ranks, a punição por erro cresce. Você deve rastrear não só a skill principal, mas também se o rival ainda tem folbaixa-up para converter a troca.",
+        "en": "With ultimates and extra ranks, punishment for mistakes gets bigger. Track not only the main spell but also whether the enemy still has follow-up to convert the trade."
+      },
+      "11+": {
+        "pt-BR": "No jogo avançado, a janela de cooldown vale mais por pick e side lane do que por lane pura. Use informação para entrar quando o rival não puder repetir a rotação completa.",
+        "en": "Later in the game, cooldown windows matter more for picks and side lane than for pure laning. Use information to enter when the enemy cannot repeat the full rotation."
+      }
+    },
+    "punish_windows_by_cooldown": {
+      "pt-BR": "SE Condemn entrar em cooldown -> acelere a wave e aproxime-se da parede favorável. Mesmo sem kill, você precisa cobrar o direito de andar até a minion wave sem perder metade da vida.",
+      "en": "IF Condemn goes on cooldown -> accelerate the wave and approach the favorable wall. Even without a kill, you must cash in the right to walk to the minion wave without losing half your HP."
+    }
+  },
+  "build": {
+    "start_items": [
+      "Doran's Shield",
+      "Second Wind / sustain page",
+      "Early Cloth Armor if lane is suffocating"
+    ],
+    "core_items": [
+      "Trinity Force",
+      "Ravenous Hydra",
+      "Sterak's Gage"
+    ],
+    "full_build": [
+      "Trinity Force",
+      "Ravenous Hydra",
+      "Plated Steelcaps",
+      "Sterak's Gage",
+      "Death's Dance"
+    ],
+    "situational_items": [
+      "Plated Steelcaps",
+      "Frozen Heart",
+      "Guardian Angel",
+      "Randuin's Omen",
+      "Maw of Malmortius if map AP is heavy"
+    ],
+    "decision_build": {
+      "behind": {
+        "pt-BR": "SE estiver atrás -> compre vida/resistência ou componente defensivo antes de greedar dano. O pior erro é continuar frágil tentando jogar side longa.",
+        "en": "IF you are behind -> buy health/resistance or a defensive component before greed-damaging. The worst mistake is staying fragile and trying to play a long side lane."
+      },
+      "ahead": {
+        "pt-BR": "SE estiver na frente -> acelere o item que converte pressão lateral e force o rival a responder wave ruim repetidas vezes.",
+        "en": "IF you are ahead -> accelerate the item that converts side-lane pressure and force the enemy to answer bad waves repeatedly."
+      },
+      "vs_ap": {
+        "pt-BR": "SE o padrão principal for AP ou poke mágico -> um Bebedor de Hexdrinque/Null-Magic Mantle cedo pode valer mais que insistir no rush limpo.",
+        "en": "IF the main damage pattern is AP or magic poke -> an early Hexdrinker or Null-Magic Mantle can be worth more than insisting on a pure rush."
+      },
+      "vs_tank": {
+        "pt-BR": "SE o rival só quer travar a lane -> valorize item que empurra wave e te deixa escolher side/pick depois.",
+        "en": "IF the enemy only wants to stall lane -> value the item that pushes waves and lets you choose side lane or picks later."
+      }
+    }
+  },
+  "item_winrate_system": {
+    "item_1_options": [
+      {
+        "item": "Trinity Force",
+        "winrate": 51.6,
+        "relevance": "high"
+      },
+      {
+        "item": "Ravenous Hydra",
+        "winrate": 50.8,
+        "relevance": "medium"
+      },
+      {
+        "item": "Early defensive component",
+        "winrate": 50.1,
+        "relevance": "high"
+      }
+    ],
+    "item_2_options": [
+      {
+        "item": "Ravenous Hydra",
+        "winrate": 52.2,
+        "relevance": "high"
+      },
+      {
+        "item": "Ravenous Hydra",
+        "winrate": 51.4,
+        "relevance": "medium"
+      },
+      {
+        "item": "Hexdrinker / defensive pivot",
+        "winrate": 51.0,
+        "relevance": "high"
+      }
+    ],
+    "item_3_options": [
+      {
+        "item": "Sterak's Gage",
+        "winrate": 53.0,
+        "relevance": "high"
+      },
+      {
+        "item": "Maw of Malmortius",
+        "winrate": 52.7,
+        "relevance": "high"
+      },
+      {
+        "item": "Death's Dance",
+        "winrate": 52.0,
+        "relevance": "medium"
+      }
+    ]
+  },
+  "runes": {
+    "most_used": {
+      "pt-BR": "Setup de sustain com Escudo de Doran e Ventos Revigorantes é o mais estável.",
+      "en": "A sustain setup with Doran's Shield and Second Wind is the most stable."
+    },
+    "highest_winrate": {
+      "pt-BR": "Sustain costuma render melhor porque o maior desafio é chegar vivo à janela, não maximizar dano bruto cedo.",
+      "en": "Sustain tends to perform better because the main challenge is arriving alive to the window, not maximizing raw early damage."
+    },
+    "situational": {
+      "pt-BR": "Aperto dos Mortos-Vivos volta a ganhar valor quando você já consegue forçar janelas com consistência; Osso Revestido raramente vale mais que sustain contra poke/kite.",
+      "en": "Grasp gains value again once you can force windows consistently; Bone Plating is rarely worth more than sustain against poke and kite."
+    },
+    "when_to_use_each": {
+      "pt-BR": "SE a lane está te drenando só para farmar -> sustain. Se você já domina ângulo e wave -> Aperto dos Mortos-Vivos pode acelerar o castigo quando o E dela sair.",
+      "en": "IF lane is draining you just to farm -> sustain. If you already control angles and wave -> Grasp can accelerate punishment once her E is down."
+    },
+    "matchup_specific_reason": {
+      "pt-BR": "A melhor página é a que compra HP até o primeiro Condemn ruim. Sem isso, qualquer teoria de all-in morre antes de começar.",
+      "en": "The best page is the one that buys HP until the first bad Condemn. Without that, any all-in theory dies before it starts."
+    },
+    "recommended_pages": [
+      {
+        "page_name": {
+          "pt-BR": "Página principal",
+          "en": "Primary page"
+        },
+        "keystone": {
+          "pt-BR": "Pressione o Ataque",
+          "en": "Press the Attack"
+        },
+        "primary_tree": {
+          "pt-BR": "Precisão",
+          "en": "Precision"
+        },
+        "primary_slots": [
+          {
+            "pt-BR": "Triunfo",
+            "en": "Triumph"
+          },
+          {
+            "pt-BR": "Lenda: Espontaneidade",
+            "en": "Legend: Alacrity"
+          },
+          {
+            "pt-BR": "Até a Morte",
+            "en": "Last Stand"
+          }
+        ],
+        "secondary_tree": {
+          "pt-BR": "Determinação",
+          "en": "Resolve"
+        },
+        "secondary_slots": [
+          {
+            "pt-BR": "Golpe de Escudo",
+            "en": "Shield Bash"
+          },
+          {
+            "pt-BR": "Ventos Revigorantes",
+            "en": "Second Wind"
+          }
+        ],
+        "shards": [
+          {
+            "pt-BR": "Velocidade de Ataque",
+            "en": "Attack Speed"
+          },
+          {
+            "pt-BR": "Força Adaptativa",
+            "en": "Adaptive Force"
+          },
+          {
+            "pt-BR": "Vida Escalável",
+            "en": "Health Scaling"
+          }
+        ],
+        "reason": {
+          "pt-BR": "Aumenta burst limpo e punishes curtos quando Camille consegue tocar o alvo, resetar Q e sair antes do retorno completo.",
+          "en": "Improves clean burst and short punish windows when Camille can touch the target, reset Q and leave before the full answer comes back."
+        },
+        "when": {
+          "pt-BR": "Entre com PTA quando a lane gira em entradas explosivas e o primeiro engage certo já define quem manda no HP da rota.",
+          "en": "Take PTA when the lane revolves around explosive entries and the first clean engage already decides HP control."
+        }
+      },
+      {
+        "page_name": {
+          "pt-BR": "Página situacional",
+          "en": "Situational page"
+        },
+        "keystone": {
+          "pt-BR": "Aperto dos Mortos-Vivos",
+          "en": "Grasp of the Undying"
+        },
+        "primary_tree": {
+          "pt-BR": "Determinação",
+          "en": "Resolve"
+        },
+        "primary_slots": [
+          {
+            "pt-BR": "Golpe de Escudo",
+            "en": "Shield Bash"
+          },
+          {
+            "pt-BR": "Ventos Revigorantes",
+            "en": "Second Wind"
+          },
+          {
+            "pt-BR": "Crescimento Excessivo",
+            "en": "Overgrowth"
+          }
+        ],
+        "secondary_tree": {
+          "pt-BR": "Precisão",
+          "en": "Precision"
+        },
+        "secondary_slots": [
+          {
+            "pt-BR": "Presença de Espírito",
+            "en": "Presence of Mind"
+          },
+          {
+            "pt-BR": "Até a Morte",
+            "en": "Last Stand"
+          }
+        ],
+        "shards": [
+          {
+            "pt-BR": "Velocidade de Ataque",
+            "en": "Attack Speed"
+          },
+          {
+            "pt-BR": "Força Adaptativa",
+            "en": "Adaptive Force"
+          },
+          {
+            "pt-BR": "Armadura",
+            "en": "Armor"
+          }
+        ],
+        "reason": {
+          "pt-BR": "Página mais estável quando a lane é decidida por trocas curtas, controle de HP e passiva bem sincronizada.",
+          "en": "Most stable page when the lane is decided by short trades, HP control and well-synced passive timing."
+        },
+        "when": {
+          "pt-BR": "Use quando você precisa sobreviver ao primeiro ciclo ruim e ganhar valor repetido em AA + Q.",
+          "en": "Use it when you need to survive the first bad cycle and extract repeat value from AA + Q."
+        }
+      }
+    ]
+  },
+  "power_spikes": {
+    "enemy_spikes": [
+      {
+        "pt-BR": "lvl 3 -> primeira rotação completa com ameaça real.",
+        "en": "lvl 3 -> first full rotation with real threat."
+      },
+      {
+        "pt-BR": "lvl 6 -> o duelo muda porque o rival ganha botão de conversão ou negação.",
+        "en": "lvl 6 -> the duel changes because the enemy gains a true conversion or denial button."
+      },
+      {
+        "pt-BR": "item 1 -> a lane pode ficar muito mais punitiva se Camille já estiver atrás.",
+        "en": "first item -> lane can become far more punishing if Camille is already behind."
+      }
+    ],
+    "camille_spikes": [
+      {
+        "pt-BR": "lvl 3 -> kit completo para trade curto e saída.",
+        "en": "lvl 3 -> full kit for short trade and exit."
+      },
+      {
+        "pt-BR": "lvl 6 -> R permite negar frame importante e travar alvo melhor.",
+        "en": "lvl 6 -> R lets Camille deny a key frame and lock the target better."
+      },
+      {
+        "pt-BR": "item 1 -> side lane e pick passam a ter peso real.",
+        "en": "first item -> side lane and picks start to matter for real."
+      }
+    ],
+    "shared_spikes": [
+      {
+        "pt-BR": "lvl 6",
+        "en": "lvl 6"
+      },
+      {
+        "pt-BR": "first reset útil",
+        "en": "first useful reset"
+      },
+      {
+        "pt-BR": "item 1",
+        "en": "first item"
+      }
+    ]
+  },
+  "common_mistakes": [
+    {
+      "pt-BR": "Dar parede perfeita para Condemn no momento do Hookshot.",
+      "en": "Giving the perfect wall for Condemn on your Hookshot timing."
+    },
+    {
+      "pt-BR": "Forçar all-in enquanto ainda está com pouca vida por causa do poke anterior.",
+      "en": "Forcing all-in while still too low from previous poke."
+    },
+    {
+      "pt-BR": "Tratar qualquer wave neutra como se já fosse janela de engage.",
+      "en": "Treating every neutral wave as if it were already an engage window."
+    }
+  ],
+  "practical_priority": {
+    "boots_priority": {
+      "pt-BR": "Steelcaps é prioridade alta porque reduz o custo do trajeto até a sua janela de engage.",
+      "en": "Steelcaps is high priority because they reduce the cost of the path toward your engage window."
+    },
+    "defensive_item_priority": {
+      "pt-BR": "Alta. Contra Vayne, um pouco de resistência cedo vale porque o dano dela aparece antes de você conseguir tocar nela direito.",
+      "en": "High. Against Vayne, a bit of early resistance matters because her damage arrives before you can properly touch her."
+    },
+    "tiamat_or_not": {
+      "pt-BR": "Waveclear ajuda depois que você estabiliza o suficiente para chegar na wave sem ser expulso dela. Antes disso, sustain e armadura valem mais.",
+      "en": "Waveclear helps once you stabilize enough to reach the wave without being kicked off it. Before that, sustain and armor matter more."
+    },
+    "rush_core_or_not": {
+      "pt-BR": "Só rush puro se você não estiver pagando vida demais para cada farm. Se estiver, primeiro fique funcional.",
+      "en": "Only rush pure core if you are not paying too much HP for every farm. If you are, become functional first."
+    }
+  },
+  "gameplan_complete": {
+    "early_game": {
+      "pt-BR": "Jogue para vida, XP, wave utilizável e leitura do padrão inimigo. Nem toda lane precisa ser vencida cedo; muitas só precisam não desandar.",
+      "en": "Play for HP, XP, a usable wave and a read on the enemy pattern. Not every lane has to be won early; many just need to avoid collapsing."
+    },
+    "mid_game": {
+      "pt-BR": "Procure side lane com visão, picks curtos e rotações em que Camille entra primeiro. Se o rival for melhor frontalmente, não aceite frontalidade de graça.",
+      "en": "Look for a warded side lane, short picks and rotations where Camille enters first. If the enemy is better frontally, do not accept free front-to-front fights."
+    },
+    "late_game": {
+      "pt-BR": "Escolha entre split, flank e pick pelo estado dos summoners e pela composição. Camille vale mais quando ameaça alvo isolado do que quando entra sem informação.",
+      "en": "Choose between split, flank and pick based on summoner states and team compositions. Camille is worth more when threatening an isolated target than when she enters without information."
+    }
+  },
+  "practical_situations": [
+    {
+      "pt-BR": "SE a wave estiver grande contra você -> não force engage heroico; limpe o mínimo, preserve HP e espere o próximo ciclo.",
+      "en": "IF the wave is big against you -> do not force a hero engage; clear the minimum, preserve HP and wait for the next cycle."
+    },
+    {
+      "pt-BR": "SE o rival gastar a spell central para farm ou zonear errado -> dê o passo para frente e cobre espaço imediatamente.",
+      "en": "IF the enemy spends the central spell to farm or mis-zone -> take the step forward and claim space immediately."
+    },
+    {
+      "pt-BR": "SE o jungle inimigo puder estar perto e sua rota de saída estiver ruim -> trate a lane como perdida por 10 segundos e não por 10 minutos.",
+      "en": "IF the enemy jungler can be nearby and your exit route is bad -> treat the lane as lost for 10 seconds, not for 10 minutes."
+    }
+  ],
+  "camille_identity_in_matchup": {
+    "split_or_teamfight": {
+      "pt-BR": "Camille normalmente prefere side lane e pick, entrando em teamfight mais por flanco e alvo específico do que por frente a frente.",
+      "en": "Camille usually prefers side lane and picks, entering teamfights more through flanks and specific targets than through front-to-front combat."
+    },
+    "playstyle": {
+      "pt-BR": "Paciente, cirúrgico e guiado por janela. Nessa matchup, pressa costuma valer mais para o rival do que para Camille.",
+      "en": "Patient, surgical and window-based. In this matchup, haste usually benefits the enemy more than Camille."
+    },
+    "role_no_jogo": {
+      "pt-BR": "Criar pressão lateral, forçar resposta ruim e converter um erro de posicionamento em pick ou objetivo.",
+      "en": "Create side pressure, force a bad answer and convert a positioning mistake into a pick or objective."
+    }
+  },
+  "real_difficulty": {
+    "why_its_hard": {
+      "pt-BR": "É difícil porque Vayne te pune antes, durante e depois da tentativa de engage: poke, Condemn, kite e true damage. O jogador de Camille precisa ganhar o direito de encostar.",
+      "en": "It is hard because Vayne punishes you before, during and after the engage attempt: poke, Condemn, kite and true damage. The Camille player must earn the right to touch."
+    },
+    "what_it_demands": {
+      "pt-BR": "Exige controle de vida, leitura de parede, timing de Condemn e muita disciplina para não all-inar por desespero.",
+      "en": "It demands HP control, wall awareness, Condemn timing and a lot of discipline not to all-in out of desperation."
+    }
+  },
+  "metadata": {
+    "data_quality": {
+      "lane": "high",
+      "build": "high",
+      "runes": "high"
+    },
+    "source_priority": [
+      "official_riot",
+      "trusted_stats",
+      "expert_matchup_notes",
+      "vod_review"
+    ],
+    "last_reviewed_patch": "16.7.1",
+    "content_status": "elite_top15_round2_preserved"
+  }
+}

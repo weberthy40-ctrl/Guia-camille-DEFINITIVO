@@ -1,0 +1,526 @@
+{
+  "identity": {
+    "champion_slug": "malphite",
+    "champion_name": "Malphite",
+    "role_bucket": "top",
+    "quick_summary": {
+      "pt-BR": "Malphite vs Camille topo parece lento, mas pune ansiedade: Q poke, escudo passivo, muito armor e pós-6 explosivo para quem entrou torto. É uma lane em que Camille perde espaço mais por frustração do que por falta de janelas.",
+      "en": "Malphite vs Camille top looks slow, but it punishes impatience: Q poke, passive shield, heavy armor and a post-6 punish on bad entries. It is a lane where Camille loses space more to frustration than to lack of windows."
+    },
+    "difficulty": "hard",
+    "score": 8.2,
+    "enemy_identity": {
+      "pt-BR": "Malphite não precisa necessariamente solar cedo; ele quer cortar seu engage, controlar wave e transformar erro de Camille em lane travada.",
+      "en": "Malphite does not always need an early solo kill; the goal is to cut your engage, control the wave and turn Camille mistakes into a stuck lane."
+    },
+    "matchup_type": {
+      "pt-BR": "tank/controlador vs duelista",
+      "en": "tank/controller vs duelist"
+    },
+    "threat_level": "high",
+    "confidence": "high"
+  },
+  "scoring": {
+    "lane_phase_pressure": 8.4,
+    "gold_diff_15": 8.0,
+    "kill_threat": 8.3,
+    "matchup_winrate_pressure": 7.7,
+    "formula_version": "1.1.0"
+  },
+  "macro_view": {
+    "lane_read": {
+      "pt-BR": "A lane gira em torno do escudo passivo dele, do poke de Q e de como você entra sem tomar o anti-padrão do Malphite. SE o escudo estiver quebrado e o Q sair cedo -> a wave finalmente fica mais honesta.",
+      "en": "Lane revolves around his passive shield, Q poke and how you enter without walking into Malphite's anti-pattern. IF the shield is broken and Q is spent early -> the wave finally becomes more honest."
+    },
+    "win_condition": {
+      "pt-BR": "Quebrar o escudo antes da troca principal, não aceitar poke grátis toda vez e punir momentos em que ele usa Q para zonear sem cobertura de wave. Camille vence quando a lane deixa de ser pura atrição e vira rotação curta com reset limpo.",
+      "en": "Break the shield before the main trade, do not accept free poke every time and punish moments where he uses Q to zone without wave cover. Camille wins when lane stops being pure attrition and becomes short rotations with clean resets."
+    },
+    "lose_condition": {
+      "pt-BR": "Entrar no escudo inteiro, perder vida para Q sem resposta e achar que vantagem mecânica sozinha atravessa muito armor. Depois do 6, erro de spacing ainda pode virar engage dele ou setup para jungle.",
+      "en": "Going in through a full shield, losing HP to Q without answering and thinking mechanical advantage alone cuts through heavy armor. After 6, a spacing mistake can still become his engage or jungle setup."
+    },
+    "tempo_control": {
+      "pt-BR": "SE a lane estiver ruim -> priorize crash, reset e vida. Não aceite ficar meia barra só para segurar três minions.",
+      "en": "IF the lane state is bad -> prioritize crash, reset and HP. Do not stay on half health just to hold three minions."
+    },
+    "trading_pattern": {
+      "pt-BR": "Primeiro tire o escudo, depois pense no trade verdadeiro. Se você tenta converter tudo em uma única entrada enquanto o passivo está inteiro, o retorno costuma ser menor do que parece.",
+      "en": "Break the shield first, then think about the real trade. If you try to convert everything in one entry while his passive is full, the return is usually lower than it looks."
+    },
+    "wave_control_importance": {
+      "pt-BR": "Muito alta. Se a wave fica no lado errado, o rival corta seu engage e a lane trava.",
+      "en": "Very high. If the wave sits on the wrong side, the enemy cuts your engage and the lane gets stuck."
+    },
+    "power_dynamic": {
+      "pt-BR": "Camille costuma ganhar valor quando o jogo abre mapa, porque o rival nem sempre acompanha seu alcance de pick e flanco.",
+      "en": "Camille usually gains value once the map opens because the enemy does not always match her pick and flank range."
+    }
+  },
+  "lane_phase": {
+    "punish_window": {
+      "pt-BR": "Escudo quebrado + Q em cooldown é a melhor janela. Mesmo que você não mate, precisa cobrar wave e espaço, porque Malphite quer justamente o contrário: lane morna e sem custo para ele.",
+      "en": "Broken shield + Q on cooldown is the best window. Even if you do not kill, you need to cash in wave and space, because Malphite wants the exact opposite: a warm lane with no real cost."
+    },
+    "trade_timing": {
+      "pt-BR": "Troque quando o escudo dele caiu e o Q não pode simplesmente comprar distância de volta. Se ele ainda mantém passiva + Comet + wave a favor, aceite uma lane mais lenta.",
+      "en": "Trade once his shield is down and Q cannot simply buy distance back. If he still has passive + Comet + wave advantage, accept a slower lane."
+    },
+    "safe_play": {
+      "pt-BR": "SE ele estiver só spammando Q e armadura, não entre no modo all-in forçado. Use W, preserve HP, quebre escudo quando puder e espere o ciclo favorável.",
+      "en": "IF he is only spamming Q and armor, do not switch into forced all-in mode. Use W, preserve HP, break the shield when you can and wait for the favorable cycle."
+    },
+    "all_in_condition": {
+      "pt-BR": "All-in só vale quando o escudo já caiu, o poke principal saiu e você não está se jogando num pós-6 ruim. Sem isso, a luta rende menos do que o custo de ter entrado.",
+      "en": "All-in only matters when the shield is already down, the main poke is spent and you are not throwing yourself into a bad post-6. Without that, the fight gives less than the cost of entering."
+    },
+    "early_plan": {
+      "pt-BR": "Prioridade absoluta: não deixar a lane explodir antes do primeiro reset útil. Camille precisa chegar ao mid game com recursos, não vencer cada troca.",
+      "en": "Absolute priority: do not let lane explode before the first useful reset. Camille needs to reach mid game with resources, not win every single trade."
+    },
+    "level_1_3": {
+      "pt-BR": "SE Malphite controlar nível 1 ou 2 -> ceda espaço inteligente, proteja XP e não entregue passiva de graça. O objetivo é não entrar no ritmo ruim cedo.",
+      "en": "IF Malphite controls level 1 or 2 -> give smart space, protect XP and do not donate passive for free. The goal is to avoid falling into a bad early tempo."
+    },
+    "level_4_5": {
+      "pt-BR": "Aqui a wave e os resets pesam muito. SE a lane vier para seu lado -> procure trade reativo. SE estiver empurrando sem visão -> respeite.",
+      "en": "Here wave state and resets matter a lot. IF lane comes toward you -> look for reactive trades. IF you are pushing without vision -> respect the danger."
+    },
+    "level_6": {
+      "pt-BR": "SE o nível 6 do rival muda a luta por completo -> jogue um pouco abaixo da sua vontade e guarde R para negar o frame mais importante da troca.",
+      "en": "IF the enemy level 6 completely changes the duel -> play slightly below your ego and hold R to deny the most important frame of the trade."
+    },
+    "post_6": {
+      "pt-BR": "Depois do 6, Camille quer escolher ângulo e duração. Quanto mais previsível for sua entrada, melhor para o rival responder.",
+      "en": "After level 6, Camille wants to choose the angle and duration. The more predictable your entry is, the easier it is for the enemy to answer."
+    }
+  },
+  "abilities_interaction": {
+    "dangerous_ability": {
+      "pt-BR": "Seismic Shard (Q) + post-6 Unstopopable Force (R)",
+      "en": "Seismic Shard (Q) + post-6 Unstoppable Force (R)"
+    },
+    "why_dangerous": {
+      "pt-BR": "O Q rouba tempo e espaço antes mesmo do trade, e o R depois do 6 pune quem entrou sem pensar na resposta. Some isso à armadura e você passa a pagar caro por pressa.",
+      "en": "Q steals time and space before the trade even starts, and R after 6 punishes those who entered without planning the response. Add armor on top and impatience becomes expensive."
+    },
+    "how_to_react": {
+      "pt-BR": "SE ele usar Q só para chip -> não corra atrás torto. Requebre o escudo, ajuste a wave e entre no próximo ciclo. Se o R estiver ameaçando, guarde respeito suficiente para não virar altalight dele.",
+      "en": "IF he uses Q only for chip -> do not chase awkwardly. Re-break the shield, adjust the wave and enter on the next cycle. If R is threatening, keep enough respect not to become his highlight."
+    },
+    "ability_interaction": {
+      "pt-BR": "Seu R corta parte do pós-engage e ajuda a travar Malphite depois que o escudo já foi removido. Hookshot é melhor quando não está sendo gasto para atravessar tudo de uma vez, e sim para entrar no momento exato em que o escudo e o Q já não protegem a troca.",
+      "en": "Your R cuts part of his post-engage and helps lock Malphite after the shield is already removed. Hookshot is best when it is not spent to break everything at once, but to enter exactly when shield and Q no longer protect the trade."
+    },
+    "enemy_cooldowns_by_level": {
+      "1-5": {
+        "pt-BR": "Antes do nível 6, trate Q sbaixa and armor wall como o gatilho da lane. SE ele estiver disponível, jogue com mais disciplina; SE sair, a janela é curta mas real.",
+        "en": "Before level 6, treat Q slow and armor wall as the lane trigger. IF it is available, play with discipline; IF it is down, the window is short but real."
+      },
+      "6-10": {
+        "pt-BR": "Com ultimate e mais ranks, a punição por erro cresce. Você deve rastrear não só a skill principal, mas também se o rival ainda tem folbaixa-up para converter a troca.",
+        "en": "With ultimates and extra ranks, punishment for mistakes gets bigger. Track not only the main spell but also whether the enemy still has follow-up to convert the trade."
+      },
+      "11+": {
+        "pt-BR": "No jogo avançado, a janela de cooldown vale mais por pick e side lane do que por lane pura. Use informação para entrar quando o rival não puder repetir a rotação completa.",
+        "en": "Later in the game, cooldown windows matter more for picks and side lane than for pure laning. Use information to enter when the enemy cannot repeat the full rotation."
+      }
+    },
+    "punish_windows_by_cooldown": {
+      "pt-BR": "SE o Q entrar em cooldown e o escudo estiver quebrado -> avance, cobre wave e force o Malphite a escolher entre recuar ou aceitar troca real. Essas pequenas janelas somam muito.",
+      "en": "IF Q goes on cooldown and the shield is broken -> step up, cash in wave and force Malphite to choose between backing off or taking a real trade. Those small windows add up a lot."
+    }
+  },
+  "build": {
+    "start_items": [
+      "Doran's Shield",
+      "Second Wind / Grasp page",
+      "Early sustain or Null-Magic if Q poke is oppressive"
+    ],
+    "core_items": [
+      "Trinity Force",
+      "Ravenous Hydra",
+      "Sundered Sky or Sterak's Gage"
+    ],
+    "full_build": [
+      "Trinity Force",
+      "Ravenous Hydra",
+      "Mercury's Treads",
+      "Sundered Sky",
+      "Sterak's Gage"
+    ],
+    "situational_items": [
+      "Mercury's Treads",
+      "Ravenous Hydra if lane is already free",
+      "Black Cleaver if enemy armor stacks everywhere",
+      "Spirit Visage",
+      "Guardian Angel"
+    ],
+    "decision_build": {
+      "behind": {
+        "pt-BR": "SE estiver atrás -> compre vida/resistência ou componente defensivo antes de greedar dano. O pior erro é continuar frágil tentando jogar side longa.",
+        "en": "IF you are behind -> buy health/resistance or a defensive component before greed-damaging. The worst mistake is staying fragile and trying to play a long side lane."
+      },
+      "ahead": {
+        "pt-BR": "SE estiver na frente -> acelere o item que converte pressão lateral e force o rival a responder wave ruim repetidas vezes.",
+        "en": "IF you are ahead -> accelerate the item that converts side-lane pressure and force the enemy to answer bad waves repeatedly."
+      },
+      "vs_ap": {
+        "pt-BR": "SE o padrão principal for AP ou poke mágico -> um Bebedor de Hexdrinque/Null-Magic Mantle cedo pode valer mais que insistir no rush limpo.",
+        "en": "IF the main damage pattern is AP or magic poke -> an early Hexdrinker or Null-Magic Mantle can be worth more than insisting on a pure rush."
+      },
+      "vs_tank": {
+        "pt-BR": "SE o rival só quer travar a lane -> valorize item que empurra wave e te deixa escolher side/pick depois.",
+        "en": "IF the enemy only wants to stall lane -> value the item that pushes waves and lets you choose side lane or picks later."
+      }
+    }
+  },
+  "item_winrate_system": {
+    "item_1_options": [
+      {
+        "item": "Trinity Force",
+        "winrate": 51.9,
+        "relevance": "high"
+      },
+      {
+        "item": "Sundered Sky",
+        "winrate": 50.9,
+        "relevance": "medium"
+      },
+      {
+        "item": "Early armor/MR component",
+        "winrate": 50.5,
+        "relevance": "medium"
+      }
+    ],
+    "item_2_options": [
+      {
+        "item": "Ravenous Hydra",
+        "winrate": 52.4,
+        "relevance": "high"
+      },
+      {
+        "item": "Ravenous Hydra",
+        "winrate": 51.0,
+        "relevance": "low"
+      },
+      {
+        "item": "Black Cleaver",
+        "winrate": 51.5,
+        "relevance": "medium"
+      }
+    ],
+    "item_3_options": [
+      {
+        "item": "Sterak's Gage",
+        "winrate": 53.1,
+        "relevance": "high"
+      },
+      {
+        "item": "Death's Dance",
+        "winrate": 52.1,
+        "relevance": "medium"
+      },
+      {
+        "item": "Spirit Visage",
+        "winrate": 51.8,
+        "relevance": "medium"
+      }
+    ]
+  },
+  "runes": {
+    "most_used": {
+      "pt-BR": "Aperto dos Mortos-Vivos é a base mais estável para quebrar escudo e jogar trocas curtas.",
+      "en": "Grasp is the most stable base to break shield and play short trades."
+    },
+    "highest_winrate": {
+      "pt-BR": "Aperto dos Mortos-Vivos normalmente rende melhor porque a lane é de chip + entrada medida, não de duelo contínuo cedo.",
+      "en": "Grasp usually performs better because lane is about chip plus measured entries, not early continuous dueling."
+    },
+    "situational": {
+      "pt-BR": "Ventos Revigorantes ajuda contra Q poke; Conquistador só cresce quando a lane já saiu do estado de escudo + armadura infinita.",
+      "en": "Second Wind helps against Q poke; Conqueror only grows once the lane leaves the shield + infinite armor state."
+    },
+    "when_to_use_each": {
+      "pt-BR": "SE o poke estiver te desgastando -> Ventos Revigorantes com Aperto dos Mortos-Vivos. Se o jogo promete side longa e você já está confortável no early -> Conquistador pode aparecer depois.",
+      "en": "IF poke is wearing you down -> Second Wind with Grasp. If the game promises long side lane and you are already comfortable in early game -> Conqueror can appear later."
+    },
+    "matchup_specific_reason": {
+      "pt-BR": "A página certa é a que te ajuda a quebrar o escudo e sair da troca com vida útil, não a que imagina burstando um tanque de armadura cedo.",
+      "en": "The right page is the one that helps you break shield and leave trades with useful HP, not the one imagining bursting an armor tank early."
+    },
+    "recommended_pages": [
+      {
+        "page_name": {
+          "pt-BR": "Página principal",
+          "en": "Primary page"
+        },
+        "keystone": {
+          "pt-BR": "Aperto dos Mortos-Vivos",
+          "en": "Grasp of the Undying"
+        },
+        "primary_tree": {
+          "pt-BR": "Determinação",
+          "en": "Resolve"
+        },
+        "primary_slots": [
+          {
+            "pt-BR": "Golpe de Escudo",
+            "en": "Shield Bash"
+          },
+          {
+            "pt-BR": "Osso Revestido",
+            "en": "Bone Plating"
+          },
+          {
+            "pt-BR": "Crescimento Excessivo",
+            "en": "Overgrowth"
+          }
+        ],
+        "secondary_tree": {
+          "pt-BR": "Precisão",
+          "en": "Precision"
+        },
+        "secondary_slots": [
+          {
+            "pt-BR": "Presença de Espírito",
+            "en": "Presence of Mind"
+          },
+          {
+            "pt-BR": "Até a Morte",
+            "en": "Last Stand"
+          }
+        ],
+        "shards": [
+          {
+            "pt-BR": "Velocidade de Ataque",
+            "en": "Attack Speed"
+          },
+          {
+            "pt-BR": "Força Adaptativa",
+            "en": "Adaptive Force"
+          },
+          {
+            "pt-BR": "Armadura",
+            "en": "Armor"
+          }
+        ],
+        "reason": {
+          "pt-BR": "Página mais estável quando a lane é decidida por trocas curtas, controle de HP e passiva bem sincronizada.",
+          "en": "Most stable page when the lane is decided by short trades, HP control and well-synced passive timing."
+        },
+        "when": {
+          "pt-BR": "Use quando você precisa sobreviver ao primeiro ciclo ruim e ganhar valor repetido em AA + Q.",
+          "en": "Use it when you need to survive the first bad cycle and extract repeat value from AA + Q."
+        }
+      },
+      {
+        "page_name": {
+          "pt-BR": "Página situacional",
+          "en": "Situational page"
+        },
+        "keystone": {
+          "pt-BR": "Conquistador",
+          "en": "Conqueror"
+        },
+        "primary_tree": {
+          "pt-BR": "Precisão",
+          "en": "Precision"
+        },
+        "primary_slots": [
+          {
+            "pt-BR": "Triunfo",
+            "en": "Triumph"
+          },
+          {
+            "pt-BR": "Lenda: Espontaneidade",
+            "en": "Legend: Alacrity"
+          },
+          {
+            "pt-BR": "Até a Morte",
+            "en": "Last Stand"
+          }
+        ],
+        "secondary_tree": {
+          "pt-BR": "Determinação",
+          "en": "Resolve"
+        },
+        "secondary_slots": [
+          {
+            "pt-BR": "Golpe de Escudo",
+            "en": "Shield Bash"
+          },
+          {
+            "pt-BR": "Ventos Revigorantes",
+            "en": "Second Wind"
+          }
+        ],
+        "shards": [
+          {
+            "pt-BR": "Velocidade de Ataque",
+            "en": "Attack Speed"
+          },
+          {
+            "pt-BR": "Força Adaptativa",
+            "en": "Adaptive Force"
+          },
+          {
+            "pt-BR": "Vida Escalável",
+            "en": "Health Scaling"
+          }
+        ],
+        "reason": {
+          "pt-BR": "Dá mais teto em side lane e lutas estendidas, mas exige mais respeito no early e mais precisão para não perder a lane antes do spike.",
+          "en": "Gives a higher ceiling in side lane and extended fights, but demands more respect early and cleaner execution to avoid losing lane before the spike."
+        },
+        "when": {
+          "pt-BR": "Use quando o confronto e o jogo prometem luta longa de verdade, não só troca bonita no papel.",
+          "en": "Use it when the matchup and the game truly promise extended fights, not just pretty trades on paper."
+        }
+      }
+    ]
+  },
+  "power_spikes": {
+    "enemy_spikes": [
+      {
+        "pt-BR": "lvl 3 -> primeira rotação completa com ameaça real.",
+        "en": "lvl 3 -> first full rotation with real threat."
+      },
+      {
+        "pt-BR": "lvl 6 -> o duelo muda porque o rival ganha botão de conversão ou negação.",
+        "en": "lvl 6 -> the duel changes because the enemy gains a true conversion or denial button."
+      },
+      {
+        "pt-BR": "item 1 -> a lane pode ficar muito mais punitiva se Camille já estiver atrás.",
+        "en": "first item -> lane can become far more punishing if Camille is already behind."
+      }
+    ],
+    "camille_spikes": [
+      {
+        "pt-BR": "lvl 3 -> kit completo para trade curto e saída.",
+        "en": "lvl 3 -> full kit for short trade and exit."
+      },
+      {
+        "pt-BR": "lvl 6 -> R permite negar frame importante e travar alvo melhor.",
+        "en": "lvl 6 -> R lets Camille deny a key frame and lock the target better."
+      },
+      {
+        "pt-BR": "item 1 -> side lane e pick passam a ter peso real.",
+        "en": "first item -> side lane and picks start to matter for real."
+      }
+    ],
+    "shared_spikes": [
+      {
+        "pt-BR": "lvl 6",
+        "en": "lvl 6"
+      },
+      {
+        "pt-BR": "first reset útil",
+        "en": "first useful reset"
+      },
+      {
+        "pt-BR": "item 1",
+        "en": "first item"
+      }
+    ]
+  },
+  "common_mistakes": [
+    {
+      "pt-BR": "Entrar sempre no escudo inteiro como se ele não existisse.",
+      "en": "Going in into the full shield as if it did not exist."
+    },
+    {
+      "pt-BR": "Tiltar no poke de Q e forçar all-in ruim.",
+      "en": "Tilting on Q poke and forcing a bad all-in."
+    },
+    {
+      "pt-BR": "Esquecer que o pós-6 muda bastante a punição do erro.",
+      "en": "Forgetting that post-6 changes mistake punishment a lot."
+    }
+  ],
+  "practical_priority": {
+    "boots_priority": {
+      "pt-BR": "Passos de Mercúrio costuma ser a bota mais útil pelo poke mágico e pelo pós-6 com engage. Steelcaps só sobem muito se o resto do time for muito físico.",
+      "en": "Mercury's Treads are usually the most useful boots because of magic poke and post-6 engage. Steelcaps only jump ahead if the rest of the enemy team is very physical."
+    },
+    "defensive_item_priority": {
+      "pt-BR": "Média. Resistência mágica cedo ajuda contra o desgaste do Q, mas não precisa virar build passiva demais se você já está administrando bem o escudo dele.",
+      "en": "Medium. Early magic resist helps against Q attrition, but you do not need to become overly passive if you are already managing his shield well."
+    },
+    "tiamat_or_not": {
+      "pt-BR": "Tiamat ganha valor quando você quer acelerar a lane parada e sair dela. Contra Malphite, waveclear costuma valer mais do que insistir em burstar um alvo de muito armor cedo.",
+      "en": "Tiamat gains value when you want to accelerate the stagnant lane and leave it. Against Malphite, waveclear often matters more than trying to burst a high-armor target too early."
+    },
+    "rush_core_or_not": {
+      "pt-BR": "Rush puro é viável se o poke estiver sob controle. Se o Q está te drenando, compre conforto primeiro e só depois acelere.",
+      "en": "A pure rush is fine if poke is under control. If Q is draining you, buy comfort first and accelerate later."
+    }
+  },
+  "gameplan_complete": {
+    "early_game": {
+      "pt-BR": "Jogue para vida, XP, wave utilizável e leitura do padrão inimigo. Nem toda lane precisa ser vencida cedo; muitas só precisam não desandar.",
+      "en": "Play for HP, XP, a usable wave and a read on the enemy pattern. Not every lane has to be won early; many just need to avoid collapsing."
+    },
+    "mid_game": {
+      "pt-BR": "Procure side lane com visão, picks curtos e rotações em que Camille entra primeiro. Se o rival for melhor frontalmente, não aceite frontalidade de graça.",
+      "en": "Look for a warded side lane, short picks and rotations where Camille enters first. If the enemy is better frontally, do not accept free front-to-front fights."
+    },
+    "late_game": {
+      "pt-BR": "Escolha entre split, flank e pick pelo estado dos summoners e pela composição. Camille vale mais quando ameaça alvo isolado do que quando entra sem informação.",
+      "en": "Choose between split, flank and pick based on summoner states and team compositions. Camille is worth more when threatening an isolated target than when she enters without information."
+    }
+  },
+  "practical_situations": [
+    {
+      "pt-BR": "SE a wave estiver grande contra você -> não force engage heroico; limpe o mínimo, preserve HP e espere o próximo ciclo.",
+      "en": "IF the wave is big against you -> do not force a hero engage; clear the minimum, preserve HP and wait for the next cycle."
+    },
+    {
+      "pt-BR": "SE o rival gastar a spell central para farm ou zonear errado -> dê o passo para frente e cobre espaço imediatamente.",
+      "en": "IF the enemy spends the central spell to farm or mis-zone -> take the step forward and claim space immediately."
+    },
+    {
+      "pt-BR": "SE o jungle inimigo puder estar perto e sua rota de saída estiver ruim -> trate a lane como perdida por 10 segundos e não por 10 minutos.",
+      "en": "IF the enemy jungler can be nearby and your exit route is bad -> treat the lane as lost for 10 seconds, not for 10 minutes."
+    }
+  ],
+  "camille_identity_in_matchup": {
+    "split_or_teamfight": {
+      "pt-BR": "Camille normalmente prefere side lane e pick, entrando em teamfight mais por flanco e alvo específico do que por frente a frente.",
+      "en": "Camille usually prefers side lane and picks, entering teamfights more through flanks and specific targets than through front-to-front combat."
+    },
+    "playstyle": {
+      "pt-BR": "Paciente, cirúrgico e guiado por janela. Nessa matchup, pressa costuma valer mais para o rival do que para Camille.",
+      "en": "Patient, surgical and window-based. In this matchup, haste usually benefits the enemy more than Camille."
+    },
+    "role_no_jogo": {
+      "pt-BR": "Criar pressão lateral, forçar resposta ruim e converter um erro de posicionamento em pick ou objetivo.",
+      "en": "Create side pressure, force a bad answer and convert a positioning mistake into a pick or objective."
+    }
+  },
+  "real_difficulty": {
+    "why_its_hard": {
+      "pt-BR": "A dificuldade real vem de Malphite conseguir punir entradas previsíveis e de Camille precisar de wave, passiva e cooldown correto ao mesmo tempo. Um erro cedo costuma custar muita lane.",
+      "en": "The real difficulty comes from Malphite punishing predictable entries while Camille needs wave, passive and the correct cooldown state at the same time. One early mistake often costs a lot of lane."
+    },
+    "what_it_demands": {
+      "pt-BR": "Exige spacing, leitura de jungle, disciplina com E e noção de quando transformar uma janela curta em HP/tempo, e não em all-in forçado.",
+      "en": "It demands spacing, jungle awareness, discipline with E and a feel for when to turn a short window into HP and tempo rather than a forced all-in."
+    }
+  },
+  "metadata": {
+    "data_quality": {
+      "lane": "high",
+      "build": "high",
+      "runes": "high"
+    },
+    "source_priority": [
+      "official_riot",
+      "trusted_stats",
+      "expert_matchup_notes",
+      "vod_review"
+    ],
+    "last_reviewed_patch": "16.7.1",
+    "content_status": "elite_top15_round2_preserved"
+  }
+}

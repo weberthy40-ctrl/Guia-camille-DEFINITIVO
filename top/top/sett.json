@@ -1,0 +1,526 @@
+{
+  "identity": {
+    "champion_slug": "sett",
+    "champion_name": "Sett",
+    "role_bucket": "top",
+    "quick_summary": {
+      "pt-BR": "Sett vs Camille topo é matchup de hitbox curta, respeito ao Facebreaker e medo constante do Haymaker verdadeiro. Você pode trocar com ele, mas não pode ficar no alcance dele tempo demais nem entregar grit cheia.",
+      "en": "Sett vs Camille top is a matchup of short hitboxes, respect for Facebreaker and constant fear of true-damage Haymaker. You can trade with him, but you cannot stay in his range too long or donate a full grit bar."
+    },
+    "difficulty": "hard",
+    "score": 7.9,
+    "enemy_identity": {
+      "pt-BR": "Sett tenta ganhar a lane na marra: prioridade cedo, troca curta pesada e ameaça real de dive ou freeze.",
+      "en": "Sett tries to win lane by force: early priority, heavy short trades and real dive or freeze threat."
+    },
+    "matchup_type": {
+      "pt-BR": "lane bully bruiser vs diver",
+      "en": "lane bully bruiser vs diver"
+    },
+    "threat_level": "high",
+    "confidence": "high"
+  },
+  "scoring": {
+    "lane_phase_pressure": 8.1,
+    "gold_diff_15": 7.7,
+    "kill_threat": 8.0,
+    "matchup_winrate_pressure": 7.4,
+    "formula_version": "1.1.0"
+  },
+  "macro_view": {
+    "lane_read": {
+      "pt-BR": "A lane gira em torno de E e do tamanho do W dele. SE Sett gastar Facebreaker cedo ou soltar W sem valor máximo -> você ganha uma janela real; se ele prende você no E com wave a favor, a troca rapidamente sai do controle.",
+      "en": "Lane revolves around E and the size of his W. IF Sett spends Facebreaker early or fires W without full value -> you gain a real window; if he catches you in E with wave advantage, the trade quickly slips out of control."
+    },
+    "win_condition": {
+      "pt-BR": "Trocar curto, sair antes da grit encher e punir E ou W mal gastos. Camille vence quando recusa o segundo tempo da luta e deixa Sett sem alvo ideal para o W verdadeiro.",
+      "en": "Trade short, leave before grit fills up and punish badly spent E or W. Camille wins when she refuses the second beat of the fight and leaves Sett without an ideal true-damage W target."
+    },
+    "lose_condition": {
+      "pt-BR": "Ficar tempo demais batendo em melee, tomar E no meio da wave e continuar a luta depois do primeiro Q2. Sett ama quando você entrega HP suficiente para o Haymaker virar o round.",
+      "en": "Staying too long hitting in melee, getting E'd in the middle of the wave and continuing after the first Q2. Sett loves when you donate enough HP for Haymaker to win the round."
+    },
+    "tempo_control": {
+      "pt-BR": "SE a lane estiver ruim -> priorize crash, reset e vida. Não aceite ficar meia barra só para segurar três minions.",
+      "en": "IF the lane state is bad -> prioritize crash, reset and HP. Do not stay on half health just to hold three minions."
+    },
+    "trading_pattern": {
+      "pt-BR": "Seu padrão é passiva, dano rápido e saída lateral antes do W. Se você termina a troca na frente do Sett, com grit alta e sem saída pronta, a rotação fica ótima para ele.",
+      "en": "Your pattern is passive, quick damage and a lateral exit before W. If you end the trade in front of Sett with high grit and no prepared exit, the rotation becomes great for him."
+    },
+    "wave_control_importance": {
+      "pt-BR": "Muito alta. A wave decide se Camille apanha tentando farmar ou se consegue comprar espaço para passiva e Q2.",
+      "en": "Very high. The wave decides whether Camille gets beaten up farming or buys enough room for passive and Q2."
+    },
+    "power_dynamic": {
+      "pt-BR": "Camille melhora quando a lane deixa de ser pura colisão frontal e vira jogo de side, pick e ameaça de Q2 isolado.",
+      "en": "Camille improves once lane stops being a pure front collision and becomes a side-lane, pick and isolated Q2 game."
+    }
+  },
+  "lane_phase": {
+    "punish_window": {
+      "pt-BR": "W cedo ou E em cooldown é a janela que importa. Se Sett usar uma dessas ferramentas para wave ou para um trade ruim -> reentre rápido, porque ele perde muito do poder de resposta.",
+      "en": "An early W or E on cooldown is the window that matters. If Sett spends one of those tools on the wave or on a poor trade -> re-enter quickly, because he loses a lot of his response power."
+    },
+    "trade_timing": {
+      "pt-BR": "Troque antes que ele acumule o W ideal e saia sem dar o centro da luta para o true damage. Contra Sett, o timing bom termina um segundo antes do óbvio.",
+      "en": "Trade before he builds the ideal W and leave without donating the center of the fight to true damage. Against Sett, the good timing ends one second earlier than it looks."
+    },
+    "safe_play": {
+      "pt-BR": "SE a wave estiver grande e o E dele pronto -> jogue mais fora do eixo do minion wave e não aceite o stun. Contra Sett, o começo da troca muitas vezes já decide se o W vai virar o round.",
+      "en": "IF the wave is big and his E is ready -> play further off the minion line and do not accept the stun. Against Sett, the start of the trade often decides whether W will win the round."
+    },
+    "all_in_condition": {
+      "pt-BR": "All-in só é bom quando E ou W já estão enfraquecidos e você tem certeza de que não vai ficar estacionado na frente do cone do Haymaker. Se isso acontecer, a luta vira dele muito rápido.",
+      "en": "All-in is only good when E or W are already weakened and you are sure you will not stand still in front of Haymaker's cone. If that happens, the fight turns to him very quickly."
+    },
+    "early_plan": {
+      "pt-BR": "Prioridade absoluta: não deixar a lane explodir antes do primeiro reset útil. Camille precisa chegar ao mid game com recursos, não vencer cada troca.",
+      "en": "Absolute priority: do not let lane explode before the first useful reset. Camille needs to reach mid game with resources, not win every single trade."
+    },
+    "level_1_3": {
+      "pt-BR": "SE Sett controlar nível 1 ou 2 -> ceda espaço inteligente, proteja XP e não entregue passiva de graça. O objetivo é não entrar no ritmo ruim cedo.",
+      "en": "IF Sett controls level 1 or 2 -> give smart space, protect XP and do not donate passive for free. The goal is to avoid falling into a bad early tempo."
+    },
+    "level_4_5": {
+      "pt-BR": "Aqui a wave e os resets pesam muito. SE a lane vier para seu lado -> procure trade reativo. SE estiver empurrando sem visão -> respeite.",
+      "en": "Here wave state and resets matter a lot. IF lane comes toward you -> look for reactive trades. IF you are pushing without vision -> respect the danger."
+    },
+    "level_6": {
+      "pt-BR": "SE o nível 6 do rival muda a luta por completo -> jogue um pouco abaixo da sua vontade e guarde R para negar o frame mais importante da troca.",
+      "en": "IF the enemy level 6 completely changes the duel -> play slightly below your ego and hold R to deny the most important frame of the trade."
+    },
+    "post_6": {
+      "pt-BR": "Depois do 6, Camille quer escolher ângulo e duração. Quanto mais previsível for sua entrada, melhor para o rival responder.",
+      "en": "After level 6, Camille wants to choose the angle and duration. The more predictable your entry is, the easier it is for the enemy to answer."
+    }
+  },
+  "abilities_interaction": {
+    "dangerous_ability": {
+      "pt-BR": "Facebreaker (E) into Haymaker (W)",
+      "en": "Facebreaker (E) into Haymaker (W)"
+    },
+    "why_dangerous": {
+      "pt-BR": "O E te prende na distância que Sett quer e o W converte toda a troca longa em burst verdadeiro. Ele não precisa ganhar o primeiro segundo; basta sobreviver a ele e cobrar no segundo.",
+      "en": "E locks you at the distance Sett wants and W converts the whole long trade into true-damage burst. He does not need to win the first second; he only needs to survive it and cash out on the second."
+    },
+    "how_to_react": {
+      "pt-BR": "SE ele puxar sem boa wave ou soltar W cedo demais -> reentre rápido pelo lado, não pelo centro. O pior cenário é ficar parado de frente esperando o cone ficar perfeito.",
+      "en": "IF he pulls without a good wave or throws W too early -> re-enter quickly from the side, not from the center. The worst scenario is standing still in front of him waiting for the perfect cone."
+    },
+    "ability_interaction": {
+      "pt-BR": "Seu R pode negar a parte mais importante do W ou reposicionar o fim da troca, mas só se você já leu a grit e o eixo do cone. Hookshot ofensivo sem plano para o W continua sendo um erro caro.",
+      "en": "Your R can deny the most important part of W or reposition the end of the trade, but only if you already read the grit and the cone axis. Offensive Hookshot without a W plan is still an expensive mistake."
+    },
+    "enemy_cooldowns_by_level": {
+      "1-5": {
+        "pt-BR": "Antes do nível 6, trate E stun into W true damage como o gatilho da lane. SE ele estiver disponível, jogue com mais disciplina; SE sair, a janela é curta mas real.",
+        "en": "Before level 6, treat E stun into W true damage as the lane trigger. IF it is available, play with discipline; IF it is down, the window is short but real."
+      },
+      "6-10": {
+        "pt-BR": "Com ultimate e mais ranks, a punição por erro cresce. Você deve rastrear não só a skill principal, mas também se o rival ainda tem folbaixa-up para converter a troca.",
+        "en": "With ultimates and extra ranks, punishment for mistakes gets bigger. Track not only the main spell but also whether the enemy still has follow-up to convert the trade."
+      },
+      "11+": {
+        "pt-BR": "No jogo avançado, a janela de cooldown vale mais por pick e side lane do que por lane pura. Use informação para entrar quando o rival não puder repetir a rotação completa.",
+        "en": "Later in the game, cooldown windows matter more for picks and side lane than for pure laning. Use information to enter when the enemy cannot repeat the full rotation."
+      }
+    },
+    "punish_windows_by_cooldown": {
+      "pt-BR": "SE Facebreaker ou Haymaker entrarem em cooldown -> tome espaço e force Sett a recuar ou lutar sem a principal carta de swing. Mesmo sem kill, isso muda muito a lane.",
+      "en": "IF Facebreaker or Haymaker go on cooldown -> take space and force Sett to back off or fight without his main swing card. Even without a kill, that changes lane a lot."
+    }
+  },
+  "build": {
+    "start_items": [
+      "Doran's Shield",
+      "Grasp / Bone Plating page",
+      "Early Cloth Armor if Facebreaker is landing too often"
+    ],
+    "core_items": [
+      "Trinity Force",
+      "Ravenous Hydra",
+      "Death's Dance"
+    ],
+    "full_build": [
+      "Trinity Force",
+      "Ravenous Hydra",
+      "Plated Steelcaps",
+      "Death's Dance",
+      "Sterak's Gage"
+    ],
+    "situational_items": [
+      "Plated Steelcaps",
+      "Frozen Heart",
+      "Guardian Angel",
+      "Sterak's Gage",
+      "Sundered Sky"
+    ],
+    "decision_build": {
+      "behind": {
+        "pt-BR": "SE estiver atrás -> compre vida/resistência ou componente defensivo antes de greedar dano. O pior erro é continuar frágil tentando jogar side longa.",
+        "en": "IF you are behind -> buy health/resistance or a defensive component before greed-damaging. The worst mistake is staying fragile and trying to play a long side lane."
+      },
+      "ahead": {
+        "pt-BR": "SE estiver na frente -> acelere o item que converte pressão lateral e force o rival a responder wave ruim repetidas vezes.",
+        "en": "IF you are ahead -> accelerate the item that converts side-lane pressure and force the enemy to answer bad waves repeatedly."
+      },
+      "vs_ap": {
+        "pt-BR": "SE o padrão principal for AP ou poke mágico -> um Bebedor de Hexdrinque/Null-Magic Mantle cedo pode valer mais que insistir no rush limpo.",
+        "en": "IF the main damage pattern is AP or magic poke -> an early Hexdrinker or Null-Magic Mantle can be worth more than insisting on a pure rush."
+      },
+      "vs_tank": {
+        "pt-BR": "SE o rival só quer travar a lane -> valorize item que empurra wave e te deixa escolher side/pick depois.",
+        "en": "IF the enemy only wants to stall lane -> value the item that pushes waves and lets you choose side lane or picks later."
+      }
+    }
+  },
+  "item_winrate_system": {
+    "item_1_options": [
+      {
+        "item": "Trinity Force",
+        "winrate": 51.5,
+        "relevance": "high"
+      },
+      {
+        "item": "Sundered Sky",
+        "winrate": 50.7,
+        "relevance": "medium"
+      },
+      {
+        "item": "Early defensive component",
+        "winrate": 50.4,
+        "relevance": "medium"
+      }
+    ],
+    "item_2_options": [
+      {
+        "item": "Ravenous Hydra",
+        "winrate": 52.2,
+        "relevance": "high"
+      },
+      {
+        "item": "Ravenous Hydra",
+        "winrate": 51.4,
+        "relevance": "medium"
+      },
+      {
+        "item": "Defensive pivot",
+        "winrate": 51.0,
+        "relevance": "medium"
+      }
+    ],
+    "item_3_options": [
+      {
+        "item": "Sterak's Gage",
+        "winrate": 53.0,
+        "relevance": "high"
+      },
+      {
+        "item": "Death's Dance",
+        "winrate": 52.5,
+        "relevance": "high"
+      },
+      {
+        "item": "Maw of Malmortius",
+        "winrate": 52.1,
+        "relevance": "medium"
+      }
+    ]
+  },
+  "runes": {
+    "most_used": {
+      "pt-BR": "Aperto dos Mortos-Vivos é a base mais segura para trocas curtas e retorno rápido.",
+      "en": "Grasp is the safest base for short trades and quick exits."
+    },
+    "highest_winrate": {
+      "pt-BR": "Aperto dos Mortos-Vivos costuma render melhor porque a matchup recompensa sair cedo e cobrar janelas pequenas.",
+      "en": "Grasp usually performs better because the matchup rewards leaving early and cashing small windows."
+    },
+    "situational": {
+      "pt-BR": "Osso Revestido vale bastante contra o primeiro commit; Conquistador só cresce se a partida realmente abrir side longa e você não estiver perdendo o early.",
+      "en": "Bone Plating is very valuable against the first commit; Conqueror only grows if the game truly opens into long side lane and you are not losing early."
+    },
+    "when_to_use_each": {
+      "pt-BR": "SE o foco é sobreviver ao E+W -> Aperto dos Mortos-Vivos/Osso Revestido. Se o early ficou estável e você vê side mais longa depois -> Conquistador entra como opção.",
+      "en": "IF the focus is surviving E+W -> Grasp/Bone Plating. If early game stays stable and you see longer side lane later -> Conqueror becomes an option."
+    },
+    "matchup_specific_reason": {
+      "pt-BR": "A runa certa é a que reforça o trade curto antes do Haymaker ficar gigante.",
+      "en": "The right rune is the one that reinforces the short trade before Haymaker becomes huge."
+    },
+    "recommended_pages": [
+      {
+        "page_name": {
+          "pt-BR": "Página principal",
+          "en": "Primary page"
+        },
+        "keystone": {
+          "pt-BR": "Aperto dos Mortos-Vivos",
+          "en": "Grasp of the Undying"
+        },
+        "primary_tree": {
+          "pt-BR": "Determinação",
+          "en": "Resolve"
+        },
+        "primary_slots": [
+          {
+            "pt-BR": "Golpe de Escudo",
+            "en": "Shield Bash"
+          },
+          {
+            "pt-BR": "Osso Revestido",
+            "en": "Bone Plating"
+          },
+          {
+            "pt-BR": "Crescimento Excessivo",
+            "en": "Overgrowth"
+          }
+        ],
+        "secondary_tree": {
+          "pt-BR": "Precisão",
+          "en": "Precision"
+        },
+        "secondary_slots": [
+          {
+            "pt-BR": "Presença de Espírito",
+            "en": "Presence of Mind"
+          },
+          {
+            "pt-BR": "Até a Morte",
+            "en": "Last Stand"
+          }
+        ],
+        "shards": [
+          {
+            "pt-BR": "Velocidade de Ataque",
+            "en": "Attack Speed"
+          },
+          {
+            "pt-BR": "Força Adaptativa",
+            "en": "Adaptive Force"
+          },
+          {
+            "pt-BR": "Armadura",
+            "en": "Armor"
+          }
+        ],
+        "reason": {
+          "pt-BR": "Página mais estável quando a lane é decidida por trocas curtas, controle de HP e passiva bem sincronizada.",
+          "en": "Most stable page when the lane is decided by short trades, HP control and well-synced passive timing."
+        },
+        "when": {
+          "pt-BR": "Use quando você precisa sobreviver ao primeiro ciclo ruim e ganhar valor repetido em AA + Q.",
+          "en": "Use it when you need to survive the first bad cycle and extract repeat value from AA + Q."
+        }
+      },
+      {
+        "page_name": {
+          "pt-BR": "Página situacional",
+          "en": "Situational page"
+        },
+        "keystone": {
+          "pt-BR": "Conquistador",
+          "en": "Conqueror"
+        },
+        "primary_tree": {
+          "pt-BR": "Precisão",
+          "en": "Precision"
+        },
+        "primary_slots": [
+          {
+            "pt-BR": "Triunfo",
+            "en": "Triumph"
+          },
+          {
+            "pt-BR": "Lenda: Espontaneidade",
+            "en": "Legend: Alacrity"
+          },
+          {
+            "pt-BR": "Até a Morte",
+            "en": "Last Stand"
+          }
+        ],
+        "secondary_tree": {
+          "pt-BR": "Determinação",
+          "en": "Resolve"
+        },
+        "secondary_slots": [
+          {
+            "pt-BR": "Golpe de Escudo",
+            "en": "Shield Bash"
+          },
+          {
+            "pt-BR": "Ventos Revigorantes",
+            "en": "Second Wind"
+          }
+        ],
+        "shards": [
+          {
+            "pt-BR": "Velocidade de Ataque",
+            "en": "Attack Speed"
+          },
+          {
+            "pt-BR": "Força Adaptativa",
+            "en": "Adaptive Force"
+          },
+          {
+            "pt-BR": "Vida Escalável",
+            "en": "Health Scaling"
+          }
+        ],
+        "reason": {
+          "pt-BR": "Dá mais teto em side lane e lutas estendidas, mas exige mais respeito no early e mais precisão para não perder a lane antes do spike.",
+          "en": "Gives a higher ceiling in side lane and extended fights, but demands more respect early and cleaner execution to avoid losing lane before the spike."
+        },
+        "when": {
+          "pt-BR": "Use quando o confronto e o jogo prometem luta longa de verdade, não só troca bonita no papel.",
+          "en": "Use it when the matchup and the game truly promise extended fights, not just pretty trades on paper."
+        }
+      }
+    ]
+  },
+  "power_spikes": {
+    "enemy_spikes": [
+      {
+        "pt-BR": "lvl 3 -> primeira rotação completa com ameaça real.",
+        "en": "lvl 3 -> first full rotation with real threat."
+      },
+      {
+        "pt-BR": "lvl 6 -> o duelo muda porque o rival ganha botão de conversão ou negação.",
+        "en": "lvl 6 -> the duel changes because the enemy gains a true conversion or denial button."
+      },
+      {
+        "pt-BR": "item 1 -> a lane pode ficar muito mais punitiva se Camille já estiver atrás.",
+        "en": "first item -> lane can become far more punishing if Camille is already behind."
+      }
+    ],
+    "camille_spikes": [
+      {
+        "pt-BR": "lvl 3 -> kit completo para trade curto e saída.",
+        "en": "lvl 3 -> full kit for short trade and exit."
+      },
+      {
+        "pt-BR": "lvl 6 -> R permite negar frame importante e travar alvo melhor.",
+        "en": "lvl 6 -> R lets Camille deny a key frame and lock the target better."
+      },
+      {
+        "pt-BR": "item 1 -> side lane e pick passam a ter peso real.",
+        "en": "first item -> side lane and picks start to matter for real."
+      }
+    ],
+    "shared_spikes": [
+      {
+        "pt-BR": "lvl 6",
+        "en": "lvl 6"
+      },
+      {
+        "pt-BR": "first reset útil",
+        "en": "first useful reset"
+      },
+      {
+        "pt-BR": "item 1",
+        "en": "first item"
+      }
+    ]
+  },
+  "common_mistakes": [
+    {
+      "pt-BR": "Continuar a luta até a grit do Sett encher.",
+      "en": "Continuing the fight until Sett's grit bar is full."
+    },
+    {
+      "pt-BR": "Tomar Facebreaker no eixo da wave por falta de respeito à posição.",
+      "en": "Getting hit by Facebreaker on the minion axis due to poor positioning respect."
+    },
+    {
+      "pt-BR": "Usar R sem pensar no cone do Haymaker e no reposicionamento final.",
+      "en": "Using R without thinking about Haymaker's cone and the final reposition."
+    }
+  ],
+  "practical_priority": {
+    "boots_priority": {
+      "pt-BR": "Steelcaps é prioridade alta porque reduz o custo do primeiro contato e do folbaixa-up de autos dele.",
+      "en": "Steelcaps is high priority because it lowers the cost of his first contact and auto follow-up."
+    },
+    "defensive_item_priority": {
+      "pt-BR": "Alta. Sett pune demais qualquer fragilidade extra se você ficar tempo demais na frente dele.",
+      "en": "High. Sett punishes extra fragility too hard if you stay in front of him for too long."
+    },
+    "tiamat_or_not": {
+      "pt-BR": "Tiamat só depois de você já estar controlando bem o tempo da troca. Waveclear bruto não impede o Haymaker de ganhar round.",
+      "en": "Tiamat only after you already control the timing of the trade well. Raw waveclear does not stop Haymaker from winning rounds."
+    },
+    "rush_core_or_not": {
+      "pt-BR": "Não force dano puro se você ainda está morrendo para E+W. Primeiro compre espaço para sair da luta no tempo certo.",
+      "en": "Do not force pure damage if you are still dying to E+W. First buy room to leave the fight at the correct time."
+    }
+  },
+  "gameplan_complete": {
+    "early_game": {
+      "pt-BR": "Jogue para vida, XP, wave utilizável e leitura do padrão inimigo. Nem toda lane precisa ser vencida cedo; muitas só precisam não desandar.",
+      "en": "Play for HP, XP, a usable wave and a read on the enemy pattern. Not every lane has to be won early; many just need to avoid collapsing."
+    },
+    "mid_game": {
+      "pt-BR": "Procure side lane com visão, picks curtos e rotações em que Camille entra primeiro. Se o rival for melhor frontalmente, não aceite frontalidade de graça.",
+      "en": "Look for a warded side lane, short picks and rotations where Camille enters first. If the enemy is better frontally, do not accept free front-to-front fights."
+    },
+    "late_game": {
+      "pt-BR": "Escolha entre split, flank e pick pelo estado dos summoners e pela composição. Camille vale mais quando ameaça alvo isolado do que quando entra sem informação.",
+      "en": "Choose between split, flank and pick based on summoner states and team compositions. Camille is worth more when threatening an isolated target than when she enters without information."
+    }
+  },
+  "practical_situations": [
+    {
+      "pt-BR": "SE a wave estiver grande contra você -> não force engage heroico; limpe o mínimo, preserve HP e espere o próximo ciclo.",
+      "en": "IF the wave is big against you -> do not force a hero engage; clear the minimum, preserve HP and wait for the next cycle."
+    },
+    {
+      "pt-BR": "SE o rival gastar a spell central para farm ou zonear errado -> dê o passo para frente e cobre espaço imediatamente.",
+      "en": "IF the enemy spends the central spell to farm or mis-zone -> take the step forward and claim space immediately."
+    },
+    {
+      "pt-BR": "SE o jungle inimigo puder estar perto e sua rota de saída estiver ruim -> trate a lane como perdida por 10 segundos e não por 10 minutos.",
+      "en": "IF the enemy jungler can be nearby and your exit route is bad -> treat the lane as lost for 10 seconds, not for 10 minutes."
+    }
+  ],
+  "camille_identity_in_matchup": {
+    "split_or_teamfight": {
+      "pt-BR": "Camille normalmente prefere side lane e pick, entrando em teamfight mais por flanco e alvo específico do que por frente a frente.",
+      "en": "Camille usually prefers side lane and picks, entering teamfights more through flanks and specific targets than through front-to-front combat."
+    },
+    "playstyle": {
+      "pt-BR": "Paciente, cirúrgico e guiado por janela. Nessa matchup, pressa costuma valer mais para o rival do que para Camille.",
+      "en": "Patient, surgical and window-based. In this matchup, haste usually benefits the enemy more than Camille."
+    },
+    "role_no_jogo": {
+      "pt-BR": "Criar pressão lateral, forçar resposta ruim e converter um erro de posicionamento em pick ou objetivo.",
+      "en": "Create side pressure, force a bad answer and convert a positioning mistake into a pick or objective."
+    }
+  },
+  "real_difficulty": {
+    "why_its_hard": {
+      "pt-BR": "É difícil porque Sett castiga o instinto de 'continuar só mais um pouco'. Contra ele, o segundo tempo da luta costuma ser muito pior do que o primeiro.",
+      "en": "It is hard because Sett punishes the instinct to 'continue just a bit longer'. Against him, the second beat of the fight is usually far worse than the first."
+    },
+    "what_it_demands": {
+      "pt-BR": "Exige leitura de grit, posição fora do eixo do E, saída lateral e disciplina para cortar a troca cedo.",
+      "en": "It demands grit reading, position off E axis, lateral exits and the discipline to cut the trade early."
+    }
+  },
+  "metadata": {
+    "data_quality": {
+      "lane": "high",
+      "build": "high",
+      "runes": "high"
+    },
+    "source_priority": [
+      "official_riot",
+      "trusted_stats",
+      "expert_matchup_notes",
+      "vod_review"
+    ],
+    "last_reviewed_patch": "16.7.1",
+    "content_status": "elite_top15_round2_preserved"
+  }
+}

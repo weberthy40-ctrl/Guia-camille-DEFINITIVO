@@ -1,0 +1,526 @@
+{
+  "identity": {
+    "champion_slug": "pantheon",
+    "champion_name": "Pantheon",
+    "role_bucket": "top",
+    "quick_summary": {
+      "pt-BR": "Pantheon vs Camille topo é early extremamente punitivo: lança, W empoderado e E negando o pedaço mais valioso da sua troca. A lane melhora bastante se você sobrevive ao começo sem entregar freeze, kill ou reset ruim.",
+      "en": "Pantheon vs Camille top is an extremely punishing early lane: spear, empowered W and E denying the most valuable part of your trade. The lane improves a lot if you survive the start without giving freeze, kill or a bad reset."
+    },
+    "difficulty": "hard",
+    "score": 7.8,
+    "enemy_identity": {
+      "pt-BR": "Pantheon tenta ganhar a lane na marra: prioridade cedo, troca curta pesada e ameaça real de dive ou freeze.",
+      "en": "Pantheon tries to win lane by force: early priority, heavy short trades and real dive or freeze threat."
+    },
+    "matchup_type": {
+      "pt-BR": "lane bully bruiser vs diver",
+      "en": "lane bully bruiser vs diver"
+    },
+    "threat_level": "high",
+    "confidence": "high"
+  },
+  "scoring": {
+    "lane_phase_pressure": 8.0,
+    "gold_diff_15": 7.6,
+    "kill_threat": 7.9,
+    "matchup_winrate_pressure": 7.3,
+    "formula_version": "1.1.0"
+  },
+  "macro_view": {
+    "lane_read": {
+      "pt-BR": "Pantheon dita o early pela ameaça de W empoderado e poke de Q. SE ele gastar W cedo, errar o engage ou usar E de forma defensiva demais -> você ganha espaço para um trade reativo; antes disso, a lane pede respeito de verdade.",
+      "en": "Pantheon dictates early game through empowered W threat and Q poke. IF he spends W early, misses engage or uses E too defensively -> you gain room for a reactive trade; before that, the lane demands real respect."
+    },
+    "win_condition": {
+      "pt-BR": "Sair do 1-5 sem perder vida demais, punir W ou E mal gastos e forçar Pantheon a usar recursos para segurar wave em vez de converter all-in. Camille vence quando o early dele vence pouco e o resto do jogo começa a pesar.",
+      "en": "Leave levels 1-5 without losing too much HP, punish badly spent W or E and force Pantheon to use resources on the wave instead of converting all-ins. Camille wins when his early game wins too little and the rest of the game starts to matter."
+    },
+    "lose_condition": {
+      "pt-BR": "Tomar poke demais antes da primeira janela, usar E ofensivo enquanto o stun ainda está inteiro e insistir em lutar de frente no pico do early dele. Pantheon adora ver Camille ficar sem HP para responder à wave.",
+      "en": "Taking too much poke before the first window, using E offensively while his stun is still full and insisting on a frontal fight at the peak of his early game. Pantheon loves seeing Camille too low to answer the wave."
+    },
+    "tempo_control": {
+      "pt-BR": "SE a lane estiver ruim -> priorize crash, reset e vida. Não aceite ficar meia barra só para segurar três minions.",
+      "en": "IF the lane state is bad -> prioritize crash, reset and HP. Do not stay on half health just to hold three minions."
+    },
+    "trading_pattern": {
+      "pt-BR": "Trade ideal é reativo: ele gasta W ou E, você devolve passiva + Q2 e sai. Se você tenta começar a jogada enquanto as duas ferramentas ainda seguram o combo dele, a rotação fica muito pior.",
+      "en": "The ideal trade is reactive: he spends W or E, you answer with passive + Q2 and leave. If you try to start the play while both tools still cover his combo, the rotation gets much worse."
+    },
+    "wave_control_importance": {
+      "pt-BR": "Muito alta. A wave decide se Camille apanha tentando farmar ou se consegue comprar espaço para passiva e Q2.",
+      "en": "Very high. The wave decides whether Camille gets beaten up farming or buys enough room for passive and Q2."
+    },
+    "power_dynamic": {
+      "pt-BR": "Camille melhora quando a lane deixa de ser pura colisão frontal e vira jogo de side, pick e ameaça de Q2 isolado.",
+      "en": "Camille improves once lane stops being a pure front collision and becomes a side-lane, pick and isolated Q2 game."
+    }
+  },
+  "lane_phase": {
+    "punish_window": {
+      "pt-BR": "Empowered W ou E em cooldown é a janela real. SE ele usar o salto para poke ou E para bloquear coisa menor -> entre curto na mesma wave, porque Pantheon sem essas ferramentas vira bem menos opressivo.",
+      "en": "Empowered W or E on cooldown is the real window. IF he uses the jump for poke or E to block something minor -> go in short on that same wave, because Pantheon without those tools becomes much less oppressive."
+    },
+    "trade_timing": {
+      "pt-BR": "Seu timing é o intervalo entre a lança boa dele e o próximo W. Se Pantheon ainda pode pular e bloquear sua resposta, a jogada provavelmente está cedo demais.",
+      "en": "Your timing is the gap between his clean spear and the next W. If Pantheon can still jump and block your answer, the play is probably still too early."
+    },
+    "safe_play": {
+      "pt-BR": "SE a lane ainda estiver no estado de lança + stun inteiro -> jogue por XP, W seguro e reset limpo. Não force a luta só porque ele recuou meio passo; muitas vezes isso é só o bait para o próximo W.",
+      "en": "IF lane is still in the full spear + stun state -> play for XP, safe W and a clean reset. Do not force the fight just because he backed half a step; many times that is just bait for the next W."
+    },
+    "all_in_condition": {
+      "pt-BR": "All-in só presta quando W ou E já não cobrem a entrada e você ainda tem vida para atravessar a primeira rotação. Se a luta começa com o kit inteiro dele, o preço do erro é alto demais.",
+      "en": "All-in only works when W or E no longer cover the entry and you still have enough HP to cross the first rotation. If the fight starts into his full kit, the price of a mistake is too high."
+    },
+    "early_plan": {
+      "pt-BR": "Prioridade absoluta: não deixar a lane explodir antes do primeiro reset útil. Camille precisa chegar ao mid game com recursos, não vencer cada troca.",
+      "en": "Absolute priority: do not let lane explode before the first useful reset. Camille needs to reach mid game with resources, not win every single trade."
+    },
+    "level_1_3": {
+      "pt-BR": "Pantheon é um dos piores 1-3 para Camille. Se ele tiver wave e passive stack, jogue por XP e não por honra.",
+      "en": "Pantheon is one of Camille's worst levels 1-3. If he has the wave and passive stacks, play for XP and not for pride."
+    },
+    "level_4_5": {
+      "pt-BR": "Aqui a wave e os resets pesam muito. SE a lane vier para seu lado -> procure trade reativo. SE estiver empurrando sem visão -> respeite.",
+      "en": "Here wave state and resets matter a lot. IF lane comes toward you -> look for reactive trades. IF you are pushing without vision -> respect the danger."
+    },
+    "level_6": {
+      "pt-BR": "SE o nível 6 do rival muda a luta por completo -> jogue um pouco abaixo da sua vontade e guarde R para negar o frame mais importante da troca.",
+      "en": "IF the enemy level 6 completely changes the duel -> play slightly below your ego and hold R to deny the most important frame of the trade."
+    },
+    "post_6": {
+      "pt-BR": "Depois do 6, Camille quer escolher ângulo e duração. Quanto mais previsível for sua entrada, melhor para o rival responder.",
+      "en": "After level 6, Camille wants to choose the angle and duration. The more predictable your entry is, the easier it is for the enemy to answer."
+    }
+  },
+  "abilities_interaction": {
+    "dangerous_ability": {
+      "pt-BR": "Empowered Shield Vault (W) + Aegis Assault (E)",
+      "en": "Empowered Shield Vault (W) + Aegis Assault (E)"
+    },
+    "why_dangerous": {
+      "pt-BR": "O W empoderado te prende no pior momento possível e o E reduz exatamente a parte da sua rotação que deveria devolver a troca. Juntos, eles fazem Pantheon ganhar o primeiro tempo e ainda negar seu contra-ataque.",
+      "en": "Empowered W pins you at the worst possible moment and E reduces exactly the part of your rotation that should answer the trade. Together they give Pantheon the first beat and deny your counterattack."
+    },
+    "how_to_react": {
+      "pt-BR": "SE o stun vier cedo e sem wave muito boa para ele -> absorva, devolva só depois do E ou quando o bloqueio já não cobre seu Q2. O erro é tentar responder no exato segundo em que ele quer.",
+      "en": "IF the stun comes early without a very good wave for him -> absorb it, answer only after E or when the block no longer covers your Q2. The mistake is trying to answer in the exact second he wants."
+    },
+    "ability_interaction": {
+      "pt-BR": "Hextech Ultimatum pode cortar a continuação ou reposicionar a luta depois do bloqueio dele. Mas o princípio é o mesmo: Hookshot ofensivo só quando o stun ou o bloqueio já ficaram menos opressivos.",
+      "en": "Hextech Ultimatum can cut the follow-up or reposition the fight after his block. But the principle is the same: offensive Hookshot only when the stun or the block already became less oppressive."
+    },
+    "enemy_cooldowns_by_level": {
+      "1-5": {
+        "pt-BR": "Antes do nível 6, trate empowered W como o gatilho da lane. SE ele estiver disponível, jogue com mais disciplina; SE sair, a janela é curta mas real.",
+        "en": "Before level 6, treat empowered W as the lane trigger. IF it is available, play with discipline; IF it is down, the window is short but real."
+      },
+      "6-10": {
+        "pt-BR": "Com ultimate e mais ranks, a punição por erro cresce. Você deve rastrear não só a skill principal, mas também se o rival ainda tem folbaixa-up para converter a troca.",
+        "en": "With ultimates and extra ranks, punishment for mistakes gets bigger. Track not only the main spell but also whether the enemy still has follow-up to convert the trade."
+      },
+      "11+": {
+        "pt-BR": "No jogo avançado, a janela de cooldown vale mais por pick e side lane do que por lane pura. Use informação para entrar quando o rival não puder repetir a rotação completa.",
+        "en": "Later in the game, cooldown windows matter more for picks and side lane than for pure laning. Use information to enter when the enemy cannot repeat the full rotation."
+      }
+    },
+    "punish_windows_by_cooldown": {
+      "pt-BR": "SE W ou E entrarem em cooldown -> avance na wave, porque Pantheon perde o direito de te segurar só com presença. Essas pequenas cobranças fazem o early dele perder valor.",
+      "en": "IF W or E go on cooldown -> step up on the wave, because Pantheon loses the right to keep you out through presence alone. Those small punishments make his early lose value."
+    }
+  },
+  "build": {
+    "start_items": [
+      "Doran's Shield",
+      "Grasp / Bone Plating page",
+      "Early Cloth Armor if early is brutal"
+    ],
+    "core_items": [
+      "Trinity Force",
+      "Ravenous Hydra",
+      "Death's Dance"
+    ],
+    "full_build": [
+      "Trinity Force",
+      "Ravenous Hydra",
+      "Plated Steelcaps",
+      "Death's Dance",
+      "Sterak's Gage"
+    ],
+    "situational_items": [
+      "Plated Steelcaps",
+      "Death's Dance",
+      "Guardian Angel",
+      "Frozen Heart",
+      "Sterak's Gage"
+    ],
+    "decision_build": {
+      "behind": {
+        "pt-BR": "SE estiver atrás -> compre vida/resistência ou componente defensivo antes de greedar dano. O pior erro é continuar frágil tentando jogar side longa.",
+        "en": "IF you are behind -> buy health/resistance or a defensive component before greed-damaging. The worst mistake is staying fragile and trying to play a long side lane."
+      },
+      "ahead": {
+        "pt-BR": "SE estiver na frente -> acelere o item que converte pressão lateral e force o rival a responder wave ruim repetidas vezes.",
+        "en": "IF you are ahead -> accelerate the item that converts side-lane pressure and force the enemy to answer bad waves repeatedly."
+      },
+      "vs_ap": {
+        "pt-BR": "SE o padrão principal for AP ou poke mágico -> um Bebedor de Hexdrinque/Null-Magic Mantle cedo pode valer mais que insistir no rush limpo.",
+        "en": "IF the main damage pattern is AP or magic poke -> an early Hexdrinker or Null-Magic Mantle can be worth more than insisting on a pure rush."
+      },
+      "vs_tank": {
+        "pt-BR": "SE o rival só quer travar a lane -> valorize item que empurra wave e te deixa escolher side/pick depois.",
+        "en": "IF the enemy only wants to stall lane -> value the item that pushes waves and lets you choose side lane or picks later."
+      }
+    }
+  },
+  "item_winrate_system": {
+    "item_1_options": [
+      {
+        "item": "Trinity Force",
+        "winrate": 51.5,
+        "relevance": "high"
+      },
+      {
+        "item": "Sundered Sky",
+        "winrate": 50.7,
+        "relevance": "medium"
+      },
+      {
+        "item": "Early defensive component",
+        "winrate": 50.4,
+        "relevance": "medium"
+      }
+    ],
+    "item_2_options": [
+      {
+        "item": "Ravenous Hydra",
+        "winrate": 52.2,
+        "relevance": "high"
+      },
+      {
+        "item": "Ravenous Hydra",
+        "winrate": 51.4,
+        "relevance": "medium"
+      },
+      {
+        "item": "Defensive pivot",
+        "winrate": 51.0,
+        "relevance": "medium"
+      }
+    ],
+    "item_3_options": [
+      {
+        "item": "Sterak's Gage",
+        "winrate": 53.0,
+        "relevance": "high"
+      },
+      {
+        "item": "Death's Dance",
+        "winrate": 52.5,
+        "relevance": "high"
+      },
+      {
+        "item": "Maw of Malmortius",
+        "winrate": 52.1,
+        "relevance": "medium"
+      }
+    ]
+  },
+  "runes": {
+    "most_used": {
+      "pt-BR": "Aperto dos Mortos-Vivos + Osso Revestido é a base mais estável para sobreviver ao curto explosivo do Pantheon.",
+      "en": "Grasp + Bone Plating is the most stable base to survive Pantheon's explosive short trade."
+    },
+    "highest_winrate": {
+      "pt-BR": "Aperto dos Mortos-Vivos costuma render melhor porque a lane é decidida por janelas reativas, não por luta longa cedo.",
+      "en": "Grasp usually performs better because lane is decided by reactive windows, not early long fights."
+    },
+    "situational": {
+      "pt-BR": "Ventos Revigorantes pode entrar se o poke de Q estiver pesado; Conquistador normalmente só cresce depois que o early dele já perdeu força.",
+      "en": "Second Wind can be used if Q poke is heavy; Conqueror usually only grows after his early game loses strength."
+    },
+    "when_to_use_each": {
+      "pt-BR": "SE o foco é sobreviver aos primeiros níveis -> Aperto dos Mortos-Vivos. Se você projeta um jogo mais longo e já passou da parte mais cruel -> Conquistador começa a ser considerado.",
+      "en": "IF the focus is surviving the first levels -> Grasp. If you expect a longer game and have already passed the cruelest part -> Conqueror starts to be considered."
+    },
+    "matchup_specific_reason": {
+      "pt-BR": "A runa precisa diminuir o preço do primeiro W ruim e te dar troca útil depois do bloqueio, não sonhar com duelo longo no auge do Pantheon.",
+      "en": "The rune must reduce the price of the first bad W and give you useful trading after his block, not dream of long duels at Pantheon's peak."
+    },
+    "recommended_pages": [
+      {
+        "page_name": {
+          "pt-BR": "Página principal",
+          "en": "Primary page"
+        },
+        "keystone": {
+          "pt-BR": "Aperto dos Mortos-Vivos",
+          "en": "Grasp of the Undying"
+        },
+        "primary_tree": {
+          "pt-BR": "Determinação",
+          "en": "Resolve"
+        },
+        "primary_slots": [
+          {
+            "pt-BR": "Golpe de Escudo",
+            "en": "Shield Bash"
+          },
+          {
+            "pt-BR": "Osso Revestido",
+            "en": "Bone Plating"
+          },
+          {
+            "pt-BR": "Crescimento Excessivo",
+            "en": "Overgrowth"
+          }
+        ],
+        "secondary_tree": {
+          "pt-BR": "Precisão",
+          "en": "Precision"
+        },
+        "secondary_slots": [
+          {
+            "pt-BR": "Presença de Espírito",
+            "en": "Presence of Mind"
+          },
+          {
+            "pt-BR": "Até a Morte",
+            "en": "Last Stand"
+          }
+        ],
+        "shards": [
+          {
+            "pt-BR": "Velocidade de Ataque",
+            "en": "Attack Speed"
+          },
+          {
+            "pt-BR": "Força Adaptativa",
+            "en": "Adaptive Force"
+          },
+          {
+            "pt-BR": "Armadura",
+            "en": "Armor"
+          }
+        ],
+        "reason": {
+          "pt-BR": "Página mais estável quando a lane é decidida por trocas curtas, controle de HP e passiva bem sincronizada.",
+          "en": "Most stable page when the lane is decided by short trades, HP control and well-synced passive timing."
+        },
+        "when": {
+          "pt-BR": "Use quando você precisa sobreviver ao primeiro ciclo ruim e ganhar valor repetido em AA + Q.",
+          "en": "Use it when you need to survive the first bad cycle and extract repeat value from AA + Q."
+        }
+      },
+      {
+        "page_name": {
+          "pt-BR": "Página situacional",
+          "en": "Situational page"
+        },
+        "keystone": {
+          "pt-BR": "Conquistador",
+          "en": "Conqueror"
+        },
+        "primary_tree": {
+          "pt-BR": "Precisão",
+          "en": "Precision"
+        },
+        "primary_slots": [
+          {
+            "pt-BR": "Triunfo",
+            "en": "Triumph"
+          },
+          {
+            "pt-BR": "Lenda: Espontaneidade",
+            "en": "Legend: Alacrity"
+          },
+          {
+            "pt-BR": "Até a Morte",
+            "en": "Last Stand"
+          }
+        ],
+        "secondary_tree": {
+          "pt-BR": "Determinação",
+          "en": "Resolve"
+        },
+        "secondary_slots": [
+          {
+            "pt-BR": "Golpe de Escudo",
+            "en": "Shield Bash"
+          },
+          {
+            "pt-BR": "Ventos Revigorantes",
+            "en": "Second Wind"
+          }
+        ],
+        "shards": [
+          {
+            "pt-BR": "Velocidade de Ataque",
+            "en": "Attack Speed"
+          },
+          {
+            "pt-BR": "Força Adaptativa",
+            "en": "Adaptive Force"
+          },
+          {
+            "pt-BR": "Vida Escalável",
+            "en": "Health Scaling"
+          }
+        ],
+        "reason": {
+          "pt-BR": "Dá mais teto em side lane e lutas estendidas, mas exige mais respeito no early e mais precisão para não perder a lane antes do spike.",
+          "en": "Gives a higher ceiling in side lane and extended fights, but demands more respect early and cleaner execution to avoid losing lane before the spike."
+        },
+        "when": {
+          "pt-BR": "Use quando o confronto e o jogo prometem luta longa de verdade, não só troca bonita no papel.",
+          "en": "Use it when the matchup and the game truly promise extended fights, not just pretty trades on paper."
+        }
+      }
+    ]
+  },
+  "power_spikes": {
+    "enemy_spikes": [
+      {
+        "pt-BR": "lvl 3 -> primeira rotação completa com ameaça real.",
+        "en": "lvl 3 -> first full rotation with real threat."
+      },
+      {
+        "pt-BR": "lvl 6 -> o duelo muda porque o rival ganha botão de conversão ou negação.",
+        "en": "lvl 6 -> the duel changes because the enemy gains a true conversion or denial button."
+      },
+      {
+        "pt-BR": "item 1 -> a lane pode ficar muito mais punitiva se Camille já estiver atrás.",
+        "en": "first item -> lane can become far more punishing if Camille is already behind."
+      }
+    ],
+    "camille_spikes": [
+      {
+        "pt-BR": "lvl 3 -> kit completo para trade curto e saída.",
+        "en": "lvl 3 -> full kit for short trade and exit."
+      },
+      {
+        "pt-BR": "lvl 6 -> R permite negar frame importante e travar alvo melhor.",
+        "en": "lvl 6 -> R lets Camille deny a key frame and lock the target better."
+      },
+      {
+        "pt-BR": "item 1 -> side lane e pick passam a ter peso real.",
+        "en": "first item -> side lane and picks start to matter for real."
+      }
+    ],
+    "shared_spikes": [
+      {
+        "pt-BR": "lvl 6",
+        "en": "lvl 6"
+      },
+      {
+        "pt-BR": "first reset útil",
+        "en": "first useful reset"
+      },
+      {
+        "pt-BR": "item 1",
+        "en": "first item"
+      }
+    ]
+  },
+  "common_mistakes": [
+    {
+      "pt-BR": "Abrir de Hookshot enquanto o W empoderado ainda está inteiro.",
+      "en": "Opening with Hookshot while empowered W is still intact."
+    },
+    {
+      "pt-BR": "Tentar responder o combo antes de o E dele parar de bloquear o dano importante.",
+      "en": "Trying to answer the combo before his E stops blocking the important damage."
+    },
+    {
+      "pt-BR": "Perder vida demais no poke e depois tentar compensar com all-in desesperado.",
+      "en": "Losing too much HP to poke and then trying to compensate with a desperate all-in."
+    }
+  ],
+  "practical_priority": {
+    "boots_priority": {
+      "pt-BR": "Steelcaps é prioridade alta porque reduz o castigo do early físico e do folbaixa-up depois do stun.",
+      "en": "Steelcaps is high priority because it lowers the punishment from his physical early game and the follow-up after stun."
+    },
+    "defensive_item_priority": {
+      "pt-BR": "Alta. Armadura cedo tira muito peso do pior ponto da matchup, que é justamente antes de você estabilizar.",
+      "en": "High. Early armor removes a lot of weight from the worst point of the matchup, which is before you stabilize."
+    },
+    "tiamat_or_not": {
+      "pt-BR": "Tiamat só depois que o early já não te empurra para baixo da torre em toda wave. Antes disso, sobreviver ao W é mais urgente.",
+      "en": "Tiamat only after early game no longer shoves you under tower every wave. Before that, surviving W is more urgent."
+    },
+    "rush_core_or_not": {
+      "pt-BR": "Não force rush puro enquanto Pantheon ainda tem muito controle do early. Primeiro reduza o preço do combo, depois acelere o core.",
+      "en": "Do not force a pure rush while Pantheon still controls early game too much. First reduce the cost of his combo, then accelerate your core."
+    }
+  },
+  "gameplan_complete": {
+    "early_game": {
+      "pt-BR": "Jogue para vida, XP, wave utilizável e leitura do padrão inimigo. Nem toda lane precisa ser vencida cedo; muitas só precisam não desandar.",
+      "en": "Play for HP, XP, a usable wave and a read on the enemy pattern. Not every lane has to be won early; many just need to avoid collapsing."
+    },
+    "mid_game": {
+      "pt-BR": "Procure side lane com visão, picks curtos e rotações em que Camille entra primeiro. Se o rival for melhor frontalmente, não aceite frontalidade de graça.",
+      "en": "Look for a warded side lane, short picks and rotations where Camille enters first. If the enemy is better frontally, do not accept free front-to-front fights."
+    },
+    "late_game": {
+      "pt-BR": "Escolha entre split, flank e pick pelo estado dos summoners e pela composição. Camille vale mais quando ameaça alvo isolado do que quando entra sem informação.",
+      "en": "Choose between split, flank and pick based on summoner states and team compositions. Camille is worth more when threatening an isolated target than when she enters without information."
+    }
+  },
+  "practical_situations": [
+    {
+      "pt-BR": "SE a wave estiver grande contra você -> não force engage heroico; limpe o mínimo, preserve HP e espere o próximo ciclo.",
+      "en": "IF the wave is big against you -> do not force a hero engage; clear the minimum, preserve HP and wait for the next cycle."
+    },
+    {
+      "pt-BR": "SE o rival gastar a spell central para farm ou zonear errado -> dê o passo para frente e cobre espaço imediatamente.",
+      "en": "IF the enemy spends the central spell to farm or mis-zone -> take the step forward and claim space immediately."
+    },
+    {
+      "pt-BR": "SE o jungle inimigo puder estar perto e sua rota de saída estiver ruim -> trate a lane como perdida por 10 segundos e não por 10 minutos.",
+      "en": "IF the enemy jungler can be nearby and your exit route is bad -> treat the lane as lost for 10 seconds, not for 10 minutes."
+    }
+  ],
+  "camille_identity_in_matchup": {
+    "split_or_teamfight": {
+      "pt-BR": "Camille normalmente prefere side lane e pick, entrando em teamfight mais por flanco e alvo específico do que por frente a frente.",
+      "en": "Camille usually prefers side lane and picks, entering teamfights more through flanks and specific targets than through front-to-front combat."
+    },
+    "playstyle": {
+      "pt-BR": "Paciente, cirúrgico e guiado por janela. Nessa matchup, pressa costuma valer mais para o rival do que para Camille.",
+      "en": "Patient, surgical and window-based. In this matchup, haste usually benefits the enemy more than Camille."
+    },
+    "role_no_jogo": {
+      "pt-BR": "Criar pressão lateral, forçar resposta ruim e converter um erro de posicionamento em pick ou objetivo.",
+      "en": "Create side pressure, force a bad answer and convert a positioning mistake into a pick or objective."
+    }
+  },
+  "real_difficulty": {
+    "why_its_hard": {
+      "pt-BR": "É difícil porque Pantheon tem exatamente o early que pune Camille antes de ela estabilizar: poke, stun confiável e ferramenta de negação de dano.",
+      "en": "It is hard because Pantheon has exactly the early pattern that punishes Camille before she stabilizes: poke, reliable stun and a damage denial tool."
+    },
+    "what_it_demands": {
+      "pt-BR": "Exige respeito ao early, leitura do W empoderado, paciência para responder só depois do E e boa gestão de vida/reset.",
+      "en": "It demands early-game respect, empowered W tracking, patience to answer only after E and good HP/reset management."
+    }
+  },
+  "metadata": {
+    "data_quality": {
+      "lane": "high",
+      "build": "high",
+      "runes": "high"
+    },
+    "source_priority": [
+      "official_riot",
+      "trusted_stats",
+      "expert_matchup_notes",
+      "vod_review"
+    ],
+    "last_reviewed_patch": "16.7.1",
+    "content_status": "elite_top15_round2_preserved"
+  }
+}

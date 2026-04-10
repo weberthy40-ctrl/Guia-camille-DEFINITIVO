@@ -1,0 +1,526 @@
+{
+  "identity": {
+    "champion_slug": "fiora",
+    "champion_name": "Fiora",
+    "role_bucket": "top",
+    "quick_summary": {
+      "pt-BR": "Fiora vs Camille topo é duelo de execução em que a Riposte decide quem pode apertar primeiro. Camille não perde só por dano; perde quando entrega um E ou Q2 legível para Fiora virar a luta.",
+      "en": "Fiora vs Camille top is an execution duel where Riposte decides who is allowed to press first. Camille does not lose only to damage; she loses when she gives Fiora a readable E or Q2 to flip the fight."
+    },
+    "difficulty": "hard",
+    "score": 8.6,
+    "enemy_identity": {
+      "pt-BR": "Duelista de resposta. Fiora quer que você mostre o timing primeiro para transformar sua melhor ferramenta em vantagem dela.",
+      "en": "A reactive duelist. Fiora wants you to show the timing first so she can turn your best tool into her advantage."
+    },
+    "matchup_type": {
+      "pt-BR": "duelist mind-game lane vs diver",
+      "en": "duelist mind-game lane vs diver"
+    },
+    "threat_level": "high",
+    "confidence": "high"
+  },
+  "scoring": {
+    "lane_phase_pressure": 8.8,
+    "gold_diff_15": 8.4,
+    "kill_threat": 8.7,
+    "matchup_winrate_pressure": 8.1,
+    "formula_version": "1.1.0"
+  },
+  "macro_view": {
+    "lane_read": {
+      "pt-BR": "O eixo da lane é Riposte. SE Fiora gastar W cedo, errar leitura ou usar para segurar wave -> Camille ganha a janela mais limpa da matchup; enquanto o W estiver pronto, sua entrada precisa ser ambígua.",
+      "en": "The axis of the lane is Riposte. IF Fiora spends W early, misreads or uses it to hold the wave -> Camille gets the cleanest window of the matchup; while W is ready, your entry must stay ambiguous."
+    },
+    "win_condition": {
+      "pt-BR": "Variar timing, esconder o segundo Q e só comprometer Hookshot quando Riposte já não cobre a troca inteira. Camille vence quando Fiora precisa adivinhar e não quando ela consegue responder no reflexo certo.",
+      "en": "Vary timings, hide second Q and only commit Hookshot when Riposte no longer covers the whole trade. Camille wins when Fiora has to guess, not when she gets the clean reactive answer."
+    },
+    "lose_condition": {
+      "pt-BR": "Telegraphar E, entrar sempre no mesmo ritmo e prolongar duelo depois do primeiro ciclo. Fiora adora trocas em que ela vê tudo vindo e pode reverter a parte mais valiosa do seu combo.",
+      "en": "Telegraphing E, entering at the same rhythm every time and extending the duel after the first cycle. Fiora loves trades where she sees everything coming and can reverse the most valuable part of your combo."
+    },
+    "tempo_control": {
+      "pt-BR": "SE a wave estiver boa para Fiora estender a chase -> não entregue o primeiro passo. Camille quer espaço para sair depois do Q2; Fiora quer que o duelo fique longo o suficiente para vitais e chase.",
+      "en": "IF the wave is good for Fiora to extend the chase -> do not give the first step. Camille wants room to leave after Q2; Fiora wants the duel long enough for vitals and chase."
+    },
+    "trading_pattern": {
+      "pt-BR": "Use ameaça, atraso e micropausa. Muitas vezes o melhor trade é ameaçar o Hookshot, andar para fora do W e só então voltar com Q2; entrar reto na primeira janela visível é o erro clássico.",
+      "en": "Use threat, delay and micro-pauses. Many times the best trade is to threaten Hookshot, step out of W and only then return with Q2; going straight in on the first visible window is the classic mistake."
+    },
+    "wave_control_importance": {
+      "pt-BR": "Alta. Quem luta com wave ruim entrega o duelo inteiro.",
+      "en": "High. Whoever fights on a bad wave usually donates the whole duel."
+    },
+    "power_dynamic": {
+      "pt-BR": "No early a execução pesa muito; depois de item e espaço lateral, Camille pode virar a matchup em picks curtos e resets melhores.",
+      "en": "Execution matters a lot early; after an item and more side-lane space, Camille can flip the matchup through short picks and better resets."
+    }
+  },
+  "lane_phase": {
+    "punish_window": {
+      "pt-BR": "A janela mais valiosa é depois da Riposte sair sem te travar. SE W errar ou for usado cedo demais -> cobre muito espaço imediatamente, porque Fiora perde o botão que desarma sua entrada.",
+      "en": "The most valuable window is after Riposte is spent without stopping you. IF W misses or gets used too early -> claim a lot of space immediately, because Fiora loses the button that disarms your entry."
+    },
+    "trade_timing": {
+      "pt-BR": "Troque quando você puder mudar o ritmo no meio da jogada. SE sua entrada estiver óbvia, espere mais meio segundo; contra Fiora, timing bom vale mais que ser o primeiro a encostar.",
+      "en": "Trade when you can change the rhythm in the middle of the play. IF your entry is obvious, wait half a second more; against Fiora, good timing matters more than being first to touch."
+    },
+    "safe_play": {
+      "pt-BR": "SE Riposte estiver pronta e a wave longe -> use W para manter a lane honesta, jogue em torno de passiva e não dê E previsível. Perder um minion é menos grave do que perder o direito de jogar a próxima wave.",
+      "en": "IF Riposte is up and the wave is far -> use W to keep lane honest, play around passive and do not give a predictable E. Losing one minion is less severe than losing the right to play the next wave."
+    },
+    "all_in_condition": {
+      "pt-BR": "All-in real só quando Riposte já saiu ou quando você consegue forçar o W e reentrar antes do próximo ciclo. Se a luta começa com o W dela inteiro, o risco de a jogada virar contra você é alto demais.",
+      "en": "A real all-in only works when Riposte is already down or when you can force W and re-enter before the next cycle. If the fight starts with her full W available, the risk of the play flipping is too high."
+    },
+    "early_plan": {
+      "pt-BR": "Prioridade absoluta: não deixar a lane explodir antes do primeiro reset útil. Camille precisa chegar ao mid game com recursos, não vencer cada troca.",
+      "en": "Absolute priority: do not let lane explode before the first useful reset. Camille needs to reach mid game with resources, not win every single trade."
+    },
+    "level_1_3": {
+      "pt-BR": "SE Fiora controlar nível 1 ou 2 -> ceda espaço inteligente, proteja XP e não entregue passiva de graça. O objetivo é não entrar no ritmo ruim cedo.",
+      "en": "IF Fiora controls level 1 or 2 -> give smart space, protect XP and do not donate passive for free. The goal is to avoid falling into a bad early tempo."
+    },
+    "level_4_5": {
+      "pt-BR": "Aqui a wave e os resets pesam muito. SE a lane vier para seu lado -> procure trade reativo. SE estiver empurrando sem visão -> respeite.",
+      "en": "Here wave state and resets matter a lot. IF lane comes toward you -> look for reactive trades. IF you are pushing without vision -> respect the danger."
+    },
+    "level_6": {
+      "pt-BR": "Seu R pode quebrar parte do traçado do all-in, mas não corrige entrada óbvia no W. O ult serve para bagunçar o padrão, não para anular tudo.",
+      "en": "Your R can break part of the all-in pattern, but it does not fix an obvious entry into W. The ult is meant to scramble the pattern, not erase everything."
+    },
+    "post_6": {
+      "pt-BR": "Depois do 6, Camille quer escolher ângulo e duração. Quanto mais previsível for sua entrada, melhor para o rival responder.",
+      "en": "After level 6, Camille wants to choose the angle and duration. The more predictable your entry is, the easier it is for the enemy to answer."
+    }
+  },
+  "abilities_interaction": {
+    "dangerous_ability": {
+      "pt-BR": "Riposte (W)",
+      "en": "Riposte (W)"
+    },
+    "why_dangerous": {
+      "pt-BR": "Riposte não só nega seu timing como também transforma o melhor frame da sua troca em vantagem da Fiora. Quando Camille entrega E ou Q2 limpo demais, a lane muda de lado na hora.",
+      "en": "Riposte not only denies your timing, it turns the best frame of your trade into Fiora's advantage. When Camille gives away a clean E or Q2, lane flips instantly."
+    },
+    "how_to_react": {
+      "pt-BR": "SE Fiora parar e segurar o espaço em vez de correr -> respeite a possibilidade de W. Force microfintas, mude ângulo e entre só quando ela já tiver se comprometido com uma leitura errada.",
+      "en": "IF Fiora stops and holds space instead of running -> respect the W threat. Force micro-feints, change angle and only enter once she has committed to the wrong read."
+    },
+    "ability_interaction": {
+      "pt-BR": "Hextech Ultimatum pode cortar a continuação da jogada, mas não corrige uma entrada mal telegráfica. Hookshot precisa ser ameaça tanto quanto engage; quando Fiora não sabe o frame exato, Camille volta a respirar.",
+      "en": "Hextech Ultimatum can cut the continuation of the play, but it does not fix a telegraphed entry. Hookshot must be a threat as much as an engage; when Fiora does not know the exact frame, Camille can breathe again."
+    },
+    "enemy_cooldowns_by_level": {
+      "1-5": {
+        "pt-BR": "Antes do nível 6, trate W parry como o gatilho da lane. SE ele estiver disponível, jogue com mais disciplina; SE sair, a janela é curta mas real.",
+        "en": "Before level 6, treat W parry as the lane trigger. IF it is available, play with discipline; IF it is down, the window is short but real."
+      },
+      "6-10": {
+        "pt-BR": "Com ultimate e mais ranks, a punição por erro cresce. Você deve rastrear não só a skill principal, mas também se o rival ainda tem folbaixa-up para converter a troca.",
+        "en": "With ultimates and extra ranks, punishment for mistakes gets bigger. Track not only the main spell but also whether the enemy still has follow-up to convert the trade."
+      },
+      "11+": {
+        "pt-BR": "No jogo avançado, a janela de cooldown vale mais por pick e side lane do que por lane pura. Use informação para entrar quando o rival não puder repetir a rotação completa.",
+        "en": "Later in the game, cooldown windows matter more for picks and side lane than for pure laning. Use information to enter when the enemy cannot repeat the full rotation."
+      }
+    },
+    "punish_windows_by_cooldown": {
+      "pt-BR": "SE Riposte entrar em cooldown -> acelere wave e espaço. Essa janela não é só para dano; é para obrigar Fiora a jogar defensivamente e devolver o ritmo para Camille.",
+      "en": "IF Riposte goes on cooldown -> accelerate wave and space. That window is not only for damage; it is for forcing Fiora into defense and giving the tempo back to Camille."
+    }
+  },
+  "build": {
+    "start_items": [
+      "Doran's Shield",
+      "Grasp / Bone Plating page",
+      "Early armor if trades are going long"
+    ],
+    "core_items": [
+      "Trinity Force",
+      "Ravenous Hydra",
+      "Sterak's Gage"
+    ],
+    "full_build": [
+      "Trinity Force",
+      "Ravenous Hydra",
+      "Plated Steelcaps",
+      "Sterak's Gage",
+      "Death's Dance"
+    ],
+    "situational_items": [
+      "Plated Steelcaps",
+      "Executioner's Calling if sustain becomes overwhelming",
+      "Frozen Heart",
+      "Guardian Angel",
+      "Sundered Sky"
+    ],
+    "decision_build": {
+      "behind": {
+        "pt-BR": "SE ficar atrás -> priorize estabilidade e armadura antes de tentar duelo bonito. Camille atrás contra Fiora não recupera a lane só com dano bruto.",
+        "en": "IF you fall behind -> prioritize stability and armor before trying to duel beautifully. A behind Camille does not recover this lane with raw damage alone."
+      },
+      "ahead": {
+        "pt-BR": "SE estiver na frente -> continue variando timing e acelere item que converta side lane sem abrir mão do primeiro erro defensivo.",
+        "en": "IF you are ahead -> keep varying timing and accelerate the item that converts side lane pressure without giving away the first defensive mistake."
+      },
+      "vs_ap": {
+        "pt-BR": "SE o resto do mapa cobrar MR, adapte depois do núcleo do duelo. A matchup em si continua pedindo leitura de W e boa troca curta.",
+        "en": "IF the rest of the map asks for MR, adapt after your duel core. The matchup itself still asks for W tracking and strong short trades."
+      },
+      "vs_tank": {
+        "pt-BR": "Se a composição inimiga tiver muita linha de frente, mantenha build que ainda te permita matar side lane e flanquear, não virar pseudo-tanque sem pressão.",
+        "en": "If the enemy comp has heavy front line, keep a build that still lets you kill in side lane and flank, not turn into a fake tank with no pressure."
+      }
+    }
+  },
+  "item_winrate_system": {
+    "item_1_options": [
+      {
+        "item": "Trinity Force",
+        "winrate": 51.5,
+        "relevance": "high"
+      },
+      {
+        "item": "Sundered Sky",
+        "winrate": 50.7,
+        "relevance": "medium"
+      },
+      {
+        "item": "Early defensive component",
+        "winrate": 50.4,
+        "relevance": "medium"
+      }
+    ],
+    "item_2_options": [
+      {
+        "item": "Ravenous Hydra",
+        "winrate": 52.2,
+        "relevance": "high"
+      },
+      {
+        "item": "Ravenous Hydra",
+        "winrate": 51.4,
+        "relevance": "medium"
+      },
+      {
+        "item": "Defensive pivot",
+        "winrate": 51.0,
+        "relevance": "medium"
+      }
+    ],
+    "item_3_options": [
+      {
+        "item": "Sterak's Gage",
+        "winrate": 53.0,
+        "relevance": "high"
+      },
+      {
+        "item": "Death's Dance",
+        "winrate": 52.5,
+        "relevance": "high"
+      },
+      {
+        "item": "Maw of Malmortius",
+        "winrate": 52.1,
+        "relevance": "medium"
+      }
+    ]
+  },
+  "runes": {
+    "most_used": {
+      "pt-BR": "Aperto dos Mortos-Vivos é a base mais estável porque compra vida, troca curta e mais margem para variar timing.",
+      "en": "Grasp is the most stable base because it buys HP, short-trade value and more room to vary timing."
+    },
+    "highest_winrate": {
+      "pt-BR": "Aperto dos Mortos-Vivos tende a render melhor do que Conquistador quando a lane é decidida por janela e não por luta longa limpa.",
+      "en": "Grasp tends to outperform Conqueror when lane is decided by windows rather than by clean long fights."
+    },
+    "situational": {
+      "pt-BR": "Conquistador só entra se você confia muito na execução; Osso Revestido ajuda em commit curto, Ventos Revigorantes vale se estiver tomando muito chip em vitais.",
+      "en": "Conqueror only comes in if you trust your execution a lot; Bone Plating helps against short commits, Second Wind if you are taking too much vital chip."
+    },
+    "when_to_use_each": {
+      "pt-BR": "SE você quer lane mais previsível e curta -> Aperto dos Mortos-Vivos. SE você prevê side longa depois e está muito confiante em baits de W -> Conquistador pode ser opção.",
+      "en": "IF you want a more predictable and short lane -> Grasp. IF you expect long side fights later and are very confident at baiting W -> Conqueror can be an option."
+    },
+    "matchup_specific_reason": {
+      "pt-BR": "A runa certa aqui é a que sustenta a parte mental da lane: variar timing, sobreviver ao erro pequeno e ainda ter troca boa quando o W dela sair.",
+      "en": "The right rune here is the one that supports the mental side of lane: vary timing, survive small mistakes and still have a good trade once her W is down."
+    },
+    "recommended_pages": [
+      {
+        "page_name": {
+          "pt-BR": "Página principal",
+          "en": "Primary page"
+        },
+        "keystone": {
+          "pt-BR": "Aperto dos Mortos-Vivos",
+          "en": "Grasp of the Undying"
+        },
+        "primary_tree": {
+          "pt-BR": "Determinação",
+          "en": "Resolve"
+        },
+        "primary_slots": [
+          {
+            "pt-BR": "Golpe de Escudo",
+            "en": "Shield Bash"
+          },
+          {
+            "pt-BR": "Osso Revestido",
+            "en": "Bone Plating"
+          },
+          {
+            "pt-BR": "Crescimento Excessivo",
+            "en": "Overgrowth"
+          }
+        ],
+        "secondary_tree": {
+          "pt-BR": "Precisão",
+          "en": "Precision"
+        },
+        "secondary_slots": [
+          {
+            "pt-BR": "Presença de Espírito",
+            "en": "Presence of Mind"
+          },
+          {
+            "pt-BR": "Até a Morte",
+            "en": "Last Stand"
+          }
+        ],
+        "shards": [
+          {
+            "pt-BR": "Velocidade de Ataque",
+            "en": "Attack Speed"
+          },
+          {
+            "pt-BR": "Força Adaptativa",
+            "en": "Adaptive Force"
+          },
+          {
+            "pt-BR": "Armadura",
+            "en": "Armor"
+          }
+        ],
+        "reason": {
+          "pt-BR": "Página mais estável quando a lane é decidida por trocas curtas, controle de HP e passiva bem sincronizada.",
+          "en": "Most stable page when the lane is decided by short trades, HP control and well-synced passive timing."
+        },
+        "when": {
+          "pt-BR": "Use quando você precisa sobreviver ao primeiro ciclo ruim e ganhar valor repetido em AA + Q.",
+          "en": "Use it when you need to survive the first bad cycle and extract repeat value from AA + Q."
+        }
+      },
+      {
+        "page_name": {
+          "pt-BR": "Página situacional",
+          "en": "Situational page"
+        },
+        "keystone": {
+          "pt-BR": "Conquistador",
+          "en": "Conqueror"
+        },
+        "primary_tree": {
+          "pt-BR": "Precisão",
+          "en": "Precision"
+        },
+        "primary_slots": [
+          {
+            "pt-BR": "Triunfo",
+            "en": "Triumph"
+          },
+          {
+            "pt-BR": "Lenda: Espontaneidade",
+            "en": "Legend: Alacrity"
+          },
+          {
+            "pt-BR": "Até a Morte",
+            "en": "Last Stand"
+          }
+        ],
+        "secondary_tree": {
+          "pt-BR": "Determinação",
+          "en": "Resolve"
+        },
+        "secondary_slots": [
+          {
+            "pt-BR": "Golpe de Escudo",
+            "en": "Shield Bash"
+          },
+          {
+            "pt-BR": "Ventos Revigorantes",
+            "en": "Second Wind"
+          }
+        ],
+        "shards": [
+          {
+            "pt-BR": "Velocidade de Ataque",
+            "en": "Attack Speed"
+          },
+          {
+            "pt-BR": "Força Adaptativa",
+            "en": "Adaptive Force"
+          },
+          {
+            "pt-BR": "Vida Escalável",
+            "en": "Health Scaling"
+          }
+        ],
+        "reason": {
+          "pt-BR": "Dá mais teto em side lane e lutas estendidas, mas exige mais respeito no early e mais precisão para não perder a lane antes do spike.",
+          "en": "Gives a higher ceiling in side lane and extended fights, but demands more respect early and cleaner execution to avoid losing lane before the spike."
+        },
+        "when": {
+          "pt-BR": "Use quando o confronto e o jogo prometem luta longa de verdade, não só troca bonita no papel.",
+          "en": "Use it when the matchup and the game truly promise extended fights, not just pretty trades on paper."
+        }
+      }
+    ]
+  },
+  "power_spikes": {
+    "enemy_spikes": [
+      {
+        "pt-BR": "lvl 3 -> primeira rotação completa com ameaça real.",
+        "en": "lvl 3 -> first full rotation with real threat."
+      },
+      {
+        "pt-BR": "lvl 6 -> o duelo muda porque o rival ganha botão de conversão ou negação.",
+        "en": "lvl 6 -> the duel changes because the enemy gains a true conversion or denial button."
+      },
+      {
+        "pt-BR": "item 1 -> a lane pode ficar muito mais punitiva se Camille já estiver atrás.",
+        "en": "first item -> lane can become far more punishing if Camille is already behind."
+      }
+    ],
+    "camille_spikes": [
+      {
+        "pt-BR": "lvl 3 -> kit completo para trade curto e saída.",
+        "en": "lvl 3 -> full kit for short trade and exit."
+      },
+      {
+        "pt-BR": "lvl 6 -> R permite negar frame importante e travar alvo melhor.",
+        "en": "lvl 6 -> R lets Camille deny a key frame and lock the target better."
+      },
+      {
+        "pt-BR": "item 1 -> side lane e pick passam a ter peso real.",
+        "en": "first item -> side lane and picks start to matter for real."
+      }
+    ],
+    "shared_spikes": [
+      {
+        "pt-BR": "lvl 6",
+        "en": "lvl 6"
+      },
+      {
+        "pt-BR": "first reset útil",
+        "en": "first useful reset"
+      },
+      {
+        "pt-BR": "item 1",
+        "en": "first item"
+      }
+    ]
+  },
+  "common_mistakes": [
+    {
+      "pt-BR": "Usar Hookshot no timing mais óbvio possível e dar Riposte de graça.",
+      "en": "Using Hookshot on the most obvious timing possible and giving Riposte for free."
+    },
+    {
+      "pt-BR": "Continuar o duelo depois do primeiro ciclo e dar tempo para Fiora girar vitais.",
+      "en": "Continuing the duel after the first cycle and giving Fiora time to rotate vitals."
+    },
+    {
+      "pt-BR": "Achar que estar na frente em item permite ignorar o W dela.",
+      "en": "Thinking an item lead lets you ignore her W."
+    }
+  ],
+  "practical_priority": {
+    "boots_priority": {
+      "pt-BR": "Passos de Aço Platinados costuma ser a opção mais segura. A bota reduz o preço de um erro e deixa Fiora menos livre para transformar troca curta em chase longa.",
+      "en": "Plated Steelcaps is usually the safest option. Boots reduce the cost of a mistake and make it harder for Fiora to turn a short trade into a long chase."
+    },
+    "defensive_item_priority": {
+      "pt-BR": "Média. Um pouco de resistência ajuda muito, mas nunca substitui a leitura do W; a matchup continua sendo principalmente de execução.",
+      "en": "Medium. A bit of resistance helps a lot, but it never replaces W reading; the matchup is still mostly about execution."
+    },
+    "tiamat_or_not": {
+      "pt-BR": "Tiamat só quando a lane já não estiver te prendendo no mesmo padrão. Se você ainda está apressado demais para farmar, waveclear bruto não resolve o mind game.",
+      "en": "Tiamat only once lane no longer traps you in the same pattern. If you are still too rushed to farm, raw waveclear does not solve the mind game."
+    },
+    "rush_core_or_not": {
+      "pt-BR": "Rushar core é aceitável se a lane estiver estável; se cada troca estiver custando demais, compre primeiro o que te deixa sobreviver ao erro inevitável.",
+      "en": "Rushing core is acceptable if lane is stable; if every trade costs too much, first buy what lets you survive the inevitable mistake."
+    }
+  },
+  "gameplan_complete": {
+    "early_game": {
+      "pt-BR": "No early, o jogo é esconder intenção. Faça Fiora ler errado, mantenha HP alto e não transforme cada minion em duelo de ego.",
+      "en": "In early game, the game is about hiding intention. Make Fiora read wrong, keep HP high and do not turn every minion into an ego duel."
+    },
+    "mid_game": {
+      "pt-BR": "No mid, side lane com visão favorece quem dita o primeiro erro. Camille quer picks em que Fiora precise usar W antes do frame decisivo.",
+      "en": "In mid game, a warded side lane favors whoever forces the first mistake. Camille wants picks where Fiora has to use W before the decisive frame."
+    },
+    "late_game": {
+      "pt-BR": "No late, escolha lutas em que você consiga entrar por ângulo ruim para a Riposte ou forçar objetivo enquanto Fiora responde side. Evite duelar no piloto automático.",
+      "en": "In late game, choose fights where you can enter from a bad angle for Riposte or force objectives while Fiora answers side. Avoid autopilot dueling."
+    }
+  },
+  "practical_situations": [
+    {
+      "pt-BR": "SE Fiora usar W para segurar sua aproximação sem te punir -> recue meio passo e reentre antes que ela recupere o ritmo.",
+      "en": "IF Fiora uses W to hold your approach without punishing you -> step back half a step and re-enter before she regains tempo."
+    },
+    {
+      "pt-BR": "SE ela ficar parada esperando seu E -> ameace com movimento, não com commit direto.",
+      "en": "IF she stands still waiting for your E -> threaten with movement, not with a direct commit."
+    },
+    {
+      "pt-BR": "SE a wave estiver curta perto da sua torre -> essa é a melhor região para tirar valor de passiva + Q2 sem chase longa.",
+      "en": "IF the wave is short near your tower -> that is the best area to get value from passive + Q2 without a long chase."
+    }
+  ],
+  "camille_identity_in_matchup": {
+    "split_or_teamfight": {
+      "pt-BR": "Camille normalmente prefere side lane e pick, entrando em teamfight mais por flanco e alvo específico do que por frente a frente.",
+      "en": "Camille usually prefers side lane and picks, entering teamfights more through flanks and specific targets than through front-to-front combat."
+    },
+    "playstyle": {
+      "pt-BR": "Paciente, cirúrgico e guiado por janela. Nessa matchup, pressa costuma valer mais para o rival do que para Camille.",
+      "en": "Patient, surgical and window-based. In this matchup, haste usually benefits the enemy more than Camille."
+    },
+    "role_no_jogo": {
+      "pt-BR": "Criar pressão lateral, forçar resposta ruim e converter um erro de posicionamento em pick ou objetivo.",
+      "en": "Create side pressure, force a bad answer and convert a positioning mistake into a pick or objective."
+    }
+  },
+  "real_difficulty": {
+    "why_its_hard": {
+      "pt-BR": "É difícil porque Fiora pune telegráfico, e Camille depende de frames fortes para ganhar valor. Quando esses frames ficam legíveis, a matchup vira mente, não só números.",
+      "en": "It is hard because Fiora punishes telegraphed play, and Camille depends on strong frames to get value. When those frames become readable, the matchup turns into mind games, not just numbers."
+    },
+    "what_it_demands": {
+      "pt-BR": "Exige paciência, variação de timing, controle de ego e bom uso do espaço. Você precisa fazer Fiora responder cedo ou responder errado.",
+      "en": "It demands patience, timing variation, ego control and strong use of space. You need to make Fiora answer early or answer wrong."
+    }
+  },
+  "metadata": {
+    "data_quality": {
+      "lane": "high",
+      "build": "high",
+      "runes": "high"
+    },
+    "source_priority": [
+      "official_riot",
+      "trusted_stats",
+      "expert_matchup_notes",
+      "vod_review"
+    ],
+    "last_reviewed_patch": "16.7.1",
+    "content_status": "elite_top15_round2"
+  }
+}

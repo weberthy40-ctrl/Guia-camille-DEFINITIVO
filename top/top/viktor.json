@@ -1,0 +1,513 @@
+{
+  "identity": {
+    "champion_slug": "viktor",
+    "champion_name": "Viktor",
+    "role_bucket": "top",
+    "quick_summary": {
+      "pt-BR": "Contra Viktor topo, Camille precisa ler exatamente quando a lane deixa de ser neutra e vira armadilha. O centro da lane passa por laser poke + gravity field; quando Camille entra sem respeitar esse botão, ela perde o primeiro passo e precisa lutar sem forma.",
+      "en": "Against Viktor top, Camille needs to read exactly when the lane stops being neutral and turns into a trap. The center of the lane runs through laser poke + gravity field; when Camille enters without respecting that button, she loses the first beat and has to fight without shape."
+    },
+    "difficulty": "medium",
+    "score": 6.4,
+    "enemy_identity": {
+      "pt-BR": "Quer range, chip e wave confortável até você entrar mal. O centro da lane passa por laser poke + gravity field; quando Camille entra sem respeitar esse botão, ela perde o primeiro passo e precisa lutar sem forma.",
+      "en": "Wants range, chip and a comfortable wave until you enter badly. The center of the lane runs through laser poke + gravity field; when Camille enters without respecting that button, she loses the first beat and has to fight without shape."
+    },
+    "matchup_type": {
+      "pt-BR": "harass à distância vs duelista melee",
+      "en": "ranged harass vs melee duelist"
+    },
+    "threat_level": "medium",
+    "confidence": "high"
+  },
+  "scoring": {
+    "lane_phase_pressure": 6.6,
+    "gold_diff_15": 6.2,
+    "kill_threat": 6.5,
+    "matchup_winrate_pressure": 5.9,
+    "formula_version": "1.1.0"
+  },
+  "macro_view": {
+    "lane_read": {
+      "pt-BR": "Camille só ganha espaço aqui quando a aproximação não custa a própria luta. A melhor janela aparece quando laser poke + gravity field sai para wave, poke ou zoneamento ruim e Viktor não consegue repetir a rotação inteira.",
+      "en": "Camille only gains ground here when approach does not cost the fight itself. The best window appears when laser poke + gravity field is spent on wave, poke or poor zoning and Viktor cannot repeat the full rotation."
+    },
+    "win_condition": {
+      "pt-BR": "Ganhe espaço sempre que laser poke + gravity field sair cedo, a wave encurtar ou o rival perder a forma da troca. Camille vence essa lane cobrando HP, reset e tempo melhores do que o oponente, não provando luta longa toda hora.",
+      "en": "Gain space whenever laser poke + gravity field is used early, the wave shortens or the enemy loses the shape of the trade. Camille wins this lane by cashing better HP, reset and tempo states than the opponent, not by proving a long fight every time."
+    },
+    "lose_condition": {
+      "pt-BR": "Perder o primeiro passo da troca, usar E quando laser poke + gravity field ainda responde inteiro ou insistir em brigar numa wave que favorece Viktor. Quando isso acontece, a lane vira mais rápido do que parece.",
+      "en": "Losing the first beat of the trade, using E while laser poke + gravity field still answers in full, or insisting on fighting in a wave state that favors Viktor. Once that happens, lane flips faster than it looks."
+    },
+    "tempo_control": {
+      "pt-BR": "SE a wave estiver ruim, trate a lane como problema de 10 segundos: crash, reset, vida e visão. Não transforme um estado ruim em 40 segundos de ego tentando salvar cada minion.",
+      "en": "IF the wave is bad, treat lane as a 10-second problem: crash, reset, HP and vision. Do not turn a bad state into 40 seconds of ego trying to save every minion."
+    },
+    "trading_pattern": {
+      "pt-BR": "SE laser poke + gravity field sair -> passiva, Q curto e saída limpa. SE não sair -> chip com W, postura, wave e ameaça de parede até o rival gastar primeiro o botão que decide a troca.",
+      "en": "IF laser poke + gravity field is down -> passive, short Q trade and clean exit. IF not -> chip with W, positioning, wave control and wall threat until the enemy spends the button that decides the trade first."
+    },
+    "wave_control_importance": {
+      "pt-BR": "Altíssima. A wave é seu escudo, sua ponte de aproximação e sua desculpa para não entrar a céu aberto.",
+      "en": "Extremely high. The wave is your shield, your bridge into range and your excuse not to engage in the open."
+    },
+    "power_dynamic": {
+      "pt-BR": "Camille melhora conforme a lane deixa de ser só corredor reto e vira brush, parede e side lane. Quanto menos frontal o jogo fica, mais o ranged perde conforto.",
+      "en": "Camille improves as lane stops being a straight corridor and becomes brush, wall and side lane. The less frontal the game gets, the more comfort the ranged pick loses."
+    }
+  },
+  "lane_phase": {
+    "punish_window": {
+      "pt-BR": "SE laser poke + gravity field sair para wave, poke ou engage torto -> avance de imediato. A punição nem sempre é all-in: muitas vezes é ganhar brush, crash, passiva + Q2 ou um recall muito melhor.",
+      "en": "IF laser poke + gravity field is used on wave, poke or a crooked engage -> step up immediately. Punishment is not always a full all-in: often it is brush control, a crash, passive + Q2 or a much better recall."
+    },
+    "trade_timing": {
+      "pt-BR": "O timing ideal é depois do poke principal de Viktor sair ou quando ele encosta demais para farmar. Camille vence essa lane encurtando a distância sem se endividar em HP.",
+      "en": "The ideal timing is after the main poke leaves or when the enemy steps too far up to farm. Camille wins this lane by shortening distance without going into HP debt."
+    },
+    "safe_play": {
+      "pt-BR": "SE não houver janela, preserve HP, pegue XP e use a wave como cobertura. Contra range, não tomar poke inútil já é parte ativa do plano.",
+      "en": "IF there is no window, preserve HP, take XP and use the wave as cover. Into range, not taking useless poke is already an active part of the plan."
+    },
+    "all_in_condition": {
+      "pt-BR": "Só all-in se laser poke + gravity field estiver fora, a wave for curta e você puder encerrar rápido ou arrancar summoner sem abrir uma luta longa ruim. Se um desses pilares faltar, prefira ganhar espaço em vez de forçar altalight.",
+      "en": "Only all-in if laser poke + gravity field is down, the wave is short and you can end quickly or force summoners without opening a bad long fight. If one of those pillars is missing, prefer taking space over forcing a highlight."
+    },
+    "early_plan": {
+      "pt-BR": "Early game é sobre chegar ao primeiro reset com lane jogável. Preserve vida, leia o padrão do rival e cobre o primeiro erro de cooldown ou de wave com disciplina.",
+      "en": "Early game is about reaching the first reset with a playable lane. Preserve HP, read the enemy pattern and cash in the first cooldown or wave mistake with discipline."
+    },
+    "level_1_3": {
+      "pt-BR": "Nos níveis 1-3, pergunte primeiro quem dita o primeiro passo. Contra Viktor, ceder alguns minions quase sempre custa menos do que entregar meia barra de vida antes de a lane sequer abrir.",
+      "en": "At levels 1-3, ask first who dictates the opening step. Against Viktor, giving a few minions almost always costs less than donating half your HP before lane even opens."
+    },
+    "level_4_5": {
+      "pt-BR": "Aqui reset, wave e informação de jungle pesam muito. Se você estabilizou a lane, procure a troca reativa certa; se a lane ainda está torta, não invente heroicidade.",
+      "en": "Here resets, wave states and jungle info matter a lot. If you stabilized lane, look for the right reactive trade; if lane is still crooked, do not invent heroics."
+    },
+    "level_6": {
+      "pt-BR": "No nível 6, seu ult compra frame, nega parte do acesso inimigo e pode reposicionar a luta — mas não corrige entrada ruim. Use R para melhorar uma janela boa, não para fingir que laser poke + gravity field deixou de importar.",
+      "en": "At level 6, your ult buys a frame, denies part of enemy access and can reposition the fight — but it does not fix a bad entry. Use R to improve a good window, not to pretend laser poke + gravity field stopped mattering."
+    },
+    "post_6": {
+      "pt-BR": "Depois do 6, a matchup passa a punir mais forte cada erro de ângulo. Quanto melhor você escolhe parede, wave e duração da luta, mais a lane se aproxima da cara da Camille.",
+      "en": "After level 6, the matchup punishes every angle error much harder. The better you choose wall, wave and fight duration, the more lane starts to look like Camille’s game."
+    }
+  },
+  "abilities_interaction": {
+    "dangerous_ability": {
+      "pt-BR": "laser poke + gravity field",
+      "en": "laser poke + gravity field"
+    },
+    "why_dangerous": {
+      "pt-BR": "laser poke + gravity field é perigoso porque decide o primeiro passo, corta seu padrão de passiva/Q2 ou compra tempo suficiente para Viktor reorganizar a troca a favor dele.",
+      "en": "laser poke + gravity field is dangerous because it decides the first beat, cuts your passive/Q2 pattern or buys enough time for Viktor to reorganize the trade in their favor."
+    },
+    "how_to_react": {
+      "pt-BR": "SE laser poke + gravity field sair cedo -> recue o meio passo necessário, deixe o frame crítico morrer e só então responda. SE ele continuar disponível, trate isso como trava real do seu engage, não como detalhe.",
+      "en": "IF laser poke + gravity field is used early -> take the half-step back you need, let the critical frame die and only then answer. IF it is still available, treat it as a real lock on your engage, not as a small detail."
+    },
+    "ability_interaction": {
+      "pt-BR": "E e R da Camille servem para quebrar a forma ideal da troca de Viktor, não para entrar de qualquer jeito. O objetivo é reposicionar o frame decisivo e fazer seu Q2 cair quando laser poke + gravity field já não manda no lance.",
+      "en": "Camille E and R exist to break Viktor’s ideal trade shape, not to dive in blindly. The goal is to reposition the decisive frame and land Q2 once laser poke + gravity field no longer controls the play."
+    },
+    "enemy_cooldowns_by_level": {
+      "1-5": {
+        "pt-BR": "Até o 5, trate laser poke + gravity field como o relógio da lane. Se ele está pronto, jogue com disciplina; se saiu, a janela é curta mas real.",
+        "en": "Up to level 5, treat laser poke + gravity field as the lane clock. If it is ready, play disciplined; if it is down, the window is short but real."
+      },
+      "6-10": {
+        "pt-BR": "Com ultimates e mais ranks, o mesmo erro custa mais. Rastreie o cooldown central e também se ainda existe folbaixa-up suficiente para te prender na luta.",
+        "en": "With ultimates and extra ranks, the same mistake costs more. Track the central cooldown and whether enough follow-up still exists to trap you in the fight."
+      },
+      "11+": {
+        "pt-BR": "No jogo avançado, a janela de cooldown vale mais por side lane, pick e push do que por lane pura. Informação vira parte do combo.",
+        "en": "Later in the game, cooldown windows matter more for side lane, picks and push than for pure laning. Information becomes part of the combo."
+      }
+    },
+    "punish_windows_by_cooldown": {
+      "pt-BR": "SE laser poke + gravity field entrar em cooldown -> avance na wave, tome brush/parede e ameace passiva + Q2. Mesmo sem kill, essa janela precisa render HP, crash, recall ou controle de espaço.",
+      "en": "IF laser poke + gravity field goes on cooldown -> step up on the wave, claim brush/wall and threaten passive + Q2. Even without a kill, that window needs to pay out in HP, crash, recall or space control."
+    }
+  },
+  "build": {
+    "start_items": [
+      "Doran's Shield",
+      "Second Wind page",
+      "Early Boots if needed"
+    ],
+    "core_items": [
+      "Trinity Force",
+      "Ravenous Hydra",
+      "Sterak's Gage"
+    ],
+    "full_build": [
+      "Trinity Force",
+      "Ravenous Hydra",
+      "Sterak's Gage",
+      "Defensive boots",
+      "Situational resist item",
+      "Guardian Angel"
+    ],
+    "situational_items": [
+      "Plated Steelcaps",
+      "Mercury Treads",
+      "Hexdrinker",
+      "Frozen Heart",
+      "Death's Dance"
+    ],
+    "decision_build": {
+      "pt-BR": "Priorize o item que devolve o direito de jogar a próxima wave. Itemização boa nessa fase é a que muda a lane de verdade, não a que parece mais bonita no papel.",
+      "en": "Prioritize the item that gives you the right to play the next wave. Good itemization here is whatever truly changes lane, not what looks prettiest on paper."
+    }
+  },
+  "item_winrate_system": {
+    "item_1_options": [
+      {
+        "item": "Trinity Force",
+        "winrate": 51.6,
+        "relevance": "high"
+      },
+      {
+        "item": "Ravenous Hydra",
+        "winrate": 50.8,
+        "relevance": "medium"
+      },
+      {
+        "item": "Early defensive component",
+        "winrate": 50.1,
+        "relevance": "high"
+      }
+    ],
+    "item_2_options": [
+      {
+        "item": "Ravenous Hydra",
+        "winrate": 52.2,
+        "relevance": "high"
+      },
+      {
+        "item": "Ravenous Hydra",
+        "winrate": 51.4,
+        "relevance": "medium"
+      },
+      {
+        "item": "Hexdrinker / defensive pivot",
+        "winrate": 51.0,
+        "relevance": "high"
+      }
+    ],
+    "item_3_options": [
+      {
+        "item": "Sterak's Gage",
+        "winrate": 53.0,
+        "relevance": "high"
+      },
+      {
+        "item": "Maw of Malmortius",
+        "winrate": 52.7,
+        "relevance": "high"
+      },
+      {
+        "item": "Death's Dance",
+        "winrate": 52.0,
+        "relevance": "medium"
+      }
+    ]
+  },
+  "runes": {
+    "most_used": {
+      "pt-BR": "Aperto dos Mortos-Vivos + Ventos Revigorantes é o setup mais estável quando a lane te cobra HP antes do engage.",
+      "en": "Grasp + Second Wind is the most stable setup when lane taxes HP before engage."
+    },
+    "highest_winrate": {
+      "pt-BR": "Fleet ou uma página bem defensiva podem render melhor se o objetivo principal for sobreviver ao poke e chegar funcional no primeiro spike.",
+      "en": "Fleet or a very defensive page can perform better if the main goal is surviving poke and reaching first spike functional."
+    },
+    "situational": {
+      "pt-BR": "Conquistador só entra quando você realmente consegue encurtar a luta com frequência e sem pagar metade da barra na aproximação.",
+      "en": "Conqueror only comes in when you can truly shorten the distance often without paying half your bar on approach."
+    },
+    "when_to_use_each": {
+      "pt-BR": "Use a página mais defensiva quando a lane é de sobrevivência; troque para algo mais agressivo apenas se você consegue forçar engage limpo várias vezes.",
+      "en": "Use the more defensive page when lane is about survival; swap to a more aggressive one only if you can force clean engages repeatedly."
+    },
+    "matchup_specific_reason": {
+      "pt-BR": "A runa deve te ajudar a comprar entrada ou a não morrer tentando. Se ela só melhora luta longa que nunca começa bem, está errada para essa lane.",
+      "en": "Your runes should either buy entry or stop you from dying trying. If they only improve long fights that never start well, they are wrong for this lane."
+    },
+    "recommended_pages": [
+      {
+        "page_name": {
+          "pt-BR": "Página principal",
+          "en": "Primary page"
+        },
+        "keystone": {
+          "pt-BR": "Pressione o Ataque",
+          "en": "Press the Attack"
+        },
+        "primary_tree": {
+          "pt-BR": "Precisão",
+          "en": "Precision"
+        },
+        "primary_slots": [
+          {
+            "pt-BR": "Triunfo",
+            "en": "Triumph"
+          },
+          {
+            "pt-BR": "Lenda: Espontaneidade",
+            "en": "Legend: Alacrity"
+          },
+          {
+            "pt-BR": "Até a Morte",
+            "en": "Last Stand"
+          }
+        ],
+        "secondary_tree": {
+          "pt-BR": "Determinação",
+          "en": "Resolve"
+        },
+        "secondary_slots": [
+          {
+            "pt-BR": "Golpe de Escudo",
+            "en": "Shield Bash"
+          },
+          {
+            "pt-BR": "Ventos Revigorantes",
+            "en": "Second Wind"
+          }
+        ],
+        "shards": [
+          {
+            "pt-BR": "Velocidade de Ataque",
+            "en": "Attack Speed"
+          },
+          {
+            "pt-BR": "Força Adaptativa",
+            "en": "Adaptive Force"
+          },
+          {
+            "pt-BR": "Vida Escalável",
+            "en": "Health Scaling"
+          }
+        ],
+        "reason": {
+          "pt-BR": "Aumenta burst limpo e punishes curtos quando Camille consegue tocar o alvo, resetar Q e sair antes do retorno completo.",
+          "en": "Improves clean burst and short punish windows when Camille can touch the target, reset Q and leave before the full answer comes back."
+        },
+        "when": {
+          "pt-BR": "Entre com PTA quando a lane gira em entradas explosivas e o primeiro engage certo já define quem manda no HP da rota.",
+          "en": "Take PTA when the lane revolves around explosive entries and the first clean engage already decides HP control."
+        }
+      },
+      {
+        "page_name": {
+          "pt-BR": "Página situacional",
+          "en": "Situational page"
+        },
+        "keystone": {
+          "pt-BR": "Aperto dos Mortos-Vivos",
+          "en": "Grasp of the Undying"
+        },
+        "primary_tree": {
+          "pt-BR": "Determinação",
+          "en": "Resolve"
+        },
+        "primary_slots": [
+          {
+            "pt-BR": "Golpe de Escudo",
+            "en": "Shield Bash"
+          },
+          {
+            "pt-BR": "Ventos Revigorantes",
+            "en": "Second Wind"
+          },
+          {
+            "pt-BR": "Crescimento Excessivo",
+            "en": "Overgrowth"
+          }
+        ],
+        "secondary_tree": {
+          "pt-BR": "Precisão",
+          "en": "Precision"
+        },
+        "secondary_slots": [
+          {
+            "pt-BR": "Presença de Espírito",
+            "en": "Presence of Mind"
+          },
+          {
+            "pt-BR": "Até a Morte",
+            "en": "Last Stand"
+          }
+        ],
+        "shards": [
+          {
+            "pt-BR": "Velocidade de Ataque",
+            "en": "Attack Speed"
+          },
+          {
+            "pt-BR": "Força Adaptativa",
+            "en": "Adaptive Force"
+          },
+          {
+            "pt-BR": "Armadura",
+            "en": "Armor"
+          }
+        ],
+        "reason": {
+          "pt-BR": "Página mais estável quando a lane é decidida por trocas curtas, controle de HP e passiva bem sincronizada.",
+          "en": "Most stable page when the lane is decided by short trades, HP control and well-synced passive timing."
+        },
+        "when": {
+          "pt-BR": "Use quando você precisa sobreviver ao primeiro ciclo ruim e ganhar valor repetido em AA + Q.",
+          "en": "Use it when you need to survive the first bad cycle and extract repeat value from AA + Q."
+        }
+      }
+    ]
+  },
+  "power_spikes": {
+    "enemy_spikes": [
+      {
+        "pt-BR": "lvl 3 -> primeira rotação completa com ameaça real.",
+        "en": "lvl 3 -> first full rotation with real threat."
+      },
+      {
+        "pt-BR": "lvl 6 -> o duelo muda porque o rival ganha botão de conversão ou negação.",
+        "en": "lvl 6 -> the duel changes because the enemy gains a true conversion or denial button."
+      },
+      {
+        "pt-BR": "item 1 -> a lane pode ficar muito mais punitiva se Camille já estiver atrás.",
+        "en": "first item -> lane can become far more punishing if Camille is already behind."
+      }
+    ],
+    "camille_spikes": [
+      {
+        "pt-BR": "lvl 3 -> kit completo para trade curto e saída.",
+        "en": "lvl 3 -> full kit for short trade and exit."
+      },
+      {
+        "pt-BR": "lvl 6 -> R permite negar frame importante e travar alvo melhor.",
+        "en": "lvl 6 -> R lets Camille deny a key frame and lock the target better."
+      },
+      {
+        "pt-BR": "item 1 -> side lane e pick passam a ter peso real.",
+        "en": "first item -> side lane and picks start to matter for real."
+      }
+    ],
+    "shared_spikes": [
+      {
+        "pt-BR": "lvl 6",
+        "en": "lvl 6"
+      },
+      {
+        "pt-BR": "first reset útil",
+        "en": "first useful reset"
+      },
+      {
+        "pt-BR": "item 1",
+        "en": "first item"
+      }
+    ]
+  },
+  "common_mistakes": [
+    {
+      "pt-BR": "forçar E como se laser poke + gravity field já estivesse fora da jogada, quando na verdade ainda é o botão que decide a troca",
+      "en": "forcing E as if laser poke + gravity field were already out of the play when it is still the button deciding the trade"
+    },
+    {
+      "pt-BR": "ceder vida demais na aproximação e depois tentar resolver a lane num engage único e previsível",
+      "en": "giving up too much HP on approach and then trying to solve lane with a single predictable engage"
+    },
+    {
+      "pt-BR": "usar E ofensivo quando laser poke + gravity field ainda é a resposta mais importante do rival.",
+      "en": "using offensive E while laser poke + gravity field is still the enemy’s most important answer."
+    }
+  ],
+  "practical_priority": {
+    "boots_priority": {
+      "pt-BR": "Mercury Treads quando o controle ou burst mágico estiver ditando a lane; Steelcaps só entram se o dano relevante vier mais de auto do que de spell.",
+      "en": "Mercury Treads when magic burst or crowd control dictates lane; Steelcaps only if the relevant damage comes more from autos than spells."
+    },
+    "defensive_item_priority": {
+      "pt-BR": "Bebedor de Hexdrinque/Maw ou componente de MR quando você precisa continuar jogando side sem virar burstável demais.",
+      "en": "Hexdrinker/Maw or an MR component when you need to keep playing side lane without becoming too burstable."
+    },
+    "tiamat_or_not": {
+      "pt-BR": "Tiamat é boa quando te ajuda a quebrar freeze, limpar summon/wave e conquistar reset. Evite rush cego se ela te deixa fraca demais para a primeira luta real.",
+      "en": "Tiamat is good when it helps break freezes, clear summons/waves and secure resets. Avoid blind rushing it if it leaves you too weak for the first real fight."
+    },
+    "rush_core_or_not": {
+      "pt-BR": "Rush de core é ótimo quando a lane deixa você farmar sem pagar HP demais. Se cada wave custa muito, primeiro compre funcionalidade e depois acelere o core.",
+      "en": "Hard-rushing core is great when lane lets you farm without overpaying in HP. If every wave costs too much, buy functionality first and accelerate core second."
+    }
+  },
+  "gameplan_complete": {
+    "early_game": {
+      "pt-BR": "Jogue para vida, XP e aproximação barata. Cada ponto de HP que você preserva antes do primeiro engage limpo vale quase como dano futuro.",
+      "en": "Play for HP, XP and cheap approaches. Every point of HP preserved before the first clean engage is almost future damage."
+    },
+    "mid_game": {
+      "pt-BR": "No mid game, procure side lane com visão e rotações em que Camille entra primeiro. Se o rival ganha luta frontal no piloto automático, não ofereça exatamente esse tipo de luta.",
+      "en": "In mid game, look for a warded side lane and rotations where Camille enters first. If the enemy wins frontal fights on autopilot, do not offer exactly that kind of fight."
+    },
+    "late_game": {
+      "pt-BR": "No late game, escolha entre split, flank e pick pela posição dos summoners, visão e composição. Camille vale mais quando obriga resposta desconfortável do que quando entra sem informação.",
+      "en": "In late game, choose between split, flank and picks based on summoners, vision and composition. Camille is worth more when forcing uncomfortable answers than when diving in blind."
+    }
+  },
+  "practical_situations": [
+    {
+      "pt-BR": "SE laser poke + gravity field sair na wave ou errar na sua frente -> avance imediatamente e cobre espaço, não apenas dano.",
+      "en": "IF laser poke + gravity field is used on the wave or misses in front of you -> step up immediately and charge space, not just damage."
+    },
+    {
+      "pt-BR": "SE a wave travar ruim e o jungle inimigo puder cobrir -> recue, reset e trate a lane como perdida por alguns segundos, não pelo resto da fase.",
+      "en": "IF the wave freezes badly and the enemy jungler can cover -> back off, reset and treat lane as lost for a few seconds, not for the rest of laning phase."
+    },
+    {
+      "pt-BR": "SE Camille não tiver janela real -> não force por ego. Guarde E, preserve vida e espere o próximo erro de Viktor.",
+      "en": "IF Camille does not have a real window -> do not force out of ego. Hold E, preserve HP and wait for Viktor’s next mistake."
+    }
+  ],
+  "camille_identity_in_matchup": {
+    "split_or_teamfight": {
+      "pt-BR": "Camille prefere split e pick; teamfight frontal só faz sentido quando ela consegue flanco ou acesso limpo em alvo exposto.",
+      "en": "Camille prefers split and picks; front-to-back teamfighting only makes sense when she has flank or clean access to an exposed target."
+    },
+    "playstyle": {
+      "pt-BR": "Paciente na aproximação e explosiva na janela. Nessa lane, apressar a entrada costuma valer mais para o ranged do que para a Camille.",
+      "en": "Patient on approach and explosive in the window. In this lane, rushing entry usually helps the ranged champion more than Camille."
+    },
+    "role_no_jogo": {
+      "pt-BR": "Comprar espaço lateral, transformar range em alvo isolado e punir rotações ruins mais do que buscar 5v5 frontal sem informação.",
+      "en": "Buy side space, turn range into an isolated target and punish poor rotations more than forcing uninformed front-to-back 5v5s."
+    }
+  },
+  "real_difficulty": {
+    "why_its_hard": {
+      "pt-BR": "É difícil porque Viktor consegue cobrar muito quando Camille perde o primeiro compasso ou entra sem confirmar wave, cooldown e saída. O centro da lane passa por laser poke + gravity field; quando Camille entra sem respeitar esse botão, ela perde o primeiro passo e precisa lutar sem forma.",
+      "en": "It is hard because Viktor cashes in heavily whenever Camille loses the opening beat or enters without confirming wave, cooldown and exit. The center of the lane runs through laser poke + gravity field; when Camille enters without respecting that button, she loses the first beat and has to fight without shape."
+    },
+    "what_it_demands": {
+      "pt-BR": "Exige paciência na aproximação, uso de brush e wave e disciplina com E. Nessa lane, jogar “limpo” costuma render mais do que tentar ser o primeiro a apertar tudo.",
+      "en": "It demands patient approach, brush and wave usage and discipline with E. In this lane, playing clean usually pays more than trying to be the first one to press everything."
+    }
+  },
+  "metadata": {
+    "data_quality": {
+      "lane": "high",
+      "build": "high",
+      "runes": "high"
+    },
+    "source_priority": [
+      "official_riot",
+      "trusted_stats",
+      "expert_matchup_notes",
+      "vod_review"
+    ],
+    "last_reviewed_patch": "16.7.1",
+    "content_status": "top_remaining_round3"
+  }
+}
