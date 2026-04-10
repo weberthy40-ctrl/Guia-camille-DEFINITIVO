@@ -1,0 +1,340 @@
+{
+  "overview": {
+    "pt-BR": "Biblioteca premium de combos da Camille organizada por função prática: troca curta, engage, all-in, pickoff, burst, chase, execução, flash tech e saída defensiva.",
+    "en": "Premium Camille combo library organized by practical function: short trade, engage, all-in, pickoff, burst, chase, execution, flash tech and defensive exit."
+  },
+  "combo_principles": [
+    {
+      "topic": {
+        "pt-BR": "Combo serve à janela",
+        "en": "Combos serve the window"
+      },
+      "content": {
+        "pt-BR": "Em Camille, o combo certo depende mais do estado da luta do que da dificuldade da sequência. A pergunta correta não é “qual combo é mais bonito?”, e sim “qual sequência entrega exatamente o que essa janela pede?”.",
+        "en": "On Camille, the right combo depends more on the fight state than on sequence difficulty. The correct question is not “which combo is prettier?”, but “which sequence delivers exactly what this window needs?”"
+      }
+    },
+    {
+      "topic": {
+        "pt-BR": "Q2 é âncora de dano",
+        "en": "Q2 is the damage anchor"
+      },
+      "content": {
+        "pt-BR": "A maior parte dos combos bons existe para preparar, proteger ou encaixar o Q2 em condição favorável.",
+        "en": "Most good combos exist to prepare, protect or land Q2 in a favorable condition."
+      }
+    },
+    {
+      "topic": {
+        "pt-BR": "E aumenta risco e valor",
+        "en": "E increases both risk and value"
+      },
+      "content": {
+        "pt-BR": "Todo combo com E precisa responder uma pergunta: se o alvo escapar ou o jungler aparecer, eu ainda tenho saída?",
+        "en": "Every combo with E must answer one question: if the target escapes or the jungler appears, do I still have an exit?"
+      }
+    }
+  ],
+  "combos": [
+    {
+      "name": "AA > Q1 > kite curto > Q2",
+      "difficulty": "basic",
+      "category": "short_trade",
+      "objective": {
+        "pt-BR": "Troca curta limpa sem comprometer o E.",
+        "en": "Clean short trade without committing E."
+      },
+      "when_to_use": {
+        "pt-BR": "Quando a passiva está pronta e você só quer ganhar vida, espaço ou priorizar a wave.",
+        "en": "When passive is ready and you only want to gain HP, space or wave priority."
+      },
+      "steps": {
+        "pt-BR": "Encoste, ataque, resete com Q1, recue o mínimo para respeitar retorno e volte no timing do Q2 se a janela continuar boa.",
+        "en": "Step in, auto, reset with Q1, back up just enough to respect the response, then return on Q2 timing if the window stays good."
+      },
+      "common_error": {
+        "pt-BR": "Apressar o Q2 e transformar troca curta em dano medíocre.",
+        "en": "Rushing Q2 and turning a short trade into mediocre damage."
+      },
+      "risk": {
+        "pt-BR": "Baixo, desde que você não insista depois da janela acabar.",
+        "en": "Low, as long as you do not insist after the window ends."
+      },
+      "notes": {
+        "pt-BR": "É o combo-base que ensina ritmo de Camille.",
+        "en": "This is the base combo that teaches Camille rhythm."
+      }
+    },
+    {
+      "name": "W outer > andar > AA > Q1 > sair",
+      "difficulty": "basic",
+      "category": "lane_stabilize",
+      "objective": {
+        "pt-BR": "Recuperar espaço, vida e controle de lane.",
+        "en": "Recover space, health and lane control."
+      },
+      "when_to_use": {
+        "pt-BR": "Quando você quer estabilizar a lane sem abrir all-in.",
+        "en": "When you want to stabilize lane without opening an all-in."
+      },
+      "steps": {
+        "pt-BR": "Acerte a borda do W, use o sbaixa para aproximar, faça contato rápido com AA + Q1 e recue.",
+        "en": "Hit the outer W edge, use the slow to close, make quick contact with AA + Q1 and back off."
+      },
+      "common_error": {
+        "pt-BR": "Usar W tarde demais e perder o sbaixa para a aproximação.",
+        "en": "Using W too late and losing the slow for the approach."
+      },
+      "risk": {
+        "pt-BR": "Baixo a médio; piora bastante se a wave estiver ruim.",
+        "en": "Low to medium; becomes much worse on a bad wave."
+      },
+      "notes": {
+        "pt-BR": "Ótimo para lanes em que você precisa ganhar o direito de respirar.",
+        "en": "Excellent in lanes where you first need to earn the right to breathe."
+      }
+    },
+    {
+      "name": "Q1 no minion > E > AA > Q2",
+      "difficulty": "intermediate",
+      "category": "burst_entry",
+      "objective": {
+        "pt-BR": "Chegar no alvo com burst real já armado.",
+        "en": "Reach the target with real burst already primed."
+      },
+      "when_to_use": {
+        "pt-BR": "Quando o alvo pode escapar rápido e você precisa encurtar o tempo até o Q2.",
+        "en": "When the target can escape quickly and you need to shorten the time until Q2."
+      },
+      "steps": {
+        "pt-BR": "Ative Q1 em minion ou alvo seguro, armazene o temporizador, engaje de E e conecte o Q2 assim que o contato abrir.",
+        "en": "Prime Q1 on a minion or safe target, hold the timer, engage with E and connect Q2 as soon as contact opens."
+      },
+      "common_error": {
+        "pt-BR": "Preparar Q1 cedo demais e chegar sem o timing ideal.",
+        "en": "Priming Q1 too early and arriving without ideal timing."
+      },
+      "risk": {
+        "pt-BR": "Médio; exige leitura de distância e tempo.",
+        "en": "Medium; requires distance and timing awareness."
+      },
+      "notes": {
+        "pt-BR": "Um dos melhores combos para transformar espaço em ameaça concreta.",
+        "en": "One of the best combos for turning space into concrete threat."
+      }
+    },
+    {
+      "name": "E > AA > Q1 > AA > Q2",
+      "difficulty": "intermediate",
+      "category": "standard_engage",
+      "objective": {
+        "pt-BR": "All-in ou troca pesada quando o engage já está autorizado.",
+        "en": "All-in or heavy trade when the engage is already authorized."
+      },
+      "when_to_use": {
+        "pt-BR": "Quando o rival gastou a principal ferramenta de resposta ou está sem rota boa de fuga.",
+        "en": "When the enemy spent their main response tool or lacks a good escape path."
+      },
+      "steps": {
+        "pt-BR": "Conecte E, mantenha o alvo em alcance, use o reset do Q1 sem quebrar o contato e feche com Q2.",
+        "en": "Land E, keep the target in range, use the Q1 reset without breaking contact and finish with Q2."
+      },
+      "common_error": {
+        "pt-BR": "Chegar de E sem ter certeza de que consegue manter o alvo perto até o Q2.",
+        "en": "Entering with E without ensuring you can keep the target close until Q2."
+      },
+      "risk": {
+        "pt-BR": "Médio a alto; você já está comprometendo a melhor ferramenta de mobilidade.",
+        "en": "Medium to high; you are already committing your best mobility tool."
+      },
+      "notes": {
+        "pt-BR": "Padrão forte, mas só é premium quando a janela já estava ganha antes do E.",
+        "en": "Strong pattern, but it is only premium when the window was already yours before E."
+      }
+    },
+    {
+      "name": "W outer > E > AA > Q1 > R > Q2",
+      "difficulty": "advanced",
+      "category": "all_in_pickoff",
+      "objective": {
+        "pt-BR": "Fechar pick/all-in em alvo que ainda tem tentativa de kite ou flash.",
+        "en": "Close a pick/all-in on a target that still has kiting or flash options."
+      },
+      "when_to_use": {
+        "pt-BR": "Quando você precisa somar sbaixa, engage e trava para garantir a execução.",
+        "en": "When you need to stack slow, engage and lockdown to guarantee the execution."
+      },
+      "steps": {
+        "pt-BR": "Abra com a borda do W, use E enquanto o alvo está desacelerado, faça a primeira rotação e guarde o R para o momento em que ele tentaria sair ou devolver o spell mais valioso.",
+        "en": "Open with outer W, use E while the target is slowed, perform the first rotation and save R for the moment they would escape or throw their highest-value spell back."
+      },
+      "common_error": {
+        "pt-BR": "Usar R cedo demais e perder valor de dodge/negação.",
+        "en": "Using R too early and losing dodge/negation value."
+      },
+      "risk": {
+        "pt-BR": "Alto; combo caro, forte e muito dependente do momento exato do R.",
+        "en": "High; expensive, powerful and heavily dependent on exact R timing."
+      },
+      "notes": {
+        "pt-BR": "Esse combo ganha muito valor contra carry lateral ou alvo sem peel próximo.",
+        "en": "This combo gains huge value against a side carry or a target without nearby peel."
+      }
+    },
+    {
+      "name": "E > Q1 > R no counterspell > Q2",
+      "difficulty": "advanced",
+      "category": "spell_bait",
+      "objective": {
+        "pt-BR": "Forçar a reação do inimigo e usar R para negar a ferramenta decisiva antes do Q2.",
+        "en": "Force the enemy reaction and use R to deny the decisive tool before Q2."
+      },
+      "when_to_use": {
+        "pt-BR": "Quando o matchup/luta é decidido pelo spell defensivo ou dano grande do rival.",
+        "en": "When the matchup/fight is decided by the enemy’s defensive spell or big damage tool."
+      },
+      "steps": {
+        "pt-BR": "Entre, mostre ameaça real, espere a resposta previsível do inimigo e então use R para tirar Camille do ponto de impacto antes de concluir a execução.",
+        "en": "Enter, show real threat, wait for the predictable enemy answer and then use R to remove Camille from the impact point before finishing the execution."
+      },
+      "common_error": {
+        "pt-BR": "Ulting por reflexo antes de o spell realmente sair.",
+        "en": "Ulting on reflex before the spell actually comes out."
+      },
+      "risk": {
+        "pt-BR": "Alto; exige matchup knowledge e calma.",
+        "en": "High; requires matchup knowledge and calm timing."
+      },
+      "notes": {
+        "pt-BR": "É um combo mais mental do que mecânico.",
+        "en": "It is more of a mental combo than a mechanical one."
+      }
+    },
+    {
+      "name": "Q1 preparado > Flash > AA > Q2",
+      "difficulty": "intermediate",
+      "category": "flash_execution",
+      "objective": {
+        "pt-BR": "Surpreender execução quando o alvo acha que está fora do alcance.",
+        "en": "Surprise-execute when the target believes they are out of range."
+      },
+      "when_to_use": {
+        "pt-BR": "Quando faltou um passo para o alvo sair e o Q2 já está armado.",
+        "en": "When the target is one step away from escaping and Q2 is already primed."
+      },
+      "steps": {
+        "pt-BR": "Carregue Q1 com antecedência, espere o alvo relaxar a distância e use Flash para encurtar o último espaço antes do Q2.",
+        "en": "Prime Q1 beforehand, wait for the target to relax spacing and Flash the last gap before Q2."
+      },
+      "common_error": {
+        "pt-BR": "Dar Flash cedo e avisar a jogada; ou tarde e perder o temporizador do Q2.",
+        "en": "Flashing too early and telegraphing the play, or too late and losing the Q2 timer."
+      },
+      "risk": {
+        "pt-BR": "Médio; gasta summoner para converter pick.",
+        "en": "Medium; spends a summoner to convert a pick."
+      },
+      "notes": {
+        "pt-BR": "Ótimo contra jogadores que respeitam o E mas relaxam contra o alcance do Q2.",
+        "en": "Excellent against players who respect E but relax against Q2 range."
+      }
+    },
+    {
+      "name": "E em ângulo defensivo > W > recuo",
+      "difficulty": "basic",
+      "category": "escape_reset",
+      "objective": {
+        "pt-BR": "Escapar ou quebrar a perseguição sem entregar kill.",
+        "en": "Escape or break a chase without handing over a kill."
+      },
+      "when_to_use": {
+        "pt-BR": "Quando você não ganha mais a luta, mas ainda pode salvar recurso e tempo.",
+        "en": "When you no longer win the fight, but can still save resources and time."
+      },
+      "steps": {
+        "pt-BR": "Use E pela parede mais segura, solte W para desacelerar a continuação da chase e reestabeleça distância.",
+        "en": "Use E toward the safest wall, cast W to slow the chase follow-up and re-establish distance."
+      },
+      "common_error": {
+        "pt-BR": "Esperar demais para sair e transformar reset defensivo em desespero.",
+        "en": "Waiting too long to disengage and turning a defensive reset into panic."
+      },
+      "risk": {
+        "pt-BR": "Baixo a médio; depende da parede e da informação.",
+        "en": "Low to medium; depends on wall choice and information."
+      },
+      "notes": {
+        "pt-BR": "Escapar bem com Camille preserva mais side lane futura do que insistir em luta perdida.",
+        "en": "Escaping well on Camille preserves more future side-lane value than insisting on a lost fight."
+      }
+    },
+    {
+      "name": "Q1 > E > R para reposicionar no carry > Q2",
+      "difficulty": "advanced",
+      "category": "teamfight_pick",
+      "objective": {
+        "pt-BR": "Passar da linha frontal e travar o alvo prioritário na teamfight.",
+        "en": "Bypass the front line and lock the priority target in teamfight."
+      },
+      "when_to_use": {
+        "pt-BR": "Quando você entrou pela lateral e o carry está alcançável.",
+        "en": "When you entered from the side and the carry is reachable."
+      },
+      "steps": {
+        "pt-BR": "Prepare Q1 antes de aparecer, use E pela lateral, ataque no primeiro contato e reserve o R para cortar flash, dash ou ferramenta de peel.",
+        "en": "Prime Q1 before showing, use E from the side, strike on first contact and reserve R to cut flash, dash or peel tool."
+      },
+      "common_error": {
+        "pt-BR": "Mostrar o flank cedo demais e deixar o carry recuar antes da entrada.",
+        "en": "Showing the flank too early and allowing the carry to back off before entry."
+      },
+      "risk": {
+        "pt-BR": "Muito alto; depende de visão, tempo e leitura de peel.",
+        "en": "Very high; depends on vision, tempo and peel reading."
+      },
+      "notes": {
+        "pt-BR": "Esse é o combo de carry lock que separa Camille boa de Camille decisiva.",
+        "en": "This is the carry-lock combo that separates a good Camille from a decisive one."
+      }
+    }
+  ],
+  "training_order": {
+    "basic": [
+      {
+        "pt-BR": "Treine primeiro os combos sem E e com foco total no Q2.",
+        "en": "Train combos without E first and focus entirely on Q2."
+      },
+      {
+        "pt-BR": "Depois passe para engage padrão com E mantendo calma no segundo Q.",
+        "en": "Then move to standard E engages while staying calm on the second Q."
+      },
+      {
+        "pt-BR": "Só depois treine Flash tech e uso avançado de R.",
+        "en": "Only afterwards train Flash tech and advanced R usage."
+      }
+    ],
+    "advanced": [
+      {
+        "pt-BR": "Revise replays procurando combos em que o erro não foi mecânico, e sim de janela.",
+        "en": "Review replays looking for combos where the mistake was not mechanical, but a bad window."
+      },
+      {
+        "pt-BR": "Treine combos de pickoff com alvo em movimento, não só boneco parado.",
+        "en": "Train pickoff combos on moving targets, not only static dummies."
+      },
+      {
+        "pt-BR": "Associe cada combo a uma situação de mapa; Camille melhora muito quando combo e contexto andam juntos.",
+        "en": "Associate each combo with a map situation; Camille improves a lot when combo and context move together."
+      }
+    ]
+  },
+  "metadata": {
+    "data_quality": "high",
+    "last_updated": "2026-04-09",
+    "pipeline_alignment": [
+      "pipeline/data_rules.md",
+      "pipeline/content_priority.md",
+      "pipeline/scoring_rules.md"
+    ]
+  }
+}

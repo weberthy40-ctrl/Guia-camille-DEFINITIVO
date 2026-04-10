@@ -1,0 +1,213 @@
+{
+  "overview": {
+    "pt-BR": "Bloco premium de macro da Camille: side lane, split push, conversão de lead, entradas em teamfight, flanco, alvo, mapa jogando atrás e padrões de decisão para transformar vantagem pequena em vitória real.",
+    "en": "Premium Camille macro block: side lane, split push, lead conversion, teamfight entries, flanks, target choice, map play from behind and decision patterns to turn small advantages into real wins."
+  },
+  "macro": {
+    "pt-BR": "Macro de Camille é sobre criar perguntas difíceis para o mapa rival: “quem segura a side?”, “quem protege o carry?”, “quem responde esse push sem entregar objetivo?”",
+    "en": "Camille macro is about creating hard questions for the enemy map: “who answers side lane?”, “who protects the carry?”, “who responds to this push without giving up objective?”"
+  },
+  "side_lane": {
+    "pt-BR": "Na side lane, Camille quer puxar com segurança, esconder ângulo, forçar resposta imperfeita e punir o campeão errado que vier atender.",
+    "en": "In side lane, Camille wants to push safely, hide the angle, force an imperfect response and punish the wrong champion that comes to answer."
+  },
+  "teamfight": {
+    "pt-BR": "Em teamfight, Camille decide lutas escolhendo bem o segundo da entrada. Ela raramente quer ser a primeira campeã vista.",
+    "en": "In teamfights, Camille decides fights by choosing the right second to enter. She rarely wants to be the first champion seen."
+  },
+  "macro_blocks": [
+    {
+      "topic": {
+        "pt-BR": "Quando splitar",
+        "en": "When to split"
+      },
+      "content": {
+        "pt-BR": "Splite quando você consegue puxar resposta real e ainda há visão/tempo para sair. Se ninguém do outro lado te responde bem, a side lane vira sua principal condição de vitória.",
+        "en": "Split when you can draw a real response and still have the vision/time to leave. If nobody on the other side answers you well, side lane becomes your main win condition."
+      }
+    },
+    {
+      "topic": {
+        "pt-BR": "Quando não splitar",
+        "en": "When not to split"
+      },
+      "content": {
+        "pt-BR": "Não splitar quando objetivo decisivo vai nascer, seu time não consegue segurar 4v5, ou o engage inimigo pune muito rápido sua ausência.",
+        "en": "Do not split when a decisive objective is spawning, your team cannot hold 4v5, or the enemy engage punishes your absence too quickly."
+      }
+    },
+    {
+      "topic": {
+        "pt-BR": "Converter lead",
+        "en": "Converting a lead"
+      },
+      "content": {
+        "pt-BR": "Lead de Camille vale quando vira recurso concreto: torre, wave profunda, visão, pull de resposta, pick ou objetivo. Kills sem mapa costumam ser desperdiçadas.",
+        "en": "A Camille lead is valuable when it becomes concrete resources: tower, deep wave, vision, response pull, pick or objective. Kills without map gain are often wasted."
+      }
+    },
+    {
+      "topic": {
+        "pt-BR": "Flanco consciente",
+        "en": "Intentional flank"
+      },
+      "content": {
+        "pt-BR": "Flanco bom não é só vir por trás. É chegar invisível ao alcance do alvo certo no segundo em que o peel está mal posicionado.",
+        "en": "A good flank is not only coming from behind. It is arriving unseen into the range of the right target at the second when peel is mispositioned."
+      }
+    },
+    {
+      "topic": {
+        "pt-BR": "Escolha de alvo",
+        "en": "Target choice"
+      },
+      "content": {
+        "pt-BR": "O alvo ideal é o mais valioso que você consegue realmente travar e matar ou neutralizar. Nem sempre é o carry mais fed; às vezes é o alvo que, preso, desmonta toda a luta.",
+        "en": "The ideal target is the highest-value enemy you can actually lock and kill or neutralize. It is not always the most fed carry; sometimes it is the target whose lockdown collapses the whole fight."
+      }
+    },
+    {
+      "topic": {
+        "pt-BR": "Jogar atrás",
+        "en": "Playing from behind"
+      },
+      "content": {
+        "pt-BR": "Atrás, Camille joga por wave, visão, informação lateral e picks em alvo exposto. Ela perde valor quando tenta ser iniciadora frontal justa sem item/tempo suficientes.",
+        "en": "From behind, Camille plays around wave, vision, side information and picks on exposed targets. She loses value when she tries to be a fair frontal initiator without enough items/tempo."
+      }
+    }
+  ],
+  "decision_trees": {
+    "side_lane": [
+      {
+        "pt-BR": "SE dois inimigos aparecerem no lado oposto -> avance a side, pressione estrutura e exija resposta tardia.",
+        "en": "IF two enemies show on the opposite side -> push side lane, pressure structure and demand a late response."
+      },
+      {
+        "pt-BR": "SE o inimigo certo vier responder e você não ganha o duelo -> recue antes de entregar informação e cooldown.",
+        "en": "IF the correct enemy answers and you do not win the duel -> back off before handing over information and cooldowns."
+      },
+      {
+        "pt-BR": "SE vier o alvo errado responder -> esconda ângulo e ameace pick.",
+        "en": "IF the wrong enemy answers -> hide the angle and threaten a pick."
+      }
+    ],
+    "teamfight": [
+      {
+        "pt-BR": "SE o engage aliado já consumiu peel importante -> entre.",
+        "en": "IF allied engage already consumed important peel -> go in."
+      },
+      {
+        "pt-BR": "SE o carry inimigo ainda tem flash e peel ao redor -> segure e reposicione.",
+        "en": "IF the enemy carry still has flash and peel nearby -> hold and reposition."
+      },
+      {
+        "pt-BR": "SE você só alcança frontline -> avalie se o melhor é cortar rota, zonear ou voltar para o flanco.",
+        "en": "IF you only reach the frontline -> evaluate whether zoning, route cutting or resetting to flank is better."
+      }
+    ],
+    "from_behind": [
+      {
+        "pt-BR": "SE está atrás e sem visão -> limpe wave e negue pick fácil ao inimigo.",
+        "en": "IF you are behind and lack vision -> clear wave and deny easy picks to the enemy."
+      },
+      {
+        "pt-BR": "SE o rival avançar demais para te marcar -> transforme overextension em pick com ajuda ou terreno favorável.",
+        "en": "IF the enemy overextends to mark you -> turn overextension into a pick with help or favorable terrain."
+      },
+      {
+        "pt-BR": "SE o jogo pedir objetivo imediato -> agrupe e cumpra função simples; não invente altalight.",
+        "en": "IF the game demands an immediate objective -> group and execute a simple role; do not invent a highlight."
+      }
+    ]
+  },
+  "lead_conversion": {
+    "rules": [
+      {
+        "pt-BR": "Kill sozinho vale pouco se a wave ficar ruim depois.",
+        "en": "A solo kill is worth little if the wave turns bad afterwards."
+      },
+      {
+        "pt-BR": "Sempre pergunte: depois dessa troca, eu ganho o quê no mapa?",
+        "en": "Always ask: after this trade, what do I gain on the map?"
+      },
+      {
+        "pt-BR": "Camille com lead forte deve criar obrigação de resposta, não só presença.",
+        "en": "A fed Camille should create response obligations, not only presence."
+      },
+      {
+        "pt-BR": "Se a resposta inimiga for lenta, puna torre, visão profunda ou rotação do suporte/jungle.",
+        "en": "If the enemy response is slow, punish tower, deep vision or support/jungle rotations."
+      }
+    ]
+  },
+  "objective_play": {
+    "before_objective": [
+      {
+        "pt-BR": "Empurre a side antes do objetivo para forçar alguém a mostrar.",
+        "en": "Push side lane before the objective to force someone to show."
+      },
+      {
+        "pt-BR": "Nunca chegue em objetivo grande sem saber se seu flank existe ou não.",
+        "en": "Never arrive at a major objective without knowing whether your flank exists."
+      },
+      {
+        "pt-BR": "Se o objetivo nascer e você não tiver side preparada, sua pressão de Camille cai muito.",
+        "en": "If the objective spawns and your side is not prepped, your Camille pressure drops hard."
+      }
+    ],
+    "during_objective": [
+      {
+        "pt-BR": "Seu valor nem sempre é entrar no pit; muitas vezes é marcar o corredor do carry ou do suporte rival.",
+        "en": "Your value is not always entering the pit; many times it is controlling the enemy carry/support corridor."
+      },
+      {
+        "pt-BR": "Procure o alvo que perde mais valor quando fica travado no seu R.",
+        "en": "Look for the target that loses the most value when trapped inside your R."
+      },
+      {
+        "pt-BR": "Quando não houver pick boa, use sua ameaça para zonear e comprar espaço de DPS para o time.",
+        "en": "When there is no good pick, use your threat to zone and buy DPS space for your team."
+      }
+    ]
+  },
+  "map_patterns": {
+    "winning_map": [
+      {
+        "pt-BR": "Mapa ganhando: side longa, visão profunda, Camille escondida e carry inimigo jogando com medo.",
+        "en": "Winning map: long side lane, deep vision, Camille hidden and the enemy carry playing scared."
+      },
+      {
+        "pt-BR": "Não revele posição cedo se o simples fato de estar sumida já trava a rotação rival.",
+        "en": "Do not reveal your position early if simply being missing already freezes enemy rotations."
+      },
+      {
+        "pt-BR": "Ganhar mapa com Camille é fazer o outro time cometer erro por ansiedade.",
+        "en": "Winning map with Camille is making the other team commit errors through anxiety."
+      }
+    ],
+    "losing_map": [
+      {
+        "pt-BR": "Mapa perdendo: encurte rota, proteja visão defensiva e só estenda side com informação suficiente.",
+        "en": "Losing map: shorten routes, protect defensive vision and only extend side with sufficient information."
+      },
+      {
+        "pt-BR": "Sem recursos, sua melhor macro é não oferecer pick gratuita.",
+        "en": "Without resources, your best macro is not offering free picks."
+      },
+      {
+        "pt-BR": "Espere a janela de overextension rival em vez de tentar fabricar uma fight perfeita.",
+        "en": "Wait for enemy overextension instead of trying to manufacture a perfect fight."
+      }
+    ]
+  },
+  "metadata": {
+    "data_quality": "high",
+    "last_updated": "2026-04-09",
+    "pipeline_alignment": [
+      "pipeline/data_rules.md",
+      "pipeline/content_priority.md",
+      "pipeline/scoring_rules.md"
+    ]
+  }
+}

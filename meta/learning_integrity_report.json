@@ -1,0 +1,227 @@
+{
+  "learning_bundle_files": {
+    "camille_learning.json": {
+      "path": "data/learning/camille_learning.json",
+      "required": true,
+      "status": "ok",
+      "missing_required_keys": []
+    },
+    "camille_combos.json": {
+      "path": "data/learning/camille_combos.json",
+      "required": false,
+      "status": "ok",
+      "missing_required_keys": []
+    },
+    "camille_mechanics.json": {
+      "path": "data/learning/camille_mechanics.json",
+      "required": false,
+      "status": "ok",
+      "missing_required_keys": []
+    },
+    "camille_macro.json": {
+      "path": "data/learning/camille_macro.json",
+      "required": false,
+      "status": "ok",
+      "missing_required_keys": []
+    },
+    "streamers_youtubers.json": {
+      "path": "data/meta/streamers_youtubers.json",
+      "required": false,
+      "status": "ok",
+      "missing_required_keys": []
+    },
+    "camille_build_decision.json": {
+      "path": "data/learning/camille_build_decision.json",
+      "required": false,
+      "status": "ok",
+      "missing_required_keys": []
+    },
+    "camille_runes_decision.json": {
+      "path": "data/learning/camille_runes_decision.json",
+      "required": false,
+      "status": "ok",
+      "missing_required_keys": []
+    },
+    "camille_archetypes.json": {
+      "path": "data/learning/camille_archetypes.json",
+      "required": false,
+      "status": "ok",
+      "missing_required_keys": []
+    },
+    "camille_training_plan.json": {
+      "path": "data/learning/camille_training_plan.json",
+      "required": false,
+      "status": "ok",
+      "missing_required_keys": []
+    },
+    "camille_phase_checklists.json": {
+      "path": "data/learning/camille_phase_checklists.json",
+      "required": false,
+      "status": "ok",
+      "missing_required_keys": []
+    },
+    "camille_faq.json": {
+      "path": "data/learning/camille_faq.json",
+      "required": false,
+      "status": "ok",
+      "missing_required_keys": []
+    },
+    "camille_advanced_interactions.json": {
+      "path": "data/learning/camille_advanced_interactions.json",
+      "required": false,
+      "status": "ok",
+      "missing_required_keys": []
+    },
+    "camille_execution_reference.json": {
+      "path": "data/learning/camille_execution_reference.json",
+      "required": false,
+      "status": "ok",
+      "missing_required_keys": []
+    },
+    "camille_microtips.json": {
+      "path": "data/learning/camille_microtips.json",
+      "required": false,
+      "status": "ok",
+      "missing_required_keys": []
+    },
+    "camille_glossary.json": {
+      "path": "data/learning/camille_glossary.json",
+      "required": false,
+      "status": "ok",
+      "missing_required_keys": []
+    },
+    "camille_practice_scenarios.json": {
+      "path": "data/learning/camille_practice_scenarios.json",
+      "required": false,
+      "status": "ok",
+      "missing_required_keys": []
+    },
+    "camille_coach_paths.json": {
+      "path": "data/learning/camille_coach_paths.json",
+      "required": false,
+      "status": "ok",
+      "missing_required_keys": []
+    },
+    "camille_player_profiles.json": {
+      "path": "data/learning/camille_player_profiles.json",
+      "required": false,
+      "status": "ok",
+      "missing_required_keys": []
+    },
+    "camille_improvement_priorities.json": {
+      "path": "data/learning/camille_improvement_priorities.json",
+      "required": false,
+      "status": "ok",
+      "missing_required_keys": []
+    },
+    "camille_short_training_blocks.json": {
+      "path": "data/learning/camille_short_training_blocks.json",
+      "required": false,
+      "status": "ok",
+      "missing_required_keys": []
+    },
+    "camille_review_checklists.json": {
+      "path": "data/learning/camille_review_checklists.json",
+      "required": false,
+      "status": "ok",
+      "missing_required_keys": []
+    },
+    "camille_common_mistakes.json": {
+      "path": "data/learning/camille_common_mistakes.json",
+      "required": false,
+      "status": "ok",
+      "missing_required_keys": []
+    },
+    "camille_mistake_corrections.json": {
+      "path": "data/learning/camille_mistake_corrections.json",
+      "required": false,
+      "status": "ok",
+      "missing_required_keys": []
+    },
+    "camille_self_review_diagnostics.json": {
+      "path": "data/learning/camille_self_review_diagnostics.json",
+      "required": false,
+      "status": "ok",
+      "missing_required_keys": []
+    },
+    "camille_improvement_matrix.json": {
+      "path": "data/learning/camille_improvement_matrix.json",
+      "required": false,
+      "status": "ok",
+      "missing_required_keys": []
+    },
+    "camille_game_review_triggers.json": {
+      "path": "data/learning/camille_game_review_triggers.json",
+      "required": false,
+      "status": "ok",
+      "missing_required_keys": []
+    },
+    "camille_situational_gameplans.json": {
+      "path": "data/learning/camille_situational_gameplans.json",
+      "required": false,
+      "status": "ok",
+      "missing_required_keys": []
+    },
+    "camille_decision_recovery.json": {
+      "path": "data/learning/camille_decision_recovery.json",
+      "required": false,
+      "status": "ok",
+      "missing_required_keys": []
+    },
+    "camille_adaptation_layers.json": {
+      "path": "data/learning/camille_adaptation_layers.json",
+      "required": false,
+      "status": "ok",
+      "missing_required_keys": []
+    },
+    "camille_state_based_adjustments.json": {
+      "path": "data/learning/camille_state_based_adjustments.json",
+      "required": false,
+      "status": "ok",
+      "missing_required_keys": []
+    }
+  },
+  "bundle_runtime_ready": true,
+  "bundle_section_coverage": {
+    "overview": true,
+    "combos": true,
+    "mechanics": true,
+    "macro": true,
+    "creators": true
+  },
+  "missing_required_files": [],
+  "missing_required_keys": {},
+  "optional_files_missing_or_invalid": [],
+  "optional_files_usable": [
+    "camille_adaptation_layers.json",
+    "camille_advanced_interactions.json",
+    "camille_archetypes.json",
+    "camille_build_decision.json",
+    "camille_coach_paths.json",
+    "camille_combos.json",
+    "camille_common_mistakes.json",
+    "camille_decision_recovery.json",
+    "camille_execution_reference.json",
+    "camille_faq.json",
+    "camille_game_review_triggers.json",
+    "camille_glossary.json",
+    "camille_improvement_matrix.json",
+    "camille_improvement_priorities.json",
+    "camille_macro.json",
+    "camille_mechanics.json",
+    "camille_microtips.json",
+    "camille_mistake_corrections.json",
+    "camille_phase_checklists.json",
+    "camille_player_profiles.json",
+    "camille_practice_scenarios.json",
+    "camille_review_checklists.json",
+    "camille_runes_decision.json",
+    "camille_self_review_diagnostics.json",
+    "camille_short_training_blocks.json",
+    "camille_situational_gameplans.json",
+    "camille_state_based_adjustments.json",
+    "camille_training_plan.json",
+    "streamers_youtubers.json"
+  ],
+  "warnings_present": false
+}

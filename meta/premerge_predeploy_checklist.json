@@ -1,0 +1,85 @@
+{
+  "premerge_requirements": [
+    {
+      "item": "Rodar validate_data",
+      "owner": "principal",
+      "required": true
+    },
+    {
+      "item": "Rodar build_indexes",
+      "owner": "principal",
+      "required": true
+    },
+    {
+      "item": "Rodar check_missing_assets",
+      "owner": "principal",
+      "required": true
+    },
+    {
+      "item": "Rodar check_i18n",
+      "owner": "principal",
+      "required": true
+    },
+    {
+      "item": "Rodar check_integrity",
+      "owner": "principal",
+      "required": true
+    },
+    {
+      "item": "Rodar check_packaging_hygiene",
+      "owner": "principal",
+      "required": true
+    },
+    {
+      "item": "Rodar smoke_check",
+      "owner": "principal",
+      "required": true
+    },
+    {
+      "item": "Revisar pacote aprovado de matchups",
+      "owner": "paralelo1",
+      "required": true
+    },
+    {
+      "item": "Revisar pacote aprovado de conteúdo premium",
+      "owner": "paralelo2",
+      "required": true
+    },
+    {
+      "item": "Comparar arquivo por arquivo antes da consolidação",
+      "owner": "controle",
+      "required": true
+    }
+  ],
+  "predeploy_requirements": [
+    {
+      "item": "Fusão final aprovada",
+      "owner": "controle",
+      "required": true
+    },
+    {
+      "item": "Revisão manual de Home/Guide/Learning/Matchups",
+      "owner": "principal",
+      "required": true
+    },
+    {
+      "item": "Validar PT-BR e EN em fluxo principal",
+      "owner": "principal",
+      "required": true
+    },
+    {
+      "item": "Confirmar startup da aplicação sem erro",
+      "owner": "principal",
+      "required": true
+    },
+    {
+      "item": "Não automatizar escolha final entre arquivos concorrentes",
+      "owner": "humano",
+      "required": true
+    }
+  ],
+  "notes": [
+    "Checklist de apoio. Não substitui revisão humana.",
+    "Não autoriza merge manual antecipado."
+  ]
+}

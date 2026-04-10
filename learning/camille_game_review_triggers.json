@@ -1,0 +1,351 @@
+{
+  "overview": {
+    "pt-BR": "Gatilhos rápidos de review para abrir o módulo certo logo após a partida. Pensado para coaching, self review e futuras interfaces de learning.",
+    "en": "Fast review triggers to open the right module right after a game. Designed for coaching, self review, and future learning interfaces."
+  },
+  "quick_use_rule": {
+    "pt-BR": "Escolha o gatilho pela falha que mais mudou a partida, não pela jogada que ficou mais frustrante na memória.",
+    "en": "Choose the trigger by the failure that changed the game the most, not by the play that felt the most frustrating in memory."
+  },
+  "triggers": [
+    {
+      "trigger_key": "early_death",
+      "when_to_open": {
+        "pt-BR": "Abra quando você morre cedo e a lane sai do controle antes do primeiro spike.",
+        "en": "Open this when you die early and lane slips out of control before your first spike."
+      },
+      "ask_first": {
+        "pt-BR": "A morte começou no trade, na wave ou na falta de respeito?",
+        "en": "Did the death start in the trade, in the wave, or in a lack of respect?"
+      },
+      "likely_causes": [
+        {
+          "pt-BR": "respeito tardio",
+          "en": "late respect"
+        },
+        {
+          "pt-BR": "wave mal gerida",
+          "en": "poor wave management"
+        },
+        {
+          "pt-BR": "E sem saída",
+          "en": "E with no exit"
+        }
+      ],
+      "open_next": [
+        "data/learning/camille_self_review_diagnostics.json",
+        "data/learning/camille_common_mistakes.json"
+      ],
+      "one_line_fix": {
+        "pt-BR": "Volte antes do dano final e ache a primeira decisão que tirou seus recursos.",
+        "en": "Go back before the final damage and find the first decision that removed your resources."
+      }
+    },
+    {
+      "trigger_key": "failed_all_in",
+      "when_to_open": {
+        "pt-BR": "Abra quando o all-in parecia ganhar, mas a luta ficou torta.",
+        "en": "Open this when the all-in looked winning, but the fight turned awkward."
+      },
+      "ask_first": {
+        "pt-BR": "Faltou timing, recurso ou leitura da resposta inimiga?",
+        "en": "Was it timing, resources, or reading the enemy answer that was missing?"
+      },
+      "likely_causes": [
+        {
+          "pt-BR": "Q2 fora do ponto",
+          "en": "Q2 off-timing"
+        },
+        {
+          "pt-BR": "passiva ausente",
+          "en": "missing passive"
+        },
+        {
+          "pt-BR": "resposta rival ignorada",
+          "en": "enemy answer ignored"
+        }
+      ],
+      "open_next": [
+        "data/learning/camille_mistake_corrections.json",
+        "data/learning/camille_phase_checklists.json"
+      ],
+      "one_line_fix": {
+        "pt-BR": "Só all-ine quando a sequência forte da Camille realmente cabe naquela janela.",
+        "en": "Only all-in when Camille’s strong sequence truly fits that window."
+      }
+    },
+    {
+      "trigger_key": "bad_e_usage",
+      "when_to_open": {
+        "pt-BR": "Abra quando o E decide negativamente lutas, picks ou escapes.",
+        "en": "Open this when E negatively decides fights, picks, or escapes."
+      },
+      "ask_first": {
+        "pt-BR": "Meu E tinha função clara?",
+        "en": "Did my E have a clear function?"
+      },
+      "likely_causes": [
+        {
+          "pt-BR": "pânico",
+          "en": "panic"
+        },
+        {
+          "pt-BR": "ângulo ruim",
+          "en": "bad angle"
+        },
+        {
+          "pt-BR": "sem folbaixa-up",
+          "en": "no follow-up"
+        }
+      ],
+      "open_next": [
+        "data/learning/camille_execution_reference.json",
+        "data/learning/camille_mistake_corrections.json"
+      ],
+      "one_line_fix": {
+        "pt-BR": "Nomeie o E antes de apertar: visão, espaço, engage, chase ou saída.",
+        "en": "Name E before pressing it: vision, space, engage, chase, or exit."
+      }
+    },
+    {
+      "trigger_key": "bad_r_usage",
+      "when_to_open": {
+        "pt-BR": "Abra quando o R parece não ter mudado a luta.",
+        "en": "Open this when R seems to have changed nothing about the fight."
+      },
+      "ask_first": {
+        "pt-BR": "Usei R com função definida ou só para atrasar a morte?",
+        "en": "Did I use R with a defined job or only to delay death?"
+      },
+      "likely_causes": [
+        {
+          "pt-BR": "panic R",
+          "en": "panic R"
+        },
+        {
+          "pt-BR": "lock no alvo errado",
+          "en": "locking the wrong target"
+        },
+        {
+          "pt-BR": "dodge sem pouso jogável",
+          "en": "dodging without a playable landing"
+        }
+      ],
+      "open_next": [
+        "data/learning/camille_advanced_interactions.json",
+        "data/learning/camille_mistake_corrections.json"
+      ],
+      "one_line_fix": {
+        "pt-BR": "Planeje o valor do R antes do salto.",
+        "en": "Plan the value of R before the leap."
+      }
+    },
+    {
+      "trigger_key": "side_lane_throw",
+      "when_to_open": {
+        "pt-BR": "Abra quando uma morte lateral entrega shutdown ou mapa sem compensação.",
+        "en": "Open this when a side-lane death donates shutdown or map control without compensation."
+      },
+      "ask_first": {
+        "pt-BR": "Eu fiquei uma wave além do seguro ou estava sem informação para avançar?",
+        "en": "Did I stay one wave too long or did I lack enough information to advance?"
+      },
+      "likely_causes": [
+        {
+          "pt-BR": "overstay",
+          "en": "overstay"
+        },
+        {
+          "pt-BR": "falta de info",
+          "en": "lack of information"
+        },
+        {
+          "pt-BR": "timing ruim de saída",
+          "en": "bad exit timing"
+        }
+      ],
+      "open_next": [
+        "data/learning/camille_macro.json",
+        "data/learning/camille_improvement_matrix.json"
+      ],
+      "one_line_fix": {
+        "pt-BR": "Defina o gatilho de saída antes do push, não depois do risco aparecer.",
+        "en": "Define the exit trigger before the push, not after the risk appears."
+      }
+    },
+    {
+      "trigger_key": "teamfight_entry_fail",
+      "when_to_open": {
+        "pt-BR": "Abra quando você entra na luta e o time não consegue jogar com a sua entrada.",
+        "en": "Open this when you enter the fight and your team cannot play off your entry."
+      },
+      "ask_first": {
+        "pt-BR": "Falhei em alvo, ângulo, timing ou folbaixa-up?",
+        "en": "Did I fail on target, angle, timing, or follow-up?"
+      },
+      "likely_causes": [
+        {
+          "pt-BR": "alvo acessível demais",
+          "en": "too-accessible target"
+        },
+        {
+          "pt-BR": "entrada cedo demais",
+          "en": "too-early entry"
+        },
+        {
+          "pt-BR": "ângulo frontal ruim",
+          "en": "bad frontal angle"
+        }
+      ],
+      "open_next": [
+        "data/learning/camille_self_review_diagnostics.json",
+        "data/learning/camille_review_checklists.json"
+      ],
+      "one_line_fix": {
+        "pt-BR": "Camille entra melhor quando o time consegue chegar junto ou quando o alvo já foi comprimido.",
+        "en": "Camille enters best when the team can arrive with her or when the target has already been compressed."
+      }
+    },
+    {
+      "trigger_key": "could_not_play_from_behind",
+      "when_to_open": {
+        "pt-BR": "Abra quando você ficou atrás e a partida só piorou a partir das suas tentativas de voltar.",
+        "en": "Open this when you fell behind and the game only got worse from your attempts to recover."
+      },
+      "ask_first": {
+        "pt-BR": "Eu aceitei jogar por janelas menores ou tentei recuperar tudo de uma vez?",
+        "en": "Did I accept playing for smaller windows or try to recover everything at once?"
+      },
+      "likely_causes": [
+        {
+          "pt-BR": "desespero",
+          "en": "desperation"
+        },
+        {
+          "pt-BR": "build gananciosa",
+          "en": "greedy build"
+        },
+        {
+          "pt-BR": "engage ruim sem recurso",
+          "en": "bad engage without resources"
+        }
+      ],
+      "open_next": [
+        "data/learning/camille_faq.json",
+        "data/learning/camille_player_profiles.json"
+      ],
+      "one_line_fix": {
+        "pt-BR": "Atrás, sobreviver e manter valor é mais importante do que provar dano imediatamente.",
+        "en": "When behind, surviving and preserving value matters more than proving damage immediately."
+      }
+    },
+    {
+      "trigger_key": "lead_no_conversion",
+      "when_to_open": {
+        "pt-BR": "Abra quando você sai da lane forte, mas o jogo não anda a seu favor.",
+        "en": "Open this when you leave lane ahead but the game does not move in your favor."
+      },
+      "ask_first": {
+        "pt-BR": "Minha vantagem virou mapa, objetivo e picks ou só placar?",
+        "en": "Did my lead become map pressure, objectives, and picks, or only a scoreboard?"
+      },
+      "likely_causes": [
+        {
+          "pt-BR": "side lane mal usada",
+          "en": "poor side-lane usage"
+        },
+        {
+          "pt-BR": "group cedo/tarde",
+          "en": "grouping too early/late"
+        },
+        {
+          "pt-BR": "throw por excesso de confiança",
+          "en": "throw through overconfidence"
+        }
+      ],
+      "open_next": [
+        "data/learning/camille_coach_paths.json",
+        "data/learning/camille_improvement_matrix.json"
+      ],
+      "one_line_fix": {
+        "pt-BR": "A pergunta não é “eu estava forte?”, e sim “minha força moveu o mapa?”.",
+        "en": "The question is not “was I strong?” but “did my strength move the map?”"
+      }
+    },
+    {
+      "trigger_key": "build_felt_wrong",
+      "when_to_open": {
+        "pt-BR": "Abra quando a build pareceu atrasada, inadequada ou incoerente com a partida.",
+        "en": "Open this when the build felt late, inadequate, or incoherent with the match."
+      },
+      "ask_first": {
+        "pt-BR": "Minha build respondeu à lane ou ao jogo real?",
+        "en": "Did my build answer lane or the real game?"
+      },
+      "likely_causes": [
+        {
+          "pt-BR": "hábito",
+          "en": "habit"
+        },
+        {
+          "pt-BR": "adaptação tardia",
+          "en": "late adaptation"
+        },
+        {
+          "pt-BR": "ganância sem base",
+          "en": "greed without a base"
+        }
+      ],
+      "open_next": [
+        "data/learning/camille_build_decision.json",
+        "data/learning/camille_runes_decision.json"
+      ],
+      "one_line_fix": {
+        "pt-BR": "Toda build precisa conseguir explicar em uma frase por que existe naquele jogo.",
+        "en": "Every build should be explainable in one sentence for that game."
+      }
+    },
+    {
+      "trigger_key": "flashy_play_bad_result",
+      "when_to_open": {
+        "pt-BR": "Abra quando a jogada pareceu bonita, mas piorou seu estado ou o estado da luta.",
+        "en": "Open this when the play looked flashy but worsened your state or the fight state."
+      },
+      "ask_first": {
+        "pt-BR": "A jogada era consistente ou só possível?",
+        "en": "Was the play consistent or merely possible?"
+      },
+      "likely_causes": [
+        {
+          "pt-BR": "critério fraco",
+          "en": "weak judgment"
+        },
+        {
+          "pt-BR": "sem continuação",
+          "en": "no continuation"
+        },
+        {
+          "pt-BR": "ignorar contexto",
+          "en": "ignoring context"
+        }
+      ],
+      "open_next": [
+        "data/learning/camille_improvement_priorities.json",
+        "data/learning/camille_common_mistakes.json"
+      ],
+      "one_line_fix": {
+        "pt-BR": "Possível não é o mesmo que correto para a Camille.",
+        "en": "Possible is not the same as correct on Camille."
+      }
+    }
+  ],
+  "metadata": {
+    "data_quality": "high",
+    "last_updated": "2026-04-09",
+    "pipeline_alignment": [
+      "data_rules",
+      "content_priority"
+    ],
+    "scope": "parallel_2_round5_mistakes_review_system"
+  }
+}

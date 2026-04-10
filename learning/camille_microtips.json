@@ -1,0 +1,270 @@
+{
+  "overview": {
+    "pt-BR": "Biblioteca de microdicas da Camille pronta para cards, caixas laterais, destaque rápido e revisão antes da fila.",
+    "en": "Camille microtips library ready for cards, side boxes, quick highlights, and pre-queue review."
+  },
+  "categories": {
+    "lane": [
+      {
+        "pt-BR": "Se a lane é ruim cedo, jogue para XP e passiva boa antes de jogar para ego.",
+        "en": "If the lane is bad early, play for XP and good passive timing before playing for ego."
+      },
+      {
+        "pt-BR": "Camille não precisa ganhar todo nível 1 para ganhar a lane.",
+        "en": "Camille does not need to win every level 1 to win the lane."
+      },
+      {
+        "pt-BR": "Troca boa de Camille já nasce pensando no Q2.",
+        "en": "A good Camille trade is already thinking about Q2."
+      },
+      {
+        "pt-BR": "Se a wave está ruim, a mesma troca vira erro.",
+        "en": "If the wave is bad, the same trade becomes a mistake."
+      }
+    ],
+    "wave": [
+      {
+        "pt-BR": "Wave ruim reduz seu E; wave boa amplia seu E.",
+        "en": "A bad wave shrinks your E; a good wave expands it."
+      },
+      {
+        "pt-BR": "Não force all-in em wave enorme contra você só porque o rival entrou no alcance.",
+        "en": "Do not force an all-in into a huge enemy wave just because the opponent stepped into range."
+      },
+      {
+        "pt-BR": "Bounce favorável vale mais que um short trade bonito sem continuidade.",
+        "en": "A favorable bounce is worth more than a pretty short trade with no continuation."
+      },
+      {
+        "pt-BR": "Camille forte com wave preparada ameaça torre, flank e pick ao mesmo tempo.",
+        "en": "A strong Camille with a prepared wave threatens tower, flank, and pick at the same time."
+      }
+    ],
+    "engage": [
+      {
+        "pt-BR": "Nem todo E bom precisa acertar stun; alguns compram espaço e timing.",
+        "en": "Not every good E needs to land the stun; some buy space and timing."
+      },
+      {
+        "pt-BR": "Engage limpo é o que já sabe como sai se a kill não vier instantânea.",
+        "en": "A clean engage already knows how it exits if the kill is not immediate."
+      },
+      {
+        "pt-BR": "Se o alvo ainda guarda peel e flash, talvez a entrada certa comece pelo R.",
+        "en": "If the target still holds peel and Flash, the right entry may start with R."
+      },
+      {
+        "pt-BR": "Ângulo escondido vale mais que distância curta.",
+        "en": "A hidden angle is worth more than a short distance."
+      }
+    ],
+    "disengage": [
+      {
+        "pt-BR": "Segurar E também é defesa.",
+        "en": "Holding E is also defense."
+      },
+      {
+        "pt-BR": "R defensivo é ótimo quando nega valor alto, não quando só adia erro inevitável.",
+        "en": "Defensive R is great when it denies high value, not when it only delays an inevitable mistake."
+      },
+      {
+        "pt-BR": "Às vezes a melhor mecânica da Camille é não entrar.",
+        "en": "Sometimes Camille’s best mechanic is not going in."
+      },
+      {
+        "pt-BR": "Weakside sem visão não é teste de confiança; é teste de disciplina.",
+        "en": "Weakside without vision is not a confidence test; it is a discipline test."
+      }
+    ],
+    "e": [
+      {
+        "pt-BR": "Parede boa é a que esconde sua intenção até tarde.",
+        "en": "A good wall hides your intention until late."
+      },
+      {
+        "pt-BR": "O primeiro cast do E pode ser leitura, não compromisso.",
+        "en": "E’s first cast can be reading, not commitment."
+      },
+      {
+        "pt-BR": "Se você sempre usa o mesmo ângulo, o rival aprende.",
+        "en": "If you always use the same angle, the opponent learns."
+      },
+      {
+        "pt-BR": "Erro repetido de E quase sempre é erro de padrão.",
+        "en": "Repeated E mistakes are almost always pattern mistakes."
+      }
+    ],
+    "r": [
+      {
+        "pt-BR": "Use R para valor, não só para chegar.",
+        "en": "Use R for value, not only to arrive."
+      },
+      {
+        "pt-BR": "Desviar bem e pousar mal ainda é erro.",
+        "en": "Dodging well and landing badly is still an error."
+      },
+      {
+        "pt-BR": "R ganha lutas quando apaga a spell certa ou prende o alvo certo.",
+        "en": "R wins fights when it erases the right spell or traps the right target."
+      },
+      {
+        "pt-BR": "Nem todo alvo acessível é o melhor alvo para R.",
+        "en": "Not every accessible target is the best R target."
+      }
+    ],
+    "short_trade": [
+      {
+        "pt-BR": "Short trade limpo: passiva certa, Q2 no timing e saída antes da volta.",
+        "en": "Clean short trade: correct passive, Q2 on time, and exit before the return."
+      },
+      {
+        "pt-BR": "W no outer edge ajuda a comprar o tempo do Q2.",
+        "en": "W on the outer edge helps buy Q2 timing."
+      },
+      {
+        "pt-BR": "Se o rival quer troca longa, a sua vitória pode ser só sair cedo.",
+        "en": "If the opponent wants an extended trade, your win can simply be leaving early."
+      },
+      {
+        "pt-BR": "Trade bonito sem wave jogável costuma cobrar juros depois.",
+        "en": "A pretty trade without a playable wave usually charges interest later."
+      }
+    ],
+    "all_in": [
+      {
+        "pt-BR": "All-in de Camille pede confirmação de passiva, Q2 e cobertura inimiga.",
+        "en": "A Camille all-in asks for passive, Q2, and enemy backup confirmation."
+      },
+      {
+        "pt-BR": "Se você não sabe qual spell quer negar com R, talvez ainda não seja all-in bom.",
+        "en": "If you do not know which spell you want to deny with R, it may not be a good all-in yet."
+      },
+      {
+        "pt-BR": "All-in ruim geralmente começou um segundo cedo demais.",
+        "en": "A bad all-in usually started one second too early."
+      },
+      {
+        "pt-BR": "Camille converte melhor all-in quando a wave já está sob controle.",
+        "en": "Camille converts all-ins better when the wave is already controlled."
+      }
+    ],
+    "ranged": [
+      {
+        "pt-BR": "Contra ranged, vida é recurso para o primeiro engage real.",
+        "en": "Against ranged, HP is a resource for the first real engage."
+      },
+      {
+        "pt-BR": "Não ande reto para provar presença; ande para criar ângulo.",
+        "en": "Do not walk straight to prove presence; move to create an angle."
+      },
+      {
+        "pt-BR": "Ventos Revigorantes e sustain não são covardia; são ponte para a sua janela.",
+        "en": "Second Wind and sustain are not cowardice; they are the bridge to your window."
+      },
+      {
+        "pt-BR": "E cego contra ranged quase sempre custa mais do que rende.",
+        "en": "Blind E into ranged almost always costs more than it gives."
+      }
+    ],
+    "weakside": [
+      {
+        "pt-BR": "Weakside bom é sobreviver sem doar a lane.",
+        "en": "Good weakside means surviving without donating the lane."
+      },
+      {
+        "pt-BR": "Se o jungle não está vindo, seu trabalho é tornar o dive caro.",
+        "en": "If your jungler is not coming, your job is to make the dive expensive."
+      },
+      {
+        "pt-BR": "Nem todo CS vale a vida da sua wave futura.",
+        "en": "Not every CS is worth the life of your future wave."
+      },
+      {
+        "pt-BR": "Camille behind ainda ameaça pickoff se guardar cooldowns com disciplina.",
+        "en": "A behind Camille still threatens pickoffs if she holds cooldowns with discipline."
+      }
+    ],
+    "side_lane": [
+      {
+        "pt-BR": "Side forte começa na wave anterior, não na luta atual.",
+        "en": "A strong side lane begins on the previous wave, not the current fight."
+      },
+      {
+        "pt-BR": "Se ninguém te responde bem, a ameaça já vale ouro mesmo sem dive.",
+        "en": "If nobody answers you well, the threat already has value even without a dive."
+      },
+      {
+        "pt-BR": "Se o campeão certo te responde e você não ganha, recue cedo.",
+        "en": "If the right champion answers and you do not win, back off early."
+      },
+      {
+        "pt-BR": "Camille side sem rota de saída vira shutdown ambulante.",
+        "en": "Camille side with no exit route becomes a walking shutdown."
+      }
+    ],
+    "teamfight": [
+      {
+        "pt-BR": "Entrar atrasada costuma ser melhor do que entrar famosa.",
+        "en": "Late entry is often better than flashy entry."
+      },
+      {
+        "pt-BR": "O melhor alvo é o que você consegue travar e matar, não só o carry no papel.",
+        "en": "The best target is the one you can actually lock and kill, not only the carry on paper."
+      },
+      {
+        "pt-BR": "Se só alcança frontline, às vezes zonear e reposicionar já vale.",
+        "en": "If you only reach frontline, zoning and repositioning can already be enough."
+      },
+      {
+        "pt-BR": "R sem folbaixa-up vira isolamento seu, não do alvo.",
+        "en": "R without follow-up isolates you, not the target."
+      }
+    ],
+    "snowball": [
+      {
+        "pt-BR": "Lead bom força resposta ruim; não precisa altalight a cada wave.",
+        "en": "A good lead forces bad answers; it does not need a highlight on every wave."
+      },
+      {
+        "pt-BR": "Snowball de Camille morre rápido quando o E vira ansiedade.",
+        "en": "Camille snowball dies quickly when E turns into anxiety."
+      },
+      {
+        "pt-BR": "Use a ameaça do flank antes de revelar o flank.",
+        "en": "Use the threat of the flank before revealing the flank."
+      },
+      {
+        "pt-BR": "Shutdown entregue por ganância vale mais para o inimigo do que uma kill extra vale para você.",
+        "en": "A shutdown donated through greed is worth more to the enemy than one extra kill is worth to you."
+      }
+    ],
+    "playing_from_behind": [
+      {
+        "pt-BR": "Atrás, sua luta ideal é a injusta a seu favor: pick, fog, cooldown gasto.",
+        "en": "From behind, your ideal fight is an unfair one in your favor: pick, fog, burned cooldown."
+      },
+      {
+        "pt-BR": "Item defensivo que te deixa completar a rotação vale mais do que dano que morre no caminho.",
+        "en": "A defensive item that lets you finish your rotation is worth more than damage that dies on the way in."
+      },
+      {
+        "pt-BR": "Camille atrás ainda encontra valor em mapa lateral e erro inimigo.",
+        "en": "A behind Camille still finds value in side map and enemy mistakes."
+      },
+      {
+        "pt-BR": "Não transforme desvantagem em desespero mecânico.",
+        "en": "Do not turn disadvantage into mechanical desperation."
+      }
+    ]
+  },
+  "metadata": {
+    "data_quality": "high",
+    "last_updated": "2026-04-09",
+    "pipeline_alignment": [
+      "pipeline/data_rules.md",
+      "pipeline/content_priority.md",
+      "pipeline/scoring_rules.md"
+    ],
+    "scope": "round3_execution_reference"
+  }
+}

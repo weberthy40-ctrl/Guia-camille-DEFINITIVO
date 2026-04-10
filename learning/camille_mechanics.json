@@ -1,0 +1,263 @@
+{
+  "overview": {
+    "pt-BR": "Base premium de mecânicas da Camille focada em execução real: tempo do Q, disciplina do E, visão, paredes, buffers, resets, uso defensivo/ofensivo do R e interações avançadas com valor prático.",
+    "en": "Premium Camille mechanics base focused on real execution: Q timing, E discipline, vision, walls, buffers, resets, offensive/defensive R use and advanced interactions with practical value."
+  },
+  "mechanics": [
+    {
+      "topic": {
+        "pt-BR": "Reset de auto no Q",
+        "en": "Q auto reset"
+      },
+      "content": {
+        "pt-BR": "Q reinicia o ataque básico e organiza o burst. O objetivo não é só apertar rápido: é garantir que o reset encaixe sem perder o ritmo do próximo movimento.",
+        "en": "Q resets the auto attack and structures burst. The point is not only to press quickly: it is to make sure the reset lands without losing the rhythm of the next move."
+      }
+    },
+    {
+      "topic": {
+        "pt-BR": "Tempo ideal do Q2",
+        "en": "Ideal Q2 timing"
+      },
+      "content": {
+        "pt-BR": "O Q2 verdadeiro exige paciência milimétrica. A maior parte dos erros vem de ansiedade: o jogador vê contato e gasta o dano cedo demais.",
+        "en": "True-damage Q2 requires millimetric patience. Most mistakes come from anxiety: the player sees contact and spends the damage too early."
+      }
+    },
+    {
+      "topic": {
+        "pt-BR": "Buffer de Q antes do engage",
+        "en": "Q buffering before engage"
+      },
+      "content": {
+        "pt-BR": "Preparar Q1 em minion, ward ou alvo seguro antes do engage reduz o tempo até o burst real e melhora muito suas janelas de pick.",
+        "en": "Buffering Q1 on a minion, ward or safe target before engaging reduces the time until real burst and greatly improves your pick windows."
+      }
+    },
+    {
+      "topic": {
+        "pt-BR": "Uso correto do E",
+        "en": "Correct E usage"
+      },
+      "content": {
+        "pt-BR": "E é uma ferramenta de compromisso. Antes de usar, leia três coisas: parede, rota de fuga do rival e risco de resposta do mapa.",
+        "en": "E is a commitment tool. Before using it, read three things: wall, enemy escape route and map response risk."
+      }
+    },
+    {
+      "topic": {
+        "pt-BR": "E para visão",
+        "en": "E for vision"
+      },
+      "content": {
+        "pt-BR": "O primeiro cast do E pode checar fog e confirmar se a entrada é real ou suicida. Esse uso evita muitas mortes “mecânicas” que na verdade são erros de informação.",
+        "en": "The first E cast can check fog and confirm whether the entry is real or suicidal. This use prevents many “mechanical” deaths that are actually information errors."
+      }
+    },
+    {
+      "topic": {
+        "pt-BR": "Ângulo do E",
+        "en": "E angle selection"
+      },
+      "content": {
+        "pt-BR": "Ângulo previsível enfraquece o engage. Quanto melhor o ângulo, menor o tempo de reação do alvo e maior o valor do combo seguinte.",
+        "en": "A predictable angle weakens the engage. The better the angle, the shorter the target reaction window and the higher the value of the following combo."
+      }
+    },
+    {
+      "topic": {
+        "pt-BR": "R para esquiva",
+        "en": "R for dodging"
+      },
+      "content": {
+        "pt-BR": "O R pode retirar Camille do ponto de impacto de spells decisivos. Esse é um dos maiores saltos de nível da campeã.",
+        "en": "R can remove Camille from the impact point of decisive spells. This is one of the champion’s biggest skill jumps."
+      }
+    },
+    {
+      "topic": {
+        "pt-BR": "R para reposicionamento",
+        "en": "R for repositioning"
+      },
+      "content": {
+        "pt-BR": "Além de prender o alvo, o R reposiciona Camille. Use isso para atravessar hitbox, reposicionar no lado sem peel ou cortar o último espaço da fuga.",
+        "en": "Beyond locking the target, R repositions Camille. Use this to cross hitboxes, move to the peel-free side or cut the last escape space."
+      }
+    },
+    {
+      "topic": {
+        "pt-BR": "W como reset de espaço",
+        "en": "W as spacing reset"
+      },
+      "content": {
+        "pt-BR": "Quando a luta sai do script, W permite reorganizar a distância. Esse detalhe mantém vivo o acesso ao segundo Q.",
+        "en": "When the fight leaves the script, W lets you reorganize distance. This detail keeps access to the second Q alive."
+      }
+    },
+    {
+      "topic": {
+        "pt-BR": "Ritmo de ataque e deslocamento",
+        "en": "Attack rhythm and movement"
+      },
+      "content": {
+        "pt-BR": "Camille melhora muito quando o jogador bate e move com clareza. Ficar parado batendo mais do que o necessário reduz espaço e entrega contra-ataque.",
+        "en": "Camille improves a lot when the player strikes and moves with clarity. Standing still for longer than necessary reduces spacing and hands over counterplay."
+      }
+    }
+  ],
+  "advanced_interactions": [
+    {
+      "topic": {
+        "pt-BR": "R para negar dano telegrafado",
+        "en": "R to deny telegraphed damage"
+      },
+      "content": {
+        "pt-BR": "Use R contra golpes ou ultimates cujo valor depende do impacto exato no seu corpo. O mérito aqui é timing, não reflexo cego.",
+        "en": "Use R against hits or ultimates whose value depends on impacting your exact position. The skill here is timing, not blind reflex."
+      }
+    },
+    {
+      "topic": {
+        "pt-BR": "R para negar controle",
+        "en": "R to deny crowd control"
+      },
+      "content": {
+        "pt-BR": "Camille pode usar R para sair do frame de controle mais importante da luta e impedir que o engage inimigo fique completo.",
+        "en": "Camille can use R to leave the most important crowd-control frame of a fight and prevent the enemy engage from fully connecting."
+      }
+    },
+    {
+      "topic": {
+        "pt-BR": "Cooldown nem sempre se comporta como o jogador espera",
+        "en": "Cooldowns do not always behave the way players expect"
+      },
+      "content": {
+        "pt-BR": "Nem toda habilidade negada pelo R gera o mesmo resultado de cooldown para o inimigo. Em alguns casos, você invalida o efeito sobre a Camille, mas o spell já foi comprometido; em outros, a interação depende do ponto exato do cast e da script da habilidade. Trate isso como conhecimento específico de spell, não como regra universal.",
+        "en": "Not every ability denied by R creates the same cooldown result for the enemy. In some cases, you invalidate the effect on Camille but the spell was already committed; in others, the interaction depends on the exact cast point and the spell scripting. Treat this as spell-specific knowledge, not a universal rule."
+      }
+    },
+    {
+      "topic": {
+        "pt-BR": "Exemplos úteis de valor do R",
+        "en": "Useful R value examples"
+      },
+      "content": {
+        "pt-BR": "R ganha valor premium quando evita dano concentrado, desvia controle que abriria chain CC ou impede que o alvo prioritário use o último passo/flash para sair do seu Q2.",
+        "en": "R gains premium value when it avoids concentrated damage, sidesteps control that would open chain CC or prevents the priority target from using the final step/flash to escape your Q2."
+      }
+    },
+    {
+      "topic": {
+        "pt-BR": "Escolha entre R ofensivo e defensivo",
+        "en": "Choosing between offensive and defensive R"
+      },
+      "content": {
+        "pt-BR": "Se o rival morre mesmo sem o R cedo, segure para dodge ou corte de rota. Se ele só morre travado, use R como jaula. O erro é gastar o ultimate sem decidir qual dessas funções é a principal.",
+        "en": "If the enemy dies even without an early R, hold it for a dodge or route cut. If they only die while trapped, use R as a cage. The mistake is spending ultimate without deciding which of these jobs is primary."
+      }
+    }
+  ],
+  "wall_and_vision_notes": {
+    "practical_rules": [
+      {
+        "pt-BR": "Prefira paredes que escondem o ângulo e reduzam a leitura do alvo.",
+        "en": "Prefer walls that hide the angle and reduce target readability."
+      },
+      {
+        "pt-BR": "Evite E em paredes cuja geometria te empurre para trajetória óbvia.",
+        "en": "Avoid E on walls whose geometry pushes you into an obvious trajectory."
+      },
+      {
+        "pt-BR": "Quando a parede é ruim, muitas vezes o certo é segurar a play e não forçar a mecânica.",
+        "en": "When the wall is bad, the correct move is often to hold the play rather than force the mechanic."
+      },
+      {
+        "pt-BR": "Use o primeiro cast do E para confirmar visão em arbusto ou corredor antes de se comprometer de verdade.",
+        "en": "Use the first E cast to confirm vision in a brush or corridor before fully committing."
+      }
+    ],
+    "danger_zones": [
+      {
+        "pt-BR": "Corredores estreitos com pouca margem para ajustar ângulo deixam o engage mais telegráfico.",
+        "en": "Narrow corridors with little angle-adjustment room make engages more telegraphed."
+      },
+      {
+        "pt-BR": "Paredes “boas demais” atraem ganância; lembre-se de que visão e informação valem mais que altalight.",
+        "en": "“Too good” walls attract greed; remember that vision and information matter more than highlights."
+      },
+      {
+        "pt-BR": "Sem saber onde está o jungle/support inimigo, até parede ótima vira armadilha.",
+        "en": "Without knowing where the enemy jungle/support is, even a great wall becomes a trap."
+      }
+    ]
+  },
+  "execution_checklist": {
+    "before_e": [
+      {
+        "pt-BR": "Tenho passiva ou burst suficiente para justificar entrar?",
+        "en": "Do I have passive or enough burst to justify going in?"
+      },
+      {
+        "pt-BR": "Se der errado, qual é minha saída?",
+        "en": "If it fails, what is my exit?"
+      },
+      {
+        "pt-BR": "Quem do mapa pode punir meu E gasto?",
+        "en": "Who on the map can punish my spent E?"
+      }
+    ],
+    "before_r": [
+      {
+        "pt-BR": "Quero prender, reposicionar ou dodgear?",
+        "en": "Do I want to trap, reposition or dodge?"
+      },
+      {
+        "pt-BR": "O spell mais importante do rival já saiu ou ainda vai sair?",
+        "en": "Has the enemy’s most important spell already come out or is it still coming?"
+      },
+      {
+        "pt-BR": "Sem esse R agora, o alvo ainda morre?",
+        "en": "Without using R right now, does the target still die?"
+      }
+    ]
+  },
+  "practice_blocks": {
+    "micro": [
+      {
+        "pt-BR": "Treine 20 repetições de Q1 em minion + engage com Q2 em tempo certo.",
+        "en": "Train 20 repetitions of Q1 on minion + engage with correct Q2 timing."
+      },
+      {
+        "pt-BR": "Repita E em paredes diferentes até parar de apontar sempre para o mesmo ângulo óbvio.",
+        "en": "Repeat E on different walls until you stop aiming at the same obvious angle every time."
+      },
+      {
+        "pt-BR": "Treine R para dodge de animação telegrafada, não só para prender alvo parado.",
+        "en": "Train R to dodge telegraphed animations, not only to trap a static target."
+      }
+    ],
+    "review": [
+      {
+        "pt-BR": "Separe mortes em “erro de dedo” e “erro de leitura”; a segunda categoria costuma ser a maior.",
+        "en": "Separate deaths into “finger errors” and “reading errors”; the second category is usually bigger."
+      },
+      {
+        "pt-BR": "Revise especialmente E ofensivo falhado e ultimates gastas cedo demais.",
+        "en": "Review failed offensive E usage and ultimates spent too early in particular."
+      },
+      {
+        "pt-BR": "Marque interações de R que ainda exigem validação por spell específico.",
+        "en": "Mark R interactions that still require spell-specific validation."
+      }
+    ]
+  },
+  "metadata": {
+    "data_quality": "high",
+    "last_updated": "2026-04-09",
+    "pipeline_alignment": [
+      "pipeline/data_rules.md",
+      "pipeline/content_priority.md",
+      "pipeline/scoring_rules.md"
+    ]
+  }
+}

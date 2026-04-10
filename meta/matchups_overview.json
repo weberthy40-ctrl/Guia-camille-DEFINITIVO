@@ -1,0 +1,1395 @@
+{
+  "adc": {
+    "suggest_ban": [],
+    "hard": [
+      {
+        "champion_slug": "caitlyn",
+        "champion_name": "Caitlyn",
+        "score": 7.2,
+        "role_bucket": "adc",
+        "difficulty": "hard",
+        "confidence": "low"
+      },
+      {
+        "champion_slug": "ezreal",
+        "champion_name": "Ezreal",
+        "score": 7.1,
+        "role_bucket": "adc",
+        "difficulty": "hard",
+        "confidence": "low"
+      }
+    ],
+    "medium": [
+      {
+        "champion_slug": "jhin",
+        "champion_name": "Jhin",
+        "score": 6.8,
+        "role_bucket": "adc",
+        "difficulty": "medium",
+        "confidence": "low"
+      },
+      {
+        "champion_slug": "nilah",
+        "champion_name": "Nilah",
+        "score": 6.8,
+        "role_bucket": "adc",
+        "difficulty": "medium",
+        "confidence": "low"
+      },
+      {
+        "champion_slug": "twitch",
+        "champion_name": "Twitch",
+        "score": 6.8,
+        "role_bucket": "adc",
+        "difficulty": "medium",
+        "confidence": "low"
+      },
+      {
+        "champion_slug": "draven",
+        "champion_name": "Draven",
+        "score": 6.7,
+        "role_bucket": "adc",
+        "difficulty": "medium",
+        "confidence": "low"
+      },
+      {
+        "champion_slug": "zeri",
+        "champion_name": "Zeri",
+        "score": 6.7,
+        "role_bucket": "adc",
+        "difficulty": "medium",
+        "confidence": "low"
+      },
+      {
+        "champion_slug": "jinx",
+        "champion_name": "Jinx",
+        "score": 6.5,
+        "role_bucket": "adc",
+        "difficulty": "medium",
+        "confidence": "low"
+      },
+      {
+        "champion_slug": "miss-fortune",
+        "champion_name": "Miss Fortune",
+        "score": 6.5,
+        "role_bucket": "adc",
+        "difficulty": "medium",
+        "confidence": "low"
+      },
+      {
+        "champion_slug": "sivir",
+        "champion_name": "Sivir",
+        "score": 6.3,
+        "role_bucket": "adc",
+        "difficulty": "medium",
+        "confidence": "low"
+      },
+      {
+        "champion_slug": "xayah",
+        "champion_name": "Xayah",
+        "score": 6.3,
+        "role_bucket": "adc",
+        "difficulty": "medium",
+        "confidence": "low"
+      },
+      {
+        "champion_slug": "aphelios",
+        "champion_name": "Aphelios",
+        "score": 6.2,
+        "role_bucket": "adc",
+        "difficulty": "medium",
+        "confidence": "low"
+      },
+      {
+        "champion_slug": "samira",
+        "champion_name": "Samira",
+        "score": 6.2,
+        "role_bucket": "adc",
+        "difficulty": "medium",
+        "confidence": "low"
+      },
+      {
+        "champion_slug": "kaisa",
+        "champion_name": "Kai'Sa",
+        "score": 6.1,
+        "role_bucket": "adc",
+        "difficulty": "medium",
+        "confidence": "low"
+      },
+      {
+        "champion_slug": "kogmaw",
+        "champion_name": "Kog'Maw",
+        "score": 5.9,
+        "role_bucket": "adc",
+        "difficulty": "medium",
+        "confidence": "low"
+      }
+    ],
+    "easy": []
+  },
+  "jungle": {
+    "suggest_ban": [],
+    "hard": [
+      {
+        "champion_slug": "reksai",
+        "champion_name": "Rek'Sai",
+        "score": 7.3,
+        "role_bucket": "jungle",
+        "difficulty": "hard",
+        "confidence": "high"
+      },
+      {
+        "champion_slug": "lee-sin",
+        "champion_name": "Lee Sin",
+        "score": 7.2,
+        "role_bucket": "jungle",
+        "difficulty": "hard",
+        "confidence": "high"
+      },
+      {
+        "champion_slug": "nidalee",
+        "champion_name": "Nidalee",
+        "score": 7.0,
+        "role_bucket": "jungle",
+        "difficulty": "hard",
+        "confidence": "high"
+      }
+    ],
+    "medium": [
+      {
+        "champion_slug": "udyr",
+        "champion_name": "Udyr",
+        "score": 6.9,
+        "role_bucket": "jungle",
+        "difficulty": "medium",
+        "confidence": "high"
+      },
+      {
+        "champion_slug": "xin-zhao",
+        "champion_name": "Xin Zhao",
+        "score": 6.9,
+        "role_bucket": "jungle",
+        "difficulty": "medium",
+        "confidence": "high"
+      },
+      {
+        "champion_slug": "lillia",
+        "champion_name": "Lillia",
+        "score": 6.8,
+        "role_bucket": "jungle",
+        "difficulty": "medium",
+        "confidence": "medium"
+      },
+      {
+        "champion_slug": "rengar",
+        "champion_name": "Rengar",
+        "score": 6.8,
+        "role_bucket": "jungle",
+        "difficulty": "medium",
+        "confidence": "medium"
+      },
+      {
+        "champion_slug": "briar",
+        "champion_name": "Briar",
+        "score": 6.7,
+        "role_bucket": "jungle",
+        "difficulty": "medium",
+        "confidence": "medium"
+      },
+      {
+        "champion_slug": "graves",
+        "champion_name": "Graves",
+        "score": 6.7,
+        "role_bucket": "jungle",
+        "difficulty": "medium",
+        "confidence": "high"
+      },
+      {
+        "champion_slug": "kindred",
+        "champion_name": "Kindred",
+        "score": 6.7,
+        "role_bucket": "jungle",
+        "difficulty": "medium",
+        "confidence": "medium"
+      },
+      {
+        "champion_slug": "shaco",
+        "champion_name": "Shaco",
+        "score": 6.6,
+        "role_bucket": "jungle",
+        "difficulty": "medium",
+        "confidence": "low"
+      },
+      {
+        "champion_slug": "belveth",
+        "champion_name": "Bel'Veth",
+        "score": 6.5,
+        "role_bucket": "jungle",
+        "difficulty": "medium",
+        "confidence": "low"
+      },
+      {
+        "champion_slug": "jarvan-iv",
+        "champion_name": "Jarvan IV",
+        "score": 6.5,
+        "role_bucket": "jungle",
+        "difficulty": "medium",
+        "confidence": "medium"
+      },
+      {
+        "champion_slug": "skarner",
+        "champion_name": "Skarner",
+        "score": 6.4,
+        "role_bucket": "jungle",
+        "difficulty": "medium",
+        "confidence": "medium"
+      },
+      {
+        "champion_slug": "hecarim",
+        "champion_name": "Hecarim",
+        "score": 6.3,
+        "role_bucket": "jungle",
+        "difficulty": "medium",
+        "confidence": "medium"
+      },
+      {
+        "champion_slug": "vi",
+        "champion_name": "Vi",
+        "score": 6.1,
+        "role_bucket": "jungle",
+        "difficulty": "medium",
+        "confidence": "medium"
+      },
+      {
+        "champion_slug": "elise",
+        "champion_name": "Elise",
+        "score": 6.0,
+        "role_bucket": "jungle",
+        "difficulty": "medium",
+        "confidence": "medium"
+      },
+      {
+        "champion_slug": "kayn",
+        "champion_name": "Kayn",
+        "score": 5.9,
+        "role_bucket": "jungle",
+        "difficulty": "medium",
+        "confidence": "low"
+      },
+      {
+        "champion_slug": "khazix",
+        "champion_name": "Kha'Zix",
+        "score": 5.8,
+        "role_bucket": "jungle",
+        "difficulty": "medium",
+        "confidence": "low"
+      },
+      {
+        "champion_slug": "nocturne",
+        "champion_name": "Nocturne",
+        "score": 5.8,
+        "role_bucket": "jungle",
+        "difficulty": "medium",
+        "confidence": "medium"
+      },
+      {
+        "champion_slug": "sejuani",
+        "champion_name": "Sejuani",
+        "score": 5.8,
+        "role_bucket": "jungle",
+        "difficulty": "medium",
+        "confidence": "medium"
+      },
+      {
+        "champion_slug": "viego",
+        "champion_name": "Viego",
+        "score": 5.8,
+        "role_bucket": "jungle",
+        "difficulty": "medium",
+        "confidence": "low"
+      },
+      {
+        "champion_slug": "maokai",
+        "champion_name": "Maokai",
+        "score": 5.7,
+        "role_bucket": "jungle",
+        "difficulty": "medium",
+        "confidence": "medium"
+      },
+      {
+        "champion_slug": "rammus",
+        "champion_name": "Rammus",
+        "score": 5.6,
+        "role_bucket": "jungle",
+        "difficulty": "medium",
+        "confidence": "low"
+      },
+      {
+        "champion_slug": "fiddlesticks",
+        "champion_name": "Fiddlesticks",
+        "score": 5.3,
+        "role_bucket": "jungle",
+        "difficulty": "medium",
+        "confidence": "low"
+      },
+      {
+        "champion_slug": "amumu",
+        "champion_name": "Amumu",
+        "score": 5.2,
+        "role_bucket": "jungle",
+        "difficulty": "medium",
+        "confidence": "low"
+      },
+      {
+        "champion_slug": "karthus",
+        "champion_name": "Karthus",
+        "score": 5.2,
+        "role_bucket": "jungle",
+        "difficulty": "medium",
+        "confidence": "low"
+      },
+      {
+        "champion_slug": "shyvana",
+        "champion_name": "Shyvana",
+        "score": 5.1,
+        "role_bucket": "jungle",
+        "difficulty": "medium",
+        "confidence": "low"
+      },
+      {
+        "champion_slug": "master-yi",
+        "champion_name": "Master Yi",
+        "score": 5.0,
+        "role_bucket": "jungle",
+        "difficulty": "medium",
+        "confidence": "low"
+      },
+      {
+        "champion_slug": "evelynn",
+        "champion_name": "Evelynn",
+        "score": 4.8,
+        "role_bucket": "jungle",
+        "difficulty": "medium",
+        "confidence": "low"
+      },
+      {
+        "champion_slug": "nunu-and-willump",
+        "champion_name": "Nunu & Willump",
+        "score": 4.8,
+        "role_bucket": "jungle",
+        "difficulty": "medium",
+        "confidence": "low"
+      }
+    ],
+    "easy": []
+  },
+  "mid": {
+    "suggest_ban": [],
+    "hard": [
+      {
+        "champion_slug": "xerath",
+        "champion_name": "Xerath",
+        "score": 7.5,
+        "role_bucket": "mid",
+        "difficulty": "hard",
+        "confidence": "low"
+      },
+      {
+        "champion_slug": "lux",
+        "champion_name": "Lux",
+        "score": 7.3,
+        "role_bucket": "mid",
+        "difficulty": "hard",
+        "confidence": "low"
+      },
+      {
+        "champion_slug": "qiyana",
+        "champion_name": "Qiyana",
+        "score": 7.3,
+        "role_bucket": "mid",
+        "difficulty": "hard",
+        "confidence": "low"
+      },
+      {
+        "champion_slug": "zoe",
+        "champion_name": "Zoe",
+        "score": 7.1,
+        "role_bucket": "mid",
+        "difficulty": "hard",
+        "confidence": "low"
+      }
+    ],
+    "medium": [
+      {
+        "champion_slug": "syndra",
+        "champion_name": "Syndra",
+        "score": 6.9,
+        "role_bucket": "mid",
+        "difficulty": "medium",
+        "confidence": "low"
+      },
+      {
+        "champion_slug": "annie",
+        "champion_name": "Annie",
+        "score": 6.8,
+        "role_bucket": "mid",
+        "difficulty": "medium",
+        "confidence": "low"
+      },
+      {
+        "champion_slug": "velkoz",
+        "champion_name": "Vel'Koz",
+        "score": 6.7,
+        "role_bucket": "mid",
+        "difficulty": "medium",
+        "confidence": "low"
+      },
+      {
+        "champion_slug": "orianna",
+        "champion_name": "Orianna",
+        "score": 6.4,
+        "role_bucket": "mid",
+        "difficulty": "medium",
+        "confidence": "low"
+      },
+      {
+        "champion_slug": "ahri",
+        "champion_name": "Ahri",
+        "score": 6.1,
+        "role_bucket": "mid",
+        "difficulty": "medium",
+        "confidence": "low"
+      },
+      {
+        "champion_slug": "leblanc",
+        "champion_name": "LeBlanc",
+        "score": 6.0,
+        "role_bucket": "mid",
+        "difficulty": "medium",
+        "confidence": "low"
+      },
+      {
+        "champion_slug": "corki",
+        "champion_name": "Corki",
+        "score": 5.6,
+        "role_bucket": "mid",
+        "difficulty": "medium",
+        "confidence": "low"
+      }
+    ],
+    "easy": []
+  },
+  "support": {
+    "suggest_ban": [],
+    "hard": [],
+    "medium": [
+      {
+        "champion_slug": "morgana",
+        "champion_name": "Morgana",
+        "score": 6.8,
+        "role_bucket": "support",
+        "difficulty": "medium",
+        "confidence": "low"
+      },
+      {
+        "champion_slug": "bard",
+        "champion_name": "Bard",
+        "score": 6.7,
+        "role_bucket": "support",
+        "difficulty": "medium",
+        "confidence": "low"
+      },
+      {
+        "champion_slug": "braum",
+        "champion_name": "Braum",
+        "score": 6.7,
+        "role_bucket": "support",
+        "difficulty": "medium",
+        "confidence": "low"
+      },
+      {
+        "champion_slug": "rakan",
+        "champion_name": "Rakan",
+        "score": 6.6,
+        "role_bucket": "support",
+        "difficulty": "medium",
+        "confidence": "low"
+      },
+      {
+        "champion_slug": "zyra",
+        "champion_name": "Zyra",
+        "score": 6.5,
+        "role_bucket": "support",
+        "difficulty": "medium",
+        "confidence": "low"
+      },
+      {
+        "champion_slug": "pyke",
+        "champion_name": "Pyke",
+        "score": 6.4,
+        "role_bucket": "support",
+        "difficulty": "medium",
+        "confidence": "low"
+      },
+      {
+        "champion_slug": "soraka",
+        "champion_name": "Soraka",
+        "score": 6.4,
+        "role_bucket": "support",
+        "difficulty": "medium",
+        "confidence": "low"
+      },
+      {
+        "champion_slug": "yuumi",
+        "champion_name": "Yuumi",
+        "score": 6.4,
+        "role_bucket": "support",
+        "difficulty": "medium",
+        "confidence": "low"
+      },
+      {
+        "champion_slug": "sona",
+        "champion_name": "Sona",
+        "score": 6.3,
+        "role_bucket": "support",
+        "difficulty": "medium",
+        "confidence": "low"
+      },
+      {
+        "champion_slug": "nautilus",
+        "champion_name": "Nautilus",
+        "score": 6.1,
+        "role_bucket": "support",
+        "difficulty": "medium",
+        "confidence": "low"
+      },
+      {
+        "champion_slug": "taric",
+        "champion_name": "Taric",
+        "score": 6.1,
+        "role_bucket": "support",
+        "difficulty": "medium",
+        "confidence": "low"
+      },
+      {
+        "champion_slug": "brand",
+        "champion_name": "Brand",
+        "score": 5.9,
+        "role_bucket": "support",
+        "difficulty": "medium",
+        "confidence": "low"
+      },
+      {
+        "champion_slug": "janna",
+        "champion_name": "Janna",
+        "score": 5.8,
+        "role_bucket": "support",
+        "difficulty": "medium",
+        "confidence": "low"
+      },
+      {
+        "champion_slug": "nami",
+        "champion_name": "Nami",
+        "score": 5.8,
+        "role_bucket": "support",
+        "difficulty": "medium",
+        "confidence": "low"
+      },
+      {
+        "champion_slug": "rell",
+        "champion_name": "Rell",
+        "score": 5.7,
+        "role_bucket": "support",
+        "difficulty": "medium",
+        "confidence": "low"
+      },
+      {
+        "champion_slug": "renata-glasc",
+        "champion_name": "Renata Glasc",
+        "score": 5.5,
+        "role_bucket": "support",
+        "difficulty": "medium",
+        "confidence": "low"
+      },
+      {
+        "champion_slug": "thresh",
+        "champion_name": "Thresh",
+        "score": 5.4,
+        "role_bucket": "support",
+        "difficulty": "medium",
+        "confidence": "low"
+      },
+      {
+        "champion_slug": "alistar",
+        "champion_name": "Alistar",
+        "score": 5.3,
+        "role_bucket": "support",
+        "difficulty": "medium",
+        "confidence": "low"
+      },
+      {
+        "champion_slug": "blitzcrank",
+        "champion_name": "Blitzcrank",
+        "score": 5.3,
+        "role_bucket": "support",
+        "difficulty": "medium",
+        "confidence": "low"
+      },
+      {
+        "champion_slug": "leona",
+        "champion_name": "Leona",
+        "score": 5.0,
+        "role_bucket": "support",
+        "difficulty": "medium",
+        "confidence": "low"
+      }
+    ],
+    "easy": []
+  },
+  "top": {
+    "suggest_ban": [
+      {
+        "champion_slug": "jax",
+        "champion_name": "Jax",
+        "score": 9.4,
+        "role_bucket": "top",
+        "difficulty": "suggest_ban",
+        "confidence": "high"
+      },
+      {
+        "champion_slug": "renekton",
+        "champion_name": "Renekton",
+        "score": 9.2,
+        "role_bucket": "top",
+        "difficulty": "suggest_ban",
+        "confidence": "high"
+      }
+    ],
+    "hard": [
+      {
+        "champion_slug": "vayne",
+        "champion_name": "Vayne",
+        "score": 8.9,
+        "role_bucket": "top",
+        "difficulty": "hard",
+        "confidence": "high"
+      },
+      {
+        "champion_slug": "darius",
+        "champion_name": "Darius",
+        "score": 8.8,
+        "role_bucket": "top",
+        "difficulty": "hard",
+        "confidence": "high"
+      },
+      {
+        "champion_slug": "quinn",
+        "champion_name": "Quinn",
+        "score": 8.7,
+        "role_bucket": "top",
+        "difficulty": "hard",
+        "confidence": "high"
+      },
+      {
+        "champion_slug": "fiora",
+        "champion_name": "Fiora",
+        "score": 8.6,
+        "role_bucket": "top",
+        "difficulty": "hard",
+        "confidence": "high"
+      },
+      {
+        "champion_slug": "volibear",
+        "champion_name": "Volibear",
+        "score": 8.5,
+        "role_bucket": "top",
+        "difficulty": "hard",
+        "confidence": "high"
+      },
+      {
+        "champion_slug": "poppy",
+        "champion_name": "Poppy",
+        "score": 8.4,
+        "role_bucket": "top",
+        "difficulty": "hard",
+        "confidence": "high"
+      },
+      {
+        "champion_slug": "cassiopeia",
+        "champion_name": "Cassiopeia",
+        "score": 8.2,
+        "role_bucket": "top",
+        "difficulty": "hard",
+        "confidence": "high"
+      },
+      {
+        "champion_slug": "malphite",
+        "champion_name": "Malphite",
+        "score": 8.2,
+        "role_bucket": "top",
+        "difficulty": "hard",
+        "confidence": "high"
+      },
+      {
+        "champion_slug": "akshan",
+        "champion_name": "Akshan",
+        "score": 8.1,
+        "role_bucket": "top",
+        "difficulty": "hard",
+        "confidence": "high"
+      },
+      {
+        "champion_slug": "gragas",
+        "champion_name": "Gragas",
+        "score": 8.0,
+        "role_bucket": "top",
+        "difficulty": "hard",
+        "confidence": "high"
+      },
+      {
+        "champion_slug": "lulu",
+        "champion_name": "Lulu",
+        "score": 7.9,
+        "role_bucket": "top",
+        "difficulty": "hard",
+        "confidence": "high"
+      },
+      {
+        "champion_slug": "sett",
+        "champion_name": "Sett",
+        "score": 7.9,
+        "role_bucket": "top",
+        "difficulty": "hard",
+        "confidence": "high"
+      },
+      {
+        "champion_slug": "teemo",
+        "champion_name": "Teemo",
+        "score": 7.9,
+        "role_bucket": "top",
+        "difficulty": "hard",
+        "confidence": "high"
+      },
+      {
+        "champion_slug": "pantheon",
+        "champion_name": "Pantheon",
+        "score": 7.8,
+        "role_bucket": "top",
+        "difficulty": "hard",
+        "confidence": "high"
+      },
+      {
+        "champion_slug": "mordekaiser",
+        "champion_name": "Mordekaiser",
+        "score": 7.6,
+        "role_bucket": "top",
+        "difficulty": "hard",
+        "confidence": "high"
+      },
+      {
+        "champion_slug": "ashe",
+        "champion_name": "Ashe",
+        "score": 7.5,
+        "role_bucket": "top",
+        "difficulty": "hard",
+        "confidence": "high"
+      },
+      {
+        "champion_slug": "mel",
+        "champion_name": "Mel",
+        "score": 7.5,
+        "role_bucket": "top",
+        "difficulty": "hard",
+        "confidence": "high"
+      },
+      {
+        "champion_slug": "varus",
+        "champion_name": "Varus",
+        "score": 7.5,
+        "role_bucket": "top",
+        "difficulty": "hard",
+        "confidence": "high"
+      },
+      {
+        "champion_slug": "ivern",
+        "champion_name": "Ivern",
+        "score": 7.4,
+        "role_bucket": "top",
+        "difficulty": "hard",
+        "confidence": "high"
+      },
+      {
+        "champion_slug": "anivia",
+        "champion_name": "Anivia",
+        "score": 7.3,
+        "role_bucket": "top",
+        "difficulty": "hard",
+        "confidence": "high"
+      },
+      {
+        "champion_slug": "aurora",
+        "champion_name": "Aurora",
+        "score": 7.3,
+        "role_bucket": "top",
+        "difficulty": "hard",
+        "confidence": "high"
+      },
+      {
+        "champion_slug": "ekko",
+        "champion_name": "Ekko",
+        "score": 7.3,
+        "role_bucket": "top",
+        "difficulty": "hard",
+        "confidence": "high"
+      },
+      {
+        "champion_slug": "jayce",
+        "champion_name": "Jayce",
+        "score": 7.3,
+        "role_bucket": "top",
+        "difficulty": "hard",
+        "confidence": "high"
+      },
+      {
+        "champion_slug": "illaoi",
+        "champion_name": "Illaoi",
+        "score": 7.2,
+        "role_bucket": "top",
+        "difficulty": "hard",
+        "confidence": "high"
+      },
+      {
+        "champion_slug": "olaf",
+        "champion_name": "Olaf",
+        "score": 7.2,
+        "role_bucket": "top",
+        "difficulty": "hard",
+        "confidence": "high"
+      },
+      {
+        "champion_slug": "warwick",
+        "champion_name": "Warwick",
+        "score": 7.2,
+        "role_bucket": "top",
+        "difficulty": "hard",
+        "confidence": "high"
+      },
+      {
+        "champion_slug": "ambessa",
+        "champion_name": "Ambessa",
+        "score": 7.1,
+        "role_bucket": "top",
+        "difficulty": "hard",
+        "confidence": "high"
+      },
+      {
+        "champion_slug": "ryze",
+        "champion_name": "Ryze",
+        "score": 7.1,
+        "role_bucket": "top",
+        "difficulty": "hard",
+        "confidence": "high"
+      },
+      {
+        "champion_slug": "talon",
+        "champion_name": "Talon",
+        "score": 7.1,
+        "role_bucket": "top",
+        "difficulty": "hard",
+        "confidence": "high"
+      },
+      {
+        "champion_slug": "tryndamere",
+        "champion_name": "Tryndamere",
+        "score": 7.1,
+        "role_bucket": "top",
+        "difficulty": "hard",
+        "confidence": "high"
+      },
+      {
+        "champion_slug": "urgot",
+        "champion_name": "Urgot",
+        "score": 7.1,
+        "role_bucket": "top",
+        "difficulty": "hard",
+        "confidence": "high"
+      },
+      {
+        "champion_slug": "yasuo",
+        "champion_name": "Yasuo",
+        "score": 7.1,
+        "role_bucket": "top",
+        "difficulty": "hard",
+        "confidence": "high"
+      },
+      {
+        "champion_slug": "zilean",
+        "champion_name": "Zilean",
+        "score": 7.1,
+        "role_bucket": "top",
+        "difficulty": "hard",
+        "confidence": "high"
+      },
+      {
+        "champion_slug": "akali",
+        "champion_name": "Akali",
+        "score": 7.0,
+        "role_bucket": "top",
+        "difficulty": "hard",
+        "confidence": "high"
+      },
+      {
+        "champion_slug": "fizz",
+        "champion_name": "Fizz",
+        "score": 7.0,
+        "role_bucket": "top",
+        "difficulty": "hard",
+        "confidence": "high"
+      },
+      {
+        "champion_slug": "galio",
+        "champion_name": "Galio",
+        "score": 7.0,
+        "role_bucket": "top",
+        "difficulty": "hard",
+        "confidence": "high"
+      },
+      {
+        "champion_slug": "kennen",
+        "champion_name": "Kennen",
+        "score": 7.0,
+        "role_bucket": "top",
+        "difficulty": "hard",
+        "confidence": "high"
+      },
+      {
+        "champion_slug": "naafiri",
+        "champion_name": "Naafiri",
+        "score": 7.0,
+        "role_bucket": "top",
+        "difficulty": "hard",
+        "confidence": "high"
+      }
+    ],
+    "medium": [
+      {
+        "champion_slug": "gangplank",
+        "champion_name": "Gangplank",
+        "score": 6.9,
+        "role_bucket": "top",
+        "difficulty": "medium",
+        "confidence": "high"
+      },
+      {
+        "champion_slug": "kled",
+        "champion_name": "Kled",
+        "score": 6.9,
+        "role_bucket": "top",
+        "difficulty": "medium",
+        "confidence": "high"
+      },
+      {
+        "champion_slug": "taliyah",
+        "champion_name": "Taliyah",
+        "score": 6.9,
+        "role_bucket": "top",
+        "difficulty": "medium",
+        "confidence": "high"
+      },
+      {
+        "champion_slug": "vladimir",
+        "champion_name": "Vladimir",
+        "score": 6.9,
+        "role_bucket": "top",
+        "difficulty": "medium",
+        "confidence": "high"
+      },
+      {
+        "champion_slug": "yone",
+        "champion_name": "Yone",
+        "score": 6.9,
+        "role_bucket": "top",
+        "difficulty": "medium",
+        "confidence": "high"
+      },
+      {
+        "champion_slug": "ziggs",
+        "champion_name": "Ziggs",
+        "score": 6.9,
+        "role_bucket": "top",
+        "difficulty": "medium",
+        "confidence": "high"
+      },
+      {
+        "champion_slug": "gnar",
+        "champion_name": "Gnar",
+        "score": 6.8,
+        "role_bucket": "top",
+        "difficulty": "medium",
+        "confidence": "high"
+      },
+      {
+        "champion_slug": "gwen",
+        "champion_name": "Gwen",
+        "score": 6.8,
+        "role_bucket": "top",
+        "difficulty": "medium",
+        "confidence": "high"
+      },
+      {
+        "champion_slug": "karma",
+        "champion_name": "Karma",
+        "score": 6.8,
+        "role_bucket": "top",
+        "difficulty": "medium",
+        "confidence": "high"
+      },
+      {
+        "champion_slug": "trundle",
+        "champion_name": "Trundle",
+        "score": 6.8,
+        "role_bucket": "top",
+        "difficulty": "medium",
+        "confidence": "high"
+      },
+      {
+        "champion_slug": "wukong",
+        "champion_name": "Wukong",
+        "score": 6.8,
+        "role_bucket": "top",
+        "difficulty": "medium",
+        "confidence": "high"
+      },
+      {
+        "champion_slug": "aurelion-sol",
+        "champion_name": "Aurelion Sol",
+        "score": 6.7,
+        "role_bucket": "top",
+        "difficulty": "medium",
+        "confidence": "high"
+      },
+      {
+        "champion_slug": "heimerdinger",
+        "champion_name": "Heimerdinger",
+        "score": 6.7,
+        "role_bucket": "top",
+        "difficulty": "medium",
+        "confidence": "high"
+      },
+      {
+        "champion_slug": "kalista",
+        "champion_name": "Kalista",
+        "score": 6.7,
+        "role_bucket": "top",
+        "difficulty": "medium",
+        "confidence": "high"
+      },
+      {
+        "champion_slug": "kassadin",
+        "champion_name": "Kassadin",
+        "score": 6.7,
+        "role_bucket": "top",
+        "difficulty": "medium",
+        "confidence": "high"
+      },
+      {
+        "champion_slug": "twisted-fate",
+        "champion_name": "Twisted Fate",
+        "score": 6.7,
+        "role_bucket": "top",
+        "difficulty": "medium",
+        "confidence": "high"
+      },
+      {
+        "champion_slug": "hwei",
+        "champion_name": "Hwei",
+        "score": 6.6,
+        "role_bucket": "top",
+        "difficulty": "medium",
+        "confidence": "high"
+      },
+      {
+        "champion_slug": "irelia",
+        "champion_name": "Irelia",
+        "score": 6.6,
+        "role_bucket": "top",
+        "difficulty": "medium",
+        "confidence": "high"
+      },
+      {
+        "champion_slug": "lucian",
+        "champion_name": "Lucian",
+        "score": 6.6,
+        "role_bucket": "top",
+        "difficulty": "medium",
+        "confidence": "high"
+      },
+      {
+        "champion_slug": "neeko",
+        "champion_name": "Neeko",
+        "score": 6.6,
+        "role_bucket": "top",
+        "difficulty": "medium",
+        "confidence": "high"
+      },
+      {
+        "champion_slug": "senna",
+        "champion_name": "Senna",
+        "score": 6.6,
+        "role_bucket": "top",
+        "difficulty": "medium",
+        "confidence": "high"
+      },
+      {
+        "champion_slug": "tristana",
+        "champion_name": "Tristana",
+        "score": 6.6,
+        "role_bucket": "top",
+        "difficulty": "medium",
+        "confidence": "high"
+      },
+      {
+        "champion_slug": "vex",
+        "champion_name": "Vex",
+        "score": 6.6,
+        "role_bucket": "top",
+        "difficulty": "medium",
+        "confidence": "high"
+      },
+      {
+        "champion_slug": "zed",
+        "champion_name": "Zed",
+        "score": 6.6,
+        "role_bucket": "top",
+        "difficulty": "medium",
+        "confidence": "high"
+      },
+      {
+        "champion_slug": "zac",
+        "champion_name": "Zac",
+        "score": 6.5,
+        "role_bucket": "top",
+        "difficulty": "medium",
+        "confidence": "high"
+      },
+      {
+        "champion_slug": "lissandra",
+        "champion_name": "Lissandra",
+        "score": 6.4,
+        "role_bucket": "top",
+        "difficulty": "medium",
+        "confidence": "high"
+      },
+      {
+        "champion_slug": "riven",
+        "champion_name": "Riven",
+        "score": 6.4,
+        "role_bucket": "top",
+        "difficulty": "medium",
+        "confidence": "high"
+      },
+      {
+        "champion_slug": "sylas",
+        "champion_name": "Sylas",
+        "score": 6.4,
+        "role_bucket": "top",
+        "difficulty": "medium",
+        "confidence": "high"
+      },
+      {
+        "champion_slug": "viktor",
+        "champion_name": "Viktor",
+        "score": 6.4,
+        "role_bucket": "top",
+        "difficulty": "medium",
+        "confidence": "high"
+      },
+      {
+        "champion_slug": "aatrox",
+        "champion_name": "Aatrox",
+        "score": 6.3,
+        "role_bucket": "top",
+        "difficulty": "medium",
+        "confidence": "high"
+      },
+      {
+        "champion_slug": "azir",
+        "champion_name": "Azir",
+        "score": 6.3,
+        "role_bucket": "top",
+        "difficulty": "medium",
+        "confidence": "high"
+      },
+      {
+        "champion_slug": "katarina",
+        "champion_name": "Katarina",
+        "score": 6.3,
+        "role_bucket": "top",
+        "difficulty": "medium",
+        "confidence": "high"
+      },
+      {
+        "champion_slug": "diana",
+        "champion_name": "Diana",
+        "score": 6.2,
+        "role_bucket": "top",
+        "difficulty": "medium",
+        "confidence": "high"
+      },
+      {
+        "champion_slug": "milio",
+        "champion_name": "Milio",
+        "score": 6.2,
+        "role_bucket": "top",
+        "difficulty": "medium",
+        "confidence": "high"
+      },
+      {
+        "champion_slug": "ksante",
+        "champion_name": "K'Sante",
+        "score": 6.0,
+        "role_bucket": "top",
+        "difficulty": "medium",
+        "confidence": "high"
+      },
+      {
+        "champion_slug": "seraphine",
+        "champion_name": "Seraphine",
+        "score": 5.9,
+        "role_bucket": "top",
+        "difficulty": "medium",
+        "confidence": "high"
+      },
+      {
+        "champion_slug": "dr-mundo",
+        "champion_name": "Dr. Mundo",
+        "score": 5.6,
+        "role_bucket": "top",
+        "difficulty": "medium",
+        "confidence": "high"
+      },
+      {
+        "champion_slug": "ornn",
+        "champion_name": "Ornn",
+        "score": 4.5,
+        "role_bucket": "top",
+        "difficulty": "medium",
+        "confidence": "high"
+      },
+      {
+        "champion_slug": "singed",
+        "champion_name": "Singed",
+        "score": 4.5,
+        "role_bucket": "top",
+        "difficulty": "medium",
+        "confidence": "high"
+      },
+      {
+        "champion_slug": "yorick",
+        "champion_name": "Yorick",
+        "score": 4.5,
+        "role_bucket": "top",
+        "difficulty": "medium",
+        "confidence": "high"
+      }
+    ],
+    "easy": [
+      {
+        "champion_slug": "kayle",
+        "champion_name": "Kayle",
+        "score": 4.4,
+        "role_bucket": "top",
+        "difficulty": "easy",
+        "confidence": "high"
+      },
+      {
+        "champion_slug": "swain",
+        "champion_name": "Swain",
+        "score": 4.4,
+        "role_bucket": "top",
+        "difficulty": "easy",
+        "confidence": "high"
+      },
+      {
+        "champion_slug": "tahm-kench",
+        "champion_name": "Tahm Kench",
+        "score": 4.4,
+        "role_bucket": "top",
+        "difficulty": "easy",
+        "confidence": "high"
+      },
+      {
+        "champion_slug": "rumble",
+        "champion_name": "Rumble",
+        "score": 4.3,
+        "role_bucket": "top",
+        "difficulty": "easy",
+        "confidence": "high"
+      },
+      {
+        "champion_slug": "shen",
+        "champion_name": "Shen",
+        "score": 4.3,
+        "role_bucket": "top",
+        "difficulty": "easy",
+        "confidence": "high"
+      },
+      {
+        "champion_slug": "garen",
+        "champion_name": "Garen",
+        "score": 4.2,
+        "role_bucket": "top",
+        "difficulty": "easy",
+        "confidence": "high"
+      },
+      {
+        "champion_slug": "smolder",
+        "champion_name": "Smolder",
+        "score": 4.2,
+        "role_bucket": "top",
+        "difficulty": "easy",
+        "confidence": "high"
+      },
+      {
+        "champion_slug": "malzahar",
+        "champion_name": "Malzahar",
+        "score": 4.1,
+        "role_bucket": "top",
+        "difficulty": "easy",
+        "confidence": "high"
+      },
+      {
+        "champion_slug": "sion",
+        "champion_name": "Sion",
+        "score": 4.1,
+        "role_bucket": "top",
+        "difficulty": "easy",
+        "confidence": "high"
+      },
+      {
+        "champion_slug": "chogath",
+        "champion_name": "Cho'Gath",
+        "score": 4.0,
+        "role_bucket": "top",
+        "difficulty": "easy",
+        "confidence": "high"
+      },
+      {
+        "champion_slug": "nasus",
+        "champion_name": "Nasus",
+        "score": 3.9,
+        "role_bucket": "top",
+        "difficulty": "easy",
+        "confidence": "high"
+      },
+      {
+        "champion_slug": "veigar",
+        "champion_name": "Veigar",
+        "score": 3.8,
+        "role_bucket": "top",
+        "difficulty": "easy",
+        "confidence": "high"
+      }
+    ]
+  }
+}

@@ -1,0 +1,266 @@
+{
+  "required_runtime": [
+    {
+      "path": "app.py",
+      "exists": true
+    },
+    {
+      "path": "requirements.txt",
+      "exists": true
+    },
+    {
+      "path": "render.yaml",
+      "exists": true
+    },
+    {
+      "path": "templates/base.html",
+      "exists": true
+    },
+    {
+      "path": "templates/home.html",
+      "exists": true
+    },
+    {
+      "path": "templates/champion_guide.html",
+      "exists": true
+    },
+    {
+      "path": "templates/learning.html",
+      "exists": true
+    },
+    {
+      "path": "translations/pt-BR.json",
+      "exists": true
+    },
+    {
+      "path": "translations/en.json",
+      "exists": true
+    },
+    {
+      "path": "utils/data_access.py",
+      "exists": true
+    },
+    {
+      "path": "utils/i18n.py",
+      "exists": true
+    },
+    {
+      "path": "scripts/validate_data.py",
+      "exists": true
+    },
+    {
+      "path": "scripts/build_indexes.py",
+      "exists": true
+    },
+    {
+      "path": "scripts/check_missing_assets.py",
+      "exists": true
+    },
+    {
+      "path": "scripts/check_integrity.py",
+      "exists": true
+    },
+    {
+      "path": "scripts/check_i18n.py",
+      "exists": true
+    },
+    {
+      "path": "scripts/check_display_i18n.py",
+      "exists": true
+    },
+    {
+      "path": "scripts/smoke_check.py",
+      "exists": true
+    },
+    {
+      "path": "scripts/check_packaging_hygiene.py",
+      "exists": true
+    }
+  ],
+  "required_docs": [
+    {
+      "path": "README.md",
+      "exists": true
+    },
+    {
+      "path": "pipeline/merge_readiness.md",
+      "exists": true
+    },
+    {
+      "path": "pipeline/premerge_predeploy_checklist.md",
+      "exists": true
+    },
+    {
+      "path": "pipeline/packaging_hygiene.md",
+      "exists": true
+    }
+  ],
+  "optional_learning_inputs": [
+    {
+      "path": "data/learning/camille_learning.json",
+      "exists": true
+    },
+    {
+      "path": "data/learning/camille_combos.json",
+      "exists": true
+    },
+    {
+      "path": "data/learning/camille_mechanics.json",
+      "exists": true
+    },
+    {
+      "path": "data/learning/camille_macro.json",
+      "exists": true
+    },
+    {
+      "path": "data/learning/camille_build_decision.json",
+      "exists": true
+    },
+    {
+      "path": "data/learning/camille_runes_decision.json",
+      "exists": true
+    },
+    {
+      "path": "data/learning/camille_archetypes.json",
+      "exists": true
+    },
+    {
+      "path": "data/learning/camille_training_plan.json",
+      "exists": true
+    },
+    {
+      "path": "data/learning/camille_phase_checklists.json",
+      "exists": true
+    },
+    {
+      "path": "data/learning/camille_faq.json",
+      "exists": true
+    },
+    {
+      "path": "data/learning/camille_advanced_interactions.json",
+      "exists": true
+    },
+    {
+      "path": "data/learning/camille_execution_reference.json",
+      "exists": true
+    },
+    {
+      "path": "data/learning/camille_microtips.json",
+      "exists": true
+    },
+    {
+      "path": "data/learning/camille_glossary.json",
+      "exists": true
+    },
+    {
+      "path": "data/learning/camille_practice_scenarios.json",
+      "exists": true
+    },
+    {
+      "path": "data/learning/camille_coach_paths.json",
+      "exists": true
+    },
+    {
+      "path": "data/learning/camille_player_profiles.json",
+      "exists": true
+    },
+    {
+      "path": "data/learning/camille_improvement_priorities.json",
+      "exists": true
+    },
+    {
+      "path": "data/learning/camille_short_training_blocks.json",
+      "exists": true
+    },
+    {
+      "path": "data/learning/camille_review_checklists.json",
+      "exists": true
+    },
+    {
+      "path": "data/learning/camille_common_mistakes.json",
+      "exists": true
+    },
+    {
+      "path": "data/learning/camille_mistake_corrections.json",
+      "exists": true
+    },
+    {
+      "path": "data/learning/camille_self_review_diagnostics.json",
+      "exists": true
+    },
+    {
+      "path": "data/learning/camille_improvement_matrix.json",
+      "exists": true
+    },
+    {
+      "path": "data/learning/camille_game_review_triggers.json",
+      "exists": true
+    },
+    {
+      "path": "data/learning/camille_situational_gameplans.json",
+      "exists": true
+    },
+    {
+      "path": "data/learning/camille_decision_recovery.json",
+      "exists": true
+    },
+    {
+      "path": "data/learning/camille_adaptation_layers.json",
+      "exists": true
+    },
+    {
+      "path": "data/learning/camille_state_based_adjustments.json",
+      "exists": true
+    },
+    {
+      "path": "data/meta/streamers_youtubers.json",
+      "exists": true
+    }
+  ],
+  "expected_meta_outputs": [
+    {
+      "path": "data/meta/assets_report.json",
+      "exists": true
+    },
+    {
+      "path": "data/meta/matchups_overview.json",
+      "exists": true
+    },
+    {
+      "path": "data/meta/roles_index.json",
+      "exists": true
+    },
+    {
+      "path": "data/meta/i18n_report.json",
+      "exists": true
+    },
+    {
+      "path": "data/meta/learning_bundle_status.json",
+      "exists": true
+    },
+    {
+      "path": "data/meta/learning_integrity_report.json",
+      "exists": true
+    },
+    {
+      "path": "data/meta/merge_readiness_report.json",
+      "exists": true
+    },
+    {
+      "path": "data/meta/packaging_hygiene_report.json",
+      "exists": true
+    },
+    {
+      "path": "data/meta/smoke_check_report.json",
+      "exists": true
+    },
+    {
+      "path": "data/meta/premerge_predeploy_checklist.json",
+      "exists": true
+    },
+    {
+      "path": "data/meta/display_i18n_report.json",
+      "exists": true
+    }
+  ]
+}

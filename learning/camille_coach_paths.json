@@ -1,0 +1,413 @@
+{
+  "overview": {
+    "pt-BR": "Trilhas premium de evolução da Camille pensadas para coaching prático. Cada trilha organiza o que estudar, em que ordem estudar e qual sinal real mostra que o fundamento saiu do papel e entrou no jogo.",
+    "en": "Premium Camille improvement paths built for practical coaching. Each path organizes what to study, in what order, and what real signal shows the concept left theory and entered actual games."
+  },
+  "usage_rule": {
+    "pt-BR": "Não tente subir todas as trilhas ao mesmo tempo. Escolha o maior gargalo do momento, estabilize esse bloco e só depois avance.",
+    "en": "Do not try to level every path at once. Pick your biggest bottleneck, stabilize that block, and only then move on."
+  },
+  "coach_paths": [
+    {
+      "path_key": "leave_the_basics",
+      "title": {
+        "pt-BR": "Sair do básico",
+        "en": "Leave the basics"
+      },
+      "objective": {
+        "pt-BR": "Parar de perder lane por pressa, E aleatório e trocas sem plano de Q2.",
+        "en": "Stop losing lane through haste, random E usage, and trades with no Q2 plan."
+      },
+      "suggested_order": {
+        "pt-BR": [
+          "acertar short trade com passiva + Q2",
+          "parar de gastar E sem motivo",
+          "aprender quando só farmar/pegar XP",
+          "usar W para estabilizar vida e espaço"
+        ],
+        "en": [
+          "land short trades with passive + Q2",
+          "stop spending E without reason",
+          "learn when to only farm/get XP",
+          "use W to stabilize HP and space"
+        ]
+      },
+      "master_first": {
+        "pt-BR": [
+          "ritmo de Q1 -> movimento -> Q2",
+          "leitura simples de wave ruim vs wave boa",
+          "disciplina para não all-inar toda janela pequena"
+        ],
+        "en": [
+          "Q1 -> movement -> Q2 rhythm",
+          "simple reading of bad wave vs good wave",
+          "discipline to not all-in every small opening"
+        ]
+      },
+      "common_error": {
+        "pt-BR": "Confundir “estar no alcance” com “estar em janela real de engage”.",
+        "en": "Mistaking “being in range” for “being in a real engage window.”"
+      },
+      "graduation_signal": {
+        "pt-BR": "Você consegue jogar os primeiros níveis sem se autoquebrar e sua lane para de depender de coinflip cedo.",
+        "en": "You can play the early levels without self-destructing and your lane stops depending on early coinflips."
+      },
+      "linked_modules": [
+        "data/learning/camille_learning.json",
+        "data/learning/camille_training_plan.json",
+        "data/learning/camille_phase_checklists.json",
+        "data/learning/camille_practice_scenarios.json"
+      ]
+    },
+    {
+      "path_key": "lane_phase_foundation",
+      "title": {
+        "pt-BR": "Consolidar lane phase",
+        "en": "Consolidate lane phase"
+      },
+      "objective": {
+        "pt-BR": "Transformar lane phase em bloco consistente: saber respeitar, trocar curto, resetar bem e não entregar wave ruim.",
+        "en": "Turn lane phase into a consistent block: know when to respect, short trade, reset well, and stop donating bad waves."
+      },
+      "suggested_order": {
+        "pt-BR": [
+          "reconhecer padrão da lane pelo arquétipo",
+          "alinhar troca com estado da wave",
+          "identificar janelas de passiva/cooldown",
+          "resetar sem quebrar a própria posição"
+        ],
+        "en": [
+          "recognize the lane pattern by archetype",
+          "align trades with wave state",
+          "identify passive/cooldown windows",
+          "reset without ruining your own position"
+        ]
+      },
+      "master_first": {
+        "pt-BR": [
+          "não lutar em wave inimiga gigante",
+          "não usar E quando a wave está contra você",
+          "entender quando a lane é de dano e quando é de sobrevivência"
+        ],
+        "en": [
+          "do not fight into huge enemy waves",
+          "do not use E when the wave is against you",
+          "understand when the lane is about damage and when it is about survival"
+        ]
+      },
+      "common_error": {
+        "pt-BR": "Ganhar uma troca e perder o controle da wave logo depois.",
+        "en": "Winning a trade and immediately losing wave control afterward."
+      },
+      "graduation_signal": {
+        "pt-BR": "Sua lane começa a ficar previsível para você: você sabe por que pressionou, por que cedeu e por que resetou.",
+        "en": "Your lane starts feeling predictable to you: you know why you pressured, why you yielded, and why you reset."
+      },
+      "linked_modules": [
+        "data/learning/camille_archetypes.json",
+        "data/learning/camille_phase_checklists.json",
+        "data/learning/camille_faq.json"
+      ]
+    },
+    {
+      "path_key": "execution_consistency",
+      "title": {
+        "pt-BR": "Melhorar execução",
+        "en": "Improve execution"
+      },
+      "objective": {
+        "pt-BR": "Aumentar consistência mecânica real, não altalight. O foco é errar menos input importante sob pressão.",
+        "en": "Increase real mechanical consistency, not highlight chasing. The focus is to miss fewer important inputs under pressure."
+      },
+      "suggested_order": {
+        "pt-BR": [
+          "timing do Q2",
+          "E em ângulos simples",
+          "E em paredes ruins",
+          "uso defensivo do R",
+          "sequências completas de all-in"
+        ],
+        "en": [
+          "Q2 timing",
+          "E on simple angles",
+          "E on awkward walls",
+          "defensive R usage",
+          "full all-in sequences"
+        ]
+      },
+      "master_first": {
+        "pt-BR": [
+          "não antecipar o Q2",
+          "não entrar de E só porque viu range",
+          "guardar R para o momento que realmente muda o all-in"
+        ],
+        "en": [
+          "not rushing Q2",
+          "not going in with E just because you saw range",
+          "saving R for the moment that actually changes the all-in"
+        ]
+      },
+      "common_error": {
+        "pt-BR": "Treinar combo bonito sem treinar confirmação, saída ou correção de erro.",
+        "en": "Practicing flashy combos without practicing confirmation, exits, or error recovery."
+      },
+      "graduation_signal": {
+        "pt-BR": "Seu dano passa a sair no timing certo com menos pânico, e o número de E/R desperdiçados cai claramente.",
+        "en": "Your damage starts landing on the right timing with less panic, and the number of wasted E/R casts clearly drops."
+      },
+      "linked_modules": [
+        "data/learning/camille_combos.json",
+        "data/learning/camille_mechanics.json",
+        "data/learning/camille_execution_reference.json",
+        "data/learning/camille_practice_scenarios.json"
+      ]
+    },
+    {
+      "path_key": "side_lane_growth",
+      "title": {
+        "pt-BR": "Melhorar side lane",
+        "en": "Improve side lane"
+      },
+      "objective": {
+        "pt-BR": "Aprender a transformar vantagem lateral em pressão real sem morrer isolado por ego ou timing ruim.",
+        "en": "Learn to turn side-lane advantage into real pressure without dying isolated to ego or bad timing."
+      },
+      "suggested_order": {
+        "pt-BR": [
+          "empurrar e olhar mapa antes de avançar",
+          "entender quando fixar side e quando sair",
+          "jogar com visão e rotas de escape",
+          "ameaçar pick sem quebrar tempo de reset"
+        ],
+        "en": [
+          "push and look at the map before advancing",
+          "understand when to hold side and when to leave",
+          "play with vision and exit routes",
+          "threaten picks without ruining reset timing"
+        ]
+      },
+      "master_first": {
+        "pt-BR": [
+          "não splitar sem saber onde está o engage inimigo",
+          "não bater torre sem plano de saída",
+          "não ignorar objetivo grande só porque a side está confortável"
+        ],
+        "en": [
+          "do not split without knowing where the enemy engage is",
+          "do not hit tower without an exit plan",
+          "do not ignore a major objective just because the side lane feels comfortable"
+        ]
+      },
+      "common_error": {
+        "pt-BR": "Achar que side lane é sempre “ficar sozinho até alguém aparecer”.",
+        "en": "Thinking side lane always means “stay alone until someone shows up.”"
+      },
+      "graduation_signal": {
+        "pt-BR": "Você começa a puxar atenção sem doar shutdown e sabe quando a side está ganhando mais que uma luta agrupada.",
+        "en": "You start drawing attention without donating shutdowns and you know when side lane is worth more than a grouped fight."
+      },
+      "linked_modules": [
+        "data/learning/camille_macro.json",
+        "data/learning/camille_phase_checklists.json",
+        "data/learning/camille_microtips.json"
+      ]
+    },
+    {
+      "path_key": "teamfight_entry",
+      "title": {
+        "pt-BR": "Melhorar teamfight",
+        "en": "Improve teamfighting"
+      },
+      "objective": {
+        "pt-BR": "Aprender a entrar em luta pelo alvo certo, no timing certo e sem transformar Camille em engage descartável.",
+        "en": "Learn to enter fights onto the right target, at the right timing, without turning Camille into disposable engage."
+      },
+      "suggested_order": {
+        "pt-BR": [
+          "identificar alvo que realmente vale R",
+          "ler peel e cooldowns antes da entrada",
+          "treinar entrada por flank e não só frontal",
+          "sair da luta depois de cumprir função"
+        ],
+        "en": [
+          "identify the target that is actually worth R",
+          "read peel and cooldowns before entering",
+          "practice flank entry instead of only front-to-back entry",
+          "leave the fight after fulfilling your role"
+        ]
+      },
+      "master_first": {
+        "pt-BR": [
+          "não ultar o primeiro alvo acessível",
+          "não entrar antes do time poder acompanhar",
+          "usar R para travar/evitar e não só para “dar dano”"
+        ],
+        "en": [
+          "do not ult the first accessible target",
+          "do not go in before your team can follow",
+          "use R to lock/avoid, not just to “deal damage”"
+        ]
+      },
+      "common_error": {
+        "pt-BR": "Confundir “alcance de engage” com “janela boa de teamfight”.",
+        "en": "Confusing “engage range” with “good teamfight window.”"
+      },
+      "graduation_signal": {
+        "pt-BR": "Suas lutas começam a ter alvo, timing e saída claros; você morre menos em engage sem folbaixa-up.",
+        "en": "Your fights start having clear target, timing, and exit; you die less on engages with no follow-up."
+      },
+      "linked_modules": [
+        "data/learning/camille_macro.json",
+        "data/learning/camille_advanced_interactions.json",
+        "data/learning/camille_phase_checklists.json"
+      ]
+    },
+    {
+      "path_key": "decision_making",
+      "title": {
+        "pt-BR": "Melhorar tomada de decisão",
+        "en": "Improve decision making"
+      },
+      "objective": {
+        "pt-BR": "Reduzir decisões automáticas. O foco é adaptar build, runa, ritmo de lane e plano de mapa ao jogo real.",
+        "en": "Reduce autopilot decisions. The focus is to adapt build, runes, lane rhythm, and map plan to the real game."
+      },
+      "suggested_order": {
+        "pt-BR": [
+          "usar árvore de runas antes da fila",
+          "escolher build pelo jogo e não por costume",
+          "definir win condition aos 1-2 itens",
+          "reavaliar se side ou group é melhor após cada objetivo"
+        ],
+        "en": [
+          "use the rune tree before queueing",
+          "choose build by game, not by habit",
+          "define your win condition at 1-2 items",
+          "re-evaluate whether side or group is better after each objective"
+        ]
+      },
+      "master_first": {
+        "pt-BR": [
+          "parar de repetir a mesma build em todo lobby",
+          "parar de tratar todas as lanes como dueláveis cedo",
+          "parar de agrupar sem objetivo só porque a lane “acabou”"
+        ],
+        "en": [
+          "stop repeating the same build in every lobby",
+          "stop treating every lane as early-duelable",
+          "stop grouping with no objective just because lane phase “ended”"
+        ]
+      },
+      "common_error": {
+        "pt-BR": "Buscar resposta mecânica para erro que na verdade é erro de leitura.",
+        "en": "Looking for a mechanical answer to a mistake that is actually a reading error."
+      },
+      "graduation_signal": {
+        "pt-BR": "Você consegue explicar a própria build, a própria rota de jogo e o motivo de ter agrupado ou splitado.",
+        "en": "You can explain your own build, game route, and why you grouped or split."
+      },
+      "linked_modules": [
+        "data/learning/camille_build_decision.json",
+        "data/learning/camille_runes_decision.json",
+        "data/learning/camille_archetypes.json",
+        "data/learning/camille_faq.json"
+      ]
+    },
+    {
+      "path_key": "play_from_behind",
+      "title": {
+        "pt-BR": "Aprender a jogar atrás",
+        "en": "Learn to play from behind"
+      },
+      "objective": {
+        "pt-BR": "Parar de transformar desvantagem pequena em jogo impossível. O bloco é sobre contenção, mapa e picks limpos.",
+        "en": "Stop turning a small deficit into an unwinnable game. This block is about containment, map play, and clean picks."
+      },
+      "suggested_order": {
+        "pt-BR": [
+          "identificar quais lutas não são suas",
+          "farmar sem doar pickoff",
+          "comprar tempo até spike relevante",
+          "buscar alvo isolado em vez de engage frontal desesperado"
+        ],
+        "en": [
+          "identify which fights are not yours",
+          "farm without donating pickoffs",
+          "buy time until a relevant spike",
+          "look for isolated targets instead of desperate front-loaded engages"
+        ]
+      },
+      "master_first": {
+        "pt-BR": [
+          "aceitar lane defensiva",
+          "adaptar build para sobreviver quando necessário",
+          "guardar E/R para sair de situação ruim, não para forçar milagre"
+        ],
+        "en": [
+          "accept a defensive lane",
+          "adapt build to survive when needed",
+          "save E/R to leave bad situations, not to force miracles"
+        ]
+      },
+      "common_error": {
+        "pt-BR": "Tentar “recuperar tudo” em uma jogada só.",
+        "en": "Trying to “get everything back” in one play."
+      },
+      "graduation_signal": {
+        "pt-BR": "Mesmo atrás, você continua relevante em side, pickoff ou folbaixa-up e para de entregar mortes evitáveis.",
+        "en": "Even from behind, you stay relevant through side lane, picks, or follow-up and stop giving avoidable deaths."
+      },
+      "linked_modules": [
+        "data/learning/camille_archetypes.json",
+        "data/learning/camille_phase_checklists.json",
+        "data/learning/camille_faq.json",
+        "data/learning/camille_review_checklists.json"
+      ]
+    }
+  ],
+  "quick_assignment": [
+    {
+      "symptom": {
+        "pt-BR": "Você erra pouco combo, mas toma más decisões de mapa.",
+        "en": "You rarely drop combos, but you make poor map decisions."
+      },
+      "recommended_path": "decision_making",
+      "reason": {
+        "pt-BR": "Seu gargalo principal não é mão; é rota de jogo.",
+        "en": "Your main bottleneck is not hands; it is game routing."
+      }
+    },
+    {
+      "symptom": {
+        "pt-BR": "Você costuma morrer com E e R ainda disponíveis.",
+        "en": "You often die with E and R still available."
+      },
+      "recommended_path": "play_from_behind",
+      "reason": {
+        "pt-BR": "O problema costuma ser leitura tardia do perigo e disciplina ruim de saída.",
+        "en": "The issue is usually late danger reading and poor exit discipline."
+      }
+    },
+    {
+      "symptom": {
+        "pt-BR": "Você perde lane cedo por ansiedade e troca toda wave.",
+        "en": "You lose lane early to anxiety and trade into every wave."
+      },
+      "recommended_path": "leave_the_basics",
+      "reason": {
+        "pt-BR": "Antes de sofisticar build ou macro, precisa estabilizar a base da lane.",
+        "en": "Before refining build or macro, you need to stabilize the lane foundation."
+      }
+    }
+  ],
+  "metadata": {
+    "data_quality": "high",
+    "last_updated": "2026-04-09",
+    "pipeline_alignment": [
+      "data_rules",
+      "content_priority",
+      "scoring_rules_used_for_learning_order"
+    ],
+    "scope": "parallel_2_round4_coach_progression"
+  }
+}

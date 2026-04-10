@@ -1,0 +1,27 @@
+{
+  "locales_checked": [
+    "pt-BR",
+    "en"
+  ],
+  "checks": {
+    "pt-BR": {
+      "guide_display_localized": true,
+      "learning_bundle_localized": true,
+      "creator_metadata_localized": true
+    },
+    "en": {
+      "guide_display_localized": true,
+      "learning_bundle_localized": true,
+      "creator_metadata_localized": true
+    }
+  },
+  "failing_checks": {
+    "pt-BR": [],
+    "en": []
+  },
+  "display_locale_consistent": true,
+  "notes": [
+    "This check validates localized display values for guide and learning runtime paths.",
+    "It does not render matchup content and does not modify matchup files."
+  ]
+}

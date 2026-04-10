@@ -1,0 +1,526 @@
+{
+  "identity": {
+    "champion_slug": "illaoi",
+    "champion_name": "Illaoi",
+    "role_bucket": "top",
+    "quick_summary": {
+      "pt-BR": "Illaoi vs Camille topo é matchup de E e de terreno. Se a alma sai, Camille perde wave, espaço e muita vida; se o E erra, Illaoi fica surpreendentemente vulnerável e a lane muda por alguns segundos.",
+      "en": "Illaoi vs Camille top is an E-and-terrain matchup. If the spirit pull lands, Camille loses wave, space and a lot of HP; if E misses, Illaoi becomes surprisingly vulnerable and lane changes for a few seconds."
+    },
+    "difficulty": "hard",
+    "score": 7.2,
+    "enemy_identity": {
+      "pt-BR": "Juggernaut de zona. Illaoi quer que você lute no lugar errado, no timing errado e com tentáculos já preparados.",
+      "en": "A zone-control juggernaut. Illaoi wants you fighting in the wrong place, at the wrong timing and with tentacles already prepared."
+    },
+    "matchup_type": {
+      "pt-BR": "zone control juggernaut vs diver",
+      "en": "zone control juggernaut vs diver"
+    },
+    "threat_level": "medium",
+    "confidence": "high"
+  },
+  "scoring": {
+    "lane_phase_pressure": 7.4,
+    "gold_diff_15": 7.0,
+    "kill_threat": 7.3,
+    "matchup_winrate_pressure": 6.7,
+    "formula_version": "1.1.0"
+  },
+  "macro_view": {
+    "lane_read": {
+      "pt-BR": "Toda a lane gira em torno do Test of Spirit. SE Illaoi erra o E, usa em minion ou gasta cedo sem converter -> Camille ganha uma das janelas mais fortes da matchup; com E pronto e tentáculo armado, o respeito precisa subir muito.",
+      "en": "The whole lane revolves around Test of Spirit. IF Illaoi misses E, uses it awkwardly or spends it early without converting -> Camille gets one of the strongest windows in the matchup; with E ready and tentacles set, respect must go way up."
+    },
+    "win_condition": {
+      "pt-BR": "Esquivar ou arrancar o E, lutar fora do triângulo de tentáculos e entrar só quando Illaoi não puder transformar a área em zona morta. Camille vence quando bate curto e sai antes da luta virar ritual de tentáculo.",
+      "en": "Dodge or pull out E, fight outside the tentacle triangle and enter only when Illaoi cannot turn the area into a dead zone. Camille wins when she hits short and leaves before the fight becomes a tentacle ritual."
+    },
+    "lose_condition": {
+      "pt-BR": "Tomar E em wave ruim, insistir em fight dentro da ult dela e usar Hookshot para entrar onde já existe tentáculo cobrindo tudo. Illaoi adora quando você resolve a lane no lugar que ela já preparou.",
+      "en": "Taking E on a bad wave, insisting on fighting inside her ult and using Hookshot to enter where tentacles already cover everything. Illaoi loves when you try to solve lane in the place she already prepared."
+    },
+    "tempo_control": {
+      "pt-BR": "SE a lane estiver ruim -> priorize crash, reset e vida. Não aceite ficar meia barra só para segurar três minions.",
+      "en": "IF the lane state is bad -> prioritize crash, reset and HP. Do not stay on half health just to hold three minions."
+    },
+    "trading_pattern": {
+      "pt-BR": "Trade bom é depois do E errado, com entrada curta e saída imediata do terreno ruim. Se você fica brigando para provar que ganhou o primeiro Q2, ela ainda consegue virar com tentáculo e sustain.",
+      "en": "A good trade is after a missed E, with a short entry and immediate exit from bad terrain. If you keep fighting to prove you won the first Q2, she can still flip it with tentacles and sustain."
+    },
+    "wave_control_importance": {
+      "pt-BR": "Muito alta. A wave decide se Camille apanha tentando farmar ou se consegue comprar espaço para passiva e Q2.",
+      "en": "Very high. The wave decides whether Camille gets beaten up farming or buys enough room for passive and Q2."
+    },
+    "power_dynamic": {
+      "pt-BR": "Camille melhora quando a lane deixa de ser pura colisão frontal e vira jogo de side, pick e ameaça de Q2 isolado.",
+      "en": "Camille improves once lane stops being a pure front collision and becomes a side-lane, pick and isolated Q2 game."
+    }
+  },
+  "lane_phase": {
+    "punish_window": {
+      "pt-BR": "E em cooldown é a janela. SE Illaoi erra Test of Spirit -> corra para cima rápido, porque essa lane recompensa muito quem cobra o cooldown principal antes de ela reposicionar a wave.",
+      "en": "E on cooldown is the window. IF Illaoi misses Test of Spirit -> run at her fast, because this lane heavily rewards whoever cashes in the core cooldown before she can reposition the wave."
+    },
+    "trade_timing": {
+      "pt-BR": "Troque só depois de checar tentáculos e E. Se a alma ainda pode sair ou há dois tentáculos prontos no mesmo setor, o “trade curto” costuma ser uma mentira cara.",
+      "en": "Trade only after checking tentacles and E. If spirit pull is still live or two tentacles are ready in the same zone, the “short trade” is usually an expensive lie."
+    },
+    "safe_play": {
+      "pt-BR": "SE o E estiver pronto e houver tentáculo cobrindo o lado da lane -> jogue mais curto, use W e preserve HP. Não aceite trocar só porque ela parece imóvel; a zona dela vale mais do que a movimentação dela.",
+      "en": "IF E is ready and a tentacle covers that side of lane -> play shorter, use W and preserve HP. Do not trade just because she looks immobile; her zone matters more than her movement."
+    },
+    "all_in_condition": {
+      "pt-BR": "All-in só é bom depois do E sair ou quando você já sabe que conseguirá ultar/reposicionar sem ficar preso na área da ult dela. Se a luta acontece no ringue dela, a jogada geralmente já nasce ruim.",
+      "en": "All-in is only good after E is down or when you already know you can ult/reposition without getting trapped in her ult area. If the fight happens inside her ring, the play is usually born bad."
+    },
+    "early_plan": {
+      "pt-BR": "Prioridade absoluta: não deixar a lane explodir antes do primeiro reset útil. Camille precisa chegar ao mid game com recursos, não vencer cada troca.",
+      "en": "Absolute priority: do not let lane explode before the first useful reset. Camille needs to reach mid game with resources, not win every single trade."
+    },
+    "level_1_3": {
+      "pt-BR": "SE Illaoi controlar nível 1 ou 2 -> ceda espaço inteligente, proteja XP e não entregue passiva de graça. O objetivo é não entrar no ritmo ruim cedo.",
+      "en": "IF Illaoi controls level 1 or 2 -> give smart space, protect XP and do not donate passive for free. The goal is to avoid falling into a bad early tempo."
+    },
+    "level_4_5": {
+      "pt-BR": "Aqui a wave e os resets pesam muito. SE a lane vier para seu lado -> procure trade reativo. SE estiver empurrando sem visão -> respeite.",
+      "en": "Here wave state and resets matter a lot. IF lane comes toward you -> look for reactive trades. IF you are pushing without vision -> respect the danger."
+    },
+    "level_6": {
+      "pt-BR": "SE o nível 6 do rival muda a luta por completo -> jogue um pouco abaixo da sua vontade e guarde R para negar o frame mais importante da troca.",
+      "en": "IF the enemy level 6 completely changes the duel -> play slightly below your ego and hold R to deny the most important frame of the trade."
+    },
+    "post_6": {
+      "pt-BR": "Depois do 6, Camille quer escolher ângulo e duração. Quanto mais previsível for sua entrada, melhor para o rival responder.",
+      "en": "After level 6, Camille wants to choose the angle and duration. The more predictable your entry is, the easier it is for the enemy to answer."
+    }
+  },
+  "abilities_interaction": {
+    "dangerous_ability": {
+      "pt-BR": "Test of Spirit (E)",
+      "en": "Test of Spirit (E)"
+    },
+    "why_dangerous": {
+      "pt-BR": "Esse é o botão que transforma a lane. Quando a alma sai, Camille perde a liberdade de andar na wave e ainda abre espaço para tentáculo e folbaixa-up. Sem E, Illaoi continua forte; com E acertado, ela controla o terreno inteiro.",
+      "en": "This is the button that transforms the lane. When the spirit lands, Camille loses freedom to walk into the wave and also opens space for tentacles and follow-up. Without E, Illaoi is still strong; with a landed E, she controls the whole terrain."
+    },
+    "how_to_react": {
+      "pt-BR": "SE Illaoi errar E -> entre sem hesitar e saia antes de ela remontar a zona. SE acertar E -> sua prioridade não é orgulho; é minimizar dano, sair do pior terreno e preservar a próxima wave.",
+      "en": "IF Illaoi misses E -> go in without hesitation and leave before she rebuilds the zone. IF she lands E -> your priority is not pride; it is minimizing damage, leaving the worst terrain and preserving the next wave."
+    },
+    "ability_interaction": {
+      "pt-BR": "Hextech Ultimatum pode reposicionar o frame da luta, mas não apaga a punição de ter entrado na área ruim. Hookshot é forte quando muda o ângulo e tira Camille do corredor dos tentáculos, não quando a joga no coração da zona.",
+      "en": "Hextech Ultimatum can reposition the fight frame, but it does not erase the punishment of entering bad terrain. Hookshot is strong when it changes the angle and takes Camille out of the tentacle corridor, not when it throws her into the center of the zone."
+    },
+    "enemy_cooldowns_by_level": {
+      "1-5": {
+        "pt-BR": "Antes do nível 6, trate E spirit pull como o gatilho da lane. SE ele estiver disponível, jogue com mais disciplina; SE sair, a janela é curta mas real.",
+        "en": "Before level 6, treat E spirit pull as the lane trigger. IF it is available, play with discipline; IF it is down, the window is short but real."
+      },
+      "6-10": {
+        "pt-BR": "Com ultimate e mais ranks, a punição por erro cresce. Você deve rastrear não só a skill principal, mas também se o rival ainda tem folbaixa-up para converter a troca.",
+        "en": "With ultimates and extra ranks, punishment for mistakes gets bigger. Track not only the main spell but also whether the enemy still has follow-up to convert the trade."
+      },
+      "11+": {
+        "pt-BR": "No jogo avançado, a janela de cooldown vale mais por pick e side lane do que por lane pura. Use informação para entrar quando o rival não puder repetir a rotação completa.",
+        "en": "Later in the game, cooldown windows matter more for picks and side lane than for pure laning. Use information to enter when the enemy cannot repeat the full rotation."
+      }
+    },
+    "punish_windows_by_cooldown": {
+      "pt-BR": "SE E entrar em cooldown -> acelere muito. Tome wave, parede e a frente do minion wave; mesmo sem matar, você precisa cobrar o direito de jogar a lane como lane, não como campo minado.",
+      "en": "IF E goes on cooldown -> accelerate hard. Take the wave, wall and the front of the minion line; even without killing, you must cash in the right to play lane like a lane, not like a minefield."
+    }
+  },
+  "build": {
+    "start_items": [
+      "Doran's Shield",
+      "Grasp / Bone Plating page",
+      "Early anti-HP component or armor if needed"
+    ],
+    "core_items": [
+      "Trinity Force",
+      "Ravenous Hydra",
+      "Sterak's Gage"
+    ],
+    "full_build": [
+      "Trinity Force",
+      "Ravenous Hydra",
+      "Plated Steelcaps",
+      "Sterak's Gage",
+      "Sundered Sky"
+    ],
+    "situational_items": [
+      "Plated Steelcaps",
+      "Executioner's Calling if sustain is snowballing",
+      "Sterak's Gage",
+      "Guardian Angel",
+      "Hullbreaker style side option"
+    ],
+    "decision_build": {
+      "behind": {
+        "pt-BR": "SE estiver atrás -> compre vida/resistência ou componente defensivo antes de greedar dano. O pior erro é continuar frágil tentando jogar side longa.",
+        "en": "IF you are behind -> buy health/resistance or a defensive component before greed-damaging. The worst mistake is staying fragile and trying to play a long side lane."
+      },
+      "ahead": {
+        "pt-BR": "SE estiver na frente -> acelere o item que converte pressão lateral e force o rival a responder wave ruim repetidas vezes.",
+        "en": "IF you are ahead -> accelerate the item that converts side-lane pressure and force the enemy to answer bad waves repeatedly."
+      },
+      "vs_ap": {
+        "pt-BR": "SE o padrão principal for AP ou poke mágico -> um Bebedor de Hexdrinque/Null-Magic Mantle cedo pode valer mais que insistir no rush limpo.",
+        "en": "IF the main damage pattern is AP or magic poke -> an early Hexdrinker or Null-Magic Mantle can be worth more than insisting on a pure rush."
+      },
+      "vs_tank": {
+        "pt-BR": "SE o rival só quer travar a lane -> valorize item que empurra wave e te deixa escolher side/pick depois.",
+        "en": "IF the enemy only wants to stall lane -> value the item that pushes waves and lets you choose side lane or picks later."
+      }
+    }
+  },
+  "item_winrate_system": {
+    "item_1_options": [
+      {
+        "item": "Trinity Force",
+        "winrate": 51.5,
+        "relevance": "high"
+      },
+      {
+        "item": "Sundered Sky",
+        "winrate": 50.7,
+        "relevance": "medium"
+      },
+      {
+        "item": "Early defensive component",
+        "winrate": 50.4,
+        "relevance": "medium"
+      }
+    ],
+    "item_2_options": [
+      {
+        "item": "Ravenous Hydra",
+        "winrate": 52.2,
+        "relevance": "high"
+      },
+      {
+        "item": "Ravenous Hydra",
+        "winrate": 51.4,
+        "relevance": "medium"
+      },
+      {
+        "item": "Defensive pivot",
+        "winrate": 51.0,
+        "relevance": "medium"
+      }
+    ],
+    "item_3_options": [
+      {
+        "item": "Sterak's Gage",
+        "winrate": 53.0,
+        "relevance": "high"
+      },
+      {
+        "item": "Death's Dance",
+        "winrate": 52.5,
+        "relevance": "high"
+      },
+      {
+        "item": "Maw of Malmortius",
+        "winrate": 52.1,
+        "relevance": "medium"
+      }
+    ]
+  },
+  "runes": {
+    "most_used": {
+      "pt-BR": "Aperto dos Mortos-Vivos é o setup mais estável para toque curto e saída rápida.",
+      "en": "Grasp is the most stable setup for short contact and a quick exit."
+    },
+    "highest_winrate": {
+      "pt-BR": "Aperto dos Mortos-Vivos costuma render melhor porque a matchup gira em torno de janelas curtas depois do E, não de briga longa no território dela.",
+      "en": "Grasp usually performs better because the matchup revolves around short windows after E, not long brawls in her territory."
+    },
+    "situational": {
+      "pt-BR": "Osso Revestido ajuda contra commit curto; sustain pode ser útil se você estiver apanhando demais só para tocar a wave.",
+      "en": "Bone Plating helps against short commits; sustain can help if you are taking too much just to touch the wave."
+    },
+    "when_to_use_each": {
+      "pt-BR": "SE a lane estiver exigindo muita disciplina pós-E -> Aperto dos Mortos-Vivos. Se o jogo futuro promete side mais longa e você domina o dodge do E -> Conquistador pode aparecer, mas não é padrão.",
+      "en": "IF lane demands a lot of post-E discipline -> Grasp. If future game promises longer side lane and you master dodging E -> Conqueror can appear, but it is not default."
+    },
+    "matchup_specific_reason": {
+      "pt-BR": "A página certa é a que te deixa entrar na janela do E errado e sair vivo do terreno ruim.",
+      "en": "The right page is the one that lets you enter on a missed E window and leave bad terrain alive."
+    },
+    "recommended_pages": [
+      {
+        "page_name": {
+          "pt-BR": "Página principal",
+          "en": "Primary page"
+        },
+        "keystone": {
+          "pt-BR": "Aperto dos Mortos-Vivos",
+          "en": "Grasp of the Undying"
+        },
+        "primary_tree": {
+          "pt-BR": "Determinação",
+          "en": "Resolve"
+        },
+        "primary_slots": [
+          {
+            "pt-BR": "Golpe de Escudo",
+            "en": "Shield Bash"
+          },
+          {
+            "pt-BR": "Osso Revestido",
+            "en": "Bone Plating"
+          },
+          {
+            "pt-BR": "Crescimento Excessivo",
+            "en": "Overgrowth"
+          }
+        ],
+        "secondary_tree": {
+          "pt-BR": "Precisão",
+          "en": "Precision"
+        },
+        "secondary_slots": [
+          {
+            "pt-BR": "Presença de Espírito",
+            "en": "Presence of Mind"
+          },
+          {
+            "pt-BR": "Até a Morte",
+            "en": "Last Stand"
+          }
+        ],
+        "shards": [
+          {
+            "pt-BR": "Velocidade de Ataque",
+            "en": "Attack Speed"
+          },
+          {
+            "pt-BR": "Força Adaptativa",
+            "en": "Adaptive Force"
+          },
+          {
+            "pt-BR": "Armadura",
+            "en": "Armor"
+          }
+        ],
+        "reason": {
+          "pt-BR": "Página mais estável quando a lane é decidida por trocas curtas, controle de HP e passiva bem sincronizada.",
+          "en": "Most stable page when the lane is decided by short trades, HP control and well-synced passive timing."
+        },
+        "when": {
+          "pt-BR": "Use quando você precisa sobreviver ao primeiro ciclo ruim e ganhar valor repetido em AA + Q.",
+          "en": "Use it when you need to survive the first bad cycle and extract repeat value from AA + Q."
+        }
+      },
+      {
+        "page_name": {
+          "pt-BR": "Página situacional",
+          "en": "Situational page"
+        },
+        "keystone": {
+          "pt-BR": "Conquistador",
+          "en": "Conqueror"
+        },
+        "primary_tree": {
+          "pt-BR": "Precisão",
+          "en": "Precision"
+        },
+        "primary_slots": [
+          {
+            "pt-BR": "Triunfo",
+            "en": "Triumph"
+          },
+          {
+            "pt-BR": "Lenda: Espontaneidade",
+            "en": "Legend: Alacrity"
+          },
+          {
+            "pt-BR": "Até a Morte",
+            "en": "Last Stand"
+          }
+        ],
+        "secondary_tree": {
+          "pt-BR": "Determinação",
+          "en": "Resolve"
+        },
+        "secondary_slots": [
+          {
+            "pt-BR": "Golpe de Escudo",
+            "en": "Shield Bash"
+          },
+          {
+            "pt-BR": "Ventos Revigorantes",
+            "en": "Second Wind"
+          }
+        ],
+        "shards": [
+          {
+            "pt-BR": "Velocidade de Ataque",
+            "en": "Attack Speed"
+          },
+          {
+            "pt-BR": "Força Adaptativa",
+            "en": "Adaptive Force"
+          },
+          {
+            "pt-BR": "Vida Escalável",
+            "en": "Health Scaling"
+          }
+        ],
+        "reason": {
+          "pt-BR": "Dá mais teto em side lane e lutas estendidas, mas exige mais respeito no early e mais precisão para não perder a lane antes do spike.",
+          "en": "Gives a higher ceiling in side lane and extended fights, but demands more respect early and cleaner execution to avoid losing lane before the spike."
+        },
+        "when": {
+          "pt-BR": "Use quando o confronto e o jogo prometem luta longa de verdade, não só troca bonita no papel.",
+          "en": "Use it when the matchup and the game truly promise extended fights, not just pretty trades on paper."
+        }
+      }
+    ]
+  },
+  "power_spikes": {
+    "enemy_spikes": [
+      {
+        "pt-BR": "lvl 3 -> primeira rotação completa com ameaça real.",
+        "en": "lvl 3 -> first full rotation with real threat."
+      },
+      {
+        "pt-BR": "lvl 6 -> o duelo muda porque o rival ganha botão de conversão ou negação.",
+        "en": "lvl 6 -> the duel changes because the enemy gains a true conversion or denial button."
+      },
+      {
+        "pt-BR": "item 1 -> a lane pode ficar muito mais punitiva se Camille já estiver atrás.",
+        "en": "first item -> lane can become far more punishing if Camille is already behind."
+      }
+    ],
+    "camille_spikes": [
+      {
+        "pt-BR": "lvl 3 -> kit completo para trade curto e saída.",
+        "en": "lvl 3 -> full kit for short trade and exit."
+      },
+      {
+        "pt-BR": "lvl 6 -> R permite negar frame importante e travar alvo melhor.",
+        "en": "lvl 6 -> R lets Camille deny a key frame and lock the target better."
+      },
+      {
+        "pt-BR": "item 1 -> side lane e pick passam a ter peso real.",
+        "en": "first item -> side lane and picks start to matter for real."
+      }
+    ],
+    "shared_spikes": [
+      {
+        "pt-BR": "lvl 6",
+        "en": "lvl 6"
+      },
+      {
+        "pt-BR": "first reset útil",
+        "en": "first useful reset"
+      },
+      {
+        "pt-BR": "item 1",
+        "en": "first item"
+      }
+    ]
+  },
+  "common_mistakes": [
+    {
+      "pt-BR": "Tratar o E acertado como convite para trocar de volta na marra.",
+      "en": "Treating a landed E as an invitation to force a trade back."
+    },
+    {
+      "pt-BR": "Entrar onde já existe tentáculo cobrindo a rota inteira.",
+      "en": "Engaging where a tentacle already covers the whole path."
+    },
+    {
+      "pt-BR": "Ficar brigando dentro da ult da Illaoi para provar que o primeiro combo foi bom.",
+      "en": "Staying to fight inside Illaoi ult just to prove the first combo was good."
+    }
+  ],
+  "practical_priority": {
+    "boots_priority": {
+      "pt-BR": "Steelcaps é prioridade alta porque reduz muito do castigo físico nas janelas em que o E acerta ou quando você precisa sair correndo da zona.",
+      "en": "Steelcaps is high priority because it reduces a lot of the physical punishment when E lands or when you need to run out of her zone."
+    },
+    "defensive_item_priority": {
+      "pt-BR": "Média/alta. Um pouco de armadura/vida ajuda a não explodir quando um E ruim passa, mas o principal ainda é evitar o terreno dela.",
+      "en": "Medium/high. A bit of armor/HP helps you not explode when one bad E lands, but the main thing is still avoiding her terrain."
+    },
+    "tiamat_or_not": {
+      "pt-BR": "Tiamat ajuda a não ficar preso em wave suja perto de tentáculos, mas só depois de você já estar respeitando bem o E. Não use waveclear como desculpa para lutar na zona errada.",
+      "en": "Tiamat helps avoid getting stuck in messy waves near tentacles, but only after you are already respecting E well. Do not use waveclear as an excuse to fight in the wrong zone."
+    },
+    "rush_core_or_not": {
+      "pt-BR": "Rushar dano é aceitável se você está punindo o E errado; se está tomando espírito demais, estabilize primeiro.",
+      "en": "Rushing damage is acceptable if you are punishing missed E consistently; if you are eating too many spirit pulls, stabilize first."
+    }
+  },
+  "gameplan_complete": {
+    "early_game": {
+      "pt-BR": "Jogue para vida, XP, wave utilizável e leitura do padrão inimigo. Nem toda lane precisa ser vencida cedo; muitas só precisam não desandar.",
+      "en": "Play for HP, XP, a usable wave and a read on the enemy pattern. Not every lane has to be won early; many just need to avoid collapsing."
+    },
+    "mid_game": {
+      "pt-BR": "Procure side lane com visão, picks curtos e rotações em que Camille entra primeiro. Se o rival for melhor frontalmente, não aceite frontalidade de graça.",
+      "en": "Look for a warded side lane, short picks and rotations where Camille enters first. If the enemy is better frontally, do not accept free front-to-front fights."
+    },
+    "late_game": {
+      "pt-BR": "Escolha entre split, flank e pick pelo estado dos summoners e pela composição. Camille vale mais quando ameaça alvo isolado do que quando entra sem informação.",
+      "en": "Choose between split, flank and pick based on summoner states and team compositions. Camille is worth more when threatening an isolated target than when she enters without information."
+    }
+  },
+  "practical_situations": [
+    {
+      "pt-BR": "SE a wave estiver grande contra você -> não force engage heroico; limpe o mínimo, preserve HP e espere o próximo ciclo.",
+      "en": "IF the wave is big against you -> do not force a hero engage; clear the minimum, preserve HP and wait for the next cycle."
+    },
+    {
+      "pt-BR": "SE o rival gastar a spell central para farm ou zonear errado -> dê o passo para frente e cobre espaço imediatamente.",
+      "en": "IF the enemy spends the central spell to farm or mis-zone -> take the step forward and claim space immediately."
+    },
+    {
+      "pt-BR": "SE o jungle inimigo puder estar perto e sua rota de saída estiver ruim -> trate a lane como perdida por 10 segundos e não por 10 minutos.",
+      "en": "IF the enemy jungler can be nearby and your exit route is bad -> treat the lane as lost for 10 seconds, not for 10 minutes."
+    }
+  ],
+  "camille_identity_in_matchup": {
+    "split_or_teamfight": {
+      "pt-BR": "Camille normalmente prefere side lane e pick, entrando em teamfight mais por flanco e alvo específico do que por frente a frente.",
+      "en": "Camille usually prefers side lane and picks, entering teamfights more through flanks and specific targets than through front-to-front combat."
+    },
+    "playstyle": {
+      "pt-BR": "Paciente, cirúrgico e guiado por janela. Nessa matchup, pressa costuma valer mais para o rival do que para Camille.",
+      "en": "Patient, surgical and window-based. In this matchup, haste usually benefits the enemy more than Camille."
+    },
+    "role_no_jogo": {
+      "pt-BR": "Criar pressão lateral, forçar resposta ruim e converter um erro de posicionamento em pick ou objetivo.",
+      "en": "Create side pressure, force a bad answer and convert a positioning mistake into a pick or objective."
+    }
+  },
+  "real_difficulty": {
+    "why_its_hard": {
+      "pt-BR": "É difícil porque um único E muda completamente o espaço jogável da Camille. A matchup pune demais quem confunde 'vou punir' com 'vou lutar onde ela quer'.",
+      "en": "It is hard because one landed E completely changes Camille's playable space. The matchup heavily punishes those who confuse 'I will punish' with 'I will fight where she wants'."
+    },
+    "what_it_demands": {
+      "pt-BR": "Exige dodge do E, leitura de tentáculo, disciplina para sair cedo e muita consciência de terreno.",
+      "en": "It demands E dodging, tentacle awareness, discipline to leave early and a lot of terrain awareness."
+    }
+  },
+  "metadata": {
+    "data_quality": {
+      "lane": "high",
+      "build": "high",
+      "runes": "high"
+    },
+    "source_priority": [
+      "official_riot",
+      "trusted_stats",
+      "expert_matchup_notes",
+      "vod_review"
+    ],
+    "last_reviewed_patch": "16.7.1",
+    "content_status": "elite_top15_round2_preserved"
+  }
+}

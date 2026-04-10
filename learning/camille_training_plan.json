@@ -1,0 +1,308 @@
+{
+  "overview": {
+    "pt-BR": "Plano premium de treino da Camille focado em evolução real. A ordem importa: primeiro fundamentos que evitam throw, depois execução que converte janela, e só então refinamentos avançados.",
+    "en": "Premium Camille training plan focused on real improvement. Order matters: first the fundamentals that prevent throws, then the execution that converts windows, and only then advanced refinements."
+  },
+  "training_philosophy": {
+    "pt-BR": "Treinar Camille não é só treinar combo. É treinar quando NÃO usar combo, quando NÃO usar E, quando NÃO forçar all-in e quando transformar pequena vantagem em mapa.",
+    "en": "Training Camille is not just training combos. It is training when NOT to combo, when NOT to use E, when NOT to force all-ins and when to convert small leads into map pressure."
+  },
+  "learning_order": {
+    "pt-BR": [
+      "1) ritmo de troca curta com passiva + Q2",
+      "2) disciplina de E",
+      "3) leitura de wave e reset",
+      "4) uso defensivo/ofensivo do R",
+      "5) side lane e conversão de lead",
+      "6) escolha de setup/build conforme o jogo"
+    ],
+    "en": [
+      "1) short-trade rhythm with passive + Q2",
+      "2) E discipline",
+      "3) wave and reset reading",
+      "4) defensive/offensive R usage",
+      "5) side lane and lead conversion",
+      "6) setup/build choice according to game"
+    ]
+  },
+  "levels": [
+    {
+      "level": "beginner",
+      "identity": {
+        "pt-BR": "Objetivo do iniciante: parar de perder lane por ansiedade.",
+        "en": "Beginner goal: stop losing lane through anxiety."
+      },
+      "train_first": {
+        "pt-BR": [
+          "AA > Q1 > sair > Q2 em troca curta limpa",
+          "tempo da passiva antes de entrar",
+          "não gastar E no escuro",
+          "farm sob pressão sem transformar toda wave em all-in"
+        ],
+        "en": [
+          "AA > Q1 > disengage > Q2 in clean short trades",
+          "passive timing before entering",
+          "not spending E into fog",
+          "farming under pressure without turning every wave into an all-in"
+        ]
+      },
+      "practice_tool": {
+        "pt-BR": [
+          "30 repetições de AA > Q1 > Q2 com ritmo correto",
+          "30 repetições de Q1 em minion > andar > Q2 no timing ideal",
+          "sequência E em paredes diferentes sem errar o segundo cast"
+        ],
+        "en": [
+          "30 reps of AA > Q1 > Q2 with correct rhythm",
+          "30 reps of Q1 on minion > move > Q2 on ideal timing",
+          "E sequences on different walls without missing the second cast"
+        ]
+      },
+      "normal_games": {
+        "pt-BR": [
+          "Meta do jogo: morrer menos por E ofensivo ruim",
+          "Escolher uma lane e jogar 10 partidas priorizando troca curta correta",
+          "Anotar quantas vezes usou R cedo demais"
+        ],
+        "en": [
+          "Game goal: die less from bad offensive E usage",
+          "Pick one lane pattern and play 10 games prioritizing correct short trades",
+          "Track how many times you used R too early"
+        ]
+      },
+      "ranked_focus": {
+        "pt-BR": "Em ranked, o iniciante deve priorizar Aperto dos Mortos-Vivos, linhas estáveis e execução limpa; não setup criativo.",
+        "en": "In ranked, a beginner should prioritize Grasp, stable lines and clean execution, not creative setups."
+      },
+      "mastery_signs": {
+        "pt-BR": [
+          "Você para de morrer à toa nos níveis 1-4",
+          "Seu Q2 começa a entrar com intenção, não por sorte",
+          "Seus engages passam a ter motivo claro"
+        ],
+        "en": [
+          "You stop dying for free on levels 1-4",
+          "Your Q2 starts landing intentionally, not by luck",
+          "Your engages begin to have a clear reason"
+        ]
+      },
+      "not_mastered_signs": {
+        "pt-BR": [
+          "Você usa E para começar qualquer troca",
+          "Você luta sem passiva pronta",
+          "Você faz Q2 cedo demais por ansiedade"
+        ],
+        "en": [
+          "You use E to start every trade",
+          "You fight without passive ready",
+          "You fire Q2 too early due to impatience"
+        ]
+      }
+    },
+    {
+      "level": "intermediate",
+      "identity": {
+        "pt-BR": "Objetivo do intermediário: transformar lane boa em mapa forte.",
+        "en": "Intermediate goal: turn a good lane into a strong map state."
+      },
+      "train_first": {
+        "pt-BR": [
+          "Q1 preparado > E > Q2",
+          "bait de cooldown antes do engage real",
+          "usar R para negar spell importante",
+          "transição lane -> side lane sem perder tempo"
+        ],
+        "en": [
+          "Primed Q1 > E > Q2",
+          "cooldown bait before the real engage",
+          "using R to deny an important spell",
+          "lane -> side-lane transition without losing tempo"
+        ]
+      },
+      "practice_tool": {
+        "pt-BR": [
+          "15 repetições de E > AA > Q1 > R > Q2 com foco em timing, não velocidade",
+          "treino de E em ângulos menos óbvios",
+          "treino de reação: ultar “em resposta”, não “por reflexo”"
+        ],
+        "en": [
+          "15 reps of E > AA > Q1 > R > Q2 focused on timing, not speed",
+          "E practice through less obvious angles",
+          "reaction practice: R 'in response,' not 'on reflex'"
+        ]
+      },
+      "normal_games": {
+        "pt-BR": [
+          "Treinar 5 jogos só de side lane disciplinada",
+          "Revisar se as kills viraram torre, wave, visão ou objetivo",
+          "Mapear quantas vezes morreu por greed depois de ficar forte"
+        ],
+        "en": [
+          "Practice 5 games focused only on disciplined side lane play",
+          "Review whether kills turned into tower, wave, vision or objectives",
+          "Track how often you died from greed after getting strong"
+        ]
+      },
+      "ranked_focus": {
+        "pt-BR": "Em ranked, o intermediário deve começar a escolher runa/build por contexto e não por hábito automático.",
+        "en": "In ranked, an intermediate player should start choosing runes/build by context rather than automatic habit."
+      },
+      "mastery_signs": {
+        "pt-BR": [
+          "Você reconhece melhor quando jogar side e quando agrupar",
+          "Seu R começa a negar spells com intenção real",
+          "Você converte lead sem doar shutdown com frequência"
+        ],
+        "en": [
+          "You better recognize when to side lane and when to group",
+          "Your R begins to deny spells with real intention",
+          "You convert leads without donating shutdowns often"
+        ]
+      },
+      "not_mastered_signs": {
+        "pt-BR": [
+          "Você ganha lane e some do mapa",
+          "Você força teamfight frontal toda vez",
+          "Você escolhe runa/item igual em partidas opostas"
+        ],
+        "en": [
+          "You win lane and disappear from the map",
+          "You force front-to-back teamfights every time",
+          "You choose the same rune/item in opposite game states"
+        ]
+      }
+    },
+    {
+      "level": "advanced",
+      "identity": {
+        "pt-BR": "Objetivo do avançado: usar Camille como campeã de decisão, não só de mecânica.",
+        "en": "Advanced goal: use Camille as a decision champion, not only a mechanical one."
+      },
+      "train_first": {
+        "pt-BR": [
+          "escolha de alvo em teamfight",
+          "flanco disciplinado",
+          "uso mental do R para negar a resposta certa",
+          "side lane em mapa hostil sem morrer"
+        ],
+        "en": [
+          "target choice in teamfights",
+          "disciplined flanking",
+          "mental use of R to deny the correct response",
+          "side-lane play on hostile maps without dying"
+        ]
+      },
+      "practice_tool": {
+        "pt-BR": [
+          "repetições curtas de combos avançados com foco em consistência",
+          "teste de ranges/ângulos de E em paredes-chave",
+          "timing de R contra animações específicas"
+        ],
+        "en": [
+          "short repetitions of advanced combos focused on consistency",
+          "E range/angle tests on key walls",
+          "R timing against specific animations"
+        ]
+      },
+      "normal_games": {
+        "pt-BR": [
+          "Treinar pickoff e flank sem entrar cedo demais",
+          "Treinar side lane com objetivo prestes a nascer",
+          "Treinar recuperação de jogo atrás sem coinflip"
+        ],
+        "en": [
+          "Practice pickoffs and flanks without entering too early",
+          "Practice side lane with major objectives about to spawn",
+          "Practice recovering from behind without coinflips"
+        ]
+      },
+      "ranked_focus": {
+        "pt-BR": "Em ranked, o avançado precisa ler draft, condição de vitória e resposta inimiga antes mesmo da lane começar.",
+        "en": "In ranked, an advanced player must read draft, win condition and enemy answer before lane even begins."
+      },
+      "mastery_signs": {
+        "pt-BR": [
+          "Você raramente usa E ou R sem plano de continuação",
+          "Seu side lane força respostas ruins com frequência",
+          "Você entra melhor e mais tarde em fight, mas com muito mais impacto"
+        ],
+        "en": [
+          "You rarely use E or R without a continuation plan",
+          "Your side lane frequently forces bad responses",
+          "You enter fights later and better, but with much more impact"
+        ]
+      },
+      "not_mastered_signs": {
+        "pt-BR": [
+          "Você ainda trata o combo bonito como objetivo final",
+          "Você não identifica quando a partida pede defesa antes de dano",
+          "Você se prende demais a 1v1 e perde a leitura do mapa"
+        ],
+        "en": [
+          "You still treat the flashy combo as the final goal",
+          "You do not identify when the game demands defense before damage",
+          "You get stuck in 1v1 obsession and lose map reading"
+        ]
+      }
+    }
+  ],
+  "combo_priority": {
+    "pt-BR": [
+      "Dominar primeiro: AA > Q1 > sair > Q2",
+      "Depois: Q1 preparado > E > Q2",
+      "Depois: E > AA > Q1 > R > Q2",
+      "Só depois disso: techs de flash, bait com R e sequências muito contextuais"
+    ],
+    "en": [
+      "Master first: AA > Q1 > disengage > Q2",
+      "Then: primed Q1 > E > Q2",
+      "Then: E > AA > Q1 > R > Q2",
+      "Only after that: flash tech, R bait patterns and highly contextual sequences"
+    ]
+  },
+  "measurement": {
+    "pt-BR": [
+      "Métrica 1: mortes por E ofensivo sem informação",
+      "Métrica 2: quantas kills viraram placa/torre/objetivo",
+      "Métrica 3: quantas vezes o Q2 foi desperdiçado por pressa",
+      "Métrica 4: quantas vezes o R foi usado cedo demais ou tarde demais",
+      "Métrica 5: quantidade de sides longas jogadas sem morrer inutilmente"
+    ],
+    "en": [
+      "Metric 1: deaths from offensive E without information",
+      "Metric 2: how many kills became plates/tower/objective",
+      "Metric 3: how often Q2 was wasted through haste",
+      "Metric 4: how often R was used too early or too late",
+      "Metric 5: amount of long side-lane sequences played without useless deaths"
+    ]
+  },
+  "sample_week": {
+    "pt-BR": [
+      "Dia 1: Practice Tool + 3 jogos focando só em troca curta",
+      "Dia 2: 3 jogos focando em E disciplinado",
+      "Dia 3: revisão curta de VOD própria + 3 jogos focando em wave/reset",
+      "Dia 4: 3 jogos focando em side lane e conversão de lead",
+      "Dia 5: 3 jogos focando em R defensivo/ofensivo correto",
+      "Dia 6: ranked com setup padrão e revisão pós-jogo",
+      "Dia 7: descanso ativo ou VOD de referência high elo"
+    ],
+    "en": [
+      "Day 1: Practice Tool + 3 games focused only on short trades",
+      "Day 2: 3 games focused on disciplined E usage",
+      "Day 3: short self-VOD review + 3 games focused on wave/reset quality",
+      "Day 4: 3 games focused on side lane and lead conversion",
+      "Day 5: 3 games focused on correct defensive/offensive R usage",
+      "Day 6: ranked with standard setup and post-game review",
+      "Day 7: active rest or a high-elo reference VOD"
+    ]
+  },
+  "metadata": {
+    "data_quality": "high",
+    "last_updated": "2026-04-09",
+    "pipeline_alignment": [
+      "pipeline/data_rules.md",
+      "pipeline/content_priority.md",
+      "pipeline/scoring_rules.md"
+    ]
+  }
+}

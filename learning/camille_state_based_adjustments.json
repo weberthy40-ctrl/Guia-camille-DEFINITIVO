@@ -1,0 +1,362 @@
+{
+  "overview": {
+    "pt-BR": "Ajustes por estado de jogo para a Camille. Este módulo resume o que muda na leitura quando recursos, vantagem, summoners, ultimate ou tipo de janela alteram o valor das suas decisões.",
+    "en": "State-based adjustments for Camille. This module summarizes what changes in your read when resources, lead state, summoners, ultimate, or window type alter the value of your decisions."
+  },
+  "reading_rule": {
+    "pt-BR": "A mesma jogada muda de valor quando o estado muda. Em Camille, ignorar o estado atual costuma transformar boa mecânica em decisão ruim.",
+    "en": "The same play changes value when the state changes. On Camille, ignoring the current state often turns good mechanics into bad decisions."
+  },
+  "state_blocks": [
+    {
+      "state_key": "ahead",
+      "title": {
+        "pt-BR": "Camille está na frente",
+        "en": "Camille is ahead"
+      },
+      "what_changes": {
+        "pt-BR": "Você passa a controlar mais a troca, a side e a ameaça de pick, mas seu throw também fica mais caro.",
+        "en": "You control trades, side lane, and pick threat more, but your throws also become more expensive."
+      },
+      "avoid_this": {
+        "pt-BR": "Caçar altalight isolado e devolver shutdown ou tempo de mapa.",
+        "en": "Hunting isolated highlights and giving shutdowns or map time back."
+      },
+      "priority_decision": {
+        "pt-BR": "Transformar força em pressão reproduzível: wave, visão, pick e objetivo.",
+        "en": "Turn strength into repeatable pressure: wave, vision, pick, and objective control."
+      },
+      "most_punishable_error": {
+        "pt-BR": "Entrar fundo sem necessidade só porque pode.",
+        "en": "Going too deep for no reason just because you can."
+      },
+      "quick_if_then": {
+        "pt-BR": "SE estiver na frente → cobre mapa e recursos antes de cobrar ego.",
+        "en": "IF ahead → tax map and resources before taxing ego."
+      },
+      "linked_modules": [
+        "data/learning/camille_macro.json",
+        "data/learning/camille_decision_recovery.json"
+      ]
+    },
+    {
+      "state_key": "even",
+      "title": {
+        "pt-BR": "Jogo parelho",
+        "en": "Game is even"
+      },
+      "what_changes": {
+        "pt-BR": "O valor da disciplina sobe. Pequeno erro de entrada ou wave pode decidir a próxima sequência inteira.",
+        "en": "The value of discipline rises. A small entry or wave error can decide the whole next sequence."
+      },
+      "avoid_this": {
+        "pt-BR": "All-in por ansiedade para quebrar o equilíbrio sem informação suficiente.",
+        "en": "An impatient all-in to break the equilibrium without enough information."
+      },
+      "priority_decision": {
+        "pt-BR": "Jogar pela primeira janela limpa e pelo primeiro erro realmente punível.",
+        "en": "Play for the first clean window and the first truly punishable mistake."
+      },
+      "most_punishable_error": {
+        "pt-BR": "Trocar consistência por pressa.",
+        "en": "Trading consistency for urgency."
+      },
+      "quick_if_then": {
+        "pt-BR": "SE o jogo estiver parelho → trate informação e tempo como recurso de dano.",
+        "en": "IF the game is even → treat information and time as damage resources."
+      },
+      "linked_modules": [
+        "data/learning/camille_phase_checklists.json",
+        "data/learning/camille_situational_gameplans.json"
+      ]
+    },
+    {
+      "state_key": "behind",
+      "title": {
+        "pt-BR": "Camille está atrás",
+        "en": "Camille is behind"
+      },
+      "what_changes": {
+        "pt-BR": "Sua margem de erro encolhe e seu valor passa mais por contenção inteligente, pick oportunista e disciplina de recurso.",
+        "en": "Your margin for error shrinks and your value shifts toward smart containment, opportunistic picks, and resource discipline."
+      },
+      "avoid_this": {
+        "pt-BR": "Forçar a recuperação no clique seguinte.",
+        "en": "Trying to recover on the very next click."
+      },
+      "priority_decision": {
+        "pt-BR": "Parar o sangramento, coletar recursos jogáveis e pegar só janelas de baixa variância.",
+        "en": "Stop the bleeding, collect playable resources, and take only low-variance windows."
+      },
+      "most_punishable_error": {
+        "pt-BR": "Morrer de novo tentando voltar para o jogo sem condição real.",
+        "en": "Dying again while trying to get back into the game without a real condition."
+      },
+      "quick_if_then": {
+        "pt-BR": "SE estiver atrás → sobreviver com disciplina já é parte do comeback.",
+        "en": "IF behind → surviving with discipline is already part of the comeback."
+      },
+      "linked_modules": [
+        "data/learning/camille_decision_recovery.json",
+        "data/learning/camille_common_mistakes.json"
+      ]
+    },
+    {
+      "state_key": "strong_in_side",
+      "title": {
+        "pt-BR": "Forte em side lane",
+        "en": "Strong in side lane"
+      },
+      "what_changes": {
+        "pt-BR": "Sua pressão lateral ganha valor de informação, tempo e pick, desde que a side continue segura o bastante.",
+        "en": "Your side pressure gains information, time, and pick value as long as side lane remains safe enough."
+      },
+      "avoid_this": {
+        "pt-BR": "Confundir força de side com licença para sumir do mapa sem custo.",
+        "en": "Confusing side-lane strength with a license to disappear from the map for free."
+      },
+      "priority_decision": {
+        "pt-BR": "Maximizar resposta inimiga ruim sem ultrapassar o ponto de colapso.",
+        "en": "Maximize bad enemy responses without crossing the collapse point."
+      },
+      "most_punishable_error": {
+        "pt-BR": "Andar uma wave a mais quando já não precisa.",
+        "en": "Walking one extra wave when you no longer need to."
+      },
+      "quick_if_then": {
+        "pt-BR": "SE estiver forte na side → pressione até onde ainda controla saída e informação.",
+        "en": "IF strong in side lane → pressure only as far as you still control exit and information."
+      },
+      "linked_modules": [
+        "data/learning/camille_macro.json",
+        "data/learning/camille_situational_gameplans.json"
+      ]
+    },
+    {
+      "state_key": "weak_in_side",
+      "title": {
+        "pt-BR": "Fraca em side lane",
+        "en": "Weak in side lane"
+      },
+      "what_changes": {
+        "pt-BR": "A side deixa de ser zona de conversão e vira zona de risco. Sua leitura precisa encurtar.",
+        "en": "Side lane stops being a conversion zone and becomes a risk zone. Your read needs to shorten."
+      },
+      "avoid_this": {
+        "pt-BR": "Manter o mesmo padrão de split só porque ele funcionou antes.",
+        "en": "Keeping the same split pattern just because it worked earlier."
+      },
+      "priority_decision": {
+        "pt-BR": "Pegar a parte segura da wave e voltar para impacto mais controlável.",
+        "en": "Take the safe portion of the wave and return to more controllable impact."
+      },
+      "most_punishable_error": {
+        "pt-BR": "Empurrar fundo sem duelista favorável, rota ou visão.",
+        "en": "Pushing deep without a favorable duel, route, or vision."
+      },
+      "quick_if_then": {
+        "pt-BR": "SE a side ficou fraca → side curta vale mais que morte longa.",
+        "en": "IF side lane becomes weak → a short side is worth more than a long death."
+      },
+      "linked_modules": [
+        "data/learning/camille_adaptation_layers.json",
+        "data/learning/camille_review_checklists.json"
+      ]
+    },
+    {
+      "state_key": "flash_up",
+      "title": {
+        "pt-BR": "Com flash",
+        "en": "With flash"
+      },
+      "what_changes": {
+        "pt-BR": "Sua ameaça de alcance, correção de ângulo e pick sobe. O inimigo precisa respeitar mais espaço.",
+        "en": "Your reach, angle correction, and pick threat go up. The enemy must respect more space."
+      },
+      "avoid_this": {
+        "pt-BR": "Queimar flash para salvar jogada ruim que já devia ter sido abortada.",
+        "en": "Burning flash to save a bad play that should already have been aborted."
+      },
+      "priority_decision": {
+        "pt-BR": "Usar flash para aumentar qualidade de janela, não para maquiar leitura ruim.",
+        "en": "Use flash to increase window quality, not to disguise a bad read."
+      },
+      "most_punishable_error": {
+        "pt-BR": "Jogar como se flash fosse obrigação de gastar em qualquer sequência forte.",
+        "en": "Playing as if flash must be spent in every strong sequence."
+      },
+      "quick_if_then": {
+        "pt-BR": "SE tiver flash → ameace mais, mas commit só quando a janela realmente melhorar com ele.",
+        "en": "IF flash is up → threaten more, but commit only when the window truly improves with it."
+      },
+      "linked_modules": [
+        "data/learning/camille_combos.json",
+        "data/learning/camille_execution_reference.json"
+      ]
+    },
+    {
+      "state_key": "flash_down",
+      "title": {
+        "pt-BR": "Sem flash",
+        "en": "Without flash"
+      },
+      "what_changes": {
+        "pt-BR": "Sua correção de rota piora e o preço de entrar ou avançar mal sobe bastante.",
+        "en": "Your route correction gets worse and the cost of bad entries or overextension rises sharply."
+      },
+      "avoid_this": {
+        "pt-BR": "Entrar em ângulo que exigiria flash para sair ou concluir.",
+        "en": "Entering an angle that would require flash to exit or finish."
+      },
+      "priority_decision": {
+        "pt-BR": "Jogar por setups mais limpos, rota de saída melhor e ângulos menos gananciosos.",
+        "en": "Play for cleaner setups, better exit routes, and less greedy angles."
+      },
+      "most_punishable_error": {
+        "pt-BR": "Copiar a agressividade do estado com flash disponível.",
+        "en": "Copying the aggression level of the flash-up state."
+      },
+      "quick_if_then": {
+        "pt-BR": "SE estiver sem flash → sua disciplina de entrada precisa subir um nível.",
+        "en": "IF flash is down → your entry discipline needs to go up one full level."
+      },
+      "linked_modules": [
+        "data/learning/camille_adaptation_layers.json",
+        "data/learning/camille_decision_recovery.json"
+      ]
+    },
+    {
+      "state_key": "ultimate_up",
+      "title": {
+        "pt-BR": "Com ultimate disponível",
+        "en": "With ultimate available"
+      },
+      "what_changes": {
+        "pt-BR": "Você ganha poder de trava, dodge, reposicionamento e compra de tempo. Sua ameaça vira mais completa.",
+        "en": "You gain lock, dodge, reposition, and time-buying power. Your threat becomes more complete."
+      },
+      "avoid_this": {
+        "pt-BR": "Usar R cedo só porque está disponível, sem definir sua função naquele lance.",
+        "en": "Using R early just because it is available, without defining its role in that play."
+      },
+      "priority_decision": {
+        "pt-BR": "Decidir antes da entrada se o R vai negar, prender, reposicionar ou estabilizar.",
+        "en": "Decide before entry whether R will deny, trap, reposition, or stabilize."
+      },
+      "most_punishable_error": {
+        "pt-BR": "Gastar R sem plano e perder a ferramenta que cobria o risco da jogada.",
+        "en": "Spending R without a plan and losing the tool that covered the play’s risk."
+      },
+      "quick_if_then": {
+        "pt-BR": "SE o R estiver up → defina a função dele antes do commit, não durante o pânico.",
+        "en": "IF R is up → define its role before commit, not during panic."
+      },
+      "linked_modules": [
+        "data/learning/camille_advanced_interactions.json",
+        "data/learning/camille_decision_recovery.json"
+      ]
+    },
+    {
+      "state_key": "ultimate_down",
+      "title": {
+        "pt-BR": "Sem ultimate",
+        "en": "Without ultimate"
+      },
+      "what_changes": {
+        "pt-BR": "Sua margem para corrigir erro de entrada, negar resposta ou travar alvo encolhe bastante.",
+        "en": "Your margin to fix entry mistakes, deny enemy answers, or lock a target shrinks heavily."
+      },
+      "avoid_this": {
+        "pt-BR": "Comprar luta do mesmo jeito que compraria com o R disponível.",
+        "en": "Taking the fight exactly as you would with R available."
+      },
+      "priority_decision": {
+        "pt-BR": "Valorizar picks mais simples, folbaixa-up e janelas de baixo atrito.",
+        "en": "Value simpler picks, follow-up plays, and low-friction windows."
+      },
+      "most_punishable_error": {
+        "pt-BR": "Assumir que ainda pode atravessar a mesma quantidade de resposta inimiga.",
+        "en": "Assuming you can still cross the same amount of enemy response."
+      },
+      "quick_if_then": {
+        "pt-BR": "SE estiver sem R → baixe a ambição e aumente a limpeza da decisão.",
+        "en": "IF R is down → lower ambition and raise decision cleanliness."
+      },
+      "linked_modules": [
+        "data/learning/camille_execution_reference.json",
+        "data/learning/camille_situational_gameplans.json"
+      ]
+    },
+    {
+      "state_key": "pick_window_available",
+      "title": {
+        "pt-BR": "Com janela de pick",
+        "en": "With a pick window"
+      },
+      "what_changes": {
+        "pt-BR": "O valor de corredor, visão e rota curta dispara. Camille pode decidir a sequência antes da luta cheia.",
+        "en": "The value of corridors, vision, and short routes spikes. Camille can decide the sequence before the full fight."
+      },
+      "avoid_this": {
+        "pt-BR": "Esperar demais e deixar a janela morrer por indecisão.",
+        "en": "Waiting too long and letting the window die through indecision."
+      },
+      "priority_decision": {
+        "pt-BR": "Confirmar rápido se existe folbaixa-up ou saída suficiente e então commit limpo.",
+        "en": "Quickly confirm whether there is enough follow-up or exit room and then commit cleanly."
+      },
+      "most_punishable_error": {
+        "pt-BR": "Transformar pick boa em luta ruim porque avançou além do necessário.",
+        "en": "Turning a good pick into a bad fight by overextending past what was needed."
+      },
+      "quick_if_then": {
+        "pt-BR": "SE a janela de pick abriu → seja rápida e limpa, não longa e dramática.",
+        "en": "IF a pick window opens → be quick and clean, not long and dramatic."
+      },
+      "linked_modules": [
+        "data/learning/camille_macro.json",
+        "data/learning/camille_decision_recovery.json"
+      ]
+    },
+    {
+      "state_key": "no_clean_engage",
+      "title": {
+        "pt-BR": "Sem janela de engage limpo",
+        "en": "Without a clean engage window"
+      },
+      "what_changes": {
+        "pt-BR": "Sua ameaça continua existindo, mas agora ela vale mais como pressão de espaço e espera disciplinada.",
+        "en": "Your threat still exists, but now it is worth more as space pressure and disciplined waiting."
+      },
+      "avoid_this": {
+        "pt-BR": "Achar que ausência de engage limpo significa obrigação de forçar engage sujo.",
+        "en": "Thinking that the absence of a clean engage means you must force a dirty engage."
+      },
+      "priority_decision": {
+        "pt-BR": "Ganhar posição, informação e erro rival antes do commit.",
+        "en": "Gain position, information, and enemy mistakes before committing."
+      },
+      "most_punishable_error": {
+        "pt-BR": "Desrespeitar comp, peel ou estado de recurso só porque o botão está disponível.",
+        "en": "Disrespecting comp, peel, or resource state just because the button is available."
+      },
+      "quick_if_then": {
+        "pt-BR": "SE não houver engage limpo → pressione sem se prender à obrigação de clicar agora.",
+        "en": "IF there is no clean engage → pressure without binding yourself to clicking now."
+      },
+      "linked_modules": [
+        "data/learning/camille_adaptation_layers.json",
+        "data/learning/camille_microtips.json"
+      ]
+    }
+  ],
+  "metadata": {
+    "data_quality": "high",
+    "last_updated": "2026-04-09",
+    "pipeline_alignment": [
+      "data_rules",
+      "content_priority"
+    ],
+    "scope": "parallel_2_round6_situational_adaptation"
+  }
+}

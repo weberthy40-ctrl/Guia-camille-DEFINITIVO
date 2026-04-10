@@ -1,0 +1,211 @@
+{
+  "overview": {
+    "pt-BR": "Árvore premium de decisão de runas da Camille. O objetivo é ligar runa à forma de jogar a lane e o mapa, não apenas copiar uma página estática.",
+    "en": "Premium Camille rune decision tree. The goal is to connect runes to how you will play the lane and the map, not merely copy a static page."
+  },
+  "rune_identity": {
+    "pt-BR": "Runas de Camille devem resolver uma pergunta real: eu preciso estabilidade de lane, troca curta forte, scaling de luta longa ou uma resposta específica contra poke/burst/CC?",
+    "en": "Camille runes should solve a real question: do I need lane stability, strong short trades, scaling for long fights or a specific answer into poke/burst/CC?"
+  },
+  "default_setup": {
+    "pt-BR": "Aperto dos Mortos-Vivos of the Undying é o ponto de partida mais prático e consistente para topo lane porque conversa muito bem com troca curta, passiva, reset de Q e ritmo de lane. Em leitura atual de sites de estatística, Aperto dos Mortos-Vivos continua aparecendo como base frequente/segura, enquanto Conquistador segue mais situacional. ",
+    "en": "Grasp of the Undying is the most practical and consistent starting point for top lane because it interacts extremely well with short trades, passive timing, Q reset and lane rhythm. In current stat-site reads, Grasp remains the frequent/safe baseline, while Conqueror stays more situational. "
+  },
+  "keystone_tree": [
+    {
+      "keystone": "Grasp of the Undying",
+      "when_to_use": {
+        "pt-BR": "Use como setup padrão, principalmente quando a lane gira em torno de trocas curtas, respeito de wave, punição de cooldown e consistência.",
+        "en": "Use it as the default setup, especially when lane revolves around short trades, wave respect, cooldown punishment and consistency."
+      },
+      "why": {
+        "pt-BR": "Aperto dos Mortos-Vivos encaixa no jeito natural da Camille de tocar o alvo, sair, voltar com passiva e construir vantagem por micro-janelas.",
+        "en": "Grasp fits Camille's natural way of touching the target, leaving, returning with passive and building advantage through micro-windows."
+      },
+      "what_you_gain": {
+        "pt-BR": "Lane mais estável, mais valor em troca curta e mais segurança para construir o jogo até o primeiro spike.",
+        "en": "A more stable lane, more value in short trades and more safety to build toward your first spike."
+      },
+      "what_you_lose": {
+        "pt-BR": "Você perde parte do teto de dano em lutas muito longas se comparado a setups mais gananciosos.",
+        "en": "You lose part of the long-fight damage ceiling compared with greedier setups."
+      },
+      "best_scenarios": {
+        "pt-BR": "Lane neutra, bully controlável, poke manejável, matchup em que sobreviver bem já te leva a uma boa partida.",
+        "en": "Neutral lane, controllable bully, manageable poke, or any matchup where surviving well already leads to a good game."
+      },
+      "avoid_when": {
+        "pt-BR": "Evite tratar Aperto dos Mortos-Vivos como obrigação absoluta quando a partida pede luta longa repetida e você realmente consegue sustentar esse padrão.",
+        "en": "Avoid treating Grasp as an absolute obligation when the game asks for repeated long fights and you can realistically sustain that pattern."
+      }
+    },
+    {
+      "keystone": "Conqueror",
+      "when_to_use": {
+        "pt-BR": "Use quando a partida promete trocas longas, side lane estendida, lutas em que você consegue bater várias vezes e o matchup não te obriga a viver no curto.",
+        "en": "Use it when the game promises long trades, extended side-lane patterns, fights where you can hit multiple times and the matchup does not force you to live only in short windows."
+      },
+      "why": {
+        "pt-BR": "Conquistador cresce quando Camille consegue permanecer em contato e repetir dano, especialmente em duelos prolongados ou contra composições que não te explodem no primeiro passo.",
+        "en": "Conqueror grows when Camille can stay in contact and repeat damage, especially in extended duels or into compositions that do not explode her on first contact."
+      },
+      "what_you_gain": {
+        "pt-BR": "Melhor valor em luta longa, side lane mais pesada e teto maior quando você já controla o ritmo do duelo.",
+        "en": "Better long-fight value, heavier side-lane presence and a higher ceiling once you already control duel tempo."
+      },
+      "what_you_lose": {
+        "pt-BR": "Menos estabilidade no começo e menos perdão em lanes onde Aperto dos Mortos-Vivos resolveria a fase 1 do jogo com mais segurança.",
+        "en": "Less early stability and less forgiveness in lanes where Grasp would solve phase one of the game more safely."
+      },
+      "best_scenarios": {
+        "pt-BR": "Lanes jogáveis, comps sem chain CC absurdo e partidas em que você quer duelar/splitar por longos períodos.",
+        "en": "Playable lanes, comps without absurd chain CC and games where you want to duel/split for long stretches."
+      },
+      "avoid_when": {
+        "pt-BR": "Evite quando a lane é de poke, ranged, burst curto opressivo ou quando você ainda não domina bem o ritmo da campeã.",
+        "en": "Avoid it when lane is poke-heavy, ranged, oppressive short-burst oriented, or when you still do not master Camille's rhythm."
+      }
+    },
+    {
+      "keystone": "Press the Attack",
+      "when_to_use": {
+        "pt-BR": "Opção de nicho para jogador já confortável, quando você quer acelerar execução/burst em jogo mais leve ou em janelas muito específicas.",
+        "en": "A niche option for already-comfortable players, when you want to accelerate execution/burst in lighter games or very specific windows."
+      },
+      "why": {
+        "pt-BR": "PTA pode transformar contatos curtos em ameaça imediata, mas cobra muito da leitura de engage e da confiança mecânica.",
+        "en": "PTA can turn short contact into immediate threat, but it demands a lot from your engage reading and mechanical confidence."
+      },
+      "what_you_gain": {
+        "pt-BR": "Explosão mais direta e sensação de lane mais agressiva quando você está ditando o primeiro toque.",
+        "en": "More direct burst and a more aggressive lane feel when you dictate first touch."
+      },
+      "what_you_lose": {
+        "pt-BR": "Perde consistência geral e costuma ser pior para aprender o baseline correto da campeã.",
+        "en": "You lose overall consistency and it is usually worse for learning the champion's correct baseline."
+      },
+      "best_scenarios": {
+        "pt-BR": "Jogo leve, matchup controlável e piloto que já sabe exatamente quando pode forçar.",
+        "en": "Light game state, controllable matchup and a pilot who already knows exactly when they can force."
+      },
+      "avoid_when": {
+        "pt-BR": "Evite como padrão. Não use para maquiar falta de fundamento.",
+        "en": "Avoid as a default. Do not use it to mask missing fundamentals."
+      }
+    }
+  ],
+  "resolve_row_decisions": [
+    {
+      "topic": {
+        "pt-BR": "Golpe de Escudo",
+        "en": "Shield Bash"
+      },
+      "content": {
+        "pt-BR": "Conversa naturalmente com a passiva e tende a ser a linha mais limpa quando você está jogando Camille da forma correta: entrar na janela certa, tocar, sair e voltar melhor.",
+        "en": "Naturally interacts with passive timing and tends to be the cleanest line when you are playing Camille correctly: enter the right window, touch, disengage and return stronger."
+      }
+    },
+    {
+      "topic": {
+        "pt-BR": "Osso Revestido",
+        "en": "Bone Plating"
+      },
+      "content": {
+        "pt-BR": "Prefira contra campeões de troca curta/all-in que dependem muito dos primeiros hits. É mais sobre cortar a força do começo da rotação do rival do que sobre escalar.",
+        "en": "Prefer it against champions whose short trades/all-ins depend heavily on their first hits. It is more about cutting the front of their rotation than about scaling."
+      }
+    },
+    {
+      "topic": {
+        "pt-BR": "Ventos Revigorantes",
+        "en": "Second Wind"
+      },
+      "content": {
+        "pt-BR": "Prefira contra poke e ranged. Não faz a lane ficar boa por mágica, mas compra o tempo que Camille precisa para não entrar quebrada demais nas primeiras janelas reais.",
+        "en": "Prefer it against poke and ranged. It does not magically make lane good, but it buys the time Camille needs to avoid entering her first real windows overly chipped."
+      }
+    },
+    {
+      "topic": {
+        "pt-BR": "Conditioning",
+        "en": "Conditioning"
+      },
+      "content": {
+        "pt-BR": "Escolha mais gananciosa para jogos/lane em que você consegue atravessar a fase inicial sem precisar de socorro defensivo imediato.",
+        "en": "A greedier choice for lanes/games where you can cross the early phase without needing immediate defensive help."
+      }
+    },
+    {
+      "topic": {
+        "pt-BR": "Crescimento Excessivo / Inabalável / Revitalize",
+        "en": "Overgrowth / Unflinching / Revitalize"
+      },
+      "content": {
+        "pt-BR": "Crescimento Excessivo é a linha estável de vida/escala; Inabalável ganha valor contra controle que realmente te impede de agir; Revitalize é mais niche e só faz sentido quando o valor em escudo/cura realmente conversa com a lane e o build.",
+        "en": "Overgrowth is the stable HP-scaling line; Unflinching gains value into CC that truly stops you from acting; Revitalize is more niche and only makes sense when shield/heal value really matches lane and build."
+      }
+    }
+  ],
+  "secondary_tree": [
+    {
+      "secondary": "Inspiration",
+      "when_to_use": {
+        "pt-BR": "Boa para consistência de lane e ritmo econômico/funcional, especialmente quando você quer facilitar resets, sustain de fase inicial ou acesso limpo ao spike.",
+        "en": "Good for lane consistency and functional/economic tempo, especially when you want easier resets, early sustain or a cleaner path to your spike."
+      }
+    },
+    {
+      "secondary": "Precision",
+      "when_to_use": {
+        "pt-BR": "Boa quando você quer reforçar dano/duelo e a lane já é razoavelmente jogável.",
+        "en": "Good when you want to reinforce damage/duel power and the lane is already reasonably playable."
+      }
+    },
+    {
+      "secondary": "Sorcery",
+      "when_to_use": {
+        "pt-BR": "Opção mais niche para partidas em que mobilidade, haste ou scaling pontual realmente entregam valor; não deve substituir a linha prática por moda.",
+        "en": "A more niche option for games where mobility, haste or specific scaling truly pay off; it should not replace the practical line just because it looks trendy."
+      }
+    }
+  ],
+  "decision_rules": {
+    "pt-BR": [
+      "SE você quer aprender a campeã mais rápido -> comece por Grasp e refine as linhas defensivas da Resolve.",
+      "SE a lane é de poke/ranged -> Second Wind sobe muito de prioridade.",
+      "SE o rival decide a troca em burst curto -> Bone Plating costuma render mais que greed pura.",
+      "SE o jogo promete side longa e luta estendida jogável -> Conqueror passa a ser opção real.",
+      "SE você está escolhendo runa só porque parece high elo, mas não domina spacing/Q2/janela -> volte para a linha consistente."
+    ],
+    "en": [
+      "IF you want to learn the champion faster -> start with Grasp and refine the defensive Resolve lines.",
+      "IF lane is poke/ranged -> Second Wind rises sharply in priority.",
+      "IF the enemy decides trades through short burst -> Bone Plating usually outperforms pure greed.",
+      "IF the game promises playable long side-lane duels -> Conqueror becomes a real option.",
+      "IF you are choosing a rune only because it looks high elo, but you do not master spacing/Q2/window discipline -> return to the consistent line."
+    ]
+  },
+  "common_rune_errors": {
+    "pt-BR": [
+      "Usar setup ganancioso para esconder falta de paciência de lane.",
+      "Copiar Conqueror em lane que na prática só permite trocas curtas e ruins.",
+      "Ignorar o peso de Second Wind/Bone Plating em matchups que mudam completamente com a runa certa.",
+      "Trocar de runa toda partida sem entender o que está tentando resolver."
+    ],
+    "en": [
+      "Using a greedy setup to hide a lack of lane patience.",
+      "Copying Conqueror into lanes that in practice only allow bad short trades.",
+      "Ignoring how much Second Wind/Bone Plating can completely change specific matchups.",
+      "Changing runes every game without understanding what problem you are trying to solve."
+    ]
+  },
+  "metadata": {
+    "data_quality": "high",
+    "last_updated": "2026-04-09",
+    "pipeline_alignment": [
+      "pipeline/data_rules.md",
+      "pipeline/content_priority.md",
+      "pipeline/scoring_rules.md"
+    ]
+  }
+}

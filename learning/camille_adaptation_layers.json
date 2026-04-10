@@ -1,0 +1,372 @@
+{
+  "overview": {
+    "pt-BR": "Camadas de adaptação para a Camille quando o plano padrão deixa de funcionar. A lógica é trocar o plano A cedo o bastante para continuar gerando valor sem se tornar previsível ou inútil.",
+    "en": "Adaptation layers for Camille when the default plan stops working. The logic is to swap away from plan A early enough to keep generating value without becoming predictable or useless."
+  },
+  "adaptation_rule": {
+    "pt-BR": "Quando o plano A falha duas ou três vezes pelo mesmo motivo, ele deixou de ser plano A e virou teimosia. Adapte antes de pagar o terceiro erro caro.",
+    "en": "When plan A fails two or three times for the same reason, it has stopped being plan A and has become stubbornness. Adapt before paying for the third expensive mistake."
+  },
+  "layers": [
+    {
+      "layer_key": "adapt_to_heavy_poke",
+      "title": {
+        "pt-BR": "Adaptação a poke excessivo",
+        "en": "Adapting to excessive poke"
+      },
+      "when_needed": {
+        "pt-BR": "Você chega sem vida suficiente nas próprias janelas e começa toda sequência já atrás em recursos.",
+        "en": "You reach your own windows without enough HP and begin every sequence already behind on resources."
+      },
+      "why_default_plan_fails": {
+        "pt-BR": "Camille não quer iniciar a troca já quebrada; poke contínuo faz seu engage valer menos do que parece.",
+        "en": "Camille does not want to begin a trade already chipped down; constant poke makes her engage worth less than it looks."
+      },
+      "adaptation_layer_1": {
+        "pt-BR": "Reduza exposição e valorize sustento de wave, passiva e resets melhores.",
+        "en": "Reduce exposure and value wave sustain, passive timing, and better resets."
+      },
+      "adaptation_layer_2": {
+        "pt-BR": "Troque all-in direto por pressão curta e punição quando o poke rival entrar em cooldown.",
+        "en": "Swap direct all-ins for short pressure and punishment once the enemy poke tool is on cooldown."
+      },
+      "adaptation_layer_3": {
+        "pt-BR": "Se continuar ruim, jogue por sobrevivência funcional até spike ou ajuda de mapa.",
+        "en": "If it is still bad, play for functional survival until a spike or map help arrives."
+      },
+      "red_flag": {
+        "pt-BR": "Querer resolver a lane com um engage de desespero em meia vida.",
+        "en": "Trying to solve the lane with a desperation engage at half HP."
+      },
+      "linked_modules": [
+        "data/learning/camille_archetypes.json",
+        "data/learning/camille_build_decision.json"
+      ]
+    },
+    {
+      "layer_key": "adapt_to_stalled_lane",
+      "title": {
+        "pt-BR": "Adaptação a lane travada",
+        "en": "Adapting to a stalled lane"
+      },
+      "when_needed": {
+        "pt-BR": "A lane não abre kill nem vantagem clara e você começa a se sabotar por impaciência.",
+        "en": "The lane offers no clean kill or clear edge and you start sabotaging yourself out of impatience."
+      },
+      "why_default_plan_fails": {
+        "pt-BR": "Forçar diferença onde não existe costuma quebrar wave, cooldown e disciplina ao mesmo tempo.",
+        "en": "Forcing a difference where none exists usually breaks wave, cooldown usage, and discipline at the same time."
+      },
+      "adaptation_layer_1": {
+        "pt-BR": "Troque foco de kill para foco de recurso: farm, passiva, reset, prioridade local.",
+        "en": "Shift from kill focus to resource focus: farm, passive, reset, local priority."
+      },
+      "adaptation_layer_2": {
+        "pt-BR": "Puxe o jogo para microvantagens repetidas em vez de uma janela milagrosa.",
+        "en": "Pull the game toward repeated micro-advantages instead of one miracle window."
+      },
+      "adaptation_layer_3": {
+        "pt-BR": "Se a lane travada já não rende nada, comece a pensar transição de mapa antes do all-in tardio.",
+        "en": "If the stalled lane yields nothing, start thinking map transition before the delayed all-in."
+      },
+      "red_flag": {
+        "pt-BR": "Confundir neutralidade com obrigação de inventar luta.",
+        "en": "Confusing neutrality with an obligation to invent a fight."
+      },
+      "linked_modules": [
+        "data/learning/camille_phase_checklists.json",
+        "data/learning/camille_short_training_blocks.json"
+      ]
+    },
+    {
+      "layer_key": "adapt_to_strong_peel",
+      "title": {
+        "pt-BR": "Adaptação a peel forte",
+        "en": "Adapting to strong peel"
+      },
+      "when_needed": {
+        "pt-BR": "Toda entrada sua é interceptada, atrasada ou devolvida antes do alvo morrer.",
+        "en": "Every one of your entries is intercepted, delayed, or answered before the target dies."
+      },
+      "why_default_plan_fails": {
+        "pt-BR": "Camille perde valor quando entra no alvo antes de remover ou driblar a proteção que guarda esse alvo.",
+        "en": "Camille loses value when she enters the target before removing or bypassing the protection holding that target."
+      },
+      "adaptation_layer_1": {
+        "pt-BR": "Pare de priorizar o alvo ideal no papel e comece a punir o alvo disponível na janela real.",
+        "en": "Stop prioritizing the ideal-on-paper target and start punishing the target actually available in the real window."
+      },
+      "adaptation_layer_2": {
+        "pt-BR": "Use sua presença para puxar peel e abrir espaço para o segundo tempo da luta.",
+        "en": "Use your presence to drag peel and open the second phase of the fight."
+      },
+      "adaptation_layer_3": {
+        "pt-BR": "Se o peel segue intacto, jogue por pick lateral, flank ou contra-engage.",
+        "en": "If peel remains intact, play for side picks, flank, or counter-engage."
+      },
+      "red_flag": {
+        "pt-BR": "Insistir no mesmo carry marcado por peel perfeito como se o problema fosse só mecânico.",
+        "en": "Insisting on the same carry protected by perfect peel as if the problem were only mechanical."
+      },
+      "linked_modules": [
+        "data/learning/camille_execution_reference.json",
+        "data/learning/camille_advanced_interactions.json"
+      ]
+    },
+    {
+      "layer_key": "adapt_to_hard_entry_comp",
+      "title": {
+        "pt-BR": "Adaptação a comp difícil de entrar",
+        "en": "Adapting to a hard-to-enter comp"
+      },
+      "when_needed": {
+        "pt-BR": "A composição inimiga pune a primeira entrada com burst, CC ou reposicionamento demais.",
+        "en": "The enemy composition punishes the first entry with too much burst, CC, or displacement."
+      },
+      "why_default_plan_fails": {
+        "pt-BR": "Camille não tem obrigação de ser iniciadora frontal se isso só ativa a comp rival.",
+        "en": "Camille is not required to be the frontal initiator if doing so only activates the enemy comp."
+      },
+      "adaptation_layer_1": {
+        "pt-BR": "Troque engage frontal por ameaça lateral e timing posterior.",
+        "en": "Swap frontal engage for lateral threat and later timing."
+      },
+      "adaptation_layer_2": {
+        "pt-BR": "Use a luta para quebrar formação antes de tentar a prisão do R no alvo valioso.",
+        "en": "Use the fight to break formation before trying to trap the valuable target with R."
+      },
+      "adaptation_layer_3": {
+        "pt-BR": "Se nem isso cabe, sua função pode virar zonear ou proteger contra flanco rival.",
+        "en": "If even that does not fit, your job may become zoning or protecting against the enemy flank."
+      },
+      "red_flag": {
+        "pt-BR": "Achar que toda teamfight se resolve repetindo E+R de frente.",
+        "en": "Thinking every teamfight is solved by repeating frontal E+R."
+      },
+      "linked_modules": [
+        "data/learning/camille_macro.json",
+        "data/learning/camille_state_based_adjustments.json"
+      ]
+    },
+    {
+      "layer_key": "adapt_to_dangerous_side_lane",
+      "title": {
+        "pt-BR": "Adaptação a side lane perigosa",
+        "en": "Adapting to a dangerous side lane"
+      },
+      "when_needed": {
+        "pt-BR": "Você até quer side, mas rotações rivais, visão ruim ou força de 1v1 já não deixam a side limpa.",
+        "en": "You want to side lane, but enemy rotations, bad vision, or 1v1 strength no longer make it clean."
+      },
+      "why_default_plan_fails": {
+        "pt-BR": "Split push sem segurança vira pick dado de graça, e Camille paga caro quando se compromete longe do time.",
+        "en": "Unsafe split push becomes a free pick, and Camille pays heavily when she commits far from the team."
+      },
+      "adaptation_layer_1": {
+        "pt-BR": "Reduza profundidade da side e aumente frequência de rotação curta.",
+        "en": "Reduce side-lane depth and increase short-rotation frequency."
+      },
+      "adaptation_layer_2": {
+        "pt-BR": "Jogue side até o ponto em que ainda gera informação e ameaça, não até o ponto em que some do mapa.",
+        "en": "Play side lane only up to the point where it still generates info and threat, not until you vanish from the map."
+      },
+      "adaptation_layer_3": {
+        "pt-BR": "Se a side não é mais rentável, use a pressão curta para voltar primeiro à luta ou ao objetivo.",
+        "en": "If side lane is no longer profitable, use short pressure to return early to the fight or objective."
+      },
+      "red_flag": {
+        "pt-BR": "Continuar splitando igual quando o jogo já mudou o preço da side.",
+        "en": "Continuing to split the same way after the game has changed the price of side lane."
+      },
+      "linked_modules": [
+        "data/learning/camille_macro.json",
+        "data/learning/camille_review_checklists.json"
+      ]
+    },
+    {
+      "layer_key": "adapt_to_fast_game",
+      "title": {
+        "pt-BR": "Adaptação a jogo acelerado",
+        "en": "Adapting to a fast game"
+      },
+      "when_needed": {
+        "pt-BR": "Objetivos, rotações e lutas chegam antes da sua rota confortável de farm e side longa.",
+        "en": "Objectives, rotations, and fights arrive before your comfortable route of farming and long side lane."
+      },
+      "why_default_plan_fails": {
+        "pt-BR": "Se você joga lento demais num jogo acelerado, Camille chega sempre depois do valor.",
+        "en": "If you play too slowly in a fast game, Camille always arrives after the value."
+      },
+      "adaptation_layer_1": {
+        "pt-BR": "Encurte ciclos de side e pense mais em presença de mapa do que em perfeição de wave.",
+        "en": "Shorten side cycles and think more about map presence than wave perfection."
+      },
+      "adaptation_layer_2": {
+        "pt-BR": "Priorize decisões de menor atrito: pick curto, rotação rápida, reset simples.",
+        "en": "Prioritize lower-friction decisions: short picks, quick rotations, simple resets."
+      },
+      "adaptation_layer_3": {
+        "pt-BR": "Se o jogo acelera demais, aceite jogar por impacto repetido e não por janela única ideal.",
+        "en": "If the game accelerates too much, accept playing for repeated impact rather than one ideal window."
+      },
+      "red_flag": {
+        "pt-BR": "Ficar preso em side longa enquanto o mapa explode do outro lado.",
+        "en": "Getting stuck in a long side lane while the map explodes elsewhere."
+      },
+      "linked_modules": [
+        "data/learning/camille_phase_checklists.json",
+        "data/learning/camille_training_plan.json"
+      ]
+    },
+    {
+      "layer_key": "adapt_to_slow_game",
+      "title": {
+        "pt-BR": "Adaptação a jogo lento",
+        "en": "Adapting to a slow game"
+      },
+      "when_needed": {
+        "pt-BR": "A partida desacelerou e ninguém está te forçando a decidir tudo agora.",
+        "en": "The match has slowed down and nobody is forcing you to decide everything now."
+      },
+      "why_default_plan_fails": {
+        "pt-BR": "Jogar acelerado sem necessidade num jogo lento faz a Camille criar risco que o inimigo nem exigia.",
+        "en": "Playing fast for no reason in a slow game makes Camille create risk the enemy was not even asking for."
+      },
+      "adaptation_layer_1": {
+        "pt-BR": "Valorize informação, visão, preparo de wave e ameaça latente.",
+        "en": "Value information, vision, wave prep, and latent threat."
+      },
+      "adaptation_layer_2": {
+        "pt-BR": "Troque a fome de forçar por fome de deixar o mapa cada vez mais confortável para seu próximo commit.",
+        "en": "Trade the urge to force for the urge to make the map increasingly comfortable for your next commit."
+      },
+      "adaptation_layer_3": {
+        "pt-BR": "Use o tempo extra para construir flank, item ou estado de side superior.",
+        "en": "Use the extra time to build flank, item timing, or a superior side state."
+      },
+      "red_flag": {
+        "pt-BR": "Criar all-in ruim só para quebrar a monotonia da partida.",
+        "en": "Creating a bad all-in just to break the game’s monotony."
+      },
+      "linked_modules": [
+        "data/learning/camille_macro.json",
+        "data/learning/camille_faq.json"
+      ]
+    },
+    {
+      "layer_key": "adapt_when_plan_a_fails",
+      "title": {
+        "pt-BR": "Adaptação quando o plano A falha",
+        "en": "Adapting when plan A fails"
+      },
+      "when_needed": {
+        "pt-BR": "Seu padrão favorito da partida não está produzindo valor, mas você continua tentando por hábito.",
+        "en": "Your favorite pattern in the game is not producing value, but you keep trying it out of habit."
+      },
+      "why_default_plan_fails": {
+        "pt-BR": "Camille precisa de leitura de janela; insistência cega faz o campeão parecer pior do que realmente é.",
+        "en": "Camille needs window reading; blind insistence makes the champion look worse than she really is."
+      },
+      "adaptation_layer_1": {
+        "pt-BR": "Diga em uma frase qual era o plano A e por que ele parou de funcionar.",
+        "en": "State in one sentence what plan A was and why it stopped working."
+      },
+      "adaptation_layer_2": {
+        "pt-BR": "Escolha um plano B simples: side mais curta, pick, contenção ou folbaixa-up.",
+        "en": "Choose a simple plan B: shorter side lane, pick, containment, or follow-up."
+      },
+      "adaptation_layer_3": {
+        "pt-BR": "Teste o plano B por uma janela curta e reavalie com honestidade.",
+        "en": "Test plan B for a short window and re-evaluate honestly."
+      },
+      "red_flag": {
+        "pt-BR": "Chamar de consistência o que já virou repetição estéril.",
+        "en": "Calling it consistency when it has already become sterile repetition."
+      },
+      "linked_modules": [
+        "data/learning/camille_decision_recovery.json",
+        "data/learning/camille_improvement_matrix.json"
+      ]
+    },
+    {
+      "layer_key": "adapt_when_team_does_not_follow",
+      "title": {
+        "pt-BR": "Adaptação quando o time não acompanha",
+        "en": "Adapting when the team does not follow"
+      },
+      "when_needed": {
+        "pt-BR": "Sua leitura até pode estar boa, mas o time não converte a mesma janela que você viu.",
+        "en": "Your read may be correct, but the team does not convert the same window you saw."
+      },
+      "why_default_plan_fails": {
+        "pt-BR": "Camille entra muito fundo quando o folbaixa-up some; valor individual sem sincronia vira punição.",
+        "en": "Camille goes very deep when follow-up disappears; individual value without synchronization turns into punishment."
+      },
+      "adaptation_layer_1": {
+        "pt-BR": "Baixe o risco da chamada: picks mais curtos, pressão de espaço e entradas mais tardias.",
+        "en": "Lower the risk of the call: shorter picks, space pressure, and later entries."
+      },
+      "adaptation_layer_2": {
+        "pt-BR": "Use sua ameaça para puxar resposta antes de se comprometer por completo.",
+        "en": "Use your threat to draw a response before fully committing."
+      },
+      "adaptation_layer_3": {
+        "pt-BR": "Se o time não segue mesmo, volte para decisões que você controla melhor: side, visão, reset, pressão curta.",
+        "en": "If the team truly will not follow, go back to decisions you control better: side lane, vision, reset, short pressure."
+      },
+      "red_flag": {
+        "pt-BR": "Insistir em engage alto risco porque teoricamente era certo.",
+        "en": "Insisting on a high-risk engage because it was theoretically correct."
+      },
+      "linked_modules": [
+        "data/learning/camille_coach_paths.json",
+        "data/learning/camille_review_checklists.json"
+      ]
+    },
+    {
+      "layer_key": "adapt_when_cannot_first_enter",
+      "title": {
+        "pt-BR": "Adaptação quando Camille não pode ser a primeira entrada",
+        "en": "Adapting when Camille cannot be the first entry"
+      },
+      "when_needed": {
+        "pt-BR": "Sua primeira entrada está sempre punida ou não existe rota limpa para começar a luta.",
+        "en": "Your first entry is always punished or there is no clean route to begin the fight."
+      },
+      "why_default_plan_fails": {
+        "pt-BR": "Camille continua forte sem ser a primeira a clicar, desde que a janela seja lida com disciplina.",
+        "en": "Camille remains strong without being the first to click, as long as the window is read with discipline."
+      },
+      "adaptation_layer_1": {
+        "pt-BR": "Jogue como ameaça de borda e espere o mapa ou a luta deformarem primeiro.",
+        "en": "Play as an edge threat and wait for the map or fight to deform first."
+      },
+      "adaptation_layer_2": {
+        "pt-BR": "Punir o segundo erro costuma valer mais do que forçar a primeira abertura.",
+        "en": "Punishing the second mistake is often worth more than forcing the first opening."
+      },
+      "adaptation_layer_3": {
+        "pt-BR": "Se a luta nunca abre, troque a função para zonear, marcar flank ou proteger carry vulnerável.",
+        "en": "If the fight never opens, switch roles into zoning, marking flank, or protecting a vulnerable carry."
+      },
+      "red_flag": {
+        "pt-BR": "Sentir que ficar vivo e esperar a janela é falta de impacto.",
+        "en": "Feeling that staying alive and waiting for the window means lack of impact."
+      },
+      "linked_modules": [
+        "data/learning/camille_state_based_adjustments.json",
+        "data/learning/camille_execution_reference.json"
+      ]
+    }
+  ],
+  "metadata": {
+    "data_quality": "high",
+    "last_updated": "2026-04-09",
+    "pipeline_alignment": [
+      "data_rules",
+      "content_priority",
+      "scoring_rules_used_for_adaptation_priority"
+    ],
+    "scope": "parallel_2_round6_situational_adaptation"
+  }
+}

@@ -1,0 +1,250 @@
+{
+  "overview": {
+    "pt-BR": "Referência rápida de execução do E e do R da Camille. Feita para corrigir erros práticos de input, ângulo, timing e uso de janela.",
+    "en": "Quick execution reference for Camille’s E and R. Built to fix practical input, angle, timing, and window-usage mistakes."
+  },
+  "e_reference": [
+    {
+      "principle": {
+        "pt-BR": "E é ferramenta de informação, ameaça e commit; não só gap closer.",
+        "en": "E is an information, threat, and commit tool; not only a gap closer."
+      },
+      "application": {
+        "pt-BR": "Antes de usar, decida qual dessas três funções ele terá na jogada. E bom raramente é apertado “para ver no que dá”.",
+        "en": "Before using it, decide which of those three functions it serves in the play. A good E is rarely pressed “to see what happens.”"
+      },
+      "common_error": {
+        "pt-BR": "Dar E sem plano de pós-impacto.",
+        "en": "Using E without a post-impact plan."
+      },
+      "correction": {
+        "pt-BR": "Defina antes: vou trocar curto, all-inar, zonear ou só pegar visão?",
+        "en": "Define first: am I short trading, all-inning, zoning, or only checking vision?"
+      },
+      "useful_note": {
+        "pt-BR": "Se o papel do E não está claro, segurar costuma ser melhor.",
+        "en": "If E’s purpose is unclear, holding it is usually better."
+      }
+    },
+    {
+      "principle": {
+        "pt-BR": "Primeiro cast do E compra informação.",
+        "en": "E first cast buys information."
+      },
+      "application": {
+        "pt-BR": "Use na borda de brush, rio e parede lateral para checar cobertura antes de sair da parede.",
+        "en": "Use it at brush edges, river entrances, and side walls to check coverage before leaving the wall."
+      },
+      "common_error": {
+        "pt-BR": "Sair da parede no automático assim que grudou.",
+        "en": "Auto-leaving the wall the moment you attach."
+      },
+      "correction": {
+        "pt-BR": "Pausa curta, leia alvo e mini mapa, depois decida se continua ou aborta.",
+        "en": "Brief pause, read target and minimap, then decide whether to continue or abort."
+      },
+      "useful_note": {
+        "pt-BR": "Ver primeiro é especialmente valioso quando o medo real é o jungler e não o topo.",
+        "en": "Seeing first is especially valuable when the real threat is the jungler, not the top laner."
+      }
+    },
+    {
+      "principle": {
+        "pt-BR": "Ângulo decide previsibilidade.",
+        "en": "Angle decides predictability."
+      },
+      "application": {
+        "pt-BR": "Prefira paredes e linhas que escondem a saída final do E e comprimem menos suas opções de ajuste.",
+        "en": "Prefer walls and lines that hide E’s final exit and compress your adjustment options less."
+      },
+      "common_error": {
+        "pt-BR": "Escolher parede “mais próxima” em vez da parede que cria o melhor vetor.",
+        "en": "Choosing the “closest” wall instead of the wall that creates the best vector."
+      },
+      "correction": {
+        "pt-BR": "Treine duas ou três paredes por lado do mapa até virar memória visual.",
+        "en": "Drill two or three walls on each side of the map until they become visual memory."
+      },
+      "useful_note": {
+        "pt-BR": "Parede curta e óbvia aumenta a chance de o alvo andar perpendicularmente e te desmontar.",
+        "en": "A short, obvious wall makes it easier for the target to sidestep and ruin your engage."
+      }
+    },
+    {
+      "principle": {
+        "pt-BR": "E falha mais por leitura ruim do que por mecânica pura.",
+        "en": "E fails more because of bad reading than because of pure mechanics."
+      },
+      "application": {
+        "pt-BR": "Cheque distância, direção do alvo, wave no caminho e presença de peel antes do segundo cast.",
+        "en": "Check distance, target direction, wave in the path, and peel presence before the second cast."
+      },
+      "common_error": {
+        "pt-BR": "Culpar o hitbox quando a entrada era telegráfica.",
+        "en": "Blaming the hitbox when the entry was telegraphed."
+      },
+      "correction": {
+        "pt-BR": "Revise a origem do engage, não só o frame final.",
+        "en": "Review the engage origin, not only the final frame."
+      },
+      "useful_note": {
+        "pt-BR": "Falha repetida no mesmo lugar geralmente é problema de padrão, não azar.",
+        "en": "Repeated failure in the same area is usually a pattern issue, not bad luck."
+      }
+    },
+    {
+      "principle": {
+        "pt-BR": "Depois da atualização de confiabilidade, sair da parede já garante o bônus de velocidade de ataque do E mesmo sem acertar campeão.",
+        "en": "After the reliability update, dashing off the wall already grants E’s attack speed bonus even if no champion is hit."
+      },
+      "application": {
+        "pt-BR": "Isso aumenta o valor do E para reposicionar, ameaçar ou preparar folbaixa-up mesmo em janelas em que o stun não conecta limpo.",
+        "en": "This increases E’s value for repositioning, threatening, or setting up follow-up even in windows where the stun does not connect cleanly."
+      },
+      "common_error": {
+        "pt-BR": "Achar que um E que não acertou campeão necessariamente perdeu todo o valor.",
+        "en": "Assuming an E that did not hit a champion automatically lost all value."
+      },
+      "correction": {
+        "pt-BR": "Julgue o E pelo espaço que ele comprou, pelo timing salvo e pela continuação criada.",
+        "en": "Judge E by the space it bought, the timing it saved, and the continuation it created."
+      },
+      "useful_note": {
+        "pt-BR": "Isso não transforma E errado em E bom; só reduz o castigo de algumas janelas marginais.",
+        "en": "This does not turn a bad E into a good one; it only reduces punishment on some marginal windows."
+      }
+    },
+    {
+      "principle": {
+        "pt-BR": "R é ferramenta de dodge com compromisso alto.",
+        "en": "R is a dodge tool with high commitment."
+      },
+      "application": {
+        "pt-BR": "Use para desviar do momento exato em que a spell rival te acertaria, mas só quando o pouso continua sendo jogável.",
+        "en": "Use it to dodge the exact moment the enemy spell would hit you, but only when the landing is still playable."
+      },
+      "common_error": {
+        "pt-BR": "Desviar bem e pousar mal.",
+        "en": "Dodging well and landing badly."
+      },
+      "correction": {
+        "pt-BR": "Antes de ultar, visualize onde você estará 0,5 segundo depois, não só durante o salto.",
+        "en": "Before ulting, picture where you will be 0.5 seconds later, not only during the leap."
+      },
+      "useful_note": {
+        "pt-BR": "R defensivo é ótimo quando nega dano decisivo ou CC central; é péssimo quando só adia uma morte inevitável sem reposição de valor.",
+        "en": "Defensive R is great when it denies decisive damage or key CC; it is awful when it only delays an inevitable death without recovering value."
+      }
+    },
+    {
+      "principle": {
+        "pt-BR": "R trava alvo e comprime o espaço de decisão.",
+        "en": "R locks the target and compresses decision space."
+      },
+      "application": {
+        "pt-BR": "Use quando o alvo ainda tem rota de kite, dash, peel ou flash que inviabilizaria seu Q2.",
+        "en": "Use it when the target still has a kite route, dash, peel, or flash that would invalidate your Q2."
+      },
+      "common_error": {
+        "pt-BR": "Ultar tarde, depois que o alvo já abriu distância suficiente.",
+        "en": "Ulting late, after the target has already opened enough distance."
+      },
+      "correction": {
+        "pt-BR": "Ulte quando a janela ainda é sua, não quando a luta já está escapando.",
+        "en": "Ult while the window is still yours, not when the fight is already slipping away."
+      },
+      "useful_note": {
+        "pt-BR": "R melhor prende o alvo certo no segundo certo; não necessariamente o alvo mais frágil no papel.",
+        "en": "The best R locks the right target at the right second; not necessarily the squishiest one on paper."
+      }
+    },
+    {
+      "principle": {
+        "pt-BR": "R pode resetar o ritmo da troca.",
+        "en": "R can reset trade rhythm."
+      },
+      "application": {
+        "pt-BR": "Use quando a sequência ficou ruim para você e o salto reorganiza distância, passiva, cooldowns ou tempo do Q2.",
+        "en": "Use it when the sequence has become bad for you and the leap reorganizes distance, passive, cooldowns, or Q2 timing."
+      },
+      "common_error": {
+        "pt-BR": "Continuar a troca no mesmo ritmo ruim e lembrar do R tarde demais.",
+        "en": "Continuing the trade in the same bad rhythm and remembering R too late."
+      },
+      "correction": {
+        "pt-BR": "Reconheça cedo quando a troca saiu do trilho e use R para reescrever o script.",
+        "en": "Recognize early when the trade has gone off track and use R to rewrite the script."
+      },
+      "useful_note": {
+        "pt-BR": "Resetar ritmo não é o mesmo que apertar pânico; a continuação ainda precisa existir.",
+        "en": "Resetting rhythm is not the same as panic casting; the follow-up still has to exist."
+      }
+    },
+    {
+      "principle": {
+        "pt-BR": "R também serve para sair de timing ruim.",
+        "en": "R also serves to exit a bad timing window."
+      },
+      "application": {
+        "pt-BR": "Quando o engage ficou cedo demais, a frontline inimiga respondeu ou sua equipe ainda não entrou, o R pode comprar o segundo que faltava.",
+        "en": "When the engage is too early, the enemy frontline answers, or your team has not arrived yet, R can buy the extra second you needed."
+      },
+      "common_error": {
+        "pt-BR": "Entrar primeiro, ultar por desespero e ainda morrer sem folbaixa-up.",
+        "en": "Going in first, ulting in desperation, and still dying without follow-up."
+      },
+      "correction": {
+        "pt-BR": "Leia se o R está comprando tempo real para seu time ou só maquiando um erro de entrada.",
+        "en": "Read whether R is buying real time for your team or only disguising a bad entry."
+      },
+      "useful_note": {
+        "pt-BR": "R salva mais quando você ainda tem próxima ação clara ao pousar.",
+        "en": "R saves more often when you still have a clear next action after landing."
+      }
+    }
+  ],
+  "quick_rules": {
+    "before_e": {
+      "pt-BR": [
+        "Qual é a função do meu E aqui: visão, ameaça ou commit?",
+        "O alvo pode simplesmente andar de lado dessa parede?",
+        "A wave vai atrapalhar meu segundo cast?",
+        "Existe cobertura inimiga que torna a entrada ruim?",
+        "Se eu errar, ainda tenho rota de saída?"
+      ],
+      "en": [
+        "What is my E for here: vision, threat, or commit?",
+        "Can the target simply sidestep this wall?",
+        "Will the wave interfere with my second cast?",
+        "Is there enemy backup that makes this entry bad?",
+        "If I miss, do I still have an exit route?"
+      ]
+    },
+    "before_r": {
+      "pt-BR": [
+        "Estou negando algo importante ou só fechando distância?",
+        "Meu pouso continua jogável depois do dodge?",
+        "O alvo certo é esse ou estou ultando o mais acessível?",
+        "Meu Q2 ou follow-up realmente aproveitam a zona?",
+        "Guardar R muda mais a próxima janela do que gastar agora?"
+      ],
+      "en": [
+        "Am I denying something important or only closing distance?",
+        "Is my landing still playable after the dodge?",
+        "Is this the right target or just the most accessible one?",
+        "Do my Q2 or follow-up actually use the zone well?",
+        "Does holding R change the next window more than spending it now?"
+      ]
+    }
+  },
+  "metadata": {
+    "data_quality": "high",
+    "last_updated": "2026-04-09",
+    "pipeline_alignment": [
+      "pipeline/data_rules.md",
+      "pipeline/content_priority.md",
+      "pipeline/scoring_rules.md"
+    ],
+    "scope": "round3_execution_reference"
+  }
+}

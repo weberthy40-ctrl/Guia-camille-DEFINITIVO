@@ -1,0 +1,1041 @@
+{
+  "adc": {
+    "count": 15,
+    "champions": [
+      {
+        "slug": "aphelios",
+        "name": "Aphelios",
+        "score": 6.2,
+        "difficulty": "medium"
+      },
+      {
+        "slug": "caitlyn",
+        "name": "Caitlyn",
+        "score": 7.2,
+        "difficulty": "hard"
+      },
+      {
+        "slug": "draven",
+        "name": "Draven",
+        "score": 6.7,
+        "difficulty": "medium"
+      },
+      {
+        "slug": "ezreal",
+        "name": "Ezreal",
+        "score": 7.1,
+        "difficulty": "hard"
+      },
+      {
+        "slug": "jhin",
+        "name": "Jhin",
+        "score": 6.8,
+        "difficulty": "medium"
+      },
+      {
+        "slug": "jinx",
+        "name": "Jinx",
+        "score": 6.5,
+        "difficulty": "medium"
+      },
+      {
+        "slug": "kaisa",
+        "name": "Kai'Sa",
+        "score": 6.1,
+        "difficulty": "medium"
+      },
+      {
+        "slug": "kogmaw",
+        "name": "Kog'Maw",
+        "score": 5.9,
+        "difficulty": "medium"
+      },
+      {
+        "slug": "miss-fortune",
+        "name": "Miss Fortune",
+        "score": 6.5,
+        "difficulty": "medium"
+      },
+      {
+        "slug": "nilah",
+        "name": "Nilah",
+        "score": 6.8,
+        "difficulty": "medium"
+      },
+      {
+        "slug": "samira",
+        "name": "Samira",
+        "score": 6.2,
+        "difficulty": "medium"
+      },
+      {
+        "slug": "sivir",
+        "name": "Sivir",
+        "score": 6.3,
+        "difficulty": "medium"
+      },
+      {
+        "slug": "twitch",
+        "name": "Twitch",
+        "score": 6.8,
+        "difficulty": "medium"
+      },
+      {
+        "slug": "xayah",
+        "name": "Xayah",
+        "score": 6.3,
+        "difficulty": "medium"
+      },
+      {
+        "slug": "zeri",
+        "name": "Zeri",
+        "score": 6.7,
+        "difficulty": "medium"
+      }
+    ]
+  },
+  "jungle": {
+    "count": 31,
+    "champions": [
+      {
+        "slug": "amumu",
+        "name": "Amumu",
+        "score": 5.2,
+        "difficulty": "medium"
+      },
+      {
+        "slug": "belveth",
+        "name": "Bel'Veth",
+        "score": 6.5,
+        "difficulty": "medium"
+      },
+      {
+        "slug": "briar",
+        "name": "Briar",
+        "score": 6.7,
+        "difficulty": "medium"
+      },
+      {
+        "slug": "elise",
+        "name": "Elise",
+        "score": 6.0,
+        "difficulty": "medium"
+      },
+      {
+        "slug": "evelynn",
+        "name": "Evelynn",
+        "score": 4.8,
+        "difficulty": "medium"
+      },
+      {
+        "slug": "fiddlesticks",
+        "name": "Fiddlesticks",
+        "score": 5.3,
+        "difficulty": "medium"
+      },
+      {
+        "slug": "graves",
+        "name": "Graves",
+        "score": 6.7,
+        "difficulty": "medium"
+      },
+      {
+        "slug": "hecarim",
+        "name": "Hecarim",
+        "score": 6.3,
+        "difficulty": "medium"
+      },
+      {
+        "slug": "jarvan-iv",
+        "name": "Jarvan IV",
+        "score": 6.5,
+        "difficulty": "medium"
+      },
+      {
+        "slug": "karthus",
+        "name": "Karthus",
+        "score": 5.2,
+        "difficulty": "medium"
+      },
+      {
+        "slug": "kayn",
+        "name": "Kayn",
+        "score": 5.9,
+        "difficulty": "medium"
+      },
+      {
+        "slug": "khazix",
+        "name": "Kha'Zix",
+        "score": 5.8,
+        "difficulty": "medium"
+      },
+      {
+        "slug": "kindred",
+        "name": "Kindred",
+        "score": 6.7,
+        "difficulty": "medium"
+      },
+      {
+        "slug": "lee-sin",
+        "name": "Lee Sin",
+        "score": 7.2,
+        "difficulty": "hard"
+      },
+      {
+        "slug": "lillia",
+        "name": "Lillia",
+        "score": 6.8,
+        "difficulty": "medium"
+      },
+      {
+        "slug": "maokai",
+        "name": "Maokai",
+        "score": 5.7,
+        "difficulty": "medium"
+      },
+      {
+        "slug": "master-yi",
+        "name": "Master Yi",
+        "score": 5.0,
+        "difficulty": "medium"
+      },
+      {
+        "slug": "nidalee",
+        "name": "Nidalee",
+        "score": 7.0,
+        "difficulty": "hard"
+      },
+      {
+        "slug": "nocturne",
+        "name": "Nocturne",
+        "score": 5.8,
+        "difficulty": "medium"
+      },
+      {
+        "slug": "nunu-and-willump",
+        "name": "Nunu & Willump",
+        "score": 4.8,
+        "difficulty": "medium"
+      },
+      {
+        "slug": "rammus",
+        "name": "Rammus",
+        "score": 5.6,
+        "difficulty": "medium"
+      },
+      {
+        "slug": "reksai",
+        "name": "Rek'Sai",
+        "score": 7.3,
+        "difficulty": "hard"
+      },
+      {
+        "slug": "rengar",
+        "name": "Rengar",
+        "score": 6.8,
+        "difficulty": "medium"
+      },
+      {
+        "slug": "sejuani",
+        "name": "Sejuani",
+        "score": 5.8,
+        "difficulty": "medium"
+      },
+      {
+        "slug": "shaco",
+        "name": "Shaco",
+        "score": 6.6,
+        "difficulty": "medium"
+      },
+      {
+        "slug": "shyvana",
+        "name": "Shyvana",
+        "score": 5.1,
+        "difficulty": "medium"
+      },
+      {
+        "slug": "skarner",
+        "name": "Skarner",
+        "score": 6.4,
+        "difficulty": "medium"
+      },
+      {
+        "slug": "udyr",
+        "name": "Udyr",
+        "score": 6.9,
+        "difficulty": "medium"
+      },
+      {
+        "slug": "vi",
+        "name": "Vi",
+        "score": 6.1,
+        "difficulty": "medium"
+      },
+      {
+        "slug": "viego",
+        "name": "Viego",
+        "score": 5.8,
+        "difficulty": "medium"
+      },
+      {
+        "slug": "xin-zhao",
+        "name": "Xin Zhao",
+        "score": 6.9,
+        "difficulty": "medium"
+      }
+    ]
+  },
+  "mid": {
+    "count": 11,
+    "champions": [
+      {
+        "slug": "ahri",
+        "name": "Ahri",
+        "score": 6.1,
+        "difficulty": "medium"
+      },
+      {
+        "slug": "annie",
+        "name": "Annie",
+        "score": 6.8,
+        "difficulty": "medium"
+      },
+      {
+        "slug": "corki",
+        "name": "Corki",
+        "score": 5.6,
+        "difficulty": "medium"
+      },
+      {
+        "slug": "leblanc",
+        "name": "LeBlanc",
+        "score": 6.0,
+        "difficulty": "medium"
+      },
+      {
+        "slug": "lux",
+        "name": "Lux",
+        "score": 7.3,
+        "difficulty": "hard"
+      },
+      {
+        "slug": "orianna",
+        "name": "Orianna",
+        "score": 6.4,
+        "difficulty": "medium"
+      },
+      {
+        "slug": "qiyana",
+        "name": "Qiyana",
+        "score": 7.3,
+        "difficulty": "hard"
+      },
+      {
+        "slug": "syndra",
+        "name": "Syndra",
+        "score": 6.9,
+        "difficulty": "medium"
+      },
+      {
+        "slug": "velkoz",
+        "name": "Vel'Koz",
+        "score": 6.7,
+        "difficulty": "medium"
+      },
+      {
+        "slug": "xerath",
+        "name": "Xerath",
+        "score": 7.5,
+        "difficulty": "hard"
+      },
+      {
+        "slug": "zoe",
+        "name": "Zoe",
+        "score": 7.1,
+        "difficulty": "hard"
+      }
+    ]
+  },
+  "support": {
+    "count": 20,
+    "champions": [
+      {
+        "slug": "alistar",
+        "name": "Alistar",
+        "score": 5.3,
+        "difficulty": "medium"
+      },
+      {
+        "slug": "bard",
+        "name": "Bard",
+        "score": 6.7,
+        "difficulty": "medium"
+      },
+      {
+        "slug": "blitzcrank",
+        "name": "Blitzcrank",
+        "score": 5.3,
+        "difficulty": "medium"
+      },
+      {
+        "slug": "brand",
+        "name": "Brand",
+        "score": 5.9,
+        "difficulty": "medium"
+      },
+      {
+        "slug": "braum",
+        "name": "Braum",
+        "score": 6.7,
+        "difficulty": "medium"
+      },
+      {
+        "slug": "janna",
+        "name": "Janna",
+        "score": 5.8,
+        "difficulty": "medium"
+      },
+      {
+        "slug": "leona",
+        "name": "Leona",
+        "score": 5.0,
+        "difficulty": "medium"
+      },
+      {
+        "slug": "morgana",
+        "name": "Morgana",
+        "score": 6.8,
+        "difficulty": "medium"
+      },
+      {
+        "slug": "nami",
+        "name": "Nami",
+        "score": 5.8,
+        "difficulty": "medium"
+      },
+      {
+        "slug": "nautilus",
+        "name": "Nautilus",
+        "score": 6.1,
+        "difficulty": "medium"
+      },
+      {
+        "slug": "pyke",
+        "name": "Pyke",
+        "score": 6.4,
+        "difficulty": "medium"
+      },
+      {
+        "slug": "rakan",
+        "name": "Rakan",
+        "score": 6.6,
+        "difficulty": "medium"
+      },
+      {
+        "slug": "rell",
+        "name": "Rell",
+        "score": 5.7,
+        "difficulty": "medium"
+      },
+      {
+        "slug": "renata-glasc",
+        "name": "Renata Glasc",
+        "score": 5.5,
+        "difficulty": "medium"
+      },
+      {
+        "slug": "sona",
+        "name": "Sona",
+        "score": 6.3,
+        "difficulty": "medium"
+      },
+      {
+        "slug": "soraka",
+        "name": "Soraka",
+        "score": 6.4,
+        "difficulty": "medium"
+      },
+      {
+        "slug": "taric",
+        "name": "Taric",
+        "score": 6.1,
+        "difficulty": "medium"
+      },
+      {
+        "slug": "thresh",
+        "name": "Thresh",
+        "score": 5.4,
+        "difficulty": "medium"
+      },
+      {
+        "slug": "yuumi",
+        "name": "Yuumi",
+        "score": 6.4,
+        "difficulty": "medium"
+      },
+      {
+        "slug": "zyra",
+        "name": "Zyra",
+        "score": 6.5,
+        "difficulty": "medium"
+      }
+    ]
+  },
+  "top": {
+    "count": 92,
+    "champions": [
+      {
+        "slug": "aatrox",
+        "name": "Aatrox",
+        "score": 6.3,
+        "difficulty": "medium"
+      },
+      {
+        "slug": "akali",
+        "name": "Akali",
+        "score": 7.0,
+        "difficulty": "hard"
+      },
+      {
+        "slug": "akshan",
+        "name": "Akshan",
+        "score": 8.1,
+        "difficulty": "hard"
+      },
+      {
+        "slug": "ambessa",
+        "name": "Ambessa",
+        "score": 7.1,
+        "difficulty": "hard"
+      },
+      {
+        "slug": "anivia",
+        "name": "Anivia",
+        "score": 7.3,
+        "difficulty": "hard"
+      },
+      {
+        "slug": "ashe",
+        "name": "Ashe",
+        "score": 7.5,
+        "difficulty": "hard"
+      },
+      {
+        "slug": "aurelion-sol",
+        "name": "Aurelion Sol",
+        "score": 6.7,
+        "difficulty": "medium"
+      },
+      {
+        "slug": "aurora",
+        "name": "Aurora",
+        "score": 7.3,
+        "difficulty": "hard"
+      },
+      {
+        "slug": "azir",
+        "name": "Azir",
+        "score": 6.3,
+        "difficulty": "medium"
+      },
+      {
+        "slug": "cassiopeia",
+        "name": "Cassiopeia",
+        "score": 8.2,
+        "difficulty": "hard"
+      },
+      {
+        "slug": "chogath",
+        "name": "Cho'Gath",
+        "score": 4.0,
+        "difficulty": "easy"
+      },
+      {
+        "slug": "darius",
+        "name": "Darius",
+        "score": 8.8,
+        "difficulty": "hard"
+      },
+      {
+        "slug": "diana",
+        "name": "Diana",
+        "score": 6.2,
+        "difficulty": "medium"
+      },
+      {
+        "slug": "dr-mundo",
+        "name": "Dr. Mundo",
+        "score": 5.6,
+        "difficulty": "medium"
+      },
+      {
+        "slug": "ekko",
+        "name": "Ekko",
+        "score": 7.3,
+        "difficulty": "hard"
+      },
+      {
+        "slug": "fiora",
+        "name": "Fiora",
+        "score": 8.6,
+        "difficulty": "hard"
+      },
+      {
+        "slug": "fizz",
+        "name": "Fizz",
+        "score": 7.0,
+        "difficulty": "hard"
+      },
+      {
+        "slug": "galio",
+        "name": "Galio",
+        "score": 7.0,
+        "difficulty": "hard"
+      },
+      {
+        "slug": "gangplank",
+        "name": "Gangplank",
+        "score": 6.9,
+        "difficulty": "medium"
+      },
+      {
+        "slug": "garen",
+        "name": "Garen",
+        "score": 4.2,
+        "difficulty": "easy"
+      },
+      {
+        "slug": "gnar",
+        "name": "Gnar",
+        "score": 6.8,
+        "difficulty": "medium"
+      },
+      {
+        "slug": "gragas",
+        "name": "Gragas",
+        "score": 8.0,
+        "difficulty": "hard"
+      },
+      {
+        "slug": "gwen",
+        "name": "Gwen",
+        "score": 6.8,
+        "difficulty": "medium"
+      },
+      {
+        "slug": "heimerdinger",
+        "name": "Heimerdinger",
+        "score": 6.7,
+        "difficulty": "medium"
+      },
+      {
+        "slug": "hwei",
+        "name": "Hwei",
+        "score": 6.6,
+        "difficulty": "medium"
+      },
+      {
+        "slug": "illaoi",
+        "name": "Illaoi",
+        "score": 7.2,
+        "difficulty": "hard"
+      },
+      {
+        "slug": "irelia",
+        "name": "Irelia",
+        "score": 6.6,
+        "difficulty": "medium"
+      },
+      {
+        "slug": "ivern",
+        "name": "Ivern",
+        "score": 7.4,
+        "difficulty": "hard"
+      },
+      {
+        "slug": "jax",
+        "name": "Jax",
+        "score": 9.4,
+        "difficulty": "suggest_ban"
+      },
+      {
+        "slug": "jayce",
+        "name": "Jayce",
+        "score": 7.3,
+        "difficulty": "hard"
+      },
+      {
+        "slug": "ksante",
+        "name": "K'Sante",
+        "score": 6.0,
+        "difficulty": "medium"
+      },
+      {
+        "slug": "kalista",
+        "name": "Kalista",
+        "score": 6.7,
+        "difficulty": "medium"
+      },
+      {
+        "slug": "karma",
+        "name": "Karma",
+        "score": 6.8,
+        "difficulty": "medium"
+      },
+      {
+        "slug": "kassadin",
+        "name": "Kassadin",
+        "score": 6.7,
+        "difficulty": "medium"
+      },
+      {
+        "slug": "katarina",
+        "name": "Katarina",
+        "score": 6.3,
+        "difficulty": "medium"
+      },
+      {
+        "slug": "kayle",
+        "name": "Kayle",
+        "score": 4.4,
+        "difficulty": "easy"
+      },
+      {
+        "slug": "kennen",
+        "name": "Kennen",
+        "score": 7.0,
+        "difficulty": "hard"
+      },
+      {
+        "slug": "kled",
+        "name": "Kled",
+        "score": 6.9,
+        "difficulty": "medium"
+      },
+      {
+        "slug": "lissandra",
+        "name": "Lissandra",
+        "score": 6.4,
+        "difficulty": "medium"
+      },
+      {
+        "slug": "lucian",
+        "name": "Lucian",
+        "score": 6.6,
+        "difficulty": "medium"
+      },
+      {
+        "slug": "lulu",
+        "name": "Lulu",
+        "score": 7.9,
+        "difficulty": "hard"
+      },
+      {
+        "slug": "malphite",
+        "name": "Malphite",
+        "score": 8.2,
+        "difficulty": "hard"
+      },
+      {
+        "slug": "malzahar",
+        "name": "Malzahar",
+        "score": 4.1,
+        "difficulty": "easy"
+      },
+      {
+        "slug": "mel",
+        "name": "Mel",
+        "score": 7.5,
+        "difficulty": "hard"
+      },
+      {
+        "slug": "milio",
+        "name": "Milio",
+        "score": 6.2,
+        "difficulty": "medium"
+      },
+      {
+        "slug": "mordekaiser",
+        "name": "Mordekaiser",
+        "score": 7.6,
+        "difficulty": "hard"
+      },
+      {
+        "slug": "naafiri",
+        "name": "Naafiri",
+        "score": 7.0,
+        "difficulty": "hard"
+      },
+      {
+        "slug": "nasus",
+        "name": "Nasus",
+        "score": 3.9,
+        "difficulty": "easy"
+      },
+      {
+        "slug": "neeko",
+        "name": "Neeko",
+        "score": 6.6,
+        "difficulty": "medium"
+      },
+      {
+        "slug": "olaf",
+        "name": "Olaf",
+        "score": 7.2,
+        "difficulty": "hard"
+      },
+      {
+        "slug": "ornn",
+        "name": "Ornn",
+        "score": 4.5,
+        "difficulty": "medium"
+      },
+      {
+        "slug": "pantheon",
+        "name": "Pantheon",
+        "score": 7.8,
+        "difficulty": "hard"
+      },
+      {
+        "slug": "poppy",
+        "name": "Poppy",
+        "score": 8.4,
+        "difficulty": "hard"
+      },
+      {
+        "slug": "quinn",
+        "name": "Quinn",
+        "score": 8.7,
+        "difficulty": "hard"
+      },
+      {
+        "slug": "renekton",
+        "name": "Renekton",
+        "score": 9.2,
+        "difficulty": "suggest_ban"
+      },
+      {
+        "slug": "riven",
+        "name": "Riven",
+        "score": 6.4,
+        "difficulty": "medium"
+      },
+      {
+        "slug": "rumble",
+        "name": "Rumble",
+        "score": 4.3,
+        "difficulty": "easy"
+      },
+      {
+        "slug": "ryze",
+        "name": "Ryze",
+        "score": 7.1,
+        "difficulty": "hard"
+      },
+      {
+        "slug": "senna",
+        "name": "Senna",
+        "score": 6.6,
+        "difficulty": "medium"
+      },
+      {
+        "slug": "seraphine",
+        "name": "Seraphine",
+        "score": 5.9,
+        "difficulty": "medium"
+      },
+      {
+        "slug": "sett",
+        "name": "Sett",
+        "score": 7.9,
+        "difficulty": "hard"
+      },
+      {
+        "slug": "shen",
+        "name": "Shen",
+        "score": 4.3,
+        "difficulty": "easy"
+      },
+      {
+        "slug": "singed",
+        "name": "Singed",
+        "score": 4.5,
+        "difficulty": "medium"
+      },
+      {
+        "slug": "sion",
+        "name": "Sion",
+        "score": 4.1,
+        "difficulty": "easy"
+      },
+      {
+        "slug": "smolder",
+        "name": "Smolder",
+        "score": 4.2,
+        "difficulty": "easy"
+      },
+      {
+        "slug": "swain",
+        "name": "Swain",
+        "score": 4.4,
+        "difficulty": "easy"
+      },
+      {
+        "slug": "sylas",
+        "name": "Sylas",
+        "score": 6.4,
+        "difficulty": "medium"
+      },
+      {
+        "slug": "tahm-kench",
+        "name": "Tahm Kench",
+        "score": 4.4,
+        "difficulty": "easy"
+      },
+      {
+        "slug": "taliyah",
+        "name": "Taliyah",
+        "score": 6.9,
+        "difficulty": "medium"
+      },
+      {
+        "slug": "talon",
+        "name": "Talon",
+        "score": 7.1,
+        "difficulty": "hard"
+      },
+      {
+        "slug": "teemo",
+        "name": "Teemo",
+        "score": 7.9,
+        "difficulty": "hard"
+      },
+      {
+        "slug": "tristana",
+        "name": "Tristana",
+        "score": 6.6,
+        "difficulty": "medium"
+      },
+      {
+        "slug": "trundle",
+        "name": "Trundle",
+        "score": 6.8,
+        "difficulty": "medium"
+      },
+      {
+        "slug": "tryndamere",
+        "name": "Tryndamere",
+        "score": 7.1,
+        "difficulty": "hard"
+      },
+      {
+        "slug": "twisted-fate",
+        "name": "Twisted Fate",
+        "score": 6.7,
+        "difficulty": "medium"
+      },
+      {
+        "slug": "urgot",
+        "name": "Urgot",
+        "score": 7.1,
+        "difficulty": "hard"
+      },
+      {
+        "slug": "varus",
+        "name": "Varus",
+        "score": 7.5,
+        "difficulty": "hard"
+      },
+      {
+        "slug": "vayne",
+        "name": "Vayne",
+        "score": 8.9,
+        "difficulty": "hard"
+      },
+      {
+        "slug": "veigar",
+        "name": "Veigar",
+        "score": 3.8,
+        "difficulty": "easy"
+      },
+      {
+        "slug": "vex",
+        "name": "Vex",
+        "score": 6.6,
+        "difficulty": "medium"
+      },
+      {
+        "slug": "viktor",
+        "name": "Viktor",
+        "score": 6.4,
+        "difficulty": "medium"
+      },
+      {
+        "slug": "vladimir",
+        "name": "Vladimir",
+        "score": 6.9,
+        "difficulty": "medium"
+      },
+      {
+        "slug": "volibear",
+        "name": "Volibear",
+        "score": 8.5,
+        "difficulty": "hard"
+      },
+      {
+        "slug": "warwick",
+        "name": "Warwick",
+        "score": 7.2,
+        "difficulty": "hard"
+      },
+      {
+        "slug": "wukong",
+        "name": "Wukong",
+        "score": 6.8,
+        "difficulty": "medium"
+      },
+      {
+        "slug": "yasuo",
+        "name": "Yasuo",
+        "score": 7.1,
+        "difficulty": "hard"
+      },
+      {
+        "slug": "yone",
+        "name": "Yone",
+        "score": 6.9,
+        "difficulty": "medium"
+      },
+      {
+        "slug": "yorick",
+        "name": "Yorick",
+        "score": 4.5,
+        "difficulty": "medium"
+      },
+      {
+        "slug": "zac",
+        "name": "Zac",
+        "score": 6.5,
+        "difficulty": "medium"
+      },
+      {
+        "slug": "zed",
+        "name": "Zed",
+        "score": 6.6,
+        "difficulty": "medium"
+      },
+      {
+        "slug": "ziggs",
+        "name": "Ziggs",
+        "score": 6.9,
+        "difficulty": "medium"
+      },
+      {
+        "slug": "zilean",
+        "name": "Zilean",
+        "score": 7.1,
+        "difficulty": "hard"
+      }
+    ]
+  }
+}

@@ -1,0 +1,112 @@
+{
+  "source_priority_note": {
+    "pt-BR": "Curadoria prática focada em referência útil para Camille. Priorizamos especialistas, alta elo consistente, conteúdo educacional ou VODs com valor claro de aprendizado. Atividade pode mudar, então a lista deve ser revisada periodicamente.",
+    "en": "Practical curation focused on useful Camille references. We prioritize specialists, consistent high elo, educational value or VODs with clear learning value. Activity can change, so the list should be reviewed periodically."
+  },
+  "entries": [
+    {
+      "name": "LiuBai",
+      "platform": "Bilibili / YouTube VODs",
+      "language": "CN",
+      "focus": "High elo Camille specialist / lane mechanics / matchup execution",
+      "region": "CN",
+      "content_type": "High elo gameplay / matchup VODs",
+      "why_follow": {
+        "pt-BR": "Ótima referência para ver spacing, Q2 patience, uso limpo do E e como punir matchup difícil sem pressa. É uma das fontes mais valiosas para observar Camille em execução real de alto nível.",
+        "en": "Excellent reference for spacing, Q2 patience, clean E usage and punishing hard matchups without haste. One of the most valuable sources to observe real high-level Camille execution."
+      },
+      "category": "core_specialist",
+      "activity_note": {
+        "pt-BR": "Canal/VODs seguem aparecendo em 2026 via uploads e compilações recentes.",
+        "en": "The channel/VOD ecosystem still appears active in 2026 through recent uploads and compilations."
+      },
+      "links": {
+        "bilibili_live": "https://live.bilibili.com/2001981",
+        "youtube_reference": "https://www.youtube.com/channel/UCvnVw_AfX8QV9i7tgkW4utA",
+        "vod_playlist_reference": "https://www.youtube.com/playlist?list=PLBiWVgzOX8T25BnfPxA_UNizqtfF7-u5b"
+      }
+    },
+    {
+      "name": "Drututt",
+      "platform": "Twitch / YouTube",
+      "language": "EN",
+      "focus": "High elo top lane / Camille flex / aggressive limit testing",
+      "region": "EU",
+      "content_type": "Live gameplay / VODs / matchup examples",
+      "why_follow": {
+        "pt-BR": "Mesmo não sendo Camille one-trick puro, continua sendo uma referência forte para entender janelas agressivas, snowball lateral, leitura de pick e confiança mecânica em alta elo.",
+        "en": "Even though he is not a pure Camille one-trick, he remains a strong reference for aggressive windows, side-lane snowballing, pick recognition and high-elo mechanical confidence."
+      },
+      "category": "high_elo_reference",
+      "activity_note": {
+        "pt-BR": "Twitch e VODs recentes em 2026 ainda mostram jogos e clips relacionados à Camille.",
+        "en": "Recent 2026 Twitch archives and clips still show Camille-related games and clips."
+      },
+      "links": {
+        "twitch": "https://www.twitch.tv/drututt"
+      }
+    },
+    {
+      "name": "Sanchovies",
+      "platform": "Twitch / YouTube",
+      "language": "EN",
+      "focus": "Educational high elo gameplay / Camille carry patterns / lane-to-mid conversion",
+      "region": "NA",
+      "content_type": "Gameplay with explanation / educational examples",
+      "why_follow": {
+        "pt-BR": "Boa referência para ver como Camille converte lane em mid game e como adaptar ritmo de solo queue sem depender de perfeição mecânica absoluta o tempo todo.",
+        "en": "A good reference for seeing how Camille converts lane into mid game and how to adapt solo queue tempo without depending on absolute mechanical perfection at all times."
+      },
+      "category": "educational_reference",
+      "activity_note": {
+        "pt-BR": "Há conteúdo relativamente recente de Camille no YouTube e clipes recentes na Twitch em 2026.",
+        "en": "There is relatively recent Camille content on YouTube and recent Twitch clips in 2026."
+      },
+      "links": {
+        "youtube_search_hint": "Search: Sanchovies Camille",
+        "twitch": "https://www.twitch.tv/sanchovies"
+      }
+    },
+    {
+      "name": "Cree",
+      "platform": "Twitch / YouTube",
+      "language": "EN",
+      "focus": "Camille one-trick perspective / beginner-friendly explanations / practical solo queue",
+      "region": "NA",
+      "content_type": "Guides / gameplay / teaching-oriented content",
+      "why_follow": {
+        "pt-BR": "É uma referência boa para jogadores que querem aprender Camille de forma mais digerível, com foco em fundamentos aplicáveis e não só em mãos absurdas.",
+        "en": "A good reference for players who want a more digestible Camille learning path, focused on applicable fundamentals rather than only insane hands."
+      },
+      "category": "beginner_friendly",
+      "activity_note": {
+        "pt-BR": "Os conteúdos mais fortes são mais antigos, mas a identidade do canal ainda serve como biblioteca útil para fundamentos da campeã.",
+        "en": "The strongest content is older, but the channel identity still works as a useful fundamentals library for the champion."
+      },
+      "links": {
+        "twitch": "https://www.twitch.tv/cree654",
+        "youtube": "https://www.youtube.com/channel/UCo2e9PYi7HCSaNQFwwJrTrA/videos"
+      }
+    },
+    {
+      "name": "LangD (LiuBai VOD uploads)",
+      "platform": "YouTube",
+      "language": "EN titles / mixed",
+      "focus": "LiuBai Camille VOD archive / matchup library / rank 1 style examples",
+      "region": "CN archive",
+      "content_type": "Archived VOD uploads / replay library",
+      "why_follow": {
+        "pt-BR": "Não é o player original, mas funciona como arquivo útil para estudar várias lanes e padrões de execução do LiuBai em jogos recentes.",
+        "en": "It is not the original player, but it works as a useful archive to study many lanes and LiuBai execution patterns in recent games."
+      },
+      "category": "vod_archive",
+      "activity_note": {
+        "pt-BR": "Playlist e uploads recentes seguem aparecendo em 2026.",
+        "en": "Playlists and recent uploads continue to show up in 2026."
+      },
+      "links": {
+        "playlist": "https://www.youtube.com/playlist?list=PLBiWVgzOX8T25BnfPxA_UNizqtfF7-u5b"
+      }
+    }
+  ]
+}

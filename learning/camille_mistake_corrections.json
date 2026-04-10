@@ -1,0 +1,246 @@
+{
+  "overview": {
+    "pt-BR": "Protocolos de correção prática para os erros que mais punem a Camille. Cada bloco foi pensado para caber em coaching, autotreino e revisão rápida de partida.",
+    "en": "Practical correction protocols for the mistakes that punish Camille the most. Each block is designed to fit coaching, self-training, and fast game review."
+  },
+  "correction_rule": {
+    "pt-BR": "Corrija primeiro o erro que mais te faz perder jogos inteiros, não o erro que mais machuca o ego.",
+    "en": "Fix first the mistake that loses you entire games, not the mistake that hurts your ego the most."
+  },
+  "correction_protocols": [
+    {
+      "mistake_key": "lane_respect_failure",
+      "title": {
+        "pt-BR": "Correção para respeito tardio de lane",
+        "en": "Correction for late lane respect"
+      },
+      "signs_it_is_happening": {
+        "pt-BR": "Você já está em meia vida antes de qualquer janela real e começa a usar W só para sobreviver, não para preparar a troca.",
+        "en": "You are already half HP before any real window and start using W only to survive, not to set up trades."
+      },
+      "why_it_punishes_camille": {
+        "pt-BR": "Sem vida e sem tempo, a Camille perde o direito de escolher a troca. Ela passa a depender do erro do inimigo.",
+        "en": "Without HP and time, Camille loses the right to choose the trade. She becomes dependent on enemy mistakes."
+      },
+      "in_game_correction": {
+        "pt-BR": "Reduza a ambição por dois ou três waves, priorize XP segura e volte a trocar só quando a wave e a passiva ajudarem de verdade.",
+        "en": "Lower your ambition for two or three waves, prioritize safe XP, and trade again only when wave and passive truly help."
+      },
+      "training_correction": {
+        "pt-BR": "Revise três primeiros níveis de VOD própria e marque onde você comprou dano desnecessário por minion sem valor.",
+        "en": "Review your first three levels in your own VOD and mark where you bought unnecessary damage for low-value minions."
+      },
+      "fix_priority": "very_high",
+      "consider_fixed_when": {
+        "pt-BR": "As lanes difíceis deixam de começar em modo de desespero e você chega no primeiro spike com recursos jogáveis com frequência.",
+        "en": "Hard lanes stop starting in panic mode and you reach your first spike with playable resources consistently."
+      }
+    },
+    {
+      "mistake_key": "wave_breaking_your_own_lane",
+      "title": {
+        "pt-BR": "Correção para wave mal gerida",
+        "en": "Correction for poor wave management"
+      },
+      "signs_it_is_happening": {
+        "pt-BR": "Você sente que “de repente” a lane ficou ruim, mas quase sempre isso veio de push desnecessário ou troca feita no lado errado da wave.",
+        "en": "You feel the lane “suddenly” became bad, but that usually came from unnecessary pushing or trading on the wrong side of the wave."
+      },
+      "why_it_punishes_camille": {
+        "pt-BR": "Camille odeia gastar E para consertar posição ruim. Quando a wave quebra, ela perde ameaça e segurança ao mesmo tempo.",
+        "en": "Camille hates spending E just to fix bad positioning. When the wave breaks, she loses threat and safety at the same time."
+      },
+      "in_game_correction": {
+        "pt-BR": "Antes de usar W/Q na wave, responda: eu quero prioridade, freeze, bounce ou só estava impaciente? Se a resposta é impaciência, segure.",
+        "en": "Before using W/Q on the wave, answer: do I want priority, a freeze, a bounce, or was I just impatient? If it is impatience, hold it."
+      },
+      "training_correction": {
+        "pt-BR": "Separe reviews curtos só de wave e pause cada uso de habilidade na lane para perguntar se ele ajudou ou sabotou a posição.",
+        "en": "Separate short wave-only reviews and pause every lane spell use to ask whether it helped or sabotaged your position."
+      },
+      "fix_priority": "very_high",
+      "consider_fixed_when": {
+        "pt-BR": "Você passa a reconhecer cedo quando a wave está pedindo contenção e para de transformar troca ok em lane ruim por conta própria.",
+        "en": "You start recognizing early when the wave is asking for containment and stop turning okay trades into bad lanes by yourself."
+      }
+    },
+    {
+      "mistake_key": "engage_without_condition",
+      "title": {
+        "pt-BR": "Correção para engage sem condição",
+        "en": "Correction for engage without conditions"
+      },
+      "signs_it_is_happening": {
+        "pt-BR": "Você entra e a revisão mostra que quase nada foi preparado: sem visão, sem cooldown gasto, sem folbaixa-up claro.",
+        "en": "You go in and the review shows almost nothing was prepared: no vision, no enemy cooldown spent, no clear follow-up."
+      },
+      "why_it_punishes_camille": {
+        "pt-BR": "Camille parece campeã de confiança, mas vence mais por critério. Engage ruim mata o ritmo do kit inteiro.",
+        "en": "Camille looks like a confidence champion, but she wins more through judgment. Bad engages kill the rhythm of the whole kit."
+      },
+      "in_game_correction": {
+        "pt-BR": "Atrasar um engage bom é menos caro do que antecipar um engage ruim. Se duas respostas inimigas ainda estão de pé, espere ou mude o alvo.",
+        "en": "Delaying a good engage is less costly than forcing a bad one early. If two enemy answers are still available, wait or change the target."
+      },
+      "training_correction": {
+        "pt-BR": "Revise mortes com E gasto e classifique cada uma: sem visão, sem folbaixa-up, alvo errado ou janela falsa. O padrão aparece rápido.",
+        "en": "Review deaths with E spent and classify each one: no vision, no follow-up, wrong target, or fake window. The pattern appears quickly."
+      },
+      "fix_priority": "very_high",
+      "consider_fixed_when": {
+        "pt-BR": "Suas entradas passam a nascer de leitura e não de impulso, e o time consegue jogar em cima delas com mais frequência.",
+        "en": "Your entries start from reading, not impulse, and your team can play around them more often."
+      }
+    },
+    {
+      "mistake_key": "all_in_timing_greed",
+      "title": {
+        "pt-BR": "Correção para all-in ganancioso",
+        "en": "Correction for greedy all-in timing"
+      },
+      "signs_it_is_happening": {
+        "pt-BR": "Você revê a luta e percebe que o dano existia, mas o timing não: passiva fora, Q2 cedo, wave inimiga demais ou resposta rival ainda viva.",
+        "en": "You review the fight and realize the damage existed, but the timing did not: passive down, Q2 too early, too much enemy wave, or the enemy answer still alive."
+      },
+      "why_it_punishes_camille": {
+        "pt-BR": "Camille precisa que a sequência encaixe. O all-in errado a prende em troca longa sem a parte forte da campeã.",
+        "en": "Camille needs her sequence to connect. The wrong all-in traps her in an extended fight without the strong part of the champion."
+      },
+      "in_game_correction": {
+        "pt-BR": "Congele a pressa por meio segundo: confirme Q2, confirme recurso e só então feche a porta com E ou R.",
+        "en": "Freeze the rush for half a second: confirm Q2, confirm resources, and only then close the door with E or R."
+      },
+      "training_correction": {
+        "pt-BR": "Treine all-ins no Practice Tool nomeando a ordem antes de executar: passiva, Q2, entrada, resposta do alvo, R se necessário.",
+        "en": "Train all-ins in Practice Tool by naming the order before executing: passive, Q2, entry, target response, R if needed."
+      },
+      "fix_priority": "high",
+      "consider_fixed_when": {
+        "pt-BR": "Você passa a cancelar all-ins ruins cedo e a converter mais janelas boas sem sensação de coinflip.",
+        "en": "You start cancelling bad all-ins early and converting more good windows without a coinflip feeling."
+      }
+    },
+    {
+      "mistake_key": "e_button_panic",
+      "title": {
+        "pt-BR": "Correção para E em pânico",
+        "en": "Correction for panic E"
+      },
+      "signs_it_is_happening": {
+        "pt-BR": "Seu E está sempre “fazendo tudo”: entrando, fugindo, corrigindo spacing e ainda tentando achar kill ao mesmo tempo.",
+        "en": "Your E is always “doing everything”: entering, escaping, fixing spacing, and still trying to find a kill at the same time."
+      },
+      "why_it_punishes_camille": {
+        "pt-BR": "Quando E perde função, Camille perde clareza. Jogadas sem clareza geram sequência ruim e pouca taxa de correção.",
+        "en": "When E loses function, Camille loses clarity. Plays without clarity create bad sequencing and a low chance to recover."
+      },
+      "in_game_correction": {
+        "pt-BR": "Simplifique o E nas próximas lutas: escolha ângulo simples e função única. E bonito não compensa E sem propósito.",
+        "en": "Simplify E in the next fights: choose a simple angle and a single function. A flashy E does not make up for a purposeless E."
+      },
+      "training_correction": {
+        "pt-BR": "Monte blocos curtos de treino com três usos separados: E para visão, E para engage claro e E para saída. Não misture os objetivos no mesmo bloco.",
+        "en": "Set up short training blocks with three separate E uses: E for vision, E for clear engage, and E for exit. Do not mix goals inside the same block."
+      },
+      "fix_priority": "very_high",
+      "consider_fixed_when": {
+        "pt-BR": "Você começa a errar menos por ansiedade e passa a aceitar guardar o E quando a luta ainda não pediu compromisso.",
+        "en": "You start missing less from anxiety and become willing to hold E when the fight is not asking for commitment yet."
+      }
+    },
+    {
+      "mistake_key": "r_used_as_panic_only",
+      "title": {
+        "pt-BR": "Correção para R sem plano",
+        "en": "Correction for planless R"
+      },
+      "signs_it_is_happening": {
+        "pt-BR": "Na review, o R quase sempre aparece como resposta atrasada, não como ferramenta que mudou a forma da jogada.",
+        "en": "In review, R almost always appears as a late reaction, not as a tool that changed the shape of the play."
+      },
+      "why_it_punishes_camille": {
+        "pt-BR": "R sem plano tira da Camille a chance de negar dano-chave, resetar ritmo ou prender o alvo que realmente importava.",
+        "en": "A planless R removes Camille’s chance to deny key damage, reset rhythm, or trap the target that actually mattered."
+      },
+      "in_game_correction": {
+        "pt-BR": "Antes da luta, escolha uma função prioritária do R. Se a luta muda, adapte; mas não descubra o propósito dele só depois do pulo.",
+        "en": "Before the fight, choose a primary job for R. If the fight changes, adapt; but do not discover its purpose only after the leap."
+      },
+      "training_correction": {
+        "pt-BR": "Revise teamfights e classifique cada R: dodge, reset, lock, delay ou panic. Tente reduzir a categoria panic primeiro.",
+        "en": "Review teamfights and classify every R: dodge, reset, lock, delay, or panic. Try to reduce the panic category first."
+      },
+      "fix_priority": "high",
+      "consider_fixed_when": {
+        "pt-BR": "Seu R passa a gerar valor mensurável na luta, mesmo quando não vira altalight.",
+        "en": "Your R starts creating measurable value in fights even when it does not become a highlight."
+      }
+    },
+    {
+      "mistake_key": "side_lane_overstay",
+      "title": {
+        "pt-BR": "Correção para overstay na side",
+        "en": "Correction for side-lane overstay"
+      },
+      "signs_it_is_happening": {
+        "pt-BR": "A maioria das suas mortes laterais acontece “depois de já ter conseguido algo”. Esse é o sinal clássico de wave extra sem necessidade.",
+        "en": "Most of your side-lane deaths happen “after you already got something.” That is the classic sign of an unnecessary extra wave."
+      },
+      "why_it_punishes_camille": {
+        "pt-BR": "Camille escala valor lateral por presença constante. Shutdown na side corta esse ciclo e devolve mapa ao inimigo.",
+        "en": "Camille scales lateral value through constant presence. A side-lane shutdown cuts that cycle and gives the map back to the enemy."
+      },
+      "in_game_correction": {
+        "pt-BR": "Saia um pouco cedo demais nas próximas duas rotações. Melhor perder uma wave do que devolver o mapa inteiro com uma morte previsível.",
+        "en": "Leave slightly too early in the next two rotations. It is better to lose one wave than to hand back the entire map with a predictable death."
+      },
+      "training_correction": {
+        "pt-BR": "Revise relógio e minimapa nos segundos anteriores às mortes de side. Normalmente o aviso existia e você só ignorou o gatilho de saída.",
+        "en": "Review the clock and minimap in the seconds before side-lane deaths. Usually the warning existed and you simply ignored your exit trigger."
+      },
+      "fix_priority": "very_high",
+      "consider_fixed_when": {
+        "pt-BR": "Você mantém pressão lateral sem transformar lead em shutdown frequente.",
+        "en": "You maintain side pressure without repeatedly turning your lead into shutdown gold."
+      }
+    },
+    {
+      "mistake_key": "target_selection_laziness",
+      "title": {
+        "pt-BR": "Correção para alvo preguiçoso",
+        "en": "Correction for lazy target selection"
+      },
+      "signs_it_is_happening": {
+        "pt-BR": "Suas teamfights parecem ativas, mas o alvo travado quase nunca foi o campeão que realmente decidia o dano, peel ou acesso da luta.",
+        "en": "Your teamfights look active, but the target you lock is almost never the champion that actually decided the damage, peel, or access of the fight."
+      },
+      "why_it_punishes_camille": {
+        "pt-BR": "Camille precisa que a entrada dela mude a geometria da luta. Alvo errado mantém a luta confortável para o inimigo.",
+        "en": "Camille needs her entry to change the geometry of the fight. The wrong target keeps the fight comfortable for the enemy."
+      },
+      "in_game_correction": {
+        "pt-BR": "Nomeie mentalmente o alvo ideal e o alvo aceitável antes da luta começar. Isso reduz o impulso de ultar o primeiro corpo que aparece.",
+        "en": "Mentally name the ideal target and the acceptable target before the fight begins. That reduces the urge to ult the first body you see."
+      },
+      "training_correction": {
+        "pt-BR": "Revise teamfights parando no segundo anterior ao engage e pergunte: o alvo travado tirou mais valor do inimigo do que o alvo ideal teria tirado?",
+        "en": "Review teamfights by pausing one second before the engage and asking: did the locked target remove more enemy value than the ideal target would have?"
+      },
+      "fix_priority": "high",
+      "consider_fixed_when": {
+        "pt-BR": "Suas entradas deixam de parecer só agressivas e passam a parecer relevantes para vencer a luta.",
+        "en": "Your entries stop looking merely aggressive and start looking relevant to winning the fight."
+      }
+    }
+  ],
+  "metadata": {
+    "data_quality": "high",
+    "last_updated": "2026-04-09",
+    "pipeline_alignment": [
+      "data_rules",
+      "content_priority",
+      "scoring_rules_used_for_execution_priority"
+    ],
+    "scope": "parallel_2_round5_mistakes_review_system"
+  }
+}

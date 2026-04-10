@@ -1,0 +1,213 @@
+{
+  "overview": {
+    "pt-BR": "Glossário enxuto para ensino e leitura rápida dentro do projeto da Camille.",
+    "en": "Lean glossary for teaching and quick reading inside the Camille project."
+  },
+  "terms": [
+    {
+      "term": "short trade",
+      "definition": {
+        "pt-BR": "Troca curta, feita para causar valor e sair antes da resposta completa do rival.",
+        "en": "A short trade designed to get value and leave before the opponent’s full answer."
+      },
+      "practical_application": {
+        "pt-BR": "Camille usa isso para encaixar passiva, Q2 ou outer W sem aceitar luta longa ruim.",
+        "en": "Camille uses this to land passive, Q2, or outer W without accepting a bad extended fight."
+      },
+      "camille_link": {
+        "pt-BR": "É a linguagem natural de muitas lanes da Camille.",
+        "en": "It is the natural language of many Camille lanes."
+      }
+    },
+    {
+      "term": "extended trade",
+      "definition": {
+        "pt-BR": "Troca longa, onde os dois lados continuam lutando por vários ciclos de dano.",
+        "en": "An extended trade where both sides keep fighting through multiple damage cycles."
+      },
+      "practical_application": {
+        "pt-BR": "Camille só quer isso quando o matchup, a wave e os cooldowns permitem.",
+        "en": "Camille only wants this when matchup, wave, and cooldowns allow it."
+      },
+      "camille_link": {
+        "pt-BR": "Contra campeões de troca longa forte, sair cedo costuma ser o acerto.",
+        "en": "Against strong extended-trade champions, leaving early is often correct."
+      }
+    },
+    {
+      "term": "punish window",
+      "definition": {
+        "pt-BR": "Janela em que o inimigo gastou recurso importante e fica vulnerável.",
+        "en": "A window where the enemy spent an important resource and becomes vulnerable."
+      },
+      "practical_application": {
+        "pt-BR": "Camille transforma essas janelas em E, short trade ou all-in.",
+        "en": "Camille converts those windows into E plays, short trades, or all-ins."
+      },
+      "camille_link": {
+        "pt-BR": "Boa Camille não força tudo; ela pune o que o rival entrega.",
+        "en": "A good Camille does not force everything; she punishes what the opponent gives."
+      }
+    },
+    {
+      "term": "spike",
+      "definition": {
+        "pt-BR": "Momento em que seu campeão ganha um salto relevante de poder.",
+        "en": "A moment where your champion gets a meaningful jump in power."
+      },
+      "practical_application": {
+        "pt-BR": "Pode vir por nível, item, componente ou ultimate.",
+        "en": "It can come from a level, an item, a component, or ultimate."
+      },
+      "camille_link": {
+        "pt-BR": "Camille joga muito em torno de spikes de item e da qualidade do Q2.",
+        "en": "Camille plays heavily around item spikes and Q2 quality."
+      }
+    },
+    {
+      "term": "weakside",
+      "definition": {
+        "pt-BR": "Lado do mapa que recebe pouca ou nenhuma atenção do próprio time.",
+        "en": "The side of the map receiving little or no attention from your own team."
+      },
+      "practical_application": {
+        "pt-BR": "Você joga por sobrevivência, wave e redução de prejuízo.",
+        "en": "You play for survival, wave control, and damage limitation."
+      },
+      "camille_link": {
+        "pt-BR": "Camille weakside precisa de disciplina com E e leitura de dive.",
+        "en": "Weakside Camille needs discipline with E and dive reading."
+      }
+    },
+    {
+      "term": "freeze",
+      "definition": {
+        "pt-BR": "Segurar a wave em posição estável para negar espaço, farm ou segurança ao inimigo.",
+        "en": "Holding the wave in a stable spot to deny the enemy space, farm, or safety."
+      },
+      "practical_application": {
+        "pt-BR": "Serve para criar gank, punir recall ruim e alongar rota do rival.",
+        "en": "Used to set up ganks, punish bad recalls, and extend the enemy lane."
+      },
+      "camille_link": {
+        "pt-BR": "Freeze boa dá para a Camille a distância perfeita para ameaçar E.",
+        "en": "A good freeze gives Camille the perfect lane length to threaten E."
+      }
+    },
+    {
+      "term": "bounce",
+      "definition": {
+        "pt-BR": "Movimento da wave que empurra e depois volta, mudando quem fica exposto.",
+        "en": "The wave movement that pushes and then comes back, changing who becomes exposed."
+      },
+      "practical_application": {
+        "pt-BR": "Entender bounce evita troca boa em timing ruim.",
+        "en": "Understanding bounce prevents a good trade at the wrong timing."
+      },
+      "camille_link": {
+        "pt-BR": "Camille converte muito melhor quando a wave volta do jeito certo para ela.",
+        "en": "Camille converts much better when the wave comes back in the right way for her."
+      }
+    },
+    {
+      "term": "prio",
+      "definition": {
+        "pt-BR": "Prioridade de movimento obtida ao empurrar ou controlar a wave primeiro.",
+        "en": "Movement priority gained by pushing or controlling the wave first."
+      },
+      "practical_application": {
+        "pt-BR": "Permite reset, roam, objetivo ou cobertura de visão antes do rival.",
+        "en": "It allows reset, roam, objective setup, or vision cover before the opponent."
+      },
+      "camille_link": {
+        "pt-BR": "Camille com prio dita mais o mapa lateral e o setup de flank.",
+        "en": "Camille with prio controls side-map pressure and flank setup more effectively."
+      }
+    },
+    {
+      "term": "all-in window",
+      "definition": {
+        "pt-BR": "Janela em que vale comprometer tudo para matar ou quebrar a lane.",
+        "en": "The window where it is worth committing everything to kill or break the lane."
+      },
+      "practical_application": {
+        "pt-BR": "Normalmente junta vida suficiente, wave aceitável, cooldown inimigo gasto e rota clara de folbaixa-up.",
+        "en": "Usually combines enough HP, a playable wave, enemy cooldown spent, and a clear follow-up path."
+      },
+      "camille_link": {
+        "pt-BR": "Boa Camille reconhece quando o all-in é dela e quando ainda não é.",
+        "en": "A good Camille recognizes when the all-in belongs to her and when it does not yet."
+      }
+    },
+    {
+      "term": "setup",
+      "definition": {
+        "pt-BR": "Preparação da jogada antes da execução final.",
+        "en": "Preparation for the play before the final execution."
+      },
+      "practical_application": {
+        "pt-BR": "Inclui wave, ângulo, visão, cooldowns e posição de aliados.",
+        "en": "It includes wave, angle, vision, cooldowns, and allied position."
+      },
+      "camille_link": {
+        "pt-BR": "A mecânica da Camille cresce muito quando o setup está certo.",
+        "en": "Camille’s mechanics become far stronger when the setup is right."
+      }
+    },
+    {
+      "term": "reset",
+      "definition": {
+        "pt-BR": "Retorno planejado à base para converter ouro e voltar em timing bom.",
+        "en": "A planned recall to convert gold and return on good timing."
+      },
+      "practical_application": {
+        "pt-BR": "Reset bom evita ficar preso sem vida, mana ou spike comprado.",
+        "en": "A good reset avoids getting stuck without HP, mana, or your purchased spike."
+      },
+      "camille_link": {
+        "pt-BR": "Camille precisa de resets limpos para acelerar item e manter ameaça na lane.",
+        "en": "Camille needs clean resets to accelerate itemization and keep lane threat."
+      }
+    },
+    {
+      "term": "side lane",
+      "definition": {
+        "pt-BR": "Jogo lateral focado em pressão de wave, ameaça de torre e resposta inimiga.",
+        "en": "Side-lane play focused on wave pressure, tower threat, and enemy responses."
+      },
+      "practical_application": {
+        "pt-BR": "Você força alguém a responder e cria espaço em outro lugar do mapa.",
+        "en": "You force someone to answer and create space elsewhere on the map."
+      },
+      "camille_link": {
+        "pt-BR": "É um dos territórios naturais da Camille quando ela está com item e informação.",
+        "en": "It is one of Camille’s natural territories when she has item power and information."
+      }
+    },
+    {
+      "term": "flank",
+      "definition": {
+        "pt-BR": "Entrada lateral ou traseira para atingir alvo sem passar pela frente da luta.",
+        "en": "A side or back entry that reaches a target without front-to-back fighting first."
+      },
+      "practical_application": {
+        "pt-BR": "Reduz peel frontal e aumenta chance de ultar alvo importante.",
+        "en": "It reduces frontal peel and increases the chance of ulting an important target."
+      },
+      "camille_link": {
+        "pt-BR": "Flank de Camille é forte quando o time segura e o corredor está limpo.",
+        "en": "A Camille flank is strong when the team can stall and the corridor is clean."
+      }
+    }
+  ],
+  "metadata": {
+    "data_quality": "high",
+    "last_updated": "2026-04-09",
+    "pipeline_alignment": [
+      "pipeline/data_rules.md",
+      "pipeline/content_priority.md",
+      "pipeline/scoring_rules.md"
+    ],
+    "scope": "round3_execution_reference"
+  }
+}

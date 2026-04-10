@@ -1,0 +1,256 @@
+{
+  "overview": {
+    "pt-BR": "Cenários de treino da Camille para Practice Tool e revisão prática de execução em jogo real.",
+    "en": "Camille training scenarios for Practice Tool and practical execution review in real games."
+  },
+  "beginner": [
+    {
+      "name": {
+        "pt-BR": "Timing do Q2 sem pressa",
+        "en": "Q2 timing without rushing"
+      },
+      "objective": {
+        "pt-BR": "Parar de estourar o Q2 cedo demais ou tarde demais.",
+        "en": "Stop firing Q2 too early or too late."
+      },
+      "how_to_train": {
+        "pt-BR": "No Practice Tool, faça ciclos repetidos de auto -> Q1 -> movimentação curta -> Q2 em minion, boneco e alvo em movimento.",
+        "en": "In Practice Tool, repeat auto -> Q1 -> short movement -> Q2 cycles on minions, dummies, and moving targets."
+      },
+      "what_to_watch": {
+        "pt-BR": "Veja se o segundo Q sai no timing forte e se sua movimentação não quebra a sequência.",
+        "en": "Check whether the second Q comes out in the strong timing and whether your movement preserves the sequence."
+      },
+      "common_error": {
+        "pt-BR": "Apertar o Q2 só porque ficou disponível.",
+        "en": "Pressing Q2 just because it became available."
+      },
+      "mastery_signal": {
+        "pt-BR": "Você consegue repetir 10 sequências limpas seguidas sem perder ritmo.",
+        "en": "You can repeat 10 clean sequences in a row without losing rhythm."
+      }
+    },
+    {
+      "name": {
+        "pt-BR": "Outer W consistente",
+        "en": "Consistent outer W"
+      },
+      "objective": {
+        "pt-BR": "Acertar a ponta do W com intenção, não por acaso.",
+        "en": "Land the outer edge of W intentionally, not by accident."
+      },
+      "how_to_train": {
+        "pt-BR": "Treine o espaçamento do W contra boneco parado e depois caminhe para trás enquanto castar.",
+        "en": "Drill W spacing on a stationary dummy and then cast while kiting backward."
+      },
+      "what_to_watch": {
+        "pt-BR": "Observe a distância exata em que a borda externa conecta.",
+        "en": "Observe the exact distance where the outer edge connects."
+      },
+      "common_error": {
+        "pt-BR": "Usar W muito perto e perder sbaixa, dano e sustain ideais.",
+        "en": "Using W too close and losing the ideal slow, damage, and sustain."
+      },
+      "mastery_signal": {
+        "pt-BR": "Você acerta a outer edge na maioria das tentativas sem parar para pensar.",
+        "en": "You hit the outer edge on most attempts without needing to think about it."
+      }
+    },
+    {
+      "name": {
+        "pt-BR": "E básico com leitura calma",
+        "en": "Basic E with calm read"
+      },
+      "objective": {
+        "pt-BR": "Parar de usar E no automático.",
+        "en": "Stop using E on autopilot."
+      },
+      "how_to_train": {
+        "pt-BR": "Escolha duas paredes simples na lane e treine o primeiro cast, pausa curta, segundo cast.",
+        "en": "Pick two simple lane walls and drill first cast, brief pause, second cast."
+      },
+      "what_to_watch": {
+        "pt-BR": "Se você está lendo ângulo e alvo antes de se lançar.",
+        "en": "Whether you are reading angle and target before launching."
+      },
+      "common_error": {
+        "pt-BR": "Grudar na parede e sair instantaneamente.",
+        "en": "Attaching to the wall and leaving instantly."
+      },
+      "mastery_signal": {
+        "pt-BR": "Você aborta E ruim sem sentir que “precisa ir porque já castou”.",
+        "en": "You abort bad E attempts without feeling you “must go because you already cast it.”"
+      }
+    }
+  ],
+  "intermediate": [
+    {
+      "name": {
+        "pt-BR": "E em múltiplos ângulos",
+        "en": "E from multiple angles"
+      },
+      "objective": {
+        "pt-BR": "Criar repertório real de paredes e vetores.",
+        "en": "Build a real wall and vector repertoire."
+      },
+      "how_to_train": {
+        "pt-BR": "Em cada lado do mapa, escolha três paredes: lane, rio e jungle. Repita entrada no mesmo alvo vindo de cada uma.",
+        "en": "On each side of the map, pick three walls: lane, river, and jungle. Repeat entry on the same target from each wall."
+      },
+      "what_to_watch": {
+        "pt-BR": "Qual parede esconde melhor sua saída e qual te torna previsível.",
+        "en": "Which wall hides your exit better and which one makes you predictable."
+      },
+      "common_error": {
+        "pt-BR": "Achar que todas as paredes servem igual.",
+        "en": "Assuming all walls serve equally well."
+      },
+      "mastery_signal": {
+        "pt-BR": "Você já sabe de cabeça qual parede prefere em cada lado da lane.",
+        "en": "You already know by memory which wall you prefer on each side of the lane."
+      }
+    },
+    {
+      "name": {
+        "pt-BR": "Short trade estruturado",
+        "en": "Structured short trade"
+      },
+      "objective": {
+        "pt-BR": "Executar trocas curtas completas sem se estender.",
+        "en": "Execute complete short trades without overextending."
+      },
+      "how_to_train": {
+        "pt-BR": "Monte ciclos com passiva, Q1, outer W, reposicionamento e Q2. Pare a troca logo após a confirmação principal.",
+        "en": "Build cycles with passive, Q1, outer W, repositioning, and Q2. End the trade right after the main confirmation."
+      },
+      "what_to_watch": {
+        "pt-BR": "Se sua saída continua limpa depois do dano.",
+        "en": "Whether your exit remains clean after the damage."
+      },
+      "common_error": {
+        "pt-BR": "Acertar bem os primeiros frames e estragar tudo ficando mais um segundo.",
+        "en": "Landing the first frames well and ruining everything by staying one second too long."
+      },
+      "mastery_signal": {
+        "pt-BR": "Você sabe encerrar a troca antes da resposta completa do rival.",
+        "en": "You know how to end the trade before the opponent’s full answer."
+      }
+    },
+    {
+      "name": {
+        "pt-BR": "R defensivo em tempo real",
+        "en": "Defensive R in real time"
+      },
+      "objective": {
+        "pt-BR": "Aprender a usar o R para negar o momento certo, não aleatoriamente.",
+        "en": "Learn to use R to deny the right moment, not randomly."
+      },
+      "how_to_train": {
+        "pt-BR": "Em treino ou replay, escolha spells inimigas com animação clara e treine reagir ao timing, depois revisar onde você pousou.",
+        "en": "In practice or replay review, choose enemy spells with clear animations and train reacting to their timing, then review where you landed."
+      },
+      "what_to_watch": {
+        "pt-BR": "Não só se desviou, mas se o pouso te manteve vivo e útil.",
+        "en": "Not only whether you dodged, but whether your landing kept you alive and useful."
+      },
+      "common_error": {
+        "pt-BR": "Desviar do hit e morrer para o pós-hit.",
+        "en": "Dodging the hit and dying to what comes after."
+      },
+      "mastery_signal": {
+        "pt-BR": "Você começa a ultar com intenção específica: negar dano, negar CC ou resetar timing.",
+        "en": "You start ulting with a specific purpose: deny damage, deny CC, or reset timing."
+      }
+    }
+  ],
+  "advanced": [
+    {
+      "name": {
+        "pt-BR": "All-in completo sob pressão",
+        "en": "Full all-in under pressure"
+      },
+      "objective": {
+        "pt-BR": "Conectar entrada, Q2, R e saída/continuação sem perder a leitura da luta.",
+        "en": "Connect entry, Q2, R, and exit/follow-up without losing the read of the fight."
+      },
+      "how_to_train": {
+        "pt-BR": "Treine sequências completas começando de diferentes paredes, com alvo móvel e mudança de direção. Depois leve para normal/ranked com foco em uma condição por partida.",
+        "en": "Drill full sequences from different walls, on moving targets with direction changes. Then take it into normals/ranked focusing on one condition per game."
+      },
+      "what_to_watch": {
+        "pt-BR": "Se seu combo continua organizado quando o alvo reage diferente do esperado.",
+        "en": "Whether your combo stays organized when the target reacts differently than expected."
+      },
+      "common_error": {
+        "pt-BR": "Memorizar combo de altalight e desmontar quando a luta sai do script.",
+        "en": "Memorizing a highlight combo and falling apart when the fight leaves the script."
+      },
+      "mastery_signal": {
+        "pt-BR": "Você adapta a ordem das ações sem perder a lógica da jogada.",
+        "en": "You adapt the order of actions without losing the logic of the play."
+      }
+    },
+    {
+      "name": {
+        "pt-BR": "Disciplina de não forçar engage ruim",
+        "en": "Discipline not to force bad engages"
+      },
+      "objective": {
+        "pt-BR": "Treinar o filtro mental de cancelar a jogada errada mesmo tendo ângulo.",
+        "en": "Train the mental filter to cancel the wrong play even when the angle exists."
+      },
+      "how_to_train": {
+        "pt-BR": "Revise replays e marque todo E ou R que parecia mecânico, mas era ruim por mapa, wave ou cobertura inimiga.",
+        "en": "Review replays and mark every E or R that looked mechanical but was bad because of map state, wave, or enemy backup."
+      },
+      "what_to_watch": {
+        "pt-BR": "Quantas mortes começaram antes do cast, e não no cast.",
+        "en": "How many deaths started before the cast, not because of the cast itself."
+      },
+      "common_error": {
+        "pt-BR": "Confundir confiança com obrigação de entrar.",
+        "en": "Confusing confidence with the obligation to engage."
+      },
+      "mastery_signal": {
+        "pt-BR": "Você passa a recusar mais jogadas ruins sem perder presença na partida.",
+        "en": "You start refusing more bad plays without losing presence in the game."
+      }
+    },
+    {
+      "name": {
+        "pt-BR": "Execução com visão parcial",
+        "en": "Execution with partial vision"
+      },
+      "objective": {
+        "pt-BR": "Melhorar a decisão quando nem tudo está visível, sem virar coinflip.",
+        "en": "Improve decision-making when not everything is visible, without turning it into a coinflip."
+      },
+      "how_to_train": {
+        "pt-BR": "Treine entradas usando o primeiro cast do E para confirmar informação, depois compare em replay se sua leitura estava correta.",
+        "en": "Drill entries using E first cast to confirm information, then compare in replay whether your read was correct."
+      },
+      "what_to_watch": {
+        "pt-BR": "Se você está usando a mecânica para comprar informação ou só acelerando um palpite.",
+        "en": "Whether you are using the mechanic to buy information or only speeding up a guess."
+      },
+      "common_error": {
+        "pt-BR": "Chamar de “outplay” uma entrada que dependia de o time inimigo estar dormindo.",
+        "en": "Calling it an “outplay” when the entry depended on the enemy team being asleep."
+      },
+      "mastery_signal": {
+        "pt-BR": "Sua taxa de engages realmente limpos sobe sem aumentar a quantidade de coinflip.",
+        "en": "Your rate of genuinely clean engages rises without increasing the number of coinflips."
+      }
+    }
+  ],
+  "metadata": {
+    "data_quality": "high",
+    "last_updated": "2026-04-09",
+    "pipeline_alignment": [
+      "pipeline/data_rules.md",
+      "pipeline/content_priority.md",
+      "pipeline/scoring_rules.md"
+    ],
+    "scope": "round3_execution_reference"
+  }
+}

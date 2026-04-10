@@ -1,0 +1,405 @@
+{
+  "overview": {
+    "pt-BR": "Blocos curtos de treino da Camille para encaixar melhoria prática sem depender de sessão longa. A proposta é treinar um objetivo de cada vez e sair com um critério claro de sucesso.",
+    "en": "Short Camille training blocks to fit practical improvement without depending on long sessions. The idea is to train one objective at a time and leave with a clear success criterion."
+  },
+  "usage_rule": {
+    "pt-BR": "Escolha um bloco por vez. Se misturar muitos focos, você vai sentir que treinou bastante e melhorar pouco.",
+    "en": "Pick one block at a time. If you mix too many focuses, you will feel like you trained a lot and improved very little."
+  },
+  "blocks": [
+    {
+      "block_key": "15_minute_reset",
+      "title": {
+        "pt-BR": "Treino de 15 minutos para resetar a base",
+        "en": "15-minute block to reset the basics"
+      },
+      "level": "beginner",
+      "focus": {
+        "pt-BR": "Ritmo de Q2 + disciplina de entrada",
+        "en": "Q2 rhythm + entry discipline"
+      },
+      "objective": {
+        "pt-BR": "Relembrar a base antes da fila e reduzir o impulso de usar E sem plano.",
+        "en": "Refresh the basics before queueing and reduce the urge to use E without a plan."
+      },
+      "sequence": {
+        "pt-BR": [
+          "5 min: Q1 -> andar -> Q2 em alvo parado",
+          "5 min: E em ângulos simples e saída limpa",
+          "5 min: repetir short trade completo sem transformar em all-in"
+        ],
+        "en": [
+          "5 min: Q1 -> move -> Q2 on a still target",
+          "5 min: E on simple angles with a clean exit",
+          "5 min: repeat the full short trade without turning it into an all-in"
+        ]
+      },
+      "what_to_watch": {
+        "pt-BR": [
+          "Q2 sair no tempo forte",
+          "E só entrar quando houver rota clara",
+          "não apertar R só para terminar sequência"
+        ],
+        "en": [
+          "Q2 landing on the strong timing",
+          "E only entering when there is a clear route",
+          "not pressing R just to finish the sequence"
+        ]
+      },
+      "common_error": {
+        "pt-BR": "Transformar aquecimento em treino de altalight.",
+        "en": "Turning a warm-up into highlight practice."
+      },
+      "success_signal": {
+        "pt-BR": "Você entra na fila sentindo ritmo limpo, não pressa.",
+        "en": "You enter queue feeling clean rhythm, not haste."
+      }
+    },
+    {
+      "block_key": "30_minute_execution",
+      "title": {
+        "pt-BR": "Treino de 30 minutos de execução",
+        "en": "30-minute execution block"
+      },
+      "level": "intermediate",
+      "focus": {
+        "pt-BR": "E, Q2 e R em sequência real",
+        "en": "E, Q2, and R in a real sequence"
+      },
+      "objective": {
+        "pt-BR": "Melhorar a consistência do all-in sem depender de improviso mecânico.",
+        "en": "Improve all-in consistency without depending on mechanical improvisation."
+      },
+      "sequence": {
+        "pt-BR": [
+          "10 min: E em paredes diferentes",
+          "10 min: engage curto > segurar > Q2 > decidir R",
+          "10 min: sequência completa com correção se o E não stunar"
+        ],
+        "en": [
+          "10 min: E on different walls",
+          "10 min: short entry > hold > Q2 > decide on R",
+          "10 min: full sequence with correction when E does not stun"
+        ]
+      },
+      "what_to_watch": {
+        "pt-BR": [
+          "se você mantém a sequência mesmo após pequeno erro",
+          "se o R está resolvendo problema real",
+          "se o dano principal ainda sai no timing certo"
+        ],
+        "en": [
+          "whether you maintain the sequence even after a small error",
+          "whether R is solving a real problem",
+          "whether your main damage still lands on the correct timing"
+        ]
+      },
+      "common_error": {
+        "pt-BR": "Reiniciar toda sequência ao primeiro erro e nunca treinar recuperação.",
+        "en": "Restarting the whole sequence at the first mistake and never training recovery."
+      },
+      "success_signal": {
+        "pt-BR": "Você consegue manter dano e decisão mesmo quando a entrada não sai perfeita.",
+        "en": "You can maintain damage and decision making even when the entry is not perfect."
+      }
+    },
+    {
+      "block_key": "e_focus",
+      "title": {
+        "pt-BR": "Treino focado em E",
+        "en": "E-focused block"
+      },
+      "level": "beginner_to_intermediate",
+      "focus": {
+        "pt-BR": "Ângulo, range e confirmação",
+        "en": "Angle, range, and confirmation"
+      },
+      "objective": {
+        "pt-BR": "Tirar o E do automático e fazer cada cast ter intenção.",
+        "en": "Take E off autopilot and make every cast intentional."
+      },
+      "sequence": {
+        "pt-BR": [
+          "alternar parede boa e parede ruim",
+          "repetir E sem stun apenas para espaço/visão",
+          "repetir E com stun só quando o alvo realmente dá a linha"
+        ],
+        "en": [
+          "alternate good walls and awkward walls",
+          "repeat E without stun only for space/vision",
+          "repeat E with stun only when the target really gives the line"
+        ]
+      },
+      "what_to_watch": {
+        "pt-BR": [
+          "se você está lendo ângulo e não só range",
+          "se o segundo cast sai com calma",
+          "se você abandona entrada quando ela fica ruim"
+        ],
+        "en": [
+          "whether you are reading angle and not only range",
+          "whether the second cast comes out calmly",
+          "whether you abandon the entry when it becomes bad"
+        ]
+      },
+      "common_error": {
+        "pt-BR": "Insistir que todo E precisa ser hero play.",
+        "en": "Insisting that every E must be a hero play."
+      },
+      "success_signal": {
+        "pt-BR": "Seu E passa a parecer “simples”, porque ficou limpo.",
+        "en": "Your E starts looking “simple” because it became clean."
+      }
+    },
+    {
+      "block_key": "q2_focus",
+      "title": {
+        "pt-BR": "Treino focado em Q2",
+        "en": "Q2-focused block"
+      },
+      "level": "beginner",
+      "focus": {
+        "pt-BR": "Paciência de dano",
+        "en": "Damage patience"
+      },
+      "objective": {
+        "pt-BR": "Parar de perder valor por apertar Q2 cedo, travado ou fora de contexto.",
+        "en": "Stop losing value by pressing Q2 early, frozen, or out of context."
+      },
+      "sequence": {
+        "pt-BR": [
+          "repetir Q1 em minion e Q2 em alvo",
+          "repetir Q1 no alvo, andar curto e Q2 no timing ideal",
+          "alternar troca curta e all-in para sentir diferença de ritmo"
+        ],
+        "en": [
+          "repeat Q1 on minion and Q2 on target",
+          "repeat Q1 on target, short step, and Q2 on ideal timing",
+          "alternate short trades and all-ins to feel the rhythm difference"
+        ]
+      },
+      "what_to_watch": {
+        "pt-BR": [
+          "momento exato em que o dano “vira”",
+          "se sua movimentação prepara ou atrapalha o Q2",
+          "se você força Q2 quando deveria sair"
+        ],
+        "en": [
+          "the exact moment when the damage “turns on”",
+          "whether your movement sets up or ruins Q2",
+          "whether you force Q2 when you should disengage"
+        ]
+      },
+      "common_error": {
+        "pt-BR": "Achar que “Q disponível” significa “Q obrigatório”.",
+        "en": "Thinking “Q available” means “Q mandatory.”"
+      },
+      "success_signal": {
+        "pt-BR": "Seu Q2 começa a sair como escolha consciente, não reflexo ansioso.",
+        "en": "Your Q2 starts coming out as a conscious choice, not an anxious reflex."
+      }
+    },
+    {
+      "block_key": "versus_poke",
+      "title": {
+        "pt-BR": "Treino focado em lane contra poke",
+        "en": "Training block for poke lanes"
+      },
+      "level": "intermediate",
+      "focus": {
+        "pt-BR": "Sobrevivência com intenção",
+        "en": "Intentional survival"
+      },
+      "objective": {
+        "pt-BR": "Aprender a não doar vida antes da primeira janela real.",
+        "en": "Learn not to donate HP before the first real opening."
+      },
+      "sequence": {
+        "pt-BR": [
+          "simular 3 waves priorizando XP e farm seguro",
+          "treinar W outer e recuo",
+          "treinar E apenas em cooldown gasto ou linha clara"
+        ],
+        "en": [
+          "simulate 3 waves prioritizing XP and safe farm",
+          "drill outer W and retreat",
+          "drill E only on burned cooldowns or clear lines"
+        ]
+      },
+      "what_to_watch": {
+        "pt-BR": [
+          "vida perdida antes do primeiro reset",
+          "quantas vezes você entrou sem bounce favorável",
+          "se você aceitou ceder espaço sem tiltar"
+        ],
+        "en": [
+          "HP lost before the first reset",
+          "how many times you entered without a favorable bounce",
+          "whether you accepted giving space without tilting"
+        ]
+      },
+      "common_error": {
+        "pt-BR": "Querer “responder presença” e só tomar mais poke.",
+        "en": "Trying to “answer presence” and only taking more poke."
+      },
+      "success_signal": {
+        "pt-BR": "Você mantém recursos suficientes para realmente ameaçar quando a janela aparecer.",
+        "en": "You keep enough resources to actually threaten when the opening appears."
+      }
+    },
+    {
+      "block_key": "all_in",
+      "title": {
+        "pt-BR": "Treino focado em all-in",
+        "en": "All-in focused block"
+      },
+      "level": "intermediate",
+      "focus": {
+        "pt-BR": "Confirmação de kill",
+        "en": "Kill confirmation"
+      },
+      "objective": {
+        "pt-BR": "Treinar all-in com leitura, não só com coragem.",
+        "en": "Train all-ins with reading, not only with courage."
+      },
+      "sequence": {
+        "pt-BR": [
+          "definir gatilho de engage antes de começar",
+          "executar engage completo 10 vezes",
+          "repetir 10 vezes abortando o engage quando o gatilho não aparece"
+        ],
+        "en": [
+          "define the engage trigger before starting",
+          "execute the full engage 10 times",
+          "repeat 10 times aborting the engage when the trigger does not appear"
+        ]
+      },
+      "what_to_watch": {
+        "pt-BR": [
+          "se você ainda força all-in sem condição",
+          "se o R entra no problema certo",
+          "se o pós-engage tem saída"
+        ],
+        "en": [
+          "whether you still force all-ins without conditions",
+          "whether R addresses the right problem",
+          "whether the post-engage has an exit"
+        ]
+      },
+      "common_error": {
+        "pt-BR": "Treinar só a versão em que tudo dá certo.",
+        "en": "Practicing only the version where everything works out."
+      },
+      "success_signal": {
+        "pt-BR": "Você começa a cancelar engage ruim sem sentir que “perdeu a jogada”.",
+        "en": "You start canceling bad engages without feeling like you “lost the play.”"
+      }
+    },
+    {
+      "block_key": "side_lane",
+      "title": {
+        "pt-BR": "Treino focado em side lane",
+        "en": "Side-lane focused block"
+      },
+      "level": "intermediate_to_advanced",
+      "focus": {
+        "pt-BR": "Pressão lateral com disciplina",
+        "en": "Disciplined side-lane pressure"
+      },
+      "objective": {
+        "pt-BR": "Treinar side lane como ferramenta de mapa, não como isolamento automático.",
+        "en": "Train side lane as a map tool, not as automatic isolation."
+      },
+      "sequence": {
+        "pt-BR": [
+          "empurrar wave e checar minimapa em timing fixo",
+          "decidir se bate torre, some ou recua",
+          "simular resposta de 1, 2 ou 3 inimigos"
+        ],
+        "en": [
+          "push wave and check minimap on a fixed rhythm",
+          "decide whether to hit tower, disappear, or back off",
+          "simulate the response of 1, 2, or 3 enemies"
+        ]
+      },
+      "what_to_watch": {
+        "pt-BR": [
+          "se você identifica o limite da pressão",
+          "se a visão muda sua agressividade",
+          "se você respeita objetivo grande próximo"
+        ],
+        "en": [
+          "whether you identify the pressure limit",
+          "whether vision changes your aggression",
+          "whether you respect a major objective that is about to spawn"
+        ]
+      },
+      "common_error": {
+        "pt-BR": "Ficar mais um wave “de graça” e morrer por isso.",
+        "en": "Staying for one more “free” wave and dying for it."
+      },
+      "success_signal": {
+        "pt-BR": "Sua side puxa resposta sem virar shutdown recorrente.",
+        "en": "Your side lane draws responses without becoming repeated shutdowns."
+      }
+    },
+    {
+      "block_key": "engage_discipline",
+      "title": {
+        "pt-BR": "Treino focado em disciplina de engage",
+        "en": "Engage discipline block"
+      },
+      "level": "all",
+      "focus": {
+        "pt-BR": "Escolher quando NÃO entrar",
+        "en": "Choosing when NOT to enter"
+      },
+      "objective": {
+        "pt-BR": "Reduzir o impulso de gastar E/R só porque a luta parece próxima.",
+        "en": "Reduce the urge to spend E/R just because a fight looks close."
+      },
+      "sequence": {
+        "pt-BR": [
+          "assistir 5 minutos de VOD próprio e pausar antes do engage",
+          "dizer em voz alta por que entraria ou não",
+          "repetir em jogo/practice situações em que a melhor ação é segurar"
+        ],
+        "en": [
+          "watch 5 minutes of your own VOD and pause before the engage",
+          "say out loud why you would or would not enter",
+          "repeat in game/practice situations where the best action is to hold"
+        ]
+      },
+      "what_to_watch": {
+        "pt-BR": [
+          "se você checa follow-up",
+          "se você checa peel/flash inimigo",
+          "se você aceita perder a janela ruim para preservar a boa"
+        ],
+        "en": [
+          "whether you check follow-up",
+          "whether you check enemy peel/Flash",
+          "whether you accept losing the bad window to preserve the good one"
+        ]
+      },
+      "common_error": {
+        "pt-BR": "Achar que disciplina é passividade.",
+        "en": "Thinking discipline means passivity."
+      },
+      "success_signal": {
+        "pt-BR": "Você entra menos, mas suas entradas ganham mais valor.",
+        "en": "You enter less often, but your entries gain more value."
+      }
+    }
+  ],
+  "metadata": {
+    "data_quality": "high",
+    "last_updated": "2026-04-09",
+    "pipeline_alignment": [
+      "data_rules",
+      "content_priority"
+    ],
+    "scope": "parallel_2_round4_coach_progression"
+  }
+}

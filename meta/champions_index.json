@@ -1,0 +1,1366 @@
+[
+  {
+    "slug": "aatrox",
+    "name": "Aatrox",
+    "roles": [
+      "top"
+    ],
+    "icon_path": "static/img/champions/icons/aatrox.png"
+  },
+  {
+    "slug": "ahri",
+    "name": "Ahri",
+    "roles": [
+      "mid"
+    ],
+    "icon_path": "static/img/champions/icons/ahri.png"
+  },
+  {
+    "slug": "akali",
+    "name": "Akali",
+    "roles": [
+      "top"
+    ],
+    "icon_path": "static/img/champions/icons/akali.png"
+  },
+  {
+    "slug": "akshan",
+    "name": "Akshan",
+    "roles": [
+      "top"
+    ],
+    "icon_path": "static/img/champions/icons/akshan.png"
+  },
+  {
+    "slug": "alistar",
+    "name": "Alistar",
+    "roles": [
+      "support"
+    ],
+    "icon_path": "static/img/champions/icons/alistar.png"
+  },
+  {
+    "slug": "ambessa",
+    "name": "Ambessa",
+    "roles": [
+      "top"
+    ],
+    "icon_path": "static/img/champions/icons/ambessa.png"
+  },
+  {
+    "slug": "amumu",
+    "name": "Amumu",
+    "roles": [
+      "jungle"
+    ],
+    "icon_path": "static/img/champions/icons/amumu.png"
+  },
+  {
+    "slug": "anivia",
+    "name": "Anivia",
+    "roles": [
+      "top"
+    ],
+    "icon_path": "static/img/champions/icons/anivia.png"
+  },
+  {
+    "slug": "annie",
+    "name": "Annie",
+    "roles": [
+      "mid"
+    ],
+    "icon_path": "static/img/champions/icons/annie.png"
+  },
+  {
+    "slug": "aphelios",
+    "name": "Aphelios",
+    "roles": [
+      "adc"
+    ],
+    "icon_path": "static/img/champions/icons/aphelios.png"
+  },
+  {
+    "slug": "ashe",
+    "name": "Ashe",
+    "roles": [
+      "top"
+    ],
+    "icon_path": "static/img/champions/icons/ashe.png"
+  },
+  {
+    "slug": "aurelion-sol",
+    "name": "Aurelion Sol",
+    "roles": [
+      "top"
+    ],
+    "icon_path": "static/img/champions/icons/aurelion-sol.png"
+  },
+  {
+    "slug": "aurora",
+    "name": "Aurora",
+    "roles": [
+      "top"
+    ],
+    "icon_path": "static/img/champions/icons/aurora.png"
+  },
+  {
+    "slug": "azir",
+    "name": "Azir",
+    "roles": [
+      "top"
+    ],
+    "icon_path": "static/img/champions/icons/azir.png"
+  },
+  {
+    "slug": "bard",
+    "name": "Bard",
+    "roles": [
+      "support"
+    ],
+    "icon_path": "static/img/champions/icons/bard.png"
+  },
+  {
+    "slug": "belveth",
+    "name": "Bel'Veth",
+    "roles": [
+      "jungle"
+    ],
+    "icon_path": "static/img/champions/icons/belveth.png"
+  },
+  {
+    "slug": "blitzcrank",
+    "name": "Blitzcrank",
+    "roles": [
+      "support"
+    ],
+    "icon_path": "static/img/champions/icons/blitzcrank.png"
+  },
+  {
+    "slug": "brand",
+    "name": "Brand",
+    "roles": [
+      "support"
+    ],
+    "icon_path": "static/img/champions/icons/brand.png"
+  },
+  {
+    "slug": "braum",
+    "name": "Braum",
+    "roles": [
+      "support"
+    ],
+    "icon_path": "static/img/champions/icons/braum.png"
+  },
+  {
+    "slug": "briar",
+    "name": "Briar",
+    "roles": [
+      "jungle"
+    ],
+    "icon_path": "static/img/champions/icons/briar.png"
+  },
+  {
+    "slug": "caitlyn",
+    "name": "Caitlyn",
+    "roles": [
+      "adc"
+    ],
+    "icon_path": "static/img/champions/icons/caitlyn.png"
+  },
+  {
+    "slug": "camille",
+    "name": "Camille",
+    "roles": [
+      "top"
+    ],
+    "icon_path": "static/img/champions/icons/camille.png"
+  },
+  {
+    "slug": "cassiopeia",
+    "name": "Cassiopeia",
+    "roles": [
+      "top"
+    ],
+    "icon_path": "static/img/champions/icons/cassiopeia.png"
+  },
+  {
+    "slug": "chogath",
+    "name": "Cho'Gath",
+    "roles": [
+      "top"
+    ],
+    "icon_path": "static/img/champions/icons/chogath.png"
+  },
+  {
+    "slug": "corki",
+    "name": "Corki",
+    "roles": [
+      "mid",
+      "adc"
+    ],
+    "icon_path": "static/img/champions/icons/corki.png"
+  },
+  {
+    "slug": "darius",
+    "name": "Darius",
+    "roles": [
+      "top"
+    ],
+    "icon_path": "static/img/champions/icons/darius.png"
+  },
+  {
+    "slug": "diana",
+    "name": "Diana",
+    "roles": [
+      "top"
+    ],
+    "icon_path": "static/img/champions/icons/diana.png"
+  },
+  {
+    "slug": "dr-mundo",
+    "name": "Dr. Mundo",
+    "roles": [
+      "top"
+    ],
+    "icon_path": "static/img/champions/icons/dr-mundo.png"
+  },
+  {
+    "slug": "draven",
+    "name": "Draven",
+    "roles": [
+      "adc"
+    ],
+    "icon_path": "static/img/champions/icons/draven.png"
+  },
+  {
+    "slug": "ekko",
+    "name": "Ekko",
+    "roles": [
+      "top"
+    ],
+    "icon_path": "static/img/champions/icons/ekko.png"
+  },
+  {
+    "slug": "elise",
+    "name": "Elise",
+    "roles": [
+      "jungle"
+    ],
+    "icon_path": "static/img/champions/icons/elise.png"
+  },
+  {
+    "slug": "evelynn",
+    "name": "Evelynn",
+    "roles": [
+      "jungle"
+    ],
+    "icon_path": "static/img/champions/icons/evelynn.png"
+  },
+  {
+    "slug": "ezreal",
+    "name": "Ezreal",
+    "roles": [
+      "adc"
+    ],
+    "icon_path": "static/img/champions/icons/ezreal.png"
+  },
+  {
+    "slug": "fiddlesticks",
+    "name": "Fiddlesticks",
+    "roles": [
+      "jungle"
+    ],
+    "icon_path": "static/img/champions/icons/fiddlesticks.png"
+  },
+  {
+    "slug": "fiora",
+    "name": "Fiora",
+    "roles": [
+      "top"
+    ],
+    "icon_path": "static/img/champions/icons/fiora.png"
+  },
+  {
+    "slug": "fizz",
+    "name": "Fizz",
+    "roles": [
+      "top"
+    ],
+    "icon_path": "static/img/champions/icons/fizz.png"
+  },
+  {
+    "slug": "galio",
+    "name": "Galio",
+    "roles": [
+      "top"
+    ],
+    "icon_path": "static/img/champions/icons/galio.png"
+  },
+  {
+    "slug": "gangplank",
+    "name": "Gangplank",
+    "roles": [
+      "top"
+    ],
+    "icon_path": "static/img/champions/icons/gangplank.png"
+  },
+  {
+    "slug": "garen",
+    "name": "Garen",
+    "roles": [
+      "top"
+    ],
+    "icon_path": "static/img/champions/icons/garen.png"
+  },
+  {
+    "slug": "gnar",
+    "name": "Gnar",
+    "roles": [
+      "top"
+    ],
+    "icon_path": "static/img/champions/icons/gnar.png"
+  },
+  {
+    "slug": "gragas",
+    "name": "Gragas",
+    "roles": [
+      "top"
+    ],
+    "icon_path": "static/img/champions/icons/gragas.png"
+  },
+  {
+    "slug": "graves",
+    "name": "Graves",
+    "roles": [
+      "jungle"
+    ],
+    "icon_path": "static/img/champions/icons/graves.png"
+  },
+  {
+    "slug": "gwen",
+    "name": "Gwen",
+    "roles": [
+      "top"
+    ],
+    "icon_path": "static/img/champions/icons/gwen.png"
+  },
+  {
+    "slug": "hecarim",
+    "name": "Hecarim",
+    "roles": [
+      "jungle"
+    ],
+    "icon_path": "static/img/champions/icons/hecarim.png"
+  },
+  {
+    "slug": "heimerdinger",
+    "name": "Heimerdinger",
+    "roles": [
+      "top"
+    ],
+    "icon_path": "static/img/champions/icons/heimerdinger.png"
+  },
+  {
+    "slug": "hwei",
+    "name": "Hwei",
+    "roles": [
+      "top"
+    ],
+    "icon_path": "static/img/champions/icons/hwei.png"
+  },
+  {
+    "slug": "illaoi",
+    "name": "Illaoi",
+    "roles": [
+      "top"
+    ],
+    "icon_path": "static/img/champions/icons/illaoi.png"
+  },
+  {
+    "slug": "irelia",
+    "name": "Irelia",
+    "roles": [
+      "top"
+    ],
+    "icon_path": "static/img/champions/icons/irelia.png"
+  },
+  {
+    "slug": "ivern",
+    "name": "Ivern",
+    "roles": [
+      "top"
+    ],
+    "icon_path": "static/img/champions/icons/ivern.png"
+  },
+  {
+    "slug": "janna",
+    "name": "Janna",
+    "roles": [
+      "support"
+    ],
+    "icon_path": "static/img/champions/icons/janna.png"
+  },
+  {
+    "slug": "jarvan-iv",
+    "name": "Jarvan IV",
+    "roles": [
+      "jungle"
+    ],
+    "icon_path": "static/img/champions/icons/jarvan-iv.png"
+  },
+  {
+    "slug": "jax",
+    "name": "Jax",
+    "roles": [
+      "top"
+    ],
+    "icon_path": "static/img/champions/icons/jax.png"
+  },
+  {
+    "slug": "jayce",
+    "name": "Jayce",
+    "roles": [
+      "top"
+    ],
+    "icon_path": "static/img/champions/icons/jayce.png"
+  },
+  {
+    "slug": "jhin",
+    "name": "Jhin",
+    "roles": [
+      "adc"
+    ],
+    "icon_path": "static/img/champions/icons/jhin.png"
+  },
+  {
+    "slug": "jinx",
+    "name": "Jinx",
+    "roles": [
+      "adc"
+    ],
+    "icon_path": "static/img/champions/icons/jinx.png"
+  },
+  {
+    "slug": "ksante",
+    "name": "K'Sante",
+    "roles": [
+      "top"
+    ],
+    "icon_path": "static/img/champions/icons/ksante.png"
+  },
+  {
+    "slug": "kaisa",
+    "name": "Kai'Sa",
+    "roles": [
+      "adc"
+    ],
+    "icon_path": "static/img/champions/icons/kaisa.png"
+  },
+  {
+    "slug": "kalista",
+    "name": "Kalista",
+    "roles": [
+      "top"
+    ],
+    "icon_path": "static/img/champions/icons/kalista.png"
+  },
+  {
+    "slug": "karma",
+    "name": "Karma",
+    "roles": [
+      "top"
+    ],
+    "icon_path": "static/img/champions/icons/karma.png"
+  },
+  {
+    "slug": "karthus",
+    "name": "Karthus",
+    "roles": [
+      "jungle"
+    ],
+    "icon_path": "static/img/champions/icons/karthus.png"
+  },
+  {
+    "slug": "kassadin",
+    "name": "Kassadin",
+    "roles": [
+      "top"
+    ],
+    "icon_path": "static/img/champions/icons/kassadin.png"
+  },
+  {
+    "slug": "katarina",
+    "name": "Katarina",
+    "roles": [
+      "top"
+    ],
+    "icon_path": "static/img/champions/icons/katarina.png"
+  },
+  {
+    "slug": "kayle",
+    "name": "Kayle",
+    "roles": [
+      "top"
+    ],
+    "icon_path": "static/img/champions/icons/kayle.png"
+  },
+  {
+    "slug": "kayn",
+    "name": "Kayn",
+    "roles": [
+      "jungle"
+    ],
+    "icon_path": "static/img/champions/icons/kayn.png"
+  },
+  {
+    "slug": "kennen",
+    "name": "Kennen",
+    "roles": [
+      "top"
+    ],
+    "icon_path": "static/img/champions/icons/kennen.png"
+  },
+  {
+    "slug": "khazix",
+    "name": "Kha'Zix",
+    "roles": [
+      "jungle"
+    ],
+    "icon_path": "static/img/champions/icons/khazix.png"
+  },
+  {
+    "slug": "kindred",
+    "name": "Kindred",
+    "roles": [
+      "jungle"
+    ],
+    "icon_path": "static/img/champions/icons/kindred.png"
+  },
+  {
+    "slug": "kled",
+    "name": "Kled",
+    "roles": [
+      "top"
+    ],
+    "icon_path": "static/img/champions/icons/kled.png"
+  },
+  {
+    "slug": "kogmaw",
+    "name": "Kog'Maw",
+    "roles": [
+      "adc"
+    ],
+    "icon_path": "static/img/champions/icons/kogmaw.png"
+  },
+  {
+    "slug": "leblanc",
+    "name": "LeBlanc",
+    "roles": [
+      "mid"
+    ],
+    "icon_path": "static/img/champions/icons/leblanc.png"
+  },
+  {
+    "slug": "lee-sin",
+    "name": "Lee Sin",
+    "roles": [
+      "jungle"
+    ],
+    "icon_path": "static/img/champions/icons/lee-sin.png"
+  },
+  {
+    "slug": "leona",
+    "name": "Leona",
+    "roles": [
+      "support"
+    ],
+    "icon_path": "static/img/champions/icons/leona.png"
+  },
+  {
+    "slug": "lillia",
+    "name": "Lillia",
+    "roles": [
+      "jungle"
+    ],
+    "icon_path": "static/img/champions/icons/lillia.png"
+  },
+  {
+    "slug": "lissandra",
+    "name": "Lissandra",
+    "roles": [
+      "top"
+    ],
+    "icon_path": "static/img/champions/icons/lissandra.png"
+  },
+  {
+    "slug": "lucian",
+    "name": "Lucian",
+    "roles": [
+      "top"
+    ],
+    "icon_path": "static/img/champions/icons/lucian.png"
+  },
+  {
+    "slug": "lulu",
+    "name": "Lulu",
+    "roles": [
+      "top"
+    ],
+    "icon_path": "static/img/champions/icons/lulu.png"
+  },
+  {
+    "slug": "lux",
+    "name": "Lux",
+    "roles": [
+      "mid",
+      "support"
+    ],
+    "icon_path": "static/img/champions/icons/lux.png"
+  },
+  {
+    "slug": "malphite",
+    "name": "Malphite",
+    "roles": [
+      "top"
+    ],
+    "icon_path": "static/img/champions/icons/malphite.png"
+  },
+  {
+    "slug": "malzahar",
+    "name": "Malzahar",
+    "roles": [
+      "top"
+    ],
+    "icon_path": "static/img/champions/icons/malzahar.png"
+  },
+  {
+    "slug": "maokai",
+    "name": "Maokai",
+    "roles": [
+      "jungle"
+    ],
+    "icon_path": "static/img/champions/icons/maokai.png"
+  },
+  {
+    "slug": "master-yi",
+    "name": "Master Yi",
+    "roles": [
+      "jungle"
+    ],
+    "icon_path": "static/img/champions/icons/master-yi.png"
+  },
+  {
+    "slug": "mel",
+    "name": "Mel",
+    "roles": [
+      "top"
+    ],
+    "icon_path": "static/img/champions/icons/mel.png"
+  },
+  {
+    "slug": "milio",
+    "name": "Milio",
+    "roles": [
+      "top"
+    ],
+    "icon_path": "static/img/champions/icons/milio.png"
+  },
+  {
+    "slug": "miss-fortune",
+    "name": "Miss Fortune",
+    "roles": [
+      "adc"
+    ],
+    "icon_path": "static/img/champions/icons/miss-fortune.png"
+  },
+  {
+    "slug": "mordekaiser",
+    "name": "Mordekaiser",
+    "roles": [
+      "top"
+    ],
+    "icon_path": "static/img/champions/icons/mordekaiser.png"
+  },
+  {
+    "slug": "morgana",
+    "name": "Morgana",
+    "roles": [
+      "support"
+    ],
+    "icon_path": "static/img/champions/icons/morgana.png"
+  },
+  {
+    "slug": "naafiri",
+    "name": "Naafiri",
+    "roles": [
+      "top"
+    ],
+    "icon_path": "static/img/champions/icons/naafiri.png"
+  },
+  {
+    "slug": "nami",
+    "name": "Nami",
+    "roles": [
+      "support"
+    ],
+    "icon_path": "static/img/champions/icons/nami.png"
+  },
+  {
+    "slug": "nasus",
+    "name": "Nasus",
+    "roles": [
+      "top"
+    ],
+    "icon_path": "static/img/champions/icons/nasus.png"
+  },
+  {
+    "slug": "nautilus",
+    "name": "Nautilus",
+    "roles": [
+      "support"
+    ],
+    "icon_path": "static/img/champions/icons/nautilus.png"
+  },
+  {
+    "slug": "neeko",
+    "name": "Neeko",
+    "roles": [
+      "top"
+    ],
+    "icon_path": "static/img/champions/icons/neeko.png"
+  },
+  {
+    "slug": "nidalee",
+    "name": "Nidalee",
+    "roles": [
+      "jungle"
+    ],
+    "icon_path": "static/img/champions/icons/nidalee.png"
+  },
+  {
+    "slug": "nilah",
+    "name": "Nilah",
+    "roles": [
+      "adc"
+    ],
+    "icon_path": "static/img/champions/icons/nilah.png"
+  },
+  {
+    "slug": "nocturne",
+    "name": "Nocturne",
+    "roles": [
+      "jungle"
+    ],
+    "icon_path": "static/img/champions/icons/nocturne.png"
+  },
+  {
+    "slug": "nunu-and-willump",
+    "name": "Nunu & Willump",
+    "roles": [
+      "jungle"
+    ],
+    "icon_path": "static/img/champions/icons/nunu-and-willump.png"
+  },
+  {
+    "slug": "olaf",
+    "name": "Olaf",
+    "roles": [
+      "top"
+    ],
+    "icon_path": "static/img/champions/icons/olaf.png"
+  },
+  {
+    "slug": "orianna",
+    "name": "Orianna",
+    "roles": [
+      "mid"
+    ],
+    "icon_path": "static/img/champions/icons/orianna.png"
+  },
+  {
+    "slug": "ornn",
+    "name": "Ornn",
+    "roles": [
+      "top"
+    ],
+    "icon_path": "static/img/champions/icons/ornn.png"
+  },
+  {
+    "slug": "pantheon",
+    "name": "Pantheon",
+    "roles": [
+      "top"
+    ],
+    "icon_path": "static/img/champions/icons/pantheon.png"
+  },
+  {
+    "slug": "poppy",
+    "name": "Poppy",
+    "roles": [
+      "top"
+    ],
+    "icon_path": "static/img/champions/icons/poppy.png"
+  },
+  {
+    "slug": "pyke",
+    "name": "Pyke",
+    "roles": [
+      "support"
+    ],
+    "icon_path": "static/img/champions/icons/pyke.png"
+  },
+  {
+    "slug": "qiyana",
+    "name": "Qiyana",
+    "roles": [
+      "mid"
+    ],
+    "icon_path": "static/img/champions/icons/qiyana.png"
+  },
+  {
+    "slug": "quinn",
+    "name": "Quinn",
+    "roles": [
+      "top"
+    ],
+    "icon_path": "static/img/champions/icons/quinn.png"
+  },
+  {
+    "slug": "rakan",
+    "name": "Rakan",
+    "roles": [
+      "support"
+    ],
+    "icon_path": "static/img/champions/icons/rakan.png"
+  },
+  {
+    "slug": "rammus",
+    "name": "Rammus",
+    "roles": [
+      "jungle"
+    ],
+    "icon_path": "static/img/champions/icons/rammus.png"
+  },
+  {
+    "slug": "reksai",
+    "name": "Rek'Sai",
+    "roles": [
+      "jungle"
+    ],
+    "icon_path": "static/img/champions/icons/reksai.png"
+  },
+  {
+    "slug": "rell",
+    "name": "Rell",
+    "roles": [
+      "support"
+    ],
+    "icon_path": "static/img/champions/icons/rell.png"
+  },
+  {
+    "slug": "renata-glasc",
+    "name": "Renata Glasc",
+    "roles": [
+      "support"
+    ],
+    "icon_path": "static/img/champions/icons/renata-glasc.png"
+  },
+  {
+    "slug": "renekton",
+    "name": "Renekton",
+    "roles": [
+      "top"
+    ],
+    "icon_path": "static/img/champions/icons/renekton.png"
+  },
+  {
+    "slug": "rengar",
+    "name": "Rengar",
+    "roles": [
+      "jungle"
+    ],
+    "icon_path": "static/img/champions/icons/rengar.png"
+  },
+  {
+    "slug": "riven",
+    "name": "Riven",
+    "roles": [
+      "top"
+    ],
+    "icon_path": "static/img/champions/icons/riven.png"
+  },
+  {
+    "slug": "rumble",
+    "name": "Rumble",
+    "roles": [
+      "top"
+    ],
+    "icon_path": "static/img/champions/icons/rumble.png"
+  },
+  {
+    "slug": "ryze",
+    "name": "Ryze",
+    "roles": [
+      "top"
+    ],
+    "icon_path": "static/img/champions/icons/ryze.png"
+  },
+  {
+    "slug": "samira",
+    "name": "Samira",
+    "roles": [
+      "adc"
+    ],
+    "icon_path": "static/img/champions/icons/samira.png"
+  },
+  {
+    "slug": "sejuani",
+    "name": "Sejuani",
+    "roles": [
+      "jungle"
+    ],
+    "icon_path": "static/img/champions/icons/sejuani.png"
+  },
+  {
+    "slug": "senna",
+    "name": "Senna",
+    "roles": [
+      "top"
+    ],
+    "icon_path": "static/img/champions/icons/senna.png"
+  },
+  {
+    "slug": "seraphine",
+    "name": "Seraphine",
+    "roles": [
+      "top"
+    ],
+    "icon_path": "static/img/champions/icons/seraphine.png"
+  },
+  {
+    "slug": "sett",
+    "name": "Sett",
+    "roles": [
+      "top"
+    ],
+    "icon_path": "static/img/champions/icons/sett.png"
+  },
+  {
+    "slug": "shaco",
+    "name": "Shaco",
+    "roles": [
+      "jungle"
+    ],
+    "icon_path": "static/img/champions/icons/shaco.png"
+  },
+  {
+    "slug": "shen",
+    "name": "Shen",
+    "roles": [
+      "top"
+    ],
+    "icon_path": "static/img/champions/icons/shen.png"
+  },
+  {
+    "slug": "shyvana",
+    "name": "Shyvana",
+    "roles": [
+      "jungle"
+    ],
+    "icon_path": "static/img/champions/icons/shyvana.png"
+  },
+  {
+    "slug": "singed",
+    "name": "Singed",
+    "roles": [
+      "top"
+    ],
+    "icon_path": "static/img/champions/icons/singed.png"
+  },
+  {
+    "slug": "sion",
+    "name": "Sion",
+    "roles": [
+      "top"
+    ],
+    "icon_path": "static/img/champions/icons/sion.png"
+  },
+  {
+    "slug": "sivir",
+    "name": "Sivir",
+    "roles": [
+      "adc"
+    ],
+    "icon_path": "static/img/champions/icons/sivir.png"
+  },
+  {
+    "slug": "skarner",
+    "name": "Skarner",
+    "roles": [
+      "jungle"
+    ],
+    "icon_path": "static/img/champions/icons/skarner.png"
+  },
+  {
+    "slug": "smolder",
+    "name": "Smolder",
+    "roles": [
+      "top"
+    ],
+    "icon_path": "static/img/champions/icons/smolder.png"
+  },
+  {
+    "slug": "sona",
+    "name": "Sona",
+    "roles": [
+      "support"
+    ],
+    "icon_path": "static/img/champions/icons/sona.png"
+  },
+  {
+    "slug": "soraka",
+    "name": "Soraka",
+    "roles": [
+      "support"
+    ],
+    "icon_path": "static/img/champions/icons/soraka.png"
+  },
+  {
+    "slug": "swain",
+    "name": "Swain",
+    "roles": [
+      "top"
+    ],
+    "icon_path": "static/img/champions/icons/swain.png"
+  },
+  {
+    "slug": "sylas",
+    "name": "Sylas",
+    "roles": [
+      "top"
+    ],
+    "icon_path": "static/img/champions/icons/sylas.png"
+  },
+  {
+    "slug": "syndra",
+    "name": "Syndra",
+    "roles": [
+      "mid"
+    ],
+    "icon_path": "static/img/champions/icons/syndra.png"
+  },
+  {
+    "slug": "tahm-kench",
+    "name": "Tahm Kench",
+    "roles": [
+      "top"
+    ],
+    "icon_path": "static/img/champions/icons/tahm-kench.png"
+  },
+  {
+    "slug": "taliyah",
+    "name": "Taliyah",
+    "roles": [
+      "top"
+    ],
+    "icon_path": "static/img/champions/icons/taliyah.png"
+  },
+  {
+    "slug": "talon",
+    "name": "Talon",
+    "roles": [
+      "top"
+    ],
+    "icon_path": "static/img/champions/icons/talon.png"
+  },
+  {
+    "slug": "taric",
+    "name": "Taric",
+    "roles": [
+      "support"
+    ],
+    "icon_path": "static/img/champions/icons/taric.png"
+  },
+  {
+    "slug": "teemo",
+    "name": "Teemo",
+    "roles": [
+      "top"
+    ],
+    "icon_path": "static/img/champions/icons/teemo.png"
+  },
+  {
+    "slug": "thresh",
+    "name": "Thresh",
+    "roles": [
+      "support"
+    ],
+    "icon_path": "static/img/champions/icons/thresh.png"
+  },
+  {
+    "slug": "tristana",
+    "name": "Tristana",
+    "roles": [
+      "top"
+    ],
+    "icon_path": "static/img/champions/icons/tristana.png"
+  },
+  {
+    "slug": "trundle",
+    "name": "Trundle",
+    "roles": [
+      "top"
+    ],
+    "icon_path": "static/img/champions/icons/trundle.png"
+  },
+  {
+    "slug": "tryndamere",
+    "name": "Tryndamere",
+    "roles": [
+      "top"
+    ],
+    "icon_path": "static/img/champions/icons/tryndamere.png"
+  },
+  {
+    "slug": "twisted-fate",
+    "name": "Twisted Fate",
+    "roles": [
+      "top"
+    ],
+    "icon_path": "static/img/champions/icons/twisted-fate.png"
+  },
+  {
+    "slug": "twitch",
+    "name": "Twitch",
+    "roles": [
+      "adc"
+    ],
+    "icon_path": "static/img/champions/icons/twitch.png"
+  },
+  {
+    "slug": "udyr",
+    "name": "Udyr",
+    "roles": [
+      "jungle"
+    ],
+    "icon_path": "static/img/champions/icons/udyr.png"
+  },
+  {
+    "slug": "urgot",
+    "name": "Urgot",
+    "roles": [
+      "top"
+    ],
+    "icon_path": "static/img/champions/icons/urgot.png"
+  },
+  {
+    "slug": "varus",
+    "name": "Varus",
+    "roles": [
+      "top"
+    ],
+    "icon_path": "static/img/champions/icons/varus.png"
+  },
+  {
+    "slug": "vayne",
+    "name": "Vayne",
+    "roles": [
+      "top"
+    ],
+    "icon_path": "static/img/champions/icons/vayne.png"
+  },
+  {
+    "slug": "veigar",
+    "name": "Veigar",
+    "roles": [
+      "top"
+    ],
+    "icon_path": "static/img/champions/icons/veigar.png"
+  },
+  {
+    "slug": "velkoz",
+    "name": "Vel'Koz",
+    "roles": [
+      "mid",
+      "support"
+    ],
+    "icon_path": "static/img/champions/icons/velkoz.png"
+  },
+  {
+    "slug": "vex",
+    "name": "Vex",
+    "roles": [
+      "top"
+    ],
+    "icon_path": "static/img/champions/icons/vex.png"
+  },
+  {
+    "slug": "vi",
+    "name": "Vi",
+    "roles": [
+      "jungle"
+    ],
+    "icon_path": "static/img/champions/icons/vi.png"
+  },
+  {
+    "slug": "viego",
+    "name": "Viego",
+    "roles": [
+      "jungle"
+    ],
+    "icon_path": "static/img/champions/icons/viego.png"
+  },
+  {
+    "slug": "viktor",
+    "name": "Viktor",
+    "roles": [
+      "top"
+    ],
+    "icon_path": "static/img/champions/icons/viktor.png"
+  },
+  {
+    "slug": "vladimir",
+    "name": "Vladimir",
+    "roles": [
+      "top"
+    ],
+    "icon_path": "static/img/champions/icons/vladimir.png"
+  },
+  {
+    "slug": "volibear",
+    "name": "Volibear",
+    "roles": [
+      "top"
+    ],
+    "icon_path": "static/img/champions/icons/volibear.png"
+  },
+  {
+    "slug": "warwick",
+    "name": "Warwick",
+    "roles": [
+      "top"
+    ],
+    "icon_path": "static/img/champions/icons/warwick.png"
+  },
+  {
+    "slug": "wukong",
+    "name": "Wukong",
+    "roles": [
+      "top"
+    ],
+    "icon_path": "static/img/champions/icons/wukong.png"
+  },
+  {
+    "slug": "xayah",
+    "name": "Xayah",
+    "roles": [
+      "adc"
+    ],
+    "icon_path": "static/img/champions/icons/xayah.png"
+  },
+  {
+    "slug": "xerath",
+    "name": "Xerath",
+    "roles": [
+      "mid",
+      "support"
+    ],
+    "icon_path": "static/img/champions/icons/xerath.png"
+  },
+  {
+    "slug": "xin-zhao",
+    "name": "Xin Zhao",
+    "roles": [
+      "jungle"
+    ],
+    "icon_path": "static/img/champions/icons/xin-zhao.png"
+  },
+  {
+    "slug": "yasuo",
+    "name": "Yasuo",
+    "roles": [
+      "top"
+    ],
+    "icon_path": "static/img/champions/icons/yasuo.png"
+  },
+  {
+    "slug": "yone",
+    "name": "Yone",
+    "roles": [
+      "top"
+    ],
+    "icon_path": "static/img/champions/icons/yone.png"
+  },
+  {
+    "slug": "yorick",
+    "name": "Yorick",
+    "roles": [
+      "top"
+    ],
+    "icon_path": "static/img/champions/icons/yorick.png"
+  },
+  {
+    "slug": "yuumi",
+    "name": "Yuumi",
+    "roles": [
+      "support"
+    ],
+    "icon_path": "static/img/champions/icons/yuumi.png"
+  },
+  {
+    "slug": "zac",
+    "name": "Zac",
+    "roles": [
+      "top"
+    ],
+    "icon_path": "static/img/champions/icons/zac.png"
+  },
+  {
+    "slug": "zed",
+    "name": "Zed",
+    "roles": [
+      "top"
+    ],
+    "icon_path": "static/img/champions/icons/zed.png"
+  },
+  {
+    "slug": "zeri",
+    "name": "Zeri",
+    "roles": [
+      "adc"
+    ],
+    "icon_path": "static/img/champions/icons/zeri.png"
+  },
+  {
+    "slug": "ziggs",
+    "name": "Ziggs",
+    "roles": [
+      "top"
+    ],
+    "icon_path": "static/img/champions/icons/ziggs.png"
+  },
+  {
+    "slug": "zilean",
+    "name": "Zilean",
+    "roles": [
+      "top"
+    ],
+    "icon_path": "static/img/champions/icons/zilean.png"
+  },
+  {
+    "slug": "zoe",
+    "name": "Zoe",
+    "roles": [
+      "mid"
+    ],
+    "icon_path": "static/img/champions/icons/zoe.png"
+  },
+  {
+    "slug": "zyra",
+    "name": "Zyra",
+    "roles": [
+      "support"
+    ],
+    "icon_path": "static/img/champions/icons/zyra.png"
+  }
+]

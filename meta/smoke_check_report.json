@@ -1,0 +1,71 @@
+{
+  "runtime_mode": "flask_runtime",
+  "imports_ok": true,
+  "app_py_compile_ok": true,
+  "missing_endpoints": [],
+  "routes_checked": {
+    "home": {
+      "path": "/",
+      "locales": {
+        "pt-BR": {
+          "status_code": 200,
+          "ok": true
+        },
+        "en": {
+          "status_code": 200,
+          "ok": true
+        }
+      },
+      "ok": true
+    },
+    "champion_guide": {
+      "path": "/guide",
+      "locales": {
+        "pt-BR": {
+          "status_code": 200,
+          "ok": true
+        },
+        "en": {
+          "status_code": 200,
+          "ok": true
+        }
+      },
+      "ok": true
+    },
+    "matchups_overview": {
+      "path": "/matchups",
+      "locales": {
+        "pt-BR": {
+          "status_code": 200,
+          "ok": true
+        },
+        "en": {
+          "status_code": 200,
+          "ok": true
+        }
+      },
+      "ok": true
+    },
+    "learning": {
+      "path": "/learning",
+      "locales": {
+        "pt-BR": {
+          "status_code": 200,
+          "ok": true
+        },
+        "en": {
+          "status_code": 200,
+          "ok": true
+        }
+      },
+      "ok": true
+    }
+  },
+  "learning_bundle_safe": true,
+  "learning_sections_count": 8,
+  "translations_mode_checked": [
+    "pt-BR",
+    "en"
+  ],
+  "smoke_ok": true
+}

@@ -1,0 +1,207 @@
+{
+  "overview": {
+    "pt-BR": "Checklists premium da Camille por fase e situação. Feitos para consulta rápida antes da decisão, não para leitura bonita e abstrata.",
+    "en": "Premium Camille checklists by phase and situation. Built for quick decision support, not for pretty abstract reading."
+  },
+  "early_game": {
+    "pt-BR": [
+      "Verifique matchup real: curta, longa, poke ou all-in?",
+      "Verifique se a wave inicial te favorece ou te prende.",
+      "Priorize não perder vida de graça nos níveis 1-3.",
+      "Não force E ofensivo sem saber onde está o jungle.",
+      "SE a lane for ruim cedo -> jogue para XP e reset, não para ego."
+    ],
+    "en": [
+      "Check the real matchup pattern: short, long, poke or all-in?",
+      "Check whether the initial wave favors you or traps you.",
+      "Prioritize not losing free HP on levels 1-3.",
+      "Do not force offensive E without knowing jungle location.",
+      "IF the early lane is bad -> play for XP and reset, not ego."
+    ]
+  },
+  "lane_phase": {
+    "pt-BR": [
+      "Verifique passiva antes de trocar pesado.",
+      "Prepare o Q2 com intenção; não no automático.",
+      "SE a wave estiver ruim -> reduza ambição.",
+      "SE o rival gastar a ferramenta principal -> procure troca curta limpa ou all-in real.",
+      "Não lute uma wave ruim só porque o rival ficou ao alcance."
+    ],
+    "en": [
+      "Check passive before heavy trading.",
+      "Prepare Q2 intentionally, not on autopilot.",
+      "IF the wave is bad -> reduce ambition.",
+      "IF the enemy spends the main tool -> look for a clean short trade or a real all-in.",
+      "Do not fight a bad wave only because the target stepped in range."
+    ]
+  },
+  "mid_game": {
+    "pt-BR": [
+      "Pergunte: eu valho mais na side ou no grupo agora?",
+      "Empurre side antes do objetivo sempre que possível.",
+      "Converta kill em estrutura, visão ou rotação; não pare no highlight.",
+      "SE você estiver forte -> esconda posição quando isso trava o mapa rival.",
+      "Não revele flank cedo sem necessidade."
+    ],
+    "en": [
+      "Ask: am I worth more in side lane or grouped right now?",
+      "Push side lane before the objective whenever possible.",
+      "Convert kills into structures, vision or rotation; do not stop at the highlight.",
+      "IF you are strong -> hide your position when it freezes the enemy map.",
+      "Do not reveal the flank early without need."
+    ]
+  },
+  "late_game": {
+    "pt-BR": [
+      "Cada E e cada R podem decidir a partida; reduza risco gratuito.",
+      "Verifique flash/cleanse/peel do alvo antes da entrada.",
+      "SE a side está longa demais e sem visão -> recue antes do throw.",
+      "Priorize alvo travável, não só alvo famoso.",
+      "Não entre primeiro se a luta pede entrada atrasada."
+    ],
+    "en": [
+      "Every E and every R can decide the game; reduce free risk.",
+      "Check flash/cleanse/peel around the target before entering.",
+      "IF the side lane is too long and dark -> back off before the throw.",
+      "Prioritize a target you can actually lock, not just a famous target.",
+      "Do not enter first if the fight asks for delayed entry."
+    ]
+  },
+  "side_lane": {
+    "pt-BR": [
+      "Wave preparada?",
+      "Visão lateral mínima existe?",
+      "Quem responde você? Você ganha ou só ameaça?",
+      "SE o campeão errado vier -> esconda ângulo e ameace pick.",
+      "SE o campeão certo vier e você não ganha -> recue cedo."
+    ],
+    "en": [
+      "Is the wave prepared?",
+      "Do you have minimum side vision?",
+      "Who answers you? Do you win or only threaten?",
+      "IF the wrong champion answers -> hide the angle and threaten a pick.",
+      "IF the correct champion answers and you do not win -> disengage early."
+    ]
+  },
+  "teamfight": {
+    "pt-BR": [
+      "Quem é o alvo realmente travável?",
+      "Quais controles podem parar sua entrada?",
+      "Seu time já puxou peel/cooldowns importantes?",
+      "SE só alcança frontline -> talvez zonear ou reposicionar seja melhor que entrar.",
+      "Use R para valor, não só para chegar."
+    ],
+    "en": [
+      "Who is the target you can actually lock?",
+      "Which CC tools can stop your entry?",
+      "Has your team already pulled important peel/cooldowns?",
+      "IF you only reach frontline -> zoning or repositioning may be better than diving.",
+      "Use R for value, not only for access."
+    ]
+  },
+  "playing_from_behind": {
+    "pt-BR": [
+      "Reduza coinflip.",
+      "Wave primeiro, pick depois.",
+      "Compre a sobrevivência mínima para completar sua rotação.",
+      "SE não há visão -> não invente flank heroico.",
+      "Procure excesso inimigo, não fight justa."
+    ],
+    "en": [
+      "Reduce coinflips.",
+      "Wave first, picks second.",
+      "Buy the minimum survival required to finish your rotation.",
+      "IF there is no vision -> do not invent a heroic flank.",
+      "Look for enemy overextension, not fair fights."
+    ]
+  },
+  "playing_with_lead": {
+    "pt-BR": [
+      "Seu lead está virando torre, side, visão ou objetivo?",
+      "Não entregue shutdown por E ansioso.",
+      "SE o mapa já te respeita -> use a ameaça, não a pressa.",
+      "Escolha entre acelerar dano ou garantir ponte defensiva.",
+      "Lead bom obriga resposta ruim."
+    ],
+    "en": [
+      "Is your lead becoming tower pressure, side lane, vision or objectives?",
+      "Do not donate shutdowns through anxious E usage.",
+      "IF the map already respects you -> use the threat, not haste.",
+      "Choose between accelerating damage or securing a defensive bridge.",
+      "A good lead forces bad answers."
+    ]
+  },
+  "against_ranged": {
+    "pt-BR": [
+      "Second Wind / sustain conferidos?",
+      "Você tem plano de wave ou só está andando para frente?",
+      "Não aceite poke por orgulho.",
+      "SE o ranged gastar ferramenta de kite -> aí sim procure entrada.",
+      "Respeite a vida como recurso para o primeiro engage real."
+    ],
+    "en": [
+      "Second Wind / sustain checked?",
+      "Do you have a wave plan or are you just walking forward?",
+      "Do not accept poke out of pride.",
+      "IF the ranged target spends the kite tool -> then look for entry.",
+      "Respect HP as a resource for the first real engage."
+    ]
+  },
+  "before_all_in": {
+    "pt-BR": [
+      "Passiva pronta?",
+      "Q2 preparado ou caminho para preparar?",
+      "Wave jogável?",
+      "Jungle inimigo pode aparecer?",
+      "Qual spell você precisa baitar ou negar com R?"
+    ],
+    "en": [
+      "Passive ready?",
+      "Q2 primed or path to prime it?",
+      "Playable wave?",
+      "Can enemy jungle appear?",
+      "Which spell do you need to bait or deny with R?"
+    ]
+  },
+  "before_split_push": {
+    "pt-BR": [
+      "Objetivo grande nasce em breve?",
+      "Seu time segura 4v5 por alguns segundos?",
+      "Há visão para rota de saída?",
+      "Quem pode te responder do outro lado?",
+      "SE ninguém te responde bem -> pressione sem revelar tudo cedo."
+    ],
+    "en": [
+      "Is a major objective spawning soon?",
+      "Can your team hold 4v5 for a few seconds?",
+      "Do you have vision on your escape route?",
+      "Who can answer you on the other side?",
+      "IF nobody answers you well -> pressure without revealing everything too early."
+    ]
+  },
+  "before_flank": {
+    "pt-BR": [
+      "Seu time consegue segurar até você chegar?",
+      "O alvo já gastou flash ou peel importante?",
+      "Você tem corredor limpo ou vai entrar vista?",
+      "SE o flanco foi lido -> não insista por orgulho.",
+      "Flanco bom é o que entra no alvo certo no segundo certo."
+    ],
+    "en": [
+      "Can your team hold until you arrive?",
+      "Has the target spent flash or important peel?",
+      "Do you have a clean corridor or will you enter seen?",
+      "IF the flank has been read -> do not insist out of pride.",
+      "A good flank is one that reaches the right target at the right second."
+    ]
+  },
+  "metadata": {
+    "data_quality": "high",
+    "last_updated": "2026-04-09",
+    "pipeline_alignment": [
+      "pipeline/data_rules.md",
+      "pipeline/content_priority.md",
+      "pipeline/scoring_rules.md"
+    ]
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "updated_at": "2026-04-09",
+  "scope": "top_priority_refinement",
+  "modified_files": [
+    "/mnt/data/camille_work/data/matchups/top/jax.json",
+    "/mnt/data/camille_work/data/matchups/top/renekton.json",
+    "/mnt/data/camille_work/data/matchups/top/fiora.json",
+    "/mnt/data/camille_work/data/matchups/top/darius.json",
+    "/mnt/data/camille_work/data/matchups/top/vayne.json",
+    "/mnt/data/camille_work/data/matchups/top/quinn.json",
+    "/mnt/data/camille_work/data/matchups/top/poppy.json",
+    "/mnt/data/camille_work/data/matchups/top/malphite.json",
+    "/mnt/data/camille_work/data/matchups/top/mordekaiser.json",
+    "/mnt/data/camille_work/data/matchups/top/illaoi.json"
+  ],
+  "notes": "Schema preserved for matchup files. Content refined for top priority matchups only."
+}

@@ -1,0 +1,260 @@
+{
+  "overview": {
+    "pt-BR": "Prioridades honestas de melhoria para Camille. A ideia é investir primeiro no que mais reduz throw e mais aumenta consistência antes de perseguir detalhes avançados.",
+    "en": "Honest improvement priorities for Camille. The idea is to invest first in what most reduces throws and increases consistency before chasing advanced details."
+  },
+  "core_principle": {
+    "pt-BR": "Em Camille, melhorar não é acumular combo; é reduzir entrada ruim, melhorar leitura de wave, usar spikes com intenção e transformar lead em mapa.",
+    "en": "On Camille, improving is not accumulating combos; it is reducing bad entries, improving wave reading, using spikes with intention, and turning leads into map pressure."
+  },
+  "priority_ladder": {
+    "high_impact_first": [
+      {
+        "area": {
+          "pt-BR": "Disciplina de E",
+          "en": "E discipline"
+        },
+        "why_it_matters": {
+          "pt-BR": "E ruim perde lane, entrega gank, quebra side e estraga teamfight. Corrigir isso mexe em todas as fases.",
+          "en": "A bad E loses lane, donates ganks, breaks side lane, and ruins teamfights. Fixing it affects every phase."
+        },
+        "practical_focus": {
+          "pt-BR": [
+            "não gastar E sem follow-up ou saída",
+            "entrar em ângulo simples antes de forçar ângulo bonito",
+            "usar E também para visão/espaço quando necessário"
+          ],
+          "en": [
+            "do not spend E without follow-up or an exit",
+            "enter on simple angles before forcing flashy ones",
+            "use E for vision/space when needed"
+          ]
+        },
+        "sign_of_progress": {
+          "pt-BR": "Você passa a “escolher” o E em vez de reagir com ele.",
+          "en": "You start “choosing” E instead of reacting with it."
+        }
+      },
+      {
+        "area": {
+          "pt-BR": "Troca curta e timing do Q2",
+          "en": "Short trades and Q2 timing"
+        },
+        "why_it_matters": {
+          "pt-BR": "É a base do dano consistente da Camille na lane e o que separa troca limpa de all-in torto.",
+          "en": "It is the base of Camille’s consistent lane damage and what separates a clean trade from a crooked all-in."
+        },
+        "practical_focus": {
+          "pt-BR": [
+            "pensar o Q2 antes de entrar",
+            "não gastar Q2 cedo por ansiedade",
+            "sair da troca quando o valor já foi extraído"
+          ],
+          "en": [
+            "think about Q2 before entering",
+            "do not spend Q2 early from anxiety",
+            "leave the trade once the value has already been extracted"
+          ]
+        },
+        "sign_of_progress": {
+          "pt-BR": "Sua lane fica menos aleatória e mais controlada por ritmo.",
+          "en": "Your lane becomes less random and more rhythm-controlled."
+        }
+      },
+      {
+        "area": {
+          "pt-BR": "Leitura de wave e reset",
+          "en": "Wave and reset reading"
+        },
+        "why_it_matters": {
+          "pt-BR": "Muita gente acha que errou mecânica quando na verdade errou estado da wave. Camille sente isso demais.",
+          "en": "Many players think they made a mechanical mistake when they actually misread the wave state. Camille feels this heavily."
+        },
+        "practical_focus": {
+          "pt-BR": [
+            "não trocar grande em wave ruim",
+            "resetar sem quebrar a própria lane",
+            "ligar pressão de lane ao próximo estado da wave"
+          ],
+          "en": [
+            "do not take heavy trades into bad waves",
+            "reset without ruining your own lane",
+            "connect lane pressure to the next wave state"
+          ]
+        },
+        "sign_of_progress": {
+          "pt-BR": "Você começa a antecipar lane ruim antes dela acontecer.",
+          "en": "You begin to anticipate bad lane states before they happen."
+        }
+      },
+      {
+        "area": {
+          "pt-BR": "Jogar na frente sem entregar",
+          "en": "Playing ahead without throwing"
+        },
+        "why_it_matters": {
+          "pt-BR": "Camille converte vantagem muito bem, mas também doa shutdown se jogar tudo no ego.",
+          "en": "Camille converts leads very well, but also donates shutdowns if played entirely on ego."
+        },
+        "practical_focus": {
+          "pt-BR": [
+            "side com visão e rota de saída",
+            "decidir entre splitar e agrupar com base no objetivo",
+            "não confundir estar forte com poder lutar qualquer hora"
+          ],
+          "en": [
+            "side lane with vision and an exit route",
+            "decide between splitting and grouping based on the objective",
+            "do not confuse being strong with being able to fight at any time"
+          ]
+        },
+        "sign_of_progress": {
+          "pt-BR": "Sua vantagem começa a virar mapa, não só KDA.",
+          "en": "Your lead starts becoming map pressure, not just KDA."
+        }
+      }
+    ],
+    "comes_next": [
+      {
+        "area": {
+          "pt-BR": "Uso avançado do R",
+          "en": "Advanced R usage"
+        },
+        "why_it_matters": {
+          "pt-BR": "Depois da base, o R certo salva lutas, garante pick e muda matchups difíceis.",
+          "en": "After the basics, the right R saves fights, secures picks, and changes hard matchups."
+        },
+        "warning": {
+          "pt-BR": "Treinar R avançado cedo demais costuma mascarar erro de base.",
+          "en": "Training advanced R usage too early usually masks basic mistakes."
+        }
+      },
+      {
+        "area": {
+          "pt-BR": "Escolha refinada de build e runas",
+          "en": "Refined build and rune choice"
+        },
+        "why_it_matters": {
+          "pt-BR": "A adaptação aumenta consistência, mas só rende de verdade quando a base de lane e execução já existe.",
+          "en": "Adaptation raises consistency, but only pays off fully when your laning and execution foundations already exist."
+        },
+        "warning": {
+          "pt-BR": "Copiar setup certo sem jogar o jogo certo ainda produz resultado torto.",
+          "en": "Copying the right setup without playing the right game still produces crooked results."
+        }
+      },
+      {
+        "area": {
+          "pt-BR": "Entrada de teamfight por flank",
+          "en": "Flank-based teamfight entry"
+        },
+        "why_it_matters": {
+          "pt-BR": "É o bloco que mais eleva impacto no mid/late, mas depende de leitura de mapa e disciplina.",
+          "en": "It is the block that most raises mid/late impact, but it depends on map reading and discipline."
+        },
+        "warning": {
+          "pt-BR": "Flank bonito sem timing de equipe vira isolação voluntária.",
+          "en": "A pretty flank with no team timing becomes voluntary isolation."
+        }
+      }
+    ],
+    "advanced_only": [
+      {
+        "area": {
+          "pt-BR": "Sequências de execução de alta pressão",
+          "en": "High-pressure execution strings"
+        },
+        "why_it_matters": {
+          "pt-BR": "Servem para converter janelas pequenas contra alvos que punem erro mínimo.",
+          "en": "They matter for converting tiny windows against targets that punish minimal mistakes."
+        },
+        "unlock_condition": {
+          "pt-BR": "Só priorize quando o básico e a leitura do jogo já estiverem estáveis.",
+          "en": "Only prioritize this when your basics and game reading are already stable."
+        }
+      },
+      {
+        "area": {
+          "pt-BR": "Microajustes de matchup dentro do matchup",
+          "en": "Micro matchup refinements within matchups"
+        },
+        "why_it_matters": {
+          "pt-BR": "É refinamento fino que agrega muito para jogador avançado, mas pouco para quem ainda se quebra em fundamentos.",
+          "en": "This is fine refinement that adds a lot for advanced players, but little for those still breaking on fundamentals."
+        },
+        "unlock_condition": {
+          "pt-BR": "Vale quando sua maior perda já não vem de macro básica, timing de Q2 ou E ruim.",
+          "en": "It is worth it when your biggest losses no longer come from basic macro, Q2 timing, or bad E usage."
+        }
+      }
+    ]
+  },
+  "false_priorities": [
+    {
+      "mistake": {
+        "pt-BR": "Ficar obcecado por combo difícil cedo",
+        "en": "Getting obsessed with hard combos too early"
+      },
+      "why_it_is_false": {
+        "pt-BR": "Na maioria dos elos, você sobe mais corrigindo engage ruim e wave ruim do que adicionando combo raro.",
+        "en": "In most elos, you climb more by fixing bad engages and bad waves than by adding rare combos."
+      },
+      "do_instead": {
+        "pt-BR": "Treine short trade, disciplina de E e review de mortes evitáveis.",
+        "en": "Train short trades, E discipline, and reviews of avoidable deaths instead."
+      }
+    },
+    {
+      "mistake": {
+        "pt-BR": "Trocar setup a cada derrota sem diagnóstico",
+        "en": "Changing setup after every loss without diagnosis"
+      },
+      "why_it_is_false": {
+        "pt-BR": "Isso cria ilusão de ajuste enquanto o erro real continua igual.",
+        "en": "This creates an illusion of adjustment while the real mistake stays the same."
+      },
+      "do_instead": {
+        "pt-BR": "Revise primeiro se o problema foi execução, wave, decisão ou itemização.",
+        "en": "Review first whether the problem was execution, wave, decision making, or itemization."
+      }
+    },
+    {
+      "mistake": {
+        "pt-BR": "Achar que altalight prova consistência",
+        "en": "Believing highlights prove consistency"
+      },
+      "why_it_is_false": {
+        "pt-BR": "Camille pode parecer forte em clipe e ainda perder muita winrate em decisões repetidas ruins.",
+        "en": "Camille can look strong in clips and still lose a lot of winrate through repeated poor decisions."
+      },
+      "do_instead": {
+        "pt-BR": "Meça quantas mortes evitáveis, E desperdiçados e leads mal convertidos você ainda tem.",
+        "en": "Measure how many avoidable deaths, wasted E casts, and poorly converted leads you still have."
+      }
+    }
+  ],
+  "study_the_right_way": {
+    "pt-BR": [
+      "estude primeiro o que muda mais jogos, não o que parece mais bonito",
+      "revisite os mesmos blocos até eles virarem hábito em fila real",
+      "use treino curto e específico em vez de sessão longa sem foco",
+      "sempre conecte conteúdo a erro real seu e não a erro abstrato"
+    ],
+    "en": [
+      "study what changes the most games first, not what looks the coolest",
+      "revisit the same blocks until they become habits in real queues",
+      "use short specific training instead of long unfocused sessions",
+      "always connect content to a real mistake you make, not an abstract mistake"
+    ]
+  },
+  "metadata": {
+    "data_quality": "high",
+    "last_updated": "2026-04-09",
+    "pipeline_alignment": [
+      "data_rules",
+      "content_priority",
+      "scoring_rules_used_for_execution_priority"
+    ],
+    "scope": "parallel_2_round4_coach_progression"
+  }
+}

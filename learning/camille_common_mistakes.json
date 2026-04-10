@@ -1,0 +1,307 @@
+{
+  "overview": {
+    "pt-BR": "Mapa premium dos erros recorrentes e mais caros da Camille. O objetivo não é listar falhas soltas, e sim mostrar onde a campeã mais perde valor quando erra janela, disciplina, ângulo ou leitura de risco.",
+    "en": "Premium map of Camille’s most recurring and expensive mistakes. The goal is not to list random failures, but to show where the champion loses the most value when she misreads windows, discipline, angle, or risk."
+  },
+  "reading_rule": {
+    "pt-BR": "Procure o erro que mais se repete em derrotas parecidas. Em Camille, um mesmo padrão ruim costuma aparecer em lane, side e teamfight com roupas diferentes.",
+    "en": "Look for the mistake that repeats across similar losses. On Camille, the same bad pattern often shows up in lane, side lane, and teamfights wearing different clothes."
+  },
+  "mistake_blocks": [
+    {
+      "mistake_key": "lane_respect_failure",
+      "category": "lane",
+      "title": {
+        "pt-BR": "Respeitar tarde a pressão inicial",
+        "en": "Respecting early pressure too late"
+      },
+      "symptoms": {
+        "pt-BR": "Você toma muita vida antes do primeiro spike, disputa minion que não pode disputar e transforma wave ruim em all-in ruim.",
+        "en": "You lose too much HP before your first spike, contest minions you cannot contest, and turn a bad wave into a bad all-in."
+      },
+      "why_it_costs_camille": {
+        "pt-BR": "Camille não quer começar a luta já quebrada. Quando ela entrega HP cedo, perde passiva útil, perde ameaça de E e passa a jogar toda a lane em modo de recuperação.",
+        "en": "Camille does not want to start a fight already chipped down. When she donates HP early, she loses useful passive timing, loses E threat, and spends the whole lane in recovery mode."
+      },
+      "what_to_do_instead": {
+        "pt-BR": "Aceite ceder espaço curto até a wave estabilizar, preserve vida para a primeira janela real e use a passiva como parte da negociação, não como desculpa para forçar.",
+        "en": "Accept giving a bit of space until the wave stabilizes, preserve HP for the first real window, and use passive as part of the trade plan, not as an excuse to force."
+      },
+      "priority": "high",
+      "linked_modules": [
+        "data/learning/camille_phase_checklists.json",
+        "data/learning/camille_archetypes.json",
+        "data/learning/camille_review_checklists.json"
+      ]
+    },
+    {
+      "mistake_key": "wave_breaking_your_own_lane",
+      "category": "wave",
+      "title": {
+        "pt-BR": "Quebrar a própria wave por ansiedade",
+        "en": "Breaking your own wave out of impatience"
+      },
+      "symptoms": {
+        "pt-BR": "Você usa W/Q para empurrar quando precisava segurar, perde proteção de wave, abre espaço para gank e depois sente que a lane ficou “inganhável”.",
+        "en": "You use W/Q to push when you needed to hold, lose wave protection, open yourself to ganks, and then feel like the lane became “unplayable.”"
+      },
+      "why_it_costs_camille": {
+        "pt-BR": "Camille precisa de wave funcional para comprar tempo de Q2, esconder intenção e escolher melhor quando comprometer o E. Wave mal gerida rouba tudo isso.",
+        "en": "Camille needs a functional wave to buy Q2 time, hide intent, and better choose when to commit E. Poor wave management steals all of that."
+      },
+      "what_to_do_instead": {
+        "pt-BR": "Leia primeiro o estado da wave e só depois decida a troca. Se a wave está ruim, a prioridade é arrumar a posição, não provar que você ainda tem dano.",
+        "en": "Read the wave state first and only then decide the trade. If the wave is bad, your priority is fixing position, not proving that you still have damage."
+      },
+      "priority": "high",
+      "linked_modules": [
+        "data/learning/camille_learning.json",
+        "data/learning/camille_phase_checklists.json",
+        "data/learning/camille_short_training_blocks.json"
+      ]
+    },
+    {
+      "mistake_key": "engage_without_condition",
+      "category": "engage",
+      "title": {
+        "pt-BR": "Engajar porque alcança, não porque a janela existe",
+        "en": "Engaging because you can reach, not because a window exists"
+      },
+      "symptoms": {
+        "pt-BR": "O E conecta ou quase conecta, mas o folbaixa-up não existe, o alvo tem peel inteiro ou você entra sem visão e morre antes da luta começar.",
+        "en": "E connects or almost connects, but the follow-up is not there, the target has full peel, or you enter with no vision and die before the real fight starts."
+      },
+      "why_it_costs_camille": {
+        "pt-BR": "Camille paga caro por engage ruim porque compromete a principal ferramenta de entrada e escape no mesmo botão. Um engage sem condição vira tempo morto, flash gasto ou morte.",
+        "en": "Camille pays heavily for a bad engage because she commits her main entry and escape tool with the same button. An engage with no conditions becomes dead time, a burned flash, or a death."
+      },
+      "what_to_do_instead": {
+        "pt-BR": "Só entre quando a resposta inimiga já foi lida: cooldown importante gasto, alvo isolado, rota de folbaixa-up clara ou vantagem real de recursos.",
+        "en": "Only go in when the enemy response has already been read: key cooldown spent, isolated target, clear follow-up route, or a real resource advantage."
+      },
+      "priority": "high",
+      "linked_modules": [
+        "data/learning/camille_execution_reference.json",
+        "data/learning/camille_phase_checklists.json",
+        "data/learning/camille_player_profiles.json"
+      ]
+    },
+    {
+      "mistake_key": "all_in_timing_greed",
+      "category": "all_in",
+      "title": {
+        "pt-BR": "All-in no timing errado",
+        "en": "All-in on the wrong timing"
+      },
+      "symptoms": {
+        "pt-BR": "Você entra antes do Q2 ficar forte, all-ina sem passiva, ignora wave inimiga ou força quando o rival ainda tem resposta central disponível.",
+        "en": "You go in before Q2 is strong, all-in without passive, ignore the enemy wave, or force while the opponent still has their main answer available."
+      },
+      "why_it_costs_camille": {
+        "pt-BR": "A Camille mata por janela comprimida e sequência limpa. Se o timing quebra, ela vira campeã de meio combo presa em troca longa ruim.",
+        "en": "Camille kills through compressed windows and clean sequencing. If the timing breaks, she becomes a half-combo champion stuck in a bad extended fight."
+      },
+      "what_to_do_instead": {
+        "pt-BR": "Cheque quatro coisas antes de all-inar: vida útil, estado da wave, passiva/Q2 e resposta que o inimigo ainda guarda. Se um desses pontos está ruim, atrase o commit.",
+        "en": "Check four things before all-inning: usable HP, wave state, passive/Q2, and the answer the enemy is still holding. If one of those is bad, delay the commit."
+      },
+      "priority": "high",
+      "linked_modules": [
+        "data/learning/camille_combos.json",
+        "data/learning/camille_phase_checklists.json",
+        "data/learning/camille_practice_scenarios.json"
+      ]
+    },
+    {
+      "mistake_key": "e_button_panic",
+      "category": "execution",
+      "title": {
+        "pt-BR": "Usar E em pânico",
+        "en": "Using E in panic"
+      },
+      "symptoms": {
+        "pt-BR": "Você gasta E para sair de posição que ainda dava para andar, ou para entrar em alvo que ainda não estava preso. O resultado é um E sem função clara.",
+        "en": "You spend E to leave a position you could still walk out of, or to enter a target that was not yet pinned. The result is an E with no clear job."
+      },
+      "why_it_costs_camille": {
+        "pt-BR": "Sem E, a Camille perde ameaça, reposicionamento e margem para corrigir a jogada. Quando o botão vira reflexo nervoso, a campeã inteira encolhe.",
+        "en": "Without E, Camille loses threat, repositioning, and margin to fix the play. When the button becomes a nervous reflex, the whole champion shrinks."
+      },
+      "what_to_do_instead": {
+        "pt-BR": "Dê nome ao E antes de apertar: visão, espaço, engage, chase ou saída. Se você não sabe qual dessas funções ele está cumprindo, provavelmente ainda não era hora de usar.",
+        "en": "Name the E before pressing it: vision, space, engage, chase, or exit. If you cannot tell which one it is doing, it probably was not time to cast it."
+      },
+      "priority": "high",
+      "linked_modules": [
+        "data/learning/camille_execution_reference.json",
+        "data/learning/camille_mechanics.json",
+        "data/learning/camille_short_training_blocks.json"
+      ]
+    },
+    {
+      "mistake_key": "r_used_as_panic_only",
+      "category": "execution",
+      "title": {
+        "pt-BR": "Usar R só como botão de pânico",
+        "en": "Using R only as a panic button"
+      },
+      "symptoms": {
+        "pt-BR": "O R quase sempre sai quando você já perdeu a troca, já entrou mal ou já tomou o principal dano. Você até sobrevive às vezes, mas não recupera a jogada.",
+        "en": "R almost always comes out after the trade is already lost, the entry was already bad, or the main damage already hit. You sometimes survive, but you do not recover the play."
+      },
+      "why_it_costs_camille": {
+        "pt-BR": "R é ferramenta de dodge, reset de ritmo e travamento de alvo. Quando ele vira só atraso de morte, você desperdiça a spell mais versátil do kit.",
+        "en": "R is a dodge tool, rhythm reset, and target lock. When it becomes only a death delay, you waste the most versatile spell in the kit."
+      },
+      "what_to_do_instead": {
+        "pt-BR": "Pense no R antes da entrada: ele vai negar dano, reposicionar, travar o alvo ou comprar o segundo que falta para o folbaixa-up? Defina isso cedo.",
+        "en": "Plan R before the entry: is it denying damage, repositioning, locking the target, or buying the extra second your follow-up needs? Decide that early."
+      },
+      "priority": "high",
+      "linked_modules": [
+        "data/learning/camille_advanced_interactions.json",
+        "data/learning/camille_execution_reference.json",
+        "data/learning/camille_faq.json"
+      ]
+    },
+    {
+      "mistake_key": "bad_spacing_before_q2",
+      "category": "spacing",
+      "title": {
+        "pt-BR": "Spacing ruim antes do Q2",
+        "en": "Poor spacing before Q2"
+      },
+      "symptoms": {
+        "pt-BR": "Você se cola cedo demais, entrega o momento do Q2, apanha de graça na preparação da troca ou força o dano verdadeiro em distância previsível.",
+        "en": "You stick too early, reveal the Q2 moment, take free damage during trade setup, or force the true-damage hit from a predictable distance."
+      },
+      "why_it_costs_camille": {
+        "pt-BR": "O Q2 é o eixo da troca curta e da ameaça de execução. Se o spacing avisa demais, o rival ganha tempo para kite, peel ou resposta defensiva.",
+        "en": "Q2 is the axis of short trades and execution threat. If your spacing telegraphs it too much, the enemy gains time to kite, peel, or use a defensive answer."
+      },
+      "what_to_do_instead": {
+        "pt-BR": "Use movimento curto, brush, wave e passiva para esconder o timing. O melhor Q2 não é o mais rápido; é o que chega quando o rival já perdeu o passo.",
+        "en": "Use short movement, brush, wave, and passive to hide the timing. The best Q2 is not the fastest one; it is the one that lands after the opponent has already lost the step."
+      },
+      "priority": "medium",
+      "linked_modules": [
+        "data/learning/camille_mechanics.json",
+        "data/learning/camille_combos.json",
+        "data/learning/camille_practice_scenarios.json"
+      ]
+    },
+    {
+      "mistake_key": "weakside_denial_failure",
+      "category": "weakside",
+      "title": {
+        "pt-BR": "Jogar weakside como se estivesse coberta",
+        "en": "Playing weakside as if you had coverage"
+      },
+      "symptoms": {
+        "pt-BR": "Você avança sem info de jungle, gasta E para pressionar wave ruim e morre tentando manter uma lane que já pedia contenção.",
+        "en": "You walk up without jungle info, spend E to pressure a bad wave, and die trying to hold a lane that was already asking for containment."
+      },
+      "why_it_costs_camille": {
+        "pt-BR": "Camille consegue sobreviver weakside melhor com disciplina do que com bravata. Quando joga como se tivesse cobertura, ela entrega recurso caro demais.",
+        "en": "Camille survives weakside better through discipline than bravado. When she plays as if she has coverage, she donates too much valuable resource."
+      },
+      "what_to_do_instead": {
+        "pt-BR": "Troque ego por informação: aceite menos CS se isso preserva HP, cooldowns e chance de responder a uma janela futura melhor.",
+        "en": "Trade ego for information: accept fewer CS if it preserves HP, cooldowns, and the chance to answer a better future window."
+      },
+      "priority": "high",
+      "linked_modules": [
+        "data/learning/camille_archetypes.json",
+        "data/learning/camille_phase_checklists.json",
+        "data/learning/camille_player_profiles.json"
+      ]
+    },
+    {
+      "mistake_key": "side_lane_overstay",
+      "category": "macro",
+      "title": {
+        "pt-BR": "Ficar uma wave além do seguro na side",
+        "en": "Staying one wave too long in side lane"
+      },
+      "symptoms": {
+        "pt-BR": "Você empurra mais uma wave, bate mais um pouco na torre e entrega shutdown ou tempo de objetivo sem ganhar nada proporcional.",
+        "en": "You push one more wave, hit tower a bit longer, and donate shutdown or objective tempo without gaining proportional value."
+      },
+      "why_it_costs_camille": {
+        "pt-BR": "Camille converte lead por pressão lateral disciplinada. Morrer na side sem compensação destrói a parte mais confiável do plano dela.",
+        "en": "Camille converts leads through disciplined side pressure. Dying in side lane without compensation destroys the most reliable part of her plan."
+      },
+      "what_to_do_instead": {
+        "pt-BR": "Defina antes de avançar qual é o ponto de saída: wave empurrada, visão gasta, ameaça sumiu do mapa ou objetivo está nascendo. Não improvise isso tarde demais.",
+        "en": "Define your exit point before advancing: wave pushed, vision spent, threat missing from the map, or objective spawning. Do not improvise that too late."
+      },
+      "priority": "high",
+      "linked_modules": [
+        "data/learning/camille_macro.json",
+        "data/learning/camille_phase_checklists.json",
+        "data/learning/camille_review_checklists.json"
+      ]
+    },
+    {
+      "mistake_key": "target_selection_laziness",
+      "category": "teamfight",
+      "title": {
+        "pt-BR": "Escolher o alvo mais acessível, não o alvo certo",
+        "en": "Choosing the most accessible target, not the right target"
+      },
+      "symptoms": {
+        "pt-BR": "Você ulta o primeiro alvo que entrou no range, enquanto o carry real ainda tem ângulo livre ou o peel inimigo continua inteiro.",
+        "en": "You ult the first target that entered range while the real carry still has a free angle or the enemy peel remains untouched."
+      },
+      "why_it_costs_camille": {
+        "pt-BR": "Camille não quer só encostar em alguém; ela quer comprimir o espaço do alvo que realmente muda a luta. Alvo preguiçoso gera teamfight bonita e inútil.",
+        "en": "Camille does not just want to touch someone; she wants to compress the space of the target that actually changes the fight. Lazy target selection creates flashy but useless teamfights."
+      },
+      "what_to_do_instead": {
+        "pt-BR": "Pergunte antes da entrada: qual alvo perde mais valor se eu travar agora? Às vezes é o carry, às vezes é quem está protegendo o carry.",
+        "en": "Ask before entering: which target loses the most value if I lock them now? Sometimes it is the carry, sometimes it is the champion protecting the carry."
+      },
+      "priority": "high",
+      "linked_modules": [
+        "data/learning/camille_macro.json",
+        "data/learning/camille_execution_reference.json",
+        "data/learning/camille_review_checklists.json"
+      ]
+    },
+    {
+      "mistake_key": "risk_reading_fantasy",
+      "category": "decision",
+      "title": {
+        "pt-BR": "Avaliar risco pela vontade, não pelo estado da luta",
+        "en": "Reading risk through desire, not through fight state"
+      },
+      "symptoms": {
+        "pt-BR": "Você entra porque “parece jogável”, ignora summoners, ignora recurso do seu time e trata altalight improvável como plano padrão.",
+        "en": "You go in because it “feels playable,” ignore summoners, ignore your team’s resources, and treat an unlikely highlight as your default plan."
+      },
+      "why_it_costs_camille": {
+        "pt-BR": "Camille premia leitura fina de janela. Quando o jogador troca leitura por vontade, cada erro custa mais porque a campeã entra fundo e demora para sair.",
+        "en": "Camille rewards fine window reading. When the player trades reading for desire, every mistake costs more because the champion goes deep and takes time to exit."
+      },
+      "what_to_do_instead": {
+        "pt-BR": "Decida com base em recursos, visão, cooldowns e rota de folbaixa-up. Se a jogada depende de o rival errar duas vezes para funcionar, ela não é sua primeira escolha.",
+        "en": "Decide based on resources, vision, cooldowns, and follow-up path. If the play requires the opponent to make two mistakes to work, it should not be your first choice."
+      },
+      "priority": "high",
+      "linked_modules": [
+        "data/learning/camille_faq.json",
+        "data/learning/camille_player_profiles.json",
+        "data/learning/camille_improvement_priorities.json"
+      ]
+    }
+  ],
+  "metadata": {
+    "data_quality": "high",
+    "last_updated": "2026-04-09",
+    "pipeline_alignment": [
+      "data_rules",
+      "content_priority"
+    ],
+    "scope": "parallel_2_round5_mistakes_review_system"
+  }
+}

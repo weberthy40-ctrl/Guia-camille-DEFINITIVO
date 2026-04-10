@@ -1,0 +1,1204 @@
+{
+  "overview": {
+    "pt-BR": "Hub premium de aprendizado da Camille, organizado para ensinar identidade, execução, lane phase, itemização, runas, padrões de decisão e evolução prática sem depender de matchup campeão por campeão.",
+    "en": "Premium Camille learning hub organized to teach identity, execution, lane phase, itemization, runes, decision patterns and practical improvement without depending on champion-by-champion matchups."
+  },
+  "identity": {
+    "summary": {
+      "pt-BR": "Camille é uma duelista/diver de precisão. Ela não vence por spam cego: vence por preparar a wave, ler a janela certa, ativar a passiva no timing certo, conectar um engage limpo e transformar uma pequena vantagem em pick, torre, side lane e controle de mapa.",
+      "en": "Camille is a precision duelist/diver. She does not win through blind spam: she wins by setting the wave, reading the right window, proccing passive on time, landing a clean engage and turning a small lead into picks, towers, side-lane pressure and map control."
+    },
+    "playstyle": {
+      "pt-BR": "Ela quer clareza de plano: troca curta boa na lane, avanço disciplinado no mid game e entrada seletiva nas lutas maiores.",
+      "en": "She wants clarity of plan: strong short trades in lane, disciplined acceleration in mid game and selective entries in larger fights."
+    }
+  },
+  "core_profile": {
+    "function": {
+      "pt-BR": "Função: duelista lateral, diver de pickoff e ameaça de flanco contra alvos expostos.",
+      "en": "Role: side-lane duelist, pickoff diver and flanking threat against exposed targets."
+    },
+    "profile": {
+      "pt-BR": "Perfil: campeã de alto teto mecânico, mas a diferença real entre uma Camille comum e uma Camille forte costuma vir mais de disciplina de janela, wave e decisão do que de altalight.",
+      "en": "Profile: a high mechanical ceiling champion, but the real gap between an average Camille and a strong Camille usually comes more from window discipline, wave control and decisions than from highlight plays."
+    },
+    "strengths": [
+      {
+        "pt-BR": "Troca curta muito forte quando a passiva está disponível.",
+        "en": "Very strong short trading when passive is available."
+      },
+      {
+        "pt-BR": "Alto burst isolado com Q2 e capacidade real de executar carry fora de posição.",
+        "en": "High isolated burst with Q2 and real ability to execute an out-of-position carry."
+      },
+      {
+        "pt-BR": "Excelente ferramenta de pick com E + R.",
+        "en": "Excellent pick tool with E + R."
+      },
+      {
+        "pt-BR": "Side lane forte quando consegue controlar visão e tempo de wave.",
+        "en": "Strong side lane once she controls vision and wave timing."
+      },
+      {
+        "pt-BR": "Consegue transformar cooldown inimigo gasto em janela de all-in.",
+        "en": "Can turn enemy cooldown usage into an all-in window."
+      },
+      {
+        "pt-BR": "Escala bem quando entra no mid game com item e lane estabilizada.",
+        "en": "Scales well once she reaches mid game with item spikes and a stabilized lane."
+      }
+    ],
+    "weaknesses": [
+      {
+        "pt-BR": "Lane phase pode ficar frágil se a passiva for trocada errado ou se o E for gasto sem informação.",
+        "en": "Lane phase can become fragile if passive is traded badly or E is spent without information."
+      },
+      {
+        "pt-BR": "Wave clear não perdoa compras ruins e recalls ruins.",
+        "en": "Wave clear does not forgive bad buys and bad recalls."
+      },
+      {
+        "pt-BR": "Quando fica atrás, precisa jogar muito mais por informação e erro inimigo do que por força bruta.",
+        "en": "When behind, she must play much more around information and enemy mistakes than brute force."
+      },
+      {
+        "pt-BR": "Entradas frontais em teamfight são inconsistentes quando o alvo principal ainda tem peel.",
+        "en": "Frontal teamfight entries are inconsistent when the main target still has peel."
+      },
+      {
+        "pt-BR": "Erra bastante quando o jogador mistura pressa com excesso de confiança no E.",
+        "en": "She fails hard when the player mixes haste with overconfidence on E."
+      },
+      {
+        "pt-BR": "Depende bastante de timing: passiva, Q2, cooldown rival e posição da wave precisam conversar.",
+        "en": "She is timing-dependent: passive, Q2, enemy cooldown and wave position need to line up."
+      }
+    ],
+    "win_conditions": [
+      {
+        "pt-BR": "Ganhar vida, wave ou prioridade a partir de trocas curtas limpas.",
+        "en": "Gain health, wave or priority through clean short trades."
+      },
+      {
+        "pt-BR": "Chegar no primeiro grande item sem lane quebrada.",
+        "en": "Reach the first major item without a broken lane state."
+      },
+      {
+        "pt-BR": "Punir alvo lateral sem flash ou carry avançado com E + R.",
+        "en": "Punish a side target without flash or an overextended carry with E + R."
+      },
+      {
+        "pt-BR": "Abrir side lane, puxar resposta e converter número a favor em outro lado do mapa.",
+        "en": "Open a side lane, pull a response and convert the numbers advantage elsewhere on the map."
+      },
+      {
+        "pt-BR": "Entrar em teamfight pela lateral ou depois do engage inicial, e não antes.",
+        "en": "Enter teamfights from the side or after the initial engage, not before."
+      }
+    ],
+    "execution_difficulty": {
+      "pt-BR": "Dificuldade de execução: média para começar e alta para extrair o pico real. O kit é claro, mas o custo por erro é alto porque Camille depende demais de usar a ferramenta certa na janela certa.",
+      "en": "Execution difficulty: medium to start and high to extract real ceiling. The kit is clear, but the punishment for mistakes is high because Camille depends heavily on using the right tool in the right window."
+    },
+    "learning_curve": {
+      "pt-BR": "Curva de aprendizado: o básico entra rápido, mas dominar Camille exige somar três camadas ao mesmo tempo — micro de trade, leitura de wave e escolha de alvo/ângulo no mapa.",
+      "en": "Learning curve: the basics come quickly, but mastering Camille requires stacking three layers at once — trade micro, wave reading and target/angle selection on the map."
+    }
+  },
+  "kit": [
+    {
+      "topic": {
+        "pt-BR": "Passiva define a troca",
+        "en": "Passive defines the trade"
+      },
+      "content": {
+        "pt-BR": "A passiva é seu botão de permissão para trocar. Quando está pronta, você pode entrar para AA + Q e sair com vantagem. Quando não está, muitas trocas que parecem boas viram trocas perdidas.",
+        "en": "Passive is your permission button to trade. When it is ready, you can go in for AA + Q and leave ahead. When it is down, many trades that look good become losing trades."
+      }
+    },
+    {
+      "topic": {
+        "pt-BR": "Q é dano e ritmo, não só burst",
+        "en": "Q is damage and rhythm, not only burst"
+      },
+      "content": {
+        "pt-BR": "O valor real do Q não está só no número do Q2. Está em resetar auto, controlar o tempo do segundo cast e decidir se a troca é curta, extended ou de execução.",
+        "en": "The real value of Q is not only the Q2 number. It is in the auto reset, the second-cast timing and deciding whether the trade is short, extended or an execution window."
+      }
+    },
+    {
+      "topic": {
+        "pt-BR": "W compra espaço",
+        "en": "W buys space"
+      },
+      "content": {
+        "pt-BR": "W serve para recuperar lane, quebrar ritmo rival, preparar engage e impedir que a lane vire corrida atrás de minion. Jogador ruim usa W só para poke; jogador bom usa W para reorganizar a luta.",
+        "en": "W is there to recover lane, break enemy rhythm, set up engages and stop the lane from becoming a race for minions. A weak player uses W only for poke; a strong player uses W to reorganize the fight."
+      }
+    },
+    {
+      "topic": {
+        "pt-BR": "E é sua ferramenta mais cara",
+        "en": "E is your most expensive tool"
+      },
+      "content": {
+        "pt-BR": "E é engage, escape, visão, pressão psicológica e ameaça de pick. Gastar E no escuro ou só para “ver se dá” destrói a lane e muitas vezes o side lane inteiro.",
+        "en": "E is engage, escape, vision, psychological pressure and pick threat. Spending E into fog or just to “see if it works” ruins the lane and often the entire side lane."
+      }
+    },
+    {
+      "topic": {
+        "pt-BR": "R é tempo, não só prisão",
+        "en": "R is time, not only a cage"
+      },
+      "content": {
+        "pt-BR": "R prende o alvo, mas o valor premium está em reposicionar, evitar dano/controle importante e impedir que o alvo principal fuja do seu burst.",
+        "en": "R locks the target down, but the premium value is in repositioning, avoiding important damage/control and preventing the main target from escaping your burst."
+      }
+    },
+    {
+      "topic": {
+        "pt-BR": "Camille quer clareza de janela",
+        "en": "Camille wants clarity of window"
+      },
+      "content": {
+        "pt-BR": "A campeã recompensa jogadas decididas: ou você entra porque a janela é sua, ou você segura porque a wave, a visão ou os cooldowns ainda não autorizaram a luta.",
+        "en": "The champion rewards committed plays: either you go because the window is yours, or you hold because the wave, vision or cooldowns have not yet authorized the fight."
+      }
+    }
+  ],
+  "abilities": [
+    {
+      "topic": {
+        "pt-BR": "Passiva — Defesas Adaptativas",
+        "en": "Passive — Adaptive Defenses"
+      },
+      "content": {
+        "pt-BR": "Utilidade prática: transforma troca curta em troca eficiente, principalmente quando você escolhe o momento do primeiro auto. Melhor uso: entrar quando o rival já gastou a principal resposta ou quando você consegue AA + Q e recuar. Pior uso: forçar all-in sem escudo pronto contra campeão que devolve burst. Erro comum: confiar no dano da passiva e esquecer que ela existe para comprar tempo. Prioridade prática: antes de qualquer trade importante, confirme se a passiva está disponível.",
+        "en": "Practical use: it turns short trades into efficient trades, especially when you choose the timing of the first auto. Best use: go in after the enemy spent their main answer or when you can AA + Q and back out. Worst use: forcing an all-in without shield against a champion that can return burst. Common mistake: trusting passive damage instead of understanding it buys time. Practical priority: before any meaningful trade, confirm passive is available."
+      }
+    },
+    {
+      "topic": {
+        "pt-BR": "Q — Protocolo de Precisão",
+        "en": "Q — Precision Protocol"
+      },
+      "content": {
+        "pt-BR": "Cooldown por rank na base atual do projeto: 9 / 8 / 7 / 6 / 5. Utilidade prática: reset de auto, burst confiável e conversão de vantagem em execução com Q2. Melhor uso: preparar o Q2 antes da janela final, em vez de improvisar no meio da luta. Pior uso: gastar Q2 cedo só para tocar no alvo. Erro comum: cancelar a própria pressão por ansiedade e não esperar o verdadeiro timing do segundo Q.",
+        "en": "Cooldown by rank in the current project base: 9 / 8 / 7 / 6 / 5. Practical use: auto reset, reliable burst and turning an advantage into an execution with Q2. Best use: prepare Q2 before the final window instead of improvising in the middle of the fight. Worst use: spending Q2 early just to touch the target. Common mistake: cancelling your own pressure through impatience and not waiting for the real second-Q timing."
+      }
+    },
+    {
+      "topic": {
+        "pt-BR": "W — Varredura Tática",
+        "en": "W — Tactical Sweep"
+      },
+      "content": {
+        "pt-BR": "Cooldown por rank na base atual do projeto: 17 / 15.5 / 14 / 12.5 / 11. Utilidade prática: controle de espaço, sustain, preparo de wave e desaceleração para alinhar E ou saída. Melhor uso: acertar a parte externa para ganhar vida e tempo. Pior uso: usar W de perto sem necessidade e perder a borda externa. Erro comum: tratar W como spell de dano puro, quando muitas vezes ela existe para estabilizar a lane.",
+        "en": "Cooldown by rank in the current project base: 17 / 15.5 / 14 / 12.5 / 11. Practical use: space control, sustain, wave prep and a slow to line up E or an exit. Best use: hit the outer edge to gain health and time. Worst use: use W point-blank for no reason and lose the outer edge. Common mistake: treating W as pure damage when many times it exists to stabilize lane."
+      }
+    },
+    {
+      "topic": {
+        "pt-BR": "E — Disparo de Gancho / Mergulho na Parede",
+        "en": "E — Hookshot / Wall Dive"
+      },
+      "content": {
+        "pt-BR": "Cooldown por rank na base atual do projeto: 16 / 14.5 / 13 / 11.5 / 10. Utilidade prática: engage, escape, pick, pressão em fog e checagem de terreno. Melhor uso: usar E quando a rota de fuga do rival e a sua saída já foram pensadas. Pior uso: abrir a luta com E sem saber do jungler ou sem garantir o folbaixa-up. Erro comum: gastar o spell só porque ele ficou disponível.",
+        "en": "Cooldown by rank in the current project base: 16 / 14.5 / 13 / 11.5 / 10. Practical use: engage, escape, pick, fog pressure and terrain checking. Best use: use E when both the enemy escape path and your own exit have already been considered. Worst use: open a fight with E without tracking the jungler or securing follow-up. Common mistake: spending the spell just because it came off cooldown."
+      }
+    },
+    {
+      "topic": {
+        "pt-BR": "R — Ultimato Hextec",
+        "en": "R — The Hextech Ultimatum"
+      },
+      "content": {
+        "pt-BR": "Cooldown por rank na base atual do projeto: 140 / 115 / 90. Utilidade prática: trava alvo, reposiciona Camille, corta rota de fuga e pode negar dano/controle em timing exato. Melhor uso: guardar o R para o spell mais valioso do rival ou para impedir o carry de sair do seu Q2. Pior uso: ultar cedo demais e perder a esquiva do momento decisivo. Erro comum: usar R apenas para “colar” e não como ferramenta de tempo, dodge e isolamento.",
+        "en": "Cooldown by rank in the current project base: 140 / 115 / 90. Practical use: lock target, reposition Camille, cut escape routes and deny damage/control with exact timing. Best use: hold R for the enemy’s most valuable spell or to stop the carry from escaping your Q2. Worst use: ulting too early and losing the dodge for the decisive moment. Common mistake: using R only to “stick” instead of as a tool for timing, dodging and isolation."
+      }
+    }
+  ],
+  "skill_order": {
+    "standard": {
+      "pt-BR": "Ordem base para maximizar: Q > E > W, com R nos níveis 6, 11 e 16. O max de Q dá o pico mais direto para trocas, burst e execução. E em segundo reduz o custo de janela porque seu engage/escape volta mais cedo.",
+      "en": "Base max order: Q > E > W, with R at levels 6, 11 and 16. Maxing Q gives the most direct spike for trades, burst and executions. E second lowers the cost of windows because your engage/escape returns sooner."
+    },
+    "level_1_options": [
+      {
+        "pt-BR": "Q nível 1 quando você pode disputar troca curta limpa e quer prioridade de melee.",
+        "en": "Q level 1 when you can contest a clean short trade and want melee priority."
+      },
+      {
+        "pt-BR": "W nível 1 quando precisa sobreviver, farmar com segurança ou lidar com poke/ranged.",
+        "en": "W level 1 when you need to survive, farm safely or deal with poke/ranged lanes."
+      },
+      {
+        "pt-BR": "E nível 1 só quando invade, escape de setup agressivo ou all-in de nível 1 realmente justificarem.",
+        "en": "E level 1 only when invades, escaping an aggressive setup or a true level-1 all-in justify it."
+      }
+    ],
+    "alternative_paths": [
+      {
+        "pt-BR": "Contra lanes muito opressivas, começar W e estabilizar a wave vale mais que forçar identidade agressiva cedo.",
+        "en": "Against extremely oppressive lanes, starting W and stabilizing the wave matters more than forcing an early aggressive identity."
+      },
+      {
+        "pt-BR": "Se o jogo pede muito mais mobilidade/reengage do que poke, alguns pontos extras de E cedo podem ser considerados depois do núcleo do Q, mas sem abandonar o plano principal.",
+        "en": "If the game demands much more mobility/re-engage than poke, earlier extra points in E can be considered after the Q core, but without abandoning the main plan."
+      },
+      {
+        "pt-BR": "Evite variações só por costume: a ordem deve responder ao tipo de troca que você realmente consegue fazer.",
+        "en": "Avoid pathing variations out of habit: the order should answer the kind of trade you can actually take."
+      }
+    ],
+    "practical_read": [
+      {
+        "pt-BR": "Max Q quando sua vitória depende de burst, reset e execução.",
+        "en": "Max Q when your win condition depends on burst, resets and execution."
+      },
+      {
+        "pt-BR": "Valorize E cedo quando o jogo gira em torno de pick, reposicionamento e redução do tempo morto entre janelas.",
+        "en": "Value E earlier when the game revolves around picks, repositioning and reducing dead time between windows."
+      },
+      {
+        "pt-BR": "W normalmente fica por último porque cumpre função excelente com poucos pontos e não substitui sua condição de matar/alcançar alvo.",
+        "en": "W usually stays for last because it does its job well on few points and does not replace your kill/reach condition."
+      }
+    ]
+  },
+  "status_progression": {
+    "milestones": [
+      {
+        "pt-BR": "Nível 1: 670 de vida, 68.0 de AD, 35 de armadura e 32.0 de resistência mágica. Aqui a leitura de wave e da passiva vale mais do que insistir em fight longa.",
+        "en": "Level 1: 670 HP, 68.0 AD, 35 armor and 32.0 magic resist. Here, wave and passive reading matter more than insisting on long fights."
+      },
+      {
+        "pt-BR": "Nível 6: 1165 de vida e 85.5 de AD. O R libera pick, dive e esquiva real; seu all-in deixa de ser linear.",
+        "en": "Level 6: 1165 HP and 85.5 AD. R unlocks real pick, dive and dodge patterns; your all-in stops being linear."
+      },
+      {
+        "pt-BR": "Nível 9: 1462 de vida e Q maximizado na rota padrão. É um dos picos mais claros para converter vantagem de lane em execução.",
+        "en": "Level 9: 1462 HP and Q maxed on the default route. It is one of the clearest spikes to convert lane advantage into executions."
+      },
+      {
+        "pt-BR": "Nível 11: 1660 de vida e segundo rank do R. Sua ameaça lateral aumenta porque o CD do ultimate cai e a pick pressure fica muito mais frequente.",
+        "en": "Level 11: 1660 HP and second rank R. Your side-lane threat rises because the ultimate cooldown drops and pick pressure becomes much more frequent."
+      },
+      {
+        "pt-BR": "Nível 16: 2155 de vida e terceiro rank do R. Nesse ponto, Camille premia leitura de mapa e alvo muito mais do que stat-check bruto.",
+        "en": "Level 16: 2155 HP and third rank R. At this point Camille rewards map and target reading much more than brute stat-checking."
+      },
+      {
+        "pt-BR": "Nível 18: 2353 de vida, 127.5 de AD e pico completo de base. Você ainda não quer luta frontal cega; quer luta escolhida.",
+        "en": "Level 18: 2353 HP, 127.5 AD and full base-stat peak. You still do not want blind front fights; you want selected fights."
+      }
+    ],
+    "practical_growth": [
+      {
+        "pt-BR": "Seu crescimento não é só numérico: cada rank em Q e E reduz o custo de entrar certo.",
+        "en": "Your growth is not only numeric: each rank in Q and E lowers the cost of entering correctly."
+      },
+      {
+        "pt-BR": "Quanto mais itens e ranks você ganha, mais importante fica escolher alvo e ângulo em vez de apertar tudo rápido.",
+        "en": "The more items and ranks you gain, the more important target and angle selection becomes over pressing everything quickly."
+      },
+      {
+        "pt-BR": "Camille escala muito bem quando o jogador cresce junto com a tomada de decisão; sem isso, o late parece pior do que realmente é.",
+        "en": "Camille scales extremely well when the player scales with her decision making; without that, late game feels worse than it really is."
+      }
+    ]
+  },
+  "builds_general": {
+    "core_foundation": [
+      {
+        "pt-BR": "Base estatística mais consistente encontrada: Força da Trindade como primeiro item-chave, seguida por Hidra Raivosa como peça padrão de aceleração de side lane e sustain.",
+        "en": "Most consistent statistical base found: Trinity Force as the key first item, followed by Ravenous Hydra as the standard side-lane acceleration and sustain piece."
+      },
+      {
+        "pt-BR": "Na leitura prática, Força da Trindade te dá ritmo de troca, dano por reset e ameaça constante de Q2.",
+        "en": "In practical terms, Trinity Force gives you trade rhythm, reset damage and constant Q2 threat."
+      },
+      {
+        "pt-BR": "Hidra Raivosa ajuda a lane andar, melhora side lane e reduz o custo de limpar wave antes de rotacionar ou pressionar pick.",
+        "en": "Ravenous Hydra helps the lane move, improves side lane and lowers the cost of clearing the wave before rotating or pressuring a pick."
+      }
+    ],
+    "standard_path": [
+      {
+        "pt-BR": "Start padrão agressivo: Doran’s Blade quando a lane permite disputar espaço cedo.",
+        "en": "Default aggressive start: Doran’s Blade when the lane allows you to contest space early."
+      },
+      {
+        "pt-BR": "Start de sobrevivência: Doran’s Shield quando você precisa aguentar poke, ranged ou lane de desgaste repetido.",
+        "en": "Survival start: Doran’s Shield when you need to absorb poke, ranged pressure or repeated lane attrition."
+      },
+      {
+        "pt-BR": "Núcleo mais comum: Força da Trindade + Hidra Raivosa, depois adaptar entre Lança de Shojin, Death’s Dance, Sterak’s Gage, Mandíbula de Malmortius, Anjo Guardião e Céu Dividido conforme o jogo.",
+        "en": "Most common core: Trinity Force + Ravenous Hydra, then adapt between Spear of Shojin, Death’s Dance, Sterak’s Gage, Maw of Malmortius, Guardian Angel and Sundered Sky depending on the game."
+      }
+    ],
+    "situational_vs_tank": [
+      {
+        "pt-BR": "Contra tanque, o erro é tentar explodir rápido demais. Sua prioridade é manter DPS limpo de Q, wave boa e pressão lateral constante.",
+        "en": "Against tanks, the mistake is trying to one-shot too fast. Your priority is clean Q DPS, good wave states and constant side pressure."
+      },
+      {
+        "pt-BR": "Itens que mantêm uptime e repetição de spell costumam valer mais do que caminho extremamente greedy de execução instantânea.",
+        "en": "Items that keep uptime and repeated spell access usually matter more than an extremely greedy instant-execution path."
+      },
+      {
+        "pt-BR": "Se o tanque não te ameaça solo, jogue para puxar resposta e ganhar tempo de mapa, não para provar all-in toda hora.",
+        "en": "If the tank cannot solo threaten you, play to draw a response and win map time, not to prove an all-in every wave."
+      }
+    ],
+    "situational_vs_ap": [
+      {
+        "pt-BR": "Contra burst AP relevante, Mandíbula de Malmortius é a adaptação direta mais segura quando o problema é sobreviver ao primeiro impacto.",
+        "en": "Against meaningful AP burst, Maw of Malmortius is the safest direct adaptation when the problem is surviving the first hit."
+      },
+      {
+        "pt-BR": "Mercury’s Treads sobem muito de valor quando o draft mistura dano mágico e controle que atrasa sua entrada.",
+        "en": "Mercury’s Treads rise sharply in value when the draft mixes magic damage with control that delays your entry."
+      },
+      {
+        "pt-BR": "Não faça itemização anti-AP por reflexo; faça quando o dano mágico realmente decide a luta antes do seu Q2.",
+        "en": "Do not anti-AP itemize by reflex; do it when magic damage truly decides the fight before your Q2."
+      }
+    ],
+    "situational_vs_poke": [
+      {
+        "pt-BR": "Contra muito poke, comece mais humilde: Doran’s Shield, sustain de rune e backs que não te deixem preso na lane.",
+        "en": "Against heavy poke, start humbler: Doran’s Shield, sustain runes and recalls that do not trap you in lane."
+      },
+      {
+        "pt-BR": "Seu objetivo não é ganhar cada troca, e sim chegar vivo ao item/nível em que a ameaça de engage muda a lane.",
+        "en": "Your goal is not to win every trade, but to arrive alive at the item/level where your engage threat changes the lane."
+      },
+      {
+        "pt-BR": "Se você toma poke e ainda perde wave por ansiedade, a lane quebra antes do matchup realmente começar.",
+        "en": "If you eat poke and also lose wave through impatience, the lane breaks before the matchup truly begins."
+      }
+    ],
+    "situational_vs_cc": [
+      {
+        "pt-BR": "Contra muito controle, o valor de Inabalável/Tenacidade e Mercury’s Treads cresce porque sua luta depende de chegar na janela, não só de ter dano.",
+        "en": "Against heavy crowd control, the value of Unflinching/Tenacity and Mercury’s Treads rises because your fight depends on reaching the window, not only on having damage."
+      },
+      {
+        "pt-BR": "Quanto mais peel o outro time tem, mais Camille deve buscar entrada lateral ou tardia.",
+        "en": "The more peel the enemy team has, the more Camille should look for lateral or delayed entries."
+      },
+      {
+        "pt-BR": "Se o time inimigo quer te travar na primeira entrada, itens defensivos de mid/late ficam mais valiosos que overkill de dano.",
+        "en": "If the enemy team wants to lock you on first contact, mid/late defensive items become more valuable than overkill damage."
+      }
+    ],
+    "damage_acceleration": [
+      {
+        "pt-BR": "Quando estiver muito na frente e o jogo pedir snowball lateral, Lança de Shojin acelera bastante a frequência de ameaça.",
+        "en": "When you are very far ahead and the game asks for side-lane snowballing, Spear of Shojin greatly accelerates your threat frequency."
+      },
+      {
+        "pt-BR": "Céu Dividido pode entrar como alternativa de punch/sustain quando a luta é de entrar, bater e reposicionar rápido.",
+        "en": "Sundered Sky can serve as a punch/sustain alternative when the fight pattern is enter, hit and quickly reposition."
+      },
+      {
+        "pt-BR": "Mesmo acelerando dano, não abandone a lógica de sobreviver ao contra-ataque; Camille não quer virar kamikaze sem saída.",
+        "en": "Even while accelerating damage, do not abandon the logic of surviving the counter-hit; Camille does not want to become a no-exit kamikaze."
+      }
+    ],
+    "side_lane": [
+      {
+        "pt-BR": "Para side lane, Hidra Raivosa ganha muito valor porque reduz tempo parado em wave e mantém seu HP para ameaça real no mapa.",
+        "en": "For side lane, Ravenous Hydra gains a lot of value because it cuts wave downtime and preserves HP for real map threat."
+      },
+      {
+        "pt-BR": "Shojin é especialmente valioso quando você quer repetir pressão lateral e lutar em janelas seguidas.",
+        "en": "Shojin is especially valuable when you want to repeat side pressure and fight on back-to-back windows."
+      },
+      {
+        "pt-BR": "Build de side lane não é só splitar: é ter itemização que limpa, segura pressão e ainda mata quem vier responder errado.",
+        "en": "A side-lane build is not only about splitting: it is about itemizing to clear, hold pressure and still kill the responder if they answer poorly."
+      }
+    ],
+    "teamfight": [
+      {
+        "pt-BR": "Para teamfight, Death’s Dance, Sterak’s Gage e Anjo Guardião ganham peso quando você precisa sobreviver depois da entrada.",
+        "en": "For teamfights, Death’s Dance, Sterak’s Gage and Guardian Angel gain value when you need to survive after entry."
+      },
+      {
+        "pt-BR": "Se a função da luta é travar carry e comprar tempo para o resto do time chegar, robustez vale mais do que greed máximo.",
+        "en": "If your job in the fight is to lock the carry and buy time for your team to arrive, sturdiness matters more than maximum greed."
+      },
+      {
+        "pt-BR": "Teamfight build boa em Camille é a que te deixa cumprir a função até o fim da luta, não só acertar a primeira rotação.",
+        "en": "A good Camille teamfight build is the one that lets you finish your job until the end of the fight, not only land the first rotation."
+      }
+    ],
+    "boots": [
+      {
+        "pt-BR": "Passos de Aço Platinados aparecem como opção mais frequente e ajudam muito contra auto-attacks, bruisers AD e lane de DPS físico.",
+        "en": "Plated Steelcaps appear as the most common option and help a lot against auto attacks, AD bruisers and physical DPS lanes."
+      },
+      {
+        "pt-BR": "Mercury’s Treads sobem quando há CC relevante, sbaixa pesado ou burst AP que atrasa sua função.",
+        "en": "Mercury’s Treads rise when there is meaningful CC, heavy slows or AP burst delaying your role."
+      },
+      {
+        "pt-BR": "Bota errada muda o resultado da lane e do mid game mais do que muita gente admite.",
+        "en": "The wrong boots change lane and mid-game outcomes more than many players admit."
+      }
+    ]
+  },
+  "runes_general": {
+    "standard_setup": [
+      {
+        "pt-BR": "Setup padrão mais estável: Determinação com Aperto dos Mortos-Vivos of the Undying, Golpe de Escudo, Osso Revestido ou Ventos Revigorantes, e Crescimento Excessivo ou Inabalável; secundária Inspiração com Calçados Mágicos + Entrega de Biscoitos como base comum.",
+        "en": "Most stable standard setup: Resolve with Grasp of the Undying, Shield Bash, Bone Plating or Second Wind, and Overgrowth or Unflinching; Inspiration secondary with Magical Footwear + Biscuit Delivery as the common base."
+      },
+      {
+        "pt-BR": "Shards mais frequentes na leitura atual: Velocidade de Ataque, Força Adaptativa e Vida Escalável.",
+        "en": "Most common current shards: Attack Speed, Adaptive Force and Health Scaling."
+      },
+      {
+        "pt-BR": "Aperto dos Mortos-Vivos funciona porque Camille ganha muito valor de troca curta controlada e da entrada calculada com passiva.",
+        "en": "Grasp works because Camille gets huge value from controlled short trades and calculated entries with passive."
+      }
+    ],
+    "situational_setups": [
+      {
+        "pt-BR": "Osso Revestido quando você precisa resistir ao primeiro bloco de burst/all-in.",
+        "en": "Bone Plating when you need to absorb the first burst/all-in block."
+      },
+      {
+        "pt-BR": "Ventos Revigorantes quando a lane te desgasta por poke repetido e range.",
+        "en": "Second Wind when the lane chips you down through repeated poke and range."
+      },
+      {
+        "pt-BR": "Inabalável quando o problema maior é chegar jogando sob sbaixa/CC.",
+        "en": "Unflinching when the main problem is reaching fights through slows/CC."
+      },
+      {
+        "pt-BR": "Crescimento Excessivo quando a lane permite escalar e você quer robustez sem abrir mão do plano padrão.",
+        "en": "Overgrowth when the lane allows scaling and you want sturdiness without leaving the standard plan."
+      },
+      {
+        "pt-BR": "Conquistador pode entrar em matchups de luta estendida e em mãos confortáveis, mas exige muito mais disciplina de spacing e duração de combate do que o setup de Aperto dos Mortos-Vivos.",
+        "en": "Conqueror can fit extended-fight matchups and comfortable hands, but it requires much more spacing and fight-duration discipline than the Grasp setup."
+      }
+    ],
+    "shard_logic": [
+      {
+        "pt-BR": "Velocidade de Ataque facilita ritmo de last hit, reset e preparo de Q.",
+        "en": "Attack Speed smooths last hitting, reset rhythm and Q preparation."
+      },
+      {
+        "pt-BR": "Força Adaptativa mantém o burst consistente nas janelas curtas.",
+        "en": "Adaptive Force keeps burst consistent in short windows."
+      },
+      {
+        "pt-BR": "Vida Escalável é a shard mais estável quando o plano é sobreviver à lane e crescer para o mid game.",
+        "en": "Health Scaling is the most stable shard when the plan is to survive lane and grow into mid game."
+      },
+      {
+        "pt-BR": "Tenacity/Sbaixa Resist shard vale quando o draft do outro lado realmente tenta te impedir de chegar no alvo.",
+        "en": "The Tenacity/Slow Resist shard matters when the enemy draft truly tries to stop you from reaching the target."
+      }
+    ]
+  },
+  "learning_path": {
+    "first_master": [
+      {
+        "pt-BR": "Aprenda a jogar ao redor da passiva antes de tentar combo bonito.",
+        "en": "Learn to play around passive before chasing fancy combos."
+      },
+      {
+        "pt-BR": "Domine o timing do Q2 e pare de desperdiçá-lo cedo.",
+        "en": "Master Q2 timing and stop wasting it early."
+      },
+      {
+        "pt-BR": "Treine o hábito de não gastar E ofensivo sem informação mínima.",
+        "en": "Train the habit of not spending offensive E without minimum information."
+      },
+      {
+        "pt-BR": "Entenda quando a wave autoriza luta e quando ela proíbe.",
+        "en": "Understand when the wave authorizes a fight and when it forbids one."
+      }
+    ],
+    "second_master": [
+      {
+        "pt-BR": "Aprenda a transformar lead pequeno em reset bom, plate, wave crash e roam curto.",
+        "en": "Learn to turn a small lead into a good reset, plates, wave crashes and short roams."
+      },
+      {
+        "pt-BR": "Passe a jogar a lane pensando no próximo Q2, não só no auto atual.",
+        "en": "Start playing lane around the next Q2, not only the current auto."
+      },
+      {
+        "pt-BR": "Treine diferentes entradas de E: reta, diagonal, de fog e de counter-engage.",
+        "en": "Train different E entries: straight, diagonal, from fog and as counter-engage."
+      },
+      {
+        "pt-BR": "Use o R conscientemente para dodge e reposicionamento, não só como botão de all-in.",
+        "en": "Use R consciously for dodging and repositioning, not just as an all-in button."
+      }
+    ],
+    "third_master": [
+      {
+        "pt-BR": "Aprenda a decidir entre side lane, flank e pick com base no estado do mapa.",
+        "en": "Learn to decide between side lane, flank and pick based on map state."
+      },
+      {
+        "pt-BR": "Refine alvo prioritário: nem sempre é o mais fraco, e sim o mais acessível e mais valioso para travar.",
+        "en": "Refine target priority: it is not always the weakest target, but the most accessible and highest-value one to lock."
+      },
+      {
+        "pt-BR": "Treine entrar tarde em teamfight em vez de ser o primeiro corpo a aparecer.",
+        "en": "Train delayed teamfight entry instead of being the first body to show."
+      },
+      {
+        "pt-BR": "Aprenda a jogar atrás: limpar wave, segurar lado com visão e usar pick como comeback tool.",
+        "en": "Learn to play from behind: clear waves, hold sides with vision and use pick pressure as a comeback tool."
+      }
+    ],
+    "practice_routine": [
+      {
+        "pt-BR": "Bloco 1: 10 minutos focando só em AA + Q reset e tempo do Q2.",
+        "en": "Block 1: 10 minutes focused only on AA + Q reset and Q2 timing."
+      },
+      {
+        "pt-BR": "Bloco 2: entrar no treino e repetir E em ângulos diferentes até a mão parar de hesitar.",
+        "en": "Block 2: enter practice tool and repeat E at different angles until the hand stops hesitating."
+      },
+      {
+        "pt-BR": "Bloco 3: assistir uma VOD curta e anotar três E ruins e três Q2 desperdiçados.",
+        "en": "Block 3: watch a short VOD and note three bad Es and three wasted Q2s."
+      },
+      {
+        "pt-BR": "Bloco 4: revisar lutas perdidas perguntando “a wave autorizava?”, “a passiva estava pronta?”, “eu precisava mesmo gastar R agora?”",
+        "en": "Block 4: review lost fights asking “did the wave authorize?”, “was passive ready?”, “did I really need to spend R now?”"
+      }
+    ]
+  },
+  "execution": {
+    "before_fight": [
+      {
+        "pt-BR": "Confirme passiva, posição da wave e informação mínima do jungler antes do engage longo.",
+        "en": "Confirm passive, wave position and minimum jungler information before taking a long engage."
+      },
+      {
+        "pt-BR": "Prepare o Q2 antes da janela final sempre que possível.",
+        "en": "Prepare Q2 before the final window whenever possible."
+      },
+      {
+        "pt-BR": "Escolha se a luta é curta, longa, de pick ou só de pressão; não misture tudo.",
+        "en": "Choose whether the fight is short, long, a pick or only pressure; do not mix everything together."
+      }
+    ],
+    "during_fight": [
+      {
+        "pt-BR": "Não se apaixone pela primeira rota do E; ajuste pelo movimento do rival.",
+        "en": "Do not fall in love with the first E angle; adjust to the enemy movement."
+      },
+      {
+        "pt-BR": "Use W para reorganizar distância quando a luta saiu do script.",
+        "en": "Use W to reorganize distance when the fight leaves the script."
+      },
+      {
+        "pt-BR": "Segure o R quando o maior valor estiver em negar o spell decisivo, não em entrar 0,5s antes.",
+        "en": "Hold R when the highest value is denying the decisive spell, not entering 0.5s earlier."
+      }
+    ],
+    "after_fight": [
+      {
+        "pt-BR": "Converteu a troca? Pense em wave, plate, reset ou visão — não só em dano causado.",
+        "en": "Did you win the trade? Think about wave, plate, recall or vision — not only damage dealt."
+      },
+      {
+        "pt-BR": "Se a luta ficou neutra, recupere o ritmo de lane antes de tentar repetir.",
+        "en": "If the fight turned neutral, recover lane rhythm before trying again."
+      },
+      {
+        "pt-BR": "Erro de execução em Camille quase sempre cobra o próximo minuto inteiro, não só o segundo atual.",
+        "en": "Execution mistakes on Camille usually cost the next full minute, not only the current second."
+      }
+    ]
+  },
+  "game_phases": {
+    "lane": {
+      "pt-BR": "Lane: buscar trocas curtas eficientes, estabilizar a wave e chegar no primeiro item sem quebrar o plano.",
+      "en": "Lane: look for efficient short trades, stabilize the wave and reach first item without breaking the plan."
+    },
+    "mid": {
+      "pt-BR": "Mid game: abrir side lane, forçar resposta, escolher pick e castigar rotação atrasada.",
+      "en": "Mid game: open a side lane, force a response, choose a pick and punish slow rotations."
+    },
+    "late": {
+      "pt-BR": "Late game: decidir entre flank, trava no carry, side lane com pressão de TP e entrada tardia na teamfight.",
+      "en": "Late game: choose between flanks, carry lockdown, TP side-lane pressure and delayed teamfight entry."
+    }
+  },
+  "lane_phase_general": {
+    "levels_1_3": [
+      {
+        "pt-BR": "Níveis 1-3 definem o tom da lane. Se a matchup não autoriza arrogância, jogue pelo primeiro crash saudável e não pela altalight.",
+        "en": "Levels 1-3 define the lane tone. If the matchup does not authorize arrogance, play for the first healthy crash rather than the highlight."
+      },
+      {
+        "pt-BR": "Seu foco inicial é entender quem controla o primeiro contato, e não provar que Camille sempre vence nível 1.",
+        "en": "Your initial focus is understanding who controls the first contact, not proving Camille always wins level 1."
+      },
+      {
+        "pt-BR": "Quando o rival é mais forte cedo, aceite ceder espaço curto para manter HP e wave funcional.",
+        "en": "When the enemy is stronger early, accept short space loss to keep HP and a functional wave."
+      }
+    ],
+    "when_to_respect": [
+      {
+        "pt-BR": "Respeite quando a passiva está fora, sua wave está ruim e o jungler inimigo pode converter seu E gasto em dive ou chase.",
+        "en": "Respect when passive is down, your wave is bad and the enemy jungler can convert your spent E into a dive or chase."
+      },
+      {
+        "pt-BR": "Respeite quando o rival ainda tem a principal ferramenta de resposta e você ainda não preparou o Q2.",
+        "en": "Respect when the enemy still has their main answer and you have not prepared Q2 yet."
+      },
+      {
+        "pt-BR": "Respeito em Camille não é covardia; é preparação de janela melhor.",
+        "en": "Respect on Camille is not cowardice; it is preparing a better window."
+      }
+    ],
+    "when_to_pressure": [
+      {
+        "pt-BR": "Pressione quando a passiva está pronta, o rival gastou spell-chave e a wave não te pune se a luta se estender dois ou três segundos.",
+        "en": "Pressure when passive is ready, the enemy spent a key spell and the wave will not punish you if the fight extends for two or three seconds."
+      },
+      {
+        "pt-BR": "Pressione quando você consegue ameaçar crash, plate ou recall ruim do rival — não só HP.",
+        "en": "Pressure when you can threaten a crash, plate or bad enemy recall — not only HP."
+      },
+      {
+        "pt-BR": "Pressão boa de Camille é a que gera posição melhor, não só barra de vida menor do outro lado.",
+        "en": "Good Camille pressure creates a better position, not only a lower enemy HP bar."
+      }
+    ],
+    "bad_wave": [
+      {
+        "pt-BR": "Wave ruim: reduza ego, preserve vida, use W para estabilizar e não abra a lane com E ofensivo sem certeza.",
+        "en": "Bad wave: lower the ego, preserve health, use W to stabilize and do not open lane with offensive E without certainty."
+      },
+      {
+        "pt-BR": "Se a wave está contra você, perder um minion é menos grave do que perder flash, passiva, E e controle da lane.",
+        "en": "If the wave is against you, losing one minion is less severe than losing flash, passive, E and lane control."
+      },
+      {
+        "pt-BR": "Em wave ruim, sua melhor jogada muitas vezes é sobreviver até o próximo reset da lane.",
+        "en": "On a bad wave, your best play is often surviving until the next lane reset."
+      }
+    ],
+    "good_wave": [
+      {
+        "pt-BR": "Wave boa autoriza mais ameaça porque o rival paga caro para responder trade ruim.",
+        "en": "A good wave authorizes more threat because the enemy pays heavily for a bad response trade."
+      },
+      {
+        "pt-BR": "Com wave boa, Camille consegue preparar Q2, andar junto da wave e forçar o rival a escolher entre farm e vida.",
+        "en": "With a good wave, Camille can prep Q2, walk with the wave and force the enemy to choose between farm and health."
+      },
+      {
+        "pt-BR": "Não desperdice wave boa em engage desesperado; use-a para empurrar o jogo a seu favor.",
+        "en": "Do not waste a good wave on a desperate engage; use it to push the game in your favor."
+      }
+    ],
+    "ahead": [
+      {
+        "pt-BR": "Na frente, acelere com disciplina: crash, reset, item, visão, side lane e pick. Não entregue bounty por E sem cálculo.",
+        "en": "When ahead, accelerate with discipline: crash, recall, item, vision, side lane and pick. Do not give bounty through a reckless E."
+      },
+      {
+        "pt-BR": "Lead de Camille vale mais quando vira mapa e resposta forçada, não só quando vira KDA.",
+        "en": "A Camille lead is worth more when it becomes map pressure and forced responses, not only KDA."
+      },
+      {
+        "pt-BR": "Se está muito forte, force o inimigo a olhar para você e puna o lado oposto com tempo.",
+        "en": "If you are very strong, force the enemy to look at you and punish the opposite side with time."
+      }
+    ],
+    "behind": [
+      {
+        "pt-BR": "Atrás, reduza o tamanho das lutas: priorize wave, informação, W, picks curtos e coleta segura de recurso.",
+        "en": "When behind, shrink the size of fights: prioritize wave, information, W, short picks and safe resource collection."
+      },
+      {
+        "pt-BR": "Camille atrás ainda mata alvo errado do inimigo; ela só não pode tentar ser frontline justa.",
+        "en": "Camille from behind can still kill the enemy’s wrong-positioned target; she just cannot pretend to be a fair frontliner."
+      },
+      {
+        "pt-BR": "Seu comeback costuma vir mais de pick e erro rival do que de duelo frontal honesto.",
+        "en": "Your comeback usually comes more from picks and enemy mistakes than from honest frontal duels."
+      }
+    ],
+    "vs_ranged": [
+      {
+        "pt-BR": "Contra ranged, preserve HP e use W para comprar lane até a janela real de engage aparecer.",
+        "en": "Against ranged, preserve HP and use W to buy time in lane until a real engage window appears."
+      },
+      {
+        "pt-BR": "Não tente provar domínio no primeiro minuto se a lane foi desenhada para te irritar antes do seu alcance entrar.",
+        "en": "Do not try to prove dominance in the first minute if the lane was built to annoy you before your range comes online."
+      },
+      {
+        "pt-BR": "Seu foco é sobreviver sem quebrar recall, identificar o spell de escape e punir o primeiro erro de posicionamento.",
+        "en": "Your focus is surviving without ruining recall timing, identifying the escape spell and punishing the first positioning mistake."
+      }
+    ],
+    "vs_poke": [
+      {
+        "pt-BR": "Contra poke, cada minion perdido por ansiedade custa mais do que parece porque sua vida é recurso principal de all-in futuro.",
+        "en": "Against poke, every minion lost through impatience costs more than it seems because your health is the main resource for future all-ins."
+      },
+      {
+        "pt-BR": "Ventos Revigorantes, Doran’s Shield e janelas de reset limpas mudam mais a lane do que insistir em troca ruim.",
+        "en": "Second Wind, Doran’s Shield and clean recall windows change the lane more than insisting on bad trades."
+      },
+      {
+        "pt-BR": "Aceite lane “feia” temporária se isso te deixar inteira para o item que vira a pressão.",
+        "en": "Accept an temporarily “ugly” lane if it keeps you healthy for the item that flips pressure."
+      }
+    ],
+    "vs_bully": [
+      {
+        "pt-BR": "Contra bully, não lute pelo ego do primeiro push. Lute pelo primeiro erro de excesso.",
+        "en": "Against a bully, do not fight for ego over the first push. Fight for the first overextension mistake."
+      },
+      {
+        "pt-BR": "Bullies querem que você reaja cedo e sem passiva; negue isso.",
+        "en": "Bullies want you to react early and without passive; deny that."
+      },
+      {
+        "pt-BR": "Se o bully erra cooldown ou empurra demais sem cobertura, Camille pune muito bem.",
+        "en": "If the bully misses a cooldown or overpushes without cover, Camille punishes very well."
+      }
+    ],
+    "vs_all_in": [
+      {
+        "pt-BR": "Contra lanes de all-in, Osso Revestido e controle de distância mudam completamente o resultado do primeiro commit.",
+        "en": "Against all-in lanes, Bone Plating and distance control completely change the first commit outcome."
+      },
+      {
+        "pt-BR": "Você não precisa começar a luta; muitas vezes precisa baitar a entrada ruim deles e devolver melhor.",
+        "en": "You do not need to start the fight; many times you need to bait their bad entry and return a better one."
+      },
+      {
+        "pt-BR": "Guardar R para o ponto crítico da troca vale mais do que usar cedo por medo.",
+        "en": "Holding R for the critical point of the trade is worth more than using it early out of fear."
+      }
+    ],
+    "vs_sustain": [
+      {
+        "pt-BR": "Contra sustain, trocas aleatórias e fracas raramente resolvem. Ou a troca é boa de verdade, ou você só alimenta a lane do outro.",
+        "en": "Against sustain, random weak trades rarely solve anything. Either the trade is genuinely good, or you simply feed the enemy lane."
+      },
+      {
+        "pt-BR": "Pressione com wave e janela de execução; não confie só em poke disperso.",
+        "en": "Pressure with wave and execution windows; do not rely only on scattered poke."
+      },
+      {
+        "pt-BR": "Quando o rival sustenta fácil, a disciplina de recall e itemização pesa ainda mais.",
+        "en": "When the enemy sustains easily, recall discipline and itemization matter even more."
+      }
+    ],
+    "vs_tank": [
+      {
+        "pt-BR": "Contra tank, foque em vantagem de wave, recurso e movimentação de mapa. Nem toda vitória vem de solo kill.",
+        "en": "Against tanks, focus on wave advantage, resources and map movement. Not every win comes from a solo kill."
+      },
+      {
+        "pt-BR": "Se o tank não consegue te punir pesado, use a lane para construir side lane futura.",
+        "en": "If the tank cannot punish you hard, use lane to build your future side lane."
+      },
+      {
+        "pt-BR": "Paciência contra tank gera mais valor do que pressa por altalight.",
+        "en": "Patience against tanks generates more value than rushing for highlights."
+      }
+    ],
+    "vs_duelist": [
+      {
+        "pt-BR": "Contra duelista, a luta é decidida em detalhes: passiva, spacing, reset, wave e cooldown-chave.",
+        "en": "Against duelists, the fight is decided by details: passive, spacing, resets, wave and key cooldowns."
+      },
+      {
+        "pt-BR": "Você raramente quer all-in “reto” sem antes ter preparado algo.",
+        "en": "You rarely want a “straight” all-in without having prepared something first."
+      },
+      {
+        "pt-BR": "Nesses matchups, um E ruim ou um Q2 apressado pode decidir três waves seguidas.",
+        "en": "In these matchups, one bad E or one rushed Q2 can decide the next three waves."
+      }
+    ]
+  },
+  "decision_patterns": {
+    "lane_rules": [
+      {
+        "pt-BR": "SE a wave estiver ruim e o jungler inimigo estiver fora do mapa -> não force E ofensivo.",
+        "en": "IF the wave is bad and the enemy jungler is off the map -> do not force offensive E."
+      },
+      {
+        "pt-BR": "SE a passiva estiver pronta e o rival tiver gasto a spell principal -> procure troca curta de AA + Q.",
+        "en": "IF passive is ready and the enemy spent their main spell -> look for a short AA + Q trade."
+      },
+      {
+        "pt-BR": "SE você ainda não preparou o Q2 -> não trate a janela como se o burst já estivesse pronto.",
+        "en": "IF you have not prepared Q2 yet -> do not treat the window as if your burst were already online."
+      },
+      {
+        "pt-BR": "SE o rival recuar para farmar sob pressão de wave -> caminhe junto da wave e faça ele escolher.",
+        "en": "IF the enemy steps back to farm under wave pressure -> walk with the wave and force a choice."
+      }
+    ],
+    "map_rules": [
+      {
+        "pt-BR": "SE o time inimigo mostrar dois ou três campeões no outro lado do mapa -> use a side lane para puxar forte e ameaçar estrutura.",
+        "en": "IF the enemy team shows two or three champions on the opposite side of the map -> use side lane to push hard and threaten structures."
+      },
+      {
+        "pt-BR": "SE você estiver na frente e sem informação lateral -> não devolva bounty por ganância.",
+        "en": "IF you are ahead and lack side information -> do not hand over bounty through greed."
+      },
+      {
+        "pt-BR": "SE estiver atrás -> reduza a luta para pick, wave e erro inimigo.",
+        "en": "IF you are behind -> shrink the fight into picks, waves and enemy mistakes."
+      }
+    ],
+    "fight_rules": [
+      {
+        "pt-BR": "SE o alvo principal ainda tem peel forte ao redor -> segure flank/paciência em vez de dive frontal.",
+        "en": "IF the main target still has strong peel nearby -> hold for flank/patience instead of frontal diving."
+      },
+      {
+        "pt-BR": "SE o carry inimigo estiver exposto sem flash -> sua função pode valer mais do que qualquer frontline fight.",
+        "en": "IF the enemy carry is exposed without flash -> your role can be worth more than any frontline fight."
+      },
+      {
+        "pt-BR": "SE o R puder negar a habilidade decisiva -> adie a ultimate e jogue pelo timing.",
+        "en": "IF R can deny the decisive ability -> delay the ultimate and play for timing."
+      },
+      {
+        "pt-BR": "SE a luta ficar confusa -> use W para resetar distância antes de insistir no all-in.",
+        "en": "IF the fight gets messy -> use W to reset distance before insisting on the all-in."
+      },
+      {
+        "pt-BR": "SE você não sabe por que está entrando -> provavelmente não é hora de entrar.",
+        "en": "IF you do not know why you are entering -> it probably is not time to enter."
+      }
+    ]
+  },
+  "combos": [
+    {
+      "name": "AA > Q1 > esperar > Q2",
+      "difficulty": "basic",
+      "notes": {
+        "pt-BR": "Base da identidade de trade curto e execução limpa.",
+        "en": "Baseline of short-trade identity and clean execution."
+      }
+    },
+    {
+      "name": "W outer > andar > AA > Q1 > sair",
+      "difficulty": "basic",
+      "notes": {
+        "pt-BR": "Troca de estabilização quando você não quer commit total.",
+        "en": "Stabilizing trade when you do not want a full commit."
+      }
+    },
+    {
+      "name": "E > AA > Q1 > AA > Q2",
+      "difficulty": "intermediate",
+      "notes": {
+        "pt-BR": "Combo padrão de entrada quando o engage já é autorizado.",
+        "en": "Standard entry combo when the engage is already authorized."
+      }
+    },
+    {
+      "name": "Q1 no minion > E > AA > Q2",
+      "difficulty": "intermediate",
+      "notes": {
+        "pt-BR": "Acelera a janela real de burst.",
+        "en": "Speeds up the real burst window."
+      }
+    },
+    {
+      "name": "E > R para reposicionar > Q2",
+      "difficulty": "advanced",
+      "notes": {
+        "pt-BR": "Usado quando o valor do R é garantir que o alvo não escape do dano final.",
+        "en": "Used when the value of R is making sure the target cannot escape the final damage."
+      }
+    },
+    {
+      "name": "Flash durante engage/ângulo de E",
+      "difficulty": "advanced",
+      "notes": {
+        "pt-BR": "Serve para ajustar pick ou alcançar alvo que lê a parede cedo.",
+        "en": "Used to adjust a pick or reach a target that reads the wall early."
+      }
+    }
+  ],
+  "mechanics": [
+    {
+      "topic": {
+        "pt-BR": "Tempo do Q2",
+        "en": "Q2 timing"
+      },
+      "content": {
+        "pt-BR": "O dano do segundo Q muda a luta. Entrar cedo demais reduz seu teto; entrar tarde demais deixa a janela morrer. Treine esse ritmo até virar automático.",
+        "en": "Second-Q damage changes the fight. Going too early lowers your ceiling; going too late lets the window die. Train this rhythm until it becomes automatic."
+      }
+    },
+    {
+      "topic": {
+        "pt-BR": "Disciplina do E",
+        "en": "E discipline"
+      },
+      "content": {
+        "pt-BR": "O E não é só mobilidade. É um recurso premium que define se você pressiona, escapa, caça ou morre.",
+        "en": "E is not only mobility. It is a premium resource that defines whether you pressure, escape, pick or die."
+      }
+    },
+    {
+      "topic": {
+        "pt-BR": "W para reorganizar espaço",
+        "en": "W to reorganize space"
+      },
+      "content": {
+        "pt-BR": "W não entra só antes da luta; muitas vezes entra no meio para desacelerar o ritmo rival e permitir novo Q2.",
+        "en": "W does not only belong before the fight; many times it belongs in the middle to slow enemy rhythm and enable a new Q2."
+      }
+    },
+    {
+      "topic": {
+        "pt-BR": "R como dodge",
+        "en": "R as a dodge tool"
+      },
+      "content": {
+        "pt-BR": "O R é mais forte quando retira Camille do ponto de impacto certo. Pense no spell que quer negar antes de pensar no altalight.",
+        "en": "R is strongest when it removes Camille from the exact impact point. Think of the spell you want to deny before you think of the highlight."
+      }
+    },
+    {
+      "topic": {
+        "pt-BR": "Entrada lateral",
+        "en": "Lateral entry"
+      },
+      "content": {
+        "pt-BR": "A melhor luta de Camille raramente começa andando reto. Começa escondendo ângulo, visão e intenção.",
+        "en": "Camille’s best fight rarely starts by walking straight in. It starts by hiding angle, vision and intent."
+      }
+    }
+  ],
+  "macro": {
+    "summary": {
+      "pt-BR": "Macro da Camille: empurre a wave certa, faça o mapa reagir, esconda seu ângulo e transforme resposta errada em pick, torre ou objetivo.",
+      "en": "Camille macro: push the right wave, make the map react, hide your angle and turn a wrong response into a pick, tower or objective."
+    },
+    "golden_rule": {
+      "pt-BR": "Wave primeiro, informação depois, commit por último.",
+      "en": "Wave first, information second, commit last."
+    }
+  },
+  "teamfight": {
+    "summary": {
+      "pt-BR": "Teamfight de Camille não é apertar tudo no primeiro alvo visível. É descobrir qual alvo vale ser travado, de qual ângulo você entra e em que segundo sua entrada passa de suicídio para vitória.",
+      "en": "Camille teamfighting is not about pressing everything on the first visible target. It is about discovering which target is worth locking, which angle you enter from and at what second your entry turns from suicide into victory."
+    },
+    "core_rule": {
+      "pt-BR": "Entrar tarde e certo costuma valer mais do que entrar cedo e “corajoso”.",
+      "en": "Entering late and correctly is usually worth more than entering early and “bravely”."
+    }
+  },
+  "side_lane": {
+    "summary": {
+      "pt-BR": "A identidade lateral da Camille exige visão, rota de saída, leitura de teleporte/objetivo e noção exata de quantos campeões precisam responder a você.",
+      "en": "Camille’s side-lane identity requires vision, an exit route, TP/objective reading and an exact sense of how many champions must answer you."
+    },
+    "core_rule": {
+      "pt-BR": "Puxar side lane não é licença para morrer isolada; é ferramenta para quebrar formação rival.",
+      "en": "Pushing side lane is not a license to die alone; it is a tool to break enemy formation."
+    }
+  },
+  "common_errors": {
+    "beginners": [
+      {
+        "pt-BR": "Trocar sem passiva e achar que o campeão perdeu força “do nada”.",
+        "en": "Trading without passive and thinking the champion “randomly” lost power."
+      },
+      {
+        "pt-BR": "Apressar Q2 e perder a parte mais valiosa do kit.",
+        "en": "Rushing Q2 and losing the most valuable part of the kit."
+      },
+      {
+        "pt-BR": "Abrir a luta sempre com E sem pensar na saída.",
+        "en": "Starting every fight with E without thinking about the exit."
+      },
+      {
+        "pt-BR": "Usar R só para colar no alvo, sem explorar dodge ou reposicionamento.",
+        "en": "Using R only to stick to the target without exploiting dodge or repositioning."
+      }
+    ],
+    "intermediate": [
+      {
+        "pt-BR": "Ter mecânica suficiente para matar, mas não leitura suficiente para escolher quando.",
+        "en": "Having enough mechanics to kill, but not enough reading to choose when."
+      },
+      {
+        "pt-BR": "Ganhar lane e não converter em side lane, plates, visão ou pick.",
+        "en": "Winning lane and failing to convert it into side lane, plates, vision or picks."
+      },
+      {
+        "pt-BR": "Continuar lutando depois que a janela boa já acabou.",
+        "en": "Continuing the fight after the good window already ended."
+      },
+      {
+        "pt-BR": "Supervalorizar altalight e subvalorizar crash, reset e tempo de mapa.",
+        "en": "Overvaluing highlights and undervaluing crash, recall and map tempo."
+      }
+    ],
+    "lane": [
+      {
+        "pt-BR": "Forçar trade em wave ruim.",
+        "en": "Forcing trades on a bad wave."
+      },
+      {
+        "pt-BR": "Entregar vida cedo contra poke/ranged por orgulho.",
+        "en": "Handing over health early into poke/ranged lanes out of pride."
+      },
+      {
+        "pt-BR": "Não mudar start/runa quando a lane pede sobrevivência.",
+        "en": "Not changing start/runes when the lane demands survival."
+      }
+    ],
+    "execution": [
+      {
+        "pt-BR": "Gastar E só porque ficou disponível.",
+        "en": "Spending E just because it came off cooldown."
+      },
+      {
+        "pt-BR": "Não preparar Q2 antes do engage real.",
+        "en": "Not preparing Q2 before the real engage."
+      },
+      {
+        "pt-BR": "Usar R cedo demais e perder o dodge mais importante.",
+        "en": "Using R too early and losing the most important dodge."
+      }
+    ],
+    "itemization": [
+      {
+        "pt-BR": "Copiar build sem ler o tipo real de dano/CC do jogo.",
+        "en": "Copying a build without reading the game’s real damage/CC profile."
+      },
+      {
+        "pt-BR": "Fazer build all-in em jogo que exige sobreviver depois da entrada.",
+        "en": "Building pure all-in in a game that requires surviving after entry."
+      },
+      {
+        "pt-BR": "Negligenciar bota correta e pagar caro por isso.",
+        "en": "Ignoring the correct boots and paying heavily for it."
+      }
+    ],
+    "teamfight": [
+      {
+        "pt-BR": "Ser o primeiro campeão a aparecer na luta sem necessidade.",
+        "en": "Being the first champion to show in the fight without reason."
+      },
+      {
+        "pt-BR": "Travar alvo errado só porque estava perto.",
+        "en": "Locking the wrong target just because it was close."
+      },
+      {
+        "pt-BR": "Entrar de frente quando o valor verdadeiro estava no flanco.",
+        "en": "Entering from the front when the true value was on the flank."
+      }
+    ],
+    "macro": [
+      {
+        "pt-BR": "Ganhar side lane e não puxar resposta real do mapa.",
+        "en": "Winning side lane and failing to pull a real map response."
+      },
+      {
+        "pt-BR": "Forçar split sem visão e sem saber onde está o engage inimigo.",
+        "en": "Forcing a split without vision and without knowing where the enemy engage is."
+      },
+      {
+        "pt-BR": "Não reconhecer quando deve agrupar para objetivo decisivo.",
+        "en": "Failing to recognize when you must group for a decisive objective."
+      }
+    ],
+    "e_usage": [
+      {
+        "pt-BR": "E ofensivo no escuro.",
+        "en": "Offensive E into fog."
+      },
+      {
+        "pt-BR": "E em linha óbvia demais, fácil de ler e kitear.",
+        "en": "E in an overly obvious line that is easy to read and kite."
+      },
+      {
+        "pt-BR": "E gasto na wave antes de jogada importante.",
+        "en": "E spent on the wave right before an important play."
+      }
+    ],
+    "r_usage": [
+      {
+        "pt-BR": "R automático no primeiro frame da luta.",
+        "en": "Automatic R on the first frame of the fight."
+      },
+      {
+        "pt-BR": "Ultar sem pensar qual spell ou flash você quer cortar.",
+        "en": "Ulting without thinking about which spell or flash you want to cut."
+      },
+      {
+        "pt-BR": "Usar R só como gap close e esquecer o valor defensivo.",
+        "en": "Using R only as a gap close and forgetting the defensive value."
+      }
+    ],
+    "mentality": [
+      {
+        "pt-BR": "Achar que toda lane precisa ser dominada cedo.",
+        "en": "Thinking every lane must be dominated early."
+      },
+      {
+        "pt-BR": "Confundir confiança com pressa.",
+        "en": "Confusing confidence with haste."
+      },
+      {
+        "pt-BR": "Desistir da side lane porque uma luta deu errado, em vez de corrigir o setup.",
+        "en": "Giving up on side lane because one fight went wrong instead of fixing the setup."
+      }
+    ]
+  },
+  "matchups_general": {
+    "ranged_lane": {
+      "pt-BR": "Contra ranged, a prioridade é manter HP, não provar superioridade cedo. W, Doran’s Shield, paciência de wave e leitura do spell de escape valem mais do que trocar por orgulho.",
+      "en": "Against ranged, the priority is keeping HP, not proving superiority early. W, Doran’s Shield, wave patience and tracking the escape spell matter more than trading out of pride."
+    },
+    "poke_lane": {
+      "pt-BR": "Contra poke, sua lane é uma maratona até o item/janela corretos. Jogar “bonito” cedo quase sempre custa mais do que rende.",
+      "en": "Against poke, your lane is a marathon until the correct item/window. Playing “pretty” early almost always costs more than it gains."
+    },
+    "bully_lane": {
+      "pt-BR": "Contra bully, lute contra o excesso do rival, não contra o plano básico dele. Camille gosta de punir overextension, não de comprar briga torta por princípio.",
+      "en": "Against a bully, fight the enemy overextension, not their basic game plan. Camille likes punishing excess, not forcing crooked fights on principle."
+    },
+    "tank_lane": {
+      "pt-BR": "Contra tanque, a vantagem relevante muitas vezes é wave, tempo e mapa. Não transforme toda lane em teste de ego por solo kill.",
+      "en": "Against tanks, the relevant advantage is often wave, tempo and map pressure. Do not turn every lane into an ego test for solo kills."
+    },
+    "duelist_lane": {
+      "pt-BR": "Contra duelista, qualquer erro de timing custa muito. Passiva, cooldowns e preparação do Q2 decidem mais do que nome do campeão por si só.",
+      "en": "Against duelists, any timing error costs a lot. Passive, cooldowns and Q2 preparation decide more than the champion name itself."
+    },
+    "execution_difficulty": {
+      "pt-BR": "A dificuldade prática da Camille sobe em lanes que negam aproximação, quebram wave com facilidade ou punem E gasto com burst imediato. Nesses cenários, micro e macro falham juntas se você entrar torto.",
+      "en": "Camille’s practical difficulty rises in lanes that deny approach, break wave easily or punish spent E with immediate burst. In those scenarios, micro and macro fail together if you enter crooked."
+    }
+  }
+}

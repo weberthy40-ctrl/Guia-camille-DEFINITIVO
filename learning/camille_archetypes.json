@@ -1,0 +1,465 @@
+{
+  "overview": {
+    "pt-BR": "Guia premium de Camille contra arquétipos. Não substitui matchup específico, mas ajuda a reconhecer rapidamente o tipo de lane e qual plano geral tende a funcionar.",
+    "en": "Premium Camille guide versus archetypes. It does not replace champion-specific matchups, but helps you quickly recognize the lane type and the general plan that tends to work."
+  },
+  "usage_note": {
+    "pt-BR": "Leia o arquétipo como um mapa mental: entenda o padrão da lane primeiro, depois adapte com matchup knowledge quando necessário.",
+    "en": "Read the archetype as a mental map: understand the lane pattern first, then refine it with matchup knowledge when needed."
+  },
+  "archetypes": [
+    {
+      "name": {
+        "pt-BR": "Ranged",
+        "en": "Ranged"
+      },
+      "execution_difficulty": "high",
+      "lane_pattern": {
+        "pt-BR": "A lane gira em torno de espaço, chip damage, wave desconfortável e punição sempre que Camille anda demais sem cobertura.",
+        "en": "The lane revolves around space, chip damage, uncomfortable waves and punishment whenever Camille walks too far without cover."
+      },
+      "biggest_risk": {
+        "pt-BR": "Perder vida demais antes de abrir qualquer janela real de E ou de reset bom.",
+        "en": "Losing too much HP before any real E window or good reset appears."
+      },
+      "camille_avoid": {
+        "pt-BR": "Não force E sem informação, não aceite tomar poke de graça para “mostrar presença” e não lute com wave gigantesca contra você.",
+        "en": "Do not force E without information, do not accept free poke just to 'show presence,' and do not fight into huge enemy waves."
+      },
+      "camille_force": {
+        "pt-BR": "Force erros de spacing, cooldown gasto, bounce favorável e janelas em que o ranged não consegue kitear com liberdade.",
+        "en": "Force spacing mistakes, burned cooldowns, favorable wave bounces and windows where the ranged champion cannot kite freely."
+      },
+      "early_levels": {
+        "pt-BR": "Níveis iniciais são sobre preservar vida, pegar o máximo de XP possível e reduzir o prejuízo até um reset decente ou janela com jungle.",
+        "en": "Early levels are about preserving HP, getting as much XP as possible and reducing losses until a decent reset or a jungle window."
+      },
+      "when_behind": {
+        "pt-BR": "Atrás, jogue por wave curta, sustain, call de jungle e E apenas quando o ranged estiver realmente exposto.",
+        "en": "When behind, play for short waves, sustain, jungle calls and only use E when the ranged target is truly exposed."
+      },
+      "when_ahead": {
+        "pt-BR": "Na frente, esconda ângulo e transforme qualquer erro de passo em all-in ou pressão de flash/recall ruim.",
+        "en": "When ahead, hide angles and turn any spacing error into an all-in or pressure the enemy into a bad flash/recall."
+      },
+      "runes_build_tendency": {
+        "pt-BR": "Aperto dos Mortos-Vivos com Ventos Revigorantes e entrada de build mais respeitosa costuma render melhor. Boots cedo e sustain têm muito valor.",
+        "en": "Grasp with Second Wind and a more respectful build entry usually performs better. Early boots and sustain matter a lot."
+      },
+      "common_errors": {
+        "pt-BR": "Querer ganhar a lane cedo demais, dar E no escuro e transformar poke lane em bola de neve contra si.",
+        "en": "Trying to win lane too early, E-ing into fog and turning a poke lane into a snowball against yourself."
+      }
+    },
+    {
+      "name": {
+        "pt-BR": "Lane bully",
+        "en": "Lane bully"
+      },
+      "execution_difficulty": "high",
+      "lane_pattern": {
+        "pt-BR": "O bully quer ganhar a lane antes do seu primeiro spike e te empurrar para escolhas ruins de wave, recall e trade.",
+        "en": "The bully wants to win lane before your first spike and push you into bad wave, recall and trade choices."
+      },
+      "biggest_risk": {
+        "pt-BR": "Morrer tentando provar que a lane é neutra.",
+        "en": "Dying while trying to prove the lane is neutral."
+      },
+      "camille_avoid": {
+        "pt-BR": "Evite trocar no tempo dele, aceitar wave ruim sem adaptação e gastar passiva/E de forma ansiosa.",
+        "en": "Avoid trading on their timer, accepting bad waves without adaptation and spending passive/E anxiously."
+      },
+      "camille_force": {
+        "pt-BR": "Force a lane em ritmo mais curto e cirúrgico: punir cooldown, punir excesso e jogar pelo momento em que o bully finalmente exagera.",
+        "en": "Force the lane into a shorter, more surgical rhythm: punish cooldowns, punish oversteps and play for the moment the bully finally overreaches."
+      },
+      "early_levels": {
+        "pt-BR": "Aceite respeito controlado. Você não precisa ganhar os três primeiros minutos; precisa não perder o resto do jogo neles.",
+        "en": "Accept controlled respect. You do not need to win the first three minutes; you need to avoid losing the rest of the game there."
+      },
+      "when_behind": {
+        "pt-BR": "Simplifique: wave, XP, reset bom, call de jungle e nada de altalight improvisado.",
+        "en": "Simplify: wave, XP, good reset, jungle call and no improvised highlights."
+      },
+      "when_ahead": {
+        "pt-BR": "Se recuperar a frente contra bully, o matchup costuma virar muito rápido. Pressione sem devolver janela gratuita.",
+        "en": "If you recover the lead versus a bully, the matchup often flips quickly. Pressure without handing a free answer back."
+      },
+      "runes_build_tendency": {
+        "pt-BR": "Aperto dos Mortos-Vivos; Osso Revestido ou componente defensivo/boots cedo costumam fazer diferença real.",
+        "en": "Grasp; Bone Plating plus early defensive components/boots often make a real difference."
+      },
+      "common_errors": {
+        "pt-BR": "Confundir coragem com teimosia e atrasar compra defensiva que literalmente libera a lane.",
+        "en": "Confusing courage with stubbornness and delaying the defensive purchase that literally unlocks the lane."
+      }
+    },
+    {
+      "name": {
+        "pt-BR": "Tank",
+        "en": "Tank"
+      },
+      "execution_difficulty": "medium",
+      "lane_pattern": {
+        "pt-BR": "Lane mais lenta, baseada em wave, prioridade, TP, recurso e repetição de janelas em vez de explosão instantânea.",
+        "en": "A slower lane based on waves, priority, TP, resources and repeated windows rather than instant explosion."
+      },
+      "biggest_risk": {
+        "pt-BR": "Impaciência: gastar tudo para pouco dano e abrir espaço para gank ou contra-rotação.",
+        "en": "Impatience: spending everything for little damage and opening yourself to ganks or counterplay."
+      },
+      "camille_avoid": {
+        "pt-BR": "Evite bater de graça em quem só quer absorver, e evite transformar a lane em guerra frontal sem motivo.",
+        "en": "Avoid hitting for free into someone who only wants to absorb pressure, and avoid turning lane into a pointless frontal war."
+      },
+      "camille_force": {
+        "pt-BR": "Force side lane, torre, recall ruim, prioridade de wave e punição de cooldowns de ferramenta defensiva.",
+        "en": "Force side-lane pressure, tower damage, bad recalls, wave priority and punishment after defensive tools are spent."
+      },
+      "early_levels": {
+        "pt-BR": "Busque controle de wave e trocas limpas; o objetivo é preparar o resto do mapa, não apenas matar cedo.",
+        "en": "Look for wave control and clean trades; the goal is to prepare the rest of the map, not just kill early."
+      },
+      "when_behind": {
+        "pt-BR": "Ainda é jogável se você mantiver farm e side viva. Não entregue all-in ruim só porque o tank parece impossível de mover.",
+        "en": "It is still playable if you keep farm and side lane alive. Do not donate a bad all-in just because the tank feels immovable."
+      },
+      "when_ahead": {
+        "pt-BR": "Na frente, pressione timing de torre, side longa e resposta errada do rival.",
+        "en": "When ahead, pressure tower timing, long side lanes and the enemy's wrong answer."
+      },
+      "runes_build_tendency": {
+        "pt-BR": "Aperto dos Mortos-Vivos quase sempre funciona; build tende a valorizar Força da Trindade + ferramenta de side/tempo antes de luxo.",
+        "en": "Grasp almost always works; build tends to value Trinity Force plus a side-lane/tempo tool before luxury."
+      },
+      "common_errors": {
+        "pt-BR": "Tentar derreter tank cedo e esquecer que a vantagem real está em mapa e estrutura.",
+        "en": "Trying to melt the tank early and forgetting the real advantage lies in map play and structures."
+      }
+    },
+    {
+      "name": {
+        "pt-BR": "Duelista",
+        "en": "Duelist"
+      },
+      "execution_difficulty": "high",
+      "lane_pattern": {
+        "pt-BR": "Lane de detalhes. Quem erra tempo, spacing ou cooldown costuma pagar caro.",
+        "en": "A detail-heavy lane. Whoever misses timing, spacing or cooldown discipline tends to pay dearly."
+      },
+      "biggest_risk": {
+        "pt-BR": "Dar engage na hora errada e alongar troca que você não controla.",
+        "en": "Engaging at the wrong moment and extending a trade you do not control."
+      },
+      "camille_avoid": {
+        "pt-BR": "Evite lutar no melhor timing do rival e evite mostrar todo o combo antes de ler a resposta defensiva/ofensiva dele.",
+        "en": "Avoid fighting on the enemy's best timing and avoid showing your full combo before reading their defensive/offensive answer."
+      },
+      "camille_force": {
+        "pt-BR": "Force skill-checks curtos quando sua passiva, Q2 e spacing estão prontos, ou all-in quando a ferramenta decisiva do rival já saiu.",
+        "en": "Force short skill checks when passive, Q2 and spacing are ready, or all-in once the enemy's decisive tool is already gone."
+      },
+      "early_levels": {
+        "pt-BR": "Níveis iniciais pedem leitura precisa: um trade ruim pode decidir a lane inteira.",
+        "en": "Early levels demand precise reading: one bad trade can decide the whole lane."
+      },
+      "when_behind": {
+        "pt-BR": "Atrás, reduza o número de interações arriscadas e jogue por erro do rival, não por ego.",
+        "en": "When behind, reduce the number of risky interactions and play for enemy mistakes, not ego."
+      },
+      "when_ahead": {
+        "pt-BR": "Na frente, pressione mentalmente: esconda Q2, puna passo errado e não dê reset fácil para o rival respirar.",
+        "en": "When ahead, apply mental pressure: hide Q2 timing, punish bad steps and do not give easy resets that let the enemy breathe."
+      },
+      "runes_build_tendency": {
+        "pt-BR": "Aperto dos Mortos-Vivos é a linha segura; Conquistador pode entrar quando a luta longa é realmente jogável e você domina o duelo.",
+        "en": "Grasp is the safe line; Conqueror can enter when long fights are truly playable and you master the duel."
+      },
+      "common_errors": {
+        "pt-BR": "Achar que todo duelista se ganha no all-in bruto e esquecer do peso das micro-janelas.",
+        "en": "Thinking every duelist lane is won through raw all-ins and forgetting the weight of micro-windows."
+      }
+    },
+    {
+      "name": {
+        "pt-BR": "Juggernaut",
+        "en": "Juggernaut"
+      },
+      "execution_difficulty": "medium_high",
+      "lane_pattern": {
+        "pt-BR": "Eles punem muito quando encostam, mas costumam ter limites claros de mobilidade e resposta.",
+        "en": "They punish heavily once they touch you, but usually have clear mobility and response limits."
+      },
+      "biggest_risk": {
+        "pt-BR": "Brigar no alcance/tempo deles e transformar sua mobilidade em aproximação ruim.",
+        "en": "Fighting inside their range/timer and turning your mobility into a bad approach."
+      },
+      "camille_avoid": {
+        "pt-BR": "Evite troca longa estática e evite dar E quando a contrapartida deles ainda está inteira.",
+        "en": "Avoid static long trades and avoid E-ing while their main answer remains fully available."
+      },
+      "camille_force": {
+        "pt-BR": "Force deslocamento ruim, kite curto, punição de cooldown pesado e janelas em que eles não conseguem continuar o contato.",
+        "en": "Force bad repositioning, short kiting, punishment after heavy cooldowns and windows where they cannot continue contact."
+      },
+      "early_levels": {
+        "pt-BR": "Muita disciplina. Um erro de range pode custar a lane.",
+        "en": "A lot of discipline. One range error can cost the lane."
+      },
+      "when_behind": {
+        "pt-BR": "Jogue por wave e evite corpo a corpo honesto demais.",
+        "en": "Play through waves and avoid overly honest melee contact."
+      },
+      "when_ahead": {
+        "pt-BR": "Use a frente para apertar spacing e negar acesso deles à wave/corredor.",
+        "en": "Use your lead to tighten spacing and deny their access to the wave/corridor."
+      },
+      "runes_build_tendency": {
+        "pt-BR": "Aperto dos Mortos-Vivos e linha mais controlada costumam funcionar melhor do que setups gananciosos.",
+        "en": "Grasp and a more controlled line usually work better than greedy setups."
+      },
+      "common_errors": {
+        "pt-BR": "Dar all-in cedo demais em campeão cujo kit inteiro ainda está disponível.",
+        "en": "Taking early all-ins into a champion whose full kit is still available."
+      }
+    },
+    {
+      "name": {
+        "pt-BR": "Poke / sustain",
+        "en": "Poke / sustain"
+      },
+      "execution_difficulty": "high",
+      "lane_pattern": {
+        "pt-BR": "Você sofre para tocar o alvo e, quando toca, ele ainda pode devolver ou se curar do prejuízo.",
+        "en": "You struggle to touch the target and, even when you do, they may answer back or heal through the loss."
+      },
+      "biggest_risk": {
+        "pt-BR": "Gastando recursos demais para ganhar quase nada na barra de vida líquida.",
+        "en": "Spending too many resources to gain almost nothing in net HP."
+      },
+      "camille_avoid": {
+        "pt-BR": "Evite trocas sem borda de W, sem passiva ou sem setup de wave; esse arquétipo pune ineficiência.",
+        "en": "Avoid trades without outer W, without passive or without wave setup; this archetype punishes inefficiency."
+      },
+      "camille_force": {
+        "pt-BR": "Force janelas em que a cura/sustain ainda não corrigiu a vida ou em que o poke gastou ferramenta crítica.",
+        "en": "Force windows before sustain corrects HP back or after poke tools have been spent."
+      },
+      "early_levels": {
+        "pt-BR": "Preserve vida e mana; a lane só fica sua quando o rival não consegue mais te manter fora do alcance com conforto.",
+        "en": "Preserve HP and mana; the lane only becomes yours once the enemy can no longer comfortably keep you out of range."
+      },
+      "when_behind": {
+        "pt-BR": "Jogue por reset bom, recursos e all-in assistido.",
+        "en": "Play for good resets, resource management and assisted all-ins."
+      },
+      "when_ahead": {
+        "pt-BR": "Na frente, esmague o tempo de respiração do rival e transforme qualquer recuo em perda de wave/placa.",
+        "en": "When ahead, crush the enemy's breathing room and turn any retreat into lost wave/plates."
+      },
+      "runes_build_tendency": {
+        "pt-BR": "Ventos Revigorantes, sustain de lane e boots cedo costumam ter valor acima da média.",
+        "en": "Second Wind, lane sustain and early boots usually have above-average value."
+      },
+      "common_errors": {
+        "pt-BR": "Tentar trocar de forma simétrica contra campeões que sempre extraem mais valor do contato leve.",
+        "en": "Trying to trade symmetrically into champions who always extract more value from light contact."
+      }
+    },
+    {
+      "name": {
+        "pt-BR": "Anti-engage",
+        "en": "Anti-engage"
+      },
+      "execution_difficulty": "high",
+      "lane_pattern": {
+        "pt-BR": "São campeões que parecem livres para engajar, mas castigam demais o momento óbvio da sua entrada.",
+        "en": "These champions may look engageable, but they punish the obvious timing of your entry extremely hard."
+      },
+      "biggest_risk": {
+        "pt-BR": "Dar exatamente a luta que o anti-engage queria receber.",
+        "en": "Giving the exact fight the anti-engage champion wanted to receive."
+      },
+      "camille_avoid": {
+        "pt-BR": "Evite ser previsível com E e evite gastar R cedo demais sem tirar a ferramenta de negação primeiro.",
+        "en": "Avoid being predictable with E and avoid using R too early before the denial tool is drawn out."
+      },
+      "camille_force": {
+        "pt-BR": "Force fake threats, entrada em ângulo diferente, bait de cooldown e engage só quando a resposta principal está enfraquecida.",
+        "en": "Force fake threats, different entry angles, cooldown bait and only engage once the main answer is weakened."
+      },
+      "early_levels": {
+        "pt-BR": "Teste pouco e leia muito. O matchup costuma ser decidido pela primeira leitura errada.",
+        "en": "Test a little and read a lot. The matchup is often decided by the first wrong read."
+      },
+      "when_behind": {
+        "pt-BR": "Reduza tentativas ambiciosas e jogue por wave, hover de jungle e erro do rival.",
+        "en": "Reduce ambitious attempts and play through wave control, jungle hover and enemy mistakes."
+      },
+      "when_ahead": {
+        "pt-BR": "Na frente, use a vantagem para acelerar bait e obrigar resposta desesperada antes do engage real.",
+        "en": "When ahead, use the lead to accelerate bait patterns and force a desperate answer before the real engage."
+      },
+      "runes_build_tendency": {
+        "pt-BR": "Aperto dos Mortos-Vivos tende a funcionar melhor; build deve respeitar a resposta do rival antes de se tornar greed pura.",
+        "en": "Grasp tends to work better; build should respect the enemy answer before becoming pure greed."
+      },
+      "common_errors": {
+        "pt-BR": "Entrar “porque chegou a hora” em vez de entrar porque a ferramenta anti-engage já foi realmente comprometida.",
+        "en": "Engaging because 'it is time' instead of because the anti-engage tool has actually been committed."
+      }
+    },
+    {
+      "name": {
+        "pt-BR": "Burst curto",
+        "en": "Short burst"
+      },
+      "execution_difficulty": "medium_high",
+      "lane_pattern": {
+        "pt-BR": "A lane se decide em pedaços pequenos e muito violentos; quem absorve melhor a primeira pancada costuma ganhar o resto.",
+        "en": "The lane is decided in small but violent chunks; whoever absorbs the first hit better usually wins the rest."
+      },
+      "biggest_risk": {
+        "pt-BR": "Perder a passiva/defesa e abrir corpo para o burst inteiro.",
+        "en": "Losing passive/defense timing and opening your body to the full burst."
+      },
+      "camille_avoid": {
+        "pt-BR": "Evite troca sem passiva pronta e evite insistir depois que o primeiro pedaço da troca já saiu ruim.",
+        "en": "Avoid trading without passive ready and avoid insisting once the first chunk of the trade already went badly."
+      },
+      "camille_force": {
+        "pt-BR": "Force micro-janelas em que seu escudo, Q2 ou dodge de R mudam o resultado do burst.",
+        "en": "Force micro-windows where your shield, Q2 or R dodge shifts the burst outcome."
+      },
+      "early_levels": {
+        "pt-BR": "Cada cooldown pesa muito; não gaste o seu para provar ponto desnecessário.",
+        "en": "Every cooldown matters a lot; do not spend yours to prove an unnecessary point."
+      },
+      "when_behind": {
+        "pt-BR": "Jogue por redução de risco e aceite trades menores.",
+        "en": "Play to reduce risk and accept smaller trades."
+      },
+      "when_ahead": {
+        "pt-BR": "Na frente, seu burst passa a decidir o ritmo. Puna cada aproximação mal feita.",
+        "en": "When ahead, your burst starts dictating tempo. Punish every bad approach."
+      },
+      "runes_build_tendency": {
+        "pt-BR": "Aperto dos Mortos-Vivos, Osso Revestido e item de ponte defensiva cedo costumam render bem.",
+        "en": "Grasp, Bone Plating and an early defensive bridge tend to perform well."
+      },
+      "common_errors": {
+        "pt-BR": "Entrar sem camada defensiva pronta e confiar que o dano vai sair mesmo assim.",
+        "en": "Going in without a defensive layer ready and trusting that the damage will go through anyway."
+      }
+    },
+    {
+      "name": {
+        "pt-BR": "Troca longa",
+        "en": "Long trade"
+      },
+      "execution_difficulty": "medium",
+      "lane_pattern": {
+        "pt-BR": "A lane recompensa quem sustenta contato e converte DPS em vantagem acumulada.",
+        "en": "The lane rewards whoever sustains contact and converts DPS into accumulated advantage."
+      },
+      "biggest_risk": {
+        "pt-BR": "Insistir em troca longa sem setup/runa/build para isso.",
+        "en": "Insisting on long trades without the setup/runes/build for it."
+      },
+      "camille_avoid": {
+        "pt-BR": "Evite alongar luta quando seu plano é curto; defina antes se você quer tocar e sair ou realmente continuar.",
+        "en": "Avoid extending fights when your plan is short; decide first whether you want to touch and leave or truly continue."
+      },
+      "camille_force": {
+        "pt-BR": "Force luta longa quando você já venceu a primeira parte da troca e o rival não consegue mais escapar do seu ritmo.",
+        "en": "Force long trades once you already won the first phase of the exchange and the enemy can no longer escape your rhythm."
+      },
+      "early_levels": {
+        "pt-BR": "Nos primeiros níveis, meça se a luta longa é sua ou não antes de optar por Conquistador/linha mais pesada.",
+        "en": "In early levels, measure whether long trades are really yours before opting into Conqueror/heavier lines."
+      },
+      "when_behind": {
+        "pt-BR": "Atrás, reduza troca longa; jogue por pedaços mais curtos e retome o controle antes de insistir.",
+        "en": "When behind, cut down on long trades; play in shorter chunks and regain control before insisting."
+      },
+      "when_ahead": {
+        "pt-BR": "Na frente, você pode estender mais e punir quem tentou sobreviver ao primeiro contato.",
+        "en": "When ahead, you can extend more and punish whoever only tried to live through the first contact."
+      },
+      "runes_build_tendency": {
+        "pt-BR": "Conquistador vira opção real quando o resto do contexto permite contato prolongado.",
+        "en": "Conqueror becomes a real option when the rest of the context allows prolonged contact."
+      },
+      "common_errors": {
+        "pt-BR": "Escolher setup de luta longa e depois pilotar como se estivesse de Aperto dos Mortos-Vivos o jogo inteiro.",
+        "en": "Choosing a long-fight setup and then piloting as though you were on Grasp the whole game."
+      }
+    },
+    {
+      "name": {
+        "pt-BR": "All-in",
+        "en": "All-in"
+      },
+      "execution_difficulty": "high",
+      "lane_pattern": {
+        "pt-BR": "Um erro grande pode decidir tudo. Há menos espaço para trocar devagar e mais peso em cooldown crítico.",
+        "en": "One big mistake can decide everything. There is less room for slow trading and more weight on critical cooldowns."
+      },
+      "biggest_risk": {
+        "pt-BR": "Abrir mão do seu botão de segurança cedo e ficar presa na luta errada.",
+        "en": "Giving up your safety button too early and getting trapped in the wrong fight."
+      },
+      "camille_avoid": {
+        "pt-BR": "Evite E cedo demais, passiva desperdiçada e all-in por impulso com wave ruim.",
+        "en": "Avoid early E commitment, wasted passive timing and impulsive all-ins on bad waves."
+      },
+      "camille_force": {
+        "pt-BR": "Force all-in quando a ferramenta central do rival caiu, quando sua passiva/Q2 estão prontos e quando o espaço de fuga dele é ruim.",
+        "en": "Force the all-in once the enemy's central tool is down, your passive/Q2 are primed and their escape space is bad."
+      },
+      "early_levels": {
+        "pt-BR": "Os primeiros níveis pedem disciplina de aço. Não dê a fight grande sem motivo de verdade.",
+        "en": "The first levels require steel discipline. Do not hand over the big fight without a real reason."
+      },
+      "when_behind": {
+        "pt-BR": "Atrás, pare de buscar coinflip e recupere recursos antes de outro compromisso grande.",
+        "en": "When behind, stop looking for coinflips and recover resources before the next big commitment."
+      },
+      "when_ahead": {
+        "pt-BR": "Na frente, transforme medo do all-in em zoneamento, controle de wave e força mental na lane.",
+        "en": "When ahead, turn all-in threat into zoning, wave control and mental pressure in lane."
+      },
+      "runes_build_tendency": {
+        "pt-BR": "Aperto dos Mortos-Vivos e runa defensiva costumam te dar mais consistência. Build precisa respeitar o primeiro retorno de dano/controle.",
+        "en": "Grasp and defensive rune choices usually give more consistency. Build must respect the first return burst/CC layer."
+      },
+      "common_errors": {
+        "pt-BR": "Achar que todo matchup explosivo se resolve pela coragem e não pela preparação da janela.",
+        "en": "Thinking every explosive matchup is solved by courage rather than by proper window setup."
+      }
+    }
+  ],
+  "decision_shortcuts": {
+    "pt-BR": [
+      "SE o arquétipo te impede de tocar no alvo -> pense primeiro em sobreviver e encurtar distância, não em dano máximo.",
+      "SE o arquétipo te vence em luta longa -> devolva em troca curta, wave e timing.",
+      "SE o arquétipo te explode no curto -> compre margem de erro antes de acelerar.",
+      "SE o arquétipo colapsa quando perde a ferramenta principal -> jogue por bait e punição, não por pressa."
+    ],
+    "en": [
+      "IF the archetype keeps you from touching the target -> think about survival and gap-closing first, not maximum damage.",
+      "IF the archetype beats you in long fights -> answer with short trades, wave control and timing.",
+      "IF the archetype explodes you in short fights -> buy margin for error before accelerating.",
+      "IF the archetype collapses once it loses its main tool -> play for bait and punishment, not haste."
+    ]
+  },
+  "metadata": {
+    "data_quality": "high",
+    "last_updated": "2026-04-09",
+    "pipeline_alignment": [
+      "pipeline/data_rules.md",
+      "pipeline/content_priority.md",
+      "pipeline/scoring_rules.md"
+    ]
+  }
+}

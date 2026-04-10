@@ -1,0 +1,308 @@
+{
+  "overview": {
+    "pt-BR": "Checklists de revisão para coaching e autoanálise da Camille. Use depois da partida ou antes de repetir o mesmo erro em sequência.",
+    "en": "Review checklists for Camille coaching and self-analysis. Use them after the match or before repeating the same mistake in a row."
+  },
+  "review_rule": {
+    "pt-BR": "Revise uma partida procurando padrões, não culpados. O alvo do review é a decisão repetida que mais roubou valor do seu jogo.",
+    "en": "Review a match looking for patterns, not culprits. The target of review is the repeated decision that stole the most value from your game."
+  },
+  "checklists": [
+    {
+      "review_type": "lane_review",
+      "title": {
+        "pt-BR": "Review de lane",
+        "en": "Lane review"
+      },
+      "key_questions": {
+        "pt-BR": [
+          "minhas trocas respeitaram o estado da wave?",
+          "usei E em janela real ou por ansiedade?",
+          "perdi vida antes da primeira janela forte?",
+          "meu reset melhorou ou piorou a lane?"
+        ],
+        "en": [
+          "Did my trades respect the wave state?",
+          "Did I use E in a real window or from anxiety?",
+          "Did I lose too much HP before my first strong opening?",
+          "Did my reset improve or worsen the lane?"
+        ]
+      },
+      "fail_signals": {
+        "pt-BR": [
+          "morrer ou basear sem necessidade antes do primeiro spike",
+          "trocar grande em wave contra",
+          "ceder lane por E mal gasto"
+        ],
+        "en": [
+          "dying or basing unnecessarily before first spike",
+          "taking big trades into a bad wave",
+          "conceding the lane because E was badly spent"
+        ]
+      },
+      "correction_focus": {
+        "pt-BR": "Se duas respostas forem “sim, forcei sem condição”, o próximo treino deve voltar para short trade + disciplina de E.",
+        "en": "If two answers are “yes, I forced without conditions,” your next training block should go back to short trades + E discipline."
+      },
+      "next_action": {
+        "pt-BR": "Revise arquétipo da lane e rode um bloco curto do foco que mais falhou.",
+        "en": "Review the lane archetype and run a short block on the focus that failed the most."
+      }
+    },
+    {
+      "review_type": "execution_review",
+      "title": {
+        "pt-BR": "Review de execução",
+        "en": "Execution review"
+      },
+      "key_questions": {
+        "pt-BR": [
+          "o Q2 saiu no timing forte nas lutas importantes?",
+          "errei o E por ângulo, range ou leitura do alvo?",
+          "usei R para resolver um problema real?",
+          "soube corrigir a luta quando a entrada falhou?"
+        ],
+        "en": [
+          "Did Q2 land on the strong timing in key fights?",
+          "Did I miss E because of angle, range, or target reading?",
+          "Did I use R to solve a real problem?",
+          "Could I correct the fight when the entry failed?"
+        ]
+      },
+      "fail_signals": {
+        "pt-BR": [
+          "Q2 constante fora de timing",
+          "E virando coinflip",
+          "R gasto só para “completar combo”"
+        ],
+        "en": [
+          "repeated off-timing Q2",
+          "E becoming a coinflip",
+          "R spent only to “complete the combo”"
+        ]
+      },
+      "correction_focus": {
+        "pt-BR": "Isolar uma falha mecânica por vez. Tentar corrigir tudo junto mascara o erro central.",
+        "en": "Isolate one mechanical failure at a time. Trying to fix everything together hides the central error."
+      },
+      "next_action": {
+        "pt-BR": "Escolha um cenário de Practice Tool e um bloco curto específico da falha dominante.",
+        "en": "Pick one Practice Tool scenario and one short block specific to the dominant failure."
+      }
+    },
+    {
+      "review_type": "itemization_review",
+      "title": {
+        "pt-BR": "Review de itemização",
+        "en": "Itemization review"
+      },
+      "key_questions": {
+        "pt-BR": [
+          "minha build respondeu à lane ou só ao costume?",
+          "adaptei cedo demais e perdi dano sem necessidade?",
+          "demorei demais para adaptar e fiquei sem sobrevivência?",
+          "minha bota ajudou o jogo real?"
+        ],
+        "en": [
+          "Did my build answer the lane or just habit?",
+          "Did I adapt too early and lose damage unnecessarily?",
+          "Did I adapt too late and lose survivability?",
+          "Did my boots help the real game state?"
+        ]
+      },
+      "fail_signals": {
+        "pt-BR": [
+          "build igual em contexto muito diferente",
+          "item defensivo que chegou tarde demais",
+          "build de lane boa em jogo de teamfight ruim"
+        ],
+        "en": [
+          "same build in very different contexts",
+          "defensive item arriving too late",
+          "good-lane build in a bad-teamfight game"
+        ]
+      },
+      "correction_focus": {
+        "pt-BR": "O review de build deve começar na pergunta “o que o jogo exigia?” e não em “qual item era popular?”.",
+        "en": "A build review should start with “what did the game require?” not “which item was popular?”"
+      },
+      "next_action": {
+        "pt-BR": "Revise a árvore de build e anote em uma linha o motivo do próximo setup.",
+        "en": "Review the build tree and write one line explaining why you chose your next setup."
+      }
+    },
+    {
+      "review_type": "side_lane_review",
+      "title": {
+        "pt-BR": "Review de side lane",
+        "en": "Side-lane review"
+      },
+      "key_questions": {
+        "pt-BR": [
+          "eu sabia onde estavam as maiores ameaças antes de avançar?",
+          "bati torre sem rota de saída?",
+          "minha pressão lateral coincidiu com objetivo importante?",
+          "saí da side na hora certa?"
+        ],
+        "en": [
+          "Did I know where the biggest threats were before advancing?",
+          "Did I hit tower without an exit route?",
+          "Did my side pressure line up with an important objective?",
+          "Did I leave side lane at the right time?"
+        ]
+      },
+      "fail_signals": {
+        "pt-BR": [
+          "shutdown em side sem objetivo ganho",
+          "mais uma wave que virou morte",
+          "split sem informação do mapa"
+        ],
+        "en": [
+          "shutdown in side lane with no objective gained",
+          "one more wave that turned into a death",
+          "splitting with no map information"
+        ]
+      },
+      "correction_focus": {
+        "pt-BR": "Se a side pareceu “forte” mas não gerou mapa, provavelmente faltou timing e não dano.",
+        "en": "If side lane felt “strong” but generated no map value, timing was probably missing, not damage."
+      },
+      "next_action": {
+        "pt-BR": "Revise checklist before split e faça um bloco curto de side lane.",
+        "en": "Review the before-split checklist and do a short side-lane block."
+      }
+    },
+    {
+      "review_type": "teamfight_review",
+      "title": {
+        "pt-BR": "Review de teamfight",
+        "en": "Teamfight review"
+      },
+      "key_questions": {
+        "pt-BR": [
+          "entrei no alvo certo?",
+          "esperei o timing do meu time ou só o meu range?",
+          "o R travou o alvo certo ou salvou minha entrada?",
+          "minha saída estava pensada?"
+        ],
+        "en": [
+          "Did I enter on the right target?",
+          "Did I wait for my team’s timing or only my own range?",
+          "Did R lock the right target or save my entry?",
+          "Was my exit planned?"
+        ]
+      },
+      "fail_signals": {
+        "pt-BR": [
+          "ultar primeiro alvo acessível",
+          "morrer antes de follow-up chegar",
+          "entrar frontal quando flank era exigido"
+        ],
+        "en": [
+          "ulting the first accessible target",
+          "dying before follow-up arrives",
+          "frontally entering when a flank was required"
+        ]
+      },
+      "correction_focus": {
+        "pt-BR": "Teamfight ruim de Camille raramente é falta de coragem; normalmente é erro de alvo, timing ou rota.",
+        "en": "A bad Camille teamfight is rarely a lack of courage; it is usually a target, timing, or route mistake."
+      },
+      "next_action": {
+        "pt-BR": "Revise macro/teamfight e repita o bloco de disciplina de engage.",
+        "en": "Review macro/teamfighting and repeat the engage discipline block."
+      }
+    },
+    {
+      "review_type": "playing_behind_review",
+      "title": {
+        "pt-BR": "Review de jogo atrás",
+        "en": "Playing-from-behind review"
+      },
+      "key_questions": {
+        "pt-BR": [
+          "aceitei jogar por recursos menores quando precisava?",
+          "tentei recuperar tudo em uma jogada?",
+          "adaptei build para sobreviver quando necessário?",
+          "guardei E/R para sair de posição ruim?"
+        ],
+        "en": [
+          "Did I accept playing for smaller resources when needed?",
+          "Did I try to recover everything in one play?",
+          "Did I adapt my build to survive when needed?",
+          "Did I hold E/R to leave bad positions?"
+        ]
+      },
+      "fail_signals": {
+        "pt-BR": [
+          "mortes evitáveis tentando compensar desvantagem",
+          "build gananciosa sem base para usar",
+          "luta frontal ruim só para “voltar no jogo”"
+        ],
+        "en": [
+          "avoidable deaths while trying to compensate for a deficit",
+          "greedy build with no base to use it",
+          "bad front-loaded fights just to “get back into the game”"
+        ]
+      },
+      "correction_focus": {
+        "pt-BR": "Atrás, o review deve punir desespero antes de punir falta de dano.",
+        "en": "When behind, the review should punish desperation before punishing lack of damage."
+      },
+      "next_action": {
+        "pt-BR": "Revise FAQ sobre jogar atrás e faça um bloco curto de sobrevivência/disciplina.",
+        "en": "Review the FAQ on playing from behind and do a short survival/discipline block."
+      }
+    },
+    {
+      "review_type": "playing_ahead_review",
+      "title": {
+        "pt-BR": "Review de jogo na frente",
+        "en": "Playing-ahead review"
+      },
+      "key_questions": {
+        "pt-BR": [
+          "transformei vantagem em objetivo ou só em luta?",
+          "respeitei shutdown e tempo de mapa?",
+          "escolhi side ou group de forma consciente?",
+          "dei janela de comeback por excesso de confiança?"
+        ],
+        "en": [
+          "Did I turn my lead into an objective or only into fights?",
+          "Did I respect shutdown risk and map tempo?",
+          "Did I consciously choose between side and group?",
+          "Did I give a comeback window through overconfidence?"
+        ]
+      },
+      "fail_signals": {
+        "pt-BR": [
+          "lead forte sem conversão",
+          "pickoff desnecessário na side",
+          "teamfight ruim iniciada só porque estava forte"
+        ],
+        "en": [
+          "strong lead with no conversion",
+          "unnecessary side-lane pickoff death",
+          "bad teamfight started only because I was strong"
+        ]
+      },
+      "correction_focus": {
+        "pt-BR": "Ganhar na frente pede frieza. O review deve procurar onde o ego custou mais que a execução entregou.",
+        "en": "Playing ahead requires composure. The review should look for where ego cost more than execution delivered."
+      },
+      "next_action": {
+        "pt-BR": "Revise coach path de consistência com vantagem e o checklist de jogo na frente.",
+        "en": "Review the coach path for playing ahead consistently and the ahead-state checklist."
+      }
+    }
+  ],
+  "metadata": {
+    "data_quality": "high",
+    "last_updated": "2026-04-09",
+    "pipeline_alignment": [
+      "data_rules",
+      "content_priority"
+    ],
+    "scope": "parallel_2_round4_coach_progression"
+  }
+}

@@ -1,0 +1,862 @@
+{
+  "identity": {
+    "slug": "camille",
+    "name": "Camille",
+    "title": {
+      "pt-BR": "A Sombra de Aço",
+      "en": "The Steel Shadow"
+    },
+    "tags": [
+      {
+        "pt-BR": "Lutadora",
+        "en": "Fighter"
+      },
+      {
+        "pt-BR": "Mergulhadora",
+        "en": "Diver"
+      },
+      {
+        "pt-BR": "Split push",
+        "en": "Split Push"
+      },
+      {
+        "pt-BR": "Pick",
+        "en": "Pick"
+      }
+    ],
+    "resource": "Mana",
+    "attack_type": "Melee",
+    "positions": [
+      "top"
+    ]
+  },
+  "summary": {
+    "pt-BR": "Camille é uma duelista de alta precisão que transforma vantagem de spacing, janela de cooldown e side lane em pressão constante no mapa.",
+    "en": "Camille is a precision duelist who turns spacing, cooldown windows and side-lane tempo into constant map pressure."
+  },
+  "lore_short": {
+    "pt-BR": "Agente de elite de Piltover, Camille trocou grande parte do corpo por aprimoramentos hextec para manter a ordem com frieza cirúrgica.",
+    "en": "An elite agent from Piltover, Camille replaced much of her body with hextech augmentations to preserve order with surgical precision."
+  },
+  "external_links": {
+    "biography": "https://universe.leagueoflegends.com/pt_BR/champion/camille/",
+    "story": "https://universe.leagueoflegends.com/pt_BR/story/champion/camille/",
+    "official_champion_page": "https://www.leagueoflegends.com/en-us/champions/camille/"
+  },
+  "abilities": {
+    "passive": {
+      "name": "Adaptive Defenses",
+      "name_pt": "Defesas Adaptativas",
+      "summary": {
+        "pt-BR": "Ao acertar um campeão, Camille ganha um escudo adaptativo contra o tipo de dano predominante do alvo. É a ferramenta que autoriza a maior parte das trocas curtas da lane.",
+        "en": "When hitting an enemy champion, Camille gains an adaptive shield against that target's primary damage type. It is the permission tool behind most of her short lane trades."
+      },
+      "cooldown_window": {
+        "pt-BR": "18 / 14 / 10 segundos (níveis 1 / 7 / 13)",
+        "en": "18 / 14 / 10 seconds (levels 1 / 7 / 13)"
+      }
+    },
+    "q": {
+      "name": "Precision Protocol",
+      "name_pt": "Protocolo de Precisão",
+      "summary": {
+        "pt-BR": "Reset de auto, dano em duas etapas e pico de dano verdadeiro no segundo Q.",
+        "en": "Auto reset, two-step damage pattern and true damage spike on second Q."
+      },
+      "cooldown_by_rank": [
+        "9",
+        "8",
+        "7",
+        "6",
+        "5"
+      ]
+    },
+    "w": {
+      "name": "Tactical Sweep",
+      "name_pt": "Varredura Tática",
+      "summary": {
+        "pt-BR": "Controle de espaço, sustain e poke seguro.",
+        "en": "Space control, sustain and safe poke."
+      },
+      "cooldown_by_rank": [
+        "17",
+        "15.5",
+        "14",
+        "12.5",
+        "11"
+      ]
+    },
+    "e": {
+      "name": "Hookshot / Wall Dive",
+      "name_pt": "Disparo de Gancho / Mergulho na Parede",
+      "summary": {
+        "pt-BR": "Ferramenta de engage, escape, visão e pick.",
+        "en": "Engage, escape, vision and pick tool."
+      },
+      "cooldown_by_rank": [
+        "16",
+        "14.5",
+        "13",
+        "11.5",
+        "10"
+      ]
+    },
+    "r": {
+      "name": "The Hextech Ultimatum",
+      "name_pt": "Ultimato Hextec",
+      "summary": {
+        "pt-BR": "Trava alvo, reposiciona e pode invalidar diversas habilidades em timing perfeito.",
+        "en": "Locks the target, repositions and can invalidate many abilities with precise timing."
+      },
+      "cooldown_by_rank": [
+        "140",
+        "115",
+        "90"
+      ]
+    }
+  },
+  "skill_order": [
+    {
+      "level": 1,
+      "skill": "E"
+    },
+    {
+      "level": 2,
+      "skill": "Q"
+    },
+    {
+      "level": 3,
+      "skill": "W"
+    },
+    {
+      "level": 4,
+      "skill": "Q"
+    },
+    {
+      "level": 5,
+      "skill": "Q"
+    },
+    {
+      "level": 6,
+      "skill": "R"
+    },
+    {
+      "level": 7,
+      "skill": "Q"
+    },
+    {
+      "level": 8,
+      "skill": "W"
+    },
+    {
+      "level": 9,
+      "skill": "Q"
+    },
+    {
+      "level": 10,
+      "skill": "W"
+    },
+    {
+      "level": 11,
+      "skill": "R"
+    },
+    {
+      "level": 12,
+      "skill": "W"
+    },
+    {
+      "level": 13,
+      "skill": "W"
+    },
+    {
+      "level": 14,
+      "skill": "E"
+    },
+    {
+      "level": 15,
+      "skill": "E"
+    },
+    {
+      "level": 16,
+      "skill": "R"
+    },
+    {
+      "level": 17,
+      "skill": "E"
+    },
+    {
+      "level": 18,
+      "skill": "E"
+    }
+  ],
+  "level_stats_1_20": [
+    {
+      "level": 1,
+      "hp": 670,
+      "ad": 68.0,
+      "armor": 35,
+      "mr": 32.0,
+      "attack_speed_multiplier": 1.0
+    },
+    {
+      "level": 2,
+      "hp": 769,
+      "ad": 71.5,
+      "armor": 40,
+      "mr": 34.0,
+      "attack_speed_multiplier": 1.025
+    },
+    {
+      "level": 3,
+      "hp": 868,
+      "ad": 75.0,
+      "armor": 45,
+      "mr": 36.1,
+      "attack_speed_multiplier": 1.05
+    },
+    {
+      "level": 4,
+      "hp": 967,
+      "ad": 78.5,
+      "armor": 50,
+      "mr": 38.1,
+      "attack_speed_multiplier": 1.075
+    },
+    {
+      "level": 5,
+      "hp": 1066,
+      "ad": 82.0,
+      "armor": 55,
+      "mr": 40.2,
+      "attack_speed_multiplier": 1.1
+    },
+    {
+      "level": 6,
+      "hp": 1165,
+      "ad": 85.5,
+      "armor": 60,
+      "mr": 42.2,
+      "attack_speed_multiplier": 1.125
+    },
+    {
+      "level": 7,
+      "hp": 1264,
+      "ad": 89.0,
+      "armor": 65,
+      "mr": 44.3,
+      "attack_speed_multiplier": 1.15
+    },
+    {
+      "level": 8,
+      "hp": 1363,
+      "ad": 92.5,
+      "armor": 70,
+      "mr": 46.3,
+      "attack_speed_multiplier": 1.175
+    },
+    {
+      "level": 9,
+      "hp": 1462,
+      "ad": 96.0,
+      "armor": 75,
+      "mr": 48.4,
+      "attack_speed_multiplier": 1.2
+    },
+    {
+      "level": 10,
+      "hp": 1561,
+      "ad": 99.5,
+      "armor": 80,
+      "mr": 50.5,
+      "attack_speed_multiplier": 1.225
+    },
+    {
+      "level": 11,
+      "hp": 1660,
+      "ad": 103.0,
+      "armor": 85,
+      "mr": 52.5,
+      "attack_speed_multiplier": 1.25
+    },
+    {
+      "level": 12,
+      "hp": 1759,
+      "ad": 106.5,
+      "armor": 90,
+      "mr": 54.5,
+      "attack_speed_multiplier": 1.275
+    },
+    {
+      "level": 13,
+      "hp": 1858,
+      "ad": 110.0,
+      "armor": 95,
+      "mr": 56.6,
+      "attack_speed_multiplier": 1.3
+    },
+    {
+      "level": 14,
+      "hp": 1957,
+      "ad": 113.5,
+      "armor": 100,
+      "mr": 58.6,
+      "attack_speed_multiplier": 1.325
+    },
+    {
+      "level": 15,
+      "hp": 2056,
+      "ad": 117.0,
+      "armor": 105,
+      "mr": 60.7,
+      "attack_speed_multiplier": 1.35
+    },
+    {
+      "level": 16,
+      "hp": 2155,
+      "ad": 120.5,
+      "armor": 110,
+      "mr": 62.8,
+      "attack_speed_multiplier": 1.375
+    },
+    {
+      "level": 17,
+      "hp": 2254,
+      "ad": 124.0,
+      "armor": 115,
+      "mr": 64.8,
+      "attack_speed_multiplier": 1.4
+    },
+    {
+      "level": 18,
+      "hp": 2353,
+      "ad": 127.5,
+      "armor": 120,
+      "mr": 66.8,
+      "attack_speed_multiplier": 1.425
+    },
+    {
+      "level": 19,
+      "hp": 2452,
+      "ad": 131.0,
+      "armor": 125,
+      "mr": 68.9,
+      "attack_speed_multiplier": 1.45
+    },
+    {
+      "level": 20,
+      "hp": 2551,
+      "ad": 134.5,
+      "armor": 130,
+      "mr": 70.9,
+      "attack_speed_multiplier": 1.475
+    }
+  ],
+  "core_items": [
+    {
+      "name": {
+        "pt-BR": "Força da Trindade",
+        "en": "Trinity Force"
+      },
+      "reason": {
+        "pt-BR": "Primeiro grande spike: acelera Q2, troca curta, burst e pressão de side lane.",
+        "en": "First major spike: accelerates Q2, short trades, burst and side-lane pressure."
+      }
+    },
+    {
+      "name": {
+        "pt-BR": "Hidra Raivosa",
+        "en": "Ravenous Hydra"
+      },
+      "reason": {
+        "pt-BR": "Hoje é a peça mais consistente para acelerar wave, sustain e rotação entre side lane e pick.",
+        "en": "Currently the most consistent piece to accelerate waveclear, sustain and rotation between side lane and picks."
+      }
+    },
+    {
+      "name": {
+        "pt-BR": "Botas situacionais",
+        "en": "Situational boots"
+      },
+      "reason": {
+        "pt-BR": "Passos de Aço contra pressão AD/autoataque; Passos de Mercúrio contra CC e AP relevantes.",
+        "en": "Plated Steelcaps into AD/auto pressure; Mercury's Treads into meaningful AP and crowd control."
+      }
+    }
+  ],
+  "most_used_full_build": [
+    {
+      "pt-BR": "Força da Trindade",
+      "en": "Trinity Force"
+    },
+    {
+      "pt-BR": "Passos de Aço Platinados",
+      "en": "Plated Steelcaps"
+    },
+    {
+      "pt-BR": "Hidra Raivosa",
+      "en": "Ravenous Hydra"
+    },
+    {
+      "pt-BR": "Lança de Shojin",
+      "en": "Spear of Shojin"
+    },
+    {
+      "pt-BR": "Dança da Morte",
+      "en": "Death's Dance"
+    },
+    {
+      "pt-BR": "Anjo Guardião",
+      "en": "Guardian Angel"
+    }
+  ],
+  "situational_items": [
+    {
+      "pt-BR": "Mandíbula de Malmortius",
+      "en": "Maw of Malmortius"
+    },
+    {
+      "pt-BR": "Céu Dividido",
+      "en": "Sundered Sky"
+    },
+    {
+      "pt-BR": "Gage de Sterak",
+      "en": "Sterak's Gage"
+    },
+    {
+      "pt-BR": "Coração Congelado",
+      "en": "Frozen Heart"
+    },
+    {
+      "pt-BR": "Presságio de Randuin",
+      "en": "Randuin's Omen"
+    },
+    {
+      "pt-BR": "Espada-serra Quimtec",
+      "en": "Chempunk Chainsword"
+    }
+  ],
+  "runes_general": {
+    "primary": {
+      "pt-BR": "Determinação",
+      "en": "Resolve"
+    },
+    "keystone": {
+      "pt-BR": "Aperto dos Mortos-Vivos",
+      "en": "Grasp of the Undying"
+    },
+    "secondary": {
+      "pt-BR": "Precisão",
+      "en": "Precision"
+    },
+    "notes": {
+      "pt-BR": "Aperto dos Mortos-Vivos segue como página-base mais estável para a maior parte das lanes topo; PTA e Conquistador entram como ajustes de matchup e plano de jogo.",
+      "en": "Grasp remains the most stable baseline page for most top lanes; PTA and Conqueror come in as matchup and game-plan adjustments."
+    }
+  },
+  "spikes": {
+    "pt-BR": [
+      "Nível 3 com acesso ao kit completo",
+      "Nível 6 com setup de pick",
+      "Primeiro item completo",
+      "2 itens em side lane"
+    ],
+    "en": [
+      "Level 3 with full kit access",
+      "Level 6 for pick setup",
+      "First completed item",
+      "2 items in side lane"
+    ]
+  },
+  "playstyle": {
+    "pt-BR": "Curta distância, trade inteligente, janela de cooldown, execução lateral e pickoffs.",
+    "en": "Short range, smart trading, cooldown windows, side-lane execution and pickoffs."
+  },
+  "macro_identity": {
+    "pt-BR": "Camille converte prioridade lateral em visão, pressão de torre, picks e controle de objetivo via flanco.",
+    "en": "Camille turns side priority into vision, tower pressure, picks and objective control through flanks."
+  },
+  "source_meta": {
+    "base_patch": "16.7.1",
+    "content_status": "seeded"
+  },
+  "rune_pages": [
+    {
+      "title": {
+        "pt-BR": "RUNAS PADRÃO — Aperto dos Mortos-Vivos",
+        "en": "STANDARD RUNES — Grasp of the Undying"
+      },
+      "primary_tree": {
+        "pt-BR": "Determinação",
+        "en": "Resolve"
+      },
+      "keystone": {
+        "pt-BR": "Aperto dos Mortos-Vivos",
+        "en": "Grasp of the Undying"
+      },
+      "primary_slots": [
+        {
+          "pt-BR": "Golpe de Escudo",
+          "en": "Shield Bash"
+        },
+        {
+          "pt-BR": "Ventos Revigorantes",
+          "en": "Second Wind"
+        },
+        {
+          "pt-BR": "Crescimento Excessivo",
+          "en": "Overgrowth"
+        }
+      ],
+      "secondary_tree": {
+        "pt-BR": "Precisão",
+        "en": "Precision"
+      },
+      "secondary_slots": [
+        {
+          "pt-BR": "Presença de Espírito",
+          "en": "Presence of Mind"
+        },
+        {
+          "pt-BR": "Até a Morte",
+          "en": "Last Stand"
+        }
+      ],
+      "shards": [
+        {
+          "pt-BR": "Velocidade de Ataque",
+          "en": "Attack Speed"
+        },
+        {
+          "pt-BR": "Força Adaptativa",
+          "en": "Adaptive Force"
+        },
+        {
+          "pt-BR": "Vida Escalável",
+          "en": "Health Scaling"
+        }
+      ],
+      "when": {
+        "pt-BR": "Página-base mais confiável para lanes de troca curta, pressão controlada e setups em que passiva + AA + Q resolvem mais do que all-in bruto.",
+        "en": "Most reliable baseline page for short-trade lanes, controlled pressure and setups where passive + AA + Q matter more than a brute-force all-in."
+      }
+    },
+    {
+      "title": {
+        "pt-BR": "RUNAS PADRÃO — Pressione o Ataque",
+        "en": "STANDARD RUNES — Press the Attack"
+      },
+      "primary_tree": {
+        "pt-BR": "Precisão",
+        "en": "Precision"
+      },
+      "keystone": {
+        "pt-BR": "Pressione o Ataque",
+        "en": "Press the Attack"
+      },
+      "primary_slots": [
+        {
+          "pt-BR": "Triunfo",
+          "en": "Triumph"
+        },
+        {
+          "pt-BR": "Lenda: Espontaneidade",
+          "en": "Legend: Alacrity"
+        },
+        {
+          "pt-BR": "Até a Morte",
+          "en": "Last Stand"
+        }
+      ],
+      "secondary_tree": {
+        "pt-BR": "Determinação",
+        "en": "Resolve"
+      },
+      "secondary_slots": [
+        {
+          "pt-BR": "Golpe de Escudo",
+          "en": "Shield Bash"
+        },
+        {
+          "pt-BR": "Osso Revestido",
+          "en": "Bone Plating"
+        }
+      ],
+      "shards": [
+        {
+          "pt-BR": "Velocidade de Ataque",
+          "en": "Attack Speed"
+        },
+        {
+          "pt-BR": "Força Adaptativa",
+          "en": "Adaptive Force"
+        },
+        {
+          "pt-BR": "Vida Escalável",
+          "en": "Health Scaling"
+        }
+      ],
+      "when": {
+        "pt-BR": "Entra melhor em lanes onde Camille consegue encadear engage curto em explosão limpa: alvos mais frágeis, ranged puníveis e matchups em que o primeiro engage certo já define a troca.",
+        "en": "Best in lanes where Camille can convert a short engage into clean burst: squishier targets, punishable ranged picks and matchups where the first clean entry decides the trade."
+      }
+    },
+    {
+      "title": {
+        "pt-BR": "RUNAS PADRÃO — Conquistador",
+        "en": "STANDARD RUNES — Conqueror"
+      },
+      "primary_tree": {
+        "pt-BR": "Precisão",
+        "en": "Precision"
+      },
+      "keystone": {
+        "pt-BR": "Conquistador",
+        "en": "Conqueror"
+      },
+      "primary_slots": [
+        {
+          "pt-BR": "Triunfo",
+          "en": "Triumph"
+        },
+        {
+          "pt-BR": "Lenda: Espontaneidade",
+          "en": "Legend: Alacrity"
+        },
+        {
+          "pt-BR": "Até a Morte",
+          "en": "Last Stand"
+        }
+      ],
+      "secondary_tree": {
+        "pt-BR": "Determinação",
+        "en": "Resolve"
+      },
+      "secondary_slots": [
+        {
+          "pt-BR": "Golpe de Escudo",
+          "en": "Shield Bash"
+        },
+        {
+          "pt-BR": "Ventos Revigorantes",
+          "en": "Second Wind"
+        }
+      ],
+      "shards": [
+        {
+          "pt-BR": "Velocidade de Ataque",
+          "en": "Attack Speed"
+        },
+        {
+          "pt-BR": "Força Adaptativa",
+          "en": "Adaptive Force"
+        },
+        {
+          "pt-BR": "Vida Escalável",
+          "en": "Health Scaling"
+        }
+      ],
+      "when": {
+        "pt-BR": "Vale quando o jogo promete side lane longa e você realmente consegue estender a luta. Dá teto maior, mas piora a margem de erro da lane phase contra pressão bruta.",
+        "en": "Worth it when the game promises long side-lane fights and you can genuinely extend the fight. It gives a higher ceiling, but lowers your lane-phase margin for error into raw pressure."
+      }
+    }
+  ],
+  "build_variations": [
+    {
+      "title": {
+        "pt-BR": "Build padrão mais estável",
+        "en": "Most stable standard build"
+      },
+      "items": [
+        {
+          "pt-BR": "Força da Trindade",
+          "en": "Trinity Force"
+        },
+        {
+          "pt-BR": "Passos de Aço Platinados",
+          "en": "Plated Steelcaps"
+        },
+        {
+          "pt-BR": "Hidra Raivosa",
+          "en": "Ravenous Hydra"
+        },
+        {
+          "pt-BR": "Lança de Shojin",
+          "en": "Spear of Shojin"
+        },
+        {
+          "pt-BR": "Dança da Morte",
+          "en": "Death's Dance"
+        },
+        {
+          "pt-BR": "Anjo Guardião",
+          "en": "Guardian Angel"
+        }
+      ],
+      "note": {
+        "pt-BR": "A linha mais segura para solo queue: spike cedo, waveclear, sustain e dano suficiente para side lane e pick.",
+        "en": "The safest solo queue line: early spike, waveclear, sustain and enough damage for side lane and picks."
+      }
+    },
+    {
+      "title": {
+        "pt-BR": "Build para side lane longa",
+        "en": "Long side-lane build"
+      },
+      "items": [
+        {
+          "pt-BR": "Força da Trindade",
+          "en": "Trinity Force"
+        },
+        {
+          "pt-BR": "Passos de Mercúrio",
+          "en": "Mercury's Treads"
+        },
+        {
+          "pt-BR": "Hidra Raivosa",
+          "en": "Ravenous Hydra"
+        },
+        {
+          "pt-BR": "Céu Dividido",
+          "en": "Sundered Sky"
+        },
+        {
+          "pt-BR": "Gage de Sterak",
+          "en": "Sterak's Gage"
+        },
+        {
+          "pt-BR": "Anjo Guardião",
+          "en": "Guardian Angel"
+        }
+      ],
+      "note": {
+        "pt-BR": "Quando você precisa sobreviver por mais tempo em side e ainda continuar ameaçando pick e torre.",
+        "en": "When you need to live longer in side lane while still threatening picks and towers."
+      }
+    },
+    {
+      "title": {
+        "pt-BR": "Build anti-AD e dive",
+        "en": "Anti-AD and dive build"
+      },
+      "items": [
+        {
+          "pt-BR": "Força da Trindade",
+          "en": "Trinity Force"
+        },
+        {
+          "pt-BR": "Passos de Aço Platinados",
+          "en": "Plated Steelcaps"
+        },
+        {
+          "pt-BR": "Hidra Raivosa",
+          "en": "Ravenous Hydra"
+        },
+        {
+          "pt-BR": "Dança da Morte",
+          "en": "Death's Dance"
+        },
+        {
+          "pt-BR": "Coração Congelado",
+          "en": "Frozen Heart"
+        },
+        {
+          "pt-BR": "Anjo Guardião",
+          "en": "Guardian Angel"
+        }
+      ],
+      "note": {
+        "pt-BR": "Linha forte quando o mapa inimigo é cheio de AD, autoataque ou backline física que precisa ser alcançada sem morrer no retorno.",
+        "en": "Strong line when the enemy map is packed with AD, auto attacks or physical backliners you must reach without dying on the way out."
+      }
+    },
+    {
+      "title": {
+        "pt-BR": "Build anti-AP / pick",
+        "en": "Anti-AP / pick build"
+      },
+      "items": [
+        {
+          "pt-BR": "Força da Trindade",
+          "en": "Trinity Force"
+        },
+        {
+          "pt-BR": "Passos de Mercúrio",
+          "en": "Mercury's Treads"
+        },
+        {
+          "pt-BR": "Hidra Raivosa",
+          "en": "Ravenous Hydra"
+        },
+        {
+          "pt-BR": "Mandíbula de Malmortius",
+          "en": "Maw of Malmortius"
+        },
+        {
+          "pt-BR": "Lança de Shojin",
+          "en": "Spear of Shojin"
+        },
+        {
+          "pt-BR": "Anjo Guardião",
+          "en": "Guardian Angel"
+        }
+      ],
+      "note": {
+        "pt-BR": "Boa contra burst mágico e composições em que você entra, mata alvo-chave e precisa sair vivo do contra-engage.",
+        "en": "Good into magic burst and compositions where you dive, kill a key target and need to survive the counter-engage."
+      }
+    }
+  ],
+  "guide_notes": {
+    "identity": {
+      "pt-BR": "Camille não é campeã de spam cego. Ela sobe de nível quando a lane é lida em janelas: passiva pronta, Q2 armado, wave favorável e cooldown inimigo gasto.",
+      "en": "Camille is not a blind-spam champion. She levels up when the lane is read through windows: passive ready, Q2 primed, wave favorable and the enemy answer already spent."
+    },
+    "lane_truths": [
+      {
+        "pt-BR": "Seu melhor trade continua sendo o que termina antes do inimigo transformar a luta em maratona ruim para você.",
+        "en": "Your best trade is still the one that ends before the enemy turns it into the long marathon you do not want."
+      },
+      {
+        "pt-BR": "Sem passiva, muitas trocas “quase boas” viram erro puro.",
+        "en": "Without passive, many “almost good” trades become pure mistakes."
+      },
+      {
+        "pt-BR": "Q2 decide mais matchups do que combo bonito. A ameaça real é preparar, esconder e sincronizar o segundo impacto.",
+        "en": "Q2 decides more matchups than flashy combos. The real threat is preparing, hiding and syncing the second hit."
+      }
+    ],
+    "practical_sections": [
+      {
+        "title": {
+          "pt-BR": "Leitura de lane",
+          "en": "Lane read"
+        },
+        "body": {
+          "pt-BR": "Pergunta central: quem define a duração da troca? Se o inimigo ganha luta longa, jogue por toque limpo; se ele perde burst e reset, acelere com PTA/ignite e converta.",
+          "en": "Core question: who controls trade length? If the enemy wins long fights, play for clean touches; if they lose burst and reset patterns, accelerate with PTA/ignite and convert."
+        }
+      },
+      {
+        "title": {
+          "pt-BR": "Erro que mais pune Camille",
+          "en": "Most punished Camille mistake"
+        },
+        "body": {
+          "pt-BR": "Gastar E sem informação suficiente. Seu gancho é engage, fuga, correção de spacing e ameaça. Quando ele some por ansiedade, a lane inteira muda.",
+          "en": "Spending E without enough information. Your hookshot is engage, escape, spacing correction and threat. Once it disappears to anxiety, the whole lane changes."
+        }
+      },
+      {
+        "title": {
+          "pt-BR": "Pico mais honesto",
+          "en": "Most honest spike"
+        },
+        "body": {
+          "pt-BR": "Força da Trindade é o spike que muda a pressão real da campeã. Depois disso, Hidra Raivosa deixa sua side lane mais rápida, saudável e prática.",
+          "en": "Trinity Force is the spike that truly changes the champion's pressure. After that, Ravenous Hydra makes your side lane faster, healthier and more practical."
+        }
+      }
+    ]
+  }
+}

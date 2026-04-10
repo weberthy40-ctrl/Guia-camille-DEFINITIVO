@@ -1,0 +1,526 @@
+{
+  "identity": {
+    "champion_slug": "darius",
+    "champion_name": "Darius",
+    "role_bucket": "top",
+    "quick_summary": {
+      "pt-BR": "Darius vs Camille topo é lane em que um passo errado vira outer Q, cinco stacks e pressão de Ghost até debaixo da sua torre. Camille só ganha espaço quando quebra o padrão do Apprehend e nega a borda do Q.",
+      "en": "Darius vs Camille top is a lane where one wrong step turns into outer Q, five stacks and Ghost pressure all the way to your tower. Camille only gets room when she breaks the Apprehend pattern and denies the Q edge."
+    },
+    "difficulty": "hard",
+    "score": 8.8,
+    "enemy_identity": {
+      "pt-BR": "Juggernaut de lane longa: pune farm previsível, adora wave neutra no meio e converte qualquer erro curto em luta longa que Camille não quer.",
+      "en": "A long-lane juggernaut: he punishes predictable farming, loves neutral waves in the middle and converts any short mistake into the long fight Camille does not want."
+    },
+    "matchup_type": {
+      "pt-BR": "juggernaut pull lane vs diver",
+      "en": "juggernaut pull lane vs diver"
+    },
+    "threat_level": "high",
+    "confidence": "high"
+  },
+  "scoring": {
+    "lane_phase_pressure": 9.0,
+    "gold_diff_15": 8.6,
+    "kill_threat": 8.9,
+    "matchup_winrate_pressure": 8.3,
+    "formula_version": "1.1.0"
+  },
+  "macro_view": {
+    "lane_read": {
+      "pt-BR": "A lane gira em torno de duas ameaças: Apprehend e a borda do Q. SE Darius errar o E ou tiver que usar Q na wave -> você finalmente pode trocar; enquanto os dois estiverem prontos, o espaço aberto é dele.",
+      "en": "The lane revolves around two threats: Apprehend and the Q edge. IF Darius misses E or has to spend Q on the wave -> you finally get to trade; while both are ready, open space belongs to him."
+    },
+    "win_condition": {
+      "pt-BR": "Negar outer Q, não deixar Ghost transformar a lane em pista longa e punir E errado com troca curta de passiva + Q2. Camille vence quando corta a luta antes da Hemorrhage ficar alta.",
+      "en": "Deny outer Q, do not let Ghost turn lane into a runway, and punish a bad E with short passive + Q2 trades. Camille wins when she cuts the fight before Hemorrhage gets high."
+    },
+    "lose_condition": {
+      "pt-BR": "Recuar em linha reta, usar Hookshot primeiro e disputar melee minion com a wave no meio. A partir daí Darius ganha stack, cura e chase, e o matchup desanda rápido.",
+      "en": "Backing in a straight line, using Hookshot first and contesting melee minions with the wave in the middle. From there Darius gets stacks, healing and chase, and the matchup spirals quickly."
+    },
+    "tempo_control": {
+      "pt-BR": "SE Ghost estiver disponível e a wave travar longe da sua torre -> aceite perder um minion em vez de perder a vida. Camille quer wave curta e reset limpo; Darius quer segundos extras de perseguição.",
+      "en": "IF Ghost is up and the wave gets stuck far from your tower -> accept losing a minion instead of losing your life. Camille wants a short wave and clean resets; Darius wants extra seconds to chase."
+    },
+    "trading_pattern": {
+      "pt-BR": "Trade bom é por dentro da hitbox do Q, com passiva pronta e saída já pensada. SE ele ainda tiver E e você entrar reto -> a troca deixa de ser curta e vira exatamente o tipo de luta que Darius procura.",
+      "en": "A good trade happens inside Q range, with passive ready and your exit already planned. IF he still has E and you go in straight -> the trade stops being short and becomes exactly the fight Darius wants."
+    },
+    "wave_control_importance": {
+      "pt-BR": "Máxima. Quanto mais longa a lane, mais valor ele tira de Ghost, passiva e borda do Q; quanto mais curta, mais espaço Camille tem para tocar Q2 e sair.",
+      "en": "Maximum. The longer the lane, the more value he gets from Ghost, passive and the Q edge; the shorter the lane, the more room Camille has to land Q2 and leave."
+    },
+    "power_dynamic": {
+      "pt-BR": "No early aberto, Darius manda. Camille melhora quando encurta a lane, força cooldown ruim e transforma o duelo em pick curto de side com visão, não em corrida frontal.",
+      "en": "In open early lane, Darius is in charge. Camille improves when she shortens lane, forces bad cooldowns and turns the duel into short vision-based side picks instead of frontal runs."
+    }
+  },
+  "lane_phase": {
+    "punish_window": {
+      "pt-BR": "A janela real nasce quando E falha ou Q é gasto na wave. SE isso acontecer -> avance na hora, tome a parede e cobre HP ou posição; esperar demais devolve o controle para ele.",
+      "en": "The real window appears when E fails or Q is spent on the wave. IF that happens -> step up immediately, take the wall angle and cash in HP or position; waiting too long hands control back to him."
+    },
+    "trade_timing": {
+      "pt-BR": "Troque quando a wave estiver curta, sua passiva estiver pronta e Ghost não puder converter. SE o rio estiver escuro ou a wave empurrando para ele -> não force nem por ego nem por um canhão.",
+      "en": "Trade when the wave is short, your passive is ready and Ghost cannot convert. IF river is dark or the wave is pushing to him -> do not force for ego or for one cannon."
+    },
+    "safe_play": {
+      "pt-BR": "SE E + Ghost ameaçarem a lane -> use W para farmar, ceda o melee mais exposto e preserve HP. Contra Darius, vida vale mais do que alguns CS quando o estado da wave é ruim.",
+      "en": "IF E + Ghost threaten the lane -> use W to farm, give up the most exposed melee and preserve HP. Against Darius, HP is worth more than a few CS when the wave state is bad."
+    },
+    "all_in_condition": {
+      "pt-BR": "All-in só é bom quando Apprehend já saiu, a borda do Q está controlável e você tem rota clara para usar R num frame decisivo. Sem isso, o curto rende mais do que tentar matar no grito.",
+      "en": "All-in is only good when Apprehend is already down, the Q edge is manageable and you have a clear route to use R on a decisive frame. Without that, short trades give more than screaming for a kill."
+    },
+    "early_plan": {
+      "pt-BR": "Primeira missão: não deixar a lane virar trilho de Ghost. Faça Darius escolher entre usar Q para empurrar ou guardar tudo para sua entrada, e puna quando ele gastar mal.",
+      "en": "First mission: do not let the lane become a Ghost runway. Make Darius choose between using Q to push or holding everything for your entry, and punish when he spends it badly."
+    },
+    "level_1_3": {
+      "pt-BR": "Níveis 1-3 exigem spacing fino. Toque na wave só quando consegue sair sem outer Q completo; se não, recue e espere a lane encurtar.",
+      "en": "Levels 1-3 demand fine spacing. Touch the wave only when you can leave without taking a full outer Q; otherwise back off and wait for lane to shorten."
+    },
+    "level_4_5": {
+      "pt-BR": "Se a wave ficar perto da sua torre, busque trocas reativas e rápidas. Se travar no meio, aceite jogar abaixo do ego até o E dele ficar ruim ou até o jungler aparecer.",
+      "en": "If the wave stays near your tower, look for fast reactive trades. If it gets stuck in the middle, accept playing below your ego until his E goes bad or your jungler appears."
+    },
+    "level_6": {
+      "pt-BR": "No 6, sua ult serve para negar o frame que vira execução: Q outer decisivo ou reposicionamento para o R dele. Não gaste R cedo demais sem saber como vai sair da luta.",
+      "en": "At 6, your ult is there to deny the frame that becomes an execution: the decisive outer Q or his reposition into R. Do not spend R too early without knowing how you leave the fight."
+    },
+    "post_6": {
+      "pt-BR": "Depois do 6, a lane continua difícil se Ghost estiver up, mas Camille já consegue cortar o momento da execução e transformar erro dele em pick lateral. Continue preferindo troca curta à luta longa.",
+      "en": "After 6, lane stays hard if Ghost is up, but Camille can now cut the execution moment and turn his mistake into a side-lane pick. Keep preferring short trades over long fights."
+    }
+  },
+  "abilities_interaction": {
+    "dangerous_ability": {
+      "pt-BR": "Apprehend (E) + outer Decimate (Q) + Ghost access",
+      "en": "Apprehend (E) + outer Decimate (Q) + Ghost access"
+    },
+    "why_dangerous": {
+      "pt-BR": "O pull força a trajetória que Darius quer e o outer Q pune exatamente esse recuo, com cura e stack. Quando Ghost entra, qualquer erro vira corrida longa em que Camille perde muito valor.",
+      "en": "The pull forces the path Darius wants and outer Q punishes that exact retreat with healing and stacks. Once Ghost enters the play, any mistake becomes a long chase where Camille loses a lot of value."
+    },
+    "how_to_react": {
+      "pt-BR": "SE ele avançar sem motivo com a wave neutra -> assuma E. Mova lateralmente para negar a borda do Q; SE o E sair errado, responda com passiva + Q2 e encerre a troca antes da terceira stack.",
+      "en": "IF he walks up for no reason on a neutral wave -> assume E. Move sideways to deny the Q edge; IF E goes wrong, answer with passive + Q2 and end the trade before the third stack."
+    },
+    "ability_interaction": {
+      "pt-BR": "Hookshot não deve abrir a lane sem informação do E. O melhor uso do R costuma ser quebrar o frame do outer Q ou ganhar tempo para fechar o segundo Q sem tomar execute limpo.",
+      "en": "Hookshot should not open the lane without E information. The best use of R is often to break the outer Q frame or buy time to land second Q without taking a clean execute."
+    },
+    "enemy_cooldowns_by_level": {
+      "1-5": {
+        "pt-BR": "Antes do 6, trate E e Q outer como o kit que decide tudo. SE um dos dois sair mal, a janela existe; se ambos estiverem prontos, jogue curto e lateral.",
+        "en": "Before 6, treat E and outer Q as the kit that decides everything. IF one of them is used badly, the window exists; if both are ready, play short and sideways."
+      },
+      "6-10": {
+        "pt-BR": "Com ult e, muitas vezes, Ghost, o castigo por erro sobe muito. Rastreie não só cooldown, mas também quanto espaço a lane dá para perseguição.",
+        "en": "With ult and often Ghost, punishment for mistakes rises sharply. Track not only cooldowns, but also how much space lane gives him to chase."
+      },
+      "11+": {
+        "pt-BR": "No side lane tardio, entre apenas quando ele não puder repetir pull + Q outer com espaço para correr atrás. Se der tempo, Darius ainda pune demais.",
+        "en": "In later side lane, only go in when he cannot repeat pull + outer Q with room to chase. If you give him time, Darius still punishes too hard."
+      }
+    },
+    "punish_windows_by_cooldown": {
+      "pt-BR": "SE o E entrar em cooldown -> tome parede e brush, ameace Q2 e force Darius a recuar ou usar Q na wave. SE o Q sair na wave -> entre por dentro da hitbox e cobre valor na hora.",
+      "en": "IF E goes on cooldown -> take wall and brush control, threaten Q2 and force Darius to back off or spend Q on the wave. IF Q is used on the wave -> go inside the hitbox and cash value immediately."
+    }
+  },
+  "build": {
+    "start_items": [
+      "Doran's Shield",
+      "Second Wind / Grasp page",
+      "Early Cloth Armor if lane is unstable"
+    ],
+    "core_items": [
+      "Trinity Force",
+      "Ravenous Hydra",
+      "Death's Dance"
+    ],
+    "full_build": [
+      "Trinity Force",
+      "Ravenous Hydra",
+      "Plated Steelcaps",
+      "Death's Dance",
+      "Sterak's Gage"
+    ],
+    "situational_items": [
+      "Plated Steelcaps",
+      "Frozen Heart",
+      "Sterak's Gage",
+      "Guardian Angel",
+      "Bramble Vest if healing becomes unmanageable"
+    ],
+    "decision_build": {
+      "behind": {
+        "pt-BR": "SE ficou atrás -> priorize Steelcaps, vida e componente defensivo antes de side longa. Camille frágil contra Darius só acelera a derrota.",
+        "en": "IF you fell behind -> prioritize Steelcaps, health and a defensive component before long side-laning. A fragile Camille into Darius only speeds up the loss."
+      },
+      "ahead": {
+        "pt-BR": "SE estiver na frente -> mantenha dano suficiente para punir o cooldown do E, mas sem abrir mão da resistência que impede reset de Ghost.",
+        "en": "IF you are ahead -> keep enough damage to punish E cooldowns, but do not skip the resistance that prevents Ghost resets."
+      },
+      "vs_ap": {
+        "pt-BR": "SE o resto do mapa trouxer muito AP -> adapte MR depois do segundo item; na lane, a urgência continua sendo sobreviver ao padrão físico do Darius.",
+        "en": "IF the rest of the map brings heavy AP -> adapt MR after second item; in lane, the urgent part is still surviving Darius' physical pattern."
+      },
+      "vs_tank": {
+        "pt-BR": "SE a composição inimiga for muito grossa -> mantenha o núcleo de side lane e compre dano suficiente para não ficar preso batendo em front line para sempre.",
+        "en": "IF the enemy comp is very thick -> keep your side-lane core and buy enough damage so you do not get stuck hitting front line forever."
+      }
+    }
+  },
+  "item_winrate_system": {
+    "item_1_options": [
+      {
+        "item": "Trinity Force",
+        "winrate": 51.5,
+        "relevance": "high"
+      },
+      {
+        "item": "Sundered Sky",
+        "winrate": 50.7,
+        "relevance": "medium"
+      },
+      {
+        "item": "Early defensive component",
+        "winrate": 50.4,
+        "relevance": "medium"
+      }
+    ],
+    "item_2_options": [
+      {
+        "item": "Ravenous Hydra",
+        "winrate": 52.2,
+        "relevance": "high"
+      },
+      {
+        "item": "Ravenous Hydra",
+        "winrate": 51.4,
+        "relevance": "medium"
+      },
+      {
+        "item": "Defensive pivot",
+        "winrate": 51.0,
+        "relevance": "medium"
+      }
+    ],
+    "item_3_options": [
+      {
+        "item": "Sterak's Gage",
+        "winrate": 53.0,
+        "relevance": "high"
+      },
+      {
+        "item": "Death's Dance",
+        "winrate": 52.5,
+        "relevance": "high"
+      },
+      {
+        "item": "Maw of Malmortius",
+        "winrate": 52.1,
+        "relevance": "medium"
+      }
+    ]
+  },
+  "runes": {
+    "most_used": {
+      "pt-BR": "Aperto dos Mortos-Vivos + Ventos Revigorantes é a página mais estável para lane curta, chip controlado e passiva mais confiável.",
+      "en": "Grasp + Second Wind is the most stable page for short lane trades, controlled chip and more reliable passive value."
+    },
+    "highest_winrate": {
+      "pt-BR": "Aperto dos Mortos-Vivos tende a render melhor porque Camille raramente quer luta longa limpa antes de já ter controlado Apprehend/Ghost.",
+      "en": "Grasp tends to perform better because Camille rarely wants a clean long fight before controlling Apprehend/Ghost."
+    },
+    "situational": {
+      "pt-BR": "Conquistador só vale se você estiver muito seguro no spacing; Osso Revestido ajuda contra entrada curta, Ventos Revigorantes contra chip constante de Q.",
+      "en": "Conqueror only works if you are very confident in spacing; Bone Plating helps against short commits, Second Wind against constant Q chip."
+    },
+    "when_to_use_each": {
+      "pt-BR": "SE a lane exigir sobrevivência e troca curta -> Aperto dos Mortos-Vivos. SE o jogo prometer side longa e você tiver conforto mecânico real -> Conquistador pode entrar, mas não resolve o early sozinho.",
+      "en": "IF the lane demands survival and short trades -> Grasp. IF the game promises long side fights and you have real mechanical confidence -> Conqueror can be used, but it does not fix the early game alone."
+    },
+    "matchup_specific_reason": {
+      "pt-BR": "Sua página precisa comprar HP e tempo para negar a borda do Q, não inflar uma fantasia de luta longa. A runa certa é a que te deixa sair vivo do primeiro ciclo ruim.",
+      "en": "Your page needs to buy HP and time to deny Q edge, not inflate a fantasy of long fighting. The right rune is the one that lets you survive the first bad cycle."
+    },
+    "recommended_pages": [
+      {
+        "page_name": {
+          "pt-BR": "Página principal",
+          "en": "Primary page"
+        },
+        "keystone": {
+          "pt-BR": "Aperto dos Mortos-Vivos",
+          "en": "Grasp of the Undying"
+        },
+        "primary_tree": {
+          "pt-BR": "Determinação",
+          "en": "Resolve"
+        },
+        "primary_slots": [
+          {
+            "pt-BR": "Golpe de Escudo",
+            "en": "Shield Bash"
+          },
+          {
+            "pt-BR": "Osso Revestido",
+            "en": "Bone Plating"
+          },
+          {
+            "pt-BR": "Crescimento Excessivo",
+            "en": "Overgrowth"
+          }
+        ],
+        "secondary_tree": {
+          "pt-BR": "Precisão",
+          "en": "Precision"
+        },
+        "secondary_slots": [
+          {
+            "pt-BR": "Presença de Espírito",
+            "en": "Presence of Mind"
+          },
+          {
+            "pt-BR": "Até a Morte",
+            "en": "Last Stand"
+          }
+        ],
+        "shards": [
+          {
+            "pt-BR": "Velocidade de Ataque",
+            "en": "Attack Speed"
+          },
+          {
+            "pt-BR": "Força Adaptativa",
+            "en": "Adaptive Force"
+          },
+          {
+            "pt-BR": "Armadura",
+            "en": "Armor"
+          }
+        ],
+        "reason": {
+          "pt-BR": "Página mais estável quando a lane é decidida por trocas curtas, controle de HP e passiva bem sincronizada.",
+          "en": "Most stable page when the lane is decided by short trades, HP control and well-synced passive timing."
+        },
+        "when": {
+          "pt-BR": "Use quando você precisa sobreviver ao primeiro ciclo ruim e ganhar valor repetido em AA + Q.",
+          "en": "Use it when you need to survive the first bad cycle and extract repeat value from AA + Q."
+        }
+      },
+      {
+        "page_name": {
+          "pt-BR": "Página situacional",
+          "en": "Situational page"
+        },
+        "keystone": {
+          "pt-BR": "Conquistador",
+          "en": "Conqueror"
+        },
+        "primary_tree": {
+          "pt-BR": "Precisão",
+          "en": "Precision"
+        },
+        "primary_slots": [
+          {
+            "pt-BR": "Triunfo",
+            "en": "Triumph"
+          },
+          {
+            "pt-BR": "Lenda: Espontaneidade",
+            "en": "Legend: Alacrity"
+          },
+          {
+            "pt-BR": "Até a Morte",
+            "en": "Last Stand"
+          }
+        ],
+        "secondary_tree": {
+          "pt-BR": "Determinação",
+          "en": "Resolve"
+        },
+        "secondary_slots": [
+          {
+            "pt-BR": "Golpe de Escudo",
+            "en": "Shield Bash"
+          },
+          {
+            "pt-BR": "Ventos Revigorantes",
+            "en": "Second Wind"
+          }
+        ],
+        "shards": [
+          {
+            "pt-BR": "Velocidade de Ataque",
+            "en": "Attack Speed"
+          },
+          {
+            "pt-BR": "Força Adaptativa",
+            "en": "Adaptive Force"
+          },
+          {
+            "pt-BR": "Vida Escalável",
+            "en": "Health Scaling"
+          }
+        ],
+        "reason": {
+          "pt-BR": "Dá mais teto em side lane e lutas estendidas, mas exige mais respeito no early e mais precisão para não perder a lane antes do spike.",
+          "en": "Gives a higher ceiling in side lane and extended fights, but demands more respect early and cleaner execution to avoid losing lane before the spike."
+        },
+        "when": {
+          "pt-BR": "Use quando o confronto e o jogo prometem luta longa de verdade, não só troca bonita no papel.",
+          "en": "Use it when the matchup and the game truly promise extended fights, not just pretty trades on paper."
+        }
+      }
+    ]
+  },
+  "power_spikes": {
+    "enemy_spikes": [
+      {
+        "pt-BR": "lvl 1-3 -> ameaça real de stack e outer Q em wave neutra.",
+        "en": "lvl 1-3 -> real stack and outer Q threat on neutral waves."
+      },
+      {
+        "pt-BR": "lvl 6 + Ghost -> execução e chase ficam muito mais fáceis.",
+        "en": "lvl 6 + Ghost -> execution and chase become much easier."
+      },
+      {
+        "pt-BR": "first item -> se Camille estiver atrás, a side lane pode afundar.",
+        "en": "first item -> if Camille is behind, side lane can collapse."
+      }
+    ],
+    "camille_spikes": [
+      {
+        "pt-BR": "lvl 3 -> kit completo para trocar por dentro do Q e sair.",
+        "en": "lvl 3 -> full kit to trade inside Q and leave."
+      },
+      {
+        "pt-BR": "lvl 6 -> R passa a quebrar o frame da execução.",
+        "en": "lvl 6 -> R starts breaking the execution frame."
+      },
+      {
+        "pt-BR": "first item + armor utility -> side lane fica mais jogável.",
+        "en": "first item + armor utility -> side lane becomes more playable."
+      }
+    ],
+    "shared_spikes": [
+      {
+        "pt-BR": "first useful reset",
+        "en": "first useful reset"
+      },
+      {
+        "pt-BR": "lvl 6",
+        "en": "lvl 6"
+      },
+      {
+        "pt-BR": "river vision + long lane setup",
+        "en": "river vision + long lane setup"
+      }
+    ]
+  },
+  "common_mistakes": [
+    {
+      "pt-BR": "Recuar em linha reta e dar a borda do Q inteira.",
+      "en": "Backing in a straight line and giving the full Q edge."
+    },
+    {
+      "pt-BR": "Abrir de Hookshot quando Apprehend ainda está disponível.",
+      "en": "Starting with Hookshot when Apprehend is still available."
+    },
+    {
+      "pt-BR": "Achar que um trade bom autoriza continuar até a Hemorrhage ficar alta.",
+      "en": "Thinking one good trade gives permission to continue until Hemorrhage gets high."
+    }
+  ],
+  "practical_priority": {
+    "boots_priority": {
+      "pt-BR": "Passos de Aço Platinados é prioridade alta. Bota aqui não é luxo; é a diferença entre sobreviver ao primeiro pull ou ver a lane escapar.",
+      "en": "Plated Steelcaps is high priority. Boots are not luxury here; they are the difference between surviving the first pull or watching lane slip away."
+    },
+    "defensive_item_priority": {
+      "pt-BR": "Alta. Um componente defensivo cedo tem valor real porque Darius converte qualquer fragilidade em snowball de lane.",
+      "en": "High. An early defensive component has real value because Darius converts any fragility into lane snowball."
+    },
+    "tiamat_or_not": {
+      "pt-BR": "Tiamat só depois de estabilizar a lane. Rushar push sem resistência suficiente pode transformar cada wave em convite para Ghost all-in.",
+      "en": "Tiamat only after stabilizing lane. Rushing waveclear without enough resistance can turn every wave into a Ghost all-in invitation."
+    },
+    "rush_core_or_not": {
+      "pt-BR": "Não force core puro se estiver perdendo HP e espaço. Primeiro fique funcional; depois pense em dano.",
+      "en": "Do not force a pure core rush if you are losing HP and space. Become functional first; then think about damage."
+    }
+  },
+  "gameplan_complete": {
+    "early_game": {
+      "pt-BR": "Jogue para HP, wave curta e leitura do E. Se você sair do early sem dar reset de Ghost e sem entregar wave longa, a matchup já melhorou bastante.",
+      "en": "Play for HP, a short wave and E tracking. If you exit early game without giving Ghost resets or long waves, the matchup already improved a lot."
+    },
+    "mid_game": {
+      "pt-BR": "No mid game, procure side com visão e ângulo para troca curta. Darius ainda pode te punir, mas fica muito pior para ele quando precisa responder wave ruim e não acha chase limpa.",
+      "en": "In mid game, look for a warded side lane and an angle for short trades. Darius can still punish you, but it gets much worse for him when he has to answer bad waves and cannot find a clean chase."
+    },
+    "late_game": {
+      "pt-BR": "No late, escolha entre split e flank pelo estado de Ghost/Flash e pela visão. Você ganha mais quando entra no alvo certo depois de Darius mostrar a ferramenta principal.",
+      "en": "In late game, choose between split and flank based on Ghost/Flash state and vision. You gain more by entering the right target after Darius shows his main tool."
+    }
+  },
+  "practical_situations": [
+    {
+      "pt-BR": "SE Darius usar Q para acertar a wave inteira -> entre por dentro, cobre passiva + Q2 e recue antes da terceira stack.",
+      "en": "IF Darius uses Q to hit the whole wave -> go inside, cash passive + Q2 and leave before the third stack."
+    },
+    {
+      "pt-BR": "SE a wave estiver longa e Ghost disponível -> não conteste o último melee sem rota de saída.",
+      "en": "IF the lane is long and Ghost is available -> do not contest the last melee without an exit route."
+    },
+    {
+      "pt-BR": "SE ele errar Apprehend perto da sua parede -> essa é a hora de tomar espaço de brush e obrigar o recuo.",
+      "en": "IF he misses Apprehend near your wall -> that is the moment to take brush space and force him back."
+    }
+  ],
+  "camille_identity_in_matchup": {
+    "split_or_teamfight": {
+      "pt-BR": "Camille prefere side lane e pick; teamfight frontal longa favorece muito mais o padrão do Darius.",
+      "en": "Camille prefers side lane and picks; long frontal teamfights favor Darius much more."
+    },
+    "playstyle": {
+      "pt-BR": "Paciente e lateral. Nessa matchup, bravata custa caro; valor real vem de negar a ferramenta central e entrar no segundo tempo da jogada.",
+      "en": "Patient and lateral. In this matchup, bravado is expensive; real value comes from denying his core tool and entering on the second beat."
+    },
+    "role_no_jogo": {
+      "pt-BR": "Criar side pressure sem entregar reset, puxar resposta ruim e punir quando Darius gasta a ferramenta certa no alvo errado.",
+      "en": "Create side pressure without giving resets, force a bad answer and punish when Darius spends the right tool on the wrong target."
+    }
+  },
+  "real_difficulty": {
+    "why_its_hard": {
+      "pt-BR": "É difícil porque Darius pune exatamente o erro que muitos jogadores de Camille cometem: recuar em linha reta, lutar tempo demais e tocar a wave quando não existe janela real.",
+      "en": "It is hard because Darius punishes the exact mistakes many Camille players make: backing in a straight line, fighting for too long and touching the wave when no real window exists."
+    },
+    "what_it_demands": {
+      "pt-BR": "Exige spacing fino, disciplina com Hookshot, leitura de Ghost e muita noção de wave. Não é matchup de ego; é matchup de controle.",
+      "en": "It demands fine spacing, Hookshot discipline, Ghost tracking and strong wave awareness. This is not an ego matchup; it is a control matchup."
+    }
+  },
+  "metadata": {
+    "data_quality": {
+      "lane": "high",
+      "build": "high",
+      "runes": "high"
+    },
+    "source_priority": [
+      "official_riot",
+      "trusted_stats",
+      "expert_matchup_notes",
+      "vod_review"
+    ],
+    "last_reviewed_patch": "16.7.1",
+    "content_status": "elite_top15_round2"
+  }
+}

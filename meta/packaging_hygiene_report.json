@@ -1,0 +1,33 @@
+{
+  "noise_patterns_checked": [
+    "__pycache__",
+    "*.pyc",
+    "*.pyo",
+    ".pytest_cache",
+    ".mypy_cache",
+    ".ruff_cache",
+    ".DS_Store"
+  ],
+  "noise_items_found_before_cleanup": [
+    "utils/__pycache__",
+    "utils/__pycache__/__init__.cpython-313.pyc",
+    "utils/__pycache__/assets.cpython-313.pyc",
+    "utils/__pycache__/data_access.cpython-313.pyc",
+    "utils/__pycache__/i18n.cpython-313.pyc",
+    "utils/__pycache__/integrity.cpython-313.pyc",
+    "utils/__pycache__/scoring.cpython-313.pyc",
+    "utils/__pycache__/terms.cpython-313.pyc"
+  ],
+  "removed_noise_items": [
+    "utils/__pycache__"
+  ],
+  "noise_items_found": [],
+  "noise_items_remaining_after_cleanup": [],
+  "cleanup_performed": true,
+  "clean_for_packaging": true,
+  "autocontamination_safe": true,
+  "notes": [
+    "This check removes removable packaging noise before the final scan.",
+    "The final cleanliness status reflects the post-cleanup state of the tree."
+  ]
+}

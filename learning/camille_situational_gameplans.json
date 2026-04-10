@@ -1,0 +1,371 @@
+{
+  "overview": {
+    "pt-BR": "Planos situacionais premium para a Camille em estados de jogo reais. O foco não é decorar frases bonitas, e sim escolher o plano mais estável quando a partida pede disciplina, pressão lateral, pick ou contenção.",
+    "en": "Premium situational plans for Camille in real game states. The goal is not to memorize pretty lines, but to pick the most stable plan when the game asks for discipline, side pressure, picks, or containment."
+  },
+  "usage_rule": {
+    "pt-BR": "Leia primeiro o estado do jogo e só depois pense na jogada. Camille perde muito valor quando força um plano que combina com o altalight, mas não combina com a janela real.",
+    "en": "Read the game state first and only then think about the play. Camille loses a lot of value when she forces a plan that fits the highlight but not the real window."
+  },
+  "plans": [
+    {
+      "plan_key": "stable_lane_no_clear_window",
+      "title": {
+        "pt-BR": "Lane estável sem janela clara",
+        "en": "Stable lane with no clear window"
+      },
+      "state_reading": {
+        "pt-BR": "A troca não está livre, ninguém está realmente ameaçando kill imediata e a wave ainda decide mais do que o dano bruto.",
+        "en": "Trades are not free, neither side has immediate kill threat, and the wave still matters more than raw damage."
+      },
+      "main_objective": {
+        "pt-BR": "Guardar recursos, manter a lane jogável e preparar a próxima janela boa em vez de fabricá-la na marra.",
+        "en": "Preserve resources, keep the lane playable, and prepare the next good window instead of forcing one."
+      },
+      "most_common_error": {
+        "pt-BR": "Apressar E ou Q2 só para provar presença na lane.",
+        "en": "Rushing E or Q2 just to prove lane presence."
+      },
+      "priority_adjustment": {
+        "pt-BR": "Dê prioridade para wave, passiva e spacing curto antes de pensar em all-in.",
+        "en": "Prioritize wave, passive timing, and short spacing before thinking about all-ins."
+      },
+      "safest_practical_action": {
+        "pt-BR": "Troque só quando a passiva, a posição da wave e a rota de saída estiverem alinhadas.",
+        "en": "Trade only when passive, wave position, and exit route line up."
+      },
+      "when_to_shift_plan": {
+        "pt-BR": "Mude o plano quando a wave quebrar a seu favor, o inimigo gastar recurso-chave ou o jungle criar pressão real.",
+        "en": "Shift plans when the wave breaks in your favor, the enemy spends a key resource, or jungle pressure becomes real."
+      },
+      "linked_modules": [
+        "data/learning/camille_phase_checklists.json",
+        "data/learning/camille_archetypes.json"
+      ]
+    },
+    {
+      "plan_key": "early_lead_conversion",
+      "title": {
+        "pt-BR": "Camille pegou vantagem cedo",
+        "en": "Camille got an early lead"
+      },
+      "state_reading": {
+        "pt-BR": "Você tem vida, nível, item ou tempo de wave melhores e agora precisa transformar vantagem em mapa, não só em ego.",
+        "en": "You have better HP, level, item, or wave timing and now need to turn that lead into map value, not just ego."
+      },
+      "main_objective": {
+        "pt-BR": "Converter a vantagem em controle de lane, reset bom, pressão lateral e ameaça constante de pick.",
+        "en": "Convert the lead into lane control, good resets, side pressure, and a constant pick threat."
+      },
+      "most_common_error": {
+        "pt-BR": "Buscar kill extra sem necessidade e devolver tempo de mapa ao inimigo.",
+        "en": "Chasing an unnecessary extra kill and giving time back to the enemy."
+      },
+      "priority_adjustment": {
+        "pt-BR": "Jogue para empurrar o estado da partida, não para repetir a mesma troca vencedora sem contexto.",
+        "en": "Play to move the game state forward, not to repeat the same winning trade with no context."
+      },
+      "safest_practical_action": {
+        "pt-BR": "Empurre a vantagem em waves, placas, visão lateral e janelas de pick antes de se expor em dive ou teamfight torta.",
+        "en": "Push the lead through waves, plates, side vision, and pick windows before exposing yourself to a bad dive or awkward teamfight."
+      },
+      "when_to_shift_plan": {
+        "pt-BR": "Mude quando o inimigo começar a só te marcar, quando a side lane perder segurança ou quando objetivo grande pedir presença.",
+        "en": "Shift when the enemy starts only marking you, when side lane loses safety, or when a major objective requires presence."
+      },
+      "linked_modules": [
+        "data/learning/camille_macro.json",
+        "data/learning/camille_improvement_priorities.json"
+      ]
+    },
+    {
+      "plan_key": "early_deficit_recovery",
+      "title": {
+        "pt-BR": "Camille ficou atrás cedo",
+        "en": "Camille fell behind early"
+      },
+      "state_reading": {
+        "pt-BR": "Você perdeu HP, wave, kill, tempo ou reset cedo e não pode mais jogar a lane como se estivesse neutra.",
+        "en": "You lost HP, wave, kill, tempo, or reset early and can no longer play lane as if it were neutral."
+      },
+      "main_objective": {
+        "pt-BR": "Parar o sangramento, garantir XP jogável e recuperar condição de item ou side mais tarde.",
+        "en": "Stop the bleeding, secure playable XP, and recover item or side-lane condition later."
+      },
+      "most_common_error": {
+        "pt-BR": "Forçar a recuperação no lance seguinte e morrer de novo.",
+        "en": "Trying to recover on the very next play and dying again."
+      },
+      "priority_adjustment": {
+        "pt-BR": "Troque ambição por consistência: sobreviver com recursos vale mais do que uma tentativa bonita de virar tudo.",
+        "en": "Trade ambition for consistency: surviving with resources is worth more than a pretty attempt to flip everything."
+      },
+      "safest_practical_action": {
+        "pt-BR": "Jogue por wave segura, passiva útil e entrada somente quando o inimigo realmente se expuser.",
+        "en": "Play for safe waves, useful passive timing, and engage only when the enemy truly overextends."
+      },
+      "when_to_shift_plan": {
+        "pt-BR": "Mude quando você alcançar spike relevante, o inimigo errar reset ou o mapa abrir pick limpa para você.",
+        "en": "Shift once you hit a meaningful spike, the enemy mismanages a reset, or the map opens a clean pick for you."
+      },
+      "linked_modules": [
+        "data/learning/camille_review_checklists.json",
+        "data/learning/camille_common_mistakes.json"
+      ]
+    },
+    {
+      "plan_key": "enemy_denies_engage",
+      "title": {
+        "pt-BR": "Inimigo nega engage",
+        "en": "Enemy denies engage"
+      },
+      "state_reading": {
+        "pt-BR": "O adversário guarda peel, spacing ou cooldown exatamente para impedir sua entrada limpa.",
+        "en": "The opponent is holding peel, spacing, or cooldowns specifically to deny your clean entry."
+      },
+      "main_objective": {
+        "pt-BR": "Retirar conforto do inimigo até a resposta dele custar caro ou chegar atrasada.",
+        "en": "Remove the enemy’s comfort until their answer becomes expensive or late."
+      },
+      "most_common_error": {
+        "pt-BR": "Tentar a mesma entrada ruim várias vezes porque uma hora vai pegar.",
+        "en": "Forcing the same bad entry over and over because it will work eventually."
+      },
+      "priority_adjustment": {
+        "pt-BR": "Mude a ameaça de all-in para pressão de posicionamento, wave, visão e pick lateral.",
+        "en": "Shift from raw all-in threat toward positioning pressure, wave, vision, and side picks."
+      },
+      "safest_practical_action": {
+        "pt-BR": "Faça o inimigo revelar a resposta primeiro e só então ameace E/R em cima do alvo ou do espaço que ficou vulnerável.",
+        "en": "Make the enemy reveal the answer first and only then threaten E/R onto the target or the now-vulnerable space."
+      },
+      "when_to_shift_plan": {
+        "pt-BR": "Mude quando peel entrar em cooldown, quando a front line se separar ou quando flank real aparecer.",
+        "en": "Shift when peel goes on cooldown, when the front line separates, or when a real flank appears."
+      },
+      "linked_modules": [
+        "data/learning/camille_execution_reference.json",
+        "data/learning/camille_advanced_interactions.json"
+      ]
+    },
+    {
+      "plan_key": "bad_wave_no_force",
+      "title": {
+        "pt-BR": "Wave ruim para forçar",
+        "en": "Bad wave for forcing"
+      },
+      "state_reading": {
+        "pt-BR": "A posição da wave expõe sua entrada, atrasa o Q2 ou transforma troca boa em chase ruim.",
+        "en": "The wave position exposes your entry, delays Q2, or turns a good trade into a bad chase."
+      },
+      "main_objective": {
+        "pt-BR": "Consertar ou estabilizar a wave antes de comprometer recurso pesado.",
+        "en": "Fix or stabilize the wave before committing major resources."
+      },
+      "most_common_error": {
+        "pt-BR": "Confundir vontade de trocar com direito de trocar.",
+        "en": "Confusing the desire to trade with the right to trade."
+      },
+      "priority_adjustment": {
+        "pt-BR": "Leia primeiro a rota de saída e a resposta de jungle antes de pensar no E.",
+        "en": "Read the exit route and jungle response before thinking about E."
+      },
+      "safest_practical_action": {
+        "pt-BR": "Use o tempo da wave para preparar bounce, freeze ou reset; não para inventar altalight.",
+        "en": "Use wave time to set up a bounce, freeze, or reset—not to invent a highlight."
+      },
+      "when_to_shift_plan": {
+        "pt-BR": "Mude quando a wave parar de sabotar sua janela ou quando o inimigo gastar habilidade na própria wave.",
+        "en": "Shift once the wave stops sabotaging your window or when the enemy spends a spell on the wave."
+      },
+      "linked_modules": [
+        "data/learning/camille_phase_checklists.json",
+        "data/learning/camille_game_review_triggers.json"
+      ]
+    },
+    {
+      "plan_key": "side_lane_required",
+      "title": {
+        "pt-BR": "Jogo pede side lane",
+        "en": "Game asks for side lane"
+      },
+      "state_reading": {
+        "pt-BR": "Você gera mais valor puxando resposta, controlando wave lateral e ameaçando pick do que agrupando cedo demais.",
+        "en": "You generate more value by pulling responses, controlling the side wave, and threatening picks than by grouping too early."
+      },
+      "main_objective": {
+        "pt-BR": "Criar pressão lateral que obrigue resposta ruim e abra espaço para objetivo ou pick.",
+        "en": "Create side pressure that forces a bad response and opens space for an objective or a pick."
+      },
+      "most_common_error": {
+        "pt-BR": "Splitar sem informação, sem rota de saída e sem saber o que o time ganha com isso.",
+        "en": "Splitting without information, without an exit route, and without knowing what your team gains from it."
+      },
+      "priority_adjustment": {
+        "pt-BR": "Antes de side, confirme visão, rota de fuga e se seu time consegue usar a pressão.",
+        "en": "Before siding, confirm vision, escape route, and whether your team can actually use the pressure."
+      },
+      "safest_practical_action": {
+        "pt-BR": "Pressione até o ponto em que ainda consegue sair ou virar pick; passou disso, a side virou moeda.",
+        "en": "Pressure only up to the point where you can still leave or turn it into a pick; beyond that, side lane becomes a coin flip."
+      },
+      "when_to_shift_plan": {
+        "pt-BR": "Mude quando objetivo grande nascer, flank sumir ou inimigo conseguir te colapsar com prioridade.",
+        "en": "Shift when a major objective spawns, the flank disappears, or the enemy can collapse on you with priority."
+      },
+      "linked_modules": [
+        "data/learning/camille_macro.json",
+        "data/learning/camille_state_based_adjustments.json"
+      ]
+    },
+    {
+      "plan_key": "fight_presence_required",
+      "title": {
+        "pt-BR": "Jogo pede presença em luta",
+        "en": "Game asks for fight presence"
+      },
+      "state_reading": {
+        "pt-BR": "Objetivos, composição ou estado do mapa fazem seu agrupamento valer mais do que empurrar side por hábito.",
+        "en": "Objectives, compositions, or map state make your presence with the team worth more than pushing side out of habit."
+      },
+      "main_objective": {
+        "pt-BR": "Chegar na luta com ângulo, recurso e alvo possíveis, em vez de só estar presente fisicamente.",
+        "en": "Reach the fight with angle, resources, and target access, instead of merely being physically present."
+      },
+      "most_common_error": {
+        "pt-BR": "Agrupar tarde, sem flash, sem flank e ainda entrar de frente.",
+        "en": "Grouping late, without flash, without a flank, and still entering from the front."
+      },
+      "priority_adjustment": {
+        "pt-BR": "Troque volume de farm por qualidade de entrada quando o jogo realmente orbita a próxima luta.",
+        "en": "Trade farm volume for entry quality when the game truly revolves around the next fight."
+      },
+      "safest_practical_action": {
+        "pt-BR": "Chegue antes, leia peel e escolha se sua função é travar alvo, ameaçar pick ou apenas segurar contra-engage.",
+        "en": "Arrive early, read peel, and decide whether your job is locking a target, threatening a pick, or simply holding counter-engage."
+      },
+      "when_to_shift_plan": {
+        "pt-BR": "Mude quando o objetivo perder urgência ou quando a side voltar a gerar valor líquido maior.",
+        "en": "Shift when the objective loses urgency or when side lane once again produces more net value."
+      },
+      "linked_modules": [
+        "data/learning/camille_execution_reference.json",
+        "data/learning/camille_phase_checklists.json"
+      ]
+    },
+    {
+      "plan_key": "cannot_be_first_entry",
+      "title": {
+        "pt-BR": "Camille não pode entrar primeiro",
+        "en": "Camille cannot be the first entry"
+      },
+      "state_reading": {
+        "pt-BR": "O inimigo tem muito peel, burst de resposta ou visão demais para que sua primeira entrada seja boa.",
+        "en": "The enemy has too much peel, answer burst, or vision for your first entry to be good."
+      },
+      "main_objective": {
+        "pt-BR": "Esperar a luta deformar antes de comprometer E/R, mantendo ameaça sem se suicidar.",
+        "en": "Wait for the fight to deform before committing E/R, keeping threat without suiciding."
+      },
+      "most_common_error": {
+        "pt-BR": "Abrir a luta por ansiedade e virar a primeira eliminação do time.",
+        "en": "Opening the fight out of impatience and becoming your team’s first death."
+      },
+      "priority_adjustment": {
+        "pt-BR": "Valorize leitura, reposicionamento e punição da segunda janela.",
+        "en": "Value reading, repositioning, and punishing the second window."
+      },
+      "safest_practical_action": {
+        "pt-BR": "Jogue na borda da luta, force atenção e entre quando o CC chave ou a ferramenta de peel já tiver sido usada.",
+        "en": "Play on the fight’s edge, draw attention, and enter once key CC or peel has already been spent."
+      },
+      "when_to_shift_plan": {
+        "pt-BR": "Mude quando um alvo ficar isolado, quando o front inimigo se alongar ou quando seu time já tiver iniciado vantagem.",
+        "en": "Shift when a target becomes isolated, when the enemy front line stretches, or when your team has already created an opening."
+      },
+      "linked_modules": [
+        "data/learning/camille_advanced_interactions.json",
+        "data/learning/camille_microtips.json"
+      ]
+    },
+    {
+      "plan_key": "play_for_pick",
+      "title": {
+        "pt-BR": "Camille precisa jogar por pick",
+        "en": "Camille needs to play for picks"
+      },
+      "state_reading": {
+        "pt-BR": "Entrar em luta 5v5 limpa é pior do que punir alvo exposto, rotação lenta ou visão mal feita.",
+        "en": "Taking a clean 5v5 is worse than punishing an exposed target, slow rotation, or poor vision control."
+      },
+      "main_objective": {
+        "pt-BR": "Criar superioridade numérica ou remover a peça certa antes da luta completa.",
+        "en": "Create a numbers advantage or remove the right piece before the full fight starts."
+      },
+      "most_common_error": {
+        "pt-BR": "Confundir pick com dive cego em alvo sem folbaixa-up.",
+        "en": "Confusing a pick with a blind dive onto a target without follow-up."
+      },
+      "priority_adjustment": {
+        "pt-BR": "Use Camille como ameaça de corredor e fog of war, não como botão automático de engage.",
+        "en": "Use Camille as a corridor and fog-of-war threat, not as an automatic engage button."
+      },
+      "safest_practical_action": {
+        "pt-BR": "Controle visão, jogue fora do ângulo óbvio e só commit quando a rota do alvo realmente ficou curta.",
+        "en": "Control vision, play off the obvious angle, and only commit when the target’s escape route is truly short."
+      },
+      "when_to_shift_plan": {
+        "pt-BR": "Mude quando o inimigo agrupar de forma disciplinada demais ou quando o objetivo exigir presença direta.",
+        "en": "Shift when the enemy groups too cleanly or when the objective demands direct presence."
+      },
+      "linked_modules": [
+        "data/learning/camille_macro.json",
+        "data/learning/camille_game_review_triggers.json"
+      ]
+    },
+    {
+      "plan_key": "pressure_without_all_in",
+      "title": {
+        "pt-BR": "Pressão sem all-in",
+        "en": "Pressure without all-in"
+      },
+      "state_reading": {
+        "pt-BR": "Você ainda quer ganhar espaço e respeito, mas o custo de entrar inteiro está alto demais.",
+        "en": "You still want to gain space and respect, but the cost of fully committing is too high."
+      },
+      "main_objective": {
+        "pt-BR": "Cobrar posicionamento, wave, cooldown e medo do engage sem dar tudo de uma vez.",
+        "en": "Tax positioning, wave control, cooldowns, and engage respect without spending everything at once."
+      },
+      "most_common_error": {
+        "pt-BR": "Achar que pressão só existe se a luta acontecer de verdade.",
+        "en": "Thinking pressure only exists if the fight actually happens."
+      },
+      "priority_adjustment": {
+        "pt-BR": "Volte a valorizar presença de E, ameaça de Q2 e rotas curtas de punição.",
+        "en": "Re-value E presence, Q2 threat, and short punishment routes."
+      },
+      "safest_practical_action": {
+        "pt-BR": "Jogue para negar espaço e obrigar resposta ruim antes de pensar no commit total.",
+        "en": "Play to deny space and force a bad response before thinking about full commit."
+      },
+      "when_to_shift_plan": {
+        "pt-BR": "Mude quando o alvo perder recurso, sair da formação ou quando seu time já tiver condição de folbaixa-up.",
+        "en": "Shift when the target loses a resource, leaves formation, or your team gains real follow-up."
+      },
+      "linked_modules": [
+        "data/learning/camille_execution_reference.json",
+        "data/learning/camille_phase_checklists.json"
+      ]
+    }
+  ],
+  "metadata": {
+    "data_quality": "high",
+    "last_updated": "2026-04-09",
+    "pipeline_alignment": [
+      "data_rules",
+      "content_priority"
+    ],
+    "scope": "parallel_2_round6_situational_adaptation"
+  }
+}

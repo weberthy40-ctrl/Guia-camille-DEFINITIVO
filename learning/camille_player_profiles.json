@@ -1,0 +1,490 @@
+{
+  "overview": {
+    "pt-BR": "Perfis de jogador para diagnóstico rápido de gargalos com a Camille. O objetivo não é rotular por ego, e sim descobrir qual erro está travando evolução real.",
+    "en": "Player profiles for quickly diagnosing Camille bottlenecks. The goal is not to label people for ego, but to find the error that is blocking real improvement."
+  },
+  "diagnosis_rule": {
+    "pt-BR": "Escolha o perfil pelo erro que mais se repete, não pela jogada mais feia da última partida.",
+    "en": "Choose the profile by the mistake that repeats the most, not by the ugliest play from the last match."
+  },
+  "profiles": [
+    {
+      "profile_key": "lost_in_the_kit",
+      "title": {
+        "pt-BR": "Iniciante perdido no kit",
+        "en": "Beginner lost in the kit"
+      },
+      "symptoms": {
+        "pt-BR": [
+          "gasta E para entrar sem saber como sair",
+          "Q2 sai fora de timing",
+          "usa R tarde demais ou cedo demais",
+          "troca sem entender onde está a passiva"
+        ],
+        "en": [
+          "spends E to enter without knowing how to exit",
+          "Q2 comes out off-timing",
+          "uses R too late or too early",
+          "trades without knowing where passive is"
+        ]
+      },
+      "main_errors": {
+        "pt-BR": [
+          "apertar botão porque está disponível",
+          "querer aprender highlight antes da base",
+          "não reconhecer troca curta vs all-in"
+        ],
+        "en": [
+          "pressing buttons because they are available",
+          "trying to learn highlights before fundamentals",
+          "not recognizing short trade vs all-in"
+        ]
+      },
+      "prioritize": {
+        "pt-BR": [
+          "ritmo de short trade",
+          "disciplina de E",
+          "timing de Q2",
+          "uso simples do R defensivo"
+        ],
+        "en": [
+          "short-trade rhythm",
+          "E discipline",
+          "Q2 timing",
+          "simple defensive R usage"
+        ]
+      },
+      "best_modules": [
+        "data/learning/camille_training_plan.json",
+        "data/learning/camille_execution_reference.json",
+        "data/learning/camille_practice_scenarios.json"
+      ],
+      "improvement_measure": {
+        "pt-BR": "Você passa a morrer menos em engage ruim e começa a repetir trocas limpas sem se atropelar.",
+        "en": "You start dying less on bad engages and begin repeating clean trades without tripping over yourself."
+      }
+    },
+    {
+      "profile_key": "misses_e_often",
+      "title": {
+        "pt-BR": "Jogador que erra muito o E",
+        "en": "Player who misses E often"
+      },
+      "symptoms": {
+        "pt-BR": [
+          "erra parede/ângulo em fight simples",
+          "entra previsível e toma sidestep",
+          "usa E sem confirmar follow-up",
+          "perde kill por stun não encaixado"
+        ],
+        "en": [
+          "misses wall/angle in simple fights",
+          "goes in predictably and gets sidestepped",
+          "uses E without confirming follow-up",
+          "loses kills because the stun never connects"
+        ]
+      },
+      "main_errors": {
+        "pt-BR": [
+          "olhar só o alcance e não o ângulo",
+          "usar E por ansiedade",
+          "treinar só E bonito e não E funcional"
+        ],
+        "en": [
+          "looking only at range and not angle",
+          "using E out of anxiety",
+          "practicing only flashy E plays rather than functional E usage"
+        ]
+      },
+      "prioritize": {
+        "pt-BR": [
+          "cenários de Practice Tool com paredes ruins",
+          "entrada por leitura de movimento do alvo",
+          "E para espaço/visão quando stun não é garantido"
+        ],
+        "en": [
+          "Practice Tool scenarios on awkward walls",
+          "entry based on target movement reading",
+          "using E for space/vision when stun is not guaranteed"
+        ]
+      },
+      "best_modules": [
+        "data/learning/camille_execution_reference.json",
+        "data/learning/camille_mechanics.json",
+        "data/learning/camille_short_training_blocks.json"
+      ],
+      "improvement_measure": {
+        "pt-BR": "O E deixa de ser coinflip e passa a abrir janela real mesmo quando não vira altalight.",
+        "en": "E stops being a coinflip and starts creating real windows even when it is not flashy."
+      }
+    },
+    {
+      "profile_key": "forces_bad_engage",
+      "title": {
+        "pt-BR": "Jogador que força engage ruim",
+        "en": "Player who forces bad engages"
+      },
+      "symptoms": {
+        "pt-BR": [
+          "inicia sem visão ou sem follow-up",
+          "entra em alvos com peel inteiro",
+          "all-ina wave ruim",
+          "morre antes da luta começar de verdade"
+        ],
+        "en": [
+          "starts without vision or follow-up",
+          "dives targets with full peel available",
+          "all-ins into bad waves",
+          "dies before the real fight begins"
+        ]
+      },
+      "main_errors": {
+        "pt-BR": [
+          "confundir alcance com janela",
+          "não checar cooldown defensivo inimigo",
+          "querer acelerar o jogo quando a posição pede calma"
+        ],
+        "en": [
+          "confusing range with window",
+          "not checking enemy defensive cooldowns",
+          "trying to speed up the game when the position requires patience"
+        ]
+      },
+      "prioritize": {
+        "pt-BR": [
+          "checklists antes de all-in",
+          "review de engage ruim",
+          "disciplinar entrada de teamfight e side"
+        ],
+        "en": [
+          "pre-all-in checklists",
+          "review of bad engages",
+          "discipline for teamfight and side-lane entries"
+        ]
+      },
+      "best_modules": [
+        "data/learning/camille_phase_checklists.json",
+        "data/learning/camille_review_checklists.json",
+        "data/learning/camille_faq.json"
+      ],
+      "improvement_measure": {
+        "pt-BR": "Seu engage passa a ter motivo e folbaixa-up, e não só coragem.",
+        "en": "Your engage starts having purpose and follow-up, not just courage."
+      }
+    },
+    {
+      "profile_key": "wins_lane_throws_later",
+      "title": {
+        "pt-BR": "Jogador que ganha lane e entrega depois",
+        "en": "Player who wins lane then throws"
+      },
+      "symptoms": {
+        "pt-BR": [
+          "abre vantagem e morre sozinho na side",
+          "itemiza bem para lane e mal para o jogo",
+          "força dive/torre sem timing",
+          "agrupa tarde ou cedo demais"
+        ],
+        "en": [
+          "gets ahead and then dies alone in side lane",
+          "itemizes well for lane but poorly for the overall game",
+          "forces dives/towers with bad timing",
+          "groups too late or too early"
+        ]
+      },
+      "main_errors": {
+        "pt-BR": [
+          "não converter lead em visão/objetivo",
+          "achar que estar forte autoriza toda entrada",
+          "não reavaliar win condition"
+        ],
+        "en": [
+          "not converting a lead into vision/objectives",
+          "thinking being strong authorizes every engage",
+          "failing to re-evaluate the win condition"
+        ]
+      },
+      "prioritize": {
+        "pt-BR": [
+          "side lane com disciplina",
+          "checklist de jogo na frente",
+          "review de mortes pós-lane",
+          "decisão entre side e group"
+        ],
+        "en": [
+          "disciplined side lane",
+          "playing-ahead checklist",
+          "review of post-lane deaths",
+          "decision between side and group"
+        ]
+      },
+      "best_modules": [
+        "data/learning/camille_macro.json",
+        "data/learning/camille_phase_checklists.json",
+        "data/learning/camille_coach_paths.json"
+      ],
+      "improvement_measure": {
+        "pt-BR": "Sua vantagem vira objetivos, pressão lateral e picks, não só scoreboard bonito.",
+        "en": "Your lead turns into objectives, side pressure, and picks, not just a pretty scoreboard."
+      }
+    },
+    {
+      "profile_key": "good_lane_bad_macro",
+      "title": {
+        "pt-BR": "Bom de lane e fraco de macro",
+        "en": "Good laner, weak macro player"
+      },
+      "symptoms": {
+        "pt-BR": [
+          "fase de rotas estável, mas mapa caótico",
+          "split em hora ruim",
+          "entra em teamfight sem flank ou alvo",
+          "não prepara side antes de objetivo"
+        ],
+        "en": [
+          "stable laning, but chaotic map play",
+          "splits at bad timings",
+          "enters teamfights without flank or target",
+          "does not prep side lane before objectives"
+        ]
+      },
+      "main_errors": {
+        "pt-BR": [
+          "acreditar que macro é instinto e não rotina",
+          "não usar informação do mapa para decidir side/group",
+          "não jogar em torno do próximo objetivo"
+        ],
+        "en": [
+          "believing macro is instinct instead of routine",
+          "not using map information to decide side/group",
+          "not playing around the next objective"
+        ]
+      },
+      "prioritize": {
+        "pt-BR": [
+          "macro/side lane",
+          "checklists de mid game e before split",
+          "review de rota pós-lane"
+        ],
+        "en": [
+          "macro/side lane",
+          "mid-game and pre-split checklists",
+          "post-lane route review"
+        ]
+      },
+      "best_modules": [
+        "data/learning/camille_macro.json",
+        "data/learning/camille_phase_checklists.json",
+        "data/learning/camille_review_checklists.json"
+      ],
+      "improvement_measure": {
+        "pt-BR": "Você começa a saber onde deveria estar no mapa antes do erro aparecer.",
+        "en": "You start knowing where you should be on the map before the mistake happens."
+      }
+    },
+    {
+      "profile_key": "good_mechanics_poor_discipline",
+      "title": {
+        "pt-BR": "Bom mecanicamente e ruim de disciplina",
+        "en": "Mechanically good, discipline poor"
+      },
+      "symptoms": {
+        "pt-BR": [
+          "acerta combo difícil e erra decisão simples",
+          "entra sem wave/visão",
+          "procura outplay quando bastava resetar",
+          "perde jogo por excesso de confiança"
+        ],
+        "en": [
+          "lands hard combos and misses simple decisions",
+          "goes in without wave/vision",
+          "hunts outplays when a reset was enough",
+          "loses games through overconfidence"
+        ]
+      },
+      "main_errors": {
+        "pt-BR": [
+          "supervalorizar mecânica sobre consistência",
+          "ignorar risco de shutdown",
+          "não respeitar quando o jogo pede contenção"
+        ],
+        "en": [
+          "overvaluing mechanics over consistency",
+          "ignoring shutdown risk",
+          "not respecting when the game calls for containment"
+        ]
+      },
+      "prioritize": {
+        "pt-BR": [
+          "prioridades de melhoria",
+          "checklists de review",
+          "blocos curtos de disciplina de engage e weakside"
+        ],
+        "en": [
+          "improvement priorities",
+          "review checklists",
+          "short blocks on engage discipline and weakside play"
+        ]
+      },
+      "best_modules": [
+        "data/learning/camille_improvement_priorities.json",
+        "data/learning/camille_short_training_blocks.json",
+        "data/learning/camille_review_checklists.json"
+      ],
+      "improvement_measure": {
+        "pt-BR": "Seu jogo fica menos bonito no clipe e mais forte no resultado.",
+        "en": "Your game looks less flashy in clips and much stronger in actual results."
+      }
+    },
+    {
+      "profile_key": "cannot_play_weakside",
+      "title": {
+        "pt-BR": "Não sabe jogar weakside",
+        "en": "Cannot play weakside"
+      },
+      "symptoms": {
+        "pt-BR": [
+          "entra sem cobertura do jungle",
+          "tilta por ceder wave/placa",
+          "transforma pressão inimiga em morte repetida",
+          "não sabe quando aceitar reset ruim"
+        ],
+        "en": [
+          "goes in without jungle cover",
+          "tilts when giving up wave/plate",
+          "turns enemy pressure into repeated deaths",
+          "does not know when to accept an awkward reset"
+        ]
+      },
+      "main_errors": {
+        "pt-BR": [
+          "ego na lane ruim",
+          "não jogar por XP e passiva",
+          "usar E como reação tardia e não prevenção"
+        ],
+        "en": [
+          "ego in bad lanes",
+          "not playing for XP and passive timing",
+          "using E as late reaction instead of prevention"
+        ]
+      },
+      "prioritize": {
+        "pt-BR": [
+          "arquétipos difíceis",
+          "checklists contra ranged/jogo atrás",
+          "blocos curtos de weakside e sobrevivência"
+        ],
+        "en": [
+          "difficult archetypes",
+          "anti-ranged/playing-from-behind checklists",
+          "short weakside and survival blocks"
+        ]
+      },
+      "best_modules": [
+        "data/learning/camille_archetypes.json",
+        "data/learning/camille_phase_checklists.json",
+        "data/learning/camille_short_training_blocks.json"
+      ],
+      "improvement_measure": {
+        "pt-BR": "Você deixa de “sumir do jogo” em lane ruim e passa a chegar vivo no primeiro spike.",
+        "en": "You stop disappearing from the game in bad lanes and begin reaching your first spike alive."
+      }
+    },
+    {
+      "profile_key": "plays_everything_the_same",
+      "title": {
+        "pt-BR": "Joga tudo igual",
+        "en": "Plays every game the same way"
+      },
+      "symptoms": {
+        "pt-BR": [
+          "mesma build em todo lobby",
+          "mesmo ritmo contra tank e ranged",
+          "mesma prioridade com vantagem ou atrás",
+          "mesmas rotas de fight e de side"
+        ],
+        "en": [
+          "same build in every lobby",
+          "same pace versus tanks and ranged",
+          "same priorities whether ahead or behind",
+          "same teamfight and side-lane routes every game"
+        ]
+      },
+      "main_errors": {
+        "pt-BR": [
+          "falta de leitura de contexto",
+          "automatizar decisão que deveria ser situacional",
+          "não revisar por que a partida pediu outro plano"
+        ],
+        "en": [
+          "lack of context reading",
+          "automating decisions that should be situational",
+          "not reviewing why the game required another plan"
+        ]
+      },
+      "prioritize": {
+        "pt-BR": [
+          "árvores de build/runas",
+          "guia de arquétipos",
+          "FAQ de decisão",
+          "review pós-jogo com foco em rota escolhida"
+        ],
+        "en": [
+          "build/rune trees",
+          "archetype guide",
+          "decision FAQ",
+          "post-game review focused on the route you chose"
+        ]
+      },
+      "best_modules": [
+        "data/learning/camille_build_decision.json",
+        "data/learning/camille_runes_decision.json",
+        "data/learning/camille_archetypes.json",
+        "data/learning/camille_review_checklists.json"
+      ],
+      "improvement_measure": {
+        "pt-BR": "Você começa a adaptar setup e plano antes do jogo te punir por automatismo.",
+        "en": "You begin adapting setup and plan before the game punishes your autopilot."
+      }
+    }
+  ],
+  "quick_triage": [
+    {
+      "question": {
+        "pt-BR": "Você costuma morrer porque entrou demais ou porque não saiu a tempo?",
+        "en": "Do you usually die because you went in too hard or because you did not leave on time?"
+      },
+      "if_yes": {
+        "pt-BR": "Revise perfis de engage ruim, disciplina ruim e weakside.",
+        "en": "Review the bad-engage, poor-discipline, and weakside profiles."
+      },
+      "if_no": {
+        "pt-BR": "Olhe primeiro para execução pura e leitura de lane.",
+        "en": "Look first at pure execution and lane reading."
+      }
+    },
+    {
+      "question": {
+        "pt-BR": "Sua lane é estável, mas o mapa desanda depois dos 14 minutos?",
+        "en": "Is your lane stable, but the map falls apart after 14 minutes?"
+      },
+      "if_yes": {
+        "pt-BR": "Seu gargalo provavelmente já migrou de execução para macro/decisão.",
+        "en": "Your bottleneck has likely shifted from execution to macro/decision making."
+      },
+      "if_no": {
+        "pt-BR": "A base da lane ainda merece prioridade maior.",
+        "en": "The laning foundation still deserves higher priority."
+      }
+    }
+  ],
+  "metadata": {
+    "data_quality": "high",
+    "last_updated": "2026-04-09",
+    "pipeline_alignment": [
+      "data_rules",
+      "content_priority"
+    ],
+    "scope": "parallel_2_round4_coach_progression"
+  }
+}

@@ -1,0 +1,199 @@
+{
+  "overview": {
+    "pt-BR": "FAQ premium da Camille com respostas curtas, práticas e voltadas para decisão real.",
+    "en": "Premium Camille FAQ with short, practical answers aimed at real decisions."
+  },
+  "entries": [
+    {
+      "question": {
+        "pt-BR": "Quando vale pickar Camille?",
+        "en": "When is Camille a good pick?"
+      },
+      "answer": {
+        "pt-BR": "Quando você enxerga espaço para side lane, pick em alvo valioso ou composições em que travar uma peça muda a luta. Camille cresce muito quando o mapa te dá ângulo e quando o inimigo não responde bem a split + flank.",
+        "en": "When you see room for side lane, picks onto valuable targets or compositions where locking one piece changes the fight. Camille grows massively when the map gives you angles and when the enemy does not answer split + flank well."
+      },
+      "short_rule": {
+        "pt-BR": "Picke quando seu R e sua side lane realmente importam.",
+        "en": "Pick her when your R and side lane will truly matter."
+      }
+    },
+    {
+      "question": {
+        "pt-BR": "Quando evitar Camille?",
+        "en": "When should you avoid Camille?"
+      },
+      "answer": {
+        "pt-BR": "Evite quando a lane é horrível para você e o restante da comp também fecha demais seus ângulos com poke, anti-engage, chain CC ou front-to-back que pede outra peça. Ela ainda pode ser jogável, mas deixa de ser pick confortável.",
+        "en": "Avoid her when lane is horrible for you and the rest of the comp also closes your angles too hard with poke, anti-engage, chain CC or front-to-back demands better solved by another pick. She may still be playable, but stops being a comfortable pick."
+      },
+      "short_rule": {
+        "pt-BR": "Evite quando a partida apaga sua entrada e sua side ao mesmo tempo.",
+        "en": "Avoid her when the game deletes both your entry and your side lane."
+      }
+    },
+    {
+      "question": {
+        "pt-BR": "Quando jogar para side lane?",
+        "en": "When should you play for side lane?"
+      },
+      "answer": {
+        "pt-BR": "Quando você consegue puxar resposta real, manter wave/visão razoáveis e gerar mais valor lateral do que em 5v5 frontal. Se o outro time responde mal à sua side, essa já tende a ser sua condição de vitória.",
+        "en": "When you can draw a real response, keep reasonable wave/vision control and generate more side value than in a frontal 5v5. If the enemy answers your side poorly, it already tends to become your win condition."
+      },
+      "short_rule": {
+        "pt-BR": "Side lane é boa quando obriga resposta imperfeita.",
+        "en": "Side lane is good when it forces imperfect answers."
+      }
+    },
+    {
+      "question": {
+        "pt-BR": "Quando agrupar com Camille?",
+        "en": "When should Camille group?"
+      },
+      "answer": {
+        "pt-BR": "Agrupe quando objetivo grande vai nascer, seu time não segura 4v5 ou quando seu R em um alvo específico vale mais do que qualquer wave lateral. Camille não precisa agrupar sempre; precisa agrupar nos segundos que decidem o jogo.",
+        "en": "Group when a major objective is spawning, your team cannot hold 4v5 or when your R on a specific target is worth more than any side wave. Camille does not need to group always; she needs to group in the seconds that decide the game."
+      },
+      "short_rule": {
+        "pt-BR": "Agrupe quando o valor do seu R supera o valor da sua side.",
+        "en": "Group when the value of your R outweighs the value of your side lane."
+      }
+    },
+    {
+      "question": {
+        "pt-BR": "Quando trocar curto?",
+        "en": "When should you short trade?"
+      },
+      "answer": {
+        "pt-BR": "Quando sua passiva está disponível, o rival gastou ferramenta importante ou a wave não permite all-in limpo. Troca curta é o idioma padrão da Camille em muitas lanes.",
+        "en": "When passive is available, the enemy spent an important tool or the wave does not allow a clean all-in. Short trading is Camille's default language in many lanes."
+      },
+      "short_rule": {
+        "pt-BR": "Se a luta longa é ruim ou incerta, volte para o curto.",
+        "en": "If the long fight is bad or unclear, return to short trades."
+      }
+    },
+    {
+      "question": {
+        "pt-BR": "Quando all-inar?",
+        "en": "When should you all-in?"
+      },
+      "answer": {
+        "pt-BR": "Quando a ferramenta decisiva do rival caiu, sua passiva/Q2 estão prontos e a wave/jungle não punem sua entrada. All-in bom em Camille é janela confirmada, não coragem aleatória.",
+        "en": "When the enemy's decisive tool is down, your passive/Q2 are primed and the wave/jungle state will not punish your entry. A good Camille all-in is a confirmed window, not random courage."
+      },
+      "short_rule": {
+        "pt-BR": "All-in sem janela clara costuma virar throw.",
+        "en": "All-ins without a clear window often become throws."
+      }
+    },
+    {
+      "question": {
+        "pt-BR": "Quando segurar o E?",
+        "en": "When should you hold E?"
+      },
+      "answer": {
+        "pt-BR": "Segure o E quando ele é seu único botão que muda o resultado da jogada: para escapar gank, para punir o passo errado mais importante ou para entrar depois que a resposta do inimigo já saiu. Gastar E cedo demais é um dos erros que mais encarece a campeã.",
+        "en": "Hold E when it is the one button that changes the result of the play: to escape a gank, punish the truly important misstep or enter after the enemy response has already been spent. Using E too early is one of the errors that makes the champion far more expensive."
+      },
+      "short_rule": {
+        "pt-BR": "E não é só engage; é seu seguro e seu checkmate.",
+        "en": "E is not only engage; it is both your insurance and your checkmate."
+      }
+    },
+    {
+      "question": {
+        "pt-BR": "Quando usar o R defensivamente?",
+        "en": "When should you use R defensively?"
+      },
+      "answer": {
+        "pt-BR": "Quando negar burst, CC ou spell decisivo vale mais do que o dano bruto do R. R defensivo bem usado não é covardia; é a diferença entre morrer bonito e ganhar a luta.",
+        "en": "When denying burst, CC or a decisive spell is worth more than the raw R damage. A well-used defensive R is not cowardice; it is the difference between dying stylishly and winning the fight."
+      },
+      "short_rule": {
+        "pt-BR": "Use R para valor, não para vaidade.",
+        "en": "Use R for value, not vanity."
+      }
+    },
+    {
+      "question": {
+        "pt-BR": "Quando usar build mais agressiva?",
+        "en": "When should you use a more aggressive build?"
+      },
+      "answer": {
+        "pt-BR": "Quando você já controla a lane ou o mapa e acelerar dano realmente converte em kills, torre, side ou pick. Build agressiva sem contexto só aumenta o tamanho do shutdown.",
+        "en": "When you already control the lane or map and accelerating damage truly converts into kills, towers, side-lane wins or picks. An aggressive build without context only increases the shutdown size."
+      },
+      "short_rule": {
+        "pt-BR": "Acelere dano quando ele muda a partida, não quando só parece bonito.",
+        "en": "Accelerate damage when it changes the game, not when it only looks cool."
+      }
+    },
+    {
+      "question": {
+        "pt-BR": "Quando adaptar para sobreviver?",
+        "en": "When should you adapt to survive?"
+      },
+      "answer": {
+        "pt-BR": "Quando morrer antes de completar a rotação é o gargalo principal. Se você está falhando por não viver o bastante, a compra defensiva deixa de ser covardia e vira investimento na sua execução.",
+        "en": "When dying before finishing your rotation is the main bottleneck. If you are failing because you do not live long enough, the defensive purchase stops being cowardice and becomes an investment into your execution."
+      },
+      "short_rule": {
+        "pt-BR": "Se você não vive até o Q2/R importar, a build está errada.",
+        "en": "If you do not live long enough for Q2/R to matter, the build is wrong."
+      }
+    },
+    {
+      "question": {
+        "pt-BR": "Como jogar quando fica atrás cedo?",
+        "en": "How do you play when you fall behind early?"
+      },
+      "answer": {
+        "pt-BR": "Reduza coinflip, simplifique o plano e volte a ser útil por wave, side curta, pick em excesso e item de ponte. Camille atrás ainda pode decidir jogo; o que mata é insistir em altalight ruim.",
+        "en": "Reduce coinflips, simplify the plan and become useful again through waves, short side lanes, punishing overextensions and a bridge item. A behind Camille can still decide games; what kills her is insisting on bad highlights."
+      },
+      "short_rule": {
+        "pt-BR": "Atrás, jogue por clareza e excesso inimigo.",
+        "en": "When behind, play through clarity and enemy overextension."
+      }
+    },
+    {
+      "question": {
+        "pt-BR": "Como jogar contra poke?",
+        "en": "How do you play against poke?"
+      },
+      "answer": {
+        "pt-BR": "Trate vida como recurso central. Use sustain/runa certa, respeite níveis iniciais, aceite ceder espaço por alguns minutos e só entre quando a aproximação realmente tiver chance. Contra poke, pressa quase sempre piora a lane.",
+        "en": "Treat HP as the central resource. Use the proper sustain/runes, respect early levels, accept giving space for a few minutes and only go in when the approach truly has a chance. Against poke, haste almost always makes lane worse."
+      },
+      "short_rule": {
+        "pt-BR": "Contra poke, sobreviver bem é parte do plano ofensivo.",
+        "en": "Against poke, surviving well is part of the offensive plan."
+      }
+    },
+    {
+      "question": {
+        "pt-BR": "Como aprender Camille mais rápido?",
+        "en": "How do you learn Camille faster?"
+      },
+      "answer": {
+        "pt-BR": "Domine primeiro troca curta, passiva, Q2 e disciplina de E. Depois treine R, side lane e conversão de lead. Quem pula essa ordem costuma até ter combo, mas não tem Camille de verdade.",
+        "en": "Master short trades, passive timing, Q2 and E discipline first. Then train R, side lane and lead conversion. Players who skip this order may have combos, but they do not yet have real Camille."
+      },
+      "short_rule": {
+        "pt-BR": "Aprenda a janela antes de aprender o altalight.",
+        "en": "Learn the window before the highlight."
+      }
+    }
+  ],
+  "metadata": {
+    "data_quality": "high",
+    "last_updated": "2026-04-09",
+    "pipeline_alignment": [
+      "pipeline/data_rules.md",
+      "pipeline/content_priority.md",
+      "pipeline/scoring_rules.md"
+    ]
+  }
+}

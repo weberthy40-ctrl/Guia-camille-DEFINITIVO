@@ -1,0 +1,240 @@
+{
+  "overview": {
+    "pt-BR": "Interações avançadas da Camille focadas em uso real de partida: quando usar, quando não usar e o que costuma dar errado.",
+    "en": "Advanced Camille interactions focused on real game use: when to use them, when not to, and what usually goes wrong."
+  },
+  "interactions": [
+    {
+      "topic": {
+        "pt-BR": "R para negar dano telegrafado",
+        "en": "R to deny telegraphed damage"
+      },
+      "principle": {
+        "pt-BR": "O valor do R não está só em prender alvo; ele também cria uma pequena janela de untargetable que pode apagar dano ou CC cuja conexão depende de acertar seu corpo naquele exato instante.",
+        "en": "R is not only about trapping targets; it also creates a brief untargetable window that can erase damage or CC whose connection depends on hitting your body at that exact instant."
+      },
+      "application": {
+        "pt-BR": "Use contra habilidades previsíveis, castadas com animação clara ou ultimates que entram por impacto direto. O melhor uso é quando negar a spell muda a luta inteira, não quando você só quer ficar estiloso.",
+        "en": "Use it against predictable abilities, clearly telegraphed casts, or ultimates that rely on direct impact. The best use is when denying that spell changes the whole fight, not when you only want style points."
+      },
+      "avoid_when": {
+        "pt-BR": "Não gaste R cedo demais se o alvo ainda não mostrou a principal ameaça. Se você ulta sem necessidade, pode perder a ferramenta que te salvava do contra-engage.",
+        "en": "Do not spend R too early if the target has not shown the main threat yet. If you ult without need, you may lose the tool that would save you from the counter-engage."
+      },
+      "risk": {
+        "pt-BR": "O erro comum é usar por reflexo e cair em posição ruim depois do pouso.",
+        "en": "The common error is using it on reflex and landing in a bad position afterwards."
+      },
+      "examples": {
+        "pt-BR": [
+          "golpe único com alto impacto",
+          "controle importante que decide o pickoff",
+          "ultimate cujo timing é mais importante que o dano bruto"
+        ],
+        "en": [
+          "single high-impact hit",
+          "important control effect that decides the pickoff",
+          "ultimate where timing matters more than raw damage"
+        ]
+      }
+    },
+    {
+      "topic": {
+        "pt-BR": "R para quebrar timing de canalização",
+        "en": "R to break channel timing"
+      },
+      "principle": {
+        "pt-BR": "O salto do R interrompe canalizações no alvo ao conectar. Isso muda lutas em que o inimigo precisa completar cast para ter valor.",
+        "en": "The R leap disrupts channels on contact. This changes fights where the enemy needs to complete a cast to get value."
+      },
+      "application": {
+        "pt-BR": "Procure esse uso quando o alvo é mais perigoso pelo que está canalizando do que pelo dano que já causou. Muitas vezes o melhor engage é simplesmente impedir a spell central.",
+        "en": "Look for this when the target is more dangerous because of what they are channeling than because of damage already dealt. Often the best engage is simply stopping the key spell."
+      },
+      "avoid_when": {
+        "pt-BR": "Não force esse uso se outro controle aliado já garante o cancelamento e o seu R seria melhor guardado para travar o carry depois.",
+        "en": "Do not force this if allied CC already guarantees the interruption and your R would be more valuable later to lock the carry."
+      },
+      "risk": {
+        "pt-BR": "Ults apressados podem interromper o canal e ainda te isolar sem folbaixa-up.",
+        "en": "Rushed ultimates can break the channel and still leave you isolated without follow-up."
+      }
+    },
+    {
+      "topic": {
+        "pt-BR": "R ofensivo para prender janela curta de kill",
+        "en": "Offensive R to lock a short kill window"
+      },
+      "principle": {
+        "pt-BR": "Camille usa R ofensivamente melhor quando o alvo ainda teria uma rota de fuga, peel ou tempo suficiente para sobreviver ao Q2.",
+        "en": "Camille uses offensive R best when the target would otherwise still have an escape route, peel, or enough time to survive Q2."
+      },
+      "application": {
+        "pt-BR": "Use quando o alvo está a um passo de sair do seu alcance, quando o flash inimigo ainda é ameaça real ou quando sua equipe precisa de zona fixa para terminar o pick.",
+        "en": "Use it when the target is one step away from leaving your range, when enemy Flash is still a real threat, or when your team needs a fixed zone to finish the pick."
+      },
+      "avoid_when": {
+        "pt-BR": "Não ulte só para encurtar distância se o alvo já está morto pelo combo sem gastar ultimate.",
+        "en": "Do not ult just to shorten distance if the target already dies to your combo without spending ultimate."
+      },
+      "risk": {
+        "pt-BR": "Você pode transformar kill limpa em sobre-extensão se prender alvo dentro de posição ruim para o restante da fight.",
+        "en": "You can turn a clean kill into overextension if you trap the target in a bad fight location."
+      }
+    },
+    {
+      "topic": {
+        "pt-BR": "R como reposicionamento",
+        "en": "R as repositioning"
+      },
+      "principle": {
+        "pt-BR": "Às vezes o melhor valor do R é reposicionar seu corpo para dentro da luta certa ou para fora do timing ruim, e não apenas prender alguém.",
+        "en": "Sometimes the best value of R is repositioning your body into the right fight or out of a bad timing window, not merely trapping someone."
+      },
+      "application": {
+        "pt-BR": "Use para atravessar uma linha ruim de skillshots, escapar de zona de controle imediata ou reposicionar para o lado do alvo que favorece seu Q2.",
+        "en": "Use it to cross a bad line of skillshots, escape immediate control zones, or reposition to the side of the target that favors your Q2."
+      },
+      "avoid_when": {
+        "pt-BR": "Se o reposicionamento não cria vantagem real, guardar R costuma valer mais.",
+        "en": "If the reposition does not create a real advantage, holding R is usually worth more."
+      },
+      "risk": {
+        "pt-BR": "Repositionar sem plano de saída te prende no lugar errado com a ult já gasta.",
+        "en": "Repositioning without an exit plan leaves you stuck in the wrong spot with ultimate already spent."
+      }
+    },
+    {
+      "topic": {
+        "pt-BR": "Quando o R evita o impacto em você, mas não “anula” a habilidade como o iniciante espera",
+        "en": "When R avoids the impact on you, but does not “cancel” the spell the way beginners expect"
+      },
+      "principle": {
+        "pt-BR": "Ficar intocável durante o salto não significa que toda habilidade inimiga some do jogo. Em vários casos você só evita o efeito em si, enquanto a spell ainda é gasta, continua existindo no mapa ou mantém parte do comportamento original.",
+        "en": "Becoming untargetable during the leap does not mean every enemy spell disappears. In many cases you only avoid the effect on yourself, while the spell is still spent, still exists on the map, or keeps part of its original behavior."
+      },
+      "application": {
+        "pt-BR": "Trate o R como ferramenta para negar o efeito em você e reescrever o timing da luta, não como botão mágico que “desliga” qualquer ultimate inimiga.",
+        "en": "Treat R as a tool to deny the effect on you and rewrite the fight timing, not as a magic button that “turns off” every enemy ultimate."
+      },
+      "avoid_when": {
+        "pt-BR": "Não assuma que o inimigo ficará inútil depois. Alguns campeões ainda mantêm pressão, recast ou zona perigosa após você desviar.",
+        "en": "Do not assume the enemy becomes harmless afterwards. Some champions still keep pressure, recast access, or dangerous zones after you dodge."
+      },
+      "risk": {
+        "pt-BR": "O erro clássico é desviar da primeira parte e caminhar de volta para a segunda.",
+        "en": "The classic mistake is dodging the first part and walking back into the second."
+      },
+      "examples": {
+        "pt-BR": [
+          "desviar do impacto principal, mas cair dentro de área ainda perigosa",
+          "escapar do controle em você, mas não do follow-up do time inimigo",
+          "forçar spell importante, porém sem realmente ganhar posição depois"
+        ],
+        "en": [
+          "dodging the main impact but landing inside a still-dangerous area",
+          "avoiding the CC on you but not the enemy team follow-up",
+          "forcing an important spell without actually gaining position afterward"
+        ]
+      }
+    },
+    {
+      "topic": {
+        "pt-BR": "E para visão antes de compromisso total",
+        "en": "E for vision before full commitment"
+      },
+      "principle": {
+        "pt-BR": "O primeiro cast do E serve como ferramenta de informação tanto quanto de engage. Confirmar visão antes de sair da parede muda se a jogada é limpa ou suicida.",
+        "en": "The first E cast is an information tool as much as an engage tool. Confirming vision before leaving the wall changes whether the play is clean or suicidal."
+      },
+      "application": {
+        "pt-BR": "Use em arbustos, corredores e entradas de rio quando o medo não é o alvo principal, e sim a cobertura inimiga. Ver primeiro vale mais do que entrar primeiro.",
+        "en": "Use it on brushes, corridors, and river entrances when the threat is not the main target but enemy backup. Seeing first matters more than entering first."
+      },
+      "avoid_when": {
+        "pt-BR": "Não use como hábito automático se o reveal não muda sua decisão. Guardar E pode ser melhor que “gastar para checar”.",
+        "en": "Do not use it automatically if the reveal will not change your decision. Holding E can be better than “spending it to check.”"
+      },
+      "risk": {
+        "pt-BR": "Você entrega cooldown e intenção se mostrar ângulo cedo demais.",
+        "en": "You reveal cooldown and intention if you show your angle too early."
+      }
+    },
+    {
+      "topic": {
+        "pt-BR": "E como ferramenta de ameaça, não só de entrada",
+        "en": "E as a threat tool, not only an entry tool"
+      },
+      "principle": {
+        "pt-BR": "Muitas lutas ficam ganhas sem você castar o E. O simples fato de escondê-lo força respeito, gap no spacing e erros de recuo.",
+        "en": "Many fights are won without actually casting E. Merely holding it forces respect, spacing gaps, and retreat errors."
+      },
+      "application": {
+        "pt-BR": "Na side lane e em flancos, manter o E pronto costuma gerar mais valor do que gastar cedo em engage previsível.",
+        "en": "In side lane and flanks, keeping E ready often creates more value than spending it early on a predictable engage."
+      },
+      "avoid_when": {
+        "pt-BR": "Se o alvo já está exposto e não há risco relevante de contra-jogada, segurar demais também perde janela.",
+        "en": "If the target is already exposed and there is no relevant counterplay risk, holding too long also loses the window."
+      },
+      "risk": {
+        "pt-BR": "A indecisão vira o oposto da disciplina: você morre com o E na mão e sem ter criado ameaça real.",
+        "en": "Indecision becomes the opposite of discipline: you die holding E without creating real threat."
+      }
+    },
+    {
+      "topic": {
+        "pt-BR": "Q2 como ponto de verdade da jogada",
+        "en": "Q2 as the truth point of the play"
+      },
+      "principle": {
+        "pt-BR": "Em muitas trocas, o que decide se a jogada foi boa não é o engage, e sim se você chegou ao Q2 no timing certo, com espaço e sem se desorganizar.",
+        "en": "In many trades, what decides whether the play was good is not the engage itself, but whether you reached Q2 at the right timing, with space and without losing structure."
+      },
+      "application": {
+        "pt-BR": "Monte a troca em torno do segundo Q: use W, passiva, movimentação e R/E para comprar o tempo exato que ele precisa.",
+        "en": "Build the trade around the second Q: use W, passive, movement, and R/E to buy the exact time it needs."
+      },
+      "avoid_when": {
+        "pt-BR": "Não troque toda sua vida por um Q2 se o estado da wave ou do mapa destrói o pós-troca.",
+        "en": "Do not trade all your HP for one Q2 if the wave or map state ruins the post-trade."
+      },
+      "risk": {
+        "pt-BR": "Q2 precipitado perde dano, perde ritmo e costuma entregar a volta da troca para o rival.",
+        "en": "A rushed Q2 loses damage, loses rhythm, and often hands the return trade back to the opponent."
+      }
+    },
+    {
+      "topic": {
+        "pt-BR": "Sequenciamento passiva -> troca -> saída",
+        "en": "Passive -> trade -> exit sequencing"
+      },
+      "principle": {
+        "pt-BR": "Camille troca melhor quando o escudo entra no tipo de dano que realmente importa naquela janela e quando você já sabe como sair depois do impacto.",
+        "en": "Camille trades best when the shield matches the damage type that actually matters in that window and when you already know how to exit after impact."
+      },
+      "application": {
+        "pt-BR": "Antes de forçar, pergunte: estou proccando a passiva para o dano certo? Minha saída depende do E? Vou precisar do R defensivo depois?",
+        "en": "Before forcing, ask: am I proccing passive for the right damage type? Does my exit depend on E? Will I need defensive R afterwards?"
+      },
+      "avoid_when": {
+        "pt-BR": "Não entre em troca longa sem saber se seu escudo vai realmente proteger do dano principal do rival.",
+        "en": "Do not enter extended trades without knowing whether your shield will actually block the opponent’s main damage pattern."
+      },
+      "risk": {
+        "pt-BR": "Trocar com passiva “errada” costuma parecer aceitável por um segundo e péssimo logo depois.",
+        "en": "Trading with the “wrong” passive often feels acceptable for a second and terrible right after."
+      }
+    }
+  ],
+  "metadata": {
+    "data_quality": "high",
+    "last_updated": "2026-04-09",
+    "pipeline_alignment": [
+      "pipeline/data_rules.md",
+      "pipeline/content_priority.md",
+      "pipeline/scoring_rules.md"
+    ],
+    "scope": "round3_execution_reference"
+  }
+}

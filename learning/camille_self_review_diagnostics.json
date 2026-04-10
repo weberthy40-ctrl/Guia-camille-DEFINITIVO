@@ -1,0 +1,413 @@
+{
+  "overview": {
+    "pt-BR": "Diagnóstico rápido de review para Camille. Estes blocos existem para responder “onde a jogada quebrou de verdade?” e não apenas “onde eu morri?”.",
+    "en": "Fast review diagnostics for Camille. These blocks exist to answer “where did the play truly break?” and not only “where did I die?”"
+  },
+  "diagnosis_rule": {
+    "pt-BR": "Faça a primeira pergunta no ponto em que a jogada ainda podia ser salva. Review útil começa antes do desastre final.",
+    "en": "Ask the first question at the point where the play could still be saved. Useful review starts before the final disaster."
+  },
+  "diagnostics": [
+    {
+      "diagnostic_key": "died_early_in_lane",
+      "trigger_question": {
+        "pt-BR": "Se eu morri cedo, qual foi o erro real?",
+        "en": "If I died early, what was the real mistake?"
+      },
+      "likely_root_causes": [
+        {
+          "cause": {
+            "pt-BR": "respeito tardio",
+            "en": "late respect"
+          },
+          "check": {
+            "pt-BR": "eu já estava tomando dano desnecessário um wave antes?",
+            "en": "was I already taking unnecessary damage one wave earlier?"
+          }
+        },
+        {
+          "cause": {
+            "pt-BR": "wave ruim",
+            "en": "bad wave state"
+          },
+          "check": {
+            "pt-BR": "a wave me empurrou para uma troca ou gank previsível?",
+            "en": "did the wave push me into a predictable trade or gank?"
+          }
+        },
+        {
+          "cause": {
+            "pt-BR": "E sem saída",
+            "en": "E with no exit"
+          },
+          "check": {
+            "pt-BR": "gastei o E para algo que não era kill confirmada ou janela limpa?",
+            "en": "did I spend E on something that was not a confirmed kill or clean window?"
+          }
+        }
+      ],
+      "first_fix": {
+        "pt-BR": "Volte 20-30 segundos e encontre a primeira decisão que tirou seus recursos. Normalmente a morte começou antes da câmera mostrar perigo.",
+        "en": "Go back 20–30 seconds and find the first decision that removed your resources. The death usually started before the camera showed danger."
+      },
+      "best_followup_modules": [
+        "data/learning/camille_common_mistakes.json",
+        "data/learning/camille_phase_checklists.json"
+      ]
+    },
+    {
+      "diagnostic_key": "could_not_pressure_side",
+      "trigger_question": {
+        "pt-BR": "Se eu não consegui pressionar side, o que faltava?",
+        "en": "If I could not pressure side lane, what was missing?"
+      },
+      "likely_root_causes": [
+        {
+          "cause": {
+            "pt-BR": "estado ruim de mapa",
+            "en": "bad map state"
+          },
+          "check": {
+            "pt-BR": "eu tinha informação suficiente das ameaças antes de avançar?",
+            "en": "did I have enough information on threats before advancing?"
+          }
+        },
+        {
+          "cause": {
+            "pt-BR": "build não servia ao plano",
+            "en": "build did not serve the plan"
+          },
+          "check": {
+            "pt-BR": "minha build estava voltada para side ou para fight frontal?",
+            "en": "was my build aimed at side lane or front-to-back fighting?"
+          }
+        },
+        {
+          "cause": {
+            "pt-BR": "disciplina fraca de saída",
+            "en": "weak exit discipline"
+          },
+          "check": {
+            "pt-BR": "eu sabia qual seria meu ponto de saída ou só fui ficando?",
+            "en": "did I know my exit point or did I just stay longer and longer?"
+          }
+        }
+      ],
+      "first_fix": {
+        "pt-BR": "Descubra se o problema foi macro, itemização ou overstay. “Não deu para sidear” é conclusão vaga demais para melhorar.",
+        "en": "Find out whether the problem was macro, itemization, or overstay. “I could not side lane” is too vague to improve from."
+      },
+      "best_followup_modules": [
+        "data/learning/camille_macro.json",
+        "data/learning/camille_build_decision.json",
+        "data/learning/camille_mistake_corrections.json"
+      ]
+    },
+    {
+      "diagnostic_key": "entered_teamfight_and_died",
+      "trigger_question": {
+        "pt-BR": "Se eu entrei e morri em teamfight, o erro foi alvo, ângulo, timing ou recursos?",
+        "en": "If I entered and died in a teamfight, was the mistake target, angle, timing, or resources?"
+      },
+      "likely_root_causes": [
+        {
+          "cause": {
+            "pt-BR": "alvo errado",
+            "en": "wrong target"
+          },
+          "check": {
+            "pt-BR": "o alvo travado realmente mudava a luta?",
+            "en": "did the locked target truly change the fight?"
+          }
+        },
+        {
+          "cause": {
+            "pt-BR": "ângulo ruim",
+            "en": "bad angle"
+          },
+          "check": {
+            "pt-BR": "eu entrei frontal quando a luta pedia flank ou paciência?",
+            "en": "did I enter frontally when the fight asked for a flank or patience?"
+          }
+        },
+        {
+          "cause": {
+            "pt-BR": "timing cedo demais",
+            "en": "too-early timing"
+          },
+          "check": {
+            "pt-BR": "meu time já podia acompanhar ou eu fui sozinho?",
+            "en": "could my team actually follow or did I go alone?"
+          }
+        },
+        {
+          "cause": {
+            "pt-BR": "recurso insuficiente",
+            "en": "insufficient resources"
+          },
+          "check": {
+            "pt-BR": "entrei sem passiva, sem vida ou sem Q2 útil?",
+            "en": "did I enter without passive, without HP, or without a useful Q2?"
+          }
+        }
+      ],
+      "first_fix": {
+        "pt-BR": "Classifique a morte em uma dessas quatro caixas antes de rever o resto. Camille melhora muito quando a review deixa de ser “entrei mal” e vira causa nomeada.",
+        "en": "Classify the death into one of these four boxes before reviewing anything else. Camille improves a lot when review stops being “I went in badly” and becomes a named cause."
+      },
+      "best_followup_modules": [
+        "data/learning/camille_execution_reference.json",
+        "data/learning/camille_review_checklists.json",
+        "data/learning/camille_game_review_triggers.json"
+      ]
+    },
+    {
+      "diagnostic_key": "failed_to_convert_lead",
+      "trigger_question": {
+        "pt-BR": "Se eu ganhei lane e não converti, onde a Camille falhou?",
+        "en": "If I won lane and did not convert, where did Camille fail?"
+      },
+      "likely_root_causes": [
+        {
+          "cause": {
+            "pt-BR": "side sem disciplina",
+            "en": "undisciplined side lane"
+          },
+          "check": {
+            "pt-BR": "minha pressão lateral estava rendendo mapa ou só risco?",
+            "en": "was my side pressure creating map value or only risk?"
+          }
+        },
+        {
+          "cause": {
+            "pt-BR": "agrupar no timing errado",
+            "en": "grouping at the wrong time"
+          },
+          "check": {
+            "pt-BR": "eu larguei side cedo demais ou cheguei tarde demais na luta chave?",
+            "en": "did I leave side too early or arrive too late to the key fight?"
+          }
+        },
+        {
+          "cause": {
+            "pt-BR": "ego de engage",
+            "en": "engage ego"
+          },
+          "check": {
+            "pt-BR": "eu comecei luta porque estava forte ou porque era a jogada certa?",
+            "en": "did I start the fight because I was fed or because it was the correct play?"
+          }
+        }
+      ],
+      "first_fix": {
+        "pt-BR": "Procure a primeira jogada em que sua vantagem deixou de aumentar o mapa. A queda costuma começar no uso ruim do tempo, não no primeiro throw visível.",
+        "en": "Look for the first play where your lead stopped increasing your map value. The drop usually begins with poor time usage, not the first visible throw."
+      },
+      "best_followup_modules": [
+        "data/learning/camille_macro.json",
+        "data/learning/camille_coach_paths.json",
+        "data/learning/camille_improvement_matrix.json"
+      ]
+    },
+    {
+      "diagnostic_key": "no_kill_pressure_lane",
+      "trigger_question": {
+        "pt-BR": "Se eu nunca tive pressão de kill na lane, o que estava faltando?",
+        "en": "If I never had kill pressure in lane, what was missing?"
+      },
+      "likely_root_causes": [
+        {
+          "cause": {
+            "pt-BR": "Q2 e passiva sem sincronização",
+            "en": "Q2 and passive unsynced"
+          },
+          "check": {
+            "pt-BR": "eu estava tentando forçar dano real sem preparar a troca?",
+            "en": "was I forcing true damage without setting the trade up?"
+          }
+        },
+        {
+          "cause": {
+            "pt-BR": "wave contra mim",
+            "en": "wave against me"
+          },
+          "check": {
+            "pt-BR": "a wave sempre jogava a favor do rival na hora da troca?",
+            "en": "was the wave always favoring the enemy when I traded?"
+          }
+        },
+        {
+          "cause": {
+            "pt-BR": "medo excessivo ou respeito excessivo",
+            "en": "excessive fear or overrespect"
+          },
+          "check": {
+            "pt-BR": "eu deixei de punir janelas que eram reais?",
+            "en": "did I skip punish windows that were actually real?"
+          }
+        }
+      ],
+      "first_fix": {
+        "pt-BR": "Separe se faltou execução, recurso ou coragem disciplinada. Cada um desses exige treino diferente.",
+        "en": "Separate whether you lacked execution, resources, or disciplined courage. Each one needs a different type of practice."
+      },
+      "best_followup_modules": [
+        "data/learning/camille_combos.json",
+        "data/learning/camille_mechanics.json",
+        "data/learning/camille_archetypes.json"
+      ]
+    },
+    {
+      "diagnostic_key": "behind_and_still_forcing",
+      "trigger_question": {
+        "pt-BR": "Se eu fiquei atrás e continuei forçando, o que eu não aceitei?",
+        "en": "If I fell behind and kept forcing, what did I fail to accept?"
+      },
+      "likely_root_causes": [
+        {
+          "cause": {
+            "pt-BR": "negação do estado do jogo",
+            "en": "denial of game state"
+          },
+          "check": {
+            "pt-BR": "eu ainda estava buildando e jogando como se estivesse em vantagem?",
+            "en": "was I still building and playing as if I were ahead?"
+          }
+        },
+        {
+          "cause": {
+            "pt-BR": "desespero de recuperar tudo",
+            "en": "desperation to recover everything"
+          },
+          "check": {
+            "pt-BR": "eu tentei ganhar a partida em uma jogada só?",
+            "en": "did I try to win the whole game in a single play?"
+          }
+        },
+        {
+          "cause": {
+            "pt-BR": "falta de disciplina defensiva",
+            "en": "lack of defensive discipline"
+          },
+          "check": {
+            "pt-BR": "eu guardei E/R para sobreviver quando precisava?",
+            "en": "did I hold E/R to survive when needed?"
+          }
+        }
+      ],
+      "first_fix": {
+        "pt-BR": "Revise onde o desespero tomou a frente do plano. Atrás, a Camille melhora quando aprende a aceitar janelas menores.",
+        "en": "Review where desperation overtook the plan. From behind, Camille improves when she learns to accept smaller windows."
+      },
+      "best_followup_modules": [
+        "data/learning/camille_faq.json",
+        "data/learning/camille_player_profiles.json",
+        "data/learning/camille_mistake_corrections.json"
+      ]
+    },
+    {
+      "diagnostic_key": "could_not_play_against_poke",
+      "trigger_question": {
+        "pt-BR": "Se eu não consegui jogar contra poke, o problema foi setup, spacing ou ego?",
+        "en": "If I could not play against poke, was the problem setup, spacing, or ego?"
+      },
+      "likely_root_causes": [
+        {
+          "cause": {
+            "pt-BR": "setup ruim",
+            "en": "poor setup"
+          },
+          "check": {
+            "pt-BR": "eu entrei com rune/item/start que não ajudavam a sobreviver até o spike?",
+            "en": "did I start with runes/items/setup that did not help me survive until my spike?"
+          }
+        },
+        {
+          "cause": {
+            "pt-BR": "spacing ruim",
+            "en": "poor spacing"
+          },
+          "check": {
+            "pt-BR": "eu comprava poke desnecessário só para mostrar presença?",
+            "en": "was I buying unnecessary poke just to show presence?"
+          }
+        },
+        {
+          "cause": {
+            "pt-BR": "teimosia de trade",
+            "en": "trade stubbornness"
+          },
+          "check": {
+            "pt-BR": "eu forcei troca quando o objetivo real era chegar inteiro na próxima janela?",
+            "en": "did I force trades when the real goal was simply reaching the next window with enough HP?"
+          }
+        }
+      ],
+      "first_fix": {
+        "pt-BR": "Diferencie “fiquei sem jogar” de “me recusei a jogar devagar”. Muito poke punindo Camille vem mais da segunda opção.",
+        "en": "Differentiate “I got shut out” from “I refused to play slowly.” A lot of poke that punishes Camille comes from the second option."
+      },
+      "best_followup_modules": [
+        "data/learning/camille_build_decision.json",
+        "data/learning/camille_runes_decision.json",
+        "data/learning/camille_archetypes.json"
+      ]
+    },
+    {
+      "diagnostic_key": "mechanics_looked_good_but_result_bad",
+      "trigger_question": {
+        "pt-BR": "Se a jogada parecia bonita mas o resultado foi ruim, o que estava faltando?",
+        "en": "If the play looked flashy but ended badly, what was missing?"
+      },
+      "likely_root_causes": [
+        {
+          "cause": {
+            "pt-BR": "critério",
+            "en": "judgment"
+          },
+          "check": {
+            "pt-BR": "o altalight existia, mas era o plano mais consistente?",
+            "en": "the highlight existed, but was it the most consistent plan?"
+          }
+        },
+        {
+          "cause": {
+            "pt-BR": "continuação",
+            "en": "continuation"
+          },
+          "check": {
+            "pt-BR": "eu sabia o que faria depois do primeiro acerto?",
+            "en": "did I know what I would do after the first hit?"
+          }
+        },
+        {
+          "cause": {
+            "pt-BR": "contexto",
+            "en": "context"
+          },
+          "check": {
+            "pt-BR": "a jogada cabia no estado real de recursos e mapa?",
+            "en": "did the play fit the real state of resources and map?"
+          }
+        }
+      ],
+      "first_fix": {
+        "pt-BR": "Rebaixe a jogada de “bonita” para “justificada”. Camille premia beleza quando ela nasce de contexto correto.",
+        "en": "Downgrade the play from “flashy” to “justified.” Camille rewards beauty when it grows out of correct context."
+      },
+      "best_followup_modules": [
+        "data/learning/camille_improvement_priorities.json",
+        "data/learning/camille_common_mistakes.json"
+      ]
+    }
+  ],
+  "metadata": {
+    "data_quality": "high",
+    "last_updated": "2026-04-09",
+    "pipeline_alignment": [
+      "data_rules",
+      "content_priority"
+    ],
+    "scope": "parallel_2_round5_mistakes_review_system"
+  }
+}

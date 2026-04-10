@@ -1,0 +1,412 @@
+{
+  "overview": {
+    "pt-BR": "Protocolos de recuperação de decisão para a Camille quando uma jogada sai torta. O foco é reconhecer o erro cedo, cortar o efeito dominó e resetar o plano sem entrar em pânico.",
+    "en": "Decision-recovery protocols for Camille when a play goes wrong. The focus is to recognize the error early, cut the domino effect, and reset the plan without panicking."
+  },
+  "reset_rule": {
+    "pt-BR": "Depois de um erro, não tente recuperar tudo na jogada seguinte. Camille costuma perder o jogo quando erra duas decisões em sequência tentando apagar a primeira.",
+    "en": "After a mistake, do not try to recover everything on the next play. Camille usually loses the game when she stacks a second bad decision on top of the first one."
+  },
+  "recovery_cases": [
+    {
+      "case_key": "missed_engage",
+      "title": {
+        "pt-BR": "Errei o engage",
+        "en": "I missed the engage"
+      },
+      "recognize_fast": {
+        "pt-BR": "Você entrou sem folbaixa-up real, bateu no alvo errado ou o engage saiu torto antes do Q2 valer.",
+        "en": "You engaged without real follow-up, hit the wrong target, or the entry got awkward before Q2 mattered."
+      },
+      "avoid_domino": {
+        "pt-BR": "Pare de insistir no mesmo alvo só porque já gastou recurso. Saia do modo túnel.",
+        "en": "Stop insisting on the same target just because you already spent resources. Get out of tunnel vision."
+      },
+      "first_reset": {
+        "pt-BR": "Reavalie vida, rota de saída e se ainda existe segunda janela; se não existir, recue e troque o plano.",
+        "en": "Re-evaluate HP, exit route, and whether a second window still exists; if not, disengage and switch plans."
+      },
+      "practical_recovery": {
+        "pt-BR": "Converta a jogada falha em gasto de recurso inimigo, proteção do carry ou reposicionamento para a próxima janela.",
+        "en": "Turn the failed play into enemy resource trade, carry protection, or repositioning for the next window."
+      },
+      "next_safe_plan": {
+        "pt-BR": "Jogue a próxima sequência com mais leitura e menos urgência. Sua prioridade vira não entregar a volta.",
+        "en": "Play the next sequence with more reading and less urgency. Your priority becomes denying the comeback."
+      },
+      "dont_do_this": {
+        "pt-BR": "Não use flash ou R só para esconder que o engage inicial já nasceu ruim.",
+        "en": "Do not burn flash or R just to hide that the initial engage was already bad."
+      },
+      "training_focus": {
+        "pt-BR": "Revise engages ruins e pause antes do E para identificar a informação que faltou.",
+        "en": "Review bad engages and pause before E to identify what information was missing."
+      },
+      "linked_modules": [
+        "data/learning/camille_execution_reference.json",
+        "data/learning/camille_game_review_triggers.json"
+      ]
+    },
+    {
+      "case_key": "e_spent_for_nothing",
+      "title": {
+        "pt-BR": "Gastei E sem ganhar nada",
+        "en": "I spent E for nothing"
+      },
+      "recognize_fast": {
+        "pt-BR": "O E saiu, não gerou dano relevante, não criou kill nem rota de saída melhor, e agora sua ameaça sumiu.",
+        "en": "E was spent, created no relevant damage, no kill, and no better exit route, and now your threat is gone."
+      },
+      "avoid_domino": {
+        "pt-BR": "Aceite a perda de pressão daquele momento. O pior erro agora é fingir que o E ainda existe.",
+        "en": "Accept the loss of pressure for that moment. The worst mistake now is pretending E still exists."
+      },
+      "first_reset": {
+        "pt-BR": "Jogue defensivo até o cooldown voltar e use wave, W e posição para comprar tempo.",
+        "en": "Play defensively until cooldown returns and use wave, W, and positioning to buy time."
+      },
+      "practical_recovery": {
+        "pt-BR": "Transforme o erro em contenção: negar chase inimigo já é recuperação válida.",
+        "en": "Turn the error into containment: denying the enemy chase is already a valid recovery."
+      },
+      "next_safe_plan": {
+        "pt-BR": "Na próxima janela, pergunte primeiro qual função o E vai cumprir: entrar, sair, visão ou pick.",
+        "en": "On the next window, ask first what job E will perform: enter, leave, vision, or pick."
+      },
+      "dont_do_this": {
+        "pt-BR": "Não tente compensar usando o R em pânico só porque o E falhou.",
+        "en": "Do not try to compensate by panic-using R just because E failed."
+      },
+      "training_focus": {
+        "pt-BR": "Treine blocos separados de E para engage, escape e visão até a função sair automática.",
+        "en": "Practice separate E blocks for engage, escape, and vision until the function becomes automatic."
+      },
+      "linked_modules": [
+        "data/learning/camille_practice_scenarios.json",
+        "data/learning/camille_mechanics.json"
+      ]
+    },
+    {
+      "case_key": "r_misused",
+      "title": {
+        "pt-BR": "Usei R mal",
+        "en": "I misused R"
+      },
+      "recognize_fast": {
+        "pt-BR": "O R não negou o que precisava negar, não travou o alvo certo ou só atrasou sua morte.",
+        "en": "R did not deny what it needed to deny, did not trap the right target, or only delayed your death."
+      },
+      "avoid_domino": {
+        "pt-BR": "Pare de jogar como se ainda tivesse ferramenta de reset defensivo disponível.",
+        "en": "Stop playing as if you still had your defensive reset tool available."
+      },
+      "first_reset": {
+        "pt-BR": "Rebaixe o nível de ambição da luta imediatamente e recalcule quem você ainda pode ameaçar sem R.",
+        "en": "Immediately lower the fight’s ambition level and recalculate who you can still threaten without R."
+      },
+      "practical_recovery": {
+        "pt-BR": "Se o alvo principal escapou, mude para função de limpeza, peel ou contenção da luta.",
+        "en": "If the main target escaped, switch into cleanup, peel, or fight containment duty."
+      },
+      "next_safe_plan": {
+        "pt-BR": "Planeje o próximo uso do R antes do engage: dodge, reposicionamento, trava de alvo ou compra de tempo.",
+        "en": "Plan the next R use before the engage: dodge, reposition, target lock, or time buy."
+      },
+      "dont_do_this": {
+        "pt-BR": "Não tente justificar um R ruim entrando ainda mais fundo sem recurso.",
+        "en": "Do not try to justify a bad R by diving even deeper without resources."
+      },
+      "training_focus": {
+        "pt-BR": "Revise apenas lances de R e marque qual função o cast deveria ter cumprido.",
+        "en": "Review only R sequences and mark which job the cast was supposed to do."
+      },
+      "linked_modules": [
+        "data/learning/camille_advanced_interactions.json",
+        "data/learning/camille_execution_reference.json"
+      ]
+    },
+    {
+      "case_key": "q2_timing_lost",
+      "title": {
+        "pt-BR": "Perdi o timing do Q2",
+        "en": "I lost Q2 timing"
+      },
+      "recognize_fast": {
+        "pt-BR": "Você apressou o hit sem valor verdadeiro ou demorou tanto que a janela já fechou.",
+        "en": "You rushed the hit with no real value or waited so long that the window already closed."
+      },
+      "avoid_domino": {
+        "pt-BR": "Não transforme um Q2 ruim em all-in desesperado.",
+        "en": "Do not turn a bad Q2 into a desperate all-in."
+      },
+      "first_reset": {
+        "pt-BR": "Volte para troca curta ou desengaje. Recomece a sequência em vez de insistir na versão quebrada dela.",
+        "en": "Return to a short trade or disengage. Restart the sequence instead of forcing the broken version of it."
+      },
+      "practical_recovery": {
+        "pt-BR": "Use o resto da janela para reposicionar, segurar recurso ou só cobrar espaço.",
+        "en": "Use the rest of the window to reposition, hold resources, or simply tax space."
+      },
+      "next_safe_plan": {
+        "pt-BR": "Confirme primeiro a distância e a resposta rival antes de preparar novo Q2.",
+        "en": "Confirm distance and enemy answer first before setting up a new Q2."
+      },
+      "dont_do_this": {
+        "pt-BR": "Não corra reto atrás do alvo só para salvar a estética do segundo hit.",
+        "en": "Do not run straight at the target just to save the look of the second hit."
+      },
+      "training_focus": {
+        "pt-BR": "Treino curto de ritmo do Q2 com spacing e alvo em movimento.",
+        "en": "Short Q2 rhythm practice with spacing and a moving target."
+      },
+      "linked_modules": [
+        "data/learning/camille_practice_scenarios.json",
+        "data/learning/camille_execution_reference.json"
+      ]
+    },
+    {
+      "case_key": "entered_too_early",
+      "title": {
+        "pt-BR": "Entrei cedo demais",
+        "en": "I entered too early"
+      },
+      "recognize_fast": {
+        "pt-BR": "Você virou a primeira resposta do inimigo antes de peel, flash ou recursos importantes saírem.",
+        "en": "You became the enemy’s first answer before peel, flash, or important resources were spent."
+      },
+      "avoid_domino": {
+        "pt-BR": "Abandone a ideia de carryar a luta sozinho naquela fração de segundo.",
+        "en": "Abandon the idea of solo-carrying the fight in that split second."
+      },
+      "first_reset": {
+        "pt-BR": "Reposicione para a borda da luta e recalcule a segunda entrada.",
+        "en": "Reposition to the edge of the fight and recalculate the second entry."
+      },
+      "practical_recovery": {
+        "pt-BR": "Se sobreviver, sua função muda de explosão para ameaça latente e coleta de erro inimigo.",
+        "en": "If you survive, your role shifts from explosion to latent threat and enemy mistake collection."
+      },
+      "next_safe_plan": {
+        "pt-BR": "Na próxima luta, espere um recurso chave cair antes de se comprometer.",
+        "en": "In the next fight, wait for a key resource to fall before committing."
+      },
+      "dont_do_this": {
+        "pt-BR": "Não chame de azar o que foi ansiedade de entrada.",
+        "en": "Do not call it bad luck when it was entry impatience."
+      },
+      "training_focus": {
+        "pt-BR": "Reviews de teamfight focados só no segundo anterior ao engage.",
+        "en": "Teamfight reviews focused only on the second before the engage."
+      },
+      "linked_modules": [
+        "data/learning/camille_microtips.json",
+        "data/learning/camille_review_checklists.json"
+      ]
+    },
+    {
+      "case_key": "waited_too_long",
+      "title": {
+        "pt-BR": "Esperei demais e perdi a janela",
+        "en": "I waited too long and missed the window"
+      },
+      "recognize_fast": {
+        "pt-BR": "A luta ou a lane te deram uma abertura, mas você ficou processando até ela sumir.",
+        "en": "The fight or lane gave you an opening, but you kept processing until it disappeared."
+      },
+      "avoid_domino": {
+        "pt-BR": "Não corrija a passividade com um engage atrasado e pior ainda.",
+        "en": "Do not fix passivity with an even later and worse engage."
+      },
+      "first_reset": {
+        "pt-BR": "Aceite que a janela passou e reposicione para a próxima, em vez de perseguir a sombra dela.",
+        "en": "Accept that the window passed and reposition for the next one instead of chasing its shadow."
+      },
+      "practical_recovery": {
+        "pt-BR": "Retome visão, espaço ou wave para criar uma janela nova, não uma cópia falsa da antiga.",
+        "en": "Recover vision, space, or wave state to create a new window, not a fake copy of the old one."
+      },
+      "next_safe_plan": {
+        "pt-BR": "Simplifique a leitura: se dois sinais chave aparecerem juntos, entre; não espere a perfeição total.",
+        "en": "Simplify the read: if two key signals appear together, go; do not wait for total perfection."
+      },
+      "dont_do_this": {
+        "pt-BR": "Não trate excesso de cautela como disciplina quando ele já virou atraso crônico.",
+        "en": "Do not treat over-caution as discipline once it has become chronic delay."
+      },
+      "training_focus": {
+        "pt-BR": "Treino de confirmação rápida de janela em VOD curta ou scrim review.",
+        "en": "Fast window-confirmation practice in short VOD or scrim review."
+      },
+      "linked_modules": [
+        "data/learning/camille_coach_paths.json",
+        "data/learning/camille_short_training_blocks.json"
+      ]
+    },
+    {
+      "case_key": "bad_side_lane_force",
+      "title": {
+        "pt-BR": "Forcei side lane ruim",
+        "en": "I forced a bad side lane"
+      },
+      "recognize_fast": {
+        "pt-BR": "Você está puxando sem visão, sem rota, sem prioridade do time ou sem poder real de duelo.",
+        "en": "You are pushing without vision, without route, without team priority, or without real dueling power."
+      },
+      "avoid_domino": {
+        "pt-BR": "Pare de andar mais uma wave só porque já andou demais.",
+        "en": "Stop walking one more wave just because you already walked too far."
+      },
+      "first_reset": {
+        "pt-BR": "Recolha a side até um ponto jogável e reconstrua informação antes de continuar.",
+        "en": "Pull the side back to a playable point and rebuild information before continuing."
+      },
+      "practical_recovery": {
+        "pt-BR": "Transforme a pressão ruim em rotação segura, visão lateral ou cobertura de objetivo.",
+        "en": "Turn the bad pressure into a safe rotation, side vision, or objective cover."
+      },
+      "next_safe_plan": {
+        "pt-BR": "Na próxima side, confirme primeiro quem responde, quem some no mapa e o que seu time faz do outro lado.",
+        "en": "On the next side lane, confirm who answers, who is missing, and what your team does on the other side first."
+      },
+      "dont_do_this": {
+        "pt-BR": "Não use a desculpa de split push para mascarar leitura ruim de mapa.",
+        "en": "Do not use split push as an excuse to mask bad map reading."
+      },
+      "training_focus": {
+        "pt-BR": "Reviews curtos de side com foco em visão, rota de saída e valor real gerado.",
+        "en": "Short side-lane reviews focused on vision, exit route, and real value created."
+      },
+      "linked_modules": [
+        "data/learning/camille_macro.json",
+        "data/learning/camille_state_based_adjustments.json"
+      ]
+    },
+    {
+      "case_key": "teamfight_without_resources",
+      "title": {
+        "pt-BR": "Joguei teamfight sem recurso",
+        "en": "I played a teamfight without resources"
+      },
+      "recognize_fast": {
+        "pt-BR": "Você entrou sem flash, sem R, sem vida ou sem timing e mesmo assim cobrou de si a mesma função de pico.",
+        "en": "You entered without flash, without R, without HP, or without timing and still demanded the same peak function from yourself."
+      },
+      "avoid_domino": {
+        "pt-BR": "Pare de se comparar com a versão da luta em que você tinha todas as ferramentas.",
+        "en": "Stop comparing yourself to the version of the fight where you had every tool."
+      },
+      "first_reset": {
+        "pt-BR": "Redefina sua função da luta: pick tardio, folbaixa-up, peel ou zona de ameaça.",
+        "en": "Redefine your job in the fight: late pick, follow-up, peel, or threat zone."
+      },
+      "practical_recovery": {
+        "pt-BR": "Jogue por valor menor, mas consistente; Camille sem recurso ainda pode ganhar tempo e punir excesso.",
+        "en": "Play for smaller but consistent value; Camille without resources can still buy time and punish overreach."
+      },
+      "next_safe_plan": {
+        "pt-BR": "Planeje lutas futuras com base nas ferramentas realmente disponíveis, não nas ideais.",
+        "en": "Plan future fights around the tools actually available, not the ideal ones."
+      },
+      "dont_do_this": {
+        "pt-BR": "Não entre de frente só porque a luta começou e você sente obrigação de clicar primeiro.",
+        "en": "Do not front-enter just because the fight started and you feel forced to click first."
+      },
+      "training_focus": {
+        "pt-BR": "Separar reviews de luta com e sem summoners/ultimate para ajustar expectativa de função.",
+        "en": "Split fight reviews with and without summoners/ultimate to adjust role expectations."
+      },
+      "linked_modules": [
+        "data/learning/camille_state_based_adjustments.json",
+        "data/learning/camille_review_checklists.json"
+      ]
+    },
+    {
+      "case_key": "bad_map_time_buy",
+      "title": {
+        "pt-BR": "Comprei tempo errado no mapa",
+        "en": "I bought the wrong kind of time on the map"
+      },
+      "recognize_fast": {
+        "pt-BR": "Você ficou numa rota, wave ou arbusto que só parecia ativo, mas não produzia valor real.",
+        "en": "You stayed in a route, wave, or bush that looked active but produced no real value."
+      },
+      "avoid_domino": {
+        "pt-BR": "Não insista na linha morta só porque já investiu segundos nela.",
+        "en": "Do not insist on the dead line just because you already invested seconds into it."
+      },
+      "first_reset": {
+        "pt-BR": "Repergunte o que a Camille precisa gerar agora: wave, visão, pick, cobertura ou reset.",
+        "en": "Ask again what Camille needs to generate right now: wave, vision, pick, cover, or reset."
+      },
+      "practical_recovery": {
+        "pt-BR": "Redirecione o tempo para a ação com maior valor líquido disponível, mesmo que seja mais simples.",
+        "en": "Redirect time toward the action with the highest net value available, even if it is simpler."
+      },
+      "next_safe_plan": {
+        "pt-BR": "Use checkpoints curtos: se em poucos segundos nada mudou a seu favor, você provavelmente está comprando tempo ruim.",
+        "en": "Use short checkpoints: if nothing has changed in your favor after a few seconds, you are probably buying bad time."
+      },
+      "dont_do_this": {
+        "pt-BR": "Não trate indecisão parada como macro paciente.",
+        "en": "Do not treat frozen indecision as patient macro."
+      },
+      "training_focus": {
+        "pt-BR": "Review de rotações com pergunta fixa: o que essa posição me dava de verdade?",
+        "en": "Rotation review with one fixed question: what did this position truly give me?"
+      },
+      "linked_modules": [
+        "data/learning/camille_macro.json",
+        "data/learning/camille_improvement_matrix.json"
+      ]
+    },
+    {
+      "case_key": "small_lead_bad_conversion",
+      "title": {
+        "pt-BR": "Converti mal uma vantagem pequena",
+        "en": "I converted a small lead poorly"
+      },
+      "recognize_fast": {
+        "pt-BR": "Você ficou mais forte, mas o mapa não sentiu. Nenhuma torre, side, visão ou pick melhor apareceu.",
+        "en": "You became stronger, but the map did not feel it. No tower, side pressure, vision, or better pick window appeared."
+      },
+      "avoid_domino": {
+        "pt-BR": "Não tente transformar a vantagem pequena em altalight forçado.",
+        "en": "Do not try to turn a small lead into a forced highlight."
+      },
+      "first_reset": {
+        "pt-BR": "Volte para ganhos consistentes: wave melhor, reset limpo, pressão lateral e objetivo de baixa variância.",
+        "en": "Go back to consistent gains: better wave states, clean reset, side pressure, and low-variance objectives."
+      },
+      "practical_recovery": {
+        "pt-BR": "Troque fome de kill por fome de estado favorável. A pequena vantagem cresce quando o jogo fica mais fácil de ler.",
+        "en": "Trade kill hunger for favorable state hunger. A small lead grows when the game becomes easier to read."
+      },
+      "next_safe_plan": {
+        "pt-BR": "Pergunte sempre: qual ação aumenta meu controle sem me dar janela de throw?",
+        "en": "Always ask: which action increases my control without giving a throw window?"
+      },
+      "dont_do_this": {
+        "pt-BR": "Não se cobre jogar como se já estivesse muito na frente quando a vantagem ainda precisa ser cultivada.",
+        "en": "Do not expect yourself to play as if you were massively ahead when the lead still needs cultivation."
+      },
+      "training_focus": {
+        "pt-BR": "Review de leads curtos com foco no primeiro momento em que você trocou estado por ego.",
+        "en": "Short-lead review focused on the first moment you traded state for ego."
+      },
+      "linked_modules": [
+        "data/learning/camille_coach_paths.json",
+        "data/learning/camille_improvement_priorities.json"
+      ]
+    }
+  ],
+  "metadata": {
+    "data_quality": "high",
+    "last_updated": "2026-04-09",
+    "pipeline_alignment": [
+      "data_rules",
+      "content_priority",
+      "scoring_rules_used_for_priority_weighting"
+    ],
+    "scope": "parallel_2_round6_situational_adaptation"
+  }
+}

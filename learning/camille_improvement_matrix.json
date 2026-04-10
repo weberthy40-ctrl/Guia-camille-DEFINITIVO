@@ -1,0 +1,346 @@
+{
+  "overview": {
+    "pt-BR": "Matriz premium de correção para Camille. Ela organiza os erros mais recorrentes por impacto e dificuldade de correção, ajudando a escolher por onde melhorar primeiro.",
+    "en": "Premium correction matrix for Camille. It organizes the most recurring errors by impact and difficulty of correction, helping you choose where to improve first."
+  },
+  "matrix_rule": {
+    "pt-BR": "Alta prioridade não significa “mais bonito de treinar”; significa “mais jogos devolvidos ao jogador quando corrigido”.",
+    "en": "High priority does not mean “cooler to practice”; it means “more games returned to the player when fixed.”"
+  },
+  "matrix": {
+    "high_impact_easy_to_fix": [
+      {
+        "area": {
+          "pt-BR": "Overstay na side",
+          "en": "Side-lane overstay"
+        },
+        "type": "discipline",
+        "why_priority": {
+          "pt-BR": "Custa shutdown, objetivo e tempo de mapa, mas muitas vezes melhora rápido só com gatilho claro de saída.",
+          "en": "It costs shutdown gold, objectives, and map tempo, but often improves quickly once you define a clear exit trigger."
+        },
+        "first_action": {
+          "pt-BR": "Escolha um gatilho fixo de saída antes de cada push lateral.",
+          "en": "Choose a fixed exit trigger before every side push."
+        },
+        "modules": [
+          "data/learning/camille_mistake_corrections.json",
+          "data/learning/camille_game_review_triggers.json"
+        ]
+      },
+      {
+        "area": {
+          "pt-BR": "Alvo preguiçoso em teamfight",
+          "en": "Lazy target selection in teamfights"
+        },
+        "type": "fight_reading",
+        "why_priority": {
+          "pt-BR": "Melhora muito quando o jogador passa a nomear alvo ideal e alvo aceitável antes da luta.",
+          "en": "It improves a lot once the player starts naming an ideal target and an acceptable target before the fight."
+        },
+        "first_action": {
+          "pt-BR": "Entrar em luta com plano de alvo e não só com rota de engage.",
+          "en": "Enter fights with a target plan, not only an engage route."
+        },
+        "modules": [
+          "data/learning/camille_self_review_diagnostics.json",
+          "data/learning/camille_review_checklists.json"
+        ]
+      },
+      {
+        "area": {
+          "pt-BR": "Poke comprado sem necessidade",
+          "en": "Unnecessary poke taken"
+        },
+        "type": "lane_discipline",
+        "why_priority": {
+          "pt-BR": "Boa parte desse erro cai só com paciência de níveis iniciais e setup correto.",
+          "en": "A large part of this error drops simply with better early-level patience and correct setup."
+        },
+        "first_action": {
+          "pt-BR": "Troque presença egoica por vida útil até a primeira janela real.",
+          "en": "Trade ego presence for usable HP until the first real window."
+        },
+        "modules": [
+          "data/learning/camille_build_decision.json",
+          "data/learning/camille_archetypes.json"
+        ]
+      }
+    ],
+    "high_impact_harder_to_fix": [
+      {
+        "area": {
+          "pt-BR": "Leitura de janela de engage",
+          "en": "Engage window reading"
+        },
+        "type": "decision",
+        "why_priority": {
+          "pt-BR": "É um dos maiores divisores de vitória com Camille, mas exige review repetida e controle emocional.",
+          "en": "It is one of the biggest win separators on Camille, but it requires repeated review and emotional control."
+        },
+        "first_action": {
+          "pt-BR": "Classifique engages perdidos por causa: alvo, ângulo, timing ou folbaixa-up.",
+          "en": "Classify failed engages by cause: target, angle, timing, or follow-up."
+        },
+        "modules": [
+          "data/learning/camille_self_review_diagnostics.json",
+          "data/learning/camille_execution_reference.json"
+        ]
+      },
+      {
+        "area": {
+          "pt-BR": "R com função certa no segundo certo",
+          "en": "Using R for the correct job at the correct second"
+        },
+        "type": "execution_decision",
+        "why_priority": {
+          "pt-BR": "O R da Camille muda luta inteira, mas só quando o jogador já enxerga a próxima ação ao pousar.",
+          "en": "Camille’s R changes entire fights, but only when the player already sees the next action after landing."
+        },
+        "first_action": {
+          "pt-BR": "Revisar cada R por função: dodge, reset, lock, delay ou panic.",
+          "en": "Review every R by function: dodge, reset, lock, delay, or panic."
+        },
+        "modules": [
+          "data/learning/camille_advanced_interactions.json",
+          "data/learning/camille_mistake_corrections.json"
+        ]
+      },
+      {
+        "area": {
+          "pt-BR": "Converter lead sem entregar retomada",
+          "en": "Converting a lead without giving comeback windows"
+        },
+        "type": "macro_discipline",
+        "why_priority": {
+          "pt-BR": "Ganhar lane e não converter continua sendo um dos throws mais caros do campeão.",
+          "en": "Winning lane and failing to convert remains one of the champion’s most expensive throws."
+        },
+        "first_action": {
+          "pt-BR": "Separar review entre “gerei mapa” e “só fiquei forte no placar”.",
+          "en": "Split your review between “I generated map value” and “I only looked strong on the scoreboard.”"
+        },
+        "modules": [
+          "data/learning/camille_macro.json",
+          "data/learning/camille_coach_paths.json"
+        ]
+      }
+    ],
+    "recurring_execution_errors": [
+      {
+        "area": {
+          "pt-BR": "Q2 telegráfico",
+          "en": "Telegraphed Q2"
+        },
+        "impact": {
+          "pt-BR": "Perde troca curta e tira a ameaça de execução.",
+          "en": "Loses short trades and removes execution threat."
+        },
+        "fix_direction": {
+          "pt-BR": "Treinar spacing, ritmo e confirmação antes de apressar o segundo hit.",
+          "en": "Train spacing, rhythm, and confirmation before rushing the second hit."
+        }
+      },
+      {
+        "area": {
+          "pt-BR": "E multiuso sem clareza",
+          "en": "E used for everything with no clarity"
+        },
+        "impact": {
+          "pt-BR": "Mata consistência mecânica e decisão ao mesmo tempo.",
+          "en": "Kills mechanical consistency and decision making at the same time."
+        },
+        "fix_direction": {
+          "pt-BR": "Separar treino por função do E.",
+          "en": "Split practice by E function."
+        }
+      },
+      {
+        "area": {
+          "pt-BR": "R tardio",
+          "en": "Late R"
+        },
+        "impact": {
+          "pt-BR": "Vira atraso de morte em vez de ferramenta de valor.",
+          "en": "Becomes a death delay instead of a value tool."
+        },
+        "fix_direction": {
+          "pt-BR": "Planejar o R antes da entrada e não durante o pânico.",
+          "en": "Plan R before the entry, not during panic."
+        }
+      }
+    ],
+    "recurring_decision_errors": [
+      {
+        "area": {
+          "pt-BR": "Forçar all-in porque a skill está up",
+          "en": "Forcing all-ins because the skill is up"
+        },
+        "impact": {
+          "pt-BR": "Perde janela por ganância de botão disponível.",
+          "en": "Loses windows through greed for available buttons."
+        },
+        "fix_direction": {
+          "pt-BR": "Usar checklist de all-in e confirmar condição antes de commit.",
+          "en": "Use an all-in checklist and confirm conditions before committing."
+        }
+      },
+      {
+        "area": {
+          "pt-BR": "Itemizar por hábito",
+          "en": "Itemizing by habit"
+        },
+        "impact": {
+          "pt-BR": "A build não conversa com o problema real da partida.",
+          "en": "The build no longer answers the real problem of the match."
+        },
+        "fix_direction": {
+          "pt-BR": "Explicar em uma frase por que a build daquele jogo existe.",
+          "en": "Explain in one sentence why that game’s build exists."
+        }
+      },
+      {
+        "area": {
+          "pt-BR": "Negar o estado de weakside",
+          "en": "Denying the weakside state"
+        },
+        "impact": {
+          "pt-BR": "Transforma contenção aceitável em morte evitável.",
+          "en": "Turns acceptable containment into avoidable death."
+        },
+        "fix_direction": {
+          "pt-BR": "Aceitar jogar por recursos menores quando a cobertura não existe.",
+          "en": "Accept playing for smaller resources when there is no cover."
+        }
+      }
+    ],
+    "recurring_discipline_errors": [
+      {
+        "area": {
+          "pt-BR": "Jogar uma wave a mais",
+          "en": "Playing one more wave"
+        },
+        "impact": {
+          "pt-BR": "É um erro simples que vira swing grande de mapa.",
+          "en": "It is a simple error that becomes a large map swing."
+        },
+        "fix_direction": {
+          "pt-BR": "Sair cedo até seu timing lateral ficar confiável.",
+          "en": "Leave early until your side-lane timing becomes reliable."
+        }
+      },
+      {
+        "area": {
+          "pt-BR": "Entrar antes do time",
+          "en": "Entering before the team"
+        },
+        "impact": {
+          "pt-BR": "Camille parece corajosa e morre sem valor.",
+          "en": "Camille looks brave and dies with no value."
+        },
+        "fix_direction": {
+          "pt-BR": "Ancorar engage no timing do folbaixa-up aliado.",
+          "en": "Anchor engages to allied follow-up timing."
+        }
+      },
+      {
+        "area": {
+          "pt-BR": "Tentar recuperar tudo em uma jogada",
+          "en": "Trying to recover everything in one play"
+        },
+        "impact": {
+          "pt-BR": "Quando atrás, acelera a derrota.",
+          "en": "When behind, it speeds up the loss."
+        },
+        "fix_direction": {
+          "pt-BR": "Dividir a recuperação em janelas menores e mais seguras.",
+          "en": "Split the recovery into smaller, safer windows."
+        }
+      }
+    ],
+    "recurring_fight_reading_errors": [
+      {
+        "area": {
+          "pt-BR": "Confundir acessível com prioritário",
+          "en": "Confusing accessible with priority"
+        },
+        "impact": {
+          "pt-BR": "Sua entrada toca alguém, mas não decide a luta.",
+          "en": "Your entry hits someone, but does not decide the fight."
+        },
+        "fix_direction": {
+          "pt-BR": "Definir alvo ideal e alvo aceitável antes do caos.",
+          "en": "Define an ideal target and an acceptable target before chaos starts."
+        }
+      },
+      {
+        "area": {
+          "pt-BR": "Não ler peel restante",
+          "en": "Failing to read remaining peel"
+        },
+        "impact": {
+          "pt-BR": "Você entra em alvo “matável” que na prática ainda estava protegido.",
+          "en": "You enter on a “killable” target that was still protected in practice."
+        },
+        "fix_direction": {
+          "pt-BR": "Checar quais respostas defensivas ainda existem antes do commit.",
+          "en": "Check which defensive answers still exist before committing."
+        }
+      },
+      {
+        "area": {
+          "pt-BR": "Entrar no momento em que o inimigo ainda está confortável",
+          "en": "Entering while the enemy is still comfortable"
+        },
+        "impact": {
+          "pt-BR": "A luta não foi comprimida para o lado da Camille.",
+          "en": "The fight was not compressed toward Camille’s favorable side."
+        },
+        "fix_direction": {
+          "pt-BR": "Esperar gastar resposta-chave ou mudar o ângulo da luta.",
+          "en": "Wait for a key answer to be spent or change the fight angle."
+        }
+      }
+    ]
+  },
+  "anti_traps": [
+    {
+      "trap": {
+        "pt-BR": "Corrigir só o que sai feio em altalight",
+        "en": "Fixing only what looks ugly in highlights"
+      },
+      "why_bad": {
+        "pt-BR": "O erro mais feio nem sempre é o que mais perde jogo.",
+        "en": "The ugliest mistake is not always the one that loses the most games."
+      },
+      "better_path": {
+        "pt-BR": "Priorize o que mais repete e mais custa recurso ou mapa.",
+        "en": "Prioritize what repeats most and costs the most resource or map value."
+      }
+    },
+    {
+      "trap": {
+        "pt-BR": "Trocar módulo toda semana sem repetir review",
+        "en": "Switching modules every week without repeating review"
+      },
+      "why_bad": {
+        "pt-BR": "Camille melhora muito por repetição disciplinada do mesmo ajuste.",
+        "en": "Camille improves a lot through disciplined repetition of the same adjustment."
+      },
+      "better_path": {
+        "pt-BR": "Mantenha um erro-foco por bloco de treino até ele realmente cair.",
+        "en": "Keep one focus mistake per training block until it truly drops."
+      }
+    }
+  ],
+  "metadata": {
+    "data_quality": "high",
+    "last_updated": "2026-04-09",
+    "pipeline_alignment": [
+      "data_rules",
+      "content_priority",
+      "scoring_rules_used_for_execution_priority"
+    ],
+    "scope": "parallel_2_round5_mistakes_review_system"
+  }
+}

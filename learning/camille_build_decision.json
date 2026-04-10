@@ -1,0 +1,556 @@
+{
+  "overview": {
+    "pt-BR": "Árvore premium de decisão de build da Camille. O foco não é decorar uma lista fixa, e sim entender quando manter o caminho padrão e quando desviar por sobrevivência, tempo de spike, side lane, teamfight ou composição inimiga.",
+    "en": "Premium Camille build decision tree. The goal is not to memorize a fixed list, but to understand when to keep the default path and when to pivot for survival, spike timing, side lane, teamfight or enemy composition."
+  },
+  "build_identity": {
+    "pt-BR": "Build de Camille precisa servir ao jeito que a partida será vencida. Ela não builda melhor só porque um item é forte; ela builda melhor quando o item deixa Q2, side lane, pick ou entrada em teamfight mais consistentes.",
+    "en": "Camille's build must serve the way the game will be won. She does not build better just because an item is strong; she builds better when that item makes Q2, side lane, pick or teamfight entry more consistent."
+  },
+  "default_foundation": {
+    "pt-BR": [
+      "Caminho-base: Trinity Force como spike de pressão e duelos, seguido de peça de sustain/wave control como Ravenous Hydra quando o jogo pede side lane mais longa.",
+      "Sterak's Gage é a ponte mais estável quando você quer continuar entrando, mas sem explodir na primeira resposta.",
+      "Boots não são detalhe em Camille: muitas lanes ficam jogáveis ou inviáveis dependendo do momento certo de Mercury's Treads ou Plated Steelcaps."
+    ],
+    "en": [
+      "Base path: Trinity Force as the pressure/duel spike, followed by a sustain-wave control piece such as Ravenous Hydra when the game asks for longer side-lane patterns.",
+      "Sterak's Gage is the most stable bridge when you still want to enter fights without exploding to the first answer.",
+      "Boots are not a detail on Camille: many lanes become playable or unplayable depending on the timing of Mercury's Treads or Plated Steelcaps."
+    ]
+  },
+  "decision_tree": [
+    {
+      "scenario": "poke_lane",
+      "trigger": {
+        "pt-BR": "SE a lane te desgasta antes de você tocar no alvo.",
+        "en": "IF the lane chips you down before you can touch the target."
+      },
+      "recommendation": {
+        "pt-BR": "Priorize entrada segura de lane: Escudo de Doran, sustain cedo, componente defensivo útil e boots mais cedo do que faria em lane livre.",
+        "en": "Prioritize safe lane entry: Doran's Shield, early sustain, a useful defensive component and earlier boots than you would take in a free lane."
+      },
+      "objective": {
+        "pt-BR": "Chegar viva ao primeiro spike sem entregar HP demais por teimosia.",
+        "en": "Reach the first spike alive without donating too much HP out of stubbornness."
+      },
+      "why": {
+        "pt-BR": "Camille perde valor quando entra em all-in já quebrada. Contra poke, sobreviver bem até a primeira janela vale mais do que greed puro de dano.",
+        "en": "Camille loses value when she enters an all-in already chipped down. Against poke, surviving cleanly until the first real window matters more than raw greed for damage."
+      },
+      "risk": {
+        "pt-BR": "Você pode atrasar dano e perder pressão se exagerar na defesa sem necessidade.",
+        "en": "You can delay damage and lose pressure if you overdefend without real need."
+      },
+      "adapt_when": {
+        "pt-BR": "Adapte quando o maior problema for chegar na troca com vida suficiente.",
+        "en": "Adapt when the biggest problem is reaching trades with enough HP."
+      },
+      "avoid_when": {
+        "pt-BR": "Não adapte assim se o rival te pune mais por all-in curto do que por poke constante; nesse caso, ritmo de troca importa mais que sustain bruto.",
+        "en": "Do not pivot this way if the enemy punishes you more through short all-ins than through constant poke; in that case, trade rhythm matters more than raw sustain."
+      },
+      "item_examples": [
+        "Doran's Shield",
+        "early sustain component",
+        "Mercury's Treads",
+        "Plated Steelcaps"
+      ]
+    },
+    {
+      "scenario": "tank_lane",
+      "trigger": {
+        "pt-BR": "SE o topoo inimigo reduz muito sua ameaça em troca curta e quer só empilhar tempo/vida/armadura.",
+        "en": "IF the enemy top heavily reduces your short-trade threat and mostly wants to stack time, HP and armor."
+      },
+      "recommendation": {
+        "pt-BR": "Mantenha o spike de duelist e adapte o restante para pressão contínua: Força da Trindade continua valiosa, Hydra ajuda side e depois escolha item que te deixe sustentar side ou atravessar teamfight sem morrer instantaneamente.",
+        "en": "Keep the duelist spike and adapt the rest for sustained pressure: Trinity Force still matters, Hydra helps side lane, then choose an item that lets you hold side or cross teamfights without instantly dying."
+      },
+      "objective": {
+        "pt-BR": "Ganhar por tempo, mapa e resets de Q2, não por tentar derreter o tank em um único momento.",
+        "en": "Win through tempo, map pressure and repeated Q2 windows, not by trying to melt the tank in a single moment."
+      },
+      "why": {
+        "pt-BR": "Contra tank, Camille raramente quer build de pressa irracional. Ela quer garantir wave, side, torre e ameaça lateral até o rival ficar em posição ruim.",
+        "en": "Against tanks, Camille rarely wants an irrational rush build. She wants wave control, side lane, tower pressure and lateral threat until the enemy is forced into bad positions."
+      },
+      "risk": {
+        "pt-BR": "Buildar como se todo tank fosse kill fácil cedo faz você travar no mid game sem front-to-back bom.",
+        "en": "Building as if every tank were an easy early kill can leave you stuck in mid game without good front-to-back."
+      },
+      "adapt_when": {
+        "pt-BR": "Adapte quando você percebe que a lane vai ser vencida mais por prioridade e side do que por kill limpa.",
+        "en": "Adapt when you realize the lane will be won more by priority and side lane than by a clean kill."
+      },
+      "avoid_when": {
+        "pt-BR": "Não force anti-tank demais se o verdadeiro problema do jogo não é o topoo, e sim burst/CC do resto do mapa.",
+        "en": "Do not overforce anti-tank answers if the real problem in the game is not top lane but burst/CC from the rest of the map."
+      },
+      "item_examples": [
+        "Trinity Force",
+        "Ravenous Hydra",
+        "Sterak's Gage",
+        "situational armor shred by team need"
+      ]
+    },
+    {
+      "scenario": "lane_bully",
+      "trigger": {
+        "pt-BR": "SE o rival vence seus primeiros passos na lane por pressão bruta e erro pequeno vira meia barra.",
+        "en": "IF the enemy wins your first lane steps through raw pressure and a small mistake costs half your HP bar."
+      },
+      "recommendation": {
+        "pt-BR": "Adapte para estabilizar primeiro e acelerar dano depois. Boots cedo, componente defensivo certo e somente depois volte ao caminho de spike ofensivo.",
+        "en": "Adapt to stabilize first and accelerate damage later. Early boots, the correct defensive component, and only then return to your offensive spike path."
+      },
+      "objective": {
+        "pt-BR": "Não morrer antes de a campeã realmente começar a jogar.",
+        "en": "Do not die before your champion truly gets to play."
+      },
+      "why": {
+        "pt-BR": "Camille atrás cedo contra bully tende a perder wave, controle de brush e liberdade de E. Sobreviver bem vale mais do que fingir que a lane é neutra.",
+        "en": "Camille falling behind early against a bully tends to lose wave control, brush control and E freedom. Surviving cleanly is worth more than pretending the lane is neutral."
+      },
+      "risk": {
+        "pt-BR": "Se você respeitar demais depois da lane estabilizar, desperdiça a janela de volta.",
+        "en": "If you keep overrespecting after the lane stabilizes, you waste the return window."
+      },
+      "adapt_when": {
+        "pt-BR": "Adapte quando a decisão correta é ganhar o direito de jogar, não ganhar a lane no minuto 3.",
+        "en": "Adapt when the correct decision is to earn the right to play, not to win lane on minute 3."
+      },
+      "avoid_when": {
+        "pt-BR": "Não transforme toda lane bully em build passiva se o rival já gastou pressão e você recuperou o controle.",
+        "en": "Do not turn every bully lane into a passive build if the enemy already spent their pressure and you regained control."
+      },
+      "item_examples": [
+        "Plated Steelcaps",
+        "Mercury's Treads",
+        "Defensive component before greed damage"
+      ]
+    },
+    {
+      "scenario": "very_behind",
+      "trigger": {
+        "pt-BR": "SE você ficou muito atrás cedo e o jogo já não recompensa build egoísta.",
+        "en": "IF you fell far behind early and the game no longer rewards selfish build greed."
+      },
+      "recommendation": {
+        "pt-BR": "Compre tempo para continuar útil: resistência que permita viver uma rotação, item de ponte como Gage de Sterak ou defesa contextual antes do luxo.",
+        "en": "Buy time to stay useful: resistance that lets you live through one rotation, a bridge item such as Sterak's Gage or contextual defense before luxury."
+      },
+      "objective": {
+        "pt-BR": "Voltar a ser campeã que ameaça pick, side curta ou folbaixa-up, em vez de morrer no primeiro contato.",
+        "en": "Become a champion that can threaten picks, short side-lane windows or follow-up again, instead of dying on first contact."
+      },
+      "why": {
+        "pt-BR": "Camille muito atrás não precisa parecer fed; precisa sobreviver o bastante para usar R, travar alvo certo e punir excesso.",
+        "en": "A very behind Camille does not need to look fed; she needs to live long enough to use R, lock the right target and punish overextension."
+      },
+      "risk": {
+        "pt-BR": "Se você buildar defesa demais sem dano mínimo, vira peça que entra e não mata ninguém.",
+        "en": "If you build too much defense without a minimum damage threshold, you become a piece that goes in and kills nobody."
+      },
+      "adapt_when": {
+        "pt-BR": "Adapte quando seu principal problema é não completar sequer uma rotação útil.",
+        "en": "Adapt when your main issue is failing to complete even one useful rotation."
+      },
+      "avoid_when": {
+        "pt-BR": "Não siga esse caminho se você está só levemente atrás, mas ainda tem bom flanco e farm vivo; às vezes manter dano é a forma mais rápida de voltar.",
+        "en": "Do not follow this line if you are only slightly behind but still have good flank opportunities and live farm; sometimes keeping damage is the fastest comeback route."
+      },
+      "item_examples": [
+        "Sterak's Gage",
+        "Death's Dance",
+        "Maw of Malmortius",
+        "Guardian Angel"
+      ]
+    },
+    {
+      "scenario": "snowballing",
+      "trigger": {
+        "pt-BR": "SE você está na frente e o mapa abre espaço para acelerar o ritmo.",
+        "en": "IF you are ahead and the map opens room to accelerate tempo."
+      },
+      "recommendation": {
+        "pt-BR": "Acelere dano e tempo de side, mas só até o ponto em que ainda consegue sobreviver à primeira resposta. Snowball bom é o que transforma pick e estrutura, não só altalight.",
+        "en": "Accelerate damage and side-lane tempo, but only to the point where you still survive the first answer. Good snowball turns into picks and structures, not just highlights."
+      },
+      "objective": {
+        "pt-BR": "Transformar vantagem em obrigação de resposta rival.",
+        "en": "Turn your lead into response obligation."
+      },
+      "why": {
+        "pt-BR": "Camille fed que acelera com critério obriga o mapa a se dobrar. Camille fed que greed demais entrega shutdown e perde o ritmo inteiro.",
+        "en": "A fed Camille that accelerates with discipline forces the map to bend. A fed Camille that overgreeds gives shutdowns and loses the entire rhythm."
+      },
+      "risk": {
+        "pt-BR": "Dano sem ponte defensiva pode quebrar sua capacidade de entrar em target importante no primeiro erro.",
+        "en": "Damage without a defensive bridge can break your ability to enter on an important target at the first mistake."
+      },
+      "adapt_when": {
+        "pt-BR": "Adapte quando você já dita o espaço da side ou alcança carries com consistência.",
+        "en": "Adapt when you already dictate side-lane space or consistently reach carries."
+      },
+      "avoid_when": {
+        "pt-BR": "Não acelere cegamente se o time inimigo tiver chain CC ou burst suficiente para apagar seu lead em uma rotação.",
+        "en": "Do not accelerate blindly if the enemy team has enough chain CC or burst to erase your lead in one rotation."
+      },
+      "item_examples": [
+        "Trinity Force",
+        "Ravenous Hydra",
+        "Spear of Shojin",
+        "Guardian Angel"
+      ]
+    },
+    {
+      "scenario": "heavy_cc",
+      "trigger": {
+        "pt-BR": "SE o maior risco do jogo é ser travada antes de usar Q2 ou R.",
+        "en": "IF the biggest risk in the game is being locked down before using Q2 or R."
+      },
+      "recommendation": {
+        "pt-BR": "Valorize tenacidade, timing de Passos de Mercúrio e peça que te deixe atravessar o primeiro controle sem evaporar.",
+        "en": "Value tenacity, Mercury's Treads timing and a piece that lets you cross the first crowd-control layer without evaporating."
+      },
+      "objective": {
+        "pt-BR": "Garantir execução funcional, não build bonita.",
+        "en": "Guarantee functional execution, not a pretty build."
+      },
+      "why": {
+        "pt-BR": "Camille perde muito valor quando morre ou fica parada antes de travar o alvo certo. Contra muito CC, o build precisa comprar tempo de ação.",
+        "en": "Camille loses enormous value when she dies or stays locked before pinning the right target. Against heavy CC, the build must buy action time."
+      },
+      "risk": {
+        "pt-BR": "Você pode atrasar dano demais se respeitar controle que não realmente te alcança.",
+        "en": "You can delay too much damage if you respect crowd control that does not realistically reach you."
+      },
+      "adapt_when": {
+        "pt-BR": "Adapte quando um único controle acertado já invalida sua entrada.",
+        "en": "Adapt when one landed CC spell already invalidates your entry."
+      },
+      "avoid_when": {
+        "pt-BR": "Não sobrevalorize tenacidade se o problema real é burst instantâneo sem controle ou se você entra sempre por flanco limpo.",
+        "en": "Do not overvalue tenacity if the real problem is instant burst without CC or if you always enter from a clean flank."
+      },
+      "item_examples": [
+        "Mercury's Treads",
+        "Sterak's Gage",
+        "Maw of Malmortius"
+      ]
+    },
+    {
+      "scenario": "heavy_burst",
+      "trigger": {
+        "pt-BR": "SE o time inimigo consegue te apagar muito rápido mesmo quando a entrada é boa.",
+        "en": "IF the enemy team can erase you very quickly even when your entry is good."
+      },
+      "recommendation": {
+        "pt-BR": "Compre a primeira sobrevivência real antes do luxo: Gage de Sterak, Dança da Morte, Mandíbula de Malmortius ou GA conforme a origem do burst.",
+        "en": "Buy the first real survival layer before luxury: Sterak's Gage, Death's Dance, Maw of Malmortius or GA depending on the source of the burst."
+      },
+      "objective": {
+        "pt-BR": "Sobreviver a resposta depois do engage.",
+        "en": "Survive the answer after the engage."
+      },
+      "why": {
+        "pt-BR": "Camille não precisa só entrar; precisa continuar viva tempo bastante para o segundo dano contar.",
+        "en": "Camille does not only need to enter; she needs to stay alive long enough for the second layer of damage to matter."
+      },
+      "risk": {
+        "pt-BR": "Defender cedo demais sem pressão de mapa pode te deixar irrelevante em side.",
+        "en": "Defending too early without map pressure can leave you irrelevant in side lane."
+      },
+      "adapt_when": {
+        "pt-BR": "Adapte quando morrer cedo é mais comum do que falhar o engage.",
+        "en": "Adapt when dying early is more common than failing the engage."
+      },
+      "avoid_when": {
+        "pt-BR": "Não faça isso se o burst é só de um alvo lateral que você pode isolar com R ou nunca enfrentar em frente.",
+        "en": "Do not do this if the burst only comes from a side target you can isolate with R or rarely meet frontally."
+      },
+      "item_examples": [
+        "Sterak's Gage",
+        "Death's Dance",
+        "Maw of Malmortius",
+        "Guardian Angel"
+      ]
+    },
+    {
+      "scenario": "side_lane_wincon",
+      "trigger": {
+        "pt-BR": "SE a condição de vitória pede side lane longa, wave rápida e pressão constante em torre/resposta.",
+        "en": "IF the win condition asks for long side-lane patterns, fast wave control and constant tower/response pressure."
+      },
+      "recommendation": {
+        "pt-BR": "Valorize Força da Trindade + Hidra Raivosa e depois escolha peça que permita continuar pressionando sem entregar shutdown gratuito.",
+        "en": "Value Trinity Force + Ravenous Hydra, then choose the piece that lets you keep pressing without donating a free shutdown."
+      },
+      "objective": {
+        "pt-BR": "Ter wave, sustain e ameaça suficiente para obrigar resposta ruim.",
+        "en": "Have enough wave clear, sustain and threat to force a bad response."
+      },
+      "why": {
+        "pt-BR": "Na side, Camille vence pelo acúmulo de perguntas no mapa. Se a wave demora ou seu HP derrete, a pressão cai muito.",
+        "en": "In side lane, Camille wins by stacking hard questions onto the map. If the wave is slow or your HP melts, the pressure drops sharply."
+      },
+      "risk": {
+        "pt-BR": "Você pode ficar boa demais na side e fraca demais para fights decisivas se ignorar completamente a composição inimiga.",
+        "en": "You can become too specialized for side lane and too weak for decisive fights if you completely ignore enemy composition."
+      },
+      "adapt_when": {
+        "pt-BR": "Adapte quando o 1-3-1 ou side longa gera mais valor do que fight frontal.",
+        "en": "Adapt when 1-3-1 or long-side pressure generates more value than front-to-back fights."
+      },
+      "avoid_when": {
+        "pt-BR": "Não priorize side pura se seu time perde imediatamente toda fight de objetivo sem você.",
+        "en": "Do not prioritize pure side lane if your team immediately loses every objective fight without you."
+      },
+      "item_examples": [
+        "Trinity Force",
+        "Ravenous Hydra",
+        "Hullbreaker if applicable",
+        "Sterak's Gage"
+      ]
+    },
+    {
+      "scenario": "teamfight_wincon",
+      "trigger": {
+        "pt-BR": "SE o jogo será decidido mais por alvo travado em luta do que por side lane longa.",
+        "en": "IF the game will be decided more by locking targets in fights than by long side-lane patterns."
+      },
+      "recommendation": {
+        "pt-BR": "Mantenha dano suficiente para ameaçar carry, mas antecipe a resposta do inimigo com item de ponte defensiva mais cedo.",
+        "en": "Keep enough damage to threaten carries, but anticipate the enemy answer with an earlier defensive bridge item."
+      },
+      "objective": {
+        "pt-BR": "Entrar, travar e continuar viva o bastante para a luta quebrar.",
+        "en": "Enter, lock, and stay alive long enough for the fight to break."
+      },
+      "why": {
+        "pt-BR": "Em teamfight, Camille não precisa parecer duelista perfeita. Ela precisa chegar no alvo certo sem morrer antes de o time converter.",
+        "en": "In teamfights, Camille does not need to look like a perfect duelist. She needs to reach the right target without dying before the team converts."
+      },
+      "risk": {
+        "pt-BR": "Se você construir como side lane pura, pode até pressionar bem o mapa, mas falhar justamente nas lutas que decidem dragão, alma ou barão.",
+        "en": "If you build like a pure side-lane specialist, you may pressure the map well but still fail the exact fights that decide dragon soul or baron."
+      },
+      "adapt_when": {
+        "pt-BR": "Adapte quando seu R em um carry ou mago muda mais a partida do que puxar wave lateral.",
+        "en": "Adapt when your R onto a carry or mage changes the game more than pushing side waves."
+      },
+      "avoid_when": {
+        "pt-BR": "Não antecipe defesa cedo demais se ainda falta dano para sequer ameaçar o alvo prioritário.",
+        "en": "Do not frontload defense too early if you still lack the damage to threaten the priority target."
+      },
+      "item_examples": [
+        "Trinity Force",
+        "Sterak's Gage",
+        "Death's Dance",
+        "Guardian Angel"
+      ]
+    },
+    {
+      "scenario": "ap_top_or_ap_threat",
+      "trigger": {
+        "pt-BR": "SE o topoo inimigo é AP pesado ou o maior burst do jogo é mágico.",
+        "en": "IF the enemy top is heavy AP or the biggest burst in the game is magic."
+      },
+      "recommendation": {
+        "pt-BR": "Ajuste boots/defesa mágica cedo quando isso muda de verdade sua capacidade de trocar ou entrar. Mandíbula de Malmortius ganha valor quando você precisa atravessar pico mágico sem perder toda a luta.",
+        "en": "Adjust boots/magic defense early when it truly changes your ability to trade or enter fights. Maw of Malmortius gains value when you need to cross a magic spike without losing the whole fight."
+      },
+      "objective": {
+        "pt-BR": "Impedir que dano mágico apague sua janela antes de o kit trabalhar.",
+        "en": "Prevent magic damage from erasing your window before your kit can work."
+      },
+      "why": {
+        "pt-BR": "Camille com build cega contra AP tende a parecer mais fraca do que realmente é porque entra sem margem de erro.",
+        "en": "A Camille that blind-builds into AP tends to look weaker than she really is because she enters with no margin for error."
+      },
+      "risk": {
+        "pt-BR": "Maw cedo demais sem real necessidade pode atrasar side e DPS em alvos neutros.",
+        "en": "Rushing Maw too early without real need can slow down side-lane pressure and DPS into neutral targets."
+      },
+      "adapt_when": {
+        "pt-BR": "Adapte quando o dano mágico define sua derrota nas trocas ou fights.",
+        "en": "Adapt when magic damage defines your losses in trades or fights."
+      },
+      "avoid_when": {
+        "pt-BR": "Não adapte só porque existe AP no jogo; adapte quando esse AP é o gargalo da sua execução.",
+        "en": "Do not adapt only because there is AP in the game; adapt when that AP is the bottleneck to your execution."
+      },
+      "item_examples": [
+        "Mercury's Treads",
+        "Maw of Malmortius",
+        "Null-Magic Mantle timing"
+      ]
+    },
+    {
+      "scenario": "heavy_ad_top_or_ad_stack",
+      "trigger": {
+        "pt-BR": "SE a lane ou a composição inimiga te pune majoritariamente por dano físico repetido.",
+        "en": "IF the lane or enemy composition punishes you mainly through repeated physical damage."
+      },
+      "recommendation": {
+        "pt-BR": "Steelcaps cedo e defesa física contextual quando isso reduz o suficiente o DPS inimigo para você completar sua rotação.",
+        "en": "Get Steelcaps early and contextual physical defense when it cuts enemy DPS enough for you to complete your rotation."
+      },
+      "objective": {
+        "pt-BR": "Parar de perder a troca no puro attrition físico.",
+        "en": "Stop losing trades through pure physical attrition."
+      },
+      "why": {
+        "pt-BR": "Contra AD pesado, muito dano da Camille some porque ela é forçada a sair cedo demais do contato.",
+        "en": "Against heavy AD, a lot of Camille's damage disappears because she is forced to leave contact too early."
+      },
+      "risk": {
+        "pt-BR": "Armadura sem plano de dano pode transformar vantagem mecânica em lane neutra eterna.",
+        "en": "Armor without a damage plan can turn a mechanical edge into an endless neutral lane."
+      },
+      "adapt_when": {
+        "pt-BR": "Adapte quando o problema é sobreviver ao DPS físico para ganhar tempo de Q2.",
+        "en": "Adapt when the problem is surviving physical DPS long enough to buy Q2 time."
+      },
+      "avoid_when": {
+        "pt-BR": "Não sobredefenda físico se a maior ameaça do jogo está no mid/jungle AP.",
+        "en": "Do not overdefend physical damage if the real threat of the game comes from AP mid/jungle."
+      },
+      "item_examples": [
+        "Plated Steelcaps",
+        "Death's Dance",
+        "Chain Vest timing"
+      ]
+    },
+    {
+      "scenario": "survival_lane",
+      "trigger": {
+        "pt-BR": "SE a prioridade absoluta da lane é não quebrar antes do nível/item que te devolve o jogo.",
+        "en": "IF the lane's absolute priority is to not break before the level/item that gives you the game back."
+      },
+      "recommendation": {
+        "pt-BR": "Compre exatamente o suficiente para não cair da lane e preserve ouro para o spike central. Sobrevivência útil não é build de pânico; é compra cirúrgica.",
+        "en": "Buy exactly enough to avoid falling out of lane and preserve gold for the central spike. Useful survival is not panic-building; it is surgical shopping."
+      },
+      "objective": {
+        "pt-BR": "Pagar o pedágio mínimo para continuar escalando funcionalmente.",
+        "en": "Pay the minimum toll required to keep scaling functionally."
+      },
+      "why": {
+        "pt-BR": "Camille aceita resets defensivos melhores do que mortes heroicas ruins.",
+        "en": "Camille accepts better defensive resets much better than bad heroic deaths."
+      },
+      "risk": {
+        "pt-BR": "A linha entre compra cirúrgica e build medrosa é pequena.",
+        "en": "The line between a surgical purchase and a fearful build is small."
+      },
+      "adapt_when": {
+        "pt-BR": "Adapte quando um pequeno ajuste muda totalmente sua capacidade de farmar e manter wave.",
+        "en": "Adapt when a small adjustment completely changes your ability to farm and hold waves."
+      },
+      "avoid_when": {
+        "pt-BR": "Não adapte assim se a lane já virou sua e você só precisa apertar o acelerador.",
+        "en": "Do not adapt this way if the lane is already yours and you only need to press the accelerator."
+      },
+      "item_examples": [
+        "boots timing",
+        "defensive component",
+        "Doran's item choice"
+      ]
+    },
+    {
+      "scenario": "damage_acceleration",
+      "trigger": {
+        "pt-BR": "SE a lane e o mapa abrem espaço para você ganhar no relógio do dano.",
+        "en": "IF lane and map state open room for you to win on the damage clock."
+      },
+      "recommendation": {
+        "pt-BR": "Acelere dano quando isso converte em kill, tower, side ou pick real. Acelerar só por ego não é decisão premium.",
+        "en": "Accelerate damage when it converts into kills, tower pressure, side-lane wins or real picks. Accelerating for ego alone is not a premium decision."
+      },
+      "objective": {
+        "pt-BR": "Transformar seu próximo contato em ameaça de verdade.",
+        "en": "Turn your next contact into a real threat."
+      },
+      "why": {
+        "pt-BR": "Camille é excelente punindo janelas finas. Às vezes o melhor item é o que torna impossível o rival sobreviver ao próximo engage limpo.",
+        "en": "Camille excels at punishing thin windows. Sometimes the best item is the one that makes the enemy unable to live through the next clean engage."
+      },
+      "risk": {
+        "pt-BR": "Se você acelerar sem respeitar resposta inimiga, vira shutdown ambulante.",
+        "en": "If you accelerate without respecting the enemy answer, you become a walking shutdown."
+      },
+      "adapt_when": {
+        "pt-BR": "Adapte quando falta pouco dano para a luta virar pick garantido.",
+        "en": "Adapt when only a little extra damage is needed to turn a fight into a guaranteed pick."
+      },
+      "avoid_when": {
+        "pt-BR": "Não acelere se o jogo está sendo decidido pelo fato de você sobreviver ao engage e não pelo fato de você matar 0.3s mais rápido.",
+        "en": "Do not accelerate if the game is decided by your ability to survive the engage rather than by killing 0.3 seconds faster."
+      },
+      "item_examples": [
+        "Trinity Force",
+        "Spear of Shojin",
+        "offensive snowball component"
+      ]
+    }
+  ],
+  "boots_decision": [
+    {
+      "rule": {
+        "pt-BR": "SE o problema é CC ou burst mágico relevante -> Passos de Mercúrio sobem muito de valor.",
+        "en": "IF the problem is relevant CC or magic burst -> Mercury's Treads gain a lot of value."
+      }
+    },
+    {
+      "rule": {
+        "pt-BR": "SE o problema é DPS físico repetido, auto-attackers ou lane AD opressiva -> Passos de Aço Platinados costumam render mais.",
+        "en": "IF the problem is repeated physical DPS, auto-attackers or an oppressive AD lane -> Plated Steelcaps usually perform better."
+      }
+    },
+    {
+      "rule": {
+        "pt-BR": "SE você está muito na frente e ninguém te pune bem -> segure greed de boots tardios apenas se isso realmente não quebrar sua execução.",
+        "en": "IF you are far ahead and nobody punishes you well -> delaying boots greedily is only acceptable if it does not break your execution."
+      }
+    }
+  ],
+  "adaptation_rules": {
+    "pt-BR": [
+      "SE a compra só melhora o 1v1, mas piora muito seu papel real no mapa -> reavalie.",
+      "SE um item te deixa mais bonita em side, mas te faz inútil nas próximas duas fights -> talvez não seja a adaptação certa.",
+      "SE a lane exige respeito por 6 minutos e depois abre -> compre para sobreviver primeiro e acelerar depois.",
+      "SE você não sabe se deve adaptar, pergunte: o que mais me mata hoje, o que mais me impede de entrar, e o que o jogo pede que eu faça depois da lane?"
+    ],
+    "en": [
+      "IF the purchase only improves the 1v1 but heavily worsens your real map role -> reevaluate.",
+      "IF an item makes you prettier in side lane but useless in the next two fights -> it may not be the right adaptation.",
+      "IF lane demands respect for 6 minutes and then opens up -> buy to survive first and accelerate later.",
+      "IF you are unsure whether to adapt, ask: what kills me today, what stops me from entering, and what does the game need from me after lane?"
+    ]
+  },
+  "common_build_errors": {
+    "pt-BR": [
+      "Buildar como side lane pura em jogo que será decidido em 5v5 obrigatório.",
+      "Comprar dano por reflexo quando o verdadeiro gargalo é sobreviver à resposta.",
+      "Comprar defesa por medo quando ainda falta dano para ameaçar qualquer alvo real.",
+      "Achar que boots são detalhe e atrasar a compra em lane que muda totalmente com elas."
+    ],
+    "en": [
+      "Building like a pure side-lane specialist in a game decided by mandatory 5v5s.",
+      "Buying damage on reflex when the real bottleneck is surviving the answer.",
+      "Buying defense out of fear when you still lack the damage to threaten any real target.",
+      "Treating boots like a minor detail and delaying them in a lane that changes completely because of them."
+    ]
+  },
+  "metadata": {
+    "data_quality": "high",
+    "last_updated": "2026-04-09",
+    "pipeline_alignment": [
+      "pipeline/data_rules.md",
+      "pipeline/content_priority.md",
+      "pipeline/scoring_rules.md"
+    ]
+  }
+}
